@@ -6,7 +6,7 @@
 <style>
 	#construction {
 		margin-top: 70px;
-		background-color: white;
+		background-color: yellow;
 		border: 3px dotted red;
 		text-align: center;
 		font-weight: bold;

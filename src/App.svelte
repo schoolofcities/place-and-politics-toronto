@@ -3,10 +3,7 @@
 	import Top from "./lib/TopSofC.svelte";
 	import UnderConstruction from "./lib/UnderConstruction.svelte";
 	
-	import Map from "./lib/Map.svelte";
-
-	let coloursDiv = ["#DC4633", "#ee9d78", "#f2dfce", "#7eb4b3", "#007fa3"];
-	
+	import Map from "./lib/Map.svelte";	
 	
 	
 </script>
@@ -33,7 +30,11 @@
 
 <Top/>
 
+
+
 <main>
+
+	<UnderConstruction/>
 	
 	<div class="title">
 
@@ -142,6 +143,8 @@
 		line-height: 160%;
 		text-align: left;
 	}
+
+
 	a {
 		text-decoration: none;
 		color: #007fa3;
