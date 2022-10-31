@@ -28,12 +28,6 @@
             "column": "penalosa_gil",
             "breaks": [0.1, 0.2, 0.3, 0.4],
             "colours": ["#defde0", "#b3e5b2", "#8acc84", "#62b354", "#369a1b"]
-        },
-        "brown": {
-            "name": "Chloe Brown",
-            "column": "brown_chloe_marie",
-            "breaks": [0.05,0.1,0.15,0.2],
-            "colours": ["#fddede", "#f0b7b6", "#e1908e", "#ce6967", "#b94141"]
         }
     }
 
@@ -45,7 +39,7 @@
 
     onMount(() => {
         map = new mapboxgl.Map({
-			container: candidate, 
+			container: "mapc", 
 			style: 'mapbox://styles/schoolofcities/cl9wy9gww000j15r7llrtlun3',
 			center: [-79.37, 43.715],
 			zoom: 10.5,
@@ -192,7 +186,7 @@
 	</svg>
 </div>
 
-<div id={candidate} class="map"></div>
+<div id="mapc"></div>
 
 
 <div id="message"><p>{message}</p></div>
@@ -209,7 +203,7 @@
         text-align: center;
     }
 
-    .map {
+    #mapc {
 		height: 600px;
 		width: 100%;
         border-top: 1px solid grey;

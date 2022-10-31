@@ -6,7 +6,6 @@
 	import Bar from "./lib/Bar.svelte";	
 	import Map from "./lib/Map.svelte";	
 	
-	
 </script>
 
 <svelte:head>
@@ -42,7 +41,7 @@
 		<div id="mini-line"></div>
 
 		<h1>The geography of the vote, poll by poll</h1>
-		<h3>Zack Taylor and Jeff Allen</h3>
+		<h3>Zack Taylor & Jeff Allen</h3>
 
 		<div id="mini-line"></div>
 
@@ -52,7 +51,7 @@
 
 	<div class="text">
 		<p>
-			It was, as most Torontonians expected, a John Tory landslide in the October 24, 2022 election. Tory steamrolled over his opponents with 342,158 votes and 62% of votes cast. The runner up, Gil Penalosa, ended election night far behind, with 17.8% and 98,525 votes. Insurgent third-place candidate Chloe-Marie Brown finished with 6.3% and 34,821 votes.
+			It was, as most Torontonians expected, a <span style="background-color: #a7c9ff">John Tory</span> landslide in the October 24, 2022 election. Tory steamrolled over his opponents with 342,158 votes and <span style="background-color: #a7c9ff">62.0%</span> of votes cast. The runner up, <span style="background-color: #b3e5b2">Gil Penalosa</span>, ended election night far behind, with <span style="background-color: #b3e5b2">17.8%</span> and 98,525 votes. Insurgent third-place candidate <span style="background-color: #f0b7b6">Chloe-Marie Brown</span> finished with <span style="background-color: #f0b7b6">6.3%</span> and 34,821 votes.
 		</p>
 
 		<div class="bar">
@@ -89,6 +88,25 @@
 		<p>
 			While John Tory did well in almost all parts of the city, he did best in the City's geographic centre - the neighbourhoods located north of the core along the Yonge subway line, from Rosedale and Forest Hill to Hog's Hollow and the Bridle Path - and also in central Etobicoke and parts of Scarborough. 
 
+		</p>
+	</div>
+
+
+
+	<Map candidate = "penalosa"/>
+
+	<div class="text">
+		<p>
+			Gil text
+		</p>
+	</div>
+
+
+	<Map candidate = "brown"/>
+
+	<div class="text">
+		<p>
+			Chloe text
 		</p>
 	</div>
 
