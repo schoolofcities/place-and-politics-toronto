@@ -2,10 +2,11 @@
 
 	import Top from "./lib/TopSofC.svelte";
 	import UnderConstruction from "./lib/UnderConstruction.svelte";
-	import inc2020 from "./data/2020.geo.json";
+	
 	import Map from "./lib/Map.svelte";
 
 	let coloursDiv = ["#DC4633", "#ee9d78", "#f2dfce", "#7eb4b3", "#007fa3"];
+	
 	
 	
 </script>
@@ -53,12 +54,22 @@
 	<div class="text">
 		<p>
 		Some intro text here
-		</p>	
+		</p>
+		
 	</div>
 
+	
 	<Map/>
 
 
+	<div class="text">
+		<p>
+		Some more text here
+		</p>
+		
+	</div>
+
+	<div id="mini-line"></div>
 
 	<div class="info">
 		<h3>Data Sources & More Information</h3>

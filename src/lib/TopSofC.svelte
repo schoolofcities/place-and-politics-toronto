@@ -27,7 +27,7 @@
 		color: blue;
 	}
 	img:hover {
-		opacity: 0.8;
+		opacity: 0.7;
 		cursor: pointer;
 	}
 </style>
