@@ -2,20 +2,8 @@
 
 	import Top from "./lib/TopSofC.svelte";
 	import UnderConstruction from "./lib/UnderConstruction.svelte";
-	// import MapTop from "./lib/MapTop.svelte";
-	// import MapDiff from "./lib/MapDiff.svelte";
-	// import MapMini from "./lib/MapMini.svelte";
-	// import BigNumber from "./lib/BigNumber.svelte";
-	// import Legend from "./lib/Legend.svelte";
-	// import LegendTop from "./lib/LegendTop.svelte";
-	// import LegendDiff from "./lib/LegendDiff.svelte";
-	// import inc1960 from "./data/1960.geo.json";
-	// import inc1970 from "./data/1970.geo.json";
-	// import inc1980 from "./data/1980.geo.json";
-	// import inc1990 from "./data/1990.geo.json";
-	// import inc2000 from "./data/2000.geo.json";
-	// import inc2010 from "./data/2010.geo.json";
 	import inc2020 from "./data/2020.geo.json";
+	import Map from "./lib/Map.svelte";
 
 	let coloursDiv = ["#DC4633", "#ee9d78", "#f2dfce", "#7eb4b3", "#007fa3"];
 	
@@ -35,6 +23,7 @@
 		name="viewport"
 		content="width=device-width, initial-scale=1, minimum-scale=1"
 	/>
+	<link href='https://api.mapbox.com/mapbox-gl-js/v2.10.0/mapbox-gl.css' rel='stylesheet' />
 </svelte:head>
 
 
@@ -62,11 +51,12 @@
 
 	<div class="text">
 		<p>
-		Intro text here
+		Some intro text here
 		</p>	
 	</div>
 
-	
+	<Map/>
+
 
 	<div id="mini-line"></div>
 
