@@ -11,6 +11,11 @@
 
     export let candidate;
 
+    const maxBounds = [
+		[-79.6772, 43.4400], // SW coords
+		[-79.04763, 44.03074] // NE coords
+	];
+
     const candidates = {
         "tory": {
             "name": "John Tory",
@@ -19,6 +24,8 @@
             "colours": ["#f0f2f6", "#bbc3d2", "#8b98b0", "#55688b", "#1e3765"]
         }
     }
+
+    const layerOpacity = 0.69
 
     console.log(candidates[candidate])
 
@@ -35,6 +42,7 @@
 			bearing: -17.1,
 			projection: 'globe',
 			scrollZoom: true,
+            maxBounds: maxBounds,
 			attributionControl: true
 		});
         map.addControl(new mapboxgl.NavigationControl(), 'top-left');
@@ -76,7 +84,7 @@
                         candidates[candidate].breaks[3],
                         candidates[candidate].colours[4]
                     ], 
-                    'fill-opacity': 0.65
+                    'fill-opacity': layerOpacity
                 }
             }, 'rail');
 
@@ -122,6 +130,7 @@
                 'source': 'WardPts',
                 'layout': {
                     'text-field': ['get', 'name'],
+                    'text-font': ['Roboto Medium', "Arial Unicode MS Regular"],
                     'text-size': 12,
                     'text-transform': "uppercase",
                     'text-justify': 'center',
@@ -148,16 +157,36 @@
 </script>
 
 
-<h2>% {candidates[candidate].name}</h2>
+
+
+
+<h3>% {candidates[candidate].name}</h3>
+
+<div id="legend">
+    
+    <svg width="225" height="50">
+		<text class="legend-label" x="35" y="30">{candidates[candidate].breaks[0] * 100}%</text>
+		<text class="legend-label" x="80" y="30">{candidates[candidate].breaks[1] * 100}%</text>
+		<text class="legend-label" x="125" y="30">{candidates[candidate].breaks[2] * 100}%</text>
+		<text class="legend-label" x="170" y="30">{candidates[candidate].breaks[3] * 100}%</text>
+		<rect class="box" width="45" height = "15" x="0" y="0" style="fill:{candidates[candidate].colours[0]}; stroke: rgb(206, 206, 206);" opacity={layerOpacity}></rect>
+		<rect class="box" width="45" height = "15" x="45" y="0" style="fill:{candidates[candidate].colours[1]}; stroke: rgb(206, 206, 206);" opacity={layerOpacity}></rect>
+		<rect class="box" width="45" height = "15" x="90" y="0" style="fill:{candidates[candidate].colours[2]}; stroke: rgb(206, 206, 206);" opacity={layerOpacity}></rect>
+		<rect class="box" width="45" height = "15" x="135" y="0" style="fill:{candidates[candidate].colours[3]}; stroke: rgb(206, 206, 206);" opacity={layerOpacity}></rect>
+		<rect class="box" width="45" height = "15" x="180" y="0" style="fill:{candidates[candidate].colours[4]}; stroke: rgb(206, 206, 206);" opacity={layerOpacity}></rect>
+	</svg>
+</div>
 
 <div id="map"></div>
 
 
+
+
+
 <style>
     
-    h2 {
+    h3 {
         font-family: "Source Serif Pro", serif;
-        font-weight: bold;
 		font-size: 18px;
         text-align: center;
     }
@@ -165,8 +194,18 @@
     #map {
 		height: 600px;
 		width: 100%;
-        border-top: 1px solid grey;
-        border-bottom: 1px solid grey;
+        border-top: 1px solid lightgrey;
+        border-bottom: 1px solid lightgrey;
+	}
+
+    #legend {
+        text-align: center;
+        margin: -10px;
+    }
+
+    .legend-label {
+		font-size: 13px;
+		fill: rgb(66, 66, 66);
 	}
 
 </style>
