@@ -55,11 +55,10 @@
 		<p>
 		Some intro text here
 		</p>
-		
 	</div>
 
 	
-	<Map/>
+	<Map candidate = "tory"/>
 
 
 	<div class="text">
