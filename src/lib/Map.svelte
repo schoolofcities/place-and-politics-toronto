@@ -21,7 +21,7 @@
             "name": "John Tory",
             "column": "tory_john",
             "breaks": [0.4, 0.5, 0.6, 0.7],
-            "colours": ["#f0f2f6", "#bbc3d2", "#8b98b0", "#55688b", "#1e3765"]
+            "colours": ["#deebfd", "#a7c9ff", "#77a5ff", "#507fff", "#3d53fb"]
         }
     }
 
@@ -153,7 +153,7 @@
         });
 
         map.on('mousemove', 'VotingSubDivisionsFill', (e) => {
-            message = "Ward: " + e.features[0].properties.ward + " --- VSD: " + e.features[0].properties.vsd + " --- Total Votes: " + e.features[0].properties.total + " --- Voted for " + candidates[candidate].name + ": " + e.features[0].properties[candidates[candidate].column]            
+            message = "Ward: " + e.features[0].properties.ward + " --- VSD: " + e.features[0].properties.vsd + " --- Total Votes: " + e.features[0].properties.total + " --- Votes for " + candidates[candidate].name + ": " + e.features[0].properties[candidates[candidate].column] +  " --- % for " + candidates[candidate].name + ": " + Math.round(100 * e.features[0].properties[candidates[candidate].column] / e.features[0].properties.total) + "%"        
         });
 
         map.on('mouseleave', 'VotingSubDivisionsFill', () => {
