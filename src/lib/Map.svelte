@@ -25,9 +25,9 @@
         }
     }
 
-    const layerOpacity = 0.69
+    const layerOpacity = 0.69;
 
-    console.log(candidates[candidate])
+    let message = " ";
 
     let map;
 
@@ -152,6 +152,14 @@
             });
         });
 
+        map.on('mousemove', 'VotingSubDivisionsFill', (e) => {
+            message = "Ward: " + e.features[0].properties.ward + " --- VSD: " + e.features[0].properties.vsd + " --- Total Votes: " + e.features[0].properties.total + " --- Voted for " + candidates[candidate].name + ": " + e.features[0].properties[candidates[candidate].column]            
+        });
+
+        map.on('mouseleave', 'VotingSubDivisionsFill', () => {
+            message = " "
+        });
+
     });
 
 </script>
@@ -179,6 +187,8 @@
 
 <div id="map"></div>
 
+<div id="message"><p>{message}</p></div>
+
 
 
 
@@ -194,8 +204,8 @@
     #map {
 		height: 600px;
 		width: 100%;
-        border-top: 1px solid lightgrey;
-        border-bottom: 1px solid lightgrey;
+        border-top: 1px solid grey;
+        border-bottom: 1px solid grey;
 	}
 
     #legend {
@@ -207,5 +217,13 @@
 		font-size: 13px;
 		fill: rgb(66, 66, 66);
 	}
+
+    #message {
+        font-family: "Roboto", sans-serif;
+        height: 20px;
+        font-size: 13px;
+        color: rgb(66, 66, 66);
+        text-align: center;
+    }
 
 </style>
