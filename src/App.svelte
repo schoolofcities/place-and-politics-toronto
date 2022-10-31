@@ -42,6 +42,7 @@
 		
 		<h3>Subtitle</h3>
 		<br>
+		<h3>Authors, Date</h3>
 
 		<div id="mini-line"></div>
 
@@ -58,7 +59,6 @@
 	<Map/>
 
 
-	<div id="mini-line"></div>
 
 	<div class="info">
 		<h3>Data Sources & More Information</h3>

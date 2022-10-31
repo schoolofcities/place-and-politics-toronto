@@ -9,15 +9,15 @@
     onMount(() => {
         map = new mapboxgl.Map({
 			container: 'map', 
-			style: 'mapbox://styles/schoolofcities/cl8sy8euo002f14tbqhwrexda',
-			center: [-79.22, 43.765], 
-			zoom: 12,
-			maxZoom: 13.5,
+			style: 'mapbox://styles/schoolofcities/cl9wy9gww000j15r7llrtlun3',
+			center: [-79.37, 43.70],
+			zoom: 10.5,
+			maxZoom: 16,
 			minZoom: 8,
 			bearing: -17.7,
 			projection: 'globe',
 			scrollZoom: true,
-			attributionControl: false
+			attributionControl: true
 		});
         map.addControl(new mapboxgl.NavigationControl(), 'top-left');
     });
@@ -33,6 +33,8 @@
     #map {
 		height: 600px;
 		width: 100%;
+        border-top: 1px solid grey;
+        border-bottom: 1px solid grey;
         /* border: 1px solid; */
 	}
 
