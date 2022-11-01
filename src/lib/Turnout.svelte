@@ -51,7 +51,7 @@
 	<svg width={divWidth} {height} class="svg-content">
 		<g transform={`translate(${margin.left},${margin.top})`}>
             {#each results as { votes }, i}
-                <rect x="55" y={5 + i * 20} width={(divWidth - 150) * votes / 1000000} height="2"
+                <rect x="55" y={5 + i * 20} width={(divWidth - 150) * votes / 1000000} height="4"
                 style="fill:#1D1D1D;"/>
             {/each}
 

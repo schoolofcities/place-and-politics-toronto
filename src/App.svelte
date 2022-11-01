@@ -31,7 +31,7 @@
 
 <main>
 
-	<UnderConstruction/>
+	<!-- <UnderConstruction/> -->
 	
 	<div class="title">
 
@@ -56,7 +56,7 @@
 
 	<div class="text">
 		<p>
-			Voter turnout was a record low. Fewer people cast votes for mayor than in any election since amalgamation in 1997, even though the city has added over 400,000 new residents since then. 
+			Voter turnout was a record low. Fewer people cast votes for mayor than in any election since amalgamation in 1997, even though the city has added over 400,000 new residents between 1997 and 2022.
 		</p>
 		<div class="turnout">
 			<Turnout/>
@@ -71,7 +71,7 @@
 			Perhaps more interesting is the geography of the vote - which candidates did better or worse in different parts of the city. This blog series on Place and Politics in Toronto will explore the geography of the vote and what it means for Torontonians. In this first post, we begin by mapping the geography of candidate support.
 		</p>
 		<p>
-			Results for the 25 wards were available on election night. We've created our maps from the poll-by-poll results, which Elections Toronto makes available several days after the election. In 2022, citizens could cast ballots at one of 1,460 locations on election day. The vote counts mapped do not include those cast at advance polls, which cannot be geographically located. (About 24% of vote were cast prior to election day. About 26% of Tory voters cast their votes in advance, versus 24% for Penalosa. Only 8.3% of Brown's votes were cast in advance; her support materialized on October 24.)
+			Results for the 25 wards were available on election night. We've created our maps from the poll-by-poll results, which Elections Toronto makes available several days after the election, and offer more geographic detail. In 2022, citizens could cast ballots at one of 1,460 locations on election day. The vote counts mapped do not include those cast at advance polls, which cannot be geographically located. (About 24% of vote were cast prior to election day. About 26% of Tory voters cast their votes in advance, versus 24% for Penalosa. Only 8.3% of Brown's votes were cast in advance; her support materialized on October 24.)
 
 		</p>
 	</div>
