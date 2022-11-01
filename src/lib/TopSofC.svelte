@@ -3,7 +3,6 @@
 </script>
 
 <div id="bar">
-	Place & Politics
 	<a href="https://www.schoolofcities.utoronto.ca/"><img src={logo} alt="School of Cities"></a>
 </div>
 
