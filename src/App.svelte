@@ -2,12 +2,10 @@
 
 	import Top from "./lib/TopSofC.svelte";
 	import UnderConstruction from "./lib/UnderConstruction.svelte";
-	
 	import Bar from "./lib/Bar.svelte";	
 	import Turnout from "./lib/Turnout.svelte";
 	import Map from "./lib/Map.svelte";	
 
-	
 </script>
 
 <svelte:head>
@@ -32,8 +30,6 @@
 
 <Top/>
 
-
-
 <main>
 
 	<!-- <UnderConstruction/> -->
@@ -43,7 +39,7 @@
 		<div id="mini-line"></div>
 
 		<h1>The geography of the vote, poll by poll</h1>
-		<h3>Zack Taylor & Jeff Allen</h3>
+		<h3>Zack Taylor & Jeff Allen <br><br> Nov 2, 2022</h3>
 
 		<div id="mini-line"></div>
 
@@ -70,9 +66,6 @@
 		</div>
 	</div>
 
-	
-
-	
 
 	<div class="text">
 		<p>
@@ -82,23 +75,18 @@
 			Perhaps more interesting is the geography of the vote - which candidates did better or worse in different parts of the city. This blog series on Place and Politics in Toronto will explore the geography of the vote and what it means for Torontonians. In this first post, we begin by mapping the geography of candidate support.
 		</p>
 		<p>
-			Results for the 25 wards are available on election night. We've created our maps from the poll-by-poll results, which Elections Toronto makes available several days after the election. In 2022, citizens could cast ballots at one of 1,460 locations on election day. The vote counts mapped do not include those cast at advance polls, which cannot be geographically located. (About 24% of vote were cast prior to election day. About 26% of Tory voters cast their votes in advance, versus 24% for Penalosa. Only 8.3% of Brown's votes were cast in advance; her support materialized on October 24.)
+			Results for the 25 wards were available on election night. We've created our maps from the poll-by-poll results, which Elections Toronto makes available several days after the election. In 2022, citizens could cast ballots at one of 1,460 locations on election day. The vote counts mapped do not include those cast at advance polls, which cannot be geographically located. (About 24% of vote were cast prior to election day. About 26% of Tory voters cast their votes in advance, versus 24% for Penalosa. Only 8.3% of Brown's votes were cast in advance; her support materialized on October 24.)
 
 		</p>
 	</div>
 
-	
 	<Map candidate = "tory"/>
-
 
 	<div class="text">
 		<p>
 			While John Tory did well in almost all parts of the city, he did best in the City's geographic centre - the neighbourhoods located north of the core along the Yonge subway line, from Rosedale and Forest Hill to Hog's Hollow and the Bridle Path - and also in central Etobicoke and parts of Scarborough. 
-
 		</p>
 	</div>
-
-
 
 	<Map candidate = "penalosa"/>
 
@@ -107,7 +95,6 @@
 			Penalosa generally did best where Tory did worst: in core neighbourhoods, especially in the west end and Toronto Island, and also in the poll that covered York University at the City’s northern border. 
 		</p>
 	</div>
-
 
 	<Map candidate = "brown"/>
 
@@ -122,9 +109,9 @@
 	<div id="mini-line"></div>
 
 	<div class="info">
-		<h3>Data Sources & More Information</h3>
+		<h3>Data Sources:</h3>
 		<p>
-		etc etc etc
+		Official <a href="https://open.toronto.ca/dataset/election-results-official/">election results</a> and the <a href="https://www.toronto.ca/city-government/elections/city-elections/voting-places/">voting subdivsions</a> (poll catchment areas) were downloaded from the City of Toronto.
 		</p>
 			
 		
@@ -157,6 +144,25 @@
 		position: relative;
 	}
 
+	#placepolitics {
+		margin: auto;
+		border: 1px solid lightgrey;
+		margin-top: 80px;
+		padding: 5px;
+		
+		margin-bottom: 10px;
+		background-color: rgb(249, 248, 248);
+		color: rgb(0, 0, 0);
+		/* font-family: "Source Serif Pro", serif; */
+		max-width: 694px;
+		text-align: center;
+	}
+
+	#placepolitics h3 {
+		font-size: 20px;
+	}
+
+
 	.title {
 		margin: auto;
 		max-width: 600px;
@@ -164,12 +170,13 @@
 		padding-left: 25px;
 		padding-right: 25px;
 		margin-top: 100px;
+		margin-bottom: 25px;
 		text-align: center;
 		font-family: "Source Serif Pro", serif;
 	}
 	.title h1 {
 		font-weight: normal;
-		font-size: 40px;
+		font-size: 42px;
 	}
 	.title h3 {
 		font-weight: normal;
@@ -205,20 +212,14 @@
 		margin-bottom: -20px;
 	}
 
-
 	a {
-		text-decoration: none;
-		color: #007fa3;
-	}
-
-	#bold {
-		color: #ed1b00;
-		font-weight: bold;	
+		text-decoration: underline;
+		color: #3d53fb;
 	}
 
 	.info {
 		font-family: "Source Serif Pro", serif;
-		font-size: 14px;
+		font-size: 15px;
 		margin: auto;
 		max-width: 494px;
 		width: calc(100% - 50px);
