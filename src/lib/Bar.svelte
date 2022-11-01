@@ -21,8 +21,9 @@
         [(votePercent["Tory"] / 100 + votePercent["Penalosa"] / 100 + votePercent["Brown"] / 100)  * innerWidth, votePercent["Other"] / 100 * innerWidth]
 	];
 
-
 </script>
+
+
 
 <div id="container" class="svg-container" bind:offsetWidth={divWidth}>
 	<svg width={divWidth} {height} class="svg-content">
@@ -38,6 +39,7 @@
 		</g>
 	</svg>
 </div>
+
 
 
 <style>

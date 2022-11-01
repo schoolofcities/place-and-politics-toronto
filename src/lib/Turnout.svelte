@@ -1,8 +1,8 @@
 <script>
 
     const margin = { top: 1, bottom: 1, left: 1, right: 1 };
-	let divWidth;
 	const height = 180;
+    let divWidth;
 
     let results = [
         {
@@ -43,10 +43,8 @@
         object.width = divWidth * object.votes / 1000000 - 100;
     });
 
-    $: console.log(results);
-
-
 </script>
+
 
 
 <div id="container" class="svg-container" bind:offsetWidth={divWidth}>
@@ -71,6 +69,7 @@
 		</g>
 	</svg>
 </div>
+
 
 
 <style>

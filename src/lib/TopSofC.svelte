@@ -48,18 +48,19 @@
 	}
 
 	#pp {
-		margin-top: -7px;
+		margin-top: -8px;
 		float: right;
 		font-family: "Source Serif Pro", serif;
 		text-decoration: underline;
 		color: black;
+		font-size: 16px;
 	}
 
 	img {
 		color: blue;
 	}
 	img:hover {
-		opacity: 0.7;
+		opacity: 0.5;
 		cursor: pointer;
 	}
 </style>

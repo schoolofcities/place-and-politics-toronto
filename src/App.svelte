@@ -27,12 +27,11 @@
 
 
 
-
 <Top/>
 
 <main>
 
-	<!-- <UnderConstruction/> -->
+	<UnderConstruction/>
 	
 	<div class="title">
 
@@ -44,8 +43,6 @@
 		<div id="mini-line"></div>
 
 	</div>
-
-	
 
 	<div class="text">
 		<p>
@@ -65,7 +62,6 @@
 			<Turnout/>
 		</div>
 	</div>
-
 
 	<div class="text">
 		<p>
@@ -104,8 +100,6 @@
 		</p>
 	</div>
 
-	
-
 	<div id="mini-line"></div>
 
 	<div class="info">
@@ -113,12 +107,10 @@
 		<p>
 		Official <a href="https://open.toronto.ca/dataset/election-results-official/">election results</a> and the <a href="https://www.toronto.ca/city-government/elections/city-elections/voting-places/">voting subdivsions</a> (poll catchment areas) were downloaded from the City of Toronto.
 		</p>
-			
-		
 	</div>
 
-
 </main>
+
 
 
 <style>
@@ -138,30 +130,11 @@
 
 	main {
 		margin: 0 auto;
-		width: 100%;
+		width: calc(100% - 20px);
 		min-width: 320px;
 		max-width: 1200px;
 		position: relative;
 	}
-
-	#placepolitics {
-		margin: auto;
-		border: 1px solid lightgrey;
-		margin-top: 80px;
-		padding: 5px;
-		
-		margin-bottom: 10px;
-		background-color: rgb(249, 248, 248);
-		color: rgb(0, 0, 0);
-		/* font-family: "Source Serif Pro", serif; */
-		max-width: 694px;
-		text-align: center;
-	}
-
-	#placepolitics h3 {
-		font-size: 20px;
-	}
-
 
 	.title {
 		margin: auto;

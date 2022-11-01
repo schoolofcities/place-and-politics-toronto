@@ -10,11 +10,18 @@
     mapboxgl.accessToken = 'pk.eyJ1Ijoic2Nob29sb2ZjaXRpZXMiLCJhIjoiY2w2Z2xhOXprMTYzczNlcHNjMnNvdGlmNCJ9.lOgVHrajc1L-LlU0as2i2A';
 
     export let candidate;
+    
+    let pageHeight;
+    let initZoom = 10.5;
 
-    const maxBounds = [
-		[-79.6772, 43.4400], // SW coords
-		[-79.04763, 44.03074] // NE coords
-	];
+    let mapHeight = 600;
+    $: if (pageHeight < 800) {
+        mapHeight = pageHeight - 200;
+        initZoom = 8.5;
+    } else {
+        mapHeight = 600
+        initZoom = 10.5;
+    }
 
     const candidates = {
         "tory": {
@@ -32,7 +39,7 @@
         "brown": {
             "name": "Chloe Brown",
             "column": "brown_chloe_marie",
-            "breaks": [0.05,0.1,0.15,0.2],
+            "breaks": [0.05, 0.1, 0.15, 0.2],
             "colours": ["#fddede", "#f0b7b6", "#e1908e", "#ce6967", "#b94141"]
         }
     }
@@ -43,12 +50,17 @@
 
     let map;
 
+    const maxBounds = [
+		[-79.6772, 43.4400], // SW coords
+		[-79.04763, 44.03074] // NE coords
+	];
+
     onMount(() => {
         map = new mapboxgl.Map({
 			container: candidate, 
 			style: 'mapbox://styles/schoolofcities/cl9wy9gww000j15r7llrtlun3',
 			center: [-79.37, 43.715],
-			zoom: 10.5,
+			zoom: initZoom,
 			maxZoom: 16.5,
 			minZoom: 8.5,
 			bearing: -17.1,
@@ -176,6 +188,9 @@
 </script>
 
 
+
+<svelte:window bind:innerHeight={pageHeight} />
+
 <h3>% {candidates[candidate].name}</h3>
 
 <div id="legend">
@@ -192,12 +207,9 @@
 	</svg>
 </div>
 
-<div id={candidate} class="map"></div>
-
+<div id={candidate} class="map" style="height: {mapHeight}px"></div>
 
 <div id="message"><p>{message}</p></div>
-
-
 
 
 
@@ -210,7 +222,6 @@
     }
 
     .map {
-		height: 600px;
 		width: 100%;
         border-top: 1px solid grey;
         border-bottom: 1px solid grey;
