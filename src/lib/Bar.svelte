@@ -1,16 +1,11 @@
 <script>
 
-	let city = "toronto"
-
-	const cities = {
-
-		"toronto": {
-			"Tory": 62,
-			"Penalosa": 17.9,
-			"Brown": 6.3,
-            "Other": 13.8
-		}
-	}
+	const votePercent = {
+        "Tory": 62,
+        "Penalosa": 17.9,
+        "Brown": 6.3,
+        "Other": 13.8
+    }
 
 	const margin = { top: 1, bottom: 1, left: 1, right: 1 };
 	let divWidth;
@@ -19,11 +14,11 @@
 	$: innerWidth = divWidth - margin.left - margin.right;
 
 	$: boxes = [
-		[0, cities[city]["Tory"] / 100 * innerWidth], 
-		[cities[city]["Tory"] / 100 * innerWidth,
-        cities[city]["Penalosa"] / 100 * innerWidth],
-		[(cities[city]["Tory"] / 100 + cities[city]["Penalosa"] / 100) * innerWidth, cities[city]["Brown"] / 100 * innerWidth],
-        [(cities[city]["Tory"] / 100 + cities[city]["Penalosa"] / 100 + cities[city]["Brown"] / 100)  * innerWidth, cities[city]["Other"] / 100 * innerWidth]
+		[0, votePercent["Tory"] / 100 * innerWidth], 
+		[votePercent["Tory"] / 100 * innerWidth,
+        votePercent["Penalosa"] / 100 * innerWidth],
+		[(votePercent["Tory"] / 100 + votePercent["Penalosa"] / 100) * innerWidth, votePercent["Brown"] / 100 * innerWidth],
+        [(votePercent["Tory"] / 100 + votePercent["Penalosa"] / 100 + votePercent["Brown"] / 100)  * innerWidth, votePercent["Other"] / 100 * innerWidth]
 	];
 
 

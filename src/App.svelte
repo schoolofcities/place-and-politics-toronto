@@ -4,7 +4,9 @@
 	import UnderConstruction from "./lib/UnderConstruction.svelte";
 	
 	import Bar from "./lib/Bar.svelte";	
+	import Turnout from "./lib/Turnout.svelte";
 	import Map from "./lib/Map.svelte";	
+
 	
 </script>
 
@@ -34,7 +36,7 @@
 
 <main>
 
-	<UnderConstruction/>
+	<!-- <UnderConstruction/> -->
 	
 	<div class="title">
 
@@ -51,7 +53,7 @@
 
 	<div class="text">
 		<p>
-			It was, as most Torontonians expected, a <span style="background-color: #a7c9ff">John Tory</span> landslide in the October 24, 2022 election. Tory steamrolled over his opponents with 342,158 votes and <span style="background-color: #a7c9ff">62.0%</span> of votes cast. The runner up, <span style="background-color: #b3e5b2">Gil Penalosa</span>, ended election night far behind, with <span style="background-color: #b3e5b2">17.8%</span> and 98,525 votes. Insurgent third-place candidate <span style="background-color: #f0b7b6">Chloe-Marie Brown</span> finished with <span style="background-color: #f0b7b6">6.3%</span> and 34,821 votes.
+			It was, as most Torontonians expected, a <span style="background-color: #a7c9ff">John Tory</span> landslide in the October 24, 2022 election. Tory steamrolled over his opponents with <span style="background-color: #a7c9ff">342,158 votes</span> and <span style="background-color: #a7c9ff">62.0%</span> of votes cast. The runner up, <span style="background-color: #b3e5b2">Gil Penalosa</span>, ended election night far behind, with <span style="background-color: #b3e5b2">17.8%</span> and <span style="background-color: #b3e5b2">98,525 votes</span>. Insurgent third-place candidate <span style="background-color: #f0b7b6">Chloe-Marie Brown</span> finished with <span style="background-color: #f0b7b6">6.3%</span> and <span style="background-color: #f0b7b6">34,821 votes</span>.
 		</p>
 
 		<div class="bar">
@@ -59,13 +61,15 @@
 		</div>
 	</div>
 
-	
-
 	<div class="text">
 		<p>
-			Fewer people cast votes for mayor than in any election since amalgamation in 1997, even though the city has added over 400,000 new residents since then. 
+			Voter turnout was a record low. Fewer people cast votes for mayor than in any election since amalgamation in 1997, even though the city has added over 400,000 new residents since then. 
 		</p>
 	</div>
+
+	
+
+	
 
 	<div class="text">
 		<p>
@@ -97,7 +101,7 @@
 
 	<div class="text">
 		<p>
-			Gil text
+			Penalosa generally did best where Tory did worst: in core neighbourhoods, especially in the west end and Toronto Island, and also in the poll that covered York University at the City’s northern border. 
 		</p>
 	</div>
 
@@ -109,6 +113,8 @@
 			Chloe text
 		</p>
 	</div>
+
+	
 
 	<div id="mini-line"></div>
 
@@ -181,6 +187,8 @@
 		max-width: 694px;
 		width: calc(100% - 50px);
 		padding: 25px;
+		padding-top: 10px;
+		padding-bottom: 10px;
 		line-height: 160%;
 		text-align: left;
 	}
@@ -200,8 +208,6 @@
 		color: #ed1b00;
 		font-weight: bold;	
 	}
-
-
 
 	.info {
 		font-family: "Source Serif Pro", serif;
