@@ -46,7 +46,7 @@
 
 	<div class="text">
 		<p>
-			It was, as most Torontonians expected, a <span style="background-color: #a7c9ff">John Tory</span> landslide in the October 24, 2022 election. Tory steamrolled over his opponents with <span style="background-color: #a7c9ff">342,158 votes</span> and <span style="background-color: #a7c9ff">62.0%</span> of votes cast. The runner up, <span style="background-color: #b3e5b2">Gil Penalosa</span>, ended election night far behind, with <span style="background-color: #b3e5b2">17.8%</span> and <span style="background-color: #b3e5b2">98,525 votes</span>. Insurgent third-place candidate <span style="background-color: #f0b7b6">Chloe Brown</span> finished with <span style="background-color: #f0b7b6">6.3%</span> and <span style="background-color: #f0b7b6">34,821 votes</span>.
+			It was, as most Torontonians expected, a <span style="background-color: #a7c9ff">John Tory</span> landslide in the October 24, 2022 election. Tory steamrolled over his opponents with <span style="background-color: #a7c9ff">342,158 votes</span> and <span style="background-color: #a7c9ff">62.0%</span> of votes cast. The runner up, <span style="background-color: #b3e5b2">Gil Peñalosa</span>, ended election night far behind, with <span style="background-color: #b3e5b2">17.8%</span> and <span style="background-color: #b3e5b2">98,525 votes</span>. Insurgent third-place candidate <span style="background-color: #f0b7b6">Chloe Brown</span> finished with <span style="background-color: #f0b7b6">6.3%</span> and <span style="background-color: #f0b7b6">34,821 votes</span>.
 		</p>
 
 		<div class="bar">
@@ -74,7 +74,7 @@
 			We've created our maps from the poll-by-poll results, which Elections Toronto makes available several days after the election. In 2022, citizens could cast ballots at one of 1,460 poll locations on election day, each of which has a corresponding area that range in size from single apartment buildings to areas covering several city blocks. These offer much more geographic detail than ward-level results that are made available on election night. 
 		</p>
 		<p>	
-			One caveat of mapping results by polls is that these vote counts do not include those cast at ward or citywide advance polls. (About 24% of vote were cast prior to election day. About 26% of Tory voters cast their votes in advance, versus 24% for Penalosa. Only 8.3% of Brown's votes were cast in advance; her support materialized on October 24.)
+			One caveat of mapping results by polls is that these vote counts do not include those cast at ward or citywide advance polls. (About 24% of vote were cast prior to election day. About 26% of Tory voters cast their votes in advance, versus 24% for Peñalosa. Only 8.3% of Brown's votes were cast in advance; her support materialized on October 24.)
 		</p>
 		<p>
 			We invite you to Zoom in on the maps to see how your polling area voted. 
@@ -93,7 +93,7 @@
 
 	<div class="text">
 		<p>
-			Penalosa generally did best where Tory did worst: in core neighbourhoods, especially west of downtown and around the University of Toronto. He also had the greatest share of votes in the poll that covered York University at the City’s northern border as well as the poll that encompasses the Toronto Islands.
+			Peñalosa generally did best where Tory did worst: in core neighbourhoods, especially west of downtown and around the University of Toronto. He also had the greatest share of votes in the poll that covered York University at the City’s northern border as well as the poll that encompasses the Toronto Islands.
 		</p>
 	</div>
 
@@ -101,7 +101,7 @@
 
 	<div class="text">
 		<p>
-			Brown's support was similar to Penalosa's, with more support in older downtown neighbourhoods and less in Toronto's wealthy inner-suburbs. Different to Penalosa however, Brown received a greater share of her votes in parts of Scarborough and Etobicoke.
+			Brown's support was similar to Peñalosa's, with more support in older downtown neighbourhoods and less in Toronto's wealthy inner-suburbs. Different to Peñalosa however, Brown received a greater share of her votes in parts of Scarborough and Etobicoke.
 		</p>
 	</div>
 
@@ -112,6 +112,16 @@
 			At the level of individual polls, the election was competitive only in core neighbourhoods. In almost every other part of the City. The winner won by a wide margin.
 		</p>
 	</div>
+
+	<Map candidate = "race"/>
+
+	<div class="text">
+		<p>
+			Looking beyond the voter margin to see which candidates placed first and second, we see that in most parts of the City it was a race between Tory and Peñalosa. In the central Davenport, High Park, and University-Rosedale wards, Peñalosa edged Tory; in most other parts of the city, Peñalosa came second to Tory. In northwest Etobicoke and northeast Scarbough, however, we see that Peñalosa slipped to third place, behind Brown. 
+		</p>
+	</div>
+
+	
 
 	<div id="mini-line"></div>
 

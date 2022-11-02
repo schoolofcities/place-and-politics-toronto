@@ -31,7 +31,7 @@
             "colours": ["#deebfd", "#a7c9ff", "#77a5ff", "#507fff", "#3d53fb"]
         }, 
         "penalosa": {
-            "name": "Gil Penalosa",
+            "name": "Gil Peñalosa",
             "column": "penalosa_gil",
             "breaks": [0.1, 0.2, 0.3, 0.4],
             "colours": ["#defde0", "#b3e5b2", "#8acc84", "#62b354", "#369a1b"]
@@ -46,7 +46,7 @@
             "name": "Margin between first- and second-place finisher",
             "column": "margin",
             "breaks": [0.05, 0.1, 0.2, 0.4],
-            "colours": ["#ff3ca5", "#c78bf4", "#8bbbff", "#99daf7", "#d9ebeb"]
+            "colours": ["#ff3ca5", "#c78bf4", "#8bbbff", "#99daf7", "#def1f1"]
         }
     }
 
@@ -113,6 +113,31 @@
                         candidates[candidate].colours[3],
                         candidates[candidate].breaks[3],
                         candidates[candidate].colours[4]
+                    ], 
+                    'fill-opacity': layerOpacity
+                    }
+                }, 'rail');
+            } else if (candidate === "race") {
+                map.addLayer({
+                'id': 'VotingSubDivisionsFill',
+                'type': 'fill',
+                'source': 'VotingSubDivisions',
+                'layout': {},
+                'paint': {
+                    'fill-color': [
+                        'match',
+                        ['get', 'contest'],
+                        'Tory-Penalosa',
+                        '#3d53fb',
+                        'Tory-Brown',
+                        '#c78bf4',
+                        'Penalosa-Tory',
+                        '#369a1b',
+                        'Penalosa-Brown',
+                        '#3bb2d0',
+                        'Brown-Penalosa',
+                        '#b94141',
+                        /* other */ '#ccc'
                     ], 
                     'fill-opacity': layerOpacity
                     }
@@ -210,6 +235,8 @@
         map.on('mousemove', 'VotingSubDivisionsFill', (e) => {
             if (candidate === "margin") {
                 message = "Ward: " + e.features[0].properties.ward + " --- Poll: " + e.features[0].properties.vsd + " --- Margin: " + Math.round(100 * e.features[0].properties[candidates[candidate].column]) + "%"
+            } else if (candidate === "race") {
+                message = "Ward: " + e.features[0].properties.ward + " --- Poll: " + e.features[0].properties.vsd
             } else {
                 message = "Ward: " + e.features[0].properties.ward + " --- Poll: " + e.features[0].properties.vsd + " --- Total Votes: " + e.features[0].properties.total + " --- Votes for " + candidates[candidate].name + ": " + e.features[0].properties[candidates[candidate].column] +  " --- % for " + candidates[candidate].name + ": " + Math.round(100 * e.features[0].properties[candidates[candidate].column] / e.features[0].properties.total) + "%"  
             }
@@ -228,25 +255,53 @@
 
 <svelte:window bind:innerHeight={pageHeight} />
 
-<h3>% {candidates[candidate].name}</h3>
+{#if candidate === "race"}
+    <h3>Top-two finishers</h3>
 
-<div id="legend">
-    <svg width="225" height="50">
-		<text class="legend-label" x="35" y="30">{candidates[candidate].breaks[0] * 100}%</text>
-		<text class="legend-label" x="80" y="30">{candidates[candidate].breaks[1] * 100}%</text>
-		<text class="legend-label" x="125" y="30">{candidates[candidate].breaks[2] * 100}%</text>
-		<text class="legend-label" x="170" y="30">{candidates[candidate].breaks[3] * 100}%</text>
-		<rect class="box" width="45" height = "15" x="0" y="0" style="fill:{candidates[candidate].colours[0]}; stroke: rgb(206, 206, 206);" opacity={layerOpacity}></rect>
-		<rect class="box" width="45" height = "15" x="45" y="0" style="fill:{candidates[candidate].colours[1]}; stroke: rgb(206, 206, 206);" opacity={layerOpacity}></rect>
-		<rect class="box" width="45" height = "15" x="90" y="0" style="fill:{candidates[candidate].colours[2]}; stroke: rgb(206, 206, 206);" opacity={layerOpacity}></rect>
-		<rect class="box" width="45" height = "15" x="135" y="0" style="fill:{candidates[candidate].colours[3]}; stroke: rgb(206, 206, 206);" opacity={layerOpacity}></rect>
-		<rect class="box" width="45" height = "15" x="180" y="0" style="fill:{candidates[candidate].colours[4]}; stroke: rgb(206, 206, 206);" opacity={layerOpacity}></rect>
-	</svg>
-</div>
+    <div id="legend">
+        <svg width="320" height="80">
+            <rect class="box" width="30" height = "15" x="0" y="0" style="fill:#3d53fb; stroke: rgb(206, 206, 206);" opacity={layerOpacity}></rect>
+            <text class="legend-label" x="35" y="12">1) Tory 2) Peñalosa</text>   
+            
+            <rect class="box" width="30" height = "15" x="160" y="0" style="fill:#c78bf4; stroke: rgb(206, 206, 206);" opacity={layerOpacity}></rect>
+            <text class="legend-label" x="195" y="12">1) Tory 2) Brown</text>
+            
+            <rect class="box" width="30" height = "15" x="0" y="20" style="fill:#369a1b; stroke: rgb(206, 206, 206);" opacity={layerOpacity}></rect>
+            <text class="legend-label" x="35" y="32">1) Peñalosa 2) Tory</text>     
+            
+            <rect class="box" width="30" height = "15" x="160" y="20" style="fill:#3bb2d0; stroke: rgb(206, 206, 206);" opacity={layerOpacity}></rect>
+            <text class="legend-label" x="195" y="32">1) Peñalosa 2) Brown</text> 
+            
+            <rect class="box" width="30" height = "15" x="0" y="40" style="fill:#b94141; stroke: rgb(206, 206, 206);" opacity={layerOpacity}></rect>
+            <text class="legend-label" x="35" y="52">1) Brown 2) Peñalosa</text> 
+        </svg>
+    </div>
 
-<div id={candidate} class="map" style="height: {mapHeight}px"></div>
+    <div id={candidate} class="map" style="height: {mapHeight}px"></div>
 
-<div id="message"><p>{message}</p></div>
+   <div id="message"><p>{message}</p></div>
+
+{:else}
+    <h3>% {candidates[candidate].name}</h3>
+
+    <div id="legend">
+        <svg width="225" height="50">
+            <text class="legend-label" x="35" y="30">{candidates[candidate].breaks[0] * 100}%</text>
+            <text class="legend-label" x="80" y="30">{candidates[candidate].breaks[1] * 100}%</text>
+            <text class="legend-label" x="125" y="30">{candidates[candidate].breaks[2] * 100}%</text>
+            <text class="legend-label" x="170" y="30">{candidates[candidate].breaks[3] * 100}%</text>
+            <rect class="box" width="45" height = "15" x="0" y="0" style="fill:{candidates[candidate].colours[0]}; stroke: rgb(206, 206, 206);" opacity={layerOpacity}></rect>
+            <rect class="box" width="45" height = "15" x="45" y="0" style="fill:{candidates[candidate].colours[1]}; stroke: rgb(206, 206, 206);" opacity={layerOpacity}></rect>
+            <rect class="box" width="45" height = "15" x="90" y="0" style="fill:{candidates[candidate].colours[2]}; stroke: rgb(206, 206, 206);" opacity={layerOpacity}></rect>
+            <rect class="box" width="45" height = "15" x="135" y="0" style="fill:{candidates[candidate].colours[3]}; stroke: rgb(206, 206, 206);" opacity={layerOpacity}></rect>
+            <rect class="box" width="45" height = "15" x="180" y="0" style="fill:{candidates[candidate].colours[4]}; stroke: rgb(206, 206, 206);" opacity={layerOpacity}></rect>
+        </svg>
+    </div>
+
+    <div id={candidate} class="map" style="height: {mapHeight}px"></div>
+
+    <div id="message"><p>{message}</p></div>
+{/if}
 
 
 
