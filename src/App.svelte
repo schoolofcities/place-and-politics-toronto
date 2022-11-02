@@ -71,8 +71,10 @@
 			Perhaps more interesting is the geography of the vote - which candidates did better or worse in different parts of the city. This blog series on Place and Politics in Toronto will explore the geography of the vote and what it means for Torontonians. In this first post, we begin by mapping the geography of candidate support.
 		</p>
 		<p>
-			Results for the 25 wards were available on election night. We've created our maps from the poll-by-poll results, which Elections Toronto makes available several days after the election, and offer more geographic detail. In 2022, citizens could cast ballots at one of 1,460 locations on election day. The vote counts mapped do not include those cast at advance polls, which cannot be geographically located. (About 24% of vote were cast prior to election day. About 26% of Tory voters cast their votes in advance, versus 24% for Penalosa. Only 8.3% of Brown's votes were cast in advance; her support materialized on October 24.)
-
+			We've created our maps from the poll-by-poll results, which Elections Toronto makes available several days after the election. In 2022, citizens could cast ballots at one of 1,460 poll locations on election day, each of which has a corresponding area that range in size from single apartment buildings to areas covering several city blocks. These offer much more geographic detail than ward-level results that are made available on election night. 
+		</p>
+		<p>	
+			One caveat of mapping results by polls is that these vote counts do not include those cast at advance polls. (About 24% of vote were cast prior to election day. About 26% of Tory voters cast their votes in advance, versus 24% for Penalosa. Only 8.3% of Brown's votes were cast in advance; her support materialized on October 24.)
 		</p>
 	</div>
 
@@ -88,7 +90,7 @@
 
 	<div class="text">
 		<p>
-			Penalosa generally did best where Tory did worst: in core neighbourhoods, especially in the west end and Toronto Island, and also in the poll that covered York University at the City’s northern border. 
+			Penalosa generally did best where Tory did worst: in core neighbourhoods, especially west of downtown and around the University of Toronto. He also had the greatest share of votes in the poll that covered York University at the City’s northern border as well as the poll that encompasses the Toronto Islands.
 		</p>
 	</div>
 
@@ -96,7 +98,7 @@
 
 	<div class="text">
 		<p>
-			Chloe text
+			Brown's support was similar to Penalosa's, more support in older downtown neighbourhoods and less in Toronto's wealthy inner-suburbs. Different to Penalosa however, Brown received a greater share of her votes in parts of Scarborough and Etobicoke.
 		</p>
 	</div>
 
@@ -105,7 +107,8 @@
 	<div class="info">
 		<h3>Data Sources:</h3>
 		<p>
-		Official <a href="https://open.toronto.ca/dataset/election-results-official/">election results</a> and the <a href="https://www.toronto.ca/city-government/elections/city-elections/voting-places/">voting subdivsions</a> (poll catchment areas) were downloaded from the City of Toronto.
+			Official <a href="https://open.toronto.ca/dataset/election-results-official/">election results</a> and the <a href="https://www.toronto.ca/city-government/elections/city-elections/voting-places/">voting subdivsions</a> (poll catchment areas) were downloaded from the City of Toronto. The code and data used to build this page and it's graphics are on <a href="https://github.com/schoolofcities/place-and-politics-toronto">GitHub</a>.
+			<br><br>
 		</p>
 	</div>
 
