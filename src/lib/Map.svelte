@@ -12,15 +12,15 @@
     export let candidate;
     
     let pageHeight;
-    let initZoom = 10.5;
+    let pageWidth;
+
+    $: console.log(pageWidth)
 
     let mapHeight = 600;
     $: if (pageHeight < 800) {
         mapHeight = pageHeight - 200;
-        initZoom = 8.5;
     } else {
         mapHeight = 600
-        initZoom = 10.5;
     }
 
     const candidates = {
@@ -66,7 +66,7 @@
 			container: candidate, 
 			style: 'mapbox://styles/schoolofcities/cl9wy9gww000j15r7llrtlun3',
 			center: [-79.37, 43.715],
-			zoom: initZoom,
+			zoom: 9.5,
 			maxZoom: 16.5,
 			minZoom: 8.5,
 			bearing: -17.1,
@@ -166,7 +166,6 @@
                     }
                 }, 'rail');
             }
-            
 
             map.addLayer({
                 'id': 'VotingSubDivisionsLine',
@@ -230,6 +229,10 @@
                     ]
                 }
             });
+
+            if (pageHeight > 700 && pageWidth > 800) {
+                map.zoomTo(10.5)
+            }
         });
 
         map.on('mousemove', 'VotingSubDivisionsFill', (e) => {
@@ -266,7 +269,7 @@
 
 
 
-<svelte:window bind:innerHeight={pageHeight} />
+<svelte:window bind:innerHeight={pageHeight} bind:innerWidth={pageWidth}/>
 
 {#if candidate === "race"}
     <h3>Top-two finishers</h3>
