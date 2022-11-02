@@ -38,7 +38,7 @@
 		<div id="mini-line"></div>
 
 		<h1>The geography of the vote, poll by poll</h1>
-		<h3><a href="https://zacktaylor.com/">Zack Taylor</a> & <a href="http://jamaps.github.io/">Jeff Allen</a> <br><br> Nov 2, 2022</h3>
+		<h3><a href="https://zacktaylor.com/">Zack Taylor</a> & <a href="https://jamaps.github.io/">Jeff Allen</a> <br><br> Nov 2, 2022</h3>
 
 		<div id="mini-line"></div>
 
@@ -71,10 +71,10 @@
 			Perhaps more interesting is the geography of the vote - which candidates did better or worse in different parts of the city. This blog series on Place and Politics in Toronto will explore the geography of the vote and what it means for Torontonians. In this first post, we begin by mapping the geography of candidate support.
 		</p>
 		<p>
-			We've created our maps from the poll-by-poll results, which Elections Toronto makes available several days after the election. In 2022, citizens could cast ballots at one of 1,460 poll locations on election day, each of which has a corresponding area that range in size from single apartment buildings to areas covering several city blocks. These offer much more geographic detail than ward-level results that are made available on election night. 
+			We’ve created our maps from the poll-by-poll results, which Elections Toronto makes available several days after the election. In 2022, citizens could cast ballots at one of 1,460 poll locations on election day, each of which has a corresponding area that range in size from single apartment buildings to areas covering several city blocks. These offer much more geographic detail than ward-level results that are made available on election night. 
 		</p>
 		<p>	
-			One caveat of mapping results by polls is that these vote counts do not include those cast at ward or citywide advance polls. (About 24% of vote were cast prior to election day. About 26% of Tory voters cast their votes in advance, versus 24% for Peñalosa. Only 8.3% of Brown's votes were cast in advance; her support materialized on October 24.)
+			One caveat of mapping results by polls is that these vote counts do not include those cast at ward or citywide advance polls. (About 24% of vote were cast prior to election day. About 26% of Tory voters cast their votes in advance, versus 24% for Peñalosa. Only 8.3% of Brown’s votes were cast in advance; her support materialized on October 24.)
 		</p>
 		<p>
 			We invite you to Zoom in on the maps to see how your polling area voted. 
@@ -85,7 +85,7 @@
 
 	<div class="text">
 		<p>
-			While John Tory did well in almost all parts of the city, he did best in the City's geographic centre - the neighbourhoods located north of the core along the Yonge subway line, from Rosedale and Forest Hill to Hog's Hollow and the Bridle Path - and also in central Etobicoke and parts of Scarborough. 
+			While John Tory did well in almost all parts of the city, he did best in the City’s geographic centre - the neighbourhoods located north of the core along the Yonge subway line, from Rosedale and Forest Hill to Hog’s Hollow and the Bridle Path - and also in central Etobicoke and parts of Scarborough. 
 		</p>
 	</div>
 
@@ -101,7 +101,7 @@
 
 	<div class="text">
 		<p>
-			Brown's support was similar to Peñalosa's, with more support in older downtown neighbourhoods and less in Toronto's wealthy inner-suburbs. Different to Peñalosa however, Brown received a greater share of her votes in parts of Scarborough and Etobicoke.
+			Brown’s support was similar to Peñalosa’s, with more support in older downtown neighbourhoods and less in Toronto’s wealthy inner-suburbs. Different to Peñalosa however, Brown received a greater share of her votes in parts of Scarborough and Etobicoke.
 		</p>
 	</div>
 
