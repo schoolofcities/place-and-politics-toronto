@@ -35,10 +35,12 @@
 	
 	<div class="title">
 
+		<h4>Place and Politics in Toronto - Part 1</h4>
+
 		<div id="mini-line"></div>
 
 		<h1>The geography of the vote, poll by poll</h1>
-		<h3><a href="https://zacktaylor.com/">Zack Taylor</a> & <a href="https://jamaps.github.io/">Jeff Allen</a> <br><br> Nov 2, 2022</h3>
+		<h3><a href="https://zacktaylor.com/">Zack Taylor</a> & <a href="https://jamaps.github.io/">Jeff Allen</a> <br><br> November 2, 2022</h3>
 
 		<div id="mini-line"></div>
 
@@ -109,7 +111,7 @@
 
 	<div class="text">
 		<p>
-			At the level of individual polls, the election was competitive only in core neighbourhoods. In almost every other part of the City. The winner won by a wide margin.
+			At the level of individual polls, the election was competitive only in core neighbourhoods. In almost every other part of the City the winner won by a wide margin.
 		</p>
 	</div>
 
@@ -118,6 +120,9 @@
 	<div class="text">
 		<p>
 			Looking beyond the voter margin to see which candidates placed first and second, we see that in most parts of the City it was a race between Tory and Peñalosa. In the central Davenport, High Park, and University-Rosedale wards, Peñalosa edged Tory; in most other parts of the city, Peñalosa came second to Tory. In northwest Etobicoke and northeast Scarbough, however, we see that Peñalosa slipped to third place, behind Brown. 
+		</p>
+		<p>
+			What do these patterns mean? In the next post in our series on Place and Politics in Toronto we’ll explore how these patterns are related to Toronto’s social and economic geography.
 		</p>
 	</div>
 
@@ -179,6 +184,10 @@
 		font-weight: normal;
 		font-size: 18px;
 	}
+	.title h4 {
+		font-weight: normal;
+		font-size: 15px;
+	}
 	.title a {
 		color: black;
 	}
@@ -188,7 +197,7 @@
 
 	#mini-line {
 		margin: auto;
-		width: 220px;
+		width: 242px;
 		height: 1px;
 		background-color: black;
 	}
