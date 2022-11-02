@@ -236,7 +236,20 @@
             if (candidate === "margin") {
                 message = "Ward: " + e.features[0].properties.ward + " --- Poll: " + e.features[0].properties.vsd + " --- Margin: " + Math.round(100 * e.features[0].properties[candidates[candidate].column]) + "%"
             } else if (candidate === "race") {
-                message = "Ward: " + e.features[0].properties.ward + " --- Poll: " + e.features[0].properties.vsd
+                let name = "1) Tory 2) Peñalosa"
+                if (e.features[0].properties.contest === "Tory-Brown") {
+                    name = "1) Tory 2) Brown"
+                }
+                if (e.features[0].properties.contest === "Penalosa-Brown") {
+                    name = "1) Peñalosa 2) Brown"
+                }
+                if (e.features[0].properties.contest === "Penalosa-Tory") {
+                    name = "1) Peñalosa 2) Tory"
+                }
+                if (e.features[0].properties.contest === "Brown-Penalosa") {
+                    name = "1) Brown 2) Peñalosa"
+                }
+                message = "Ward: " + e.features[0].properties.ward + " --- Poll: " + e.features[0].properties.vsd + " --- Top-two finishers: " + name
             } else {
                 message = "Ward: " + e.features[0].properties.ward + " --- Poll: " + e.features[0].properties.vsd + " --- Total Votes: " + e.features[0].properties.total + " --- Votes for " + candidates[candidate].name + ": " + e.features[0].properties[candidates[candidate].column] +  " --- % for " + candidates[candidate].name + ": " + Math.round(100 * e.features[0].properties[candidates[candidate].column] / e.features[0].properties.total) + "%"  
             }
