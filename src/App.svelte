@@ -74,7 +74,10 @@
 			We've created our maps from the poll-by-poll results, which Elections Toronto makes available several days after the election. In 2022, citizens could cast ballots at one of 1,460 poll locations on election day, each of which has a corresponding area that range in size from single apartment buildings to areas covering several city blocks. These offer much more geographic detail than ward-level results that are made available on election night. 
 		</p>
 		<p>	
-			One caveat of mapping results by polls is that these vote counts do not include those cast at advance polls. (About 24% of vote were cast prior to election day. About 26% of Tory voters cast their votes in advance, versus 24% for Penalosa. Only 8.3% of Brown's votes were cast in advance; her support materialized on October 24.)
+			One caveat of mapping results by polls is that these vote counts do not include those cast at ward or citywide advance polls. (About 24% of vote were cast prior to election day. About 26% of Tory voters cast their votes in advance, versus 24% for Penalosa. Only 8.3% of Brown's votes were cast in advance; her support materialized on October 24.)
+		</p>
+		<p>
+			We invite you to Zoom in on the maps to see how your polling area voted. 
 		</p>
 	</div>
 
@@ -98,7 +101,7 @@
 
 	<div class="text">
 		<p>
-			Brown's support was similar to Penalosa's, more support in older downtown neighbourhoods and less in Toronto's wealthy inner-suburbs. Different to Penalosa however, Brown received a greater share of her votes in parts of Scarborough and Etobicoke.
+			Brown's support was similar to Penalosa's, with more support in older downtown neighbourhoods and less in Toronto's wealthy inner-suburbs. Different to Penalosa however, Brown received a greater share of her votes in parts of Scarborough and Etobicoke.
 		</p>
 	</div>
 
@@ -107,7 +110,7 @@
 	<div class="info">
 		<h3>Data Sources:</h3>
 		<p>
-			Official <a href="https://open.toronto.ca/dataset/election-results-official/">election results</a> and the <a href="https://www.toronto.ca/city-government/elections/city-elections/voting-places/">voting subdivsions</a> (poll catchment areas) were downloaded from the City of Toronto. The code and data used to build this page and it's graphics are on <a href="https://github.com/schoolofcities/place-and-politics-toronto">GitHub</a>.
+			Official <a href="https://open.toronto.ca/dataset/election-results-official/">election results</a> and the <a href="https://www.toronto.ca/city-government/elections/city-elections/voting-places/">voting subdivsions</a> (poll catchment areas) were downloaded from the City of Toronto. The code and data used to build this page and its graphics are on <a href="https://github.com/schoolofcities/place-and-politics-toronto">GitHub</a>.
 			<br><br>
 		</p>
 	</div>
