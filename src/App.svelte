@@ -105,6 +105,14 @@
 		</p>
 	</div>
 
+	<Map candidate = "margin"/>
+
+	<div class="text">
+		<p>
+			At the level of individual polls, the election was competitive only in core neighbourhoods. In almost every other part of the City. The winner won by a wide margin.
+		</p>
+	</div>
+
 	<div id="mini-line"></div>
 
 	<div class="info">

@@ -41,6 +41,12 @@
             "column": "brown_chloe_marie",
             "breaks": [0.05, 0.1, 0.15, 0.2],
             "colours": ["#fddede", "#f0b7b6", "#e1908e", "#ce6967", "#b94141"]
+        },
+        "margin": {
+            "name": "Margin between first- and second-place finisher",
+            "column": "margin",
+            "breaks": [0.05, 0.1, 0.2, 0.4],
+            "colours": ["#ff3ca5", "#c78bf4", "#8bbbff", "#99daf7", "#d9ebeb"]
         }
     }
 
@@ -87,8 +93,32 @@
                 'type': 'geojson',
                 'data': WardPts
             });
-
-            map.addLayer({
+            
+            if (candidate === "margin") {
+                map.addLayer({
+                'id': 'VotingSubDivisionsFill',
+                'type': 'fill',
+                'source': 'VotingSubDivisions',
+                'layout': {},
+                'paint': {
+                    'fill-color': [
+                        'step',
+                        ['get', candidates[candidate].column],
+                        candidates[candidate].colours[0],
+                        candidates[candidate].breaks[0],
+                        candidates[candidate].colours[1],
+                        candidates[candidate].breaks[1],
+                        candidates[candidate].colours[2],
+                        candidates[candidate].breaks[2],
+                        candidates[candidate].colours[3],
+                        candidates[candidate].breaks[3],
+                        candidates[candidate].colours[4]
+                    ], 
+                    'fill-opacity': layerOpacity
+                    }
+                }, 'rail');
+            } else {
+                map.addLayer({
                 'id': 'VotingSubDivisionsFill',
                 'type': 'fill',
                 'source': 'VotingSubDivisions',
@@ -108,8 +138,10 @@
                         candidates[candidate].colours[4]
                     ], 
                     'fill-opacity': layerOpacity
-                }
-            }, 'rail');
+                    }
+                }, 'rail');
+            }
+            
 
             map.addLayer({
                 'id': 'VotingSubDivisionsLine',
@@ -176,7 +208,12 @@
         });
 
         map.on('mousemove', 'VotingSubDivisionsFill', (e) => {
-            message = "Ward: " + e.features[0].properties.ward + " --- Poll: " + e.features[0].properties.vsd + " --- Total Votes: " + e.features[0].properties.total + " --- Votes for " + candidates[candidate].name + ": " + e.features[0].properties[candidates[candidate].column] +  " --- % for " + candidates[candidate].name + ": " + Math.round(100 * e.features[0].properties[candidates[candidate].column] / e.features[0].properties.total) + "%"        
+            if (candidate === "margin") {
+                message = "Ward: " + e.features[0].properties.ward + " --- Poll: " + e.features[0].properties.vsd + " --- Margin: " + Math.round(100 * e.features[0].properties[candidates[candidate].column]) + "%"
+            } else {
+                message = "Ward: " + e.features[0].properties.ward + " --- Poll: " + e.features[0].properties.vsd + " --- Total Votes: " + e.features[0].properties.total + " --- Votes for " + candidates[candidate].name + ": " + e.features[0].properties[candidates[candidate].column] +  " --- % for " + candidates[candidate].name + ": " + Math.round(100 * e.features[0].properties[candidates[candidate].column] / e.features[0].properties.total) + "%"  
+            }
+                  
         });
 
         map.on('mouseleave', 'VotingSubDivisionsFill', () => {
