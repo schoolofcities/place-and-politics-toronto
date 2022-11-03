@@ -7,7 +7,7 @@
     import Wards from '../data/wards.geo.json';
     import WardPts from '../data/wardsPts.geo.json';
     
-    mapboxgl.accessToken = 'pk.eyJ1Ijoic2Nob29sb2ZjaXRpZXMiLCJhIjoiY2w2Z2xhOXprMTYzczNlcHNjMnNvdGlmNCJ9.lOgVHrajc1L-LlU0as2i2A';
+    mapboxgl.accessToken = 'pk.eyJ1Ijoic2Nob29sb2ZjaXRpZXMiLCJhIjoiY2xhMW5veXN2MDkxbDN2bW9iMWZ5NWI1dCJ9.AXhfsV6jCCoG-pJNLRvK2w';
 
     export let candidate;
     

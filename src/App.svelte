@@ -119,7 +119,7 @@
 
 	<div class="text">
 		<p>
-			Looking beyond the voter margin to see which candidates placed first and second, we see that in most parts of the City it was a race between Tory and Peñalosa. In the central Davenport, High Park, and University-Rosedale wards, Peñalosa edged Tory; in most other parts of the city, Peñalosa came second to Tory. In northwest Etobicoke and northeast Scarbough, however, we see that Peñalosa slipped to third place, behind Brown. 
+			Looking beyond the voter margin to see which candidates placed first and second, we see that in most parts of the City it was a race between Tory and Peñalosa. In the central Davenport, Parkdale-High Park, and University-Rosedale wards, Peñalosa edged Tory; in most other parts of the city, Peñalosa came second to Tory. In northwest Etobicoke and northeast Scarbough, however, we see that Peñalosa slipped to third place, behind Brown. 
 		</p>
 		<p>
 			What do these patterns mean? In the next post in our series on Place and Politics in Toronto we’ll explore how these patterns are related to Toronto’s social and economic geography.
