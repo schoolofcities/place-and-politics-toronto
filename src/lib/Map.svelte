@@ -14,8 +14,6 @@
     let pageHeight;
     let pageWidth;
 
-    $: console.log(pageWidth)
-
     let mapHeight = 600;
     $: if (pageHeight < 800) {
         mapHeight = pageHeight - 200;
