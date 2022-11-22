@@ -11,7 +11,7 @@
 		</div>
 
 		<div id="pp">
-			<p>Place & Politics <br>in Toronto</p>
+			<a href="./"><p>Place & Politics <br>in Toronto</p></a>
 		</div>
 
 	</div>
@@ -54,6 +54,13 @@
 		text-decoration: underline;
 		color: black;
 		font-size: 16px;
+	}
+
+	a {
+		color: black;
+	}
+	a:hover {
+		opacity: 0.5;
 	}
 
 	img {
