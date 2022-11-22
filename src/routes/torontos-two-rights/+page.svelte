@@ -85,13 +85,12 @@
 		<p>
 			Let’s begin by comparing John Tory’s geography of support in the four elections in which he ran for mayor: 2003, 2014, 2018, and 2022.
 		</p>
-
 		
 	</div>
 
-	<MapMini/>
+	<MapMini candidate = "pcttory_john2022"/>
 
-	<MapMini/>
+	<MapMini candidate = "pcttory2018"/>
 
 	
 

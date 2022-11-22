@@ -6,31 +6,42 @@ import { geoPath, geoMercator, scaleThreshold } from "d3";
 console.log(tracts);
 
 // export var colours;
-// export var variable;
+export var candidate;
 
 let colours = ["#deebfd", "#a7c9ff", "#77a5ff", "#507fff", "#3d53fb"]
-let variable = "pcttory_john2022"
+
+const candidates = {
+	"pcttory_john2022": {
+		"breaks": [0.4, 0.5, 0.6, 0.7],
+		"name": "John Tory",
+		"year": "2022"
+	},
+	"pcttory2018": {
+		"breaks": [0.4, 0.5, 0.6, 0.7],
+		"name": "John Tory",
+		"year": "2018"
+	}
+}
+
 
 
 let divWidth = 350;
 $: innerWidth = divWidth;
-$: height = (innerWidth * 40) / 80;
+$: height = 225;
 
 $: projection = geoMercator()
-	.center([-78.15 - 0.0023*innerWidth + 0.000001125*innerWidth**2, 43.52 + 0.00045*innerWidth - 2.5e-7*innerWidth**2])
+	.center([-78.15 - 0.0023*innerWidth + 0.000001125*innerWidth**2, 43.54 + 0.00045*innerWidth - 2.5e-7*innerWidth**2])
 	.scale([82000 * innerWidth / 800])
 	.angle([-17]);
 $: path = geoPath(projection);
 
 var color = scaleThreshold()
-	.domain([
-		0.15, 0.3, 0.45, 0.6
-	])
+	.domain(candidates[candidate]["breaks"])
 	.range(colours);
 
 tracts.features.map((item) => {
-	item.properties[variable]
-		? (item.properties.color = color(item.properties[variable]))
+	item.properties[candidate]
+		? (item.properties.color = color(item.properties[candidate]))
 		: (item.properties.color = "white");
 });
 
@@ -39,21 +50,25 @@ tracts.features.map((item) => {
 
 
 
-<div id="container" class="svg-container" bind:offsetWidth={divWidth}>
+<div class="container" id={candidate} bind:offsetWidth={divWidth}>
 	<svg width={innerWidth} {height}>
+
+		<text id="year-label" x="5" y="22">{candidates[candidate].name} {candidates[candidate].year}</text>
 
 		{#each tracts.features as data}
 			<path id="ct" d={path(data)} fill={data.properties.color} />
 		{/each}
 
-		<!-- <text id="year-label" x="5" y="22">meow</text> -->
+		
 	</svg>
 </div>
 
 <style>
-	#container {
+	.container {
 		max-width: 350px;
 		width: 100%;
+		/* background-color: aqua; */
+		border: solid 1px #f6f6f6;;
 	}
 
 	#fm-back {
