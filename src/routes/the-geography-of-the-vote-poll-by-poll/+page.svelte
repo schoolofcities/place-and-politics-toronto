@@ -56,7 +56,7 @@
 	
 	<div class="title">
 
-		<h4>Place and Politics in Toronto - Part 1</h4>
+		<h4>Place & Politics in Toronto - Part 1</h4>
 
 		<div id="mini-line"></div>
 

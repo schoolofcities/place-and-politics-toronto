@@ -17,7 +17,7 @@ main {
     margin: 0 auto;
     width: calc(100% - 20px);
     min-width: 320px;
-    max-width: 1200px;
+    max-width: 1300px;
     position: relative;
 }
 
@@ -45,10 +45,10 @@ main {
     font-size: 15px;
 }
 .title a {
-    color: black;
+    color: #3d53fb;
 }
 .title a:hover {
-    color: #3d53fb;
+    color: black;
 }
 
 #mini-line {
@@ -83,6 +83,11 @@ main {
 a {
     text-decoration: underline;
     color: #3d53fb;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: black;
 }
 
 .info {
