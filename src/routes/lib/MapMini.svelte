@@ -1,12 +1,15 @@
 <script>
 
-import tracts from "../data/ctWithResults.geo.json"
 import { geoPath, geoMercator, scaleThreshold } from "d3";
-
-console.log(tracts);
+import Wards from "../data/wards.geo.json";
 
 // export var colours;
-export var candidate;
+export let candidate;
+export let tracts;
+
+console.log(Wards);
+
+const ct = tracts.features;
 
 let colours = ["#deebfd", "#a7c9ff", "#77a5ff", "#507fff", "#3d53fb"]
 
@@ -14,23 +17,43 @@ const candidates = {
 	"pcttory_john2022": {
 		"breaks": [0.4, 0.5, 0.6, 0.7],
 		"name": "John Tory",
-		"year": "2022"
+		"year": "2022",
+		"citywide": "62%"
 	},
 	"pcttory2018": {
 		"breaks": [0.4, 0.5, 0.6, 0.7],
 		"name": "John Tory",
-		"year": "2018"
+		"year": "2018",
+		"citywide": "63%"
+	},
+	"pcttory2014": {
+		"breaks": [0.2, 0.3, 0.4, 0.5],
+		"name": "John Tory",
+		"year": "2014",
+		"citywide": "40%"
+	},
+	"pcttory2003": {
+		"breaks": [0.2, 0.3, 0.4, 0.5],
+		"name": "John Tory",
+		"year": "2003",
+		"citywide": "38%"
+	}, 
+	"pctpitfield2006": {
+		"breaks": [0.2, 0.3, 0.4, 0.5],
+		"name": "Jane Pitfield",
+		"year": "2006",
+		"citywide": "30%"
 	}
 }
 
-
-
-let divWidth = 350;
+let divWidth = 420;
 $: innerWidth = divWidth;
-$: height = 225;
+$: height = innerWidth / 1.75;
+
+$: console.log(innerWidth)
 
 $: projection = geoMercator()
-	.center([-78.15 - 0.0023*innerWidth + 0.000001125*innerWidth**2, 43.54 + 0.00045*innerWidth - 2.5e-7*innerWidth**2])
+	.center([-78.15 - 0.00239*innerWidth + 0.000001125*innerWidth**2, 43.54 + 0.00045*innerWidth - 2.5e-7*innerWidth**2])
 	.scale([82000 * innerWidth / 800])
 	.angle([-17]);
 $: path = geoPath(projection);
@@ -39,37 +62,39 @@ var color = scaleThreshold()
 	.domain(candidates[candidate]["breaks"])
 	.range(colours);
 
-tracts.features.map((item) => {
+ct.map((item) => {
 	item.properties[candidate]
-		? (item.properties.color = color(item.properties[candidate]))
-		: (item.properties.color = "white");
+		? (item.properties["color_" + candidate]  = color(item.properties[candidate]))
+		: (item.properties["color_" + candidate] = "white");
 });
 
 </script>
 
 
 
+<div id={candidate} bind:offsetWidth={divWidth}>
+	<svg width={innerWidth} {height} id={candidate}>
 
-<div class="container" id={candidate} bind:offsetWidth={divWidth}>
-	<svg width={innerWidth} {height}>
+		<text id="year-label" x="9" y="22">{candidates[candidate].name + " " + candidates[candidate].year}</text>
 
-		<text id="year-label" x="5" y="22">{candidates[candidate].name} {candidates[candidate].year}</text>
-
-		{#each tracts.features as data}
-			<path id="ct" d={path(data)} fill={data.properties.color} />
+		{#each ct as data}
+			<path class="ct" id={candidate} d={path(data)} fill={data.properties["color_" + candidate]} />
 		{/each}
 
-		
+		{#each Wards.features as data}
+			<path class="wardwhite" d={path(data)} />
+		{/each}
+
+		{#each Wards.features as data}
+			<path class="ward" d={path(data)} />
+		{/each}
+
 	</svg>
 </div>
 
+
+
 <style>
-	.container {
-		max-width: 350px;
-		width: 100%;
-		/* background-color: aqua; */
-		border: solid 1px #f6f6f6;;
-	}
 
 	#fm-back {
 		stroke: rgb(0, 0, 0);
@@ -77,10 +102,21 @@ tracts.features.map((item) => {
 		opacity: 0.08;
 		fill-opacity: 0;
 	}
-	#ct {
+	.ct {
 		stroke: rgb(237, 237, 237);
 		stroke-width: 1px;
 	}
+	.ward {
+		stroke: black;
+		stroke-width: 1px;
+		fill: none;
+	}
+	.wardwhite {
+		stroke: white;
+		stroke-width: 0px;
+		fill: none;
+	}
+
 	#fm {
 		stroke: rgb(36, 36, 36);
 		stroke-width: 1 px;
@@ -88,8 +124,8 @@ tracts.features.map((item) => {
 	}
 
 	#year-label {
-		font-size: 14px;
-		fill: rgb(103, 103, 103);
+		font-size: 13px;
+		fill: rgb(56, 56, 56);
 		font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
 			Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 	}
