@@ -4,8 +4,8 @@
     import './styles.css';
 
 	import logo from './assets/top-logo.svg';
-	import webCard1 from './assets/web-card-1.png'
-
+	import p1 from './assets/p1.png';
+	import p2 from './assets/p2.png';
 </script>
 
 <svelte:head>
@@ -29,7 +29,7 @@
     <meta name="author" content="Zack Taylor & Jeff Allen">
 
     <meta property="og:title" content="Place and Politics in Toronto" />
-    <meta name="og:description" content="Mapping the 2022 Toronto Election" />
+    <meta name="og:description" content="Toronto's Two Rights" />
     <meta property="og:type" content="website" />
     <meta property="og:url" content="https://schoolofcities.github.io/place-and-politics-toronto/" />
     <meta property="og:image" content={WebCard} />
@@ -39,7 +39,7 @@
     <meta name="twitter:site" content="https://schoolofcities.github.io/" />
     <meta name="twitter:creator" content="@JeffAllenMaps" />
     <meta name="twitter:title" content="Place and Politics in Toronto" />
-    <meta name="twitter:description" content="Mapping the 2022 Toronto Election" />
+    <meta name="twitter:description" content="Toronto's Two Rights" />
     <meta name="twitter:image" content={WebCard} />
 
 </svelte:head>
@@ -89,7 +89,7 @@
 
 		<a href="./place-and-politics-toronto/the-geography-of-the-vote-poll-by-poll/">
 			<div class="item">
-				<div class="number" style="background-image: url({webCard1});">
+				<div class="number" style="background-image: url({p1});">
 				</div>
 				<div id="part">
 					<p>
@@ -107,18 +107,18 @@
 		
 		
 
-		<!-- <a href="./place-and-politics-toronto/the-geography-of-the-vote-poll-by-poll/">
+		<a href="./place-and-politics-toronto/torontos-two-rights/">
 			<div class="item">
-				<div class="number">
+				<div class="number" style="background-image: url({p2});">
 				</div>
 				<div id="part">
 					<p>
-						<span class="date">Part 2 - November 24, 2022</span><br>
-						<u>A curious continuity</u>
+						<span class="date">Part 2 - November 25, 2022</span><br>
+						<u>Toronto's Two Rights</u>
 					</p>
 				</div>
 			</div>
-		</a> -->
+		</a>
 		
 
 		
@@ -129,11 +129,7 @@
 	<br><br>
 	<div id="mini-line"></div>
 
-	<div class="info">
-		<p>
-			___
-		</p>
-	</div>
+	
 
 </main>
 
@@ -197,7 +193,7 @@
 		height: 55px;
 		margin-right: 10px;
 		border: solid 1px #4b4b4b;
-		border-radius: 27px;
+		border-radius: 28px;
 		float: left;
 	}
 

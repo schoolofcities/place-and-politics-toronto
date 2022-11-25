@@ -42,7 +42,7 @@ const candidates = {
 		"breaks": [0.2, 0.3, 0.4, 0.5],
 		"name": "Jane Pitfield",
 		"year": "2006",
-		"citywide": "30%"
+		"citywide": "32%"
 	},
 	"pctford2010": {
 		"breaks": [0.3, 0.4, 0.5, 0.6],
@@ -54,7 +54,7 @@ const candidates = {
 		"breaks": [0.3, 0.4, 0.5, 0.6],
 		"name": "Doug Ford",
 		"year": "2014",
-		"citywide": "32%"
+		"citywide": "34%"
 	}
 }
 
