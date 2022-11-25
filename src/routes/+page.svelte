@@ -72,6 +72,8 @@
 		<h3>A blog series mapping City of Toronto
 			election results 
 			<!-- by <a href="https://zacktaylor.com/">Zack Taylor</a> & <a href="https://jamaps.github.io/">Jeff Allen</a> -->
+			<br><br>
+			<a href="https://zacktaylor.com/">Zack Taylor</a> & <a href="https://jamaps.github.io/">Jeff Allen</a>
 		</h3><br>
 
 
@@ -106,7 +108,7 @@
 
 		
 	
-		<a href="./torontos-two-rights/">
+		<a href="./torontos-two-rights">
 			<div class="item">
 				<div class="number" style="background-image: url({p2});">
 				</div>
