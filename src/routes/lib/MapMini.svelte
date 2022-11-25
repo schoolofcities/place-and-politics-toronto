@@ -75,7 +75,7 @@ ct.map((item) => {
 <div id={candidate} bind:offsetWidth={divWidth}>
 	<svg width={innerWidth} {height} id={candidate}>
 
-		<text id="year-label" x="9" y="22">{candidates[candidate].name + " " + candidates[candidate].year}</text>
+		<text class="label" x="9" y="22">{candidates[candidate].name + " " + candidates[candidate].year + " (" + candidates[candidate].citywide + " of the vote citywide)"}</text>
 
 		{#each ct as data}
 			<path class="ct" id={candidate} d={path(data)} fill={data.properties["color_" + candidate]} />
@@ -88,6 +88,19 @@ ct.map((item) => {
 		{#each Wards.features as data}
 			<path class="ward" d={path(data)} />
 		{/each}
+
+		<text class="label" x="320" y="185">% of</text>
+		<text class="label" x="320" y="200">vote</text>
+		<text class="label" x="373" y="170">{candidates[candidate]["breaks"][3]*100 + "%"}</text>
+		<text class="label" x="373" y="185">{candidates[candidate]["breaks"][2]*100 + "%"}</text>
+		<text class="label" x="373" y="200">{candidates[candidate]["breaks"][1]*100 + "%"}</text>
+		<text class="label" x="373" y="215">{candidates[candidate]["breaks"][0]*100 + "%"}</text>
+		
+		<rect class="box" width="20" height = "15" x="350" y="150" style="fill:{colours[4]}; stroke: white;"></rect>
+		<rect class="box" width="20" height = "15" x="350" y="165" style="fill:{colours[3]}; stroke: white;"></rect>
+		<rect class="box" width="20" height = "15" x="350" y="180" style="fill:{colours[2]}; stroke: white;"></rect>
+		<rect class="box" width="20" height = "15" x="350" y="195" style="fill:{colours[1]}; stroke: white;"></rect>
+		<rect class="box" width="20" height = "15" x="350" y="210" style="fill:{colours[0]}; stroke: white;"></rect>
 
 	</svg>
 </div>
@@ -123,7 +136,7 @@ ct.map((item) => {
 		fill-opacity: 0;
 	}
 
-	#year-label {
+	.label {
 		font-size: 13px;
 		fill: rgb(56, 56, 56);
 		font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,

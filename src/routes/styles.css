@@ -107,7 +107,7 @@ a:hover {
     max-width: 850px;
     width: 100%;
     display: grid;
-    gap: 2px 2px;
+    gap: 4px 2px;
     grid-template-columns: repeat(2, 1fr);
 }
 
@@ -124,5 +124,5 @@ a:hover {
     padding: -10px;
     max-width: 420px;
     margin: 0 auto;
-    /* border-bottom: solid 1px grey; */
+    /* border: solid 1px #f4f4f4; */
 }
