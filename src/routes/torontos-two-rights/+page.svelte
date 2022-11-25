@@ -138,7 +138,7 @@
 			While Rob Ford’s map looks like a less extreme version of Tory’s 2018 and 2022 maps, Doug Ford’s map looks different. It is not surprising that, outside the City of Toronto, Ford and Tory’s maps are mirror images of each other in 2014. After all, they were running against each other. But Doug Ford also did relatively poorly in areas where Jane Pitfield and, earlier, Mel Lastman, did well.
 		</p>
 		<p>
-			This suggests that conservative candidates all tend to do poorly in the city core, some of them do better in some parts of the inner-ring suburbs than in others. There appear to be types of right-leaning neighbourhoods in Toronto. Some candidates unify them - Tory in 2018 and 2022, Ford in 2010 - while others, like Tory in 2003, Pitfield in 2006, and Doug Ford and John Tory in 2014, appeal to one but not the other.
+			This suggests that conservative candidates all tend to do poorly in the city core, some of them do better in some parts of the inner-ring suburbs than in others. There appear to be two types of right-leaning neighbourhoods in Toronto. Some candidates unify them - Tory in 2018 and 2022, Ford in 2010 - while others, like Tory in 2003, Pitfield in 2006, and Doug Ford and John Tory in 2014, appeal to one but not the other.
 		</p>
 		<p>
 			We’ll return to this in a future post. Next time, we will examine the geography of candidates commonly thought of as being on the left.

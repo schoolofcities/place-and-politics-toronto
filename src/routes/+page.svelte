@@ -108,7 +108,7 @@
 
 		
 	
-		<!-- <a href="./torontos-two-rights">
+		<a href="./torontos-two-rights">
 			<div class="item">
 				<div class="number" style="background-image: url({p2});">
 				</div>
@@ -120,7 +120,7 @@
 				</div>
 			</div>
 		</a>
-		 -->
+		
 
 		
 		
