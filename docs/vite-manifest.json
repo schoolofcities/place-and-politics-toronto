@@ -1,11 +1,11 @@
 {
-  "src/routes/assets/p1.png": {
-    "file": "_app/immutable/assets/p1-6bfdeb73.png",
-    "src": "src/routes/assets/p1.png"
-  },
   "src/routes/assets/top-logo.svg": {
     "file": "_app/immutable/assets/top-logo-015461e7.svg",
     "src": "src/routes/assets/top-logo.svg"
+  },
+  "src/routes/assets/p1.png": {
+    "file": "_app/immutable/assets/p1-6bfdeb73.png",
+    "src": "src/routes/assets/p1.png"
   },
   "src/routes/assets/p2.png": {
     "file": "_app/immutable/assets/p2-8a34efd0.png",
@@ -24,12 +24,12 @@
     "src": "src/routes/assets/Trade Gothic LT Bold.ttf"
   },
   "node_modules/@sveltejs/kit/src/runtime/client/start.js": {
-    "file": "_app/immutable/start-1e74ce41.js",
+    "file": "_app/immutable/start-efa784b0.js",
     "src": "node_modules/@sveltejs/kit/src/runtime/client/start.js",
     "isEntry": true,
     "imports": [
       "_index-095c9dd6.js",
-      "_singletons-e2875e34.js"
+      "_singletons-5167982a.js"
     ],
     "dynamicImports": [
       ".svelte-kit/generated/nodes/0.js",
@@ -48,16 +48,16 @@
     ]
   },
   "node_modules/@sveltejs/kit/src/runtime/components/error.svelte": {
-    "file": "_app/immutable/components/error.svelte-f9e9270a.js",
+    "file": "_app/immutable/components/error.svelte-9def290f.js",
     "src": "node_modules/@sveltejs/kit/src/runtime/components/error.svelte",
     "isEntry": true,
     "imports": [
       "_index-095c9dd6.js",
-      "_singletons-e2875e34.js"
+      "_singletons-5167982a.js"
     ]
   },
   "src/routes/+page.svelte": {
-    "file": "_app/immutable/components/pages/_page.svelte-e2d712fa.js",
+    "file": "_app/immutable/components/pages/_page.svelte-73094fdf.js",
     "src": "src/routes/+page.svelte",
     "isEntry": true,
     "imports": [
@@ -127,8 +127,8 @@
       "__page-5d8adcad.js"
     ]
   },
-  "_singletons-e2875e34.js": {
-    "file": "_app/immutable/chunks/singletons-e2875e34.js",
+  "_singletons-5167982a.js": {
+    "file": "_app/immutable/chunks/singletons-5167982a.js",
     "imports": [
       "_index-095c9dd6.js"
     ]
@@ -180,7 +180,7 @@
     ]
   },
   ".svelte-kit/generated/nodes/1.js": {
-    "file": "_app/immutable/chunks/1-3745fa4b.js",
+    "file": "_app/immutable/chunks/1-3e6ae7b7.js",
     "src": ".svelte-kit/generated/nodes/1.js",
     "isDynamicEntry": true,
     "imports": [
@@ -188,7 +188,7 @@
     ]
   },
   ".svelte-kit/generated/nodes/2.js": {
-    "file": "_app/immutable/chunks/2-abcfc98d.js",
+    "file": "_app/immutable/chunks/2-44ee576f.js",
     "src": ".svelte-kit/generated/nodes/2.js",
     "isDynamicEntry": true,
     "imports": [
@@ -218,6 +218,14 @@
     "file": "_app/immutable/assets/_page-1770b3ff.css",
     "src": "src/routes/+page.css"
   },
+  "wards.css": {
+    "file": "_app/immutable/assets/wards-201c060f.css",
+    "src": "wards.css"
+  },
+  "src/routes/torontos-two-rights/+page.css": {
+    "file": "_app/immutable/assets/_page-6e8de407.css",
+    "src": "src/routes/torontos-two-rights/+page.css"
+  },
   "src/routes/the-geography-of-the-vote-poll-by-poll/+page.css": {
     "file": "_app/immutable/assets/_page-d95cd1d0.css",
     "src": "src/routes/the-geography-of-the-vote-poll-by-poll/+page.css"
@@ -225,13 +233,5 @@
   "top-logo.css": {
     "file": "_app/immutable/assets/top-logo-601263ca.css",
     "src": "top-logo.css"
-  },
-  "src/routes/torontos-two-rights/+page.css": {
-    "file": "_app/immutable/assets/_page-6e8de407.css",
-    "src": "src/routes/torontos-two-rights/+page.css"
-  },
-  "wards.css": {
-    "file": "_app/immutable/assets/wards-201c060f.css",
-    "src": "wards.css"
   }
 }
