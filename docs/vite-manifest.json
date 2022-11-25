@@ -11,25 +11,25 @@
     "file": "_app/immutable/assets/p2-8a34efd0.png",
     "src": "src/routes/assets/p2.png"
   },
-  "src/routes/assets/web-card-2.png": {
-    "file": "_app/immutable/assets/web-card-2-d43f852a.png",
-    "src": "src/routes/assets/web-card-2.png"
-  },
   "src/routes/assets/web-card-1.png": {
     "file": "_app/immutable/assets/web-card-1-3bdaa9fc.png",
     "src": "src/routes/assets/web-card-1.png"
+  },
+  "src/routes/assets/web-card-2.png": {
+    "file": "_app/immutable/assets/web-card-2-d43f852a.png",
+    "src": "src/routes/assets/web-card-2.png"
   },
   "src/routes/assets/Trade Gothic LT Bold.ttf": {
     "file": "_app/immutable/assets/Trade Gothic LT Bold-d851713b.ttf",
     "src": "src/routes/assets/Trade Gothic LT Bold.ttf"
   },
   "node_modules/@sveltejs/kit/src/runtime/client/start.js": {
-    "file": "_app/immutable/start-efa784b0.js",
+    "file": "_app/immutable/start-5b8840d5.js",
     "src": "node_modules/@sveltejs/kit/src/runtime/client/start.js",
     "isEntry": true,
     "imports": [
       "_index-095c9dd6.js",
-      "_singletons-5167982a.js"
+      "_singletons-54a4d080.js"
     ],
     "dynamicImports": [
       ".svelte-kit/generated/nodes/0.js",
@@ -48,16 +48,16 @@
     ]
   },
   "node_modules/@sveltejs/kit/src/runtime/components/error.svelte": {
-    "file": "_app/immutable/components/error.svelte-9def290f.js",
+    "file": "_app/immutable/components/error.svelte-d83844a5.js",
     "src": "node_modules/@sveltejs/kit/src/runtime/components/error.svelte",
     "isEntry": true,
     "imports": [
       "_index-095c9dd6.js",
-      "_singletons-5167982a.js"
+      "_singletons-54a4d080.js"
     ]
   },
   "src/routes/+page.svelte": {
-    "file": "_app/immutable/components/pages/_page.svelte-73094fdf.js",
+    "file": "_app/immutable/components/pages/_page.svelte-bdabb7e2.js",
     "src": "src/routes/+page.svelte",
     "isEntry": true,
     "imports": [
@@ -69,8 +69,7 @@
       "_app/immutable/assets/_page-1770b3ff.css"
     ],
     "assets": [
-      "_app/immutable/assets/p1-6bfdeb73.png",
-      "_app/immutable/assets/p2-8a34efd0.png"
+      "_app/immutable/assets/p1-6bfdeb73.png"
     ]
   },
   "src/routes/the-geography-of-the-vote-poll-by-poll/+page.svelte": {
@@ -127,8 +126,8 @@
       "__page-5d8adcad.js"
     ]
   },
-  "_singletons-5167982a.js": {
-    "file": "_app/immutable/chunks/singletons-5167982a.js",
+  "_singletons-54a4d080.js": {
+    "file": "_app/immutable/chunks/singletons-54a4d080.js",
     "imports": [
       "_index-095c9dd6.js"
     ]
@@ -180,7 +179,7 @@
     ]
   },
   ".svelte-kit/generated/nodes/1.js": {
-    "file": "_app/immutable/chunks/1-3e6ae7b7.js",
+    "file": "_app/immutable/chunks/1-c7d077c2.js",
     "src": ".svelte-kit/generated/nodes/1.js",
     "isDynamicEntry": true,
     "imports": [
@@ -188,7 +187,7 @@
     ]
   },
   ".svelte-kit/generated/nodes/2.js": {
-    "file": "_app/immutable/chunks/2-44ee576f.js",
+    "file": "_app/immutable/chunks/2-04fdd077.js",
     "src": ".svelte-kit/generated/nodes/2.js",
     "isDynamicEntry": true,
     "imports": [
@@ -214,9 +213,17 @@
       "src/routes/torontos-two-rights/+page.svelte"
     ]
   },
+  "src/routes/the-geography-of-the-vote-poll-by-poll/+page.css": {
+    "file": "_app/immutable/assets/_page-d95cd1d0.css",
+    "src": "src/routes/the-geography-of-the-vote-poll-by-poll/+page.css"
+  },
   "src/routes/+page.css": {
     "file": "_app/immutable/assets/_page-1770b3ff.css",
     "src": "src/routes/+page.css"
+  },
+  "top-logo.css": {
+    "file": "_app/immutable/assets/top-logo-601263ca.css",
+    "src": "top-logo.css"
   },
   "wards.css": {
     "file": "_app/immutable/assets/wards-201c060f.css",
@@ -225,13 +232,5 @@
   "src/routes/torontos-two-rights/+page.css": {
     "file": "_app/immutable/assets/_page-6e8de407.css",
     "src": "src/routes/torontos-two-rights/+page.css"
-  },
-  "src/routes/the-geography-of-the-vote-poll-by-poll/+page.css": {
-    "file": "_app/immutable/assets/_page-d95cd1d0.css",
-    "src": "src/routes/the-geography-of-the-vote-poll-by-poll/+page.css"
-  },
-  "top-logo.css": {
-    "file": "_app/immutable/assets/top-logo-601263ca.css",
-    "src": "top-logo.css"
   }
 }
