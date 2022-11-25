@@ -43,6 +43,18 @@ const candidates = {
 		"name": "Jane Pitfield",
 		"year": "2006",
 		"citywide": "30%"
+	},
+	"pctford2010": {
+		"breaks": [0.3, 0.4, 0.5, 0.6],
+		"name": "Rob Ford",
+		"year": "2010",
+		"citywide": "47%"
+	},
+	"pctford2014": {
+		"breaks": [0.3, 0.4, 0.5, 0.6],
+		"name": "Doug Ford",
+		"year": "2014",
+		"citywide": "32%"
 	}
 }
 
@@ -53,7 +65,7 @@ $: height = innerWidth / 1.75;
 $: console.log(innerWidth)
 
 $: projection = geoMercator()
-	.center([-78.15 - 0.00239*innerWidth + 0.000001125*innerWidth**2, 43.54 + 0.00045*innerWidth - 2.5e-7*innerWidth**2])
+	.center([-78.155 - 0.00239*innerWidth + 0.000001125*innerWidth**2, 43.54 + 0.00045*innerWidth - 2.5e-7*innerWidth**2])
 	.scale([82000 * innerWidth / 800])
 	.angle([-17]);
 $: path = geoPath(projection);
@@ -75,7 +87,7 @@ ct.map((item) => {
 <div id={candidate} bind:offsetWidth={divWidth}>
 	<svg width={innerWidth} {height} id={candidate}>
 
-		<text class="label" x="9" y="22">{candidates[candidate].name + " " + candidates[candidate].year + " (" + candidates[candidate].citywide + " of the vote citywide)"}</text>
+		<text class="label" x="12" y="22">{candidates[candidate].name + " " + candidates[candidate].year + " (" + candidates[candidate].citywide + " of the vote citywide)"}</text>
 
 		{#each ct as data}
 			<path class="ct" id={candidate} d={path(data)} fill={data.properties["color_" + candidate]} />
@@ -118,6 +130,7 @@ ct.map((item) => {
 	.ct {
 		stroke: rgb(237, 237, 237);
 		stroke-width: 1px;
+		opacity: 0.9;
 	}
 	.ward {
 		stroke: black;

@@ -85,7 +85,7 @@
 	<div class="text">
 		<h2>Finding Toryland</h2>
 		<p>
-			Let’s begin by comparing John Tory’s geography of support in the four elections in which he ran for mayor: 2003, 2014, 2018, and 2022.
+			Let’s begin by comparing John Tory’s geography of support in the four elections in which he ran for mayor.
 		</p>
 	</div>
 
@@ -127,6 +127,15 @@
 		</p>
 	</div>
 
+
+	<div class="mapGrid">
+		<div class="mapSmall">
+			<MapMini candidate = {"pctford2010"} tracts={ctWithResults}/>
+		</div>
+		<div class="mapSmall">
+			<MapMini candidate = {"pctford2014"} tracts={ctWithResults}/>
+		</div>
+	</div>
 
 	<div class="text">
 		<p>
