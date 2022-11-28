@@ -2,10 +2,10 @@
 
     import WebCard from "./assets/web-card-1.png";
     import './styles.css';
-
 	import logo from './assets/top-logo.svg';
 	import p1 from './assets/p1.png';
 	import p2 from './assets/p2.png';
+
 </script>
 
 <svelte:head>
@@ -22,7 +22,6 @@
 		name="viewport"
 		content="width=device-width, initial-scale=1, minimum-scale=1"
 	/>
-	<link href='https://api.mapbox.com/mapbox-gl-js/v2.10.0/mapbox-gl.css' rel='stylesheet' />
 
     <title>Place and Politics in Toronto</title>
     <meta name="description" content="Place and Politics in Toronto">

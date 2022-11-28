@@ -7,7 +7,6 @@
 	import '../styles.css';
 	import ctWithResults from "../data/ctWithResults.geo.json"
 
-
 </script>
 
 <svelte:head>
@@ -33,7 +32,7 @@
     <meta name="og:description" content="Mapping Toryland and Ford Nation" />
     <meta property="og:type" content="website" />
     <meta property="og:url" content="https://schoolofcities.github.io/place-and-politics-toronto/torontos-two-rights" />
-    <meta property="og:image" content="https://raw.githubusercontent.com/schoolofcities/place-and-politics-toronto/sveltekit/src/routes/assets/web-card-2.png" />
+    <meta property="og:image" content="https://raw.githubusercontent.com/schoolofcities/place-and-politics-toronto/sveltekit/src/routes/assets/web-card-1.png" />
     <meta property="og:locale" content="en_CA">
 
     <meta name="twitter:card" content="summary_large_image" />
@@ -41,7 +40,7 @@
     <meta name="twitter:creator" content="@JeffAllenMaps" />
     <meta name="twitter:title" content="Place and Politics in Toronto" />
     <meta name="twitter:description" content="Mapping Toryland and Ford Nation" />
-    <meta name="twitter:image" content="https://raw.githubusercontent.com/schoolofcities/place-and-politics-toronto/sveltekit/src/routes/assets/web-card-2.png" />
+    <meta name="twitter:image" content="https://raw.githubusercontent.com/schoolofcities/place-and-politics-toronto/sveltekit/src/routes/assets/web-card-1.png" />
 
 </svelte:head>
 
