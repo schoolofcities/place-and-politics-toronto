@@ -24,12 +24,12 @@
     "src": "src/routes/assets/Trade Gothic LT Bold.ttf"
   },
   "node_modules/@sveltejs/kit/src/runtime/client/start.js": {
-    "file": "_app/immutable/start-388d3c2e.js",
+    "file": "_app/immutable/start-a94805e3.js",
     "src": "node_modules/@sveltejs/kit/src/runtime/client/start.js",
     "isEntry": true,
     "imports": [
       "_index-095c9dd6.js",
-      "_singletons-5fdc1afd.js"
+      "_singletons-41531a4c.js"
     ],
     "dynamicImports": [
       ".svelte-kit/generated/nodes/0.js",
@@ -48,12 +48,12 @@
     ]
   },
   "node_modules/@sveltejs/kit/src/runtime/components/error.svelte": {
-    "file": "_app/immutable/components/error.svelte-4835b44f.js",
+    "file": "_app/immutable/components/error.svelte-5430630f.js",
     "src": "node_modules/@sveltejs/kit/src/runtime/components/error.svelte",
     "isEntry": true,
     "imports": [
       "_index-095c9dd6.js",
-      "_singletons-5fdc1afd.js"
+      "_singletons-41531a4c.js"
     ]
   },
   "src/routes/+page.svelte": {
@@ -130,8 +130,8 @@
       "__page-5d8adcad.js"
     ]
   },
-  "_singletons-5fdc1afd.js": {
-    "file": "_app/immutable/chunks/singletons-5fdc1afd.js",
+  "_singletons-41531a4c.js": {
+    "file": "_app/immutable/chunks/singletons-41531a4c.js",
     "imports": [
       "_index-095c9dd6.js"
     ]
@@ -181,7 +181,7 @@
     ]
   },
   ".svelte-kit/generated/nodes/1.js": {
-    "file": "_app/immutable/chunks/1-3eae84fd.js",
+    "file": "_app/immutable/chunks/1-82e203fb.js",
     "src": ".svelte-kit/generated/nodes/1.js",
     "isDynamicEntry": true,
     "imports": [
@@ -215,18 +215,6 @@
       "src/routes/torontos-two-rights/+page.svelte"
     ]
   },
-  "wards.css": {
-    "file": "_app/immutable/assets/wards-201c060f.css",
-    "src": "wards.css"
-  },
-  "src/routes/torontos-two-rights/+page.css": {
-    "file": "_app/immutable/assets/_page-6e8de407.css",
-    "src": "src/routes/torontos-two-rights/+page.css"
-  },
-  "top-logo.css": {
-    "file": "_app/immutable/assets/top-logo-b57ade99.css",
-    "src": "top-logo.css"
-  },
   "src/routes/+page.css": {
     "file": "_app/immutable/assets/_page-30a5e144.css",
     "src": "src/routes/+page.css"
@@ -234,5 +222,17 @@
   "src/routes/the-geography-of-the-vote-poll-by-poll/+page.css": {
     "file": "_app/immutable/assets/_page-d95cd1d0.css",
     "src": "src/routes/the-geography-of-the-vote-poll-by-poll/+page.css"
+  },
+  "top-logo.css": {
+    "file": "_app/immutable/assets/top-logo-b57ade99.css",
+    "src": "top-logo.css"
+  },
+  "wards.css": {
+    "file": "_app/immutable/assets/wards-201c060f.css",
+    "src": "wards.css"
+  },
+  "src/routes/torontos-two-rights/+page.css": {
+    "file": "_app/immutable/assets/_page-6e8de407.css",
+    "src": "src/routes/torontos-two-rights/+page.css"
   }
 }

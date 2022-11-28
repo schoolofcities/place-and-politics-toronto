@@ -16,7 +16,7 @@ const config = {
         }),
         paths: {
             // change below to your repo name
-            base: dev ? "" : "",
+            base: dev ? "" : "/place-and-politics-toronto",
         }
 		
     }
