@@ -1,3 +1,8 @@
+<script context="module">
+	export const router = true
+</script>
+
+
 <script>
 
 import { geoPath, geoMercator, scaleThreshold } from "d3";
@@ -7,9 +12,6 @@ import Wards from "../data/wards.geo.json";
 export let candidate;
 export let tracts;
 
-console.log(Wards);
-
-const ct = tracts.features;
 
 let colours = ["#deebfd", "#a7c9ff", "#77a5ff", "#507fff", "#3d53fb"]
 
@@ -62,13 +64,14 @@ let divWidth = 420;
 $: innerWidth = divWidth;
 $: height = innerWidth / 1.75;
 
-$: console.log(innerWidth)
-
 $: projection = geoMercator()
 	.center([-78.155 - 0.00239*innerWidth + 0.000001125*innerWidth**2, 43.54 + 0.00045*innerWidth - 2.5e-7*innerWidth**2])
 	.scale([82000 * innerWidth / 800])
 	.angle([-17]);
 $: path = geoPath(projection);
+
+
+let ct = tracts.features;
 
 var color = scaleThreshold()
 	.domain(candidates[candidate]["breaks"])
@@ -80,17 +83,20 @@ ct.map((item) => {
 		: (item.properties["color_" + candidate] = "white");
 });
 
+
 </script>
 
 
 
-<div id={candidate} bind:offsetWidth={divWidth}>
+
+
+<div bind:offsetWidth={divWidth}>
 	<svg width={innerWidth} {height} id={candidate}>
 
 		<text class="label" x="12" y="22">{candidates[candidate].name + " " + candidates[candidate].year + " (" + candidates[candidate].citywide + " of the vote citywide)"}</text>
 
 		{#each ct as data}
-			<path class="ct" id={candidate} d={path(data)} fill={data.properties["color_" + candidate]} />
+			<path class="ct" d={path(data)} fill={data.properties["color_" + candidate]} />
 		{/each}
 
 		{#each Wards.features as data}

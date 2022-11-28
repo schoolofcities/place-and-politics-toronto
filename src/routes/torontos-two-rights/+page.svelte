@@ -5,9 +5,15 @@
 	import MapMini from "../lib/MapMini.svelte";
     import WebCard from "../assets/web-card-2.png";
 	import '../styles.css';
-	import ctWithResults from "../data/ctWithResults.geo.json"
+	import ctWithResults from "../data/ctWithResults.geo.json";
+
+
 
 </script>
+
+
+
+
 
 <svelte:head>
 
@@ -65,6 +71,8 @@
 
 	</div>
 
+
+
 	<div class="text">
 		<p>
 			In our <a href="./the-geography-of-the-vote-poll-by-poll">last post</a> we mapped the vote share percentages for the 2022 mayoral candidates by neighbourhood. We found that, in the 2022 election anyway, some neighbourhoods in the city’s core wards were more likely to support Gil Peñalosa than John Tory, while neighbourhoods in wards outside the core were more likely to support John Tory. In fact, the more distant you are from the core, the more likely that Chloe Brown, who received 6.3% support citywide, beat Peñalosa for second place. It would appear that many core voters want something different, politically, than most suburban voters. In future posts we will explore what may be driving this pattern. First, however, we will look back at the geography of past elections to see where particular candidates did best.
@@ -83,18 +91,20 @@
 		</p>
 	</div>
 
+
+
 	<div class="mapGrid">
 		<div class="mapSmall">
-			<MapMini candidate = {"pcttory2003"} tracts={ctWithResults}/>
+			<MapMini candidate = {"pcttory2003"} tracts={ctWithResults} />
 		</div>
 		<div class="mapSmall">
-			<MapMini candidate = {"pcttory2014"} tracts={ctWithResults}/>
+			<MapMini candidate = {"pcttory2014"} tracts={ctWithResults} />
 		</div>
 		<div class="mapSmall">
-			<MapMini candidate = {"pcttory2018"} tracts={ctWithResults}/>
+			<MapMini candidate = {"pcttory2018"} tracts={ctWithResults} />
 		</div>
 		<div class="mapSmall">
-			<MapMini candidate = {"pcttory_john2022"} tracts={ctWithResults}/>
+			<MapMini candidate = {"pcttory_john2022"} tracts={ctWithResults} />
 		</div>
 	</div>
 	
@@ -111,7 +121,7 @@
 	</div>
 
 		<div class="mapSmall">
-			<MapMini candidate = {"pctpitfield2006"} tracts={ctWithResults}/>
+			<MapMini candidate = {"pctpitfield2006"} tracts={ctWithResults} />
 		</div>
 
 	<div class="text">
@@ -124,10 +134,10 @@
 
 	<div class="mapGrid">
 		<div class="mapSmall">
-			<MapMini candidate = {"pctford2010"} tracts={ctWithResults}/>
+			<MapMini candidate = {"pctford2010"} tracts={ctWithResults} />
 		</div>
 		<div class="mapSmall">
-			<MapMini candidate = {"pctford2014"} tracts={ctWithResults}/>
+			<MapMini candidate = {"pctford2014"} tracts={ctWithResults} />
 		</div>
 	</div>
 
