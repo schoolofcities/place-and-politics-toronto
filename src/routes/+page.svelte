@@ -84,7 +84,7 @@
 
 	<div class="text">
 
-		<a href="./the-geography-of-the-vote-poll-by-poll">
+		<a href="./place-and-politics-toronto/the-geography-of-the-vote-poll-by-poll">
 			<div class="item">
 				<div class="number" style="background-image: url({p1});">
 				</div>
@@ -103,7 +103,7 @@
 
 		
 	
-		<a href="./torontos-two-rights">
+		<a href="./place-and-politics-toronto/torontos-two-rights">
 			<div class="item">
 				<div class="number" style="background-image: url({p2});">
 				</div>
