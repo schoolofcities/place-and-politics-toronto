@@ -1,6 +1,5 @@
 <script>
 
-    import WebCard from "./assets/web-card-1.png";
     import './styles.css';
 	import logo from './assets/top-logo.svg';
 	import p1 from './assets/p1.png';
