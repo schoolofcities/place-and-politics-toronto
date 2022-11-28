@@ -80,10 +80,6 @@
 		<div id="mini-line"></div>
 
 
-		<!-- <div id="mini-line"></div>
-
-		<h3><a href="https://zacktaylor.com/">Zack Taylor</a> & <a href="https://jamaps.github.io/">Jeff Allen</a> </h3> -->
-
 	</div>
 
 
@@ -196,6 +192,12 @@
 		border: solid 1px #4b4b4b;
 		border-radius: 28px;
 		float: left;
+	}
+
+	@media (max-width:420px) {
+		.number {
+			display: none;
+		}
 	}
 
 	#part {

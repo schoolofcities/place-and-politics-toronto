@@ -30,7 +30,7 @@
     <meta name="author" content="Zack Taylor & Jeff Allen">
 
     <meta property="og:title" content="Place and Politics in Toronto" />
-    <meta name="og:description" content="Toronto's Two Rights" />
+    <meta name="og:description" content="Mapping Toryland and Ford Nation" />
     <meta property="og:type" content="website" />
     <meta property="og:url" content="https://schoolofcities.github.io/place-and-politics-toronto/torontos-two-rights" />
     <meta property="og:image" content="https://raw.githubusercontent.com/schoolofcities/place-and-politics-toronto/sveltekit/src/routes/assets/web-card-2.png" />
@@ -40,7 +40,7 @@
     <meta name="twitter:site" content="https://schoolofcities.github.io/place-and-politics-toronto/torontos-two-rights" />
     <meta name="twitter:creator" content="@JeffAllenMaps" />
     <meta name="twitter:title" content="Place and Politics in Toronto" />
-    <meta name="twitter:description" content="Toronto's Two Rights" />
+    <meta name="twitter:description" content="Mapping Toryland and Ford Nation" />
     <meta name="twitter:image" content="https://raw.githubusercontent.com/schoolofcities/place-and-politics-toronto/sveltekit/src/routes/assets/web-card-2.png" />
 
 </svelte:head>
