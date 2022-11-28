@@ -17,7 +17,7 @@ main {
     margin: 0 auto;
     width: calc(100% - 20px);
     min-width: 320px;
-    max-width: 1200px;
+    max-width: 1300px;
     position: relative;
 }
 
@@ -45,10 +45,10 @@ main {
     font-size: 15px;
 }
 .title a {
-    color: black;
+    color: #3d53fb;
 }
 .title a:hover {
-    color: #3d53fb;
+    color: black;
 }
 
 #mini-line {
@@ -85,6 +85,11 @@ a {
     color: #3d53fb;
 }
 
+a:hover {
+    text-decoration: underline;
+    color: black;
+}
+
 .info {
     font-family: "Source Serif Pro", serif;
     font-size: 15px;
@@ -94,4 +99,31 @@ a {
     padding: 25px;
     line-height: 160%;
     text-align: left;
+}
+
+.mapGrid {
+    margin: auto;
+    padding-bottom: 42px;
+    max-width: 850px;
+    width: 100%;
+    display: grid;
+    gap: 4px 2px;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+@media (max-width:842px) {
+    .mapGrid {
+        grid-template-columns: repeat(1, 1fr);
+        /* gap: 0px 0px; */
+        /* width: calc(100% - 40px); */
+    }
+}
+
+.mapSmall {
+    margin: auto;
+    padding: -10px;
+    max-width: 420px;
+    width: 420px;
+    margin: 0 auto;
+    /* border: solid 1px #f4f4f4; */
 }
