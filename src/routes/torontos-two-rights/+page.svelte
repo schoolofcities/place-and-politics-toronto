@@ -7,7 +7,7 @@
 	import '../styles.css';
 	import ctWithResults from "../data/ctWithResults.geo.json";
 
-
+	var coloursRight = ["#deebfd", "#a7c9ff", "#77a5ff", "#507fff", "#3d53fb"];
 
 </script>
 
@@ -95,16 +95,16 @@
 
 	<div class="mapGrid">
 		<div class="mapSmall">
-			<MapMini candidate = {"pcttory2003"} tracts={ctWithResults} />
+			<MapMini candidate = {"pcttory2003"} tracts={ctWithResults} colours = {coloursRight}/>
 		</div>
 		<div class="mapSmall">
-			<MapMini candidate = {"pcttory2014"} tracts={ctWithResults} />
+			<MapMini candidate = {"pcttory2014"} tracts={ctWithResults} colours = {coloursRight}/>
 		</div>
 		<div class="mapSmall">
-			<MapMini candidate = {"pcttory2018"} tracts={ctWithResults} />
+			<MapMini candidate = {"pcttory2018"} tracts={ctWithResults} colours = {coloursRight}/>
 		</div>
 		<div class="mapSmall">
-			<MapMini candidate = {"pcttory_john2022"} tracts={ctWithResults} />
+			<MapMini candidate = {"pcttory_john2022"} tracts={ctWithResults} colours = {coloursRight}/>
 		</div>
 	</div>
 	
@@ -121,7 +121,7 @@
 	</div>
 
 		<div class="mapSmall">
-			<MapMini candidate = {"pctpitfield2006"} tracts={ctWithResults} />
+			<MapMini candidate = {"pctpitfield2006"} tracts={ctWithResults} colours = {coloursRight}/>
 		</div>
 
 	<div class="text">
@@ -134,10 +134,10 @@
 
 	<div class="mapGrid">
 		<div class="mapSmall">
-			<MapMini candidate = {"pctford2010"} tracts={ctWithResults} />
+			<MapMini candidate = {"pctford2010"} tracts={ctWithResults} colours = {coloursRight}/>
 		</div>
 		<div class="mapSmall">
-			<MapMini candidate = {"pctford2014"} tracts={ctWithResults} />
+			<MapMini candidate = {"pctford2014"} tracts={ctWithResults} colours = {coloursRight}/>
 		</div>
 	</div>
 
@@ -161,7 +161,7 @@
 	<div class="info">
 		<h3>Data Sources:</h3>
 		<p>
-			All the maps in this post use a dataset of historical neighbourhood-scale election results that we created with sociologists Daniel Silver of the University of Toronto and Jan Doering of McGill University. We hand-digitized the 1997 and 2000 election results and poll maps, which exist only in paper form, and accessed the 2003 through 2022 election results from the City’s open data site. We then apportioned the results to a common geography, 2021 census tracts, which represent neighbourhood areas of about 4,000 residents. To help orient you, we've overlaid the ward boundaries used since 2018 for reference, even though the city was divided into wards differently in previous years.
+			All the maps in this post use a dataset of historical neighbourhood-scale election results that we created with sociologists Daniel Silver of the University of Toronto and Jan Doering of McGill University. We hand-digitized the 1997 and 2000 election results and poll maps, which exist only in paper form, and accessed the 2003 through 2022 election results from the City’s open data site. We then apportioned the results to a common geography, 2021 census tracts, which represent neighbourhood areas of about 4,000 to 7,000 residents. To help orient you, we've overlaid the ward boundaries used since 2018 for reference, even though the city was divided into wards differently in previous years.
 		</p>
 	</div>
 
