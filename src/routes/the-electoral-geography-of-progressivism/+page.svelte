@@ -37,7 +37,7 @@
     <meta name="author" content="Zack Taylor & Jeff Allen">
 
 	<meta property="og:title" content="Place and Politics in Toronto" />
-    <meta name="og:description" content="Mapping Toryland and Ford Nation" />
+    <meta name="og:description" content="The Electoral Geography of Progressivism in Toronto" />
     <meta property="og:type" content="website" />
     <meta property="og:url" content="https://schoolofcities.github.io/place-and-politics-toronto/torontos-two-rights" />
     <meta property="og:image" content="https://raw.githubusercontent.com/schoolofcities/place-and-politics-toronto/sveltekit/src/routes/assets/web-card-2.png" />
@@ -47,7 +47,7 @@
     <meta name="twitter:site" content="https://schoolofcities.github.io/place-and-politics-toronto/torontos-two-rights" />
     <meta name="twitter:creator" content="@JeffAllenMaps" />
     <meta name="twitter:title" content="Place and Politics in Toronto" />
-    <meta name="twitter:description" content="Mapping Toryland and Ford Nation" />
+    <meta name="twitter:description" content="The Electoral Geography of Progressivism in Toronto" />
     <meta name="twitter:image" content="https://raw.githubusercontent.com/schoolofcities/place-and-politics-toronto/sveltekit/src/routes/assets/web-card-2.png" />
 
 </svelte:head>
@@ -77,7 +77,7 @@
 
 	<div class="text">
 		<p>
-			<a href="./the-geography-of-the-vote-poll-by-poll">Last time</a>  we mapped neighbourhood support for candidates generally understood to be politically conservative: John Tory in 2003, 2014, 2018, and 2022, Jane Pitfield in 2006, Rob Ford in 2010, and Doug Ford in 2014. We found that while right-leaning candidates do better in the postwar suburban neighbourhoods, the pattern isn’t uniform. There appear to be two kinds of right-leaning neighbourhood: those that always always favour the conservative candidate, and those that, when given a choice, defect. We will explore why this happens in a future post. In this post, we will look at the electoral geography of progressive candidates, with a particular focus on Tooker Gomberg in 2000, Olivia Chow in 2014, Jennifer Keesmaat in 2018, and Gil Peñalosa in 2022. We then examine the exception to this pattern: left-leaning centrist David Miller’s victories in 2003 and 2006, and also George Smitherman’s failed 2010 campaign.
+			<a href="./torontos-two-rights">Last time</a>  we mapped neighbourhood support for candidates generally understood to be politically conservative: John Tory in 2003, 2014, 2018, and 2022, Jane Pitfield in 2006, Rob Ford in 2010, and Doug Ford in 2014. We found that while right-leaning candidates do better in the postwar suburban neighbourhoods, the pattern isn’t uniform. There appear to be two kinds of right-leaning neighbourhood: those that always always favour the conservative candidate, and those that, when given a choice, defect. We will explore why this happens in a future post. In this post, we will look at the electoral geography of progressive candidates, with a particular focus on Tooker Gomberg in 2000, Olivia Chow in 2014, Jennifer Keesmaat in 2018, and Gil Peñalosa in 2022. We then examine the exception to this pattern: left-leaning centrist David Miller’s victories in 2003 and 2006, and also George Smitherman’s failed 2010 campaign.
 		</p>
 
 		
@@ -185,6 +185,17 @@
 			As Rob Ford’s insurgent campaign performed increasingly well in the polls through the summer of 2010, Smitherman became the “anybody-but-Ford” candidate, and most other “serious” candidates dropped out to support him. (The exception was councillor and Miller-era deputy mayor Joe Pantalone. While Smitherman and Pantalone combined received about 2,000 votes more than Ford, it is doubtful that all of Pantalone’s votes would have flowed to Smitherman had he dropped out of the race.) Smitherman’s support map is therefore the mirror image of Rob Ford’s. Neighbourhoods that tend to support progressive candidates did not support Smitherman because he was, or campaigned as, a progressive. They supported him because he wasn’t Rob Ford.
 		</p>
 	</div>
+
+
+	<div class="text">
+		<h2>
+			Next Time: Explaining Toronto’s Entrenched Electoral Geography</h2>
+		<p>
+			In this post and the previous one, we have explored persistent divisions in Toronto’s electoral geography. Some neighbourhoods have consistently supported particular kinds of candidates across the 25 years and eight elections since amalgamation, while others have proven fickle. The strongest support for progressive candidates is reliably in west-central neighbourhoods, Riverdale, and Leslieville. The strongest support for conservative candidates is in the postwar suburbs of Etobicoke, Scarbrough, and North York. In between, in parts of North Toronto, lakefront Scarborough, and central Etobicoke, are neighbourhoods that have been receptive both types of candidate in different elections. In our next post, we will explore reasons for this pattern of electoral support.
+		</p>
+	</div>
+
+	
 
 	<div id="mini-line"></div>
 
