@@ -117,7 +117,7 @@
 		</a>
 
 
-		<a href="./place-and-politics-toronto/the-electoral-geography-of-progressivism">
+		<!-- <a href="./place-and-politics-toronto/the-electoral-geography-of-progressivism">
 			<div class="item">
 				<div class="number" style="background-image: url({p3});">
 				</div>
@@ -128,7 +128,7 @@
 					</p>
 				</div>
 			</div>
-		</a>
+		</a> -->
 		
 
 		

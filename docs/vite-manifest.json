@@ -4,12 +4,16 @@
     "src": "src/routes/assets/top-logo.svg"
   },
   "src/routes/assets/p1.png": {
-    "file": "_app/immutable/assets/p1-6bfdeb73.png",
+    "file": "_app/immutable/assets/p1-12e7b651.png",
     "src": "src/routes/assets/p1.png"
   },
   "src/routes/assets/p2.png": {
-    "file": "_app/immutable/assets/p2-8a34efd0.png",
+    "file": "_app/immutable/assets/p2-0d97c504.png",
     "src": "src/routes/assets/p2.png"
+  },
+  "src/routes/assets/p3.png": {
+    "file": "_app/immutable/assets/p3-ba338324.png",
+    "src": "src/routes/assets/p3.png"
   },
   "src/routes/assets/web-card-2.png": {
     "file": "_app/immutable/assets/web-card-2-d43f852a.png",
@@ -24,19 +28,20 @@
     "src": "src/routes/assets/Trade Gothic LT Bold.ttf"
   },
   "node_modules/@sveltejs/kit/src/runtime/client/start.js": {
-    "file": "_app/immutable/start-f63bb732.js",
+    "file": "_app/immutable/start-a503c270.js",
     "src": "node_modules/@sveltejs/kit/src/runtime/client/start.js",
     "isEntry": true,
     "imports": [
       "_index-095c9dd6.js",
-      "_singletons-e49528d3.js"
+      "_singletons-28c7c641.js"
     ],
     "dynamicImports": [
       ".svelte-kit/generated/nodes/0.js",
       ".svelte-kit/generated/nodes/1.js",
       ".svelte-kit/generated/nodes/2.js",
       ".svelte-kit/generated/nodes/3.js",
-      ".svelte-kit/generated/nodes/4.js"
+      ".svelte-kit/generated/nodes/4.js",
+      ".svelte-kit/generated/nodes/5.js"
     ]
   },
   "node_modules/@sveltejs/kit/src/runtime/components/layout.svelte": {
@@ -48,16 +53,16 @@
     ]
   },
   "node_modules/@sveltejs/kit/src/runtime/components/error.svelte": {
-    "file": "_app/immutable/components/error.svelte-e4bfe9e8.js",
+    "file": "_app/immutable/components/error.svelte-85860e2b.js",
     "src": "node_modules/@sveltejs/kit/src/runtime/components/error.svelte",
     "isEntry": true,
     "imports": [
       "_index-095c9dd6.js",
-      "_singletons-e49528d3.js"
+      "_singletons-28c7c641.js"
     ]
   },
   "src/routes/+page.svelte": {
-    "file": "_app/immutable/components/pages/_page.svelte-8fa133cd.js",
+    "file": "_app/immutable/components/pages/_page.svelte-f3bf10ca.js",
     "src": "src/routes/+page.svelte",
     "isEntry": true,
     "imports": [
@@ -65,11 +70,22 @@
       "_top-logo-2643ceab.js"
     ],
     "css": [
-      "_app/immutable/assets/_page-30a5e144.css"
+      "_app/immutable/assets/_page-70074584.css"
     ],
     "assets": [
-      "_app/immutable/assets/p1-6bfdeb73.png",
-      "_app/immutable/assets/p2-8a34efd0.png"
+      "_app/immutable/assets/p1-12e7b651.png",
+      "_app/immutable/assets/p2-0d97c504.png"
+    ]
+  },
+  "src/routes/the-electoral-geography-of-progressivism/+page.svelte": {
+    "file": "_app/immutable/components/pages/the-electoral-geography-of-progressivism/_page.svelte-393a8d97.js",
+    "src": "src/routes/the-electoral-geography-of-progressivism/+page.svelte",
+    "isEntry": true,
+    "imports": [
+      "_index-095c9dd6.js",
+      "_wards.geo-52226d81.js",
+      "_ctWithResults.geo-232bff6c.js",
+      "_top-logo-2643ceab.js"
     ]
   },
   "src/routes/the-geography-of-the-vote-poll-by-poll/+page.svelte": {
@@ -86,16 +102,14 @@
     ]
   },
   "src/routes/torontos-two-rights/+page.svelte": {
-    "file": "_app/immutable/components/pages/torontos-two-rights/_page.svelte-a311fb62.js",
+    "file": "_app/immutable/components/pages/torontos-two-rights/_page.svelte-3037724f.js",
     "src": "src/routes/torontos-two-rights/+page.svelte",
     "isEntry": true,
     "imports": [
       "_index-095c9dd6.js",
       "_wards.geo-52226d81.js",
+      "_ctWithResults.geo-232bff6c.js",
       "_top-logo-2643ceab.js"
-    ],
-    "css": [
-      "_app/immutable/assets/_page-6e8de407.css"
     ]
   },
   "src/routes/+layout.js": {
@@ -114,6 +128,14 @@
       "__page-0df15927.js"
     ]
   },
+  "src/routes/the-electoral-geography-of-progressivism/+page.js": {
+    "file": "_app/immutable/modules/pages/the-electoral-geography-of-progressivism/_page.js-3a31c5e2.js",
+    "src": "src/routes/the-electoral-geography-of-progressivism/+page.js",
+    "isEntry": true,
+    "imports": [
+      "__page-1b63013c.js"
+    ]
+  },
   "src/routes/the-geography-of-the-vote-poll-by-poll/+page.js": {
     "file": "_app/immutable/modules/pages/the-geography-of-the-vote-poll-by-poll/_page.js-8ad32695.js",
     "src": "src/routes/the-geography-of-the-vote-poll-by-poll/+page.js",
@@ -130,8 +152,8 @@
       "__page-5d8adcad.js"
     ]
   },
-  "_singletons-e49528d3.js": {
-    "file": "_app/immutable/chunks/singletons-e49528d3.js",
+  "_singletons-28c7c641.js": {
+    "file": "_app/immutable/chunks/singletons-28c7c641.js",
     "imports": [
       "_index-095c9dd6.js"
     ]
@@ -165,6 +187,19 @@
       "_app/immutable/assets/wards-201c060f.css"
     ]
   },
+  "_ctWithResults.geo-232bff6c.js": {
+    "file": "_app/immutable/chunks/ctWithResults.geo-232bff6c.js",
+    "imports": [
+      "_index-095c9dd6.js",
+      "_wards.geo-52226d81.js"
+    ],
+    "css": [
+      "_app/immutable/assets/ctWithResults-6e8de407.css"
+    ]
+  },
+  "__page-1b63013c.js": {
+    "file": "_app/immutable/chunks/_page-1b63013c.js"
+  },
   "__page-026b081b.js": {
     "file": "_app/immutable/chunks/_page-026b081b.js"
   },
@@ -181,7 +216,7 @@
     ]
   },
   ".svelte-kit/generated/nodes/1.js": {
-    "file": "_app/immutable/chunks/1-a0c449d3.js",
+    "file": "_app/immutable/chunks/1-745ca676.js",
     "src": ".svelte-kit/generated/nodes/1.js",
     "isDynamicEntry": true,
     "imports": [
@@ -189,7 +224,7 @@
     ]
   },
   ".svelte-kit/generated/nodes/2.js": {
-    "file": "_app/immutable/chunks/2-4ab159dc.js",
+    "file": "_app/immutable/chunks/2-0775a8fb.js",
     "src": ".svelte-kit/generated/nodes/2.js",
     "isDynamicEntry": true,
     "imports": [
@@ -198,17 +233,26 @@
     ]
   },
   ".svelte-kit/generated/nodes/3.js": {
-    "file": "_app/immutable/chunks/3-8743ecb4.js",
+    "file": "_app/immutable/chunks/3-e0531bef.js",
     "src": ".svelte-kit/generated/nodes/3.js",
+    "isDynamicEntry": true,
+    "imports": [
+      "__page-1b63013c.js",
+      "src/routes/the-electoral-geography-of-progressivism/+page.svelte"
+    ]
+  },
+  ".svelte-kit/generated/nodes/4.js": {
+    "file": "_app/immutable/chunks/4-49ef5792.js",
+    "src": ".svelte-kit/generated/nodes/4.js",
     "isDynamicEntry": true,
     "imports": [
       "__page-026b081b.js",
       "src/routes/the-geography-of-the-vote-poll-by-poll/+page.svelte"
     ]
   },
-  ".svelte-kit/generated/nodes/4.js": {
-    "file": "_app/immutable/chunks/4-2dfa74ee.js",
-    "src": ".svelte-kit/generated/nodes/4.js",
+  ".svelte-kit/generated/nodes/5.js": {
+    "file": "_app/immutable/chunks/5-9e6cd868.js",
+    "src": ".svelte-kit/generated/nodes/5.js",
     "isDynamicEntry": true,
     "imports": [
       "__page-5d8adcad.js",
@@ -216,23 +260,23 @@
     ]
   },
   "src/routes/+page.css": {
-    "file": "_app/immutable/assets/_page-30a5e144.css",
+    "file": "_app/immutable/assets/_page-70074584.css",
     "src": "src/routes/+page.css"
   },
-  "src/routes/torontos-two-rights/+page.css": {
-    "file": "_app/immutable/assets/_page-6e8de407.css",
-    "src": "src/routes/torontos-two-rights/+page.css"
+  "top-logo.css": {
+    "file": "_app/immutable/assets/top-logo-b57ade99.css",
+    "src": "top-logo.css"
   },
-  "src/routes/the-geography-of-the-vote-poll-by-poll/+page.css": {
-    "file": "_app/immutable/assets/_page-d95cd1d0.css",
-    "src": "src/routes/the-geography-of-the-vote-poll-by-poll/+page.css"
+  "ctWithResults.css": {
+    "file": "_app/immutable/assets/ctWithResults-6e8de407.css",
+    "src": "ctWithResults.css"
   },
   "wards.css": {
     "file": "_app/immutable/assets/wards-201c060f.css",
     "src": "wards.css"
   },
-  "top-logo.css": {
-    "file": "_app/immutable/assets/top-logo-b57ade99.css",
-    "src": "top-logo.css"
+  "src/routes/the-geography-of-the-vote-poll-by-poll/+page.css": {
+    "file": "_app/immutable/assets/_page-d95cd1d0.css",
+    "src": "src/routes/the-geography-of-the-vote-poll-by-poll/+page.css"
   }
 }
