@@ -28,12 +28,12 @@
     "src": "src/routes/assets/Trade Gothic LT Bold.ttf"
   },
   "node_modules/@sveltejs/kit/src/runtime/client/start.js": {
-    "file": "_app/immutable/start-a503c270.js",
+    "file": "_app/immutable/start-70f902cf.js",
     "src": "node_modules/@sveltejs/kit/src/runtime/client/start.js",
     "isEntry": true,
     "imports": [
       "_index-095c9dd6.js",
-      "_singletons-28c7c641.js"
+      "_singletons-76167347.js"
     ],
     "dynamicImports": [
       ".svelte-kit/generated/nodes/0.js",
@@ -53,12 +53,12 @@
     ]
   },
   "node_modules/@sveltejs/kit/src/runtime/components/error.svelte": {
-    "file": "_app/immutable/components/error.svelte-85860e2b.js",
+    "file": "_app/immutable/components/error.svelte-15505b13.js",
     "src": "node_modules/@sveltejs/kit/src/runtime/components/error.svelte",
     "isEntry": true,
     "imports": [
       "_index-095c9dd6.js",
-      "_singletons-28c7c641.js"
+      "_singletons-76167347.js"
     ]
   },
   "src/routes/+page.svelte": {
@@ -78,13 +78,13 @@
     ]
   },
   "src/routes/the-electoral-geography-of-progressivism/+page.svelte": {
-    "file": "_app/immutable/components/pages/the-electoral-geography-of-progressivism/_page.svelte-393a8d97.js",
+    "file": "_app/immutable/components/pages/the-electoral-geography-of-progressivism/_page.svelte-6bbafbca.js",
     "src": "src/routes/the-electoral-geography-of-progressivism/+page.svelte",
     "isEntry": true,
     "imports": [
       "_index-095c9dd6.js",
       "_wards.geo-52226d81.js",
-      "_ctWithResults.geo-232bff6c.js",
+      "_ctWithResults.geo-7e74a23c.js",
       "_top-logo-2643ceab.js"
     ]
   },
@@ -102,13 +102,13 @@
     ]
   },
   "src/routes/torontos-two-rights/+page.svelte": {
-    "file": "_app/immutable/components/pages/torontos-two-rights/_page.svelte-3037724f.js",
+    "file": "_app/immutable/components/pages/torontos-two-rights/_page.svelte-2dc111a7.js",
     "src": "src/routes/torontos-two-rights/+page.svelte",
     "isEntry": true,
     "imports": [
       "_index-095c9dd6.js",
       "_wards.geo-52226d81.js",
-      "_ctWithResults.geo-232bff6c.js",
+      "_ctWithResults.geo-7e74a23c.js",
       "_top-logo-2643ceab.js"
     ]
   },
@@ -152,8 +152,8 @@
       "__page-5d8adcad.js"
     ]
   },
-  "_singletons-28c7c641.js": {
-    "file": "_app/immutable/chunks/singletons-28c7c641.js",
+  "_singletons-76167347.js": {
+    "file": "_app/immutable/chunks/singletons-76167347.js",
     "imports": [
       "_index-095c9dd6.js"
     ]
@@ -187,8 +187,8 @@
       "_app/immutable/assets/wards-201c060f.css"
     ]
   },
-  "_ctWithResults.geo-232bff6c.js": {
-    "file": "_app/immutable/chunks/ctWithResults.geo-232bff6c.js",
+  "_ctWithResults.geo-7e74a23c.js": {
+    "file": "_app/immutable/chunks/ctWithResults.geo-7e74a23c.js",
     "imports": [
       "_index-095c9dd6.js",
       "_wards.geo-52226d81.js"
@@ -216,7 +216,7 @@
     ]
   },
   ".svelte-kit/generated/nodes/1.js": {
-    "file": "_app/immutable/chunks/1-745ca676.js",
+    "file": "_app/immutable/chunks/1-12c137e1.js",
     "src": ".svelte-kit/generated/nodes/1.js",
     "isDynamicEntry": true,
     "imports": [
@@ -233,7 +233,7 @@
     ]
   },
   ".svelte-kit/generated/nodes/3.js": {
-    "file": "_app/immutable/chunks/3-e0531bef.js",
+    "file": "_app/immutable/chunks/3-41e8f717.js",
     "src": ".svelte-kit/generated/nodes/3.js",
     "isDynamicEntry": true,
     "imports": [
@@ -251,13 +251,21 @@
     ]
   },
   ".svelte-kit/generated/nodes/5.js": {
-    "file": "_app/immutable/chunks/5-9e6cd868.js",
+    "file": "_app/immutable/chunks/5-818d7c72.js",
     "src": ".svelte-kit/generated/nodes/5.js",
     "isDynamicEntry": true,
     "imports": [
       "__page-5d8adcad.js",
       "src/routes/torontos-two-rights/+page.svelte"
     ]
+  },
+  "ctWithResults.css": {
+    "file": "_app/immutable/assets/ctWithResults-6e8de407.css",
+    "src": "ctWithResults.css"
+  },
+  "src/routes/the-geography-of-the-vote-poll-by-poll/+page.css": {
+    "file": "_app/immutable/assets/_page-d95cd1d0.css",
+    "src": "src/routes/the-geography-of-the-vote-poll-by-poll/+page.css"
   },
   "src/routes/+page.css": {
     "file": "_app/immutable/assets/_page-70074584.css",
@@ -267,16 +275,8 @@
     "file": "_app/immutable/assets/top-logo-b57ade99.css",
     "src": "top-logo.css"
   },
-  "ctWithResults.css": {
-    "file": "_app/immutable/assets/ctWithResults-6e8de407.css",
-    "src": "ctWithResults.css"
-  },
   "wards.css": {
     "file": "_app/immutable/assets/wards-201c060f.css",
     "src": "wards.css"
-  },
-  "src/routes/the-geography-of-the-vote-poll-by-poll/+page.css": {
-    "file": "_app/immutable/assets/_page-d95cd1d0.css",
-    "src": "src/routes/the-geography-of-the-vote-poll-by-poll/+page.css"
   }
 }

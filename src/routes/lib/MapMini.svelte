@@ -78,7 +78,7 @@ const candidates = {
 	"pctpenalosa_gil2022":  {
 		"breaks": [0.1, 0.2, 0.3, 0.4],
 		"name": "Gil Peñalosa",
-		"year": "2018",
+		"year": "2022",
 		"citywide": "18%"
 	},
 	"pctmiller2003":  {
@@ -96,7 +96,7 @@ const candidates = {
 	"pctsmitherman2010": {
 		"breaks": [0.3, 0.4, 0.5, 0.6],
 		"name": "George Smitherman",
-		"year": "2006",
+		"year": "2010",
 		"citywide": "36%"
 	}
 }
