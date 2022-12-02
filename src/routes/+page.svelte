@@ -4,6 +4,7 @@
 	import logo from './assets/top-logo.svg';
 	import p1 from './assets/p1.png';
 	import p2 from './assets/p2.png';
+	import p3 from './assets/p3.png';
 
 </script>
 
@@ -100,8 +101,6 @@
 			</div>
 		</a>
 
-		
-	
 		<a href="./place-and-politics-toronto/torontos-two-rights">
 			<div class="item">
 				<div class="number" style="background-image: url({p2});">
@@ -114,10 +113,19 @@
 				</div>
 			</div>
 		</a>
-		
 
-		
-		
+		<a href="./place-and-politics-toronto/the-electoral-geography-of-progressivism">
+			<div class="item">
+				<div class="number" style="background-image: url({p3});">
+				</div>
+				<div id="part">
+					<p>
+						<span class="date">Part 3 - November 30, 2022</span><br>
+						<u>The Electoral Geography of Progressivism in Toronto</u>
+					</p>
+				</div>
+			</div>
+		</a>
 
 	</div>
 	
@@ -192,7 +200,7 @@
 		float: left;
 	}
 
-	@media (max-width:420px) {
+	@media (max-width:527px) {
 		.number {
 			display: none;
 		}

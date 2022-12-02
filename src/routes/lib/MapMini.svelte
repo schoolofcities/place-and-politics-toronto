@@ -11,9 +11,8 @@ import Wards from "../data/wards.geo.json";
 // export var colours;
 export let candidate;
 export let tracts;
+export let colours;
 
-
-let colours = ["#deebfd", "#a7c9ff", "#77a5ff", "#507fff", "#3d53fb"]
 
 const candidates = {
 	"pcttory_john2022": {
@@ -57,6 +56,48 @@ const candidates = {
 		"name": "Doug Ford",
 		"year": "2014",
 		"citywide": "34%"
+	},
+	"pctgomberg2000": {
+		"breaks": [0.1, 0.2, 0.3, 0.4],
+		"name": "Tooker Gomberg",
+		"year": "2000",
+		"citywide": "8%"
+	},
+	"pctchow2014": {
+		"breaks": [0.1, 0.2, 0.3, 0.4],
+		"name": "Olivia Chow",
+		"year": "2014",
+		"citywide": "23%"
+	},
+	"pctkeesmaat2018":  {
+		"breaks": [0.1, 0.2, 0.3, 0.4],
+		"name": "Jennifer Keesmaat",
+		"year": "2018",
+		"citywide": "23%"
+	},
+	"pctpenalosa_gil2022":  {
+		"breaks": [0.1, 0.2, 0.3, 0.4],
+		"name": "Gil Peñalosa",
+		"year": "2022",
+		"citywide": "18%"
+	},
+	"pctmiller2003":  {
+		"breaks": [0.3, 0.4, 0.5, 0.6],
+		"name": "David Miller",
+		"year": "2003",
+		"citywide": "43%"
+	},
+	"pctmiller2006":  {
+		"breaks": [0.3, 0.4, 0.5, 0.6],
+		"name": "David Miller",
+		"year": "2006",
+		"citywide": "57%"
+	},
+	"pctsmitherman2010": {
+		"breaks": [0.3, 0.4, 0.5, 0.6],
+		"name": "George Smitherman",
+		"year": "2010",
+		"citywide": "36%"
 	}
 }
 
