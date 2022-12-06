@@ -8,6 +8,7 @@
 
 	import UnderConstruction from "../lib/UnderConstruction.svelte";
 	import MapMiniCor from "../lib/MapMiniCor.svelte";
+	import CorList from "../lib/CorList.svelte";
 	
 	import Select from 'svelte-select';
 
@@ -108,57 +109,75 @@
   	<div id="mini-line"></div>
 	<div class="text">
 		<p>
-		Beep boop.
+		Beep boop. Beep boop.Beep boop.Beep boop.Beep boop.Beep boop.Beep boop.Beep boop.Beep boop.Beep boop.Beep boop.Beep boop.Beep boop.
 		</p>
-	</div>
-
-	<div class="select">
-		<Select 
-				items={candidates} 
-				value={candidate}
-				isSearchable={false}
-				isClearable={false}
-				on:select={candidateSelect}
-			>
-		</Select>
-	</div>
-
-	<div class="mapSmall">
-		{#key toggled}
-			<MapMiniCor candidate = {candidate} tracts={ctWithResults} />
-		{/key}
+		<div class="select">
+			<Select 
+					items={candidates} 
+					value={candidate}
+					isSearchable={false}
+					isClearable={false}
+					on:select={candidateSelect}
+				>
+			</Select>
+		</div>
+	
 	</div>
 
 	
+	<div class="text">
+
+	<div class="mapGrid">
+		
+		<div class="mapSmall">
+			
+			{#key toggled}
+				<MapMiniCor candidate = {candidate} tracts={ctWithResults} />
+			{/key}
+		</div>
+
+		<div class="mapSmall">
+			<CorList candidate = {candidate}/>
+		</div>
+	</div>
+
+</div>
+
+	
+
+	
+
+
 </main>
 
 
 <style>
 
-.select {
-		z-index: 99;
+	.select {
+		/* margin:0 auto; */
+		z-index: 999999;
 		width: 150px;
 		font-family: 'Roboto', sans-serif;
 		font-size: 14px;
 		opacity: 0.95;
-		border-right: 2px solid #0D534D;
+		border-right: 2px solid #08519c;
 		--padding: 0px 0px 0px 7px;
 		--border: 1px solid #c8c8c8;
 		--borderRadius: 0px;
 		--height: 28px;
-		--borderFocusColor: #0D534D;
+		--borderFocusColor: #08519c;
 		--itemColor: black;
-		--itemHoverBG: #F1C500;
-		--itemIsActiveBG: #0D534D;
+		--itemHoverBG: #f6cfc3;
+		--itemIsActiveBG: #08519c;
 		--listBorderRadius: 0px;
 		--itemFirstBorderRadius: 0px;
 		--itemPadding: 0px 0px 0px 10px;
 		--itemMargin: 0px;
 		--inputColor: white;
-		--borderHoverColor: #0D534D;
+		--borderHoverColor: #9ba1a8;
 		--indicatorWidth: 20px;
 		--indicatorTop: 4px;
-		--indicatorColor: #0D534D;
+		--indicatorColor: #08519c;
 		--indicatorRight: 3px;
 	}
 

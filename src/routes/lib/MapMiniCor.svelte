@@ -13,16 +13,20 @@
 	export let candidate;
 	export let tracts;
 
-	let colours = ['#fcfcf7','#fff7bc','#fee391','#fec44f','#fe9929','#ec7014','#cc4c02','#8c2d04', "#521a02", "#1f0a01"];
+	let colours = ['#fff','#deebf7','#c6dbef','#9ecae1','#6baed6','#4292c6','#2171b5','#08519c','#08306b','#021530']
+	
+	// ['#fcfcf7','#fff7bc','#fee391','#fec44f','#fe9929','#ec7014','#cc4c02','#8c2d04', "#521a02", "#1f0a01"];
+	
+	// ['#fff','#efedf5','#dadaeb','#bcbddc','#9e9ac8','#807dba','#6a51a3','#4a1486',"#350c63", "#17032e"]
+	
+	
 	
 	// ["#fff2b6", "#ece6af", "#d8daa8", "#c1cda1", "#a7bf99", "#88af91", "#609f89", "#008c80"];
 	
 
 	var breaks = [0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9];
 
-	$: console.log(candidateInfo[candidate])
 	$: candidateVar = candidateInfo[candidate].ctid;
-
 
 	let divWidth = 420;
 	$: innerWidth = divWidth;
@@ -46,7 +50,6 @@
 			? (item.properties["colour"] = color(item.properties[candidateVar]))
 			: (item.properties["colour"] = "white");
 	});
-	$: console.log(candidateVar)
 
 
 </script>
@@ -54,7 +57,7 @@
 
 
 <div bind:offsetWidth={divWidth}>
-	<svg width={innerWidth} {height}>
+	<svg width={innerWidth} {height} id="back">
 
 		<text class="label" x="12" y="22">{candidateInfo[candidate].fullname + " " + candidateInfo[candidate].year + " (" + candidateInfo[candidate].voteshare + "% of the vote citywide)"}</text>
 
@@ -70,39 +73,31 @@
 			<path class="ward" d={path(data)} />
 		{/each}
 
-		<text class="label" x="320" y="185">% of</text>
-		<text class="label" x="320" y="200">vote</text>
+		<text class="label" x="25" y="245">% of the vote by CT</text>
 
-		<text class="label" x="373" y="145">{"100%"}</text>
-		<text class="label" x="373" y="165">{breaks[7]*100 + "%"}</text>
+		<text class="label" x="215" y="275">{"100%"}</text>
+		<text class="label" x="175" y="275">{breaks[7]*100 + "%"}</text>
 		<!-- <text class="label" x="373" y="175">{breaks[5]*100 + "%"}</text> -->
-		<text class="label" x="373" y="185">{breaks[5]*100 + "%"}</text>
+		<text class="label" x="135" y="275">{breaks[5]*100 + "%"}</text>
 		<!-- <text class="label" x="373" y="195">{breaks[3]*100 + "%"}</text> -->
-		<text class="label" x="373" y="205">{breaks[3]*100 + "%"}</text>
+		<text class="label" x="95" y="275">{breaks[3]*100 + "%"}</text>
 		<!-- <text class="label" x="373" y="215">{breaks[1]*100 + "%"}</text> -->
-		<text class="label" x="373" y="225">{breaks[1]*100 + "%"}</text>
-		<text class="label" x="373" y="245">{"0%"}</text>
+		<text class="label" x="55" y="275">{breaks[1]*100 + "%"}</text>
+		<text class="label" x="20" y="275">{"0%"}</text>
 		
-		<rect class="box" width="22" height = "102" x="349" y="139" style="fill:black; stroke: none;"></rect>
+		<rect class="box" width="202" height = "12" x="24" y="249" style="fill:black; stroke: none;"></rect>
 
-
-		<rect class="box" width="20" height = "10" x="350" y="140" style="fill:{colours[9]}; stroke: white;"></rect>
-		<rect class="box" width="20" height = "10" x="350" y="150" style="fill:{colours[8]}; stroke: white;"></rect>
-		<rect class="box" width="20" height = "10" x="350" y="160" style="fill:{colours[7]}; stroke: white;"></rect>
-		<rect class="box" width="20" height = "10" x="350" y="170" style="fill:{colours[6]}; stroke: white;"></rect>
-		<rect class="box" width="20" height = "10" x="350" y="180" style="fill:{colours[5]}; stroke: white;"></rect>
-		<rect class="box" width="20" height = "10" x="350" y="190" style="fill:{colours[4]}; stroke: white;"></rect>
-		<rect class="box" width="20" height = "10" x="350" y="200" style="fill:{colours[3]}; stroke: white;"></rect>
-		<rect class="box" width="20" height = "10" x="350" y="210" style="fill:{colours[2]}; stroke: white;"></rect>
-		<rect class="box" width="20" height = "10" x="350" y="220" style="fill:{colours[1]}; stroke: white;"></rect>
-		<rect class="box" width="20" height = "10" x="350" y="230" style="fill:{colours[0]}; stroke: white;"></rect>
-
+		<rect class="box" width="20" height = "10" x="205" y="250" style="fill:{colours[9]}; stroke: white;"></rect>
+		<rect class="box" width="20" height = "10" x="185" y="250" style="fill:{colours[8]}; stroke: white;"></rect>
+		<rect class="box" width="20" height = "10" x="165" y="250" style="fill:{colours[7]}; stroke: white;"></rect>
+		<rect class="box" width="20" height = "10" x="145" y="250" style="fill:{colours[6]}; stroke: white;"></rect>
+		<rect class="box" width="20" height = "10" x="125" y="250" style="fill:{colours[5]}; stroke: white;"></rect>
+		<rect class="box" width="20" height = "10" x="105" y="250" style="fill:{colours[4]}; stroke: white;"></rect>
+		<rect class="box" width="20" height = "10" x="85" y="250" style="fill:{colours[3]}; stroke: white;"></rect>
+		<rect class="box" width="20" height = "10" x="65" y="250" style="fill:{colours[2]}; stroke: white;"></rect>
+		<rect class="box" width="20" height = "10" x="45" y="250" style="fill:{colours[1]}; stroke: white;"></rect>
+		<rect class="box" width="20" height = "10" x="25" y="250" style="fill:{colours[0]}; stroke: white;"></rect>
 		
-
-		
-
-		
-
 	</svg>
 </div>
 
@@ -110,6 +105,9 @@
 
 <style>
 
+	#back {
+		z-index: 0;
+	}
 
 	.ct {
 		stroke: rgb(237, 237, 237);
