@@ -18,8 +18,6 @@
 
 	import * as d3 from "d3"
 
-	var colours = ["#deebfd", "#a7c9ff", "#77a5ff", "#507fff", "#3d53fb"];
-
 	// let animationRef
 
 	// onMount(() => {
@@ -126,9 +124,8 @@
 	</div>
 
 	<div class="mapSmall">
-
 		{#key toggled}
-			<MapMiniCor candidate = {candidate} tracts={ctWithResults} colours = {colours}/>
+			<MapMiniCor candidate = {candidate} tracts={ctWithResults} />
 		{/key}
 	</div>
 
