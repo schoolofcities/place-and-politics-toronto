@@ -4,7 +4,7 @@ import json
 nodes = []
 links = []
 
-with open ("mayor_correlations.csv", "r") as csvfile:
+with open ("candidate_correlations.csv", "r") as csvfile:
     reader = csv.DictReader(csvfile)
     for row in reader:
         
@@ -19,7 +19,7 @@ with open ("mayor_correlations.csv", "r") as csvfile:
             if value == '1':
                 break
             
-            if key != "x" and float(value) > 0.5:
+            if key != "x" and float(value):
                 links.append({"source": source, "target": key, "value": float(value)})
 
 print(nodes)
@@ -30,5 +30,5 @@ data = {
     "links": links
 }
 
-with open("mayor_links.json", "w") as outfile:
+with open("candidate_links.json", "w") as outfile:
     json.dump(data, outfile)
