@@ -1,10 +1,35 @@
 import csv
 import json
 
+# info
+
+info = {}
+
+with open("candidate_info.csv") as csvfile:
+    reader = csv.DictReader(csvfile)
+    for row in reader:
+
+        mainkey = row["main"]
+
+        dict1 = {}
+
+        for key in row: 
+            dict1.update({key: row[key]})
+
+        info.update({mainkey: dict1})
+
+print(info)
+
+with open("candidate_info.json", "w") as outfile:
+    json.dump(info, outfile)
+
+
+# correlations
+
 nodes = []
 links = []
 
-with open ("candidate_correlations.csv", "r") as csvfile:
+with open("candidate_correlations.csv", "r") as csvfile:
     reader = csv.DictReader(csvfile)
     for row in reader:
         

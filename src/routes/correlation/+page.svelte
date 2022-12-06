@@ -7,7 +7,7 @@
 	import ctWithResults from "../data/ctWithResults.geo.json";
 
 	import UnderConstruction from "../lib/UnderConstruction.svelte";
-	import MapMini from "../lib/MapMini.svelte";
+	import MapMiniCor from "../lib/MapMiniCor.svelte";
 	
 	import Select from 'svelte-select';
 
@@ -20,23 +20,24 @@
 
 	var colours = ["#deebfd", "#a7c9ff", "#77a5ff", "#507fff", "#3d53fb"];
 
-	let animationRef
+	// let animationRef
 
-	onMount(() => {
-		const runtime = new Runtime()
-		runtime.module(notebook, name => {
-			if (name === "chart") {
-				return new Inspector(animationRef)
-			}
-		})
-	})
+	// onMount(() => {
+	// 	const runtime = new Runtime()
+	// 	runtime.module(notebook, name => {
+	// 		if (name === "chart") {
+	// 			return new Inspector(animationRef)
+	// 		}
+	// 	})
+	// })
     
+	let toggled = false
 	let	candidates = candidateLinks.nodes.map(obj => obj.id);
 	let candidate = "Tory 2022"
 	function candidateSelect(e) {
 		candidate = e.detail.value;
+		toggled = !toggled;
 	}
-	$: console.log(candidate);
 
 	
 
@@ -125,7 +126,10 @@
 	</div>
 
 	<div class="mapSmall">
-		<MapMini candidate = {"pctpitfield2006"} tracts={ctWithResults} colours = {colours}/>
+
+		{#key toggled}
+			<MapMiniCor candidate = {candidate} tracts={ctWithResults} colours = {colours}/>
+		{/key}
 	</div>
 
 	
