@@ -102,6 +102,9 @@
 		</div> -->
 	</div>
 
+	<iframe width="100%" height="553" frameborder="0"
+  src="https://observablehq.com/embed/19651c303241ff66?cells=viewof+thresholds%2Cch"></iframe>
+
 	<!-- <div>
 		<div bind:this={animationRef}></div>
 	</div>
