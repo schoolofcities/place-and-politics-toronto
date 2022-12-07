@@ -2,22 +2,19 @@
 
 	import Top from "../lib/TopSofC.svelte";
 	import '../styles.css';
-
 	import candidateLinks from "../data/candidate_links.json"
 	import ctWithResults from "../data/ctWithResults.geo.json";
 
 	import UnderConstruction from "../lib/UnderConstruction.svelte";
+
 	import MapMiniCor from "../lib/MapMiniCor.svelte";
 	import CorList from "../lib/CorList.svelte";
-	
 	import Select from 'svelte-select';
 
 	import { onMount } from 'svelte'
  	import { Runtime, Inspector } from '@observablehq/runtime'
  	import notebook from '@jamaps/force-directed-graph'
 	
-
-	import * as d3 from "d3"
 
 	// let animationRef
 
@@ -96,14 +93,14 @@
 			In this post we will visualize which mayoral candidates are most alike and most unalike based on their geographic distribution of support.
 		</p>
 
-		<!-- <div id="chart">
-			<iframe width="100%" height="500" frameborder="0"
-		src="https://observablehq.com/embed/@d3/force-directed-lattice?cells=chart"></iframe>
-		</div> -->
 	</div>
 
-	<iframe width="100%" height="553" frameborder="0"
-  src="https://observablehq.com/embed/19651c303241ff66?cells=viewof+thresholds%2Cch"></iframe>
+	<div id="iframe-cor">
+		<iframe width="100%" height="553" frameBorder="0"
+		src="https://observablehq.com/embed/19651c303241ff66?cells=viewof+thresholds%2Cch"></iframe>
+	</div>
+
+	
 
 	<!-- <div>
 		<div bind:this={animationRef}></div>
@@ -112,7 +109,6 @@
 	<iframe width="100%" height="380" frameborder="0"
   src="https://observablehq.com/embed/@jamaps/canadas-population-by-longitude?cells=b1"></iframe> -->
 
-  	<div id="mini-line"></div>
 	<div class="text">
 		<p>
 		Below you can select a mayoral candidate from a specific election year, and it will display a map of electoral support for the candidate, as well as a list of candidates from other elections ranked by their similarity.
@@ -159,14 +155,18 @@
 </div>
 
 	
-
-	
-
-
 </main>
 
-
 <style>
+
+	#iframe-cor {
+		padding: 0px;
+		margin: 0px;
+		width: 540px;
+		margin: 0 auto;
+		height: 450px;
+		overflow-y: hidden;
+	}
 
 	.select {
 		/* margin:0 auto; */
