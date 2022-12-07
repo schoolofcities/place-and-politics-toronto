@@ -29,9 +29,11 @@
 </script>
 
 
-<svg width=300 height=800>
+<svg width=300 height=400>
 
     <text class="label" x="10" y="22">Candidates ranked by similarity</text>
+
+    
 
     {#each data as c, i}
         <rect class="box" width="50" height="17" x="10" y={33 + i * 18} style="fill:{c.colour};"></rect>
@@ -50,6 +52,7 @@
         {/if}
 	{/each}
 
+    <rect class="bg" width="183" height="361" x="9" y="32"></rect>
 </svg>
 
 
@@ -57,7 +60,12 @@
 <style>
     .box {
         stroke: rgb(255, 255, 255);
-        opacity: 0.42
+        opacity: 0.33
+    }
+
+    .bg {
+        fill: none;
+        stroke: black;
     }
 
 	.label {

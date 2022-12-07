@@ -90,7 +90,10 @@
 
 	<div class="text">
 		<p>
-			Beep boop.
+			In our two previous posts we used maps to show that there is remarkable continuity in the geography of support for different types of candidates across the 25 years and eight elections since Toronto’s 1997 amalgamation. Support for progressive and conservative candidates is geographically concentrated. These patterns suggest that we can think more systematically about the relationships between candidates’ support bases across time.
+		</p>
+		<p>
+			In this post we will visualize which mayoral candidates are most alike and most unalike based on their geographic distribution of support.
 		</p>
 
 		<!-- <div id="chart">
@@ -109,7 +112,7 @@
   	<div id="mini-line"></div>
 	<div class="text">
 		<p>
-		Beep boop. Beep boop.Beep boop.Beep boop.Beep boop.Beep boop.Beep boop.Beep boop.Beep boop.Beep boop.Beep boop.Beep boop.Beep boop.
+		Below you can select a mayoral candidate from a specific election year, and it will display a map of electoral support for the candidate, as well as a list of candidates from other elections ranked by their similarity.
 		</p>
 		<div class="select">
 			<Select 
@@ -139,6 +142,15 @@
 		<div class="mapSmall">
 			<CorList candidate = {candidate}/>
 		</div>
+	</div>
+
+	<div id="mini-line"></div>
+
+	<div class="info">
+		<h3>Data Sources:</h3>
+		<p>
+			All the maps in this post use a dataset of historical neighbourhood-scale election results that we created with sociologists Daniel Silver of the University of Toronto and Jan Doering of McGill University. We hand-digitized the 1997 and 2000 election results and poll maps, which exist only in paper form, and accessed the 2003 through 2022 election results from the City’s open data site. We then apportioned the results to a common geography, 2021 census tracts, which represent neighbourhood areas of about 4,000 to 7,000 residents. To help orient you, we've overlaid the ward boundaries used since 2018 for reference, even though the city was divided into wards differently in previous years.
+		</p>
 	</div>
 
 </div>
