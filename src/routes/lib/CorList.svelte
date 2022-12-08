@@ -59,18 +59,18 @@
 
 <style>
     .box {
-        stroke: rgb(255, 255, 255);
+        stroke: #ffffff;
         opacity: 0.33
     }
 
     .bg {
         fill: none;
-        stroke: black;
+        stroke: #cecece;
     }
 
 	.label {
 		font-size: 13px;
-		fill: rgb(56, 56, 56);
+		fill: #383838;
 		font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
 			Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 	}
