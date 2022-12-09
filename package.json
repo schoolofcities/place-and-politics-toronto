@@ -19,8 +19,11 @@
 		"vite": "^3.1.0"
 	},
 	"dependencies": {
+		"@jamaps/force-directed-graph": "https://api.observablehq.com/@jamaps/force-directed-graph.tgz?v=3",
+		"@observablehq/runtime": "^5.1.1",
+		"d3": "v7.6.1",
 		"mapbox-gl": "^2.10.0",
-		"d3": "v7.6.1"
+		"svelte-select": "^4.4.7"
 	},
 	"type": "module"
 }
