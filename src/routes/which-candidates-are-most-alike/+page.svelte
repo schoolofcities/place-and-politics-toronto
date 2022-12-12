@@ -11,10 +11,14 @@
 	import CorList from "../lib/CorList.svelte";
 	import Select from 'svelte-select';
 
+	import candidateInfo from "../data/candidate_info.json";
+
 	import { onMount } from 'svelte'
  	import { Runtime, Inspector } from '@observablehq/runtime'
  	import notebook from '@jamaps/force-directed-graph'
 	
+
+	 import lastman from "../assets/candidate-photos/lastman.png";
 
 	// let animationRef
 
@@ -35,7 +39,9 @@
 		toggled = !toggled;
 	}
 
+	var candidateText = "Melvin Douglas Lastman was a Canadian businessman and politician who served as the third mayor of North York from 1973 to 1997 and 62nd mayor of Toronto from 1998 to 2003. He was the first person to serve as mayor of Toronto following the 1998 amalgamation of Metro Toronto and its six constituent "
 	
+	$: candidateTitle = candidateInfo[candidate].fullname + " " + candidateInfo[candidate].year + " (" + candidateInfo[candidate].voteshare + "% of the vote citywide)";
 
 </script>
 
@@ -107,8 +113,6 @@
 		src="https://observablehq.com/embed/19651c303241ff66?cells=viewof+thresholds%2Cch"></iframe>
 	</div>
 
-	
-
 	<!-- <div>
 		<div bind:this={animationRef}></div>
 	</div>
@@ -120,6 +124,12 @@
 		<p>
 		The above chart shows overall linkages, but it's a bit difficult to drill into specific candidates. Below, you can select and focus on mayoral candidate from a specific election year. Once selected, it will display a map of their electoral support across the city, as well as a list of candidates from other elections ranked by their similarity.
 		</p>
+		
+	
+	</div>
+
+	<div class="candidate-info">
+
 		<div class="select">
 			<Select 
 					items={candidates} 
@@ -130,24 +140,43 @@
 				>
 			</Select>
 		</div>
-	
+
+		<div id="wrapper">
+			<img class="face" src={lastman} width="200" height="200">
+
+			<div class="candidate-text">
+				<div class="candidate-title">
+					<b>{candidateTitle}</b>
+				</div>
+				<div class="candidate-body">
+					{candidateText}
+				</div>
+			</div>
+		</div>
+
 	</div>
 
 	
 	<div class="text">
 
-	<div class="mapGrid">
-		
-		<div class="mapSmall">
+		 
+
+
+		<div class="mapGrid">
 			
-			{#key toggled}
-				<MapMiniCor candidate = {candidate} tracts={ctWithResults} />
-			{/key}
+			<div class="mapSmall">
+				
+				{#key toggled}
+					<MapMiniCor candidate = {candidate} tracts={ctWithResults} />
+				{/key}
+
+			</div>
+
+			<div class="mapSmall">
+				<CorList candidate = {candidate}/>
+			</div>
 		</div>
 
-		<div class="mapSmall">
-			<CorList candidate = {candidate}/>
-		</div>
 	</div>
 
 	<div id="mini-line"></div>
@@ -162,7 +191,7 @@
 		</p>
 	</div>
 
-</div>
+
 
 	
 </main>
@@ -176,6 +205,45 @@
 		margin: 0 auto;
 		height: 450px;
 		overflow-y: hidden;
+	}
+
+	.candidate-info {
+		margin: 0 auto;
+		max-width: 670px;
+		padding-left: 25px;
+		padding-right: 25px;
+		padding-bottom: 15px;
+	}
+
+	#wrapper {
+		padding-top: 20px;
+		overflow: hidden;
+	}
+
+	.face {
+		
+		float:left;
+		
+	}
+
+	.candidate-text {
+		font-family: "Source Serif Pro", serif;
+		font-size: 15px;
+		padding-left: 25px;
+		max-width: 400px;
+		line-height: 160%;
+    	text-align: left;
+		overflow: hidden;
+		
+	}
+
+	.candidate-title {
+		border-bottom: 1px solid #dedede;
+		font-family: 'Roboto', sans-serif;
+	}
+
+	.candidate-body {
+		padding-top: 10px;
 	}
 
 	.select {
