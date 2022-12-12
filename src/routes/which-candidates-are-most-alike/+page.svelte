@@ -39,7 +39,7 @@
 		toggled = !toggled;
 	}
 
-	var candidateText = "Melvin Douglas Lastman was a Canadian businessman and politician who served as the third mayor of North York from 1973 to 1997 and 62nd mayor of Toronto from 1998 to 2003. He was the first person to serve as mayor of Toronto following the 1998 amalgamation of Metro Toronto and its six constituent "
+	var candidateText = "Melvin Douglas Lastman was a Canadian businessman and politician who served as the third mayor of North York from 1973 to 1997 and 62nd mayor of Toronto from 1998 to 2003. He was the first person to serve as mayor of Toronto following the 1998 amalgamation of Metro Toronto and its six constituent municipalities. Lastman is also known for having founded the Bad Boy Furniture chain."
 	
 	$: candidateTitle = candidateInfo[candidate].fullname + " " + candidateInfo[candidate].year + " (" + candidateInfo[candidate].voteshare + "% of the vote citywide)";
 
@@ -148,10 +148,15 @@
 				<div class="candidate-title">
 					<b>{candidateTitle}</b>
 				</div>
-				<div class="candidate-body">
+				<div class="candidate-body-web">
 					{candidateText}
 				</div>
 			</div>
+			
+		</div>
+
+		<div class="candidate-body-mobile">
+			{candidateText}
 		</div>
 
 	</div>
@@ -162,7 +167,7 @@
 		 
 
 
-		<div class="mapGrid">
+		<div class="plotGrid">
 			
 			<div class="mapSmall">
 				
@@ -172,7 +177,7 @@
 
 			</div>
 
-			<div class="mapSmall">
+			<div class="corplot">
 				<CorList candidate = {candidate}/>
 			</div>
 		</div>
@@ -218,12 +223,11 @@
 	#wrapper {
 		padding-top: 20px;
 		overflow: hidden;
+		padding-left: 1px;
 	}
 
 	.face {
-		
 		float:left;
-		
 	}
 
 	.candidate-text {
@@ -242,14 +246,65 @@
 		font-family: 'Roboto', sans-serif;
 	}
 
-	.candidate-body {
+	.candidate-body-web {
 		padding-top: 10px;
 	}
+	.candidate-body-mobile {
+		display: none;
+		font-family: "Source Serif Pro", serif;
+		font-size: 15px;
+		padding-left: 0px;
+		line-height: 160%;
+    	text-align: left;
+	}
+
+	@media (max-width: 500px) {
+		.candidate-body-mobile {
+			display:inherit;
+			padding-top: 20px;
+			font-size: 15px;
+			line-height: 160%;
+		}
+		.candidate-body-web {
+			display: none;
+		}
+	}
+
+	.corplot {
+		/* background-color: #3d53fb; */
+		z-index: -10;
+		margin: auto;
+		padding: -10px;
+		max-width: 220px;
+		width: 220px;
+		margin: 0 auto;
+		/* border: solid 1px #f4f4f4; */
+	}
+
+	.plotGrid {
+		margin: auto;
+		padding-bottom: 42px;
+		max-width: 660px;
+		width: 100%;
+		display: grid;
+		gap: 4px 2px;
+		grid-template-columns: repeat(2, 1fr);
+	}
+
+	@media (max-width:670px) {
+		.plotGrid {
+			grid-template-columns: repeat(1, 1fr);
+			/* gap: 0px 0px; */
+			/* width: calc(100% - 40px); */
+		}
+	}
+
+	
 
 	.select {
 		/* margin:0 auto; */
 		z-index: 999999;
-		width: 150px;
+		width: 200px;
 		font-family: 'Roboto', sans-serif;
 		font-size: 14px;
 		opacity: 0.95;

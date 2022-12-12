@@ -29,7 +29,7 @@
 </script>
 
 
-<svg width=300 height=400>
+<svg width=200 height=400>
 
     <text class="label" x="10" y="22">Candidates ranked by similarity</text>
 
