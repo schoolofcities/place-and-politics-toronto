@@ -99,19 +99,19 @@
 		<p>
 			In this post we visualize which mayoral candidates are most alike and most unalike based on their geographic distribution of support. We do this by computing the correlation between all mayoral candidates who have received at least 5% of the vote in elections from 1997 to 2022. Specifically, we compute Pearson correlation coefficients between all candidates. These values range between -1.0 (strongest possible negative correlation) and 1.0 (strongest possible positive correlation).
 		</p>
-		<p>
+		<!-- <p>
 			The chart below initially links those candidates who are most similar (correlation coefficient 0.75 and greater). We can see strong similarity between candidates shown in our previous post on the right (e.g. the Ford brothers, Tory's two recent elections) and on the left (e.g. Penalosa, Keesemat, Chow, and Gomberg).
 		</p>
 		<p>	
 			The slider allows for filtering different correlation values. For example, moving it all the to the left side will show those who are least alike.
-		</p>
+		</p> -->
 
 	</div>
 
-	<div id="iframe-cor">
+	<!-- <div id="iframe-cor">
 		<iframe width="100%" height="553" frameBorder="0"
 		src="https://observablehq.com/embed/19651c303241ff66?cells=viewof+thresholds%2Cch"></iframe>
-	</div>
+	</div> -->
 
 	<!-- <div>
 		<div bind:this={animationRef}></div>
