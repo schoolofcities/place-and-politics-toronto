@@ -16,7 +16,11 @@
  	import { Runtime, Inspector } from '@observablehq/runtime'
  	import notebook from '@jamaps/force-directed-graph'
 
+	import {candidateStore} from "../lib/stores/stores.js";
+	
+	console.log($candidateStore)
 
+	// let candidate = "Tory 2022";
 
 	// let animationRef
 
@@ -29,23 +33,23 @@
 	// 	})
 	// })
     
-	let toggled = false
+	let toggled = false;
 	let	candidates = candidateLinks.nodes.map(obj => obj.id);
-	let candidate = "Tory 2022"
+	
 	function candidateSelect(e) {
-		candidate = e.detail.value;
+		$candidateStore = e.detail.value;
 		toggled = !toggled;
 	}
 
 	var candidateText = "Melvin Douglas Lastman was a Canadian businessman and politician who served as the third mayor of North York from 1973 to 1997 and 62nd mayor of Toronto from 1998 to 2003. He was the first person to serve as mayor of Toronto following the 1998 amalgamation of Metro Toronto and its six constituent municipalities. Lastman is also known for having founded the Bad Boy Furniture chain."
 	
-	$: candidateTitle = candidateInfo[candidate].fullname + " " + candidateInfo[candidate].year + " (" + candidateInfo[candidate].voteshare + "% of the vote citywide)";
+	$: candidateTitle = candidateInfo[$candidateStore].fullname + " " + candidateInfo[$candidateStore].year + " (" + candidateInfo[$candidateStore].voteshare + "% of the vote citywide)";
 
-	$: imageLink = 'candidate-photos/' +  candidateInfo[candidate].image + '.png';
+	$: imageLink = 'candidate-photos/' +  candidateInfo[$candidateStore].image + '.png';
 
 	let barChartWidth;
 
-	$: barWidth = candidateInfo[candidate].voteshare * barChartWidth / 100
+	$: barWidth = candidateInfo[$candidateStore].voteshare * barChartWidth / 100
 
 </script>
 
@@ -136,7 +140,7 @@
 			<div class="select">
 				<Select 
 					items={candidates} 
-					value={candidate}
+					value={$candidateStore}
 					isSearchable={false}
 					isClearable={false}
 					on:select={candidateSelect}
@@ -154,7 +158,7 @@
 
 		<div id="wrapper-info">
 
-			<img class="face" src={imageLink} width="200" height="200">
+			<img class="face" src={imageLink} alt={candidateInfo[$candidateStore].fullname} width="200" height="200">
 
 			<div class="candidate-text">
 				<div class="candidate-title">
@@ -180,12 +184,12 @@
 			
 			<div class="mapSmall">
 				{#key toggled}
-					<MapMiniCor candidate = {candidate} tracts={ctWithResults} />
+					<MapMiniCor candidate = {$candidateStore} tracts={ctWithResults} />
 				{/key}
 			</div>
 
 			<div class="corplot">
-				<CorList candidate = {candidate}/>
+				<CorList candidate = {$candidateStore}/>
 			</div>
 		</div>
 

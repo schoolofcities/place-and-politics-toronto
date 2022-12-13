@@ -6,12 +6,15 @@
 
     export let candidate;
 
+    import {candidateStore} from "../lib/stores/stores.js";
+
+
     var links = candidateCor.links;
 
-    $: test = links.filter(d => d.source === candidate || d.target === candidate)
+    $: test = links.filter(d => d.source === $candidateStore || d.target === $candidateStore)
 
     $: test.map((item) => {
-		item.source === candidate
+		item.source === $candidateStore
 			? (item["compare"] = item.target)
 			: (item["compare"] = item.source);
 	});
@@ -26,6 +29,11 @@
         return b.value - a.value;
     });
 
+    function candidateSelect(c) {
+        console.log(c);
+        $candidateStore = c;
+    }
+
 </script>
 
 
@@ -39,12 +47,15 @@
     {#each data as c, i}
         <rect class="box" width="50" height="17" x="10" y={33 + i * 18} style="fill:{c.colour};"></rect>
 	{/each}
+
     {#each data as c, i}
         <rect class="box" width="130" height="17" x="61" y={33 + i * 18} style="fill:{c.colour};"></rect>
 	{/each}
+
     {#each data as c, i}
         <text class="label" x="67" y={47 + i * 18}>{c.compare}</text>
 	{/each}
+
     {#each data as c, i}
         {#if c.value >= 0}
             <text class="label" x="24" y={47 + i * 18}>{c.value.toFixed(2)}</text>
@@ -53,12 +64,18 @@
         {/if}
 	{/each}
 
+    {#each data as c, i}
+        <rect class="select" width="181" height="17" x="10" y={33 + i * 18} on:click|once={candidateSelect(c.compare)}></rect>
+	{/each}
+
     <rect class="bg" width="183" height="361" x="9" y="32"></rect>
+
 </svg>
 
 
 
 <style>
+
     .box {
         stroke: #ffffff;
         opacity: 0.33
@@ -69,10 +86,21 @@
         stroke: #cecece;
     }
 
+    .select {
+        fill: #ffffff45;
+        stroke: black;
+        opacity: 0;
+    }
+    .select:hover {
+        cursor: pointer;
+        opacity: 1;
+    }
+
 	.label {
 		font-size: 13px;
 		fill: #383838;
 		font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
 			Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 	}
+
 </style>
