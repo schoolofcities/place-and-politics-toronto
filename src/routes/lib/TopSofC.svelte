@@ -32,7 +32,7 @@
 		padding-left: 0px;
 		padding-right: 0px;
 		/* text-align: center; */
-		z-index: 5;
+		z-index: 105;
 		opacity: 0.98;
 		box-shadow: 0 2px 0 0 rgba(224, 224, 224, 0.268);
 	}

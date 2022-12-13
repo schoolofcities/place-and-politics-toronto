@@ -30,10 +30,8 @@
 
 
 
-<svg width=200 height=400 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1">
-    <a xlink:href= "http://example.com/link/" xlink:title="The link opens an example page in a new tab/window" xlink:show="new">
-        
-      
+<svg width=200 height=400>
+   
     <text class="label" x="10" y="22">
         Candidates ranked by similarity
     </text> 

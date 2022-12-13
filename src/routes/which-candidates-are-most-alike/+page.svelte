@@ -193,6 +193,8 @@
 
 	<div id="mini-line"></div>
 
+	<!-- <CorList candidate = {candidate}/> -->
+
 	<div class="info">
 		<h3>Data Sources:</h3>
 		<p>
@@ -298,17 +300,6 @@
 		}
 	}
 
-	.corplot {
-		/* background-color: #3d53fb; */
-		z-index: -10;
-		margin: auto;
-		padding: -10px;
-		max-width: 220px;
-		width: 220px;
-		margin: 0 auto;
-		/* border: solid 1px #f4f4f4; */
-	}
-
 	.plotGrid {
 		margin: auto;
 		padding-bottom: 42px;
@@ -318,6 +309,19 @@
 		gap: 4px 2px;
 		grid-template-columns: repeat(2, 1fr);
 	}
+
+	.corplot {
+		/* background-color: #3d53fb; */
+		/* z-index: -10; */
+		margin: auto;
+		padding: -10px;
+		max-width: 220px;
+		width: 220px;
+		margin: 0 auto;
+		/* border: solid 1px #f4f4f4; */
+	}
+
+	
 
 	@media (max-width:670px) {
 		.plotGrid {
@@ -330,7 +334,7 @@
 	.select {
 		/* margin:0 auto; */
 		/* float: left; */
-		z-index: 999999;
+		z-index: 99;
 		width: 200px;
 		font-family: 'Roboto', sans-serif;
 		font-size: 14px;

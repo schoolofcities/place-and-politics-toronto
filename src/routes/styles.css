@@ -121,7 +121,7 @@ a:hover {
 
 .mapSmall {
     /* background-color: #3d53fb; */
-    z-index: -10;
+    /* z-index: -10; */
     margin: auto;
     padding: -10px;
     max-width: 420px;
