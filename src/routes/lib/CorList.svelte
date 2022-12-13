@@ -29,11 +29,10 @@
 </script>
 
 
+
 <svg width=200 height=400>
 
-    <text class="label" x="10" y="22">Candidates ranked by similarity</text>
-
-    
+    <text class="label" x="10" y="22">Candidates ranked by similarity</text>    
 
     {#each data as c, i}
         <rect class="box" width="50" height="17" x="10" y={33 + i * 18} style="fill:{c.colour};"></rect>

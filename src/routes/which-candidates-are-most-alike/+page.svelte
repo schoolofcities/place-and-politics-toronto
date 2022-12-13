@@ -43,11 +43,11 @@
 
 	$: imageLink = 'candidate-photos/' +  candidateInfo[candidate].image + '.png';
 
+	let barChartWidth;
 
+	$: barWidth = candidateInfo[candidate].voteshare * barChartWidth / 100
 
 </script>
-
-
 
 
 
@@ -66,10 +66,7 @@
 		content="width=device-width, initial-scale=1, minimum-scale=1"
 	/>
 
-    
-
 </svelte:head>
-
 
 
 
@@ -127,23 +124,33 @@
 		The above chart shows overall linkages, but it's a bit difficult to drill into specific candidates. Below, you can select and focus on mayoral candidate from a specific election year. Once selected, it will display a map of their electoral support across the city, as well as a list of candidates from other elections ranked by their similarity.
 		</p>
 		
-	
 	</div>
 
 	<div class="candidate-info">
 
-		<div class="select">
-			<Select 
+		<div id="wrapper-select">
+
+			<div class="select">
+				<Select 
 					items={candidates} 
 					value={candidate}
 					isSearchable={false}
 					isClearable={false}
 					on:select={candidateSelect}
 				>
-			</Select>
+				</Select>
+			</div>
+			
+			<div id="barChart" bind:offsetWidth={barChartWidth}>
+				<svg width={barWidth} height=27>
+					<rect class="barPercent" width={barWidth} height="27" x="0" y="0"></rect>
+				</svg>
+			</div>
+
 		</div>
 
-		<div id="wrapper">
+		<div id="wrapper-info">
+
 			<img class="face" src={imageLink} width="200" height="200">
 
 			<div class="candidate-text">
@@ -166,17 +173,12 @@
 	
 	<div class="text">
 
-		 
-
-
 		<div class="plotGrid">
 			
 			<div class="mapSmall">
-				
 				{#key toggled}
 					<MapMiniCor candidate = {candidate} tracts={ctWithResults} />
 				{/key}
-
 			</div>
 
 			<div class="corplot">
@@ -222,7 +224,27 @@
 		padding-bottom: 15px;
 	}
 
-	#wrapper {
+	#wrapper-select {
+		display: flex;
+		padding-top: 0px;
+		max-width: 625px;
+	}
+
+	#barChart {
+		background-color: #deebf7;
+		height: 27px;
+		margin-left: 25px;
+		width: calc(100% - 225px);
+		overflow: hidden;
+	}
+
+	.barPercent {
+        fill: #9ecae1;
+    }
+
+
+
+	#wrapper-info {
 		padding-top: 20px;
 		overflow: hidden;
 		padding-left: 1px;
@@ -301,10 +323,9 @@
 		}
 	}
 
-	
-
 	.select {
 		/* margin:0 auto; */
+		/* float: left; */
 		z-index: 999999;
 		width: 200px;
 		font-family: 'Roboto', sans-serif;
