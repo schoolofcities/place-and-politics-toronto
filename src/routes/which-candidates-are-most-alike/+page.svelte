@@ -78,7 +78,7 @@
 	
 	<div class="title">
 
-		<h4>Place & Politics in Toronto - Part 3</h4>
+		<h4>Place & Politics in Toronto - Part 4</h4>
 
 		<div id="mini-line"></div>
 
@@ -120,11 +120,14 @@
   src="https://observablehq.com/embed/@jamaps/canadas-population-by-longitude?cells=b1"></iframe> -->
 
 	<div class="text">
+
 		<p>
-		The above chart shows overall linkages, but it's a bit difficult to drill into specific candidates. Below, you can select and focus on mayoral candidate from a specific election year. Once selected, it will display a map of their electoral support across the city, as well as a list of candidates from other elections ranked by their similarity.
+			Below, you can select and focus on mayoral candidate from a specific election year. Once selected, it will display a map of their electoral support across the city, as well as a list of candidates from other elections ranked by their similarity.
 		</p>
 		
 	</div>
+
+	<div id="mini-line"></div>
 
 	<div class="candidate-info">
 
@@ -222,6 +225,7 @@
 		padding-left: 25px;
 		padding-right: 25px;
 		padding-bottom: 15px;
+		padding-top: 50px;
 	}
 
 	#wrapper-select {

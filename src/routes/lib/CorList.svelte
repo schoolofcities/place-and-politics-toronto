@@ -30,9 +30,13 @@
 
 
 
-<svg width=200 height=400>
-
-    <text class="label" x="10" y="22">Candidates ranked by similarity</text>    
+<svg width=200 height=400 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1">
+    <a xlink:href= "http://example.com/link/" xlink:title="The link opens an example page in a new tab/window" xlink:show="new">
+        
+      
+    <text class="label" x="10" y="22">
+        Candidates ranked by similarity
+    </text> 
 
     {#each data as c, i}
         <rect class="box" width="50" height="17" x="10" y={33 + i * 18} style="fill:{c.colour};"></rect>
