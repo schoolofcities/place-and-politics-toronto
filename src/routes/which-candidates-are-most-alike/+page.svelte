@@ -3,6 +3,7 @@
 	import Top from "../lib/TopSofC.svelte";
 	import '../styles.css';
 	import candidateLinks from "../data/candidate_links.json"
+	import candidateInfo from "../data/candidate_info.json";
 	import ctWithResults from "../data/ctWithResults.geo.json";
 
 	import UnderConstruction from "../lib/UnderConstruction.svelte";
@@ -11,14 +12,11 @@
 	import CorList from "../lib/CorList.svelte";
 	import Select from 'svelte-select';
 
-	import candidateInfo from "../data/candidate_info.json";
-
 	import { onMount } from 'svelte'
  	import { Runtime, Inspector } from '@observablehq/runtime'
  	import notebook from '@jamaps/force-directed-graph'
-	
 
-	 import lastman from "../assets/candidate-photos/lastman.png";
+
 
 	// let animationRef
 
@@ -42,6 +40,10 @@
 	var candidateText = "Melvin Douglas Lastman was a Canadian businessman and politician who served as the third mayor of North York from 1973 to 1997 and 62nd mayor of Toronto from 1998 to 2003. He was the first person to serve as mayor of Toronto following the 1998 amalgamation of Metro Toronto and its six constituent municipalities. Lastman is also known for having founded the Bad Boy Furniture chain."
 	
 	$: candidateTitle = candidateInfo[candidate].fullname + " " + candidateInfo[candidate].year + " (" + candidateInfo[candidate].voteshare + "% of the vote citywide)";
+
+	$: imageLink = 'candidate-photos/' +  candidateInfo[candidate].image + '.png';
+
+
 
 </script>
 
@@ -142,7 +144,7 @@
 		</div>
 
 		<div id="wrapper">
-			<img class="face" src={lastman} width="200" height="200">
+			<img class="face" src={imageLink} width="200" height="200">
 
 			<div class="candidate-text">
 				<div class="candidate-title">
@@ -328,6 +330,5 @@
 		--indicatorColor: #08519c;
 		--indicatorRight: 3px;
 	}
-
 
 </style>
