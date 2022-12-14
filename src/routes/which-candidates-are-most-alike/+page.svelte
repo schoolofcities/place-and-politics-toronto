@@ -41,7 +41,7 @@
 		toggled = !toggled;
 	}
 
-	var candidateText = "Melvin Douglas Lastman was a Canadian businessman and politician who served as the third mayor of North York from 1973 to 1997 and 62nd mayor of Toronto from 1998 to 2003. He was the first person to serve as mayor of Toronto following the 1998 amalgamation of Metro Toronto and its six constituent municipalities. Lastman is also known for having founded the Bad Boy Furniture chain."
+	$: candidateText = candidateInfo[$candidateStore].text;
 	
 	$: candidateTitle = candidateInfo[$candidateStore].fullname + " " + candidateInfo[$candidateStore].year + " (" + candidateInfo[$candidateStore].voteshare + "% of the vote citywide)";
 
@@ -189,7 +189,9 @@
 			</div>
 
 			<div class="corplot">
-				<CorList candidate = {$candidateStore}/>
+				{#key toggled}
+					<CorList candidate = {$candidateStore}/>
+				{/key}
 			</div>
 		</div>
 
