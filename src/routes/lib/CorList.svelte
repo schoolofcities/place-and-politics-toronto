@@ -8,7 +8,6 @@
 
     import {candidateStore} from "../lib/stores/stores.js";
 
-
     var links = candidateCor.links;
 
     $: test = links.filter(d => d.source === $candidateStore || d.target === $candidateStore)
