@@ -100,16 +100,12 @@
 	<div class="text">
 		<p>
 			In our two previous posts we used maps to show that there is remarkable continuity in the geography of support for different types of candidates across the 25 years and eight elections since Toronto’s 1997 amalgamation. Support for progressive and conservative candidates is geographically concentrated. These patterns suggest that we can think more systematically about the relationships between candidates’ support bases across time.
+		</p><p>
+			In this post we visualize, across the eight elections, which mayoral election candidates are most and least alike based on the geographic distribution of support they received.  We do this by calculating correlation coefficients, which indicate how much each mayoral candidates’ neighbourhood vote shares are similar to, or different from, every other candidate’s. The values range between <span id="textNeg">–1.0</span> (least alike) and <span id="textPos">+1.0</span> (most alike).
+		</p><p>
+			After picking a mayoral candidate below, the app shows a map of their electoral support across the city and a list of the other candidates ranked by how similar they are to the selected candidate. Unsurprisingly, candidates who ran against each other in two-way races score as least alike – Hall and Lastman in 1997, for example. You will also find that the candidates we highlighted in previous posts as coming from more progressive or more conservative ends of the political spectrum tend to have strong positive scores. Especially interesting, however, are the similarities and differences between repeat candidates. For example, check out John Tory’s geographic support bases across the four elections in which he ran. Hall, Lastman, and Miller each ran twice. Rob and Doug Ford can also be compared. See what you find!
 		</p>
-		<p>
-			In this post we visualize which mayoral candidates are most alike and most unalike based on their geographic distribution of support. We do this by computing the correlation between all mayoral candidates who have received at least 5% of the vote in elections from 1997 to 2022. Specifically, we compute Pearson correlation coefficients between all candidates. These values range between -1.0 (strongest possible negative correlation) and 1.0 (strongest possible positive correlation).
-		</p>
-		<!-- <p>
-			The chart below initially links those candidates who are most similar (correlation coefficient 0.75 and greater). We can see strong similarity between candidates shown in our previous post on the right (e.g. the Ford brothers, Tory's two recent elections) and on the left (e.g. Penalosa, Keesemat, Chow, and Gomberg).
-		</p>
-		<p>	
-			The slider allows for filtering different correlation values. For example, moving it all the to the left side will show those who are least alike.
-		</p> -->
+		
 
 	</div>
 
@@ -125,13 +121,6 @@
 	<iframe width="100%" height="380" frameborder="0"
   src="https://observablehq.com/embed/@jamaps/canadas-population-by-longitude?cells=b1"></iframe> -->
 
-	<div class="text">
-
-		<p>
-			Below, you can select and focus on mayoral candidate from a specific election year. Once selected, it will display a map of their electoral support across the city, as well as a list of candidates from other elections ranked by their similarity.
-		</p>
-		
-	</div>
 
 	<div id="mini-line"></div>
 
@@ -209,7 +198,7 @@
 	<div class="info">
 		<h3>Data Sources:</h3>
 		<p>
-			This post uses the same historical neighbourhood-scale (census tract) election results as previous posts in this series. The correlation coefficients were computed in R.
+			This post uses the same historical neighbourhood-scale (census tract) election results as previous posts in this series. Pearson correlation coefficients were computed in R. Only mayoral candidates that received at least 5% of the citywide vote are included. 
 		</p>
 		<p>
 		
@@ -231,6 +220,20 @@
 		height: 450px;
 		overflow-y: hidden;
 	}
+
+	#textNeg {
+		text-decoration: none;
+		/* text-decoration-color: */
+		background-color: #d8adb682;
+		/* border: 2px solid #9ecae1;	 */
+	}
+
+	#textPos {
+		text-decoration: none;
+		/* text-decoration-color: */
+		background-color: #afbfd282;
+	}
+
 
 	.candidate-info {
 		margin: 0 auto;
@@ -292,7 +295,7 @@
 		text-decoration: none;
 		color: black;
 		/* text-decoration-color: */
-		border-bottom: 2px solid #9ecae1;	
+		border-bottom: 2px solid #9ecae1;
 	}
 
 	#yearText {
