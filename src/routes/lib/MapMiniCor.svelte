@@ -7,7 +7,7 @@
 
 	import { geoPath, geoMercator, scaleThreshold } from "d3";
 	import Wards from "../data/wards.geo.json";
-	import candidateInfo from "../data/candidate_info.json"
+	import candidateInfo from "../data/candidate_info.json";
 
 	// export var colours;
 	export let candidate;
@@ -19,10 +19,7 @@
 	
 	// ['#fff','#efedf5','#dadaeb','#bcbddc','#9e9ac8','#807dba','#6a51a3','#4a1486',"#350c63", "#17032e"]
 	
-	
-	
 	// ["#fff2b6", "#ece6af", "#d8daa8", "#c1cda1", "#a7bf99", "#88af91", "#609f89", "#008c80"];
-	
 
 	var breaks = [0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9];
 
@@ -51,15 +48,18 @@
 			: (item.properties["colour"] = "white");
 	});
 
-
 </script>
 
 
 
 <div bind:offsetWidth={divWidth}>
+
+
 	<svg width={innerWidth} {height} id="back">
 
-		<text class="label" x="12" y="22">{candidateInfo[candidate].fullname + " " + candidateInfo[candidate].year + " (" + candidateInfo[candidate].voteshare + "% of the vote citywide)"}</text>
+		
+
+		<text class="label" x="12" y="22">{"Map of electoral support for " + candidateInfo[candidate].fullname + " in " + candidateInfo[candidate].year}</text>
 
 		{#each ct as data}
 			<path class="ct" d={path(data)} fill={data.properties["colour"]} />
@@ -77,14 +77,11 @@
 
 		<text class="label" x="215" y="275">{"100%"}</text>
 		<text class="label" x="175" y="275">{breaks[7]*100 + "%"}</text>
-		<!-- <text class="label" x="373" y="175">{breaks[5]*100 + "%"}</text> -->
 		<text class="label" x="135" y="275">{breaks[5]*100 + "%"}</text>
-		<!-- <text class="label" x="373" y="195">{breaks[3]*100 + "%"}</text> -->
 		<text class="label" x="95" y="275">{breaks[3]*100 + "%"}</text>
-		<!-- <text class="label" x="373" y="215">{breaks[1]*100 + "%"}</text> -->
 		<text class="label" x="55" y="275">{breaks[1]*100 + "%"}</text>
 		<text class="label" x="20" y="275">{"0%"}</text>
-		
+
 		<rect class="box" width="202" height = "12" x="24" y="249" style="fill:black; stroke: none;"></rect>
 
 		<rect class="box" width="20" height = "10" x="205" y="250" style="fill:{colours[9]}; stroke: white;"></rect>
@@ -105,8 +102,13 @@
 
 <style>
 
+	img {
+		opacity: 0.9;
+	}
+
 	#back {
 		z-index: 0;
+		/* background-color: grey; */
 	}
 
 	.ct {
