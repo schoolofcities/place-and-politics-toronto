@@ -53,6 +53,24 @@
 		content="width=device-width, initial-scale=1, minimum-scale=1"
 	/>
 
+	<title>Place and Politics in Toronto</title>
+    <meta name="description" content="Place and Politics in Toronto">
+    <meta name="author" content="Zack Taylor & Jeff Allen">
+
+	<meta property="og:title" content="Place and Politics in Toronto" />
+    <meta name="og:description" content="Which Candidates Are Most Alike?" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://schoolofcities.github.io/place-and-politics-toronto/which-candidates-are-most-alike" />
+    <meta property="og:image" content="https://raw.githubusercontent.com/schoolofcities/place-and-politics-toronto/sveltekit/src/routes/assets/web-card-4.png" />
+    <meta property="og:locale" content="en_CA">
+
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:site" content="https://schoolofcities.github.io/place-and-politics-toronto/which-candidates-are-most-alike" />
+    <meta name="twitter:creator" content="@JeffAllenMaps" />
+    <meta name="twitter:title" content="Place and Politics in Toronto" />
+    <meta name="twitter:description" content="Which Candidates Are Most Alike?" />
+    <meta name="twitter:image" content="https://raw.githubusercontent.com/schoolofcities/place-and-politics-toronto/sveltekit/src/routes/assets/web-card-4.png" />
+
 </svelte:head>
 
 
@@ -84,7 +102,7 @@
 		</p><p>
 			In this post we visualize, across the eight elections, which mayoral election candidates are most and least alike based on the geographic distribution of support they received.  We do this by calculating correlation coefficients, which indicate how much each mayoral candidates’ neighbourhood vote shares are similar to, or different from, every other candidate’s. The values range between <span id="textNeg">–1.0</span> (least alike) and <span id="textPos">+1.0</span> (most alike).
 		</p><p>
-			After picking a mayoral candidate below, the app shows a map of their electoral support across the city and a list of the other candidates ranked by how similar they are to the selected candidate. Unsurprisingly, candidates who ran against each other in two-way races score as least alike – Hall and Lastman in 1997, for example. You will also find that the candidates we highlighted in previous posts as coming from more progressive or more conservative ends of the political spectrum tend to have strong positive scores. Especially interesting, however, are the similarities and differences between repeat candidates. For example, check out John Tory’s geographic support bases across the four elections in which he ran. Hall, Lastman, and Miller each ran twice. Rob and Doug Ford can also be compared. See what you find!
+			After picking a mayoral candidate below, the app shows a map of their electoral support across the city and a list of the other candidates ranked by how similar they are to the selected candidate. Unsurprisingly, candidates who ran against each other in two-way races score least alike to each other – Hall and Lastman in 1997, for example. You will also find that the candidates we highlighted in previous posts as coming from more progressive or more conservative ends of the political spectrum tend to have strong positive scores. Especially interesting, however, are the similarities and differences between repeat candidates. For example, check out John Tory’s geographic support bases across the four elections in which he ran. Hall, Lastman, and Miller each ran twice. Rob and Doug Ford can also be compared. See what you find!
 		</p>
 		
 
@@ -348,7 +366,6 @@
 		/* margin: 0 auto; */
 		/* border: solid 1px #f4f4f4; */
 	}
-
 
 	.select {
 		margin:0 auto;
