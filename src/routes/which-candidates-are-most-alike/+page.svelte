@@ -64,7 +64,7 @@
 		rel="stylesheet"
 	/>
 	<link
-		href="https://fonts.googleapis.com/css2?family=Roboto&family=Source+Serif+Pro&display=swap"
+		href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&family=Source+Serif+Pro&display=swap"
 		rel="stylesheet"
 	/>
 	<meta
@@ -154,7 +154,7 @@
 			<div class="candidate-text">
 
 				<div class="candidate-title">
-					<b>{candidateTitle}</b>
+					{candidateTitle}
 				</div>
 
 				<div class="candidate-body-web">
@@ -290,18 +290,19 @@
 
 	#votePercent {
 		text-decoration: none;
-		color: #08519c;
+		color: black;
 		/* text-decoration-color: */
 		border-bottom: 2px solid #9ecae1;	
 	}
 
 	#yearText {
-		font-weight: bold;
+		font-weight: 900;
 	}
 
 	.candidate-title {
 		border-bottom: 1px solid #dedede;
 		font-family: 'Roboto', sans-serif;
+		font-weight: 900;
 	}
 
 	.candidate-body-web {
