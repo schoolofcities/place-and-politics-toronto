@@ -266,6 +266,7 @@
 	}
 
 	.face {
+		padding-top: 23px;
 		padding-right: 30px;
 		overflow: hidden;
 		float: right;
