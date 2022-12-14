@@ -1,12 +1,4 @@
 {
-  "src/routes/assets/top-logo.svg": {
-    "file": "_app/immutable/assets/top-logo-015461e7.svg",
-    "src": "src/routes/assets/top-logo.svg"
-  },
-  "src/routes/assets/p1.png": {
-    "file": "_app/immutable/assets/p1-12e7b651.png",
-    "src": "src/routes/assets/p1.png"
-  },
   "src/routes/assets/p2.png": {
     "file": "_app/immutable/assets/p2-0d97c504.png",
     "src": "src/routes/assets/p2.png"
@@ -14,6 +6,14 @@
   "src/routes/assets/p3.png": {
     "file": "_app/immutable/assets/p3-ba338324.png",
     "src": "src/routes/assets/p3.png"
+  },
+  "src/routes/assets/top-logo.svg": {
+    "file": "_app/immutable/assets/top-logo-015461e7.svg",
+    "src": "src/routes/assets/top-logo.svg"
+  },
+  "src/routes/assets/p1.png": {
+    "file": "_app/immutable/assets/p1-12e7b651.png",
+    "src": "src/routes/assets/p1.png"
   },
   "src/routes/assets/p4.png": {
     "file": "_app/immutable/assets/p4-7568db1b.png",
@@ -32,12 +32,12 @@
     "src": "src/routes/assets/Trade Gothic LT Bold.ttf"
   },
   "node_modules/@sveltejs/kit/src/runtime/client/start.js": {
-    "file": "_app/immutable/start-622cb226.js",
+    "file": "_app/immutable/start-a210fd79.js",
     "src": "node_modules/@sveltejs/kit/src/runtime/client/start.js",
     "isEntry": true,
     "imports": [
       "_index-0bc29e7d.js",
-      "_singletons-9df8b22c.js"
+      "_singletons-81ddf929.js"
     ],
     "dynamicImports": [
       ".svelte-kit/generated/nodes/0.js",
@@ -58,16 +58,16 @@
     ]
   },
   "node_modules/@sveltejs/kit/src/runtime/components/error.svelte": {
-    "file": "_app/immutable/components/error.svelte-bcff7bb5.js",
+    "file": "_app/immutable/components/error.svelte-c9f5c66b.js",
     "src": "node_modules/@sveltejs/kit/src/runtime/components/error.svelte",
     "isEntry": true,
     "imports": [
       "_index-0bc29e7d.js",
-      "_singletons-9df8b22c.js"
+      "_singletons-81ddf929.js"
     ]
   },
   "src/routes/+page.svelte": {
-    "file": "_app/immutable/components/pages/_page.svelte-f78a9744.js",
+    "file": "_app/immutable/components/pages/_page.svelte-6962d171.js",
     "src": "src/routes/+page.svelte",
     "isEntry": true,
     "imports": [
@@ -85,7 +85,7 @@
     ]
   },
   "src/routes/the-electoral-geography-of-progressivism/+page.svelte": {
-    "file": "_app/immutable/components/pages/the-electoral-geography-of-progressivism/_page.svelte-5d8f80d7.js",
+    "file": "_app/immutable/components/pages/the-electoral-geography-of-progressivism/_page.svelte-971dbb65.js",
     "src": "src/routes/the-electoral-geography-of-progressivism/+page.svelte",
     "isEntry": true,
     "imports": [
@@ -100,7 +100,7 @@
     ]
   },
   "src/routes/the-geography-of-the-vote-poll-by-poll/+page.svelte": {
-    "file": "_app/immutable/components/pages/the-geography-of-the-vote-poll-by-poll/_page.svelte-10be8262.js",
+    "file": "_app/immutable/components/pages/the-geography-of-the-vote-poll-by-poll/_page.svelte-662162c4.js",
     "src": "src/routes/the-geography-of-the-vote-poll-by-poll/+page.svelte",
     "isEntry": true,
     "imports": [
@@ -114,7 +114,7 @@
     ]
   },
   "src/routes/torontos-two-rights/+page.svelte": {
-    "file": "_app/immutable/components/pages/torontos-two-rights/_page.svelte-1c13ee79.js",
+    "file": "_app/immutable/components/pages/torontos-two-rights/_page.svelte-37f5e98b.js",
     "src": "src/routes/torontos-two-rights/+page.svelte",
     "isEntry": true,
     "imports": [
@@ -129,7 +129,7 @@
     ]
   },
   "src/routes/which-candidates-are-most-alike/+page.svelte": {
-    "file": "_app/immutable/components/pages/which-candidates-are-most-alike/_page.svelte-031aa979.js",
+    "file": "_app/immutable/components/pages/which-candidates-are-most-alike/_page.svelte-225c811a.js",
     "src": "src/routes/which-candidates-are-most-alike/+page.svelte",
     "isEntry": true,
     "imports": [
@@ -191,8 +191,8 @@
       "__page-131ad561.js"
     ]
   },
-  "_singletons-9df8b22c.js": {
-    "file": "_app/immutable/chunks/singletons-9df8b22c.js",
+  "_singletons-81ddf929.js": {
+    "file": "_app/immutable/chunks/singletons-81ddf929.js",
     "imports": [
       "_index-e3c5e538.js"
     ]
@@ -268,7 +268,7 @@
     ]
   },
   ".svelte-kit/generated/nodes/1.js": {
-    "file": "_app/immutable/chunks/1-aa5b2f3e.js",
+    "file": "_app/immutable/chunks/1-a1c6a014.js",
     "src": ".svelte-kit/generated/nodes/1.js",
     "isDynamicEntry": true,
     "imports": [
@@ -276,7 +276,7 @@
     ]
   },
   ".svelte-kit/generated/nodes/2.js": {
-    "file": "_app/immutable/chunks/2-de99f947.js",
+    "file": "_app/immutable/chunks/2-2a87aa7d.js",
     "src": ".svelte-kit/generated/nodes/2.js",
     "isDynamicEntry": true,
     "imports": [
@@ -285,7 +285,7 @@
     ]
   },
   ".svelte-kit/generated/nodes/3.js": {
-    "file": "_app/immutable/chunks/3-d914f5c7.js",
+    "file": "_app/immutable/chunks/3-38ffc998.js",
     "src": ".svelte-kit/generated/nodes/3.js",
     "isDynamicEntry": true,
     "imports": [
@@ -294,7 +294,7 @@
     ]
   },
   ".svelte-kit/generated/nodes/4.js": {
-    "file": "_app/immutable/chunks/4-e18bf6a0.js",
+    "file": "_app/immutable/chunks/4-c2b0a621.js",
     "src": ".svelte-kit/generated/nodes/4.js",
     "isDynamicEntry": true,
     "imports": [
@@ -303,7 +303,7 @@
     ]
   },
   ".svelte-kit/generated/nodes/5.js": {
-    "file": "_app/immutable/chunks/5-dbcefd36.js",
+    "file": "_app/immutable/chunks/5-8730d396.js",
     "src": ".svelte-kit/generated/nodes/5.js",
     "isDynamicEntry": true,
     "imports": [
@@ -312,7 +312,7 @@
     ]
   },
   ".svelte-kit/generated/nodes/6.js": {
-    "file": "_app/immutable/chunks/6-b96a9d4f.js",
+    "file": "_app/immutable/chunks/6-3b5a6e67.js",
     "src": ".svelte-kit/generated/nodes/6.js",
     "isDynamicEntry": true,
     "imports": [
@@ -320,32 +320,32 @@
       "src/routes/which-candidates-are-most-alike/+page.svelte"
     ]
   },
+  "wards.css": {
+    "file": "_app/immutable/assets/wards-1bfac702.css",
+    "src": "wards.css"
+  },
   "top-logo.css": {
     "file": "_app/immutable/assets/top-logo-b57ade99.css",
     "src": "top-logo.css"
-  },
-  "src/routes/+page.css": {
-    "file": "_app/immutable/assets/_page-70074584.css",
-    "src": "src/routes/+page.css"
   },
   "UnderConstruction.css": {
     "file": "_app/immutable/assets/UnderConstruction-5ece73f1.css",
     "src": "UnderConstruction.css"
   },
-  "wards.css": {
-    "file": "_app/immutable/assets/wards-1bfac702.css",
-    "src": "wards.css"
-  },
-  "src/routes/the-geography-of-the-vote-poll-by-poll/+page.css": {
-    "file": "_app/immutable/assets/_page-d95cd1d0.css",
-    "src": "src/routes/the-geography-of-the-vote-poll-by-poll/+page.css"
-  },
   "MapMini.css": {
     "file": "_app/immutable/assets/MapMini-6e8de407.css",
     "src": "MapMini.css"
   },
+  "src/routes/+page.css": {
+    "file": "_app/immutable/assets/_page-70074584.css",
+    "src": "src/routes/+page.css"
+  },
   "src/routes/which-candidates-are-most-alike/+page.css": {
     "file": "_app/immutable/assets/_page-41bece88.css",
     "src": "src/routes/which-candidates-are-most-alike/+page.css"
+  },
+  "src/routes/the-geography-of-the-vote-poll-by-poll/+page.css": {
+    "file": "_app/immutable/assets/_page-d95cd1d0.css",
+    "src": "src/routes/the-geography-of-the-vote-poll-by-poll/+page.css"
   }
 }
