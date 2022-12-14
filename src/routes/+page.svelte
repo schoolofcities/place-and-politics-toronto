@@ -128,6 +128,19 @@
 			</div>
 		</a>
 
+		<a href="./place-and-politics-toronto/which-candidates-are-most-alike">
+			<div class="item">
+				<div class="number" style="background-image: url({p4});">
+				</div>
+				<div id="part">
+					<p>
+						<span class="date">Part 4 - December 14, 2022</span><br>
+						<u>Which Candidates Are Most Alike?</u>
+					</p>
+				</div>
+			</div>
+		</a>
+
 	</div>
 	
 	<br><br>

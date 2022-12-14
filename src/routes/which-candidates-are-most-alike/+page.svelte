@@ -6,32 +6,13 @@
 	import candidateInfo from "../data/candidate_info.json";
 	import ctWithResults from "../data/ctWithResults.geo.json";
 
-	import UnderConstruction from "../lib/UnderConstruction.svelte";
-
 	import MapMiniCor from "../lib/MapMiniCor.svelte";
 	import CorList from "../lib/CorList.svelte";
 	import Select from 'svelte-select';
 
-	import { onMount } from 'svelte'
- 	import { Runtime, Inspector } from '@observablehq/runtime'
- 	import notebook from '@jamaps/force-directed-graph'
-
 	import {candidateStore} from "../lib/stores/stores.js";
 	
 	console.log($candidateStore)
-
-	// let candidate = "Tory 2022";
-
-	// let animationRef
-
-	// onMount(() => {
-	// 	const runtime = new Runtime()
-	// 	runtime.module(notebook, name => {
-	// 		if (name === "chart") {
-	// 			return new Inspector(animationRef)
-	// 		}
-	// 	})
-	// })
     
 	let toggled = false;
 	let	candidates = candidateLinks.nodes.map(obj => obj.id);
@@ -89,7 +70,7 @@
 		<div id="mini-line"></div>
 
 		<h1>Which Candidates Are Most Alike?</h1>
-		<h3><a href="https://zacktaylor.com/">Zack Taylor</a> & <a href="https://jamaps.github.io/">Jeff Allen</a> <br><br> December 12, 2022</h3>
+		<h3><a href="https://zacktaylor.com/">Zack Taylor</a> & <a href="https://jamaps.github.io/">Jeff Allen</a> <br><br> December 14, 2022</h3>
 
 		<div id="mini-line"></div>
 
