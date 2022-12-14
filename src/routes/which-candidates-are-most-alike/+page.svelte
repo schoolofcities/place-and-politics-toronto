@@ -344,8 +344,8 @@
 		/* background-color: #3d53fb; */
 		/* z-index: -10; */
 		float: left;
-		margin: auto;
-		padding: -10px;
+		/* margin: auto; */
+		/* padding: -10px; */
 		padding-right: 10px;
 		max-width: 420px;
 		width: 420px;
