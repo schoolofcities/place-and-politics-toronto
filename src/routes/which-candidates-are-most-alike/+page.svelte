@@ -43,7 +43,9 @@
 
 	$: candidateText = candidateInfo[$candidateStore].text;
 	
-	$: candidateTitle = candidateInfo[$candidateStore].fullname + " " + candidateInfo[$candidateStore].year + " (" + candidateInfo[$candidateStore].voteshare + "% of the vote citywide)";
+	$: candidateTitle = candidateInfo[$candidateStore].fullname;
+
+	$: candidateResult = candidateInfo[$candidateStore].won + " the " + candidateInfo[$candidateStore].year + " election with " + candidateInfo[$candidateStore].voteshare + "% of the vote citywide)";
 
 	$: imageLink = 'candidate-photos/' +  candidateInfo[$candidateStore].image + '.png';
 
@@ -133,47 +135,50 @@
 
 	<div id="mini-line"></div>
 
+
+	<div class="select">
+		<Select 
+			items={candidates} 
+			value={$candidateStore}
+			isSearchable={false}
+			isClearable={false}
+			on:select={candidateSelect}
+		>
+		</Select>
+	</div>
+
 	<div class="candidate-info">
-
-		<div id="wrapper-select">
-
-			<div class="select">
-				<Select 
-					items={candidates} 
-					value={$candidateStore}
-					isSearchable={false}
-					isClearable={false}
-					on:select={candidateSelect}
-				>
-				</Select>
-			</div>
-			
-			<div id="barChart" bind:offsetWidth={barChartWidth}>
-				<svg width={barWidth} height=27>
-					<rect class="barPercent" width={barWidth} height="27" x="0" y="0"></rect>
-				</svg>
-			</div>
-
-		</div>
 
 		<div id="wrapper-info">
 
-			<img class="face" src={imageLink} alt={candidateInfo[$candidateStore].fullname} width="200" height="200">
-
 			<div class="candidate-text">
+
 				<div class="candidate-title">
 					<b>{candidateTitle}</b>
 				</div>
+
+				<div class="candidate-body-web">
+					{candidateResult}
+				</div>
+
+				<div id="barChart" bind:offsetWidth={barChartWidth}>
+					<svg width={barWidth} height=20>
+						<rect class="barPercent" width={barWidth} height="10" x="0" y="0"></rect>
+					</svg>
+				</div>
+				
 				<div class="candidate-body-web">
 					{candidateText}
 				</div>
 			</div>
+
+			<img class="face" src={imageLink} alt={candidateInfo[$candidateStore].fullname} width="183" height="183">
 			
 		</div>
 
-		<div class="candidate-body-mobile">
+		<!-- <div class="candidate-body-mobile">
 			{candidateText}
-		</div>
+		</div> -->
 
 	</div>
 
@@ -182,7 +187,7 @@
 
 		<div class="plotGrid">
 			
-			<div class="mapSmall">
+			<div class="mapCorSmall">
 				{#key toggled}
 					<MapMiniCor candidate = {$candidateStore} tracts={ctWithResults} />
 				{/key}
@@ -230,24 +235,19 @@
 	.candidate-info {
 		margin: 0 auto;
 		max-width: 670px;
-		padding-left: 25px;
+		padding-left: 0px;
 		padding-right: 25px;
 		padding-bottom: 15px;
 		padding-top: 50px;
 	}
 
-	#wrapper-select {
-		display: flex;
-		padding-top: 0px;
-		max-width: 625px;
-	}
-
 	#barChart {
 		background-color: #deebf7;
-		height: 27px;
-		margin-left: 25px;
-		width: calc(100% - 225px);
-		overflow: hidden;
+		height: 10px;
+		margin-top: 10px;
+		/* margin-left: 25px; */
+		width: calc(100%);
+		z-index: -999;
 	}
 
 	.barPercent {
@@ -263,18 +263,29 @@
 	}
 
 	.face {
-		float:left;
+		padding-right: 30px;
+		overflow: hidden;
+		float: right;
+	}
+
+	@media (max-width: 709px) {
+		.face {
+			float: left;
+			padding-left: 25px;
+		}
 	}
 
 	.candidate-text {
+		float:left;
 		font-family: "Source Serif Pro", serif;
 		font-size: 15px;
 		padding-left: 25px;
+		padding-right: 25px;
+		padding-bottom: 20px;
 		max-width: 400px;
+		min-width: 200px;
 		line-height: 160%;
     	text-align: left;
-		overflow: hidden;
-		
 	}
 
 	.candidate-title {
@@ -285,7 +296,7 @@
 	.candidate-body-web {
 		padding-top: 10px;
 	}
-	.candidate-body-mobile {
+	/* .candidate-body-mobile {
 		display: none;
 		font-family: "Source Serif Pro", serif;
 		font-size: 15px;
@@ -304,43 +315,50 @@
 		.candidate-body-web {
 			display: none;
 		}
-	}
+	} */
 
 	.plotGrid {
 		margin: auto;
+		/* overflow: hidden; */
 		padding-bottom: 42px;
 		max-width: 660px;
 		width: 100%;
-		display: grid;
+		/* display: grid; */
 		gap: 4px 2px;
-		grid-template-columns: repeat(2, 1fr);
+		/* grid-template-columns: repeat(2, 1fr); */
+	}
+
+	.mapCorSmall {
+		/* background-color: #3d53fb; */
+		/* z-index: -10; */
+		float: left;
+		margin: auto;
+		padding: -10px;
+		padding-right: 10px;
+		max-width: 420px;
+		width: 420px;
+		margin: 0 auto;
+		/* border: solid 1px #f4f4f4; */
 	}
 
 	.corplot {
 		/* background-color: #3d53fb; */
 		/* z-index: -10; */
-		margin: auto;
+		overflow: hidden;
 		padding: -10px;
 		max-width: 220px;
 		width: 220px;
-		margin: 0 auto;
+		/* margin: 0 auto; */
 		/* border: solid 1px #f4f4f4; */
 	}
 
-	
-
-	@media (max-width:670px) {
-		.plotGrid {
-			grid-template-columns: repeat(1, 1fr);
-			/* gap: 0px 0px; */
-			/* width: calc(100% - 40px); */
-		}
-	}
 
 	.select {
-		/* margin:0 auto; */
+		margin:0 auto;
 		/* float: left; */
-		z-index: 99;
+		margin-top: 30px;
+		margin-bottom: -20px;
+		z-index: 999;
 		width: 200px;
 		font-family: 'Roboto', sans-serif;
 		font-size: 14px;
