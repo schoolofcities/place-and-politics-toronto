@@ -45,7 +45,7 @@
 	
 	$: candidateTitle = candidateInfo[$candidateStore].fullname;
 
-	$: candidateResult = candidateInfo[$candidateStore].won + " the " + candidateInfo[$candidateStore].year + " election with " + candidateInfo[$candidateStore].voteshare + "% of the vote citywide)";
+	$: candidateResult = candidateInfo[$candidateStore].won + " the " + candidateInfo[$candidateStore].year + " election with <span id='percent'>" + candidateInfo[$candidateStore].voteshare + "%</span> of the vote citywide";
 
 	$: imageLink = 'candidate-photos/' +  candidateInfo[$candidateStore].image + '.png';
 
@@ -158,7 +158,7 @@
 				</div>
 
 				<div class="candidate-body-web">
-					{candidateResult}
+					{candidateInfo[$candidateStore].won} the <span id="yearText">{candidateInfo[$candidateStore].year}</span> election with <span id="votePercent">{candidateInfo[$candidateStore].voteshare}%</span> of the vote citywide.
 				</div>
 
 				<div id="barChart" bind:offsetWidth={barChartWidth}>
@@ -286,6 +286,17 @@
 		min-width: 200px;
 		line-height: 160%;
     	text-align: left;
+	}
+
+	#votePercent {
+		text-decoration: none;
+		color: #08519c;
+		/* text-decoration-color: */
+		border-bottom: 2px solid #9ecae1;	
+	}
+
+	#yearText {
+		font-weight: bold;
 	}
 
 	.candidate-title {
