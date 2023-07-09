@@ -34,11 +34,41 @@
             "breaks": [0.2, 0.3, 0.4, 0.5],
             "colours": ["#fbffe0", "#e8f1a9", "#c5de75", "#94b956", "#68983b"]
         },
+        "saunders": {
+            "name": "Mark Saunders",
+            "column": "saunders_mark",
+            "breaks": [0.05, 0.1, 0.15, 0.2],
+            "colours": ["#f0f1f6", "#bec2d4", "#888faf", "#515d8b", "#1f2e69"]
+        },
+        "furey": {
+            "name": "Anthony Furey",
+            "column": "furey_anthony",
+            "breaks": [0.05, 0.1, 0.15, 0.2],
+            "colours": ["#f8ffff", "#a7e3e7", "#62ccd3", "#0dafbb", "#117c83"]
+        },
+        "matlow": {
+            "name": "Josh Matlow",
+            "column": "matlow_josh",
+            "breaks": [0.05, 0.1, 0.15, 0.2],
+            "colours": ["#f8ffff", "#b8f2df", "#80e7c2", "#40daa1", "#00a182"]
+        },
+        "hunter": {
+            "name": "Mitzie Hunter",
+            "column": "hunter_mitzie",
+            "breaks": [0.05, 0.1, 0.15, 0.2],
+            "colours": ["#f8feff", "#a5d6ed", "#4facdb", "#0085ca", "#00689f"]
+        },
         "brown": {
             "name": "Chloe Brown",
             "column": "brown_chloe_marie",
             "breaks": [0.05, 0.1, 0.15, 0.2],
             "colours": ["#fddede", "#f0b7b6", "#e1908e", "#ce6967", "#b94141"]
+        },
+        "bradford": {
+            "name": "Brad Bradford",
+            "column": "bradford_brad",
+            "breaks": [0.05, 0.1, 0.15, 0.2],
+            "colours": ["#f8feff", "#b8d2dd", "#7caabd", "#3e809c", "#00567b"]
         },
         "margin": {
             "name": "Margin between first- and second-place finisher",
