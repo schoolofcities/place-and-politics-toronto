@@ -1,5 +1,6 @@
 <script>
 
+	import Top from "./lib/TopSofC.svelte";	
     import './styles.css';
 	import logo from './assets/top-logo.svg';
 	import p1 from './assets/p1.png';
@@ -46,11 +47,13 @@
 
 
 
+<Top/>
+
 <main>
 
 	<!-- <UnderConstruction/> -->
 
-	<div id="homebar">
+	<!-- <div id="homebar">
 
 		<div id="content">
 		
@@ -60,7 +63,12 @@
 
 		</div>
 	
-	</div>
+	</div> -->
+
+	<br>
+	<br>
+	<br>
+	<br>
 	
 	
 	<div class="title">

@@ -2,7 +2,7 @@
 
 	import Top from "../lib/TopSofC.svelte";
 	import UnderConstruction from "../lib/UnderConstruction.svelte";
-	import Bar from "../lib/Bar.svelte";	
+	import Bar from "../lib/Bar2023.svelte";	
 	import Turnout from "../lib/Turnout.svelte";
 	import Map from "../lib/Map2023.svelte";	
     import WebCard from "../assets/web-card-1.png";
@@ -69,7 +69,12 @@
 
 	<div class="text">
 		<p>
-			It was, as most Torontonians expected, a <span style="background-color: #a7c9ff">John Tory</span> landslide in the October 24, 2022 election. Tory steamrolled over his opponents with <span style="background-color: #a7c9ff">342,158 votes</span> and <span style="background-color: #a7c9ff">62.0%</span> of votes cast. The runner up, <span style="background-color: #b3e5b2">Gil Peñalosa</span>, ended election night far behind, with <span style="background-color: #b3e5b2">17.8%</span> and <span style="background-color: #b3e5b2">98,525 votes</span>. Insurgent third-place candidate <span style="background-color: #f0b7b6">Chloe Brown</span> finished with <span style="background-color: #f0b7b6">6.3%</span> and <span style="background-color: #f0b7b6">34,821 votes</span>.
+			Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+		</p>
+		<p>
+			The winner, <span style="background-color: #c27dcf">Olivia Chow</span> had <span style="background-color: #c27dcf">269,372 votes</span> and <span style="background-color: #c27dcf">37.17% </span> of votes cast.
+			The runner up, <span style="background-color: #c5de75">Ana Bailão</span>, ended election night with <span style="background-color: #c5de75">32.46% </span> and <span style="background-color: #c5de75">235,175 votes</span>.
+			Third-place candidate <span style="background-color: #bec2d4">Mark Saunders</span> finished with <span style="background-color: #bec2d4">8.58%</span> and <span style="background-color: #bec2d4">62,167 votes</span>.
 		</p>
 
 		<div class="bar">
