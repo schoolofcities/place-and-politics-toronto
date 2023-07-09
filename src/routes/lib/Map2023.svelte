@@ -122,78 +122,33 @@
                 'data': WardPts
             });
             
-            if (candidate === "margin") {
-                map.addLayer({
+            map.addLayer({
                 'id': 'VotingSubDivisionsFill',
                 'type': 'fill',
                 'source': 'VotingSubDivisions',
                 'layout': {},
                 'paint': {
-                    'fill-color': [
-                        'step',
-                        ['get', candidates[candidate].column],
-                        candidates[candidate].colours[0],
-                        candidates[candidate].breaks[0],
-                        candidates[candidate].colours[1],
-                        candidates[candidate].breaks[1],
-                        candidates[candidate].colours[2],
-                        candidates[candidate].breaks[2],
-                        candidates[candidate].colours[3],
-                        candidates[candidate].breaks[3],
-                        candidates[candidate].colours[4]
-                    ], 
+                    'fill-color':  [
+                        'case',
+                        ['>=', ['/', ['get', candidates[candidate].column], ['get', 'total']], -1],
+                        [
+                            'step',
+                            ['/', ['get', candidates[candidate].column], ['get', 'total']],
+                            candidates[candidate].colours[0],
+                            candidates[candidate].breaks[0],
+                            candidates[candidate].colours[1],
+                            candidates[candidate].breaks[1],
+                            candidates[candidate].colours[2],
+                            candidates[candidate].breaks[2],
+                            candidates[candidate].colours[3],
+                            candidates[candidate].breaks[3],
+                            candidates[candidate].colours[4]
+                        ],
+                        "#fff"
+                ], 
                     'fill-opacity': layerOpacity
                     }
                 }, 'rail');
-            } else if (candidate === "race") {
-                map.addLayer({
-                'id': 'VotingSubDivisionsFill',
-                'type': 'fill',
-                'source': 'VotingSubDivisions',
-                'layout': {},
-                'paint': {
-                    'fill-color': [
-                        'match',
-                        ['get', 'contest'],
-                        'Tory-Penalosa',
-                        '#3d53fb',
-                        'Tory-Brown',
-                        '#c78bf4',
-                        'Penalosa-Tory',
-                        '#369a1b',
-                        'Penalosa-Brown',
-                        '#3bb2d0',
-                        'Brown-Penalosa',
-                        '#b94141',
-                        /* other */ '#ccc'
-                    ], 
-                    'fill-opacity': layerOpacity
-                    }
-                }, 'rail');
-            } else {
-                map.addLayer({
-                'id': 'VotingSubDivisionsFill',
-                'type': 'fill',
-                'source': 'VotingSubDivisions',
-                'layout': {},
-                'paint': {
-                    'fill-color': [
-                        'step',
-                        ['/', ['get', candidates[candidate].column], ['get', 'total']],
-                        candidates[candidate].colours[0],
-                        candidates[candidate].breaks[0],
-                        candidates[candidate].colours[1],
-                        candidates[candidate].breaks[1],
-                        candidates[candidate].colours[2],
-                        candidates[candidate].breaks[2],
-                        candidates[candidate].colours[3],
-                        candidates[candidate].breaks[3],
-                        candidates[candidate].colours[4]
-                    ], 
-                    'fill-opacity': layerOpacity
-                    }
-                }, 'rail');
-            }
 
             map.addLayer({
                 'id': 'VotingSubDivisionsLine',
@@ -264,26 +219,8 @@
         });
 
         map.on('mousemove', 'VotingSubDivisionsFill', (e) => {
-            if (candidate === "margin") {
-                message = "Ward: " + e.features[0].properties.ward + " --- Poll: " + e.features[0].properties.vsd + " --- Margin: " + Math.round(100 * e.features[0].properties[candidates[candidate].column]) + "%"
-            } else if (candidate === "race") {
-                let name = "1) Tory 2) Peñalosa"
-                if (e.features[0].properties.contest === "Tory-Brown") {
-                    name = "1) Tory 2) Brown"
-                }
-                if (e.features[0].properties.contest === "Penalosa-Brown") {
-                    name = "1) Peñalosa 2) Brown"
-                }
-                if (e.features[0].properties.contest === "Penalosa-Tory") {
-                    name = "1) Peñalosa 2) Tory"
-                }
-                if (e.features[0].properties.contest === "Brown-Penalosa") {
-                    name = "1) Brown 2) Peñalosa"
-                }
-                message = "Ward: " + e.features[0].properties.ward + " --- Poll: " + e.features[0].properties.vsd + " --- Top-two finishers: " + name
-            } else {
-                message = "Ward: " + e.features[0].properties.ward + " --- Poll: " + e.features[0].properties.vsd + " --- Total Votes: " + e.features[0].properties.total + " --- Votes for " + candidates[candidate].name + ": " + e.features[0].properties[candidates[candidate].column] +  " --- % for " + candidates[candidate].name + ": " + Math.round(100 * e.features[0].properties[candidates[candidate].column] / e.features[0].properties.total) + "%"  
-            }
+            
+            message = "Ward: " + e.features[0].properties.ward + " --- Poll: " + e.features[0].properties.vsd + " --- Total Votes: " + e.features[0].properties.total + " --- Votes for " + candidates[candidate].name + ": " + e.features[0].properties[candidates[candidate].column] +  " --- % for " + candidates[candidate].name + ": " + Math.round(100 * e.features[0].properties[candidates[candidate].column] / e.features[0].properties.total) + "%"  
                   
         });
 

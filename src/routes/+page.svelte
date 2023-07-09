@@ -30,7 +30,7 @@
     <meta name="author" content="Zack Taylor & Jeff Allen">
 
     <meta property="og:title" content="Place and Politics in Toronto" />
-    <meta name="og:description" content="Mapping the 2022 Toronto Election" />
+    <meta name="og:description" content="A blog series mapping City of Toronto election results " />
     <meta property="og:type" content="website" />
     <meta property="og:url" content="https://schoolofcities.github.io/place-and-politics-toronto/" />
     <meta property="og:image" content="https://raw.githubusercontent.com/schoolofcities/place-and-politics-toronto/main/src/routes/assets/web-card-1.png" />
@@ -40,7 +40,7 @@
     <meta name="twitter:site" content="https://schoolofcities.github.io/place-and-politics-toronto/" />
     <meta name="twitter:creator" content="@JeffAllenMaps" />
     <meta name="twitter:title" content="Place and Politics in Toronto" />
-    <meta name="twitter:description" content="Mapping the 2022 Toronto Election" />
+    <meta name="twitter:description" content="A blog series mapping City of Toronto election results" />
     <meta name="twitter:image" content="https://raw.githubusercontent.com/schoolofcities/place-and-politics-toronto/main/src/routes/assets/web-card-1.png" />
 
 </svelte:head>
