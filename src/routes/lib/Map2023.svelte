@@ -60,7 +60,7 @@
         },
         "brown": {
             "name": "Chloe Brown",
-            "column": "brown_chloe_marie",
+            "column": "brown_chloe",
             "breaks": [0.05, 0.1, 0.15, 0.2],
             "colours": ["#fddede", "#f0b7b6", "#e1908e", "#ce6967", "#b94141"]
         },
