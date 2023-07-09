@@ -1,10 +1,14 @@
 <script>
 
     const margin = { top: 1, bottom: 1, left: 1, right: 1 };
-	const height = 180;
+	const height = 200;
     let divWidth;
 
     let results = [
+        {
+            "year": "2023",
+            "votes": 722877 
+        },
         {
             "year": "2022",
             "votes": 551890
@@ -63,7 +67,7 @@
                 <text class="label" x={60 + (divWidth - 150) * votes / 1000000} y={10 + i * 20}>{votes.toLocaleString("en-US")}</text>
             {/each}
 
-            <text class="label" x="60" y="170">Total Votes For Mayor</text>
+            <text class="label" x="60" y="{height - 10}">Total Votes For Mayor</text>
 
             <text class="label" x="0" y="0" transform="rotate(270,63,51)">Election Year</text>
 		</g>

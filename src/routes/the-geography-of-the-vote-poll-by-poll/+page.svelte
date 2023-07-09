@@ -79,7 +79,7 @@
 
 	<div class="text">
 		<p>
-			Voter turnout was a record low. Fewer people cast votes for mayor than in any election since amalgamation in 1997, even though the city has added over 400,000 new residents between 1997 and 2022.
+			Voter turnout in 2022 was a record low. Fewer people cast votes for mayor than in any election since amalgamation in 1997, even though the city has added over 400,000 new residents between 1997 and 2022.
 		</p>
 		<div class="turnout">
 			<Turnout/>
