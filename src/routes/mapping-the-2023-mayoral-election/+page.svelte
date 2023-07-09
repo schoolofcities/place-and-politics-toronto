@@ -4,7 +4,7 @@
 	import UnderConstruction from "../lib/UnderConstruction.svelte";
 	import Bar from "../lib/Bar.svelte";	
 	import Turnout from "../lib/Turnout.svelte";
-	import Map from "../lib/Map.svelte";	
+	import Map from "../lib/Map2023.svelte";	
     import WebCard from "../assets/web-card-1.png";
 	import '../styles.css';
 
@@ -52,7 +52,7 @@
 
 <main>
 
-	<!-- <UnderConstruction/> -->
+	<UnderConstruction/>
 	
 	<div class="title">
 
@@ -60,7 +60,7 @@
 
 		<div id="mini-line"></div>
 
-		<h1>The geography of the vote, poll by poll</h1>
+		<h1>Mapping the 2023 Mayoral By-Election</h1>
 		<h3><a href="https://zacktaylor.com/">Zack Taylor</a> & <a href="https://jamaps.github.io/">Jeff Allen</a> <br><br> July 11, 2023</h3>
 
 		<div id="mini-line"></div>
@@ -79,7 +79,7 @@
 
 	<div class="text">
 		<p>
-			Text
+			Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 		</p>
 		<div class="turnout">
 			<Turnout/>
@@ -88,51 +88,34 @@
 
 	<div class="text">
 		<p>
-			Text
+			Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 		</p>
 	</div>
 
-	<Map candidate = "tory"/>
+	<Map candidate = "chow"/>
 
 	<div class="text">
 		<p>
-			Text
+			Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 		</p>
 	</div>
 
-	<Map candidate = "penalosa"/>
+	<Map candidate = "bailao"/>
 
 	<div class="text">
 		<p>
-			Text
+			Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 		</p>
 	</div>
 
-	<Map candidate = "brown"/>
+	<!-- <Map candidate = "brown"/> -->
 
 	<div class="text">
 		<p>
-			Text
+			Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 		</p>
 	</div>
 
-	<Map candidate = "margin"/>
-
-	<div class="text">
-		<p>
-			Text
-		</p>
-	</div>
-
-	<Map candidate = "race"/>
-
-	<div class="text">
-		<p>
-			Text
-		</p>
-	</div>
-
-	
 
 	<div id="mini-line"></div>
 
