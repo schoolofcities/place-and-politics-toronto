@@ -76,6 +76,12 @@ main {
     height: 25px;
 }
 
+.bar-vote-total {
+    width: 100%;
+    text-align: center;
+    /* height: 25px; */
+}
+
 .turnout {
     margin-bottom: -20px;
 }
