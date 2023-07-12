@@ -80,6 +80,8 @@ main {
     width: 100%;
     text-align: center;
     /* height: 25px; */
+    text-align: left;
+    text-decoration: underline;
 }
 
 .turnout {

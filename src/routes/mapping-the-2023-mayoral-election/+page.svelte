@@ -91,7 +91,8 @@
 		</p> -->
 
 		<div class="bar-vote-total">
-			<BarVote/>
+			<p>Overall Results (722,877 votes cast)</p>
+			<BarVote voteType = "total"/>
 		</div>
 
 	</div>
@@ -101,6 +102,23 @@
 		<p>
 			Unlike in previous mayoral elections, considerable movement occurred between the June 8–13 advance voting period and the June 26 election day. Chow performed far better in advance (46.6%) and mail-in (50.8%) voting than she did on election day (34.3%). Bailão, by contrast, surged on election day, likely due to Tory’s endorsement on July 21. Although Bailão beat Chow in terms of ballots cast on election day, Chow’s advance and mail-in votes put her over the top when all votes were counted.
 		</p>
+
+		<div class="bar-vote-total">
+			<p>Advance Votes (17.9% of all votes cast)</p>
+			<BarVote voteType = "advance"/>
+		</div>
+
+
+		<div class="bar-vote-total">
+			<p>Mail-In Votes (3.9% of all votes cast)</p>
+			<BarVote voteType = "mail"/>
+		</div>
+
+		
+		<div class="bar-vote-total">
+			<p>Election Day Votes (77.9% of all votes cast)</p>
+			<BarVote voteType = "electionday"/>
+		</div>
 	</div>
 
 
@@ -124,7 +142,7 @@
 
 	<div class="text">
 		<p>
-			Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+			Now let’s look at how Chow’s and Bailão’s support changed between early voting (advance polls and mail-in ballots) and election day, Unfortunately we can only map this by ward. The four maps below show, on the left, ward-level support for Chow and Bailão in early voting, and, on the right, the percentage-point change in each ward from early voting to election day. In general, it appears that Bailão increased her vote share the most in the city’s wealthiest neighbourhoods, as voters shifted away from Saunders and Bradford in an effort to stop Chow, and Tory’s endorsement attracted Chow voters to the Bailão camp. In no ward, however, were Chow’s losses greater than Bailão’s gains. Starting at a higher level of support in early voting, Chow still came out ahead.
 		</p>
 	</div>
 
