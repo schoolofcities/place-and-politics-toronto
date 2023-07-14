@@ -32,7 +32,7 @@
 	<link href='https://api.mapbox.com/mapbox-gl-js/v2.10.0/mapbox-gl.css' rel='stylesheet' />
 
     <title>Place and Politics in Toronto</title>
-    <meta name="description" content="Place and Politics in Toronto">
+    <meta name="description" content="Mapping the 2023 Toronto Mayoral By-Election">
     <meta name="author" content="Zack Taylor & Jeff Allen">
 
     <meta property="og:title" content="Place and Politics in Toronto" />
@@ -89,11 +89,6 @@
 		<p>
 			That so many major candidates remained the race to the end is testament to the degree to which they possessed distinct support bases and fundraising networks – which, we show below, is reflected in the different geographies of electoral support. In the end, fully 69.6% of votes cast went to the top two finishers – Chow (37.2%) and Bailão (32.5%) while the rest competed for scraps.
 		</p>
-		<!-- <p>
-			The winner, <span style="background-color: #c27dcf">Olivia Chow</span> had <span style="background-color: #c27dcf">269,372 votes</span> and <span style="background-color: #c27dcf">37.17% </span> of votes cast.
-			The runner up, <span style="background-color: #c5de75">Ana Bailão</span>, ended election night with <span style="background-color: #c5de75">32.46% </span> and <span style="background-color: #c5de75">235,175 votes</span>.
-			Third-place candidate <span style="background-color: #bec2d4">Mark Saunders</span> finished with <span style="background-color: #bec2d4">8.58%</span> and <span style="background-color: #bec2d4">62,167 votes</span>.
-		</p> -->
 
 		<div class="bar-vote-total">
 			<p>Overall Results (722,877 votes cast)</p>

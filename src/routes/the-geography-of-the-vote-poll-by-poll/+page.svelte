@@ -27,7 +27,7 @@
 	<link href='https://api.mapbox.com/mapbox-gl-js/v2.10.0/mapbox-gl.css' rel='stylesheet' />
 
     <title>Place and Politics in Toronto</title>
-    <meta name="description" content="Place and Politics in Toronto">
+    <meta name="description" content="Mapping the 2022 Toronto Election.">
     <meta name="author" content="Zack Taylor & Jeff Allen">
 
     <meta property="og:title" content="Place and Politics in Toronto" />

@@ -54,7 +54,7 @@
 	/>
 
 	<title>Place and Politics in Toronto</title>
-    <meta name="description" content="Place and Politics in Toronto">
+    <meta name="description" content="Place and Politics in Toronto. Which Candidates Are Most Alike?">
     <meta name="author" content="Zack Taylor & Jeff Allen">
 
 	<meta property="og:title" content="Place and Politics in Toronto" />
