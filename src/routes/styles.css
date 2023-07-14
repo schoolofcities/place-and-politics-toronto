@@ -166,3 +166,14 @@ a:hover {
     margin: 0 auto;
     /* border: solid 1px #f4f4f4; */
 }
+
+.mapMiniLarge {
+    /* background-color: #3d53fb; */
+    /* z-index: -10; */
+    margin: auto;
+    padding: -10px;
+    max-width: 420px;
+    width: 420px;
+    margin: 0 auto;
+    /* border: solid 1px #f4f4f4; */
+}

@@ -105,6 +105,12 @@ const candidates = {
 		"year": "2023",
 		"citywide": "37%"
 	},
+	"chow_ch2014_2023": {
+		"breaks": [0, 0.1, 0.2, 0.3],
+		"name": "Olivia Chow",
+		"year": "2014 to 2023",
+		"citywide": "14% increase"
+	}
 }
 
 let divWidth = 420;

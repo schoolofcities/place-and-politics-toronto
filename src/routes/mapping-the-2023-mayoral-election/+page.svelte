@@ -11,6 +11,7 @@
 	import ctWithResults2023 from "../data/ctWithResults2023.geo.json";
 
 	var coloursChow = ["#fdf0ff", "#e0b7e7", "#c27dcf", "#a13cb5", "#83009c"];
+	var coloursChowChange = ["#e6b5ae","#dde4ed","#a8c1e4","#5a90dc","#1263d4"];
 
 </script>
 
@@ -65,7 +66,7 @@
 		<div id="mini-line"></div>
 
 		<h1>Mapping the 2023 Mayoral By-Election</h1>
-		<h3><a href="https://zacktaylor.com/">Zack Taylor</a> & <a href="https://jamaps.github.io/">Jeff Allen</a> <br><br> July 11, 2023</h3>
+		<h3><a href="https://zacktaylor.com/">Zack Taylor</a> & <a href="https://jamaps.github.io/">Jeff Allen</a> <br><br> July 14, 2023</h3>
 
 		<div id="mini-line"></div>
 
@@ -184,12 +185,35 @@
 		</p>
 	</div>
 
-	<div class="mapSmall">
-		<MapMini candidate = {"pctchow2014"} tracts={ctWithResults2023} colours = {coloursChow}/>
+	<div class="mapGrid">
+
+		<div class="mapSmall">
+			<MapMini candidate = {"pctchow2014"} tracts={ctWithResults2023} colours = {coloursChow}/>
+		</div>
+		<div class="mapSmall">
+			<MapMini candidate = {"pctchow_olivia2023"} tracts={ctWithResults2023} colours = {coloursChow}/>
+		</div>
+
 	</div>
-	<div class="mapSmall">
-		<MapMini candidate = {"pctchow_olivia2023"} tracts={ctWithResults2023} colours = {coloursChow}/>
+
+	<div class="mapMiniLarge">
+		<MapMini candidate = {"chow_ch2014_2023"} tracts={ctWithResults2023} colours = {coloursChowChange}/>
 	</div>
+
+	<div class="text">
+		<p>
+			What we find is that Chow did well where she, and other progressive candidates from Gomberg (2000) to Keesmaat (2018) to Peñalosa (2022), <a href="https://schoolofcities.github.io/place-and-politics-toronto/the-electoral-geography-of-progressivism">have done well before:</a> in the gentrified and gentrifying working-class order neighbourhoods of the pre-amalgamation City of Toronto. Essential to her 2023 win, however, was the addition of not only of diffuse support elsewhere in the city (something David Miller also managed in 2003 and 2006), but also majority support in less-well-off suburban neighbourhoods, many of which are home to immigrants, and which had voted for the Fords and Tory in previous elections.
+		</p>
+
+		<p>
+			In our next post we’ll look at the major candidates who staked out ground on the political right – Mark Saunders, Brad Bradford, and Andrew Furey.
+		</p>
+
+	</div>
+
+
+
+
 
 	<div id="mini-line"></div>
 
