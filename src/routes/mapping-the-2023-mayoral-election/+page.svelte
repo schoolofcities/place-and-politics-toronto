@@ -2,11 +2,15 @@
 
 	import Top from "../lib/TopSofC.svelte";
 	import UnderConstruction from "../lib/UnderConstruction.svelte";
-	import Bar from "../lib/Bar2023.svelte";
+	import MapMiniWard2023 from "../lib/MapMiniWard2023.svelte";
 	import BarVote from "../lib/BarVote2023.svelte";	
 	import Turnout from "../lib/Turnout.svelte";
-	import Map from "../lib/Map2023.svelte";	
+	import Map from "../lib/Map2023.svelte";
+	import MapMini from "../lib/MapMini.svelte";
 	import '../styles.css';
+	import ctWithResults2023 from "../data/ctWithResults2023.geo.json";
+
+	var coloursChow = ["#fdf0ff", "#e0b7e7", "#c27dcf", "#a13cb5", "#83009c"];
 
 </script>
 
@@ -144,9 +148,48 @@
 		<p>
 			Now let’s look at how Chow’s and Bailão’s support changed between early voting (advance polls and mail-in ballots) and election day, Unfortunately we can only map this by ward. The four maps below show, on the left, ward-level support for Chow and Bailão in early voting, and, on the right, the percentage-point change in each ward from early voting to election day. In general, it appears that Bailão increased her vote share the most in the city’s wealthiest neighbourhoods, as voters shifted away from Saunders and Bradford in an effort to stop Chow, and Tory’s endorsement attracted Chow voters to the Bailão camp. In no ward, however, were Chow’s losses greater than Bailão’s gains. Starting at a higher level of support in early voting, Chow still came out ahead.
 		</p>
+	
+		<p><u>Olivia Chow Advance Voting</u></p>
+
+		<div class="mapGridWard">
+			<div class="mapSmallWard">
+				<MapMiniWard2023 variable = {"adv_chow_olivia"}/>
+			</div>
+
+			<div class="mapSmallWard">
+				<MapMiniWard2023 variable = {"chg_chow_olivia"}/>
+			</div>
+
+		</div>
+
+		<p><u>Ana Bailão Advance Voting</u></p>
+
+		<div class="mapGridWard">
+
+			<div class="mapSmallWard">
+				<MapMiniWard2023 variable = {"adv_bailao_ana"}/>
+			</div>
+
+			<div class="mapSmallWard">
+				<MapMiniWard2023 variable = {"chg_bailao_ana"}/>
+			</div>
+		</div>
+
 	</div>
 
-	
+	<div class="text">
+		<h2>Chow versus Chow</h2>
+		<p>
+			This is, of course, not Chow’s first rodeo. She ran unsuccessfully for mayor in 2014, losing badly to winner John Tory and second-place finisher Doug Ford. Let’s compare Chow’s 2023 election-day map to her 2014 results.
+		</p>
+	</div>
+
+	<div class="mapSmall">
+		<MapMini candidate = {"pctchow2014"} tracts={ctWithResults2023} colours = {coloursChow}/>
+	</div>
+	<div class="mapSmall">
+		<MapMini candidate = {"pctchow_olivia2023"} tracts={ctWithResults2023} colours = {coloursChow}/>
+	</div>
 
 	<div id="mini-line"></div>
 

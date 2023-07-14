@@ -98,7 +98,13 @@ const candidates = {
 		"name": "George Smitherman",
 		"year": "2010",
 		"citywide": "36%"
-	}
+	},
+	"pctchow_olivia2023": {
+		"breaks": [0.1, 0.2, 0.3, 0.4],
+		"name": "Olivia Chow",
+		"year": "2023",
+		"citywide": "37%"
+	},
 }
 
 let divWidth = 420;
