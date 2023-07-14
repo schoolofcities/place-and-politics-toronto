@@ -56,8 +56,6 @@
 <Top/>
 
 <main>
-
-	<UnderConstruction/>
 	
 	<div class="title">
 
@@ -125,7 +123,7 @@
 	<div class="text">
 		<h2>Chow versus Bailão, mapped</h2>
 		<p>
-			Mapping election day votes by poll, we find that Olivia Chow did best in the core: neighbourhoods within the seven wards that roughly correspond to the pre-amalgamation City of Toronto and Boroughs of York and East York south of St. Clair Avenue. This is not simply an of City of Toronto-versus-the-rest story. She also received diffuse support in the postwar suburbs of Scarborough, North Etobicoke, and east flank of North York, with concentrations of support in rental apartment clusters, most visibility in Thorncliffe Park. In sum, she received X% of her election day votes in polls corresponding to the former City of Toronto, and Y% from polls located in the former suburban municipalities. The neighbourhoods where she did the least well are among the wealthiest in the city; the neighbourhoods where she did best are not only downtown hipster enclaves, but also those containing high numbers of immigrants. 
+			Mapping election day votes by poll, we find that Olivia Chow did best in the core: neighbourhoods within the seven wards that roughly correspond to the pre-amalgamation City of Toronto and Boroughs of York and East York south of St. Clair Avenue. This is not simply an of City of Toronto-versus-the-rest story. She also received diffuse support in the postwar suburbs of Scarborough, North Etobicoke, and east flank of North York, with concentrations of support in rental apartment clusters, most visibility in Thorncliffe Park. The neighbourhoods where she did the least well are among the wealthiest in the city; the neighbourhoods where she did best are not only downtown hipster enclaves, but also those containing high numbers of immigrants. 
 
 		</p>
 	</div>
@@ -134,7 +132,7 @@
 
 	<div class="text">
 		<p>
-			Bailao’s map is more or less the inverse of Chow’s. She did best in the well-off neighbourhoods of central Etobicoke, Scarborough south of Kingston Road, Rosedale, North Toronto, the Bridle Path, Don Mills, and Willowdale. She may also have benefitted from support from southern European immigrant voters – predominantly Portuguese and Italians – in her former ward of Davenport and to the northwest in York and Weston. 
+			Bailão’s map is more or less the inverse of Chow’s. She did best in the well-off neighbourhoods of central Etobicoke, Scarborough south of Kingston Road, Rosedale, North Toronto, the Bridle Path, Don Mills, and Willowdale. She may also have benefitted from support from southern European immigrant voters – predominantly Portuguese and Italians – in her former ward of Davenport and to the northwest in York and Weston. 
 		</p>
 	</div>
 
@@ -205,10 +203,7 @@
 		</p>
 
 	</div>
-
-
-
-
+	
 
 	<div id="mini-line"></div>
 

@@ -7,6 +7,7 @@
 	import p2 from './assets/p2.png';
 	import p3 from './assets/p3.png';
 	import p4 from './assets/p4.png';
+	import p5 from './assets/p5.png';
 
 </script>
 
@@ -51,25 +52,10 @@
 
 <main>
 
-	<!-- <UnderConstruction/> -->
-
-	<!-- <div id="homebar">
-
-		<div id="content">
-		
-			<div id="logo">
-				<a href="https://www.schoolofcities.utoronto.ca/"><img src={logo} alt="School of Cities"></a>
-			</div>
-
-		</div>
-	
-	</div> -->
-
 	<br>
 	<br>
 	<br>
 	<br>
-	
 	
 	<div class="title">
 
@@ -77,16 +63,15 @@
 
 		<h1>Place & Politics in Toronto</h1>
 
-		<h3>A blog series mapping City of Toronto
+		<h3>
+			A blog series mapping City of Toronto
 			election results 
-			<!-- by <a href="https://zacktaylor.com/">Zack Taylor</a> & <a href="https://jamaps.github.io/">Jeff Allen</a> -->
 			<br><br>
 			<a href="https://zacktaylor.com/">Zack Taylor</a> & <a href="https://jamaps.github.io/">Jeff Allen</a>
-		</h3><br>
-
+		</h3>
+		<br>
 
 		<div id="mini-line"></div>
-
 
 	</div>
 
@@ -98,13 +83,9 @@
 				<div class="number" style="background-image: url({p1});">
 				</div>
 				<div id="part">
-					<p>
-					
+					<p>					
 						<span class="date">Part 1 - November 2, 2022</span><br>
-					
 						<u>The geography of the vote, poll by poll</u>
-					
-					
 					</p>
 				</div>
 			</div>
@@ -149,12 +130,24 @@
 			</div>
 		</a>
 
+		<a href="./place-and-politics-toronto/mapping-the-2023-mayoral-election">
+			<div class="item">
+				<div class="number" style="background-image: url({p5});">
+				</div>
+				<div id="part">
+					<p>
+						<span class="date">Part 5 - July 14, 2023</span><br>
+						<u>Mapping the 2023 Mayoral By-Election</u>
+					</p>
+				</div>
+			</div>
+		</a>
+
 	</div>
 	
 	<br><br>
-	<div id="mini-line"></div>
 
-	
+	<div id="mini-line"></div>
 
 </main>
 
@@ -165,21 +158,6 @@
 	main {
 		width: 100%;
 		max-width: 100%;
-	}
-
-	#homebar {
-		padding: 0px;
-		margin: 0px;
-		width: 100%;
-		height: 50px;
-		border-bottom: solid 1px;
-		text-align: center;
-		border-bottom: 1px solid rgb(126, 126, 126);
-		box-shadow: 0 2px 0 0 rgba(224, 224, 224, 0.268);
-	}
-
-	#logo:hover {
-		opacity: 0.5;
 	}
 
 	.title {

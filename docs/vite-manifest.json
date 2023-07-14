@@ -1,15 +1,11 @@
 {
-  "src/routes/assets/web-card-2.png": {
-    "file": "_app/immutable/assets/web-card-2-d43f852a.png",
-    "src": "src/routes/assets/web-card-2.png"
-  },
-  "src/routes/assets/web-card-1.png": {
-    "file": "_app/immutable/assets/web-card-1-3bdaa9fc.png",
-    "src": "src/routes/assets/web-card-1.png"
-  },
   "src/routes/assets/top-logo.svg": {
     "file": "_app/immutable/assets/top-logo-015461e7.svg",
     "src": "src/routes/assets/top-logo.svg"
+  },
+  "src/routes/assets/p3.png": {
+    "file": "_app/immutable/assets/p3-ba338324.png",
+    "src": "src/routes/assets/p3.png"
   },
   "src/routes/assets/p1.png": {
     "file": "_app/immutable/assets/p1-12e7b651.png",
@@ -19,25 +15,33 @@
     "file": "_app/immutable/assets/p2-0d97c504.png",
     "src": "src/routes/assets/p2.png"
   },
-  "src/routes/assets/p3.png": {
-    "file": "_app/immutable/assets/p3-ba338324.png",
-    "src": "src/routes/assets/p3.png"
+  "src/routes/assets/p5.png": {
+    "file": "_app/immutable/assets/p5-1a7a5770.png",
+    "src": "src/routes/assets/p5.png"
   },
   "src/routes/assets/p4.png": {
     "file": "_app/immutable/assets/p4-7568db1b.png",
     "src": "src/routes/assets/p4.png"
+  },
+  "src/routes/assets/web-card-2.png": {
+    "file": "_app/immutable/assets/web-card-2-d43f852a.png",
+    "src": "src/routes/assets/web-card-2.png"
+  },
+  "src/routes/assets/web-card-1.png": {
+    "file": "_app/immutable/assets/web-card-1-3bdaa9fc.png",
+    "src": "src/routes/assets/web-card-1.png"
   },
   "src/routes/assets/Trade Gothic LT Bold.ttf": {
     "file": "_app/immutable/assets/Trade Gothic LT Bold-d851713b.ttf",
     "src": "src/routes/assets/Trade Gothic LT Bold.ttf"
   },
   "node_modules/@sveltejs/kit/src/runtime/client/start.js": {
-    "file": "_app/immutable/start-b9a25a21.js",
+    "file": "_app/immutable/start-855223b3.js",
     "src": "node_modules/@sveltejs/kit/src/runtime/client/start.js",
     "isEntry": true,
     "imports": [
       "_index-0bc29e7d.js",
-      "_singletons-c16622e4.js"
+      "_singletons-2e8cdbe0.js"
     ],
     "dynamicImports": [
       ".svelte-kit/generated/nodes/0.js",
@@ -59,16 +63,16 @@
     ]
   },
   "node_modules/@sveltejs/kit/src/runtime/components/error.svelte": {
-    "file": "_app/immutable/components/error.svelte-2d505d31.js",
+    "file": "_app/immutable/components/error.svelte-f78acf06.js",
     "src": "node_modules/@sveltejs/kit/src/runtime/components/error.svelte",
     "isEntry": true,
     "imports": [
       "_index-0bc29e7d.js",
-      "_singletons-c16622e4.js"
+      "_singletons-2e8cdbe0.js"
     ]
   },
   "src/routes/+page.svelte": {
-    "file": "_app/immutable/components/pages/_page.svelte-db77a566.js",
+    "file": "_app/immutable/components/pages/_page.svelte-b102eee9.js",
     "src": "src/routes/+page.svelte",
     "isEntry": true,
     "imports": [
@@ -76,17 +80,18 @@
       "_styles-57cf7e4f.js"
     ],
     "css": [
-      "_app/immutable/assets/_page-529af372.css"
+      "_app/immutable/assets/_page-fcaab536.css"
     ],
     "assets": [
       "_app/immutable/assets/p1-12e7b651.png",
       "_app/immutable/assets/p2-0d97c504.png",
       "_app/immutable/assets/p3-ba338324.png",
-      "_app/immutable/assets/p4-7568db1b.png"
+      "_app/immutable/assets/p4-7568db1b.png",
+      "_app/immutable/assets/p5-1a7a5770.png"
     ]
   },
   "src/routes/mapping-the-2023-mayoral-election/+page.svelte": {
-    "file": "_app/immutable/components/pages/mapping-the-2023-mayoral-election/_page.svelte-11881ab4.js",
+    "file": "_app/immutable/components/pages/mapping-the-2023-mayoral-election/_page.svelte-8d57b34d.js",
     "src": "src/routes/mapping-the-2023-mayoral-election/+page.svelte",
     "isEntry": true,
     "imports": [
@@ -217,8 +222,8 @@
       "__page-131ad561.js"
     ]
   },
-  "_singletons-c16622e4.js": {
-    "file": "_app/immutable/chunks/singletons-c16622e4.js",
+  "_singletons-2e8cdbe0.js": {
+    "file": "_app/immutable/chunks/singletons-2e8cdbe0.js",
     "imports": [
       "_index-e3c5e538.js"
     ]
@@ -305,7 +310,7 @@
     ]
   },
   ".svelte-kit/generated/nodes/1.js": {
-    "file": "_app/immutable/chunks/1-515100cb.js",
+    "file": "_app/immutable/chunks/1-8f082bba.js",
     "src": ".svelte-kit/generated/nodes/1.js",
     "isDynamicEntry": true,
     "imports": [
@@ -313,7 +318,7 @@
     ]
   },
   ".svelte-kit/generated/nodes/2.js": {
-    "file": "_app/immutable/chunks/2-611a772f.js",
+    "file": "_app/immutable/chunks/2-1434ea67.js",
     "src": ".svelte-kit/generated/nodes/2.js",
     "isDynamicEntry": true,
     "imports": [
@@ -322,7 +327,7 @@
     ]
   },
   ".svelte-kit/generated/nodes/3.js": {
-    "file": "_app/immutable/chunks/3-16224211.js",
+    "file": "_app/immutable/chunks/3-ed7da811.js",
     "src": ".svelte-kit/generated/nodes/3.js",
     "isDynamicEntry": true,
     "imports": [
@@ -366,36 +371,36 @@
       "src/routes/which-candidates-are-most-alike/+page.svelte"
     ]
   },
-  "wardsPts.css": {
-    "file": "_app/immutable/assets/wardsPts-59b0af0c.css",
-    "src": "wardsPts.css"
+  "UnderConstruction.css": {
+    "file": "_app/immutable/assets/UnderConstruction-5ece73f1.css",
+    "src": "UnderConstruction.css"
   },
   "src/routes/the-geography-of-the-vote-poll-by-poll/+page.css": {
     "file": "_app/immutable/assets/_page-e489fb4e.css",
     "src": "src/routes/the-geography-of-the-vote-poll-by-poll/+page.css"
   },
-  "src/routes/mapping-the-2023-mayoral-election/+page.css": {
-    "file": "_app/immutable/assets/_page-a2ffe3cc.css",
-    "src": "src/routes/mapping-the-2023-mayoral-election/+page.css"
-  },
   "src/routes/+page.css": {
-    "file": "_app/immutable/assets/_page-529af372.css",
+    "file": "_app/immutable/assets/_page-fcaab536.css",
     "src": "src/routes/+page.css"
-  },
-  "styles.css": {
-    "file": "_app/immutable/assets/styles-09e5af99.css",
-    "src": "styles.css"
-  },
-  "UnderConstruction.css": {
-    "file": "_app/immutable/assets/UnderConstruction-5ece73f1.css",
-    "src": "UnderConstruction.css"
   },
   "src/routes/which-candidates-are-most-alike/+page.css": {
     "file": "_app/immutable/assets/_page-41bece88.css",
     "src": "src/routes/which-candidates-are-most-alike/+page.css"
   },
+  "styles.css": {
+    "file": "_app/immutable/assets/styles-09e5af99.css",
+    "src": "styles.css"
+  },
   "MapMini.css": {
     "file": "_app/immutable/assets/MapMini-6e8de407.css",
     "src": "MapMini.css"
+  },
+  "src/routes/mapping-the-2023-mayoral-election/+page.css": {
+    "file": "_app/immutable/assets/_page-a2ffe3cc.css",
+    "src": "src/routes/mapping-the-2023-mayoral-election/+page.css"
+  },
+  "wardsPts.css": {
+    "file": "_app/immutable/assets/wardsPts-59b0af0c.css",
+    "src": "wardsPts.css"
   }
 }
