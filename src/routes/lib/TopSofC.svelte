@@ -1,13 +1,28 @@
 <script>
 	import logo from '../assets/top-logo.svg';
+	import logoFull from '../assets/top-logo-full.svg';
+
+	let width;
+
+	let barWidth = 262;
+	$: if (width < 500) {
+		barWidth = 262
+	} else {
+		barWidth = 383
+	}
+
 </script>
 
-<div id="bar">
+<div id="bar" bind:clientWidth={width}>
 
-	<div id="content">
+	<div id="content" style="width: {barWidth}px">
 	
 		<div id="logo">
-			<a href="https://www.schoolofcities.utoronto.ca/"><img src={logo} alt="School of Cities"></a>
+			{#if width < 500}
+				<a href="https://www.schoolofcities.utoronto.ca/"><img src={logo} alt="School of Cities"></a>
+			{:else}
+				<a href="https://www.schoolofcities.utoronto.ca/"><img src={logoFull} alt="School of Cities"></a>
+			{/if}
 		</div>
 
 		<div id="pp">
@@ -39,7 +54,7 @@
 
 	#content {
 		margin: auto;
-		max-width: 262px;
+		/* max-width: 400px; */
 		background-color: aquamarine;
 	}
 
@@ -53,7 +68,7 @@
 		font-family: "Source Serif Pro", serif;
 		text-decoration: underline;
 		color: black;
-		font-size: 16px;
+		font-size: 15px;
 	}
 
 	a {
@@ -65,6 +80,8 @@
 
 	img {
 		color: blue;
+		height: 50px;
+		width: auto;
 	}
 	img:hover {
 		opacity: 0.5;
