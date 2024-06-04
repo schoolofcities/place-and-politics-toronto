@@ -88,7 +88,7 @@
 		<div id="mini-line"></div>
 
 		<h1>Which Candidates Are Most Alike?</h1>
-		<h3><a href="https://zacktaylor.com/">Zack Taylor</a> & <a href="https://jamaps.github.io/">Jeff Allen</a> <br><br> December 14, 2022</h3>
+		<h3><a href="https://politicalscience.uwo.ca/people/faculty/full-time_faculty/zack_taylor.html">Zack Taylor</a> & <a href="https://jamaps.github.io/">Jeff Allen</a> <br><br> December 14, 2022</h3>
 
 		<div id="mini-line"></div>
 
