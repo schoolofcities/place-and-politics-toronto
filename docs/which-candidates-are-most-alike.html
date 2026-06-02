@@ -4,13 +4,30 @@
 <html lang="en">
 	<head>
 		<meta charset="utf-8" />
-		<link rel="icon" href="/place-and-politics-toronto/favicon.svg" />
+		<link rel="icon" href="./favicon.svg" />
 		<meta name="viewport" content="width=device-width" />
-		<meta http-equiv="content-security-policy" content="">
-		<link rel="modulepreload" href="/place-and-politics-toronto/_app/immutable/start-8c75a684.js">
-		<link rel="modulepreload" href="/place-and-politics-toronto/_app/immutable/chunks/index-ca98715d.js">
-		<link rel="modulepreload" href="/place-and-politics-toronto/_app/immutable/chunks/singletons-72e18aff.js">
-		<link rel="modulepreload" href="/place-and-politics-toronto/_app/immutable/chunks/index-2eeea234.js">
+		<link href="./_app/immutable/entry/start.fKZTyAjZ.js" rel="modulepreload">
+		<link href="./_app/immutable/chunks/C_V23IEV.js" rel="modulepreload">
+		<link href="./_app/immutable/chunks/BEBSCNN_.js" rel="modulepreload">
+		<link href="./_app/immutable/chunks/B0PvA7hA.js" rel="modulepreload">
+		<link href="./_app/immutable/chunks/COVrT8Jp.js" rel="modulepreload">
+		<link href="./_app/immutable/entry/app.O9Zy8he0.js" rel="modulepreload">
+		<link href="./_app/immutable/chunks/C0Nc_CiH.js" rel="modulepreload">
+		<link href="./_app/immutable/chunks/BaPWBcaJ.js" rel="modulepreload">
+		<link href="./_app/immutable/chunks/CBqrhA75.js" rel="modulepreload">
+		<link href="./_app/immutable/chunks/DanHp6mr.js" rel="modulepreload">
+		<link href="./_app/immutable/chunks/CsZHGKrJ.js" rel="modulepreload">
+		<link href="./_app/immutable/chunks/BwC3yo8W.js" rel="modulepreload">
+		<link href="./_app/immutable/chunks/BCnPQAEe.js" rel="modulepreload">
+		<link href="./_app/immutable/nodes/0.DUyrUQlm.js" rel="modulepreload">
+		<link href="./_app/immutable/nodes/7.CCNqWofF.js" rel="modulepreload">
+		<link href="./_app/immutable/chunks/Dun0VtEW.js" rel="modulepreload">
+		<link href="./_app/immutable/chunks/BsT0gcVX.js" rel="modulepreload">
+		<link href="./_app/immutable/chunks/BCWiCB2X.js" rel="modulepreload">
+		<link href="./_app/immutable/chunks/5xOA9wvf.js" rel="modulepreload">
+		
+		<link href="./_app/immutable/assets/styles.D6KU2XQg.css" rel="stylesheet">
+		<link href="./_app/immutable/assets/7.D6is69IT.css" rel="stylesheet">
 	</head>
 	<script async src="https://www.googletagmanager.com/gtag/js?id=G-XB09CWTEWB"></script>
 	<script>
@@ -21,16 +38,23 @@
 	</script>
 	<body>
 		<div>
-		<script type="module" data-sveltekit-hydrate="45h">
-			import { start } from "/place-and-politics-toronto/_app/immutable/start-8c75a684.js";
+			<script>
+				{
+					__sveltekit_h394pm = {
+						base: new URL(".", location).pathname.slice(0, -1),
+						assets: "/place-and-politics-toronto"
+					};
 
-			start({
-				env: {},
-				hydrate: null,
-				paths: {"base":"/place-and-politics-toronto","assets":"/place-and-politics-toronto"},
-				target: document.querySelector('[data-sveltekit-hydrate="45h"]').parentNode,
-				trailing_slash: "never"
-			});
-		</script></div>
+					const element = document.currentScript.parentElement;
+
+					Promise.all([
+						import("./_app/immutable/entry/start.fKZTyAjZ.js"),
+						import("./_app/immutable/entry/app.O9Zy8he0.js")
+					]).then(([kit, app]) => {
+						kit.start(app, element);
+					});
+				}
+			</script>
+		</div>
 	</body>
 </html>
