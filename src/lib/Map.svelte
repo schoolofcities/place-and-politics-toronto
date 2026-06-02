@@ -3,9 +3,9 @@
     import { onMount } from 'svelte';
     import mapboxgl from "mapbox-gl";
     
-    import VotingSubDivisions from '../data/vsd.geo.json';
-    import Wards from '../data/wards.geo.json';
-    import WardPts from '../data/wardsPts.geo.json';
+    import VotingSubDivisions from '$data/vsd.geo.json';
+    import Wards from '$data/wards.geo.json';
+    import WardPts from '$data/wardsPts.geo.json';
     
     mapboxgl.accessToken = 'pk.eyJ1Ijoic2Nob29sb2ZjaXRpZXMiLCJhIjoiY2xhMW5veXN2MDkxbDN2bW9iMWZ5NWI1dCJ9.AXhfsV6jCCoG-pJNLRvK2w';
 

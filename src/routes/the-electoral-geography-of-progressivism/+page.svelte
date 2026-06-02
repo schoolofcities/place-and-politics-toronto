@@ -1,11 +1,11 @@
 <script>
 
-	import Top from "../lib/TopSofC.svelte";
-	import UnderConstruction from "../lib/UnderConstruction.svelte";
-	import MapMini from "../lib/MapMini.svelte";
-    import WebCard from "../assets/web-card-2.png";
+	import Top from "$lib/TopSofC.svelte";
+	import UnderConstruction from "$lib/UnderConstruction.svelte";
+	import MapMini from "$lib/MapMini.svelte";
+    import WebCard from "$assets/web-card-2.png";
 	import '../styles.css';
-	import ctWithResults from "../data/ctWithResults.geo.json";
+	import ctWithResults from "$data/ctWithResults.geo.json";
 
 	var coloursLeft = ["#defde0", "#a6e7bb", "#73d398", "#3cbd73", "#00a64b"];
 
@@ -40,7 +40,7 @@
     <meta name="og:description" content="The Electoral Geography of Progressivism in Toronto" />
     <meta property="og:type" content="website" />
     <meta property="og:url" content="https://schoolofcities.github.io/place-and-politics-toronto/torontos-two-rights" />
-    <meta property="og:image" content="https://raw.githubusercontent.com/schoolofcities/place-and-politics-toronto/main/src/routes/assets/web-card-3.png" />
+    <meta property="og:image" content="https://raw.githubusercontent.com/schoolofcities/place-and-politics-toronto/main/src/assets/web-card-3.png" />
     <meta property="og:locale" content="en_CA">
 
     <meta name="twitter:card" content="summary_large_image" />
@@ -48,7 +48,7 @@
     <meta name="twitter:creator" content="@JeffAllenMaps" />
     <meta name="twitter:title" content="Place and Politics in Toronto" />
     <meta name="twitter:description" content="The Electoral Geography of Progressivism in Toronto" />
-    <meta name="twitter:image" content="https://raw.githubusercontent.com/schoolofcities/place-and-politics-toronto/main/src/routes/assets/web-card-3.png" />
+    <meta name="twitter:image" content="https://raw.githubusercontent.com/schoolofcities/place-and-politics-toronto/main/src/assets/web-card-3.png" />
 
 </svelte:head>
 

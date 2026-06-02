@@ -1,16 +1,21 @@
 <script>
 
-	import Top from "../lib/TopSofC.svelte";
+	import Top from "$lib/TopSofC.svelte";
 	import '../styles.css';
-	import candidateLinks from "../data/candidate_links.json"
-	import candidateInfo from "../data/candidate_info.json";
-	import ctWithResults from "../data/ctWithResults.geo.json";
+	import candidateLinks from "$data/candidate_links.json"
+	import candidateInfo from "$data/candidate_info.json";
+	import ctWithResults from "$data/ctWithResults.geo.json";
 
-	import MapMiniCor from "../lib/MapMiniCor.svelte";
-	import CorList from "../lib/CorList.svelte";
+	import MapMiniCor from "$lib/MapMiniCor.svelte";
+	import CorList from "$lib/CorList.svelte";
 	import Select from 'svelte-select';
 
-	import {candidateStore} from "../lib/stores/stores.js";
+	import {candidateStore} from "$lib/stores/stores.js";
+	const candidatePhotos = import.meta.glob('../../assets/candidate-photos/*.png', {
+		eager: true,
+		import: 'default',
+		query: '?url'
+	});
 	
 	console.log($candidateStore)
     
@@ -28,7 +33,7 @@
 
 	$: candidateResult = candidateInfo[$candidateStore].won + " the " + candidateInfo[$candidateStore].year + " election with <span id='percent'>" + candidateInfo[$candidateStore].voteshare + "%</span> of the vote citywide";
 
-	$: imageLink = 'candidate-photos/' +  candidateInfo[$candidateStore].image + '.png';
+	$: imageLink = candidatePhotos[`../../assets/candidate-photos/${candidateInfo[$candidateStore].image}.png`];
 
 	let barChartWidth;
 
@@ -61,7 +66,7 @@
     <meta name="og:description" content="Which Candidates Are Most Alike?" />
     <meta property="og:type" content="website" />
     <meta property="og:url" content="https://schoolofcities.github.io/place-and-politics-toronto/which-candidates-are-most-alike" />
-    <meta property="og:image" content="https://raw.githubusercontent.com/schoolofcities/place-and-politics-toronto/main/src/routes/assets/web-card-4.png" />
+    <meta property="og:image" content="https://raw.githubusercontent.com/schoolofcities/place-and-politics-toronto/main/src/assets/web-card-4.png" />
     <meta property="og:locale" content="en_CA">
 
     <meta name="twitter:card" content="summary_large_image" />
@@ -69,7 +74,7 @@
     <meta name="twitter:creator" content="@JeffAllenMaps" />
     <meta name="twitter:title" content="Place and Politics in Toronto" />
     <meta name="twitter:description" content="Which Candidates Are Most Alike?" />
-    <meta name="twitter:image" content="https://raw.githubusercontent.com/schoolofcities/place-and-politics-toronto/main/src/routes/assets/web-card-4.png" />
+    <meta name="twitter:image" content="https://raw.githubusercontent.com/schoolofcities/place-and-politics-toronto/main/src/assets/web-card-4.png" />
 
 </svelte:head>
 

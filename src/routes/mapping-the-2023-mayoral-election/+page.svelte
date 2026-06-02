@@ -1,14 +1,14 @@
 <script>
 
-	import Top from "../lib/TopSofC.svelte";
-	import UnderConstruction from "../lib/UnderConstruction.svelte";
-	import MapMiniWard2023 from "../lib/MapMiniWard2023.svelte";
-	import BarVote from "../lib/BarVote2023.svelte";	
-	import Turnout from "../lib/Turnout.svelte";
-	import Map from "../lib/Map2023.svelte";
-	import MapMini from "../lib/MapMini.svelte";
+	import Top from "$lib/TopSofC.svelte";
+	import UnderConstruction from "$lib/UnderConstruction.svelte";
+	import MapMiniWard2023 from "$lib/MapMiniWard2023.svelte";
+	import BarVote from "$lib/BarVote2023.svelte";	
+	import Turnout from "$lib/Turnout.svelte";
+	import Map from "$lib/Map2023.svelte";
+	import MapMini from "$lib/MapMini.svelte";
 	import '../styles.css';
-	import ctWithResults2023 from "../data/ctWithResults2023.geo.json";
+	import ctWithResults2023 from "$data/ctWithResults2023.geo.json";
 
 	var coloursChow = ["#fdf0ff", "#e0b7e7", "#c27dcf", "#a13cb5", "#83009c"];
 	var coloursChowChange = ["#e6b5ae","#dde4ed","#a8c1e4","#5a90dc","#1263d4"];
@@ -39,7 +39,7 @@
     <meta name="og:description" content="Mapping the 2023 Toronto Mayoral By-Election" />
     <meta property="og:type" content="website" />
     <meta property="og:url" content="https://schoolofcities.github.io/place-and-politics-toronto/the-geography-of-the-vote-poll-by-poll" />
-    <meta property="og:image" content="https://raw.githubusercontent.com/schoolofcities/place-and-politics-toronto/main/src/routes/assets/web-card-5.png" />
+    <meta property="og:image" content="https://raw.githubusercontent.com/schoolofcities/place-and-politics-toronto/main/src/assets/web-card-5.png" />
     <meta property="og:locale" content="en_CA">
 
     <meta name="twitter:card" content="summary_large_image" />
@@ -47,7 +47,7 @@
     <meta name="twitter:creator" content="@JeffAllenMaps" />
     <meta name="twitter:title" content="Place and Politics in Toronto" />
     <meta name="twitter:description" content="Mapping the 2023 Toronto Mayoral By-Election" />
-    <meta name="twitter:image" content="https://raw.githubusercontent.com/schoolofcities/place-and-politics-toronto/main/src/routes/assets/web-card-5.png" />
+    <meta name="twitter:image" content="https://raw.githubusercontent.com/schoolofcities/place-and-politics-toronto/main/src/assets/web-card-5.png" />
 
 </svelte:head>
 

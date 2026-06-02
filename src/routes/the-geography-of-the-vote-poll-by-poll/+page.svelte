@@ -1,11 +1,11 @@
 <script>
 
-	import Top from "../lib/TopSofC.svelte";
-	import UnderConstruction from "../lib/UnderConstruction.svelte";
-	import Bar from "../lib/Bar.svelte";	
-	import Turnout from "../lib/Turnout.svelte";
-	import Map from "../lib/Map.svelte";	
-    import WebCard from "../assets/web-card-1.png";
+	import Top from "$lib/TopSofC.svelte";
+	import UnderConstruction from "$lib/UnderConstruction.svelte";
+	import Bar from "$lib/Bar.svelte";	
+	import Turnout from "$lib/Turnout.svelte";
+	import Map from "$lib/Map.svelte";	
+    import WebCard from "$assets/web-card-1.png";
 	import '../styles.css';
 
 </script>
@@ -34,7 +34,7 @@
     <meta name="og:description" content="Mapping the 2022 Toronto Election" />
     <meta property="og:type" content="website" />
     <meta property="og:url" content="https://schoolofcities.github.io/place-and-politics-toronto/the-geography-of-the-vote-poll-by-poll" />
-    <meta property="og:image" content="https://raw.githubusercontent.com/schoolofcities/place-and-politics-toronto/main/src/routes/assets/web-card-1.png" />
+    <meta property="og:image" content="https://raw.githubusercontent.com/schoolofcities/place-and-politics-toronto/main/src/assets/web-card-1.png" />
     <meta property="og:locale" content="en_CA">
 
     <meta name="twitter:card" content="summary_large_image" />
@@ -42,7 +42,7 @@
     <meta name="twitter:creator" content="@JeffAllenMaps" />
     <meta name="twitter:title" content="Place and Politics in Toronto" />
     <meta name="twitter:description" content="Mapping the 2022 Toronto Election" />
-    <meta name="twitter:image" content="https://raw.githubusercontent.com/schoolofcities/place-and-politics-toronto/main/src/routes/assets/web-card-1.png" />
+    <meta name="twitter:image" content="https://raw.githubusercontent.com/schoolofcities/place-and-politics-toronto/main/src/assets/web-card-1.png" />
 
 </svelte:head>
 

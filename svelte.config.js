@@ -14,8 +14,11 @@ const config = {
         paths: {
             // change below to your repo name
             base: dev ? "" : "/place-and-politics-toronto",
+        },
+        alias: {
+            "$assets": "src/assets",
+            "$data": "src/data"
         }
-		
     }
 };
 

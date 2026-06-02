@@ -1,6 +1,6 @@
 <script>
-	import logo from '../assets/top-logo.svg';
-	import logoFull from '../assets/top-logo-full.svg';
+	import logo from '$assets/top-logo.svg';
+	import logoFull from '$assets/top-logo-full.svg';
 
 	let width;
 

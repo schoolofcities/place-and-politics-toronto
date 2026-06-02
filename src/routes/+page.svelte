@@ -1,14 +1,14 @@
 <script>
 
-	import Top from "./lib/TopSofC.svelte";	
+	import Top from "$lib/TopSofC.svelte";	
     import './styles.css';
 	import { base } from '$app/paths';
-	import logo from './assets/top-logo.svg';
-	import p1 from './assets/p1.png';
-	import p2 from './assets/p2.png';
-	import p3 from './assets/p3.png';
-	import p4 from './assets/p4.png';
-	import p5 from './assets/p5.png';
+	import logo from '$assets/top-logo.svg';
+	import p1 from '$assets/p1.png';
+	import p2 from '$assets/p2.png';
+	import p3 from '$assets/p3.png';
+	import p4 from '$assets/p4.png';
+	import p5 from '$assets/p5.png';
 
 </script>
 
@@ -35,7 +35,7 @@
     <meta name="og:description" content="A blog series mapping City of Toronto election results " />
     <meta property="og:type" content="website" />
     <meta property="og:url" content="https://schoolofcities.github.io/place-and-politics-toronto/" />
-    <meta property="og:image" content="https://raw.githubusercontent.com/schoolofcities/place-and-politics-toronto/main/src/routes/assets/web-card-1.png" />
+    <meta property="og:image" content="https://raw.githubusercontent.com/schoolofcities/place-and-politics-toronto/main/src/assets/web-card-1.png" />
     <meta property="og:locale" content="en_CA">
 
     <meta name="twitter:card" content="summary_large_image" />
@@ -43,7 +43,7 @@
     <meta name="twitter:creator" content="@JeffAllenMaps" />
     <meta name="twitter:title" content="Place and Politics in Toronto" />
     <meta name="twitter:description" content="A blog series mapping City of Toronto election results" />
-    <meta name="twitter:image" content="https://raw.githubusercontent.com/schoolofcities/place-and-politics-toronto/main/src/routes/assets/web-card-1.png" />
+    <meta name="twitter:image" content="https://raw.githubusercontent.com/schoolofcities/place-and-politics-toronto/main/src/assets/web-card-1.png" />
 
 </svelte:head>
 

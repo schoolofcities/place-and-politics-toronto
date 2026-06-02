@@ -1,6 +1,6 @@
 @font-face {
     font-family: TradeGothicBold;
-    src: url("./assets/Trade Gothic LT Bold.ttf");
+    src: url("../assets/Trade Gothic LT Bold.ttf");
 }
 :root {
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,

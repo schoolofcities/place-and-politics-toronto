@@ -6,7 +6,7 @@
 <script>
 
 import { geoPath, geoMercator, scaleThreshold } from "d3";
-import Wards from "../data/wards.geo.json";
+import Wards from "$data/wards.geo.json";
 
 // export var colours;
 export let candidate;

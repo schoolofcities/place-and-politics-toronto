@@ -1,12 +1,12 @@
 <script>
 
-    import candidateCor from "../data/candidate_links.json"
+    import candidateCor from "$data/candidate_links.json"
 
     import {interpolateRdBu} from "d3";
 
     export let candidate;
 
-    import {candidateStore} from "../lib/stores/stores.js";
+    import {candidateStore} from "$lib/stores/stores.js";
 
     var links = candidateCor.links;
 
