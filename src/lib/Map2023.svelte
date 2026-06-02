@@ -1,14 +1,13 @@
 <script>
     
     import { onMount } from 'svelte';
-    import mapboxgl from "mapbox-gl";
+    import 'maplibre-gl/dist/maplibre-gl.css';
+    import maplibregl, { addTransitBaseLayers, createBaseMapStyle } from "$lib/maplibre.js";
     
     import VotingSubDivisions from '$data/vsd2023.geo.json';
     import Wards from '$data/wards.geo.json';
     import WardPts from '$data/wardsPts.geo.json';
     
-    mapboxgl.accessToken = 'pk.eyJ1Ijoic2Nob29sb2ZjaXRpZXMiLCJhIjoiY2xhMW5veXN2MDkxbDN2bW9iMWZ5NWI1dCJ9.AXhfsV6jCCoG-pJNLRvK2w';
-
     export let candidate;
     
     let pageHeight;
@@ -90,24 +89,24 @@
 	];
 
     onMount(() => {
-        map = new mapboxgl.Map({
+        map = new maplibregl.Map({
 			container: candidate, 
-			style: 'mapbox://styles/schoolofcities/cl9wy9gww000j15r7llrtlun3',
+			style: createBaseMapStyle(),
 			center: [-79.37, 43.715],
 			zoom: 9.5,
 			maxZoom: 16.5,
 			minZoom: 8.5,
 			bearing: -17.1,
-			projection: 'globe',
 			scrollZoom: true,
-            maxBounds: maxBounds,
-			attributionControl: true
+            maxBounds: maxBounds
 		});
-        map.addControl(new mapboxgl.NavigationControl(), 'top-left');
-        map.addControl(new mapboxgl.ScaleControl(), 'bottom-left');
+        map.addControl(new maplibregl.NavigationControl(), 'top-left');
+        map.addControl(new maplibregl.ScaleControl(), 'bottom-left');
         map.scrollZoom.disable();
 
         map.on('load', function() {
+            addTransitBaseLayers(map);
+
             map.addSource('VotingSubDivisions', {
                 'type': 'geojson',
                 'data': VotingSubDivisions
@@ -148,7 +147,7 @@
                 ], 
                     'fill-opacity': layerOpacity
                     }
-                }, 'rail');
+                });
 
             map.addLayer({
                 'id': 'VotingSubDivisionsLine',
@@ -160,7 +159,7 @@
                     'line-width': 1,
                     'line-opacity': 1
                 }
-            }, 'rail');
+            });
 
             map.addLayer({
                 'id': 'WardsWhite',
@@ -172,7 +171,7 @@
                     'line-width': 4,
                     'line-opacity': 1
                 }
-            }, 'rail');
+            });
 
             map.addLayer({
                 'id': 'WardsBlack',
@@ -184,7 +183,7 @@
                     'line-width': 2,
                     'line-opacity': 1
                 }
-            }, 'rail');
+            });
 
             map.addLayer({
                 'id': 'WardsLabel',
@@ -192,7 +191,7 @@
                 'source': 'WardPts',
                 'layout': {
                     'text-field': ['get', 'name'],
-                    'text-font': ['Roboto Medium', "Arial Unicode MS Regular"],
+                    'text-font': ['Open Sans Regular'],
                     'text-size': 12,
                     'text-transform': "uppercase",
                     'text-justify': 'center',
@@ -218,6 +217,10 @@
             }
         });
 
+        map.on('mouseenter', 'VotingSubDivisionsFill', () => {
+            map.getCanvas().style.cursor = 'pointer';
+        });
+
         map.on('mousemove', 'VotingSubDivisionsFill', (e) => {
             
             message = "Ward: " + e.features[0].properties.ward + " --- Poll: " + e.features[0].properties.vsd + " --- Total Votes: " + e.features[0].properties.total + " --- Votes for " + candidates[candidate].name + ": " + e.features[0].properties[candidates[candidate].column] +  " --- % for " + candidates[candidate].name + ": " + Math.round(100 * e.features[0].properties[candidates[candidate].column] / e.features[0].properties.total) + "%"  
@@ -225,9 +228,13 @@
         });
 
         map.on('mouseleave', 'VotingSubDivisionsFill', () => {
+            map.getCanvas().style.cursor = '';
             message = " "
         });
 
+        return () => {
+            map.remove();
+        };
     });
 
 </script>

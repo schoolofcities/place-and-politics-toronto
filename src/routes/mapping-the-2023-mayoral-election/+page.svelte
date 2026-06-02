@@ -29,7 +29,6 @@
 		name="viewport"
 		content="width=device-width, initial-scale=1, minimum-scale=1"
 	/>
-	<link href='https://api.mapbox.com/mapbox-gl-js/v2.10.0/mapbox-gl.css' rel='stylesheet' />
 
     <title>Place and Politics in Toronto</title>
     <meta name="description" content="Mapping the 2023 Toronto Mayoral By-Election">
