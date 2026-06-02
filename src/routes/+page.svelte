@@ -2,6 +2,7 @@
 
 	import Top from "./lib/TopSofC.svelte";	
     import './styles.css';
+	import { base } from '$app/paths';
 	import logo from './assets/top-logo.svg';
 	import p1 from './assets/p1.png';
 	import p2 from './assets/p2.png';
@@ -78,7 +79,7 @@
 
 	<div class="text">
 
-		<a href="./place-and-politics-toronto/the-geography-of-the-vote-poll-by-poll">
+		<a href="{base}/the-geography-of-the-vote-poll-by-poll">
 			<div class="item">
 				<div class="number" style="background-image: url({p1});">
 				</div>
@@ -91,7 +92,7 @@
 			</div>
 		</a>
 
-		<a href="./place-and-politics-toronto/torontos-two-rights">
+		<a href="{base}/torontos-two-rights">
 			<div class="item">
 				<div class="number" style="background-image: url({p2});">
 				</div>
@@ -104,7 +105,7 @@
 			</div>
 		</a>
 
-		<a href="./place-and-politics-toronto/the-electoral-geography-of-progressivism">
+		<a href="{base}/the-electoral-geography-of-progressivism">
 			<div class="item">
 				<div class="number" style="background-image: url({p3});">
 				</div>
@@ -117,7 +118,7 @@
 			</div>
 		</a>
 
-		<a href="./place-and-politics-toronto/which-candidates-are-most-alike">
+		<a href="{base}/which-candidates-are-most-alike">
 			<div class="item">
 				<div class="number" style="background-image: url({p4});">
 				</div>
@@ -130,7 +131,7 @@
 			</div>
 		</a>
 
-		<a href="./place-and-politics-toronto/mapping-the-2023-mayoral-election">
+		<a href="{base}/mapping-the-2023-mayoral-election">
 			<div class="item">
 				<div class="number" style="background-image: url({p5});">
 				</div>

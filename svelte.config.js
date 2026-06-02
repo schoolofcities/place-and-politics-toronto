@@ -1,14 +1,11 @@
-import preprocess from 'svelte-preprocess';
-import adapter from "@sveltejs/adapter-static"; 
-// was "@sveltejs/adapter-auto"
-
-// npm install @sveltejs/adapter-static@next --save-dev
+import { vitePreprocess } from '@sveltejs/vite-plugin-svelte';
+import adapter from "@sveltejs/adapter-static";
 
 const dev = "production" === "development";
 
-/** @type {import(""@sveltejs/kit").Config} */
+/** @type {import('@sveltejs/kit').Config} */
 const config = {
-    preprocess: preprocess(),
+    preprocess: vitePreprocess(),
     kit: {
         adapter: adapter({
             pages: "docs",

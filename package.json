@@ -10,20 +10,18 @@
 		"check:watch": "svelte-kit sync && svelte-check --tsconfig ./jsconfig.json --watch"
 	},
 	"devDependencies": {
-		"@sveltejs/adapter-auto": "next",
-		"@sveltejs/adapter-static": "^1.0.0-next.48",
-		"@sveltejs/kit": "next",
-		"svelte": "^3.44.0",
-		"svelte-check": "^2.7.1",
-		"typescript": "^4.7.4",
-		"vite": "^3.1.0"
+		"@sveltejs/adapter-static": "^3.0.0",
+		"@sveltejs/kit": "^2.0.0",
+		"@sveltejs/vite-plugin-svelte": "^5.0.0",
+		"svelte": "^5.0.0",
+		"svelte-check": "^4.0.0",
+		"typescript": "^5.0.0",
+		"vite": "^6.0.0"
 	},
 	"dependencies": {
-		"@jamaps/force-directed-graph": "https://api.observablehq.com/@jamaps/force-directed-graph.tgz?v=3",
-		"@observablehq/runtime": "^5.1.1",
-		"d3": "v7.6.1",
-		"mapbox-gl": "^2.10.0",
-		"svelte-select": "^4.4.7"
+		"d3": "^7.9.0",
+		"mapbox-gl": "^3.0.0",
+		"svelte-select": "^5.8.3"
 	},
 	"type": "module"
 }
