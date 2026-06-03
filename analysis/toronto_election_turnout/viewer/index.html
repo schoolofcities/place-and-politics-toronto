@@ -1,0 +1,111 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Toronto Election Turnout Map</title>
+    <link rel="stylesheet" href="/viewer/vendor/leaflet/leaflet.css">
+    <link rel="stylesheet" href="/viewer/src/styles.css">
+  </head>
+  <body>
+    <main class="app-shell">
+      <aside class="panel" aria-label="Map controls and turnout summary">
+        <div class="brand">
+          <p class="eyebrow">Toronto elections</p>
+          <h1>Turnout by Polling Division</h1>
+        </div>
+
+        <section class="control-group" aria-label="Election level">
+          <label for="datasetSelect">Election level</label>
+          <select id="datasetSelect">
+            <option value="municipal">Municipal 2023 Mayor</option>
+            <option value="provincial">Provincial 2025</option>
+            <option value="federal">Federal 2025</option>
+          </select>
+        </section>
+
+        <section class="control-group" aria-label="Filter by riding or ward">
+          <label for="districtSelect">Riding or ward</label>
+          <select id="districtSelect">
+            <option value="all">All Toronto divisions</option>
+          </select>
+        </section>
+
+        <section class="control-group" aria-label="Filter by voting method">
+          <label for="voteTypeSelect">Voting method</label>
+          <select id="voteTypeSelect">
+            <option value="all">Total</option>
+            <option value="election_day">Election Day</option>
+            <option value="advance">Advance</option>
+            <option value="mail_in">Mail-In</option>
+            <option value="special">Special</option>
+          </select>
+        </section>
+
+        <section class="control-group split" aria-label="Turnout range">
+          <div>
+            <label for="minTurnout">Min turnout</label>
+            <input id="minTurnout" type="range" min="0" max="100" value="0">
+          </div>
+          <output id="minTurnoutLabel" for="minTurnout">0%</output>
+        </section>
+
+        <section class="control-group checkbox-row" aria-label="Vote volume overlay">
+          <label>
+            <input id="dotToggle" type="checkbox">
+            Show vote-size dots
+          </label>
+          <p>Dots show vote volume, not turnout rate.</p>
+        </section>
+
+        <section class="stats" aria-label="Current map summary">
+          <div>
+            <span>Divisions shown</span>
+            <strong id="statCount">0</strong>
+          </div>
+          <div>
+            <span>No turnout value</span>
+            <strong id="statNoData">0</strong>
+          </div>
+          <div>
+            <span>Overall turnout</span>
+            <strong id="statAverage">--</strong>
+          </div>
+          <div>
+            <span>Total votes</span>
+            <strong id="statVotes">0</strong>
+          </div>
+          <div>
+            <span>Total electors</span>
+            <strong id="statElectors">0</strong>
+          </div>
+        </section>
+
+        <section class="legend" aria-label="Turnout legend">
+          <h2>Turnout rate</h2>
+          <div class="legend-row"><i style="background:#f3efe5"></i><span>No data</span></div>
+          <div class="legend-row"><i style="background:#d73027"></i><span>0-30%</span></div>
+          <div class="legend-row"><i style="background:#fc8d59"></i><span>30-40%</span></div>
+          <div class="legend-row"><i style="background:#fee08b"></i><span>40-50%</span></div>
+          <div class="legend-row"><i style="background:#91cf60"></i><span>50-60%</span></div>
+          <div class="legend-row"><i style="background:#1a9850"></i><span>60%+</span></div>
+          <div class="legend-dot"><i></i><span>Optional dot size = votes cast</span></div>
+        </section>
+
+        <details class="data-notes" open>
+          <summary>Data notes</summary>
+          <div id="datasetNotes"></div>
+          <p class="notes-footer">Rows with unavailable turnout stay visible as no-data areas. Counts are not estimated or assigned to polygons without source support.</p>
+        </details>
+      </aside>
+
+      <section class="map-wrap" aria-label="Interactive turnout map">
+        <div id="map"></div>
+        <div class="map-status" id="status">Loading data...</div>
+      </section>
+    </main>
+
+    <script src="/viewer/vendor/leaflet/leaflet.js"></script>
+    <script src="/viewer/src/app.js"></script>
+  </body>
+</html>

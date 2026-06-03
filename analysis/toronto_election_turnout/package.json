@@ -1,0 +1,11 @@
+{
+  "name": "toronto-election-turnout-map",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Interactive map viewer for Toronto municipal, provincial, and federal polling-division turnout datasets.",
+  "scripts": {
+    "start": "node viewer/server.js",
+    "serve": "node viewer/server.js"
+  },
+  "dependencies": {}
+}

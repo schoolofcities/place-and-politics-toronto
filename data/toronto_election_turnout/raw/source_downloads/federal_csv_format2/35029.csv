@@ -1,0 +1,730 @@
+﻿Electoral District Number/Numéro de circonscription,Electoral District Name_English/Nom de circonscription_Anglais,Electoral District Name_French/Nom de circonscription_Français,Polling Division Number/Numéro de section de vote,Polling Division Name/Nom de section de vote,Void Poll Indicator/Indicateur de bureau supprimé,No Poll Held Indicator/Indicateur de bureau sans scrutin,Combined with No./Résultats combinés à ceux du n°,Rejected Ballots for poll/Bulletins rejetés du bureau,Electors for poll/Électeurs du bureau,Candidate’s Family Name/Nom de famille du candidat,Candidate’s Middle Name/Second prénom du candidat,Candidate’s First Name/Prénom du candidat,Political Affiliation Name_English/Appartenance politique_Anglais,Political Affiliation Name_French/Appartenance politique_Français,Incumbent Indicator/Indicateur_Candidat sortant,Elected Candidate Indicator/Indicateur du candidat élu,Candidate Vote Count/Votes du candidat
+35029,"Etobicoke Centre","Etobicoke-Centre"," 1","Toronto",N,N,"",0,561,"Baker","","Yvan","Liberal","Libéral",Y,Y,110
+35029,"Etobicoke Centre","Etobicoke-Centre"," 1","Toronto",N,N,"",0,561,"Jung","","Ji Won","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,4
+35029,"Etobicoke Centre","Etobicoke-Centre"," 1","Toronto",N,N,"",0,561,"Opitz","","Ted","Conservative","Conservateur",Y,N,145
+35029,"Etobicoke Centre","Etobicoke-Centre"," 2","Toronto",N,N,"",2,504,"Baker","","Yvan","Liberal","Libéral",Y,Y,88
+35029,"Etobicoke Centre","Etobicoke-Centre"," 2","Toronto",N,N,"",2,504,"Jung","","Ji Won","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,1
+35029,"Etobicoke Centre","Etobicoke-Centre"," 2","Toronto",N,N,"",2,504,"Opitz","","Ted","Conservative","Conservateur",Y,N,106
+35029,"Etobicoke Centre","Etobicoke-Centre"," 3","Toronto",N,N,"",2,578,"Baker","","Yvan","Liberal","Libéral",Y,Y,119
+35029,"Etobicoke Centre","Etobicoke-Centre"," 3","Toronto",N,N,"",2,578,"Jung","","Ji Won","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,2
+35029,"Etobicoke Centre","Etobicoke-Centre"," 3","Toronto",N,N,"",2,578,"Opitz","","Ted","Conservative","Conservateur",Y,N,168
+35029,"Etobicoke Centre","Etobicoke-Centre"," 4","Toronto",N,N,"",0,528,"Baker","","Yvan","Liberal","Libéral",Y,Y,80
+35029,"Etobicoke Centre","Etobicoke-Centre"," 4","Toronto",N,N,"",0,528,"Jung","","Ji Won","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,3
+35029,"Etobicoke Centre","Etobicoke-Centre"," 4","Toronto",N,N,"",0,528,"Opitz","","Ted","Conservative","Conservateur",Y,N,110
+35029,"Etobicoke Centre","Etobicoke-Centre"," 5","Toronto",N,N,"",4,589,"Baker","","Yvan","Liberal","Libéral",Y,Y,88
+35029,"Etobicoke Centre","Etobicoke-Centre"," 5","Toronto",N,N,"",4,589,"Jung","","Ji Won","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,3
+35029,"Etobicoke Centre","Etobicoke-Centre"," 5","Toronto",N,N,"",4,589,"Opitz","","Ted","Conservative","Conservateur",Y,N,123
+35029,"Etobicoke Centre","Etobicoke-Centre"," 6","Toronto",N,N,"",3,524,"Baker","","Yvan","Liberal","Libéral",Y,Y,72
+35029,"Etobicoke Centre","Etobicoke-Centre"," 6","Toronto",N,N,"",3,524,"Jung","","Ji Won","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,3
+35029,"Etobicoke Centre","Etobicoke-Centre"," 6","Toronto",N,N,"",3,524,"Opitz","","Ted","Conservative","Conservateur",Y,N,100
+35029,"Etobicoke Centre","Etobicoke-Centre"," 7A","Toronto",N,N,"",0,372,"Baker","","Yvan","Liberal","Libéral",Y,Y,49
+35029,"Etobicoke Centre","Etobicoke-Centre"," 7A","Toronto",N,N,"",0,372,"Jung","","Ji Won","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,5
+35029,"Etobicoke Centre","Etobicoke-Centre"," 7A","Toronto",N,N,"",0,372,"Opitz","","Ted","Conservative","Conservateur",Y,N,65
+35029,"Etobicoke Centre","Etobicoke-Centre"," 7B","Toronto",N,N,"",2,125,"Baker","","Yvan","Liberal","Libéral",Y,Y,51
+35029,"Etobicoke Centre","Etobicoke-Centre"," 7B","Toronto",N,N,"",2,125,"Jung","","Ji Won","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,2
+35029,"Etobicoke Centre","Etobicoke-Centre"," 7B","Toronto",N,N,"",2,125,"Opitz","","Ted","Conservative","Conservateur",Y,N,13
+35029,"Etobicoke Centre","Etobicoke-Centre"," 8","Toronto",N,N,"",2,586,"Baker","","Yvan","Liberal","Libéral",Y,Y,84
+35029,"Etobicoke Centre","Etobicoke-Centre"," 8","Toronto",N,N,"",2,586,"Jung","","Ji Won","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,1
+35029,"Etobicoke Centre","Etobicoke-Centre"," 8","Toronto",N,N,"",2,586,"Opitz","","Ted","Conservative","Conservateur",Y,N,86
+35029,"Etobicoke Centre","Etobicoke-Centre"," 9","Toronto",N,N,"",2,567,"Baker","","Yvan","Liberal","Libéral",Y,Y,146
+35029,"Etobicoke Centre","Etobicoke-Centre"," 9","Toronto",N,N,"",2,567,"Jung","","Ji Won","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,8
+35029,"Etobicoke Centre","Etobicoke-Centre"," 9","Toronto",N,N,"",2,567,"Opitz","","Ted","Conservative","Conservateur",Y,N,115
+35029,"Etobicoke Centre","Etobicoke-Centre"," 10","Toronto",N,N,"",0,542,"Baker","","Yvan","Liberal","Libéral",Y,Y,89
+35029,"Etobicoke Centre","Etobicoke-Centre"," 10","Toronto",N,N,"",0,542,"Jung","","Ji Won","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,6
+35029,"Etobicoke Centre","Etobicoke-Centre"," 10","Toronto",N,N,"",0,542,"Opitz","","Ted","Conservative","Conservateur",Y,N,157
+35029,"Etobicoke Centre","Etobicoke-Centre"," 11","Toronto",N,N,"",2,547,"Baker","","Yvan","Liberal","Libéral",Y,Y,128
+35029,"Etobicoke Centre","Etobicoke-Centre"," 11","Toronto",N,N,"",2,547,"Jung","","Ji Won","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,9
+35029,"Etobicoke Centre","Etobicoke-Centre"," 11","Toronto",N,N,"",2,547,"Opitz","","Ted","Conservative","Conservateur",Y,N,142
+35029,"Etobicoke Centre","Etobicoke-Centre"," 12","Toronto",N,N,"",2,605,"Baker","","Yvan","Liberal","Libéral",Y,Y,127
+35029,"Etobicoke Centre","Etobicoke-Centre"," 12","Toronto",N,N,"",2,605,"Jung","","Ji Won","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,10
+35029,"Etobicoke Centre","Etobicoke-Centre"," 12","Toronto",N,N,"",2,605,"Opitz","","Ted","Conservative","Conservateur",Y,N,113
+35029,"Etobicoke Centre","Etobicoke-Centre"," 13","Toronto",N,N,"",1,584,"Baker","","Yvan","Liberal","Libéral",Y,Y,128
+35029,"Etobicoke Centre","Etobicoke-Centre"," 13","Toronto",N,N,"",1,584,"Jung","","Ji Won","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,7
+35029,"Etobicoke Centre","Etobicoke-Centre"," 13","Toronto",N,N,"",1,584,"Opitz","","Ted","Conservative","Conservateur",Y,N,114
+35029,"Etobicoke Centre","Etobicoke-Centre"," 14","Toronto",N,N,"",2,618,"Baker","","Yvan","Liberal","Libéral",Y,Y,118
+35029,"Etobicoke Centre","Etobicoke-Centre"," 14","Toronto",N,N,"",2,618,"Jung","","Ji Won","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,16
+35029,"Etobicoke Centre","Etobicoke-Centre"," 14","Toronto",N,N,"",2,618,"Opitz","","Ted","Conservative","Conservateur",Y,N,103
+35029,"Etobicoke Centre","Etobicoke-Centre"," 15","Toronto",N,N,"",4,500,"Baker","","Yvan","Liberal","Libéral",Y,Y,86
+35029,"Etobicoke Centre","Etobicoke-Centre"," 15","Toronto",N,N,"",4,500,"Jung","","Ji Won","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,7
+35029,"Etobicoke Centre","Etobicoke-Centre"," 15","Toronto",N,N,"",4,500,"Opitz","","Ted","Conservative","Conservateur",Y,N,60
+35029,"Etobicoke Centre","Etobicoke-Centre"," 16","Toronto",N,N,"",0,532,"Baker","","Yvan","Liberal","Libéral",Y,Y,85
+35029,"Etobicoke Centre","Etobicoke-Centre"," 16","Toronto",N,N,"",0,532,"Jung","","Ji Won","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,2
+35029,"Etobicoke Centre","Etobicoke-Centre"," 16","Toronto",N,N,"",0,532,"Opitz","","Ted","Conservative","Conservateur",Y,N,120
+35029,"Etobicoke Centre","Etobicoke-Centre"," 17","Toronto",N,N,"",0,503,"Baker","","Yvan","Liberal","Libéral",Y,Y,104
+35029,"Etobicoke Centre","Etobicoke-Centre"," 17","Toronto",N,N,"",0,503,"Jung","","Ji Won","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,3
+35029,"Etobicoke Centre","Etobicoke-Centre"," 17","Toronto",N,N,"",0,503,"Opitz","","Ted","Conservative","Conservateur",Y,N,84
+35029,"Etobicoke Centre","Etobicoke-Centre"," 18","Toronto",N,N,"",0,578,"Baker","","Yvan","Liberal","Libéral",Y,Y,120
+35029,"Etobicoke Centre","Etobicoke-Centre"," 18","Toronto",N,N,"",0,578,"Jung","","Ji Won","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,9
+35029,"Etobicoke Centre","Etobicoke-Centre"," 18","Toronto",N,N,"",0,578,"Opitz","","Ted","Conservative","Conservateur",Y,N,122
+35029,"Etobicoke Centre","Etobicoke-Centre"," 19","Toronto",N,N,"",2,594,"Baker","","Yvan","Liberal","Libéral",Y,Y,109
+35029,"Etobicoke Centre","Etobicoke-Centre"," 19","Toronto",N,N,"",2,594,"Jung","","Ji Won","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,3
+35029,"Etobicoke Centre","Etobicoke-Centre"," 19","Toronto",N,N,"",2,594,"Opitz","","Ted","Conservative","Conservateur",Y,N,77
+35029,"Etobicoke Centre","Etobicoke-Centre"," 20","Toronto",N,N,"",2,592,"Baker","","Yvan","Liberal","Libéral",Y,Y,138
+35029,"Etobicoke Centre","Etobicoke-Centre"," 20","Toronto",N,N,"",2,592,"Jung","","Ji Won","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,0
+35029,"Etobicoke Centre","Etobicoke-Centre"," 20","Toronto",N,N,"",2,592,"Opitz","","Ted","Conservative","Conservateur",Y,N,86
+35029,"Etobicoke Centre","Etobicoke-Centre"," 21","Toronto",N,N,"",1,564,"Baker","","Yvan","Liberal","Libéral",Y,Y,87
+35029,"Etobicoke Centre","Etobicoke-Centre"," 21","Toronto",N,N,"",1,564,"Jung","","Ji Won","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,6
+35029,"Etobicoke Centre","Etobicoke-Centre"," 21","Toronto",N,N,"",1,564,"Opitz","","Ted","Conservative","Conservateur",Y,N,91
+35029,"Etobicoke Centre","Etobicoke-Centre"," 22","Toronto",N,N,"",1,568,"Baker","","Yvan","Liberal","Libéral",Y,Y,130
+35029,"Etobicoke Centre","Etobicoke-Centre"," 22","Toronto",N,N,"",1,568,"Jung","","Ji Won","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,3
+35029,"Etobicoke Centre","Etobicoke-Centre"," 22","Toronto",N,N,"",1,568,"Opitz","","Ted","Conservative","Conservateur",Y,N,81
+35029,"Etobicoke Centre","Etobicoke-Centre"," 23","Toronto",N,N,"",3,572,"Baker","","Yvan","Liberal","Libéral",Y,Y,148
+35029,"Etobicoke Centre","Etobicoke-Centre"," 23","Toronto",N,N,"",3,572,"Jung","","Ji Won","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,3
+35029,"Etobicoke Centre","Etobicoke-Centre"," 23","Toronto",N,N,"",3,572,"Opitz","","Ted","Conservative","Conservateur",Y,N,111
+35029,"Etobicoke Centre","Etobicoke-Centre"," 24","Toronto",N,N,"",3,589,"Baker","","Yvan","Liberal","Libéral",Y,Y,137
+35029,"Etobicoke Centre","Etobicoke-Centre"," 24","Toronto",N,N,"",3,589,"Jung","","Ji Won","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,13
+35029,"Etobicoke Centre","Etobicoke-Centre"," 24","Toronto",N,N,"",3,589,"Opitz","","Ted","Conservative","Conservateur",Y,N,124
+35029,"Etobicoke Centre","Etobicoke-Centre"," 25","Toronto",N,N,"",1,522,"Baker","","Yvan","Liberal","Libéral",Y,Y,119
+35029,"Etobicoke Centre","Etobicoke-Centre"," 25","Toronto",N,N,"",1,522,"Jung","","Ji Won","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,12
+35029,"Etobicoke Centre","Etobicoke-Centre"," 25","Toronto",N,N,"",1,522,"Opitz","","Ted","Conservative","Conservateur",Y,N,126
+35029,"Etobicoke Centre","Etobicoke-Centre"," 26","Toronto",N,N,"",4,583,"Baker","","Yvan","Liberal","Libéral",Y,Y,96
+35029,"Etobicoke Centre","Etobicoke-Centre"," 26","Toronto",N,N,"",4,583,"Jung","","Ji Won","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,16
+35029,"Etobicoke Centre","Etobicoke-Centre"," 26","Toronto",N,N,"",4,583,"Opitz","","Ted","Conservative","Conservateur",Y,N,118
+35029,"Etobicoke Centre","Etobicoke-Centre"," 27","Toronto",N,N,"",2,516,"Baker","","Yvan","Liberal","Libéral",Y,Y,99
+35029,"Etobicoke Centre","Etobicoke-Centre"," 27","Toronto",N,N,"",2,516,"Jung","","Ji Won","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,4
+35029,"Etobicoke Centre","Etobicoke-Centre"," 27","Toronto",N,N,"",2,516,"Opitz","","Ted","Conservative","Conservateur",Y,N,69
+35029,"Etobicoke Centre","Etobicoke-Centre"," 28","Toronto",N,N,"",2,437,"Baker","","Yvan","Liberal","Libéral",Y,Y,63
+35029,"Etobicoke Centre","Etobicoke-Centre"," 28","Toronto",N,N,"",2,437,"Jung","","Ji Won","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,2
+35029,"Etobicoke Centre","Etobicoke-Centre"," 28","Toronto",N,N,"",2,437,"Opitz","","Ted","Conservative","Conservateur",Y,N,50
+35029,"Etobicoke Centre","Etobicoke-Centre"," 29","Toronto",N,N,"",3,573,"Baker","","Yvan","Liberal","Libéral",Y,Y,124
+35029,"Etobicoke Centre","Etobicoke-Centre"," 29","Toronto",N,N,"",3,573,"Jung","","Ji Won","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,6
+35029,"Etobicoke Centre","Etobicoke-Centre"," 29","Toronto",N,N,"",3,573,"Opitz","","Ted","Conservative","Conservateur",Y,N,76
+35029,"Etobicoke Centre","Etobicoke-Centre"," 30","Toronto",N,N,"",3,565,"Baker","","Yvan","Liberal","Libéral",Y,Y,75
+35029,"Etobicoke Centre","Etobicoke-Centre"," 30","Toronto",N,N,"",3,565,"Jung","","Ji Won","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,8
+35029,"Etobicoke Centre","Etobicoke-Centre"," 30","Toronto",N,N,"",3,565,"Opitz","","Ted","Conservative","Conservateur",Y,N,102
+35029,"Etobicoke Centre","Etobicoke-Centre"," 31","Toronto",N,N,"",2,573,"Baker","","Yvan","Liberal","Libéral",Y,Y,81
+35029,"Etobicoke Centre","Etobicoke-Centre"," 31","Toronto",N,N,"",2,573,"Jung","","Ji Won","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,6
+35029,"Etobicoke Centre","Etobicoke-Centre"," 31","Toronto",N,N,"",2,573,"Opitz","","Ted","Conservative","Conservateur",Y,N,102
+35029,"Etobicoke Centre","Etobicoke-Centre"," 32","Toronto",N,N,"",3,547,"Baker","","Yvan","Liberal","Libéral",Y,Y,57
+35029,"Etobicoke Centre","Etobicoke-Centre"," 32","Toronto",N,N,"",3,547,"Jung","","Ji Won","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,1
+35029,"Etobicoke Centre","Etobicoke-Centre"," 32","Toronto",N,N,"",3,547,"Opitz","","Ted","Conservative","Conservateur",Y,N,115
+35029,"Etobicoke Centre","Etobicoke-Centre"," 33","Toronto",N,N,"",4,597,"Baker","","Yvan","Liberal","Libéral",Y,Y,63
+35029,"Etobicoke Centre","Etobicoke-Centre"," 33","Toronto",N,N,"",4,597,"Jung","","Ji Won","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,3
+35029,"Etobicoke Centre","Etobicoke-Centre"," 33","Toronto",N,N,"",4,597,"Opitz","","Ted","Conservative","Conservateur",Y,N,142
+35029,"Etobicoke Centre","Etobicoke-Centre"," 34A","Toronto",N,N,"",0,558,"Baker","","Yvan","Liberal","Libéral",Y,Y,98
+35029,"Etobicoke Centre","Etobicoke-Centre"," 34A","Toronto",N,N,"",0,558,"Jung","","Ji Won","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,1
+35029,"Etobicoke Centre","Etobicoke-Centre"," 34A","Toronto",N,N,"",0,558,"Opitz","","Ted","Conservative","Conservateur",Y,N,133
+35029,"Etobicoke Centre","Etobicoke-Centre"," 34B","Toronto",N,N,"",1,553,"Baker","","Yvan","Liberal","Libéral",Y,Y,117
+35029,"Etobicoke Centre","Etobicoke-Centre"," 34B","Toronto",N,N,"",1,553,"Jung","","Ji Won","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,1
+35029,"Etobicoke Centre","Etobicoke-Centre"," 34B","Toronto",N,N,"",1,553,"Opitz","","Ted","Conservative","Conservateur",Y,N,138
+35029,"Etobicoke Centre","Etobicoke-Centre"," 35","Toronto",N,N,"",0,496,"Baker","","Yvan","Liberal","Libéral",Y,Y,105
+35029,"Etobicoke Centre","Etobicoke-Centre"," 35","Toronto",N,N,"",0,496,"Jung","","Ji Won","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,8
+35029,"Etobicoke Centre","Etobicoke-Centre"," 35","Toronto",N,N,"",0,496,"Opitz","","Ted","Conservative","Conservateur",Y,N,89
+35029,"Etobicoke Centre","Etobicoke-Centre"," 36","Toronto",N,N,"",1,544,"Baker","","Yvan","Liberal","Libéral",Y,Y,127
+35029,"Etobicoke Centre","Etobicoke-Centre"," 36","Toronto",N,N,"",1,544,"Jung","","Ji Won","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,1
+35029,"Etobicoke Centre","Etobicoke-Centre"," 36","Toronto",N,N,"",1,544,"Opitz","","Ted","Conservative","Conservateur",Y,N,108
+35029,"Etobicoke Centre","Etobicoke-Centre"," 37","Toronto",N,N,"",0,569,"Baker","","Yvan","Liberal","Libéral",Y,Y,83
+35029,"Etobicoke Centre","Etobicoke-Centre"," 37","Toronto",N,N,"",0,569,"Jung","","Ji Won","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,4
+35029,"Etobicoke Centre","Etobicoke-Centre"," 37","Toronto",N,N,"",0,569,"Opitz","","Ted","Conservative","Conservateur",Y,N,80
+35029,"Etobicoke Centre","Etobicoke-Centre"," 38","Toronto",N,N,"",0,589,"Baker","","Yvan","Liberal","Libéral",Y,Y,63
+35029,"Etobicoke Centre","Etobicoke-Centre"," 38","Toronto",N,N,"",0,589,"Jung","","Ji Won","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,1
+35029,"Etobicoke Centre","Etobicoke-Centre"," 38","Toronto",N,N,"",0,589,"Opitz","","Ted","Conservative","Conservateur",Y,N,107
+35029,"Etobicoke Centre","Etobicoke-Centre"," 39","Toronto",N,N,"",0,559,"Baker","","Yvan","Liberal","Libéral",Y,Y,72
+35029,"Etobicoke Centre","Etobicoke-Centre"," 39","Toronto",N,N,"",0,559,"Jung","","Ji Won","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,1
+35029,"Etobicoke Centre","Etobicoke-Centre"," 39","Toronto",N,N,"",0,559,"Opitz","","Ted","Conservative","Conservateur",Y,N,98
+35029,"Etobicoke Centre","Etobicoke-Centre"," 40","Toronto",N,N,"",0,556,"Baker","","Yvan","Liberal","Libéral",Y,Y,76
+35029,"Etobicoke Centre","Etobicoke-Centre"," 40","Toronto",N,N,"",0,556,"Jung","","Ji Won","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,1
+35029,"Etobicoke Centre","Etobicoke-Centre"," 40","Toronto",N,N,"",0,556,"Opitz","","Ted","Conservative","Conservateur",Y,N,104
+35029,"Etobicoke Centre","Etobicoke-Centre"," 41A","Toronto",N,N,"43A",0,274,"Baker","","Yvan","Liberal","Libéral",Y,Y,0
+35029,"Etobicoke Centre","Etobicoke-Centre"," 41A","Toronto",N,N,"43A",0,274,"Jung","","Ji Won","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,0
+35029,"Etobicoke Centre","Etobicoke-Centre"," 41A","Toronto",N,N,"43A",0,274,"Opitz","","Ted","Conservative","Conservateur",Y,N,0
+35029,"Etobicoke Centre","Etobicoke-Centre"," 41B","Toronto",N,N,"43B",0,265,"Baker","","Yvan","Liberal","Libéral",Y,Y,0
+35029,"Etobicoke Centre","Etobicoke-Centre"," 41B","Toronto",N,N,"43B",0,265,"Jung","","Ji Won","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,0
+35029,"Etobicoke Centre","Etobicoke-Centre"," 41B","Toronto",N,N,"43B",0,265,"Opitz","","Ted","Conservative","Conservateur",Y,N,0
+35029,"Etobicoke Centre","Etobicoke-Centre"," 42","Toronto",N,N,"",3,558,"Baker","","Yvan","Liberal","Libéral",Y,Y,116
+35029,"Etobicoke Centre","Etobicoke-Centre"," 42","Toronto",N,N,"",3,558,"Jung","","Ji Won","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,1
+35029,"Etobicoke Centre","Etobicoke-Centre"," 42","Toronto",N,N,"",3,558,"Opitz","","Ted","Conservative","Conservateur",Y,N,104
+35029,"Etobicoke Centre","Etobicoke-Centre"," 43A","Toronto",N,N,"",0,385,"Baker","","Yvan","Liberal","Libéral",Y,Y,104
+35029,"Etobicoke Centre","Etobicoke-Centre"," 43A","Toronto",N,N,"",0,385,"Jung","","Ji Won","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,6
+35029,"Etobicoke Centre","Etobicoke-Centre"," 43A","Toronto",N,N,"",0,385,"Opitz","","Ted","Conservative","Conservateur",Y,N,90
+35029,"Etobicoke Centre","Etobicoke-Centre"," 43B","Toronto",N,N,"",1,382,"Baker","","Yvan","Liberal","Libéral",Y,Y,76
+35029,"Etobicoke Centre","Etobicoke-Centre"," 43B","Toronto",N,N,"",1,382,"Jung","","Ji Won","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,5
+35029,"Etobicoke Centre","Etobicoke-Centre"," 43B","Toronto",N,N,"",1,382,"Opitz","","Ted","Conservative","Conservateur",Y,N,106
+35029,"Etobicoke Centre","Etobicoke-Centre"," 44","Toronto",N,N,"",1,558,"Baker","","Yvan","Liberal","Libéral",Y,Y,98
+35029,"Etobicoke Centre","Etobicoke-Centre"," 44","Toronto",N,N,"",1,558,"Jung","","Ji Won","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,0
+35029,"Etobicoke Centre","Etobicoke-Centre"," 44","Toronto",N,N,"",1,558,"Opitz","","Ted","Conservative","Conservateur",Y,N,121
+35029,"Etobicoke Centre","Etobicoke-Centre"," 45","Toronto",N,N,"",1,462,"Baker","","Yvan","Liberal","Libéral",Y,Y,76
+35029,"Etobicoke Centre","Etobicoke-Centre"," 45","Toronto",N,N,"",1,462,"Jung","","Ji Won","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,2
+35029,"Etobicoke Centre","Etobicoke-Centre"," 45","Toronto",N,N,"",1,462,"Opitz","","Ted","Conservative","Conservateur",Y,N,94
+35029,"Etobicoke Centre","Etobicoke-Centre"," 46","Toronto",N,N,"",0,560,"Baker","","Yvan","Liberal","Libéral",Y,Y,89
+35029,"Etobicoke Centre","Etobicoke-Centre"," 46","Toronto",N,N,"",0,560,"Jung","","Ji Won","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,5
+35029,"Etobicoke Centre","Etobicoke-Centre"," 46","Toronto",N,N,"",0,560,"Opitz","","Ted","Conservative","Conservateur",Y,N,81
+35029,"Etobicoke Centre","Etobicoke-Centre"," 47","Toronto",N,N,"",1,547,"Baker","","Yvan","Liberal","Libéral",Y,Y,95
+35029,"Etobicoke Centre","Etobicoke-Centre"," 47","Toronto",N,N,"",1,547,"Jung","","Ji Won","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,2
+35029,"Etobicoke Centre","Etobicoke-Centre"," 47","Toronto",N,N,"",1,547,"Opitz","","Ted","Conservative","Conservateur",Y,N,114
+35029,"Etobicoke Centre","Etobicoke-Centre"," 48","Toronto",N,N,"",1,520,"Baker","","Yvan","Liberal","Libéral",Y,Y,90
+35029,"Etobicoke Centre","Etobicoke-Centre"," 48","Toronto",N,N,"",1,520,"Jung","","Ji Won","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,3
+35029,"Etobicoke Centre","Etobicoke-Centre"," 48","Toronto",N,N,"",1,520,"Opitz","","Ted","Conservative","Conservateur",Y,N,95
+35029,"Etobicoke Centre","Etobicoke-Centre"," 49","Toronto",N,N,"",0,612,"Baker","","Yvan","Liberal","Libéral",Y,Y,78
+35029,"Etobicoke Centre","Etobicoke-Centre"," 49","Toronto",N,N,"",0,612,"Jung","","Ji Won","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,12
+35029,"Etobicoke Centre","Etobicoke-Centre"," 49","Toronto",N,N,"",0,612,"Opitz","","Ted","Conservative","Conservateur",Y,N,105
+35029,"Etobicoke Centre","Etobicoke-Centre"," 50","Toronto",N,N,"",1,557,"Baker","","Yvan","Liberal","Libéral",Y,Y,103
+35029,"Etobicoke Centre","Etobicoke-Centre"," 50","Toronto",N,N,"",1,557,"Jung","","Ji Won","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,6
+35029,"Etobicoke Centre","Etobicoke-Centre"," 50","Toronto",N,N,"",1,557,"Opitz","","Ted","Conservative","Conservateur",Y,N,111
+35029,"Etobicoke Centre","Etobicoke-Centre"," 51","Toronto",N,N,"",0,559,"Baker","","Yvan","Liberal","Libéral",Y,Y,105
+35029,"Etobicoke Centre","Etobicoke-Centre"," 51","Toronto",N,N,"",0,559,"Jung","","Ji Won","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,7
+35029,"Etobicoke Centre","Etobicoke-Centre"," 51","Toronto",N,N,"",0,559,"Opitz","","Ted","Conservative","Conservateur",Y,N,92
+35029,"Etobicoke Centre","Etobicoke-Centre"," 52A","Toronto",N,N,"",2,411,"Baker","","Yvan","Liberal","Libéral",Y,Y,152
+35029,"Etobicoke Centre","Etobicoke-Centre"," 52A","Toronto",N,N,"",2,411,"Jung","","Ji Won","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,13
+35029,"Etobicoke Centre","Etobicoke-Centre"," 52A","Toronto",N,N,"",2,411,"Opitz","","Ted","Conservative","Conservateur",Y,N,120
+35029,"Etobicoke Centre","Etobicoke-Centre"," 52B","Toronto",N,N,"",3,415,"Baker","","Yvan","Liberal","Libéral",Y,Y,150
+35029,"Etobicoke Centre","Etobicoke-Centre"," 52B","Toronto",N,N,"",3,415,"Jung","","Ji Won","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,15
+35029,"Etobicoke Centre","Etobicoke-Centre"," 52B","Toronto",N,N,"",3,415,"Opitz","","Ted","Conservative","Conservateur",Y,N,144
+35029,"Etobicoke Centre","Etobicoke-Centre"," 53A","Toronto",N,N,"",0,351,"Baker","","Yvan","Liberal","Libéral",Y,Y,76
+35029,"Etobicoke Centre","Etobicoke-Centre"," 53A","Toronto",N,N,"",0,351,"Jung","","Ji Won","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,9
+35029,"Etobicoke Centre","Etobicoke-Centre"," 53A","Toronto",N,N,"",0,351,"Opitz","","Ted","Conservative","Conservateur",Y,N,60
+35029,"Etobicoke Centre","Etobicoke-Centre"," 53B","Toronto",N,N,"",0,341,"Baker","","Yvan","Liberal","Libéral",Y,Y,58
+35029,"Etobicoke Centre","Etobicoke-Centre"," 53B","Toronto",N,N,"",0,341,"Jung","","Ji Won","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,2
+35029,"Etobicoke Centre","Etobicoke-Centre"," 53B","Toronto",N,N,"",0,341,"Opitz","","Ted","Conservative","Conservateur",Y,N,49
+35029,"Etobicoke Centre","Etobicoke-Centre"," 54A","Toronto",N,N,"52B",0,209,"Baker","","Yvan","Liberal","Libéral",Y,Y,0
+35029,"Etobicoke Centre","Etobicoke-Centre"," 54A","Toronto",N,N,"52B",0,209,"Jung","","Ji Won","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,0
+35029,"Etobicoke Centre","Etobicoke-Centre"," 54A","Toronto",N,N,"52B",0,209,"Opitz","","Ted","Conservative","Conservateur",Y,N,0
+35029,"Etobicoke Centre","Etobicoke-Centre"," 54B","Toronto",N,N,"52A",0,208,"Baker","","Yvan","Liberal","Libéral",Y,Y,0
+35029,"Etobicoke Centre","Etobicoke-Centre"," 54B","Toronto",N,N,"52A",0,208,"Jung","","Ji Won","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,0
+35029,"Etobicoke Centre","Etobicoke-Centre"," 54B","Toronto",N,N,"52A",0,208,"Opitz","","Ted","Conservative","Conservateur",Y,N,0
+35029,"Etobicoke Centre","Etobicoke-Centre"," 55","Toronto",N,N,"",2,580,"Baker","","Yvan","Liberal","Libéral",Y,Y,131
+35029,"Etobicoke Centre","Etobicoke-Centre"," 55","Toronto",N,N,"",2,580,"Jung","","Ji Won","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,5
+35029,"Etobicoke Centre","Etobicoke-Centre"," 55","Toronto",N,N,"",2,580,"Opitz","","Ted","Conservative","Conservateur",Y,N,141
+35029,"Etobicoke Centre","Etobicoke-Centre"," 56","Toronto",N,N,"",0,583,"Baker","","Yvan","Liberal","Libéral",Y,Y,102
+35029,"Etobicoke Centre","Etobicoke-Centre"," 56","Toronto",N,N,"",0,583,"Jung","","Ji Won","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,2
+35029,"Etobicoke Centre","Etobicoke-Centre"," 56","Toronto",N,N,"",0,583,"Opitz","","Ted","Conservative","Conservateur",Y,N,97
+35029,"Etobicoke Centre","Etobicoke-Centre"," 57","Toronto",N,N,"",0,460,"Baker","","Yvan","Liberal","Libéral",Y,Y,68
+35029,"Etobicoke Centre","Etobicoke-Centre"," 57","Toronto",N,N,"",0,460,"Jung","","Ji Won","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,0
+35029,"Etobicoke Centre","Etobicoke-Centre"," 57","Toronto",N,N,"",0,460,"Opitz","","Ted","Conservative","Conservateur",Y,N,76
+35029,"Etobicoke Centre","Etobicoke-Centre"," 58","Toronto",N,N,"",1,593,"Baker","","Yvan","Liberal","Libéral",Y,Y,107
+35029,"Etobicoke Centre","Etobicoke-Centre"," 58","Toronto",N,N,"",1,593,"Jung","","Ji Won","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,2
+35029,"Etobicoke Centre","Etobicoke-Centre"," 58","Toronto",N,N,"",1,593,"Opitz","","Ted","Conservative","Conservateur",Y,N,104
+35029,"Etobicoke Centre","Etobicoke-Centre"," 59","Toronto",N,N,"",0,527,"Baker","","Yvan","Liberal","Libéral",Y,Y,99
+35029,"Etobicoke Centre","Etobicoke-Centre"," 59","Toronto",N,N,"",0,527,"Jung","","Ji Won","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,1
+35029,"Etobicoke Centre","Etobicoke-Centre"," 59","Toronto",N,N,"",0,527,"Opitz","","Ted","Conservative","Conservateur",Y,N,82
+35029,"Etobicoke Centre","Etobicoke-Centre"," 60","Toronto",N,N,"",1,600,"Baker","","Yvan","Liberal","Libéral",Y,Y,128
+35029,"Etobicoke Centre","Etobicoke-Centre"," 60","Toronto",N,N,"",1,600,"Jung","","Ji Won","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,4
+35029,"Etobicoke Centre","Etobicoke-Centre"," 60","Toronto",N,N,"",1,600,"Opitz","","Ted","Conservative","Conservateur",Y,N,127
+35029,"Etobicoke Centre","Etobicoke-Centre"," 61","Toronto",N,N,"",0,597,"Baker","","Yvan","Liberal","Libéral",Y,Y,116
+35029,"Etobicoke Centre","Etobicoke-Centre"," 61","Toronto",N,N,"",0,597,"Jung","","Ji Won","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,7
+35029,"Etobicoke Centre","Etobicoke-Centre"," 61","Toronto",N,N,"",0,597,"Opitz","","Ted","Conservative","Conservateur",Y,N,93
+35029,"Etobicoke Centre","Etobicoke-Centre"," 62","Toronto",N,N,"",1,553,"Baker","","Yvan","Liberal","Libéral",Y,Y,139
+35029,"Etobicoke Centre","Etobicoke-Centre"," 62","Toronto",N,N,"",1,553,"Jung","","Ji Won","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,8
+35029,"Etobicoke Centre","Etobicoke-Centre"," 62","Toronto",N,N,"",1,553,"Opitz","","Ted","Conservative","Conservateur",Y,N,112
+35029,"Etobicoke Centre","Etobicoke-Centre"," 63","Toronto",N,N,"",1,544,"Baker","","Yvan","Liberal","Libéral",Y,Y,104
+35029,"Etobicoke Centre","Etobicoke-Centre"," 63","Toronto",N,N,"",1,544,"Jung","","Ji Won","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,3
+35029,"Etobicoke Centre","Etobicoke-Centre"," 63","Toronto",N,N,"",1,544,"Opitz","","Ted","Conservative","Conservateur",Y,N,111
+35029,"Etobicoke Centre","Etobicoke-Centre"," 64","Toronto",N,N,"",0,525,"Baker","","Yvan","Liberal","Libéral",Y,Y,122
+35029,"Etobicoke Centre","Etobicoke-Centre"," 64","Toronto",N,N,"",0,525,"Jung","","Ji Won","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,5
+35029,"Etobicoke Centre","Etobicoke-Centre"," 64","Toronto",N,N,"",0,525,"Opitz","","Ted","Conservative","Conservateur",Y,N,121
+35029,"Etobicoke Centre","Etobicoke-Centre"," 65","Toronto",N,N,"",0,550,"Baker","","Yvan","Liberal","Libéral",Y,Y,129
+35029,"Etobicoke Centre","Etobicoke-Centre"," 65","Toronto",N,N,"",0,550,"Jung","","Ji Won","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,8
+35029,"Etobicoke Centre","Etobicoke-Centre"," 65","Toronto",N,N,"",0,550,"Opitz","","Ted","Conservative","Conservateur",Y,N,107
+35029,"Etobicoke Centre","Etobicoke-Centre"," 66","Toronto",N,N,"",0,498,"Baker","","Yvan","Liberal","Libéral",Y,Y,149
+35029,"Etobicoke Centre","Etobicoke-Centre"," 66","Toronto",N,N,"",0,498,"Jung","","Ji Won","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,5
+35029,"Etobicoke Centre","Etobicoke-Centre"," 66","Toronto",N,N,"",0,498,"Opitz","","Ted","Conservative","Conservateur",Y,N,107
+35029,"Etobicoke Centre","Etobicoke-Centre"," 67","Toronto",N,N,"",0,616,"Baker","","Yvan","Liberal","Libéral",Y,Y,128
+35029,"Etobicoke Centre","Etobicoke-Centre"," 67","Toronto",N,N,"",0,616,"Jung","","Ji Won","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,5
+35029,"Etobicoke Centre","Etobicoke-Centre"," 67","Toronto",N,N,"",0,616,"Opitz","","Ted","Conservative","Conservateur",Y,N,162
+35029,"Etobicoke Centre","Etobicoke-Centre"," 68","Toronto",N,N,"",5,602,"Baker","","Yvan","Liberal","Libéral",Y,Y,193
+35029,"Etobicoke Centre","Etobicoke-Centre"," 68","Toronto",N,N,"",5,602,"Jung","","Ji Won","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,6
+35029,"Etobicoke Centre","Etobicoke-Centre"," 68","Toronto",N,N,"",5,602,"Opitz","","Ted","Conservative","Conservateur",Y,N,96
+35029,"Etobicoke Centre","Etobicoke-Centre"," 69","Toronto",N,N,"",3,565,"Baker","","Yvan","Liberal","Libéral",Y,Y,152
+35029,"Etobicoke Centre","Etobicoke-Centre"," 69","Toronto",N,N,"",3,565,"Jung","","Ji Won","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,6
+35029,"Etobicoke Centre","Etobicoke-Centre"," 69","Toronto",N,N,"",3,565,"Opitz","","Ted","Conservative","Conservateur",Y,N,153
+35029,"Etobicoke Centre","Etobicoke-Centre"," 70","Toronto",N,N,"",7,584,"Baker","","Yvan","Liberal","Libéral",Y,Y,167
+35029,"Etobicoke Centre","Etobicoke-Centre"," 70","Toronto",N,N,"",7,584,"Jung","","Ji Won","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,10
+35029,"Etobicoke Centre","Etobicoke-Centre"," 70","Toronto",N,N,"",7,584,"Opitz","","Ted","Conservative","Conservateur",Y,N,136
+35029,"Etobicoke Centre","Etobicoke-Centre"," 71","Toronto",N,N,"",1,554,"Baker","","Yvan","Liberal","Libéral",Y,Y,120
+35029,"Etobicoke Centre","Etobicoke-Centre"," 71","Toronto",N,N,"",1,554,"Jung","","Ji Won","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,7
+35029,"Etobicoke Centre","Etobicoke-Centre"," 71","Toronto",N,N,"",1,554,"Opitz","","Ted","Conservative","Conservateur",Y,N,161
+35029,"Etobicoke Centre","Etobicoke-Centre"," 72","Toronto",N,N,"",3,608,"Baker","","Yvan","Liberal","Libéral",Y,Y,116
+35029,"Etobicoke Centre","Etobicoke-Centre"," 72","Toronto",N,N,"",3,608,"Jung","","Ji Won","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,4
+35029,"Etobicoke Centre","Etobicoke-Centre"," 72","Toronto",N,N,"",3,608,"Opitz","","Ted","Conservative","Conservateur",Y,N,163
+35029,"Etobicoke Centre","Etobicoke-Centre"," 73","Toronto",N,N,"",0,553,"Baker","","Yvan","Liberal","Libéral",Y,Y,106
+35029,"Etobicoke Centre","Etobicoke-Centre"," 73","Toronto",N,N,"",0,553,"Jung","","Ji Won","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,3
+35029,"Etobicoke Centre","Etobicoke-Centre"," 73","Toronto",N,N,"",0,553,"Opitz","","Ted","Conservative","Conservateur",Y,N,115
+35029,"Etobicoke Centre","Etobicoke-Centre"," 74","Toronto",N,N,"",3,556,"Baker","","Yvan","Liberal","Libéral",Y,Y,140
+35029,"Etobicoke Centre","Etobicoke-Centre"," 74","Toronto",N,N,"",3,556,"Jung","","Ji Won","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,5
+35029,"Etobicoke Centre","Etobicoke-Centre"," 74","Toronto",N,N,"",3,556,"Opitz","","Ted","Conservative","Conservateur",Y,N,123
+35029,"Etobicoke Centre","Etobicoke-Centre"," 75","Toronto",N,N,"",0,548,"Baker","","Yvan","Liberal","Libéral",Y,Y,135
+35029,"Etobicoke Centre","Etobicoke-Centre"," 75","Toronto",N,N,"",0,548,"Jung","","Ji Won","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,6
+35029,"Etobicoke Centre","Etobicoke-Centre"," 75","Toronto",N,N,"",0,548,"Opitz","","Ted","Conservative","Conservateur",Y,N,143
+35029,"Etobicoke Centre","Etobicoke-Centre"," 76","Toronto",N,N,"",0,548,"Baker","","Yvan","Liberal","Libéral",Y,Y,126
+35029,"Etobicoke Centre","Etobicoke-Centre"," 76","Toronto",N,N,"",0,548,"Jung","","Ji Won","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,7
+35029,"Etobicoke Centre","Etobicoke-Centre"," 76","Toronto",N,N,"",0,548,"Opitz","","Ted","Conservative","Conservateur",Y,N,140
+35029,"Etobicoke Centre","Etobicoke-Centre"," 77","Toronto",N,N,"",1,516,"Baker","","Yvan","Liberal","Libéral",Y,Y,93
+35029,"Etobicoke Centre","Etobicoke-Centre"," 77","Toronto",N,N,"",1,516,"Jung","","Ji Won","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,2
+35029,"Etobicoke Centre","Etobicoke-Centre"," 77","Toronto",N,N,"",1,516,"Opitz","","Ted","Conservative","Conservateur",Y,N,79
+35029,"Etobicoke Centre","Etobicoke-Centre"," 78A","Toronto",N,N,"",5,466,"Baker","","Yvan","Liberal","Libéral",Y,Y,154
+35029,"Etobicoke Centre","Etobicoke-Centre"," 78A","Toronto",N,N,"",5,466,"Jung","","Ji Won","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,7
+35029,"Etobicoke Centre","Etobicoke-Centre"," 78A","Toronto",N,N,"",5,466,"Opitz","","Ted","Conservative","Conservateur",Y,N,95
+35029,"Etobicoke Centre","Etobicoke-Centre"," 78B","Toronto",N,N,"",2,476,"Baker","","Yvan","Liberal","Libéral",Y,Y,163
+35029,"Etobicoke Centre","Etobicoke-Centre"," 78B","Toronto",N,N,"",2,476,"Jung","","Ji Won","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,9
+35029,"Etobicoke Centre","Etobicoke-Centre"," 78B","Toronto",N,N,"",2,476,"Opitz","","Ted","Conservative","Conservateur",Y,N,99
+35029,"Etobicoke Centre","Etobicoke-Centre"," 79A","Toronto",N,N,"78A",0,130,"Baker","","Yvan","Liberal","Libéral",Y,Y,0
+35029,"Etobicoke Centre","Etobicoke-Centre"," 79A","Toronto",N,N,"78A",0,130,"Jung","","Ji Won","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,0
+35029,"Etobicoke Centre","Etobicoke-Centre"," 79A","Toronto",N,N,"78A",0,130,"Opitz","","Ted","Conservative","Conservateur",Y,N,0
+35029,"Etobicoke Centre","Etobicoke-Centre"," 79B","Toronto",N,N,"78B",0,134,"Baker","","Yvan","Liberal","Libéral",Y,Y,0
+35029,"Etobicoke Centre","Etobicoke-Centre"," 79B","Toronto",N,N,"78B",0,134,"Jung","","Ji Won","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,0
+35029,"Etobicoke Centre","Etobicoke-Centre"," 79B","Toronto",N,N,"78B",0,134,"Opitz","","Ted","Conservative","Conservateur",Y,N,0
+35029,"Etobicoke Centre","Etobicoke-Centre"," 80","Toronto",N,N,"",0,525,"Baker","","Yvan","Liberal","Libéral",Y,Y,96
+35029,"Etobicoke Centre","Etobicoke-Centre"," 80","Toronto",N,N,"",0,525,"Jung","","Ji Won","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,4
+35029,"Etobicoke Centre","Etobicoke-Centre"," 80","Toronto",N,N,"",0,525,"Opitz","","Ted","Conservative","Conservateur",Y,N,84
+35029,"Etobicoke Centre","Etobicoke-Centre"," 81","Toronto",N,N,"78A",0,13,"Baker","","Yvan","Liberal","Libéral",Y,Y,0
+35029,"Etobicoke Centre","Etobicoke-Centre"," 81","Toronto",N,N,"78A",0,13,"Jung","","Ji Won","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,0
+35029,"Etobicoke Centre","Etobicoke-Centre"," 81","Toronto",N,N,"78A",0,13,"Opitz","","Ted","Conservative","Conservateur",Y,N,0
+35029,"Etobicoke Centre","Etobicoke-Centre"," 82A","Toronto",N,N,"",0,480,"Baker","","Yvan","Liberal","Libéral",Y,Y,132
+35029,"Etobicoke Centre","Etobicoke-Centre"," 82A","Toronto",N,N,"",0,480,"Jung","","Ji Won","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,7
+35029,"Etobicoke Centre","Etobicoke-Centre"," 82A","Toronto",N,N,"",0,480,"Opitz","","Ted","Conservative","Conservateur",Y,N,72
+35029,"Etobicoke Centre","Etobicoke-Centre"," 82B","Toronto",N,N,"",2,477,"Baker","","Yvan","Liberal","Libéral",Y,Y,125
+35029,"Etobicoke Centre","Etobicoke-Centre"," 82B","Toronto",N,N,"",2,477,"Jung","","Ji Won","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,11
+35029,"Etobicoke Centre","Etobicoke-Centre"," 82B","Toronto",N,N,"",2,477,"Opitz","","Ted","Conservative","Conservateur",Y,N,65
+35029,"Etobicoke Centre","Etobicoke-Centre"," 82C","Toronto",N,N,"",1,491,"Baker","","Yvan","Liberal","Libéral",Y,Y,113
+35029,"Etobicoke Centre","Etobicoke-Centre"," 82C","Toronto",N,N,"",1,491,"Jung","","Ji Won","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,8
+35029,"Etobicoke Centre","Etobicoke-Centre"," 82C","Toronto",N,N,"",1,491,"Opitz","","Ted","Conservative","Conservateur",Y,N,66
+35029,"Etobicoke Centre","Etobicoke-Centre"," 83","Toronto",N,N,"",0,482,"Baker","","Yvan","Liberal","Libéral",Y,Y,105
+35029,"Etobicoke Centre","Etobicoke-Centre"," 83","Toronto",N,N,"",0,482,"Jung","","Ji Won","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,1
+35029,"Etobicoke Centre","Etobicoke-Centre"," 83","Toronto",N,N,"",0,482,"Opitz","","Ted","Conservative","Conservateur",Y,N,76
+35029,"Etobicoke Centre","Etobicoke-Centre"," 84A","Toronto",N,N,"",1,674,"Baker","","Yvan","Liberal","Libéral",Y,Y,209
+35029,"Etobicoke Centre","Etobicoke-Centre"," 84A","Toronto",N,N,"",1,674,"Jung","","Ji Won","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,15
+35029,"Etobicoke Centre","Etobicoke-Centre"," 84A","Toronto",N,N,"",1,674,"Opitz","","Ted","Conservative","Conservateur",Y,N,171
+35029,"Etobicoke Centre","Etobicoke-Centre"," 84B","Toronto",N,N,"",3,633,"Baker","","Yvan","Liberal","Libéral",Y,Y,183
+35029,"Etobicoke Centre","Etobicoke-Centre"," 84B","Toronto",N,N,"",3,633,"Jung","","Ji Won","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,12
+35029,"Etobicoke Centre","Etobicoke-Centre"," 84B","Toronto",N,N,"",3,633,"Opitz","","Ted","Conservative","Conservateur",Y,N,132
+35029,"Etobicoke Centre","Etobicoke-Centre"," 84C","Toronto",N,N,"",0,503,"Baker","","Yvan","Liberal","Libéral",Y,Y,172
+35029,"Etobicoke Centre","Etobicoke-Centre"," 84C","Toronto",N,N,"",0,503,"Jung","","Ji Won","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,6
+35029,"Etobicoke Centre","Etobicoke-Centre"," 84C","Toronto",N,N,"",0,503,"Opitz","","Ted","Conservative","Conservateur",Y,N,100
+35029,"Etobicoke Centre","Etobicoke-Centre"," 85","Toronto",N,N,"",2,605,"Baker","","Yvan","Liberal","Libéral",Y,Y,88
+35029,"Etobicoke Centre","Etobicoke-Centre"," 85","Toronto",N,N,"",2,605,"Jung","","Ji Won","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,3
+35029,"Etobicoke Centre","Etobicoke-Centre"," 85","Toronto",N,N,"",2,605,"Opitz","","Ted","Conservative","Conservateur",Y,N,129
+35029,"Etobicoke Centre","Etobicoke-Centre"," 86","Toronto",N,N,"",5,611,"Baker","","Yvan","Liberal","Libéral",Y,Y,96
+35029,"Etobicoke Centre","Etobicoke-Centre"," 86","Toronto",N,N,"",5,611,"Jung","","Ji Won","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,12
+35029,"Etobicoke Centre","Etobicoke-Centre"," 86","Toronto",N,N,"",5,611,"Opitz","","Ted","Conservative","Conservateur",Y,N,104
+35029,"Etobicoke Centre","Etobicoke-Centre"," 87","Toronto",N,N,"",4,386,"Baker","","Yvan","Liberal","Libéral",Y,Y,65
+35029,"Etobicoke Centre","Etobicoke-Centre"," 87","Toronto",N,N,"",4,386,"Jung","","Ji Won","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,14
+35029,"Etobicoke Centre","Etobicoke-Centre"," 87","Toronto",N,N,"",4,386,"Opitz","","Ted","Conservative","Conservateur",Y,N,29
+35029,"Etobicoke Centre","Etobicoke-Centre"," 88","Toronto",N,N,"",7,475,"Baker","","Yvan","Liberal","Libéral",Y,Y,101
+35029,"Etobicoke Centre","Etobicoke-Centre"," 88","Toronto",N,N,"",7,475,"Jung","","Ji Won","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,6
+35029,"Etobicoke Centre","Etobicoke-Centre"," 88","Toronto",N,N,"",7,475,"Opitz","","Ted","Conservative","Conservateur",Y,N,78
+35029,"Etobicoke Centre","Etobicoke-Centre"," 89","Toronto",N,N,"",3,628,"Baker","","Yvan","Liberal","Libéral",Y,Y,105
+35029,"Etobicoke Centre","Etobicoke-Centre"," 89","Toronto",N,N,"",3,628,"Jung","","Ji Won","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,5
+35029,"Etobicoke Centre","Etobicoke-Centre"," 89","Toronto",N,N,"",3,628,"Opitz","","Ted","Conservative","Conservateur",Y,N,140
+35029,"Etobicoke Centre","Etobicoke-Centre"," 90","Toronto",N,N,"",3,608,"Baker","","Yvan","Liberal","Libéral",Y,Y,96
+35029,"Etobicoke Centre","Etobicoke-Centre"," 90","Toronto",N,N,"",3,608,"Jung","","Ji Won","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,5
+35029,"Etobicoke Centre","Etobicoke-Centre"," 90","Toronto",N,N,"",3,608,"Opitz","","Ted","Conservative","Conservateur",Y,N,111
+35029,"Etobicoke Centre","Etobicoke-Centre"," 91","Toronto",N,N,"",8,608,"Baker","","Yvan","Liberal","Libéral",Y,Y,126
+35029,"Etobicoke Centre","Etobicoke-Centre"," 91","Toronto",N,N,"",8,608,"Jung","","Ji Won","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,14
+35029,"Etobicoke Centre","Etobicoke-Centre"," 91","Toronto",N,N,"",8,608,"Opitz","","Ted","Conservative","Conservateur",Y,N,71
+35029,"Etobicoke Centre","Etobicoke-Centre"," 92","Toronto",N,N,"",0,561,"Baker","","Yvan","Liberal","Libéral",Y,Y,79
+35029,"Etobicoke Centre","Etobicoke-Centre"," 92","Toronto",N,N,"",0,561,"Jung","","Ji Won","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,3
+35029,"Etobicoke Centre","Etobicoke-Centre"," 92","Toronto",N,N,"",0,561,"Opitz","","Ted","Conservative","Conservateur",Y,N,108
+35029,"Etobicoke Centre","Etobicoke-Centre"," 93","Toronto",N,N,"",2,553,"Baker","","Yvan","Liberal","Libéral",Y,Y,108
+35029,"Etobicoke Centre","Etobicoke-Centre"," 93","Toronto",N,N,"",2,553,"Jung","","Ji Won","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,8
+35029,"Etobicoke Centre","Etobicoke-Centre"," 93","Toronto",N,N,"",2,553,"Opitz","","Ted","Conservative","Conservateur",Y,N,108
+35029,"Etobicoke Centre","Etobicoke-Centre"," 94","Toronto",N,N,"",0,526,"Baker","","Yvan","Liberal","Libéral",Y,Y,123
+35029,"Etobicoke Centre","Etobicoke-Centre"," 94","Toronto",N,N,"",0,526,"Jung","","Ji Won","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,2
+35029,"Etobicoke Centre","Etobicoke-Centre"," 94","Toronto",N,N,"",0,526,"Opitz","","Ted","Conservative","Conservateur",Y,N,107
+35029,"Etobicoke Centre","Etobicoke-Centre"," 95","Toronto",N,N,"",1,549,"Baker","","Yvan","Liberal","Libéral",Y,Y,105
+35029,"Etobicoke Centre","Etobicoke-Centre"," 95","Toronto",N,N,"",1,549,"Jung","","Ji Won","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,5
+35029,"Etobicoke Centre","Etobicoke-Centre"," 95","Toronto",N,N,"",1,549,"Opitz","","Ted","Conservative","Conservateur",Y,N,107
+35029,"Etobicoke Centre","Etobicoke-Centre"," 96","Toronto",N,N,"",0,466,"Baker","","Yvan","Liberal","Libéral",Y,Y,103
+35029,"Etobicoke Centre","Etobicoke-Centre"," 96","Toronto",N,N,"",0,466,"Jung","","Ji Won","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,2
+35029,"Etobicoke Centre","Etobicoke-Centre"," 96","Toronto",N,N,"",0,466,"Opitz","","Ted","Conservative","Conservateur",Y,N,114
+35029,"Etobicoke Centre","Etobicoke-Centre"," 97","Toronto",N,N,"",0,539,"Baker","","Yvan","Liberal","Libéral",Y,Y,123
+35029,"Etobicoke Centre","Etobicoke-Centre"," 97","Toronto",N,N,"",0,539,"Jung","","Ji Won","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,6
+35029,"Etobicoke Centre","Etobicoke-Centre"," 97","Toronto",N,N,"",0,539,"Opitz","","Ted","Conservative","Conservateur",Y,N,107
+35029,"Etobicoke Centre","Etobicoke-Centre"," 98","Toronto",N,N,"",0,579,"Baker","","Yvan","Liberal","Libéral",Y,Y,93
+35029,"Etobicoke Centre","Etobicoke-Centre"," 98","Toronto",N,N,"",0,579,"Jung","","Ji Won","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,5
+35029,"Etobicoke Centre","Etobicoke-Centre"," 98","Toronto",N,N,"",0,579,"Opitz","","Ted","Conservative","Conservateur",Y,N,107
+35029,"Etobicoke Centre","Etobicoke-Centre"," 99","Toronto",N,N,"",0,560,"Baker","","Yvan","Liberal","Libéral",Y,Y,132
+35029,"Etobicoke Centre","Etobicoke-Centre"," 99","Toronto",N,N,"",0,560,"Jung","","Ji Won","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,9
+35029,"Etobicoke Centre","Etobicoke-Centre"," 99","Toronto",N,N,"",0,560,"Opitz","","Ted","Conservative","Conservateur",Y,N,123
+35029,"Etobicoke Centre","Etobicoke-Centre"," 100","Toronto",N,N,"",0,426,"Baker","","Yvan","Liberal","Libéral",Y,Y,71
+35029,"Etobicoke Centre","Etobicoke-Centre"," 100","Toronto",N,N,"",0,426,"Jung","","Ji Won","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,6
+35029,"Etobicoke Centre","Etobicoke-Centre"," 100","Toronto",N,N,"",0,426,"Opitz","","Ted","Conservative","Conservateur",Y,N,55
+35029,"Etobicoke Centre","Etobicoke-Centre"," 101","Toronto",N,N,"",2,540,"Baker","","Yvan","Liberal","Libéral",Y,Y,98
+35029,"Etobicoke Centre","Etobicoke-Centre"," 101","Toronto",N,N,"",2,540,"Jung","","Ji Won","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,2
+35029,"Etobicoke Centre","Etobicoke-Centre"," 101","Toronto",N,N,"",2,540,"Opitz","","Ted","Conservative","Conservateur",Y,N,96
+35029,"Etobicoke Centre","Etobicoke-Centre"," 102","Toronto",N,N,"",0,582,"Baker","","Yvan","Liberal","Libéral",Y,Y,117
+35029,"Etobicoke Centre","Etobicoke-Centre"," 102","Toronto",N,N,"",0,582,"Jung","","Ji Won","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,11
+35029,"Etobicoke Centre","Etobicoke-Centre"," 102","Toronto",N,N,"",0,582,"Opitz","","Ted","Conservative","Conservateur",Y,N,129
+35029,"Etobicoke Centre","Etobicoke-Centre"," 103","Toronto",N,N,"",0,603,"Baker","","Yvan","Liberal","Libéral",Y,Y,104
+35029,"Etobicoke Centre","Etobicoke-Centre"," 103","Toronto",N,N,"",0,603,"Jung","","Ji Won","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,11
+35029,"Etobicoke Centre","Etobicoke-Centre"," 103","Toronto",N,N,"",0,603,"Opitz","","Ted","Conservative","Conservateur",Y,N,110
+35029,"Etobicoke Centre","Etobicoke-Centre"," 104","Toronto",N,N,"",3,449,"Baker","","Yvan","Liberal","Libéral",Y,Y,103
+35029,"Etobicoke Centre","Etobicoke-Centre"," 104","Toronto",N,N,"",3,449,"Jung","","Ji Won","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,5
+35029,"Etobicoke Centre","Etobicoke-Centre"," 104","Toronto",N,N,"",3,449,"Opitz","","Ted","Conservative","Conservateur",Y,N,57
+35029,"Etobicoke Centre","Etobicoke-Centre"," 105","Toronto",N,N,"",0,624,"Baker","","Yvan","Liberal","Libéral",Y,Y,133
+35029,"Etobicoke Centre","Etobicoke-Centre"," 105","Toronto",N,N,"",0,624,"Jung","","Ji Won","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,7
+35029,"Etobicoke Centre","Etobicoke-Centre"," 105","Toronto",N,N,"",0,624,"Opitz","","Ted","Conservative","Conservateur",Y,N,124
+35029,"Etobicoke Centre","Etobicoke-Centre"," 106","Toronto",N,N,"",6,532,"Baker","","Yvan","Liberal","Libéral",Y,Y,99
+35029,"Etobicoke Centre","Etobicoke-Centre"," 106","Toronto",N,N,"",6,532,"Jung","","Ji Won","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,1
+35029,"Etobicoke Centre","Etobicoke-Centre"," 106","Toronto",N,N,"",6,532,"Opitz","","Ted","Conservative","Conservateur",Y,N,114
+35029,"Etobicoke Centre","Etobicoke-Centre"," 107","Toronto",N,N,"",2,457,"Baker","","Yvan","Liberal","Libéral",Y,Y,73
+35029,"Etobicoke Centre","Etobicoke-Centre"," 107","Toronto",N,N,"",2,457,"Jung","","Ji Won","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,5
+35029,"Etobicoke Centre","Etobicoke-Centre"," 107","Toronto",N,N,"",2,457,"Opitz","","Ted","Conservative","Conservateur",Y,N,104
+35029,"Etobicoke Centre","Etobicoke-Centre"," 108","Toronto",N,N,"",0,556,"Baker","","Yvan","Liberal","Libéral",Y,Y,138
+35029,"Etobicoke Centre","Etobicoke-Centre"," 108","Toronto",N,N,"",0,556,"Jung","","Ji Won","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,5
+35029,"Etobicoke Centre","Etobicoke-Centre"," 108","Toronto",N,N,"",0,556,"Opitz","","Ted","Conservative","Conservateur",Y,N,92
+35029,"Etobicoke Centre","Etobicoke-Centre"," 109","Toronto",N,N,"",4,550,"Baker","","Yvan","Liberal","Libéral",Y,Y,71
+35029,"Etobicoke Centre","Etobicoke-Centre"," 109","Toronto",N,N,"",4,550,"Jung","","Ji Won","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,3
+35029,"Etobicoke Centre","Etobicoke-Centre"," 109","Toronto",N,N,"",4,550,"Opitz","","Ted","Conservative","Conservateur",Y,N,97
+35029,"Etobicoke Centre","Etobicoke-Centre"," 110","Toronto",N,N,"112A",0,4,"Baker","","Yvan","Liberal","Libéral",Y,Y,0
+35029,"Etobicoke Centre","Etobicoke-Centre"," 110","Toronto",N,N,"112A",0,4,"Jung","","Ji Won","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,0
+35029,"Etobicoke Centre","Etobicoke-Centre"," 110","Toronto",N,N,"112A",0,4,"Opitz","","Ted","Conservative","Conservateur",Y,N,0
+35029,"Etobicoke Centre","Etobicoke-Centre"," 111A","Toronto",N,N,"112A",0,174,"Baker","","Yvan","Liberal","Libéral",Y,Y,0
+35029,"Etobicoke Centre","Etobicoke-Centre"," 111A","Toronto",N,N,"112A",0,174,"Jung","","Ji Won","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,0
+35029,"Etobicoke Centre","Etobicoke-Centre"," 111A","Toronto",N,N,"112A",0,174,"Opitz","","Ted","Conservative","Conservateur",Y,N,0
+35029,"Etobicoke Centre","Etobicoke-Centre"," 111B","Toronto",N,N,"112B",0,174,"Baker","","Yvan","Liberal","Libéral",Y,Y,0
+35029,"Etobicoke Centre","Etobicoke-Centre"," 111B","Toronto",N,N,"112B",0,174,"Jung","","Ji Won","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,0
+35029,"Etobicoke Centre","Etobicoke-Centre"," 111B","Toronto",N,N,"112B",0,174,"Opitz","","Ted","Conservative","Conservateur",Y,N,0
+35029,"Etobicoke Centre","Etobicoke-Centre"," 111C","Mobile poll/Bureau itinérant",N,N,"405",0,120,"Baker","","Yvan","Liberal","Libéral",Y,Y,0
+35029,"Etobicoke Centre","Etobicoke-Centre"," 111C","Mobile poll/Bureau itinérant",N,N,"405",0,120,"Jung","","Ji Won","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,0
+35029,"Etobicoke Centre","Etobicoke-Centre"," 111C","Mobile poll/Bureau itinérant",N,N,"405",0,120,"Opitz","","Ted","Conservative","Conservateur",Y,N,0
+35029,"Etobicoke Centre","Etobicoke-Centre"," 112A","Toronto",N,N,"",2,350,"Baker","","Yvan","Liberal","Libéral",Y,Y,149
+35029,"Etobicoke Centre","Etobicoke-Centre"," 112A","Toronto",N,N,"",2,350,"Jung","","Ji Won","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,12
+35029,"Etobicoke Centre","Etobicoke-Centre"," 112A","Toronto",N,N,"",2,350,"Opitz","","Ted","Conservative","Conservateur",Y,N,101
+35029,"Etobicoke Centre","Etobicoke-Centre"," 112B","Toronto",N,N,"",0,345,"Baker","","Yvan","Liberal","Libéral",Y,Y,145
+35029,"Etobicoke Centre","Etobicoke-Centre"," 112B","Toronto",N,N,"",0,345,"Jung","","Ji Won","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,9
+35029,"Etobicoke Centre","Etobicoke-Centre"," 112B","Toronto",N,N,"",0,345,"Opitz","","Ted","Conservative","Conservateur",Y,N,90
+35029,"Etobicoke Centre","Etobicoke-Centre"," 113","Toronto",N,N,"",1,555,"Baker","","Yvan","Liberal","Libéral",Y,Y,113
+35029,"Etobicoke Centre","Etobicoke-Centre"," 113","Toronto",N,N,"",1,555,"Jung","","Ji Won","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,5
+35029,"Etobicoke Centre","Etobicoke-Centre"," 113","Toronto",N,N,"",1,555,"Opitz","","Ted","Conservative","Conservateur",Y,N,104
+35029,"Etobicoke Centre","Etobicoke-Centre"," 114","Toronto",N,N,"",6,550,"Baker","","Yvan","Liberal","Libéral",Y,Y,81
+35029,"Etobicoke Centre","Etobicoke-Centre"," 114","Toronto",N,N,"",6,550,"Jung","","Ji Won","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,2
+35029,"Etobicoke Centre","Etobicoke-Centre"," 114","Toronto",N,N,"",6,550,"Opitz","","Ted","Conservative","Conservateur",Y,N,77
+35029,"Etobicoke Centre","Etobicoke-Centre"," 115","Toronto",N,N,"",5,369,"Baker","","Yvan","Liberal","Libéral",Y,Y,50
+35029,"Etobicoke Centre","Etobicoke-Centre"," 115","Toronto",N,N,"",5,369,"Jung","","Ji Won","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,10
+35029,"Etobicoke Centre","Etobicoke-Centre"," 115","Toronto",N,N,"",5,369,"Opitz","","Ted","Conservative","Conservateur",Y,N,63
+35029,"Etobicoke Centre","Etobicoke-Centre"," 116","Toronto",N,N,"",0,558,"Baker","","Yvan","Liberal","Libéral",Y,Y,107
+35029,"Etobicoke Centre","Etobicoke-Centre"," 116","Toronto",N,N,"",0,558,"Jung","","Ji Won","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,2
+35029,"Etobicoke Centre","Etobicoke-Centre"," 116","Toronto",N,N,"",0,558,"Opitz","","Ted","Conservative","Conservateur",Y,N,107
+35029,"Etobicoke Centre","Etobicoke-Centre"," 117","Toronto",N,N,"",0,510,"Baker","","Yvan","Liberal","Libéral",Y,Y,110
+35029,"Etobicoke Centre","Etobicoke-Centre"," 117","Toronto",N,N,"",0,510,"Jung","","Ji Won","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,2
+35029,"Etobicoke Centre","Etobicoke-Centre"," 117","Toronto",N,N,"",0,510,"Opitz","","Ted","Conservative","Conservateur",Y,N,105
+35029,"Etobicoke Centre","Etobicoke-Centre"," 118","Toronto",N,N,"",4,537,"Baker","","Yvan","Liberal","Libéral",Y,Y,100
+35029,"Etobicoke Centre","Etobicoke-Centre"," 118","Toronto",N,N,"",4,537,"Jung","","Ji Won","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,8
+35029,"Etobicoke Centre","Etobicoke-Centre"," 118","Toronto",N,N,"",4,537,"Opitz","","Ted","Conservative","Conservateur",Y,N,111
+35029,"Etobicoke Centre","Etobicoke-Centre"," 119","Toronto",N,N,"",3,597,"Baker","","Yvan","Liberal","Libéral",Y,Y,101
+35029,"Etobicoke Centre","Etobicoke-Centre"," 119","Toronto",N,N,"",3,597,"Jung","","Ji Won","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,11
+35029,"Etobicoke Centre","Etobicoke-Centre"," 119","Toronto",N,N,"",3,597,"Opitz","","Ted","Conservative","Conservateur",Y,N,104
+35029,"Etobicoke Centre","Etobicoke-Centre"," 120","Toronto",N,N,"424",0,257,"Baker","","Yvan","Liberal","Libéral",Y,Y,0
+35029,"Etobicoke Centre","Etobicoke-Centre"," 120","Toronto",N,N,"424",0,257,"Jung","","Ji Won","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,0
+35029,"Etobicoke Centre","Etobicoke-Centre"," 120","Toronto",N,N,"424",0,257,"Opitz","","Ted","Conservative","Conservateur",Y,N,0
+35029,"Etobicoke Centre","Etobicoke-Centre"," 121","Toronto",N,N,"",2,536,"Baker","","Yvan","Liberal","Libéral",Y,Y,98
+35029,"Etobicoke Centre","Etobicoke-Centre"," 121","Toronto",N,N,"",2,536,"Jung","","Ji Won","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,11
+35029,"Etobicoke Centre","Etobicoke-Centre"," 121","Toronto",N,N,"",2,536,"Opitz","","Ted","Conservative","Conservateur",Y,N,61
+35029,"Etobicoke Centre","Etobicoke-Centre"," 122","Toronto",N,N,"",0,546,"Baker","","Yvan","Liberal","Libéral",Y,Y,83
+35029,"Etobicoke Centre","Etobicoke-Centre"," 122","Toronto",N,N,"",0,546,"Jung","","Ji Won","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,4
+35029,"Etobicoke Centre","Etobicoke-Centre"," 122","Toronto",N,N,"",0,546,"Opitz","","Ted","Conservative","Conservateur",Y,N,116
+35029,"Etobicoke Centre","Etobicoke-Centre"," 123","Toronto",N,N,"",1,581,"Baker","","Yvan","Liberal","Libéral",Y,Y,74
+35029,"Etobicoke Centre","Etobicoke-Centre"," 123","Toronto",N,N,"",1,581,"Jung","","Ji Won","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,2
+35029,"Etobicoke Centre","Etobicoke-Centre"," 123","Toronto",N,N,"",1,581,"Opitz","","Ted","Conservative","Conservateur",Y,N,102
+35029,"Etobicoke Centre","Etobicoke-Centre"," 124","Toronto",N,N,"",0,505,"Baker","","Yvan","Liberal","Libéral",Y,Y,80
+35029,"Etobicoke Centre","Etobicoke-Centre"," 124","Toronto",N,N,"",0,505,"Jung","","Ji Won","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,7
+35029,"Etobicoke Centre","Etobicoke-Centre"," 124","Toronto",N,N,"",0,505,"Opitz","","Ted","Conservative","Conservateur",Y,N,97
+35029,"Etobicoke Centre","Etobicoke-Centre"," 125","Toronto",N,N,"",4,550,"Baker","","Yvan","Liberal","Libéral",Y,Y,73
+35029,"Etobicoke Centre","Etobicoke-Centre"," 125","Toronto",N,N,"",4,550,"Jung","","Ji Won","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,2
+35029,"Etobicoke Centre","Etobicoke-Centre"," 125","Toronto",N,N,"",4,550,"Opitz","","Ted","Conservative","Conservateur",Y,N,112
+35029,"Etobicoke Centre","Etobicoke-Centre"," 126","Toronto",N,N,"",0,572,"Baker","","Yvan","Liberal","Libéral",Y,Y,94
+35029,"Etobicoke Centre","Etobicoke-Centre"," 126","Toronto",N,N,"",0,572,"Jung","","Ji Won","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,1
+35029,"Etobicoke Centre","Etobicoke-Centre"," 126","Toronto",N,N,"",0,572,"Opitz","","Ted","Conservative","Conservateur",Y,N,81
+35029,"Etobicoke Centre","Etobicoke-Centre"," 127A","Toronto",N,N,"",5,265,"Baker","","Yvan","Liberal","Libéral",Y,Y,134
+35029,"Etobicoke Centre","Etobicoke-Centre"," 127A","Toronto",N,N,"",5,265,"Jung","","Ji Won","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,12
+35029,"Etobicoke Centre","Etobicoke-Centre"," 127A","Toronto",N,N,"",5,265,"Opitz","","Ted","Conservative","Conservateur",Y,N,86
+35029,"Etobicoke Centre","Etobicoke-Centre"," 127B","Toronto",N,N,"",1,261,"Baker","","Yvan","Liberal","Libéral",Y,Y,160
+35029,"Etobicoke Centre","Etobicoke-Centre"," 127B","Toronto",N,N,"",1,261,"Jung","","Ji Won","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,10
+35029,"Etobicoke Centre","Etobicoke-Centre"," 127B","Toronto",N,N,"",1,261,"Opitz","","Ted","Conservative","Conservateur",Y,N,81
+35029,"Etobicoke Centre","Etobicoke-Centre"," 127C","Toronto",N,N,"",1,275,"Baker","","Yvan","Liberal","Libéral",Y,Y,136
+35029,"Etobicoke Centre","Etobicoke-Centre"," 127C","Toronto",N,N,"",1,275,"Jung","","Ji Won","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,22
+35029,"Etobicoke Centre","Etobicoke-Centre"," 127C","Toronto",N,N,"",1,275,"Opitz","","Ted","Conservative","Conservateur",Y,N,102
+35029,"Etobicoke Centre","Etobicoke-Centre"," 128","Toronto",N,N,"",3,570,"Baker","","Yvan","Liberal","Libéral",Y,Y,82
+35029,"Etobicoke Centre","Etobicoke-Centre"," 128","Toronto",N,N,"",3,570,"Jung","","Ji Won","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,4
+35029,"Etobicoke Centre","Etobicoke-Centre"," 128","Toronto",N,N,"",3,570,"Opitz","","Ted","Conservative","Conservateur",Y,N,119
+35029,"Etobicoke Centre","Etobicoke-Centre"," 129","Toronto",N,N,"",1,555,"Baker","","Yvan","Liberal","Libéral",Y,Y,93
+35029,"Etobicoke Centre","Etobicoke-Centre"," 129","Toronto",N,N,"",1,555,"Jung","","Ji Won","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,5
+35029,"Etobicoke Centre","Etobicoke-Centre"," 129","Toronto",N,N,"",1,555,"Opitz","","Ted","Conservative","Conservateur",Y,N,119
+35029,"Etobicoke Centre","Etobicoke-Centre"," 130","Toronto",N,N,"",1,547,"Baker","","Yvan","Liberal","Libéral",Y,Y,108
+35029,"Etobicoke Centre","Etobicoke-Centre"," 130","Toronto",N,N,"",1,547,"Jung","","Ji Won","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,5
+35029,"Etobicoke Centre","Etobicoke-Centre"," 130","Toronto",N,N,"",1,547,"Opitz","","Ted","Conservative","Conservateur",Y,N,136
+35029,"Etobicoke Centre","Etobicoke-Centre"," 131","Toronto",N,N,"",3,575,"Baker","","Yvan","Liberal","Libéral",Y,Y,131
+35029,"Etobicoke Centre","Etobicoke-Centre"," 131","Toronto",N,N,"",3,575,"Jung","","Ji Won","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,4
+35029,"Etobicoke Centre","Etobicoke-Centre"," 131","Toronto",N,N,"",3,575,"Opitz","","Ted","Conservative","Conservateur",Y,N,143
+35029,"Etobicoke Centre","Etobicoke-Centre"," 132","Toronto",N,N,"",0,722,"Baker","","Yvan","Liberal","Libéral",Y,Y,127
+35029,"Etobicoke Centre","Etobicoke-Centre"," 132","Toronto",N,N,"",0,722,"Jung","","Ji Won","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,9
+35029,"Etobicoke Centre","Etobicoke-Centre"," 132","Toronto",N,N,"",0,722,"Opitz","","Ted","Conservative","Conservateur",Y,N,131
+35029,"Etobicoke Centre","Etobicoke-Centre"," 133A","Toronto",N,N,"",0,421,"Baker","","Yvan","Liberal","Libéral",Y,Y,91
+35029,"Etobicoke Centre","Etobicoke-Centre"," 133A","Toronto",N,N,"",0,421,"Jung","","Ji Won","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,1
+35029,"Etobicoke Centre","Etobicoke-Centre"," 133A","Toronto",N,N,"",0,421,"Opitz","","Ted","Conservative","Conservateur",Y,N,62
+35029,"Etobicoke Centre","Etobicoke-Centre"," 133B","Toronto",N,N,"",1,393,"Baker","","Yvan","Liberal","Libéral",Y,Y,65
+35029,"Etobicoke Centre","Etobicoke-Centre"," 133B","Toronto",N,N,"",1,393,"Jung","","Ji Won","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,4
+35029,"Etobicoke Centre","Etobicoke-Centre"," 133B","Toronto",N,N,"",1,393,"Opitz","","Ted","Conservative","Conservateur",Y,N,44
+35029,"Etobicoke Centre","Etobicoke-Centre"," 134","Toronto",N,N,"",4,599,"Baker","","Yvan","Liberal","Libéral",Y,Y,90
+35029,"Etobicoke Centre","Etobicoke-Centre"," 134","Toronto",N,N,"",4,599,"Jung","","Ji Won","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,5
+35029,"Etobicoke Centre","Etobicoke-Centre"," 134","Toronto",N,N,"",4,599,"Opitz","","Ted","Conservative","Conservateur",Y,N,77
+35029,"Etobicoke Centre","Etobicoke-Centre"," 135","Toronto",N,N,"",1,533,"Baker","","Yvan","Liberal","Libéral",Y,Y,92
+35029,"Etobicoke Centre","Etobicoke-Centre"," 135","Toronto",N,N,"",1,533,"Jung","","Ji Won","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,8
+35029,"Etobicoke Centre","Etobicoke-Centre"," 135","Toronto",N,N,"",1,533,"Opitz","","Ted","Conservative","Conservateur",Y,N,86
+35029,"Etobicoke Centre","Etobicoke-Centre"," 136","Toronto",N,N,"",1,553,"Baker","","Yvan","Liberal","Libéral",Y,Y,82
+35029,"Etobicoke Centre","Etobicoke-Centre"," 136","Toronto",N,N,"",1,553,"Jung","","Ji Won","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,7
+35029,"Etobicoke Centre","Etobicoke-Centre"," 136","Toronto",N,N,"",1,553,"Opitz","","Ted","Conservative","Conservateur",Y,N,89
+35029,"Etobicoke Centre","Etobicoke-Centre"," 137","Toronto",N,N,"",0,527,"Baker","","Yvan","Liberal","Libéral",Y,Y,88
+35029,"Etobicoke Centre","Etobicoke-Centre"," 137","Toronto",N,N,"",0,527,"Jung","","Ji Won","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,8
+35029,"Etobicoke Centre","Etobicoke-Centre"," 137","Toronto",N,N,"",0,527,"Opitz","","Ted","Conservative","Conservateur",Y,N,87
+35029,"Etobicoke Centre","Etobicoke-Centre"," 138","Toronto",N,N,"",1,560,"Baker","","Yvan","Liberal","Libéral",Y,Y,108
+35029,"Etobicoke Centre","Etobicoke-Centre"," 138","Toronto",N,N,"",1,560,"Jung","","Ji Won","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,7
+35029,"Etobicoke Centre","Etobicoke-Centre"," 138","Toronto",N,N,"",1,560,"Opitz","","Ted","Conservative","Conservateur",Y,N,99
+35029,"Etobicoke Centre","Etobicoke-Centre"," 139","Toronto",N,N,"",0,530,"Baker","","Yvan","Liberal","Libéral",Y,Y,87
+35029,"Etobicoke Centre","Etobicoke-Centre"," 139","Toronto",N,N,"",0,530,"Jung","","Ji Won","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,3
+35029,"Etobicoke Centre","Etobicoke-Centre"," 139","Toronto",N,N,"",0,530,"Opitz","","Ted","Conservative","Conservateur",Y,N,76
+35029,"Etobicoke Centre","Etobicoke-Centre"," 140A","Toronto",N,N,"",0,280,"Baker","","Yvan","Liberal","Libéral",Y,Y,135
+35029,"Etobicoke Centre","Etobicoke-Centre"," 140A","Toronto",N,N,"",0,280,"Jung","","Ji Won","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,7
+35029,"Etobicoke Centre","Etobicoke-Centre"," 140A","Toronto",N,N,"",0,280,"Opitz","","Ted","Conservative","Conservateur",Y,N,107
+35029,"Etobicoke Centre","Etobicoke-Centre"," 140B","Toronto",N,N,"",3,300,"Baker","","Yvan","Liberal","Libéral",Y,Y,145
+35029,"Etobicoke Centre","Etobicoke-Centre"," 140B","Toronto",N,N,"",3,300,"Jung","","Ji Won","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,5
+35029,"Etobicoke Centre","Etobicoke-Centre"," 140B","Toronto",N,N,"",3,300,"Opitz","","Ted","Conservative","Conservateur",Y,N,118
+35029,"Etobicoke Centre","Etobicoke-Centre"," 140C","Toronto",N,N,"",1,430,"Baker","","Yvan","Liberal","Libéral",Y,Y,59
+35029,"Etobicoke Centre","Etobicoke-Centre"," 140C","Toronto",N,N,"",1,430,"Jung","","Ji Won","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,4
+35029,"Etobicoke Centre","Etobicoke-Centre"," 140C","Toronto",N,N,"",1,430,"Opitz","","Ted","Conservative","Conservateur",Y,N,102
+35029,"Etobicoke Centre","Etobicoke-Centre"," 141A","Toronto",N,N,"140A",0,167,"Baker","","Yvan","Liberal","Libéral",Y,Y,0
+35029,"Etobicoke Centre","Etobicoke-Centre"," 141A","Toronto",N,N,"140A",0,167,"Jung","","Ji Won","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,0
+35029,"Etobicoke Centre","Etobicoke-Centre"," 141A","Toronto",N,N,"140A",0,167,"Opitz","","Ted","Conservative","Conservateur",Y,N,0
+35029,"Etobicoke Centre","Etobicoke-Centre"," 141B","Toronto",N,N,"140B",0,163,"Baker","","Yvan","Liberal","Libéral",Y,Y,0
+35029,"Etobicoke Centre","Etobicoke-Centre"," 141B","Toronto",N,N,"140B",0,163,"Jung","","Ji Won","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,0
+35029,"Etobicoke Centre","Etobicoke-Centre"," 141B","Toronto",N,N,"140B",0,163,"Opitz","","Ted","Conservative","Conservateur",Y,N,0
+35029,"Etobicoke Centre","Etobicoke-Centre"," 142","Toronto",N,N,"",1,523,"Baker","","Yvan","Liberal","Libéral",Y,Y,89
+35029,"Etobicoke Centre","Etobicoke-Centre"," 142","Toronto",N,N,"",1,523,"Jung","","Ji Won","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,7
+35029,"Etobicoke Centre","Etobicoke-Centre"," 142","Toronto",N,N,"",1,523,"Opitz","","Ted","Conservative","Conservateur",Y,N,92
+35029,"Etobicoke Centre","Etobicoke-Centre"," 143A","Toronto",N,N,"140A",0,191,"Baker","","Yvan","Liberal","Libéral",Y,Y,0
+35029,"Etobicoke Centre","Etobicoke-Centre"," 143A","Toronto",N,N,"140A",0,191,"Jung","","Ji Won","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,0
+35029,"Etobicoke Centre","Etobicoke-Centre"," 143A","Toronto",N,N,"140A",0,191,"Opitz","","Ted","Conservative","Conservateur",Y,N,0
+35029,"Etobicoke Centre","Etobicoke-Centre"," 143B","Toronto",N,N,"140B",0,195,"Baker","","Yvan","Liberal","Libéral",Y,Y,0
+35029,"Etobicoke Centre","Etobicoke-Centre"," 143B","Toronto",N,N,"140B",0,195,"Jung","","Ji Won","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,0
+35029,"Etobicoke Centre","Etobicoke-Centre"," 143B","Toronto",N,N,"140B",0,195,"Opitz","","Ted","Conservative","Conservateur",Y,N,0
+35029,"Etobicoke Centre","Etobicoke-Centre"," 144","Toronto",N,N,"",2,575,"Baker","","Yvan","Liberal","Libéral",Y,Y,97
+35029,"Etobicoke Centre","Etobicoke-Centre"," 144","Toronto",N,N,"",2,575,"Jung","","Ji Won","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,4
+35029,"Etobicoke Centre","Etobicoke-Centre"," 144","Toronto",N,N,"",2,575,"Opitz","","Ted","Conservative","Conservateur",Y,N,106
+35029,"Etobicoke Centre","Etobicoke-Centre"," 400","Toronto",N,N,"",1,416,"Baker","","Yvan","Liberal","Libéral",Y,Y,97
+35029,"Etobicoke Centre","Etobicoke-Centre"," 400","Toronto",N,N,"",1,416,"Jung","","Ji Won","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,9
+35029,"Etobicoke Centre","Etobicoke-Centre"," 400","Toronto",N,N,"",1,416,"Opitz","","Ted","Conservative","Conservateur",Y,N,73
+35029,"Etobicoke Centre","Etobicoke-Centre"," 401","Toronto",N,N,"",0,443,"Baker","","Yvan","Liberal","Libéral",Y,Y,121
+35029,"Etobicoke Centre","Etobicoke-Centre"," 401","Toronto",N,N,"",0,443,"Jung","","Ji Won","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,2
+35029,"Etobicoke Centre","Etobicoke-Centre"," 401","Toronto",N,N,"",0,443,"Opitz","","Ted","Conservative","Conservateur",Y,N,18
+35029,"Etobicoke Centre","Etobicoke-Centre"," 402","Toronto",N,N,"",2,416,"Baker","","Yvan","Liberal","Libéral",Y,Y,86
+35029,"Etobicoke Centre","Etobicoke-Centre"," 402","Toronto",N,N,"",2,416,"Jung","","Ji Won","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,6
+35029,"Etobicoke Centre","Etobicoke-Centre"," 402","Toronto",N,N,"",2,416,"Opitz","","Ted","Conservative","Conservateur",Y,N,20
+35029,"Etobicoke Centre","Etobicoke-Centre"," 403","Toronto",N,N,"",0,373,"Baker","","Yvan","Liberal","Libéral",Y,Y,105
+35029,"Etobicoke Centre","Etobicoke-Centre"," 403","Toronto",N,N,"",0,373,"Jung","","Ji Won","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,6
+35029,"Etobicoke Centre","Etobicoke-Centre"," 403","Toronto",N,N,"",0,373,"Opitz","","Ted","Conservative","Conservateur",Y,N,68
+35029,"Etobicoke Centre","Etobicoke-Centre"," 404","Toronto",N,N,"",1,387,"Baker","","Yvan","Liberal","Libéral",Y,Y,100
+35029,"Etobicoke Centre","Etobicoke-Centre"," 404","Toronto",N,N,"",1,387,"Jung","","Ji Won","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,9
+35029,"Etobicoke Centre","Etobicoke-Centre"," 404","Toronto",N,N,"",1,387,"Opitz","","Ted","Conservative","Conservateur",Y,N,44
+35029,"Etobicoke Centre","Etobicoke-Centre"," 405","Mobile poll/Bureau itinérant",N,N,"",9,149,"Baker","","Yvan","Liberal","Libéral",Y,Y,170
+35029,"Etobicoke Centre","Etobicoke-Centre"," 405","Mobile poll/Bureau itinérant",N,N,"",9,149,"Jung","","Ji Won","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,4
+35029,"Etobicoke Centre","Etobicoke-Centre"," 405","Mobile poll/Bureau itinérant",N,N,"",9,149,"Opitz","","Ted","Conservative","Conservateur",Y,N,23
+35029,"Etobicoke Centre","Etobicoke-Centre"," 406","Toronto",N,N,"",2,391,"Baker","","Yvan","Liberal","Libéral",Y,Y,88
+35029,"Etobicoke Centre","Etobicoke-Centre"," 406","Toronto",N,N,"",2,391,"Jung","","Ji Won","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,11
+35029,"Etobicoke Centre","Etobicoke-Centre"," 406","Toronto",N,N,"",2,391,"Opitz","","Ted","Conservative","Conservateur",Y,N,84
+35029,"Etobicoke Centre","Etobicoke-Centre"," 407","Toronto",N,N,"",0,413,"Baker","","Yvan","Liberal","Libéral",Y,Y,112
+35029,"Etobicoke Centre","Etobicoke-Centre"," 407","Toronto",N,N,"",0,413,"Jung","","Ji Won","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,6
+35029,"Etobicoke Centre","Etobicoke-Centre"," 407","Toronto",N,N,"",0,413,"Opitz","","Ted","Conservative","Conservateur",Y,N,86
+35029,"Etobicoke Centre","Etobicoke-Centre"," 408","Toronto",N,N,"",1,501,"Baker","","Yvan","Liberal","Libéral",Y,Y,116
+35029,"Etobicoke Centre","Etobicoke-Centre"," 408","Toronto",N,N,"",1,501,"Jung","","Ji Won","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,12
+35029,"Etobicoke Centre","Etobicoke-Centre"," 408","Toronto",N,N,"",1,501,"Opitz","","Ted","Conservative","Conservateur",Y,N,103
+35029,"Etobicoke Centre","Etobicoke-Centre"," 409","Toronto",N,N,"",2,539,"Baker","","Yvan","Liberal","Libéral",Y,Y,109
+35029,"Etobicoke Centre","Etobicoke-Centre"," 409","Toronto",N,N,"",2,539,"Jung","","Ji Won","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,3
+35029,"Etobicoke Centre","Etobicoke-Centre"," 409","Toronto",N,N,"",2,539,"Opitz","","Ted","Conservative","Conservateur",Y,N,102
+35029,"Etobicoke Centre","Etobicoke-Centre"," 410","Toronto",N,N,"",2,394,"Baker","","Yvan","Liberal","Libéral",Y,Y,102
+35029,"Etobicoke Centre","Etobicoke-Centre"," 410","Toronto",N,N,"",2,394,"Jung","","Ji Won","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,11
+35029,"Etobicoke Centre","Etobicoke-Centre"," 410","Toronto",N,N,"",2,394,"Opitz","","Ted","Conservative","Conservateur",Y,N,84
+35029,"Etobicoke Centre","Etobicoke-Centre"," 411","Toronto",N,N,"",4,639,"Baker","","Yvan","Liberal","Libéral",Y,Y,178
+35029,"Etobicoke Centre","Etobicoke-Centre"," 411","Toronto",N,N,"",4,639,"Jung","","Ji Won","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,17
+35029,"Etobicoke Centre","Etobicoke-Centre"," 411","Toronto",N,N,"",4,639,"Opitz","","Ted","Conservative","Conservateur",Y,N,122
+35029,"Etobicoke Centre","Etobicoke-Centre"," 412","Toronto",N,N,"",2,433,"Baker","","Yvan","Liberal","Libéral",Y,Y,96
+35029,"Etobicoke Centre","Etobicoke-Centre"," 412","Toronto",N,N,"",2,433,"Jung","","Ji Won","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,12
+35029,"Etobicoke Centre","Etobicoke-Centre"," 412","Toronto",N,N,"",2,433,"Opitz","","Ted","Conservative","Conservateur",Y,N,56
+35029,"Etobicoke Centre","Etobicoke-Centre"," 413","Toronto",N,N,"",3,480,"Baker","","Yvan","Liberal","Libéral",Y,Y,96
+35029,"Etobicoke Centre","Etobicoke-Centre"," 413","Toronto",N,N,"",3,480,"Jung","","Ji Won","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,13
+35029,"Etobicoke Centre","Etobicoke-Centre"," 413","Toronto",N,N,"",3,480,"Opitz","","Ted","Conservative","Conservateur",Y,N,69
+35029,"Etobicoke Centre","Etobicoke-Centre"," 414","Toronto",N,N,"",8,409,"Baker","","Yvan","Liberal","Libéral",Y,Y,131
+35029,"Etobicoke Centre","Etobicoke-Centre"," 414","Toronto",N,N,"",8,409,"Jung","","Ji Won","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,5
+35029,"Etobicoke Centre","Etobicoke-Centre"," 414","Toronto",N,N,"",8,409,"Opitz","","Ted","Conservative","Conservateur",Y,N,75
+35029,"Etobicoke Centre","Etobicoke-Centre"," 415","Toronto",N,N,"",2,486,"Baker","","Yvan","Liberal","Libéral",Y,Y,60
+35029,"Etobicoke Centre","Etobicoke-Centre"," 415","Toronto",N,N,"",2,486,"Jung","","Ji Won","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,7
+35029,"Etobicoke Centre","Etobicoke-Centre"," 415","Toronto",N,N,"",2,486,"Opitz","","Ted","Conservative","Conservateur",Y,N,118
+35029,"Etobicoke Centre","Etobicoke-Centre"," 416","Toronto",N,N,"",3,528,"Baker","","Yvan","Liberal","Libéral",Y,Y,94
+35029,"Etobicoke Centre","Etobicoke-Centre"," 416","Toronto",N,N,"",3,528,"Jung","","Ji Won","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,6
+35029,"Etobicoke Centre","Etobicoke-Centre"," 416","Toronto",N,N,"",3,528,"Opitz","","Ted","Conservative","Conservateur",Y,N,108
+35029,"Etobicoke Centre","Etobicoke-Centre"," 417","Toronto",N,N,"",1,465,"Baker","","Yvan","Liberal","Libéral",Y,Y,104
+35029,"Etobicoke Centre","Etobicoke-Centre"," 417","Toronto",N,N,"",1,465,"Jung","","Ji Won","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,11
+35029,"Etobicoke Centre","Etobicoke-Centre"," 417","Toronto",N,N,"",1,465,"Opitz","","Ted","Conservative","Conservateur",Y,N,90
+35029,"Etobicoke Centre","Etobicoke-Centre"," 418","Toronto",N,N,"",0,480,"Baker","","Yvan","Liberal","Libéral",Y,Y,73
+35029,"Etobicoke Centre","Etobicoke-Centre"," 418","Toronto",N,N,"",0,480,"Jung","","Ji Won","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,6
+35029,"Etobicoke Centre","Etobicoke-Centre"," 418","Toronto",N,N,"",0,480,"Opitz","","Ted","Conservative","Conservateur",Y,N,99
+35029,"Etobicoke Centre","Etobicoke-Centre"," 419","Toronto",N,N,"",3,476,"Baker","","Yvan","Liberal","Libéral",Y,Y,93
+35029,"Etobicoke Centre","Etobicoke-Centre"," 419","Toronto",N,N,"",3,476,"Jung","","Ji Won","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,4
+35029,"Etobicoke Centre","Etobicoke-Centre"," 419","Toronto",N,N,"",3,476,"Opitz","","Ted","Conservative","Conservateur",Y,N,93
+35029,"Etobicoke Centre","Etobicoke-Centre"," 420A","Toronto",N,N,"127A",0,121,"Baker","","Yvan","Liberal","Libéral",Y,Y,0
+35029,"Etobicoke Centre","Etobicoke-Centre"," 420A","Toronto",N,N,"127A",0,121,"Jung","","Ji Won","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,0
+35029,"Etobicoke Centre","Etobicoke-Centre"," 420A","Toronto",N,N,"127A",0,121,"Opitz","","Ted","Conservative","Conservateur",Y,N,0
+35029,"Etobicoke Centre","Etobicoke-Centre"," 420B","Toronto",N,N,"127B",0,130,"Baker","","Yvan","Liberal","Libéral",Y,Y,0
+35029,"Etobicoke Centre","Etobicoke-Centre"," 420B","Toronto",N,N,"127B",0,130,"Jung","","Ji Won","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,0
+35029,"Etobicoke Centre","Etobicoke-Centre"," 420B","Toronto",N,N,"127B",0,130,"Opitz","","Ted","Conservative","Conservateur",Y,N,0
+35029,"Etobicoke Centre","Etobicoke-Centre"," 420C","Toronto",N,N,"127C",0,127,"Baker","","Yvan","Liberal","Libéral",Y,Y,0
+35029,"Etobicoke Centre","Etobicoke-Centre"," 420C","Toronto",N,N,"127C",0,127,"Jung","","Ji Won","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,0
+35029,"Etobicoke Centre","Etobicoke-Centre"," 420C","Toronto",N,N,"127C",0,127,"Opitz","","Ted","Conservative","Conservateur",Y,N,0
+35029,"Etobicoke Centre","Etobicoke-Centre"," 421A","Toronto",N,N,"422A",0,161,"Baker","","Yvan","Liberal","Libéral",Y,Y,0
+35029,"Etobicoke Centre","Etobicoke-Centre"," 421A","Toronto",N,N,"422A",0,161,"Jung","","Ji Won","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,0
+35029,"Etobicoke Centre","Etobicoke-Centre"," 421A","Toronto",N,N,"422A",0,161,"Opitz","","Ted","Conservative","Conservateur",Y,N,0
+35029,"Etobicoke Centre","Etobicoke-Centre"," 421B","Toronto",N,N,"422B",0,166,"Baker","","Yvan","Liberal","Libéral",Y,Y,0
+35029,"Etobicoke Centre","Etobicoke-Centre"," 421B","Toronto",N,N,"422B",0,166,"Jung","","Ji Won","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,0
+35029,"Etobicoke Centre","Etobicoke-Centre"," 421B","Toronto",N,N,"422B",0,166,"Opitz","","Ted","Conservative","Conservateur",Y,N,0
+35029,"Etobicoke Centre","Etobicoke-Centre"," 422A","Toronto",N,N,"",4,187,"Baker","","Yvan","Liberal","Libéral",Y,Y,91
+35029,"Etobicoke Centre","Etobicoke-Centre"," 422A","Toronto",N,N,"",4,187,"Jung","","Ji Won","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,4
+35029,"Etobicoke Centre","Etobicoke-Centre"," 422A","Toronto",N,N,"",4,187,"Opitz","","Ted","Conservative","Conservateur",Y,N,82
+35029,"Etobicoke Centre","Etobicoke-Centre"," 422B","Toronto",N,N,"",1,195,"Baker","","Yvan","Liberal","Libéral",Y,Y,87
+35029,"Etobicoke Centre","Etobicoke-Centre"," 422B","Toronto",N,N,"",1,195,"Jung","","Ji Won","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,7
+35029,"Etobicoke Centre","Etobicoke-Centre"," 422B","Toronto",N,N,"",1,195,"Opitz","","Ted","Conservative","Conservateur",Y,N,94
+35029,"Etobicoke Centre","Etobicoke-Centre"," 423A","Toronto",N,N,"422A",0,132,"Baker","","Yvan","Liberal","Libéral",Y,Y,0
+35029,"Etobicoke Centre","Etobicoke-Centre"," 423A","Toronto",N,N,"422A",0,132,"Jung","","Ji Won","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,0
+35029,"Etobicoke Centre","Etobicoke-Centre"," 423A","Toronto",N,N,"422A",0,132,"Opitz","","Ted","Conservative","Conservateur",Y,N,0
+35029,"Etobicoke Centre","Etobicoke-Centre"," 423B","Toronto",N,N,"422B",0,139,"Baker","","Yvan","Liberal","Libéral",Y,Y,0
+35029,"Etobicoke Centre","Etobicoke-Centre"," 423B","Toronto",N,N,"422B",0,139,"Jung","","Ji Won","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,0
+35029,"Etobicoke Centre","Etobicoke-Centre"," 423B","Toronto",N,N,"422B",0,139,"Opitz","","Ted","Conservative","Conservateur",Y,N,0
+35029,"Etobicoke Centre","Etobicoke-Centre"," 424","Toronto",N,N,"",1,264,"Baker","","Yvan","Liberal","Libéral",Y,Y,73
+35029,"Etobicoke Centre","Etobicoke-Centre"," 424","Toronto",N,N,"",1,264,"Jung","","Ji Won","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,3
+35029,"Etobicoke Centre","Etobicoke-Centre"," 424","Toronto",N,N,"",1,264,"Opitz","","Ted","Conservative","Conservateur",Y,N,111
+35029,"Etobicoke Centre","Etobicoke-Centre"," 425A","Toronto",N,N,"127A",0,116,"Baker","","Yvan","Liberal","Libéral",Y,Y,0
+35029,"Etobicoke Centre","Etobicoke-Centre"," 425A","Toronto",N,N,"127A",0,116,"Jung","","Ji Won","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,0
+35029,"Etobicoke Centre","Etobicoke-Centre"," 425A","Toronto",N,N,"127A",0,116,"Opitz","","Ted","Conservative","Conservateur",Y,N,0
+35029,"Etobicoke Centre","Etobicoke-Centre"," 425B","Toronto",N,N,"127B",0,118,"Baker","","Yvan","Liberal","Libéral",Y,Y,0
+35029,"Etobicoke Centre","Etobicoke-Centre"," 425B","Toronto",N,N,"127B",0,118,"Jung","","Ji Won","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,0
+35029,"Etobicoke Centre","Etobicoke-Centre"," 425B","Toronto",N,N,"127B",0,118,"Opitz","","Ted","Conservative","Conservateur",Y,N,0
+35029,"Etobicoke Centre","Etobicoke-Centre"," 425C","Toronto",N,N,"127C",0,116,"Baker","","Yvan","Liberal","Libéral",Y,Y,0
+35029,"Etobicoke Centre","Etobicoke-Centre"," 425C","Toronto",N,N,"127C",0,116,"Jung","","Ji Won","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,0
+35029,"Etobicoke Centre","Etobicoke-Centre"," 425C","Toronto",N,N,"127C",0,116,"Opitz","","Ted","Conservative","Conservateur",Y,N,0
+35029,"Etobicoke Centre","Etobicoke-Centre"," 426","Toronto",N,N,"",1,442,"Baker","","Yvan","Liberal","Libéral",Y,Y,147
+35029,"Etobicoke Centre","Etobicoke-Centre"," 426","Toronto",N,N,"",1,442,"Jung","","Ji Won","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,8
+35029,"Etobicoke Centre","Etobicoke-Centre"," 426","Toronto",N,N,"",1,442,"Opitz","","Ted","Conservative","Conservateur",Y,N,123
+35029,"Etobicoke Centre","Etobicoke-Centre"," 427","Toronto",N,N,"",1,452,"Baker","","Yvan","Liberal","Libéral",Y,Y,175
+35029,"Etobicoke Centre","Etobicoke-Centre"," 427","Toronto",N,N,"",1,452,"Jung","","Ji Won","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,9
+35029,"Etobicoke Centre","Etobicoke-Centre"," 427","Toronto",N,N,"",1,452,"Opitz","","Ted","Conservative","Conservateur",Y,N,125
+35029,"Etobicoke Centre","Etobicoke-Centre"," 428","Toronto",N,N,"",0,423,"Baker","","Yvan","Liberal","Libéral",Y,Y,156
+35029,"Etobicoke Centre","Etobicoke-Centre"," 428","Toronto",N,N,"",0,423,"Jung","","Ji Won","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,11
+35029,"Etobicoke Centre","Etobicoke-Centre"," 428","Toronto",N,N,"",0,423,"Opitz","","Ted","Conservative","Conservateur",Y,N,82
+35029,"Etobicoke Centre","Etobicoke-Centre"," 429","Toronto",N,N,"",0,495,"Baker","","Yvan","Liberal","Libéral",Y,Y,77
+35029,"Etobicoke Centre","Etobicoke-Centre"," 429","Toronto",N,N,"",0,495,"Jung","","Ji Won","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,9
+35029,"Etobicoke Centre","Etobicoke-Centre"," 429","Toronto",N,N,"",0,495,"Opitz","","Ted","Conservative","Conservateur",Y,N,95
+35029,"Etobicoke Centre","Etobicoke-Centre"," 430","Toronto",N,N,"",1,366,"Baker","","Yvan","Liberal","Libéral",Y,Y,86
+35029,"Etobicoke Centre","Etobicoke-Centre"," 430","Toronto",N,N,"",1,366,"Jung","","Ji Won","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,5
+35029,"Etobicoke Centre","Etobicoke-Centre"," 430","Toronto",N,N,"",1,366,"Opitz","","Ted","Conservative","Conservateur",Y,N,106
+35029,"Etobicoke Centre","Etobicoke-Centre"," 431","Toronto",N,N,"",0,277,"Baker","","Yvan","Liberal","Libéral",Y,Y,66
+35029,"Etobicoke Centre","Etobicoke-Centre"," 431","Toronto",N,N,"",0,277,"Jung","","Ji Won","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,7
+35029,"Etobicoke Centre","Etobicoke-Centre"," 431","Toronto",N,N,"",0,277,"Opitz","","Ted","Conservative","Conservateur",Y,N,101
+35029,"Etobicoke Centre","Etobicoke-Centre"," 432","Toronto",N,N,"431",0,262,"Baker","","Yvan","Liberal","Libéral",Y,Y,0
+35029,"Etobicoke Centre","Etobicoke-Centre"," 432","Toronto",N,N,"431",0,262,"Jung","","Ji Won","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,0
+35029,"Etobicoke Centre","Etobicoke-Centre"," 432","Toronto",N,N,"431",0,262,"Opitz","","Ted","Conservative","Conservateur",Y,N,0
+35029,"Etobicoke Centre","Etobicoke-Centre"," 433A","Toronto",N,N,"435A",0,180,"Baker","","Yvan","Liberal","Libéral",Y,Y,0
+35029,"Etobicoke Centre","Etobicoke-Centre"," 433A","Toronto",N,N,"435A",0,180,"Jung","","Ji Won","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,0
+35029,"Etobicoke Centre","Etobicoke-Centre"," 433A","Toronto",N,N,"435A",0,180,"Opitz","","Ted","Conservative","Conservateur",Y,N,0
+35029,"Etobicoke Centre","Etobicoke-Centre"," 433B","Toronto",N,N,"435B",0,183,"Baker","","Yvan","Liberal","Libéral",Y,Y,0
+35029,"Etobicoke Centre","Etobicoke-Centre"," 433B","Toronto",N,N,"435B",0,183,"Jung","","Ji Won","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,0
+35029,"Etobicoke Centre","Etobicoke-Centre"," 433B","Toronto",N,N,"435B",0,183,"Opitz","","Ted","Conservative","Conservateur",Y,N,0
+35029,"Etobicoke Centre","Etobicoke-Centre"," 434A","Toronto",N,N,"435A",0,178,"Baker","","Yvan","Liberal","Libéral",Y,Y,0
+35029,"Etobicoke Centre","Etobicoke-Centre"," 434A","Toronto",N,N,"435A",0,178,"Jung","","Ji Won","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,0
+35029,"Etobicoke Centre","Etobicoke-Centre"," 434A","Toronto",N,N,"435A",0,178,"Opitz","","Ted","Conservative","Conservateur",Y,N,0
+35029,"Etobicoke Centre","Etobicoke-Centre"," 434B","Toronto",N,N,"435B",0,172,"Baker","","Yvan","Liberal","Libéral",Y,Y,0
+35029,"Etobicoke Centre","Etobicoke-Centre"," 434B","Toronto",N,N,"435B",0,172,"Jung","","Ji Won","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,0
+35029,"Etobicoke Centre","Etobicoke-Centre"," 434B","Toronto",N,N,"435B",0,172,"Opitz","","Ted","Conservative","Conservateur",Y,N,0
+35029,"Etobicoke Centre","Etobicoke-Centre"," 435A","Toronto",N,N,"",0,202,"Baker","","Yvan","Liberal","Libéral",Y,Y,88
+35029,"Etobicoke Centre","Etobicoke-Centre"," 435A","Toronto",N,N,"",0,202,"Jung","","Ji Won","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,11
+35029,"Etobicoke Centre","Etobicoke-Centre"," 435A","Toronto",N,N,"",0,202,"Opitz","","Ted","Conservative","Conservateur",Y,N,71
+35029,"Etobicoke Centre","Etobicoke-Centre"," 435B","Toronto",N,N,"",1,200,"Baker","","Yvan","Liberal","Libéral",Y,Y,70
+35029,"Etobicoke Centre","Etobicoke-Centre"," 435B","Toronto",N,N,"",1,200,"Jung","","Ji Won","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,6
+35029,"Etobicoke Centre","Etobicoke-Centre"," 435B","Toronto",N,N,"",1,200,"Opitz","","Ted","Conservative","Conservateur",Y,N,82
+35029,"Etobicoke Centre","Etobicoke-Centre"," 436","Toronto",N,N,"",0,445,"Baker","","Yvan","Liberal","Libéral",Y,Y,104
+35029,"Etobicoke Centre","Etobicoke-Centre"," 436","Toronto",N,N,"",0,445,"Jung","","Ji Won","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,8
+35029,"Etobicoke Centre","Etobicoke-Centre"," 436","Toronto",N,N,"",0,445,"Opitz","","Ted","Conservative","Conservateur",Y,N,64
+35029,"Etobicoke Centre","Etobicoke-Centre"," 500","Toronto",N,N,"",10,204,"Baker","","Yvan","Liberal","Libéral",Y,Y,159
+35029,"Etobicoke Centre","Etobicoke-Centre"," 500","Toronto",N,N,"",10,204,"Jung","","Ji Won","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,8
+35029,"Etobicoke Centre","Etobicoke-Centre"," 500","Toronto",N,N,"",10,204,"Opitz","","Ted","Conservative","Conservateur",Y,N,75
+35029,"Etobicoke Centre","Etobicoke-Centre"," 501","Toronto",N,N,"500",0,153,"Baker","","Yvan","Liberal","Libéral",Y,Y,0
+35029,"Etobicoke Centre","Etobicoke-Centre"," 501","Toronto",N,N,"500",0,153,"Jung","","Ji Won","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,0
+35029,"Etobicoke Centre","Etobicoke-Centre"," 501","Toronto",N,N,"500",0,153,"Opitz","","Ted","Conservative","Conservateur",Y,N,0
+35029,"Etobicoke Centre","Etobicoke-Centre"," 502","Toronto",N,N,"",3,291,"Baker","","Yvan","Liberal","Libéral",Y,Y,141
+35029,"Etobicoke Centre","Etobicoke-Centre"," 502","Toronto",N,N,"",3,291,"Jung","","Ji Won","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,4
+35029,"Etobicoke Centre","Etobicoke-Centre"," 502","Toronto",N,N,"",3,291,"Opitz","","Ted","Conservative","Conservateur",Y,N,44
+35029,"Etobicoke Centre","Etobicoke-Centre"," 503","Mobile poll/Bureau itinérant",N,N,"506",0,27,"Baker","","Yvan","Liberal","Libéral",Y,Y,0
+35029,"Etobicoke Centre","Etobicoke-Centre"," 503","Mobile poll/Bureau itinérant",N,N,"506",0,27,"Jung","","Ji Won","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,0
+35029,"Etobicoke Centre","Etobicoke-Centre"," 503","Mobile poll/Bureau itinérant",N,N,"506",0,27,"Opitz","","Ted","Conservative","Conservateur",Y,N,0
+35029,"Etobicoke Centre","Etobicoke-Centre"," 504","Mobile poll/Bureau itinérant",N,N,"507",0,45,"Baker","","Yvan","Liberal","Libéral",Y,Y,0
+35029,"Etobicoke Centre","Etobicoke-Centre"," 504","Mobile poll/Bureau itinérant",N,N,"507",0,45,"Jung","","Ji Won","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,0
+35029,"Etobicoke Centre","Etobicoke-Centre"," 504","Mobile poll/Bureau itinérant",N,N,"507",0,45,"Opitz","","Ted","Conservative","Conservateur",Y,N,0
+35029,"Etobicoke Centre","Etobicoke-Centre"," 505","Mobile poll/Bureau itinérant",N,N,"",1,192,"Baker","","Yvan","Liberal","Libéral",Y,Y,47
+35029,"Etobicoke Centre","Etobicoke-Centre"," 505","Mobile poll/Bureau itinérant",N,N,"",1,192,"Jung","","Ji Won","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,8
+35029,"Etobicoke Centre","Etobicoke-Centre"," 505","Mobile poll/Bureau itinérant",N,N,"",1,192,"Opitz","","Ted","Conservative","Conservateur",Y,N,23
+35029,"Etobicoke Centre","Etobicoke-Centre"," 506","Mobile poll/Bureau itinérant",N,N,"",6,136,"Baker","","Yvan","Liberal","Libéral",Y,Y,38
+35029,"Etobicoke Centre","Etobicoke-Centre"," 506","Mobile poll/Bureau itinérant",N,N,"",6,136,"Jung","","Ji Won","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,10
+35029,"Etobicoke Centre","Etobicoke-Centre"," 506","Mobile poll/Bureau itinérant",N,N,"",6,136,"Opitz","","Ted","Conservative","Conservateur",Y,N,26
+35029,"Etobicoke Centre","Etobicoke-Centre"," 507","Mobile poll/Bureau itinérant",N,N,"",0,54,"Baker","","Yvan","Liberal","Libéral",Y,Y,36
+35029,"Etobicoke Centre","Etobicoke-Centre"," 507","Mobile poll/Bureau itinérant",N,N,"",0,54,"Jung","","Ji Won","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,3
+35029,"Etobicoke Centre","Etobicoke-Centre"," 507","Mobile poll/Bureau itinérant",N,N,"",0,54,"Opitz","","Ted","Conservative","Conservateur",Y,N,15
+35029,"Etobicoke Centre","Etobicoke-Centre"," 508","Mobile poll/Bureau itinérant",N,N,"505",0,40,"Baker","","Yvan","Liberal","Libéral",Y,Y,0
+35029,"Etobicoke Centre","Etobicoke-Centre"," 508","Mobile poll/Bureau itinérant",N,N,"505",0,40,"Jung","","Ji Won","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,0
+35029,"Etobicoke Centre","Etobicoke-Centre"," 508","Mobile poll/Bureau itinérant",N,N,"505",0,40,"Opitz","","Ted","Conservative","Conservateur",Y,N,0
+35029,"Etobicoke Centre","Etobicoke-Centre"," 600","Toronto",N,N,"",8,0,"Baker","","Yvan","Liberal","Libéral",Y,Y,1045
+35029,"Etobicoke Centre","Etobicoke-Centre"," 600","Toronto",N,N,"",8,0,"Jung","","Ji Won","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,21
+35029,"Etobicoke Centre","Etobicoke-Centre"," 600","Toronto",N,N,"",8,0,"Opitz","","Ted","Conservative","Conservateur",Y,N,773
+35029,"Etobicoke Centre","Etobicoke-Centre"," 601","Toronto",N,N,"",7,0,"Baker","","Yvan","Liberal","Libéral",Y,Y,646
+35029,"Etobicoke Centre","Etobicoke-Centre"," 601","Toronto",N,N,"",7,0,"Jung","","Ji Won","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,28
+35029,"Etobicoke Centre","Etobicoke-Centre"," 601","Toronto",N,N,"",7,0,"Opitz","","Ted","Conservative","Conservateur",Y,N,489
+35029,"Etobicoke Centre","Etobicoke-Centre"," 602","Toronto",N,N,"",8,0,"Baker","","Yvan","Liberal","Libéral",Y,Y,588
+35029,"Etobicoke Centre","Etobicoke-Centre"," 602","Toronto",N,N,"",8,0,"Jung","","Ji Won","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,26
+35029,"Etobicoke Centre","Etobicoke-Centre"," 602","Toronto",N,N,"",8,0,"Opitz","","Ted","Conservative","Conservateur",Y,N,393
+35029,"Etobicoke Centre","Etobicoke-Centre"," 603","Toronto",N,N,"",3,0,"Baker","","Yvan","Liberal","Libéral",Y,Y,1264
+35029,"Etobicoke Centre","Etobicoke-Centre"," 603","Toronto",N,N,"",3,0,"Jung","","Ji Won","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,24
+35029,"Etobicoke Centre","Etobicoke-Centre"," 603","Toronto",N,N,"",3,0,"Opitz","","Ted","Conservative","Conservateur",Y,N,813
+35029,"Etobicoke Centre","Etobicoke-Centre"," 604","Toronto",N,N,"",19,0,"Baker","","Yvan","Liberal","Libéral",Y,Y,1042
+35029,"Etobicoke Centre","Etobicoke-Centre"," 604","Toronto",N,N,"",19,0,"Jung","","Ji Won","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,17
+35029,"Etobicoke Centre","Etobicoke-Centre"," 604","Toronto",N,N,"",19,0,"Opitz","","Ted","Conservative","Conservateur",Y,N,965
+35029,"Etobicoke Centre","Etobicoke-Centre"," 605","Toronto",N,N,"",11,0,"Baker","","Yvan","Liberal","Libéral",Y,Y,783
+35029,"Etobicoke Centre","Etobicoke-Centre"," 605","Toronto",N,N,"",11,0,"Jung","","Ji Won","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,16
+35029,"Etobicoke Centre","Etobicoke-Centre"," 605","Toronto",N,N,"",11,0,"Opitz","","Ted","Conservative","Conservateur",Y,N,674
+35029,"Etobicoke Centre","Etobicoke-Centre"," 606","Toronto",N,N,"",6,0,"Baker","","Yvan","Liberal","Libéral",Y,Y,916
+35029,"Etobicoke Centre","Etobicoke-Centre"," 606","Toronto",N,N,"",6,0,"Jung","","Ji Won","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,22
+35029,"Etobicoke Centre","Etobicoke-Centre"," 606","Toronto",N,N,"",6,0,"Opitz","","Ted","Conservative","Conservateur",Y,N,664
+35029,"Etobicoke Centre","Etobicoke-Centre"," 607","Toronto",N,N,"",4,0,"Baker","","Yvan","Liberal","Libéral",Y,Y,850
+35029,"Etobicoke Centre","Etobicoke-Centre"," 607","Toronto",N,N,"",4,0,"Jung","","Ji Won","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,24
+35029,"Etobicoke Centre","Etobicoke-Centre"," 607","Toronto",N,N,"",4,0,"Opitz","","Ted","Conservative","Conservateur",Y,N,635
+35029,"Etobicoke Centre","Etobicoke-Centre"," 608","Toronto",N,N,"",2,0,"Baker","","Yvan","Liberal","Libéral",Y,Y,419
+35029,"Etobicoke Centre","Etobicoke-Centre"," 608","Toronto",N,N,"",2,0,"Jung","","Ji Won","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,12
+35029,"Etobicoke Centre","Etobicoke-Centre"," 608","Toronto",N,N,"",2,0,"Opitz","","Ted","Conservative","Conservateur",Y,N,344
+35029,"Etobicoke Centre","Etobicoke-Centre"," 609","Toronto",N,N,"",1,0,"Baker","","Yvan","Liberal","Libéral",Y,Y,628
+35029,"Etobicoke Centre","Etobicoke-Centre"," 609","Toronto",N,N,"",1,0,"Jung","","Ji Won","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,10
+35029,"Etobicoke Centre","Etobicoke-Centre"," 609","Toronto",N,N,"",1,0,"Opitz","","Ted","Conservative","Conservateur",Y,N,524
+35029,"Etobicoke Centre","Etobicoke-Centre"," 610","Toronto",N,N,"",4,0,"Baker","","Yvan","Liberal","Libéral",Y,Y,639
+35029,"Etobicoke Centre","Etobicoke-Centre"," 610","Toronto",N,N,"",4,0,"Jung","","Ji Won","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,22
+35029,"Etobicoke Centre","Etobicoke-Centre"," 610","Toronto",N,N,"",4,0,"Opitz","","Ted","Conservative","Conservateur",Y,N,512
+35029,"Etobicoke Centre","Etobicoke-Centre"," 611","Toronto",N,N,"",0,0,"Baker","","Yvan","Liberal","Libéral",Y,Y,459
+35029,"Etobicoke Centre","Etobicoke-Centre"," 611","Toronto",N,N,"",0,0,"Jung","","Ji Won","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,10
+35029,"Etobicoke Centre","Etobicoke-Centre"," 611","Toronto",N,N,"",0,0,"Opitz","","Ted","Conservative","Conservateur",Y,N,319
+35029,"Etobicoke Centre","Etobicoke-Centre"," 612","Toronto",N,N,"",11,0,"Baker","","Yvan","Liberal","Libéral",Y,Y,1030
+35029,"Etobicoke Centre","Etobicoke-Centre"," 612","Toronto",N,N,"",11,0,"Jung","","Ji Won","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,30
+35029,"Etobicoke Centre","Etobicoke-Centre"," 612","Toronto",N,N,"",11,0,"Opitz","","Ted","Conservative","Conservateur",Y,N,600
+35029,"Etobicoke Centre","Etobicoke-Centre"," 613","Toronto",N,N,"",2,0,"Baker","","Yvan","Liberal","Libéral",Y,Y,603
+35029,"Etobicoke Centre","Etobicoke-Centre"," 613","Toronto",N,N,"",2,0,"Jung","","Ji Won","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,29
+35029,"Etobicoke Centre","Etobicoke-Centre"," 613","Toronto",N,N,"",2,0,"Opitz","","Ted","Conservative","Conservateur",Y,N,493
+35029,"Etobicoke Centre","Etobicoke-Centre"," 614","Toronto",N,N,"",1,0,"Baker","","Yvan","Liberal","Libéral",Y,Y,746
+35029,"Etobicoke Centre","Etobicoke-Centre"," 614","Toronto",N,N,"",1,0,"Jung","","Ji Won","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,18
+35029,"Etobicoke Centre","Etobicoke-Centre"," 614","Toronto",N,N,"",1,0,"Opitz","","Ted","Conservative","Conservateur",Y,N,383
+35029,"Etobicoke Centre","Etobicoke-Centre"," 615","Toronto",N,N,"",5,0,"Baker","","Yvan","Liberal","Libéral",Y,Y,417
+35029,"Etobicoke Centre","Etobicoke-Centre"," 615","Toronto",N,N,"",5,0,"Jung","","Ji Won","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,26
+35029,"Etobicoke Centre","Etobicoke-Centre"," 615","Toronto",N,N,"",5,0,"Opitz","","Ted","Conservative","Conservateur",Y,N,222
+35029,"Etobicoke Centre","Etobicoke-Centre"," 616","Toronto",N,N,"",8,0,"Baker","","Yvan","Liberal","Libéral",Y,Y,638
+35029,"Etobicoke Centre","Etobicoke-Centre"," 616","Toronto",N,N,"",8,0,"Jung","","Ji Won","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,35
+35029,"Etobicoke Centre","Etobicoke-Centre"," 616","Toronto",N,N,"",8,0,"Opitz","","Ted","Conservative","Conservateur",Y,N,439
+35029,"Etobicoke Centre","Etobicoke-Centre"," 617","Toronto",N,N,"",13,0,"Baker","","Yvan","Liberal","Libéral",Y,Y,928
+35029,"Etobicoke Centre","Etobicoke-Centre"," 617","Toronto",N,N,"",13,0,"Jung","","Ji Won","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,19
+35029,"Etobicoke Centre","Etobicoke-Centre"," 617","Toronto",N,N,"",13,0,"Opitz","","Ted","Conservative","Conservateur",Y,N,642
+35029,"Etobicoke Centre","Etobicoke-Centre"," S/R 1","SVR Group 1/RÉS Groupe 1",N,N,"",60,636,"Baker","","Yvan","Liberal","Libéral",Y,Y,819
+35029,"Etobicoke Centre","Etobicoke-Centre"," S/R 1","SVR Group 1/RÉS Groupe 1",N,N,"",60,636,"Jung","","Ji Won","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,23
+35029,"Etobicoke Centre","Etobicoke-Centre"," S/R 1","SVR Group 1/RÉS Groupe 1",N,N,"",60,636,"Opitz","","Ted","Conservative","Conservateur",Y,N,392
+35029,"Etobicoke Centre","Etobicoke-Centre"," S/R 2","SVR Group 2/RÉS Groupe 2",N,N,"",74,0,"Baker","","Yvan","Liberal","Libéral",Y,Y,1820
+35029,"Etobicoke Centre","Etobicoke-Centre"," S/R 2","SVR Group 2/RÉS Groupe 2",N,N,"",74,0,"Jung","","Ji Won","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,50
+35029,"Etobicoke Centre","Etobicoke-Centre"," S/R 2","SVR Group 2/RÉS Groupe 2",N,N,"",74,0,"Opitz","","Ted","Conservative","Conservateur",Y,N,1001

@@ -1,0 +1,911 @@
+﻿Electoral District Number/Numéro de circonscription,Electoral District Name_English/Nom de circonscription_Anglais,Electoral District Name_French/Nom de circonscription_Français,Polling Division Number/Numéro de section de vote,Polling Division Name/Nom de section de vote,Void Poll Indicator/Indicateur de bureau supprimé,No Poll Held Indicator/Indicateur de bureau sans scrutin,Combined with No./Résultats combinés à ceux du n°,Rejected Ballots for poll/Bulletins rejetés du bureau,Electors for poll/Électeurs du bureau,Candidate’s Family Name/Nom de famille du candidat,Candidate’s Middle Name/Second prénom du candidat,Candidate’s First Name/Prénom du candidat,Political Affiliation Name_English/Appartenance politique_Anglais,Political Affiliation Name_French/Appartenance politique_Français,Incumbent Indicator/Indicateur_Candidat sortant,Elected Candidate Indicator/Indicateur du candidat élu,Candidate Vote Count/Votes du candidat
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 1","Toronto",N,N,"",5,532,"de Dovitiis","","Matias","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,28
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 1","Toronto",N,N,"",5,532,"Jasinski","","Marek","People's Party - PPC","Parti populaire - PPC",N,N,1
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 1","Toronto",N,N,"",5,532,"McGuire","","Jeanne","Communist","Communiste",N,N,2
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 1","Toronto",N,N,"",5,532,"Paudel","","Bijay","Conservative","Conservateur",N,N,42
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 1","Toronto",N,N,"",5,532,"Sgro","","Judy","Liberal","Libéral",Y,Y,121
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 2","Toronto",N,N,"",1,362,"de Dovitiis","","Matias","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,17
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 2","Toronto",N,N,"",1,362,"Jasinski","","Marek","People's Party - PPC","Parti populaire - PPC",N,N,1
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 2","Toronto",N,N,"",1,362,"McGuire","","Jeanne","Communist","Communiste",N,N,0
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 2","Toronto",N,N,"",1,362,"Paudel","","Bijay","Conservative","Conservateur",N,N,30
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 2","Toronto",N,N,"",1,362,"Sgro","","Judy","Liberal","Libéral",Y,Y,60
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 3","Toronto",N,N,"",0,409,"de Dovitiis","","Matias","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,11
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 3","Toronto",N,N,"",0,409,"Jasinski","","Marek","People's Party - PPC","Parti populaire - PPC",N,N,1
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 3","Toronto",N,N,"",0,409,"McGuire","","Jeanne","Communist","Communiste",N,N,0
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 3","Toronto",N,N,"",0,409,"Paudel","","Bijay","Conservative","Conservateur",N,N,35
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 3","Toronto",N,N,"",0,409,"Sgro","","Judy","Liberal","Libéral",Y,Y,47
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 4","Toronto",N,N,"",0,475,"de Dovitiis","","Matias","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,6
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 4","Toronto",N,N,"",0,475,"Jasinski","","Marek","People's Party - PPC","Parti populaire - PPC",N,N,2
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 4","Toronto",N,N,"",0,475,"McGuire","","Jeanne","Communist","Communiste",N,N,1
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 4","Toronto",N,N,"",0,475,"Paudel","","Bijay","Conservative","Conservateur",N,N,45
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 4","Toronto",N,N,"",0,475,"Sgro","","Judy","Liberal","Libéral",Y,Y,76
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 5","Toronto",N,N,"",1,423,"de Dovitiis","","Matias","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,5
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 5","Toronto",N,N,"",1,423,"Jasinski","","Marek","People's Party - PPC","Parti populaire - PPC",N,N,0
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 5","Toronto",N,N,"",1,423,"McGuire","","Jeanne","Communist","Communiste",N,N,1
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 5","Toronto",N,N,"",1,423,"Paudel","","Bijay","Conservative","Conservateur",N,N,35
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 5","Toronto",N,N,"",1,423,"Sgro","","Judy","Liberal","Libéral",Y,Y,56
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 6","Toronto",N,N,"",2,483,"de Dovitiis","","Matias","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,17
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 6","Toronto",N,N,"",2,483,"Jasinski","","Marek","People's Party - PPC","Parti populaire - PPC",N,N,2
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 6","Toronto",N,N,"",2,483,"McGuire","","Jeanne","Communist","Communiste",N,N,4
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 6","Toronto",N,N,"",2,483,"Paudel","","Bijay","Conservative","Conservateur",N,N,70
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 6","Toronto",N,N,"",2,483,"Sgro","","Judy","Liberal","Libéral",Y,Y,89
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 7","Toronto",N,N,"",1,411,"de Dovitiis","","Matias","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,19
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 7","Toronto",N,N,"",1,411,"Jasinski","","Marek","People's Party - PPC","Parti populaire - PPC",N,N,3
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 7","Toronto",N,N,"",1,411,"McGuire","","Jeanne","Communist","Communiste",N,N,2
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 7","Toronto",N,N,"",1,411,"Paudel","","Bijay","Conservative","Conservateur",N,N,29
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 7","Toronto",N,N,"",1,411,"Sgro","","Judy","Liberal","Libéral",Y,Y,72
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 8","Toronto",N,N,"",0,447,"de Dovitiis","","Matias","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,16
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 8","Toronto",N,N,"",0,447,"Jasinski","","Marek","People's Party - PPC","Parti populaire - PPC",N,N,2
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 8","Toronto",N,N,"",0,447,"McGuire","","Jeanne","Communist","Communiste",N,N,1
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 8","Toronto",N,N,"",0,447,"Paudel","","Bijay","Conservative","Conservateur",N,N,52
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 8","Toronto",N,N,"",0,447,"Sgro","","Judy","Liberal","Libéral",Y,Y,77
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 9","Toronto",N,N,"",1,494,"de Dovitiis","","Matias","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,16
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 9","Toronto",N,N,"",1,494,"Jasinski","","Marek","People's Party - PPC","Parti populaire - PPC",N,N,2
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 9","Toronto",N,N,"",1,494,"McGuire","","Jeanne","Communist","Communiste",N,N,0
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 9","Toronto",N,N,"",1,494,"Paudel","","Bijay","Conservative","Conservateur",N,N,81
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 9","Toronto",N,N,"",1,494,"Sgro","","Judy","Liberal","Libéral",Y,Y,95
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 10","Toronto",N,N,"",0,394,"de Dovitiis","","Matias","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,14
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 10","Toronto",N,N,"",0,394,"Jasinski","","Marek","People's Party - PPC","Parti populaire - PPC",N,N,2
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 10","Toronto",N,N,"",0,394,"McGuire","","Jeanne","Communist","Communiste",N,N,0
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 10","Toronto",N,N,"",0,394,"Paudel","","Bijay","Conservative","Conservateur",N,N,45
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 10","Toronto",N,N,"",0,394,"Sgro","","Judy","Liberal","Libéral",Y,Y,104
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 11","Toronto",N,N,"",0,502,"de Dovitiis","","Matias","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,5
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 11","Toronto",N,N,"",0,502,"Jasinski","","Marek","People's Party - PPC","Parti populaire - PPC",N,N,5
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 11","Toronto",N,N,"",0,502,"McGuire","","Jeanne","Communist","Communiste",N,N,1
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 11","Toronto",N,N,"",0,502,"Paudel","","Bijay","Conservative","Conservateur",N,N,56
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 11","Toronto",N,N,"",0,502,"Sgro","","Judy","Liberal","Libéral",Y,Y,70
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 12","Toronto",N,N,"",2,405,"de Dovitiis","","Matias","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,16
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 12","Toronto",N,N,"",2,405,"Jasinski","","Marek","People's Party - PPC","Parti populaire - PPC",N,N,2
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 12","Toronto",N,N,"",2,405,"McGuire","","Jeanne","Communist","Communiste",N,N,0
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 12","Toronto",N,N,"",2,405,"Paudel","","Bijay","Conservative","Conservateur",N,N,29
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 12","Toronto",N,N,"",2,405,"Sgro","","Judy","Liberal","Libéral",Y,Y,82
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 13","Toronto",N,N,"",2,409,"de Dovitiis","","Matias","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,6
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 13","Toronto",N,N,"",2,409,"Jasinski","","Marek","People's Party - PPC","Parti populaire - PPC",N,N,2
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 13","Toronto",N,N,"",2,409,"McGuire","","Jeanne","Communist","Communiste",N,N,0
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 13","Toronto",N,N,"",2,409,"Paudel","","Bijay","Conservative","Conservateur",N,N,43
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 13","Toronto",N,N,"",2,409,"Sgro","","Judy","Liberal","Libéral",Y,Y,82
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 14","Toronto",N,N,"",2,505,"de Dovitiis","","Matias","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,10
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 14","Toronto",N,N,"",2,505,"Jasinski","","Marek","People's Party - PPC","Parti populaire - PPC",N,N,1
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 14","Toronto",N,N,"",2,505,"McGuire","","Jeanne","Communist","Communiste",N,N,0
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 14","Toronto",N,N,"",2,505,"Paudel","","Bijay","Conservative","Conservateur",N,N,32
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 14","Toronto",N,N,"",2,505,"Sgro","","Judy","Liberal","Libéral",Y,Y,108
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 15","Toronto",N,N,"",1,327,"de Dovitiis","","Matias","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,18
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 15","Toronto",N,N,"",1,327,"Jasinski","","Marek","People's Party - PPC","Parti populaire - PPC",N,N,6
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 15","Toronto",N,N,"",1,327,"McGuire","","Jeanne","Communist","Communiste",N,N,0
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 15","Toronto",N,N,"",1,327,"Paudel","","Bijay","Conservative","Conservateur",N,N,23
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 15","Toronto",N,N,"",1,327,"Sgro","","Judy","Liberal","Libéral",Y,Y,74
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 16A","Toronto",N,N,"",1,310,"de Dovitiis","","Matias","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,2
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 16A","Toronto",N,N,"",1,310,"Jasinski","","Marek","People's Party - PPC","Parti populaire - PPC",N,N,5
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 16A","Toronto",N,N,"",1,310,"McGuire","","Jeanne","Communist","Communiste",N,N,2
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 16A","Toronto",N,N,"",1,310,"Paudel","","Bijay","Conservative","Conservateur",N,N,110
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 16A","Toronto",N,N,"",1,310,"Sgro","","Judy","Liberal","Libéral",Y,Y,49
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 16B","Toronto",N,N,"",2,356,"de Dovitiis","","Matias","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,2
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 16B","Toronto",N,N,"",2,356,"Jasinski","","Marek","People's Party - PPC","Parti populaire - PPC",N,N,4
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 16B","Toronto",N,N,"",2,356,"McGuire","","Jeanne","Communist","Communiste",N,N,0
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 16B","Toronto",N,N,"",2,356,"Paudel","","Bijay","Conservative","Conservateur",N,N,113
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 16B","Toronto",N,N,"",2,356,"Sgro","","Judy","Liberal","Libéral",Y,Y,43
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 17A","Toronto",N,N,"",2,316,"de Dovitiis","","Matias","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,10
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 17A","Toronto",N,N,"",2,316,"Jasinski","","Marek","People's Party - PPC","Parti populaire - PPC",N,N,3
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 17A","Toronto",N,N,"",2,316,"McGuire","","Jeanne","Communist","Communiste",N,N,1
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 17A","Toronto",N,N,"",2,316,"Paudel","","Bijay","Conservative","Conservateur",N,N,61
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 17A","Toronto",N,N,"",2,316,"Sgro","","Judy","Liberal","Libéral",Y,Y,46
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 17B","Toronto",N,N,"",0,311,"de Dovitiis","","Matias","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,6
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 17B","Toronto",N,N,"",0,311,"Jasinski","","Marek","People's Party - PPC","Parti populaire - PPC",N,N,6
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 17B","Toronto",N,N,"",0,311,"McGuire","","Jeanne","Communist","Communiste",N,N,0
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 17B","Toronto",N,N,"",0,311,"Paudel","","Bijay","Conservative","Conservateur",N,N,58
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 17B","Toronto",N,N,"",0,311,"Sgro","","Judy","Liberal","Libéral",Y,Y,39
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 18","Toronto",N,N,"",0,477,"de Dovitiis","","Matias","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,14
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 18","Toronto",N,N,"",0,477,"Jasinski","","Marek","People's Party - PPC","Parti populaire - PPC",N,N,3
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 18","Toronto",N,N,"",0,477,"McGuire","","Jeanne","Communist","Communiste",N,N,2
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 18","Toronto",N,N,"",0,477,"Paudel","","Bijay","Conservative","Conservateur",N,N,69
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 18","Toronto",N,N,"",0,477,"Sgro","","Judy","Liberal","Libéral",Y,Y,90
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 19","Toronto",N,N,"",1,424,"de Dovitiis","","Matias","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,14
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 19","Toronto",N,N,"",1,424,"Jasinski","","Marek","People's Party - PPC","Parti populaire - PPC",N,N,2
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 19","Toronto",N,N,"",1,424,"McGuire","","Jeanne","Communist","Communiste",N,N,2
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 19","Toronto",N,N,"",1,424,"Paudel","","Bijay","Conservative","Conservateur",N,N,76
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 19","Toronto",N,N,"",1,424,"Sgro","","Judy","Liberal","Libéral",Y,Y,116
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 20","Toronto",N,N,"",1,500,"de Dovitiis","","Matias","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,8
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 20","Toronto",N,N,"",1,500,"Jasinski","","Marek","People's Party - PPC","Parti populaire - PPC",N,N,2
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 20","Toronto",N,N,"",1,500,"McGuire","","Jeanne","Communist","Communiste",N,N,0
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 20","Toronto",N,N,"",1,500,"Paudel","","Bijay","Conservative","Conservateur",N,N,65
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 20","Toronto",N,N,"",1,500,"Sgro","","Judy","Liberal","Libéral",Y,Y,76
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 21","Toronto",N,N,"",4,427,"de Dovitiis","","Matias","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,8
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 21","Toronto",N,N,"",4,427,"Jasinski","","Marek","People's Party - PPC","Parti populaire - PPC",N,N,6
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 21","Toronto",N,N,"",4,427,"McGuire","","Jeanne","Communist","Communiste",N,N,1
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 21","Toronto",N,N,"",4,427,"Paudel","","Bijay","Conservative","Conservateur",N,N,68
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 21","Toronto",N,N,"",4,427,"Sgro","","Judy","Liberal","Libéral",Y,Y,91
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 22","Toronto",N,N,"",3,512,"de Dovitiis","","Matias","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,3
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 22","Toronto",N,N,"",3,512,"Jasinski","","Marek","People's Party - PPC","Parti populaire - PPC",N,N,3
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 22","Toronto",N,N,"",3,512,"McGuire","","Jeanne","Communist","Communiste",N,N,1
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 22","Toronto",N,N,"",3,512,"Paudel","","Bijay","Conservative","Conservateur",N,N,69
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 22","Toronto",N,N,"",3,512,"Sgro","","Judy","Liberal","Libéral",Y,Y,68
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 23","Toronto",N,N,"",1,365,"de Dovitiis","","Matias","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,14
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 23","Toronto",N,N,"",1,365,"Jasinski","","Marek","People's Party - PPC","Parti populaire - PPC",N,N,1
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 23","Toronto",N,N,"",1,365,"McGuire","","Jeanne","Communist","Communiste",N,N,0
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 23","Toronto",N,N,"",1,365,"Paudel","","Bijay","Conservative","Conservateur",N,N,42
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 23","Toronto",N,N,"",1,365,"Sgro","","Judy","Liberal","Libéral",Y,Y,76
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 24","Toronto",N,N,"",2,460,"de Dovitiis","","Matias","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,15
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 24","Toronto",N,N,"",2,460,"Jasinski","","Marek","People's Party - PPC","Parti populaire - PPC",N,N,4
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 24","Toronto",N,N,"",2,460,"McGuire","","Jeanne","Communist","Communiste",N,N,1
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 24","Toronto",N,N,"",2,460,"Paudel","","Bijay","Conservative","Conservateur",N,N,34
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 24","Toronto",N,N,"",2,460,"Sgro","","Judy","Liberal","Libéral",Y,Y,109
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 25","Toronto",N,N,"",0,531,"de Dovitiis","","Matias","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,10
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 25","Toronto",N,N,"",0,531,"Jasinski","","Marek","People's Party - PPC","Parti populaire - PPC",N,N,2
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 25","Toronto",N,N,"",0,531,"McGuire","","Jeanne","Communist","Communiste",N,N,0
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 25","Toronto",N,N,"",0,531,"Paudel","","Bijay","Conservative","Conservateur",N,N,51
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 25","Toronto",N,N,"",0,531,"Sgro","","Judy","Liberal","Libéral",Y,Y,100
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 26","Toronto",N,N,"",0,447,"de Dovitiis","","Matias","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,11
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 26","Toronto",N,N,"",0,447,"Jasinski","","Marek","People's Party - PPC","Parti populaire - PPC",N,N,7
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 26","Toronto",N,N,"",0,447,"McGuire","","Jeanne","Communist","Communiste",N,N,0
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 26","Toronto",N,N,"",0,447,"Paudel","","Bijay","Conservative","Conservateur",N,N,47
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 26","Toronto",N,N,"",0,447,"Sgro","","Judy","Liberal","Libéral",Y,Y,77
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 27","Toronto",N,N,"",2,502,"de Dovitiis","","Matias","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,8
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 27","Toronto",N,N,"",2,502,"Jasinski","","Marek","People's Party - PPC","Parti populaire - PPC",N,N,5
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 27","Toronto",N,N,"",2,502,"McGuire","","Jeanne","Communist","Communiste",N,N,0
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 27","Toronto",N,N,"",2,502,"Paudel","","Bijay","Conservative","Conservateur",N,N,74
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 27","Toronto",N,N,"",2,502,"Sgro","","Judy","Liberal","Libéral",Y,Y,82
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 28","Toronto",N,N,"",3,565,"de Dovitiis","","Matias","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,17
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 28","Toronto",N,N,"",3,565,"Jasinski","","Marek","People's Party - PPC","Parti populaire - PPC",N,N,6
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 28","Toronto",N,N,"",3,565,"McGuire","","Jeanne","Communist","Communiste",N,N,0
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 28","Toronto",N,N,"",3,565,"Paudel","","Bijay","Conservative","Conservateur",N,N,45
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 28","Toronto",N,N,"",3,565,"Sgro","","Judy","Liberal","Libéral",Y,Y,94
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 29","Toronto",N,N,"",2,480,"de Dovitiis","","Matias","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,5
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 29","Toronto",N,N,"",2,480,"Jasinski","","Marek","People's Party - PPC","Parti populaire - PPC",N,N,4
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 29","Toronto",N,N,"",2,480,"McGuire","","Jeanne","Communist","Communiste",N,N,3
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 29","Toronto",N,N,"",2,480,"Paudel","","Bijay","Conservative","Conservateur",N,N,52
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 29","Toronto",N,N,"",2,480,"Sgro","","Judy","Liberal","Libéral",Y,Y,87
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 30","Toronto",N,N,"",3,411,"de Dovitiis","","Matias","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,14
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 30","Toronto",N,N,"",3,411,"Jasinski","","Marek","People's Party - PPC","Parti populaire - PPC",N,N,1
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 30","Toronto",N,N,"",3,411,"McGuire","","Jeanne","Communist","Communiste",N,N,0
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 30","Toronto",N,N,"",3,411,"Paudel","","Bijay","Conservative","Conservateur",N,N,60
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 30","Toronto",N,N,"",3,411,"Sgro","","Judy","Liberal","Libéral",Y,Y,69
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 31","Toronto",N,N,"",0,442,"de Dovitiis","","Matias","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,14
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 31","Toronto",N,N,"",0,442,"Jasinski","","Marek","People's Party - PPC","Parti populaire - PPC",N,N,5
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 31","Toronto",N,N,"",0,442,"McGuire","","Jeanne","Communist","Communiste",N,N,2
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 31","Toronto",N,N,"",0,442,"Paudel","","Bijay","Conservative","Conservateur",N,N,49
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 31","Toronto",N,N,"",0,442,"Sgro","","Judy","Liberal","Libéral",Y,Y,83
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 32","Toronto",N,N,"",2,534,"de Dovitiis","","Matias","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,13
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 32","Toronto",N,N,"",2,534,"Jasinski","","Marek","People's Party - PPC","Parti populaire - PPC",N,N,5
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 32","Toronto",N,N,"",2,534,"McGuire","","Jeanne","Communist","Communiste",N,N,0
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 32","Toronto",N,N,"",2,534,"Paudel","","Bijay","Conservative","Conservateur",N,N,59
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 32","Toronto",N,N,"",2,534,"Sgro","","Judy","Liberal","Libéral",Y,Y,128
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 33","Toronto",N,N,"",3,465,"de Dovitiis","","Matias","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,14
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 33","Toronto",N,N,"",3,465,"Jasinski","","Marek","People's Party - PPC","Parti populaire - PPC",N,N,2
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 33","Toronto",N,N,"",3,465,"McGuire","","Jeanne","Communist","Communiste",N,N,1
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 33","Toronto",N,N,"",3,465,"Paudel","","Bijay","Conservative","Conservateur",N,N,69
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 33","Toronto",N,N,"",3,465,"Sgro","","Judy","Liberal","Libéral",Y,Y,77
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 34","Toronto",N,N,"",2,586,"de Dovitiis","","Matias","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,10
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 34","Toronto",N,N,"",2,586,"Jasinski","","Marek","People's Party - PPC","Parti populaire - PPC",N,N,3
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 34","Toronto",N,N,"",2,586,"McGuire","","Jeanne","Communist","Communiste",N,N,2
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 34","Toronto",N,N,"",2,586,"Paudel","","Bijay","Conservative","Conservateur",N,N,73
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 34","Toronto",N,N,"",2,586,"Sgro","","Judy","Liberal","Libéral",Y,Y,122
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 35","Toronto",N,N,"",2,389,"de Dovitiis","","Matias","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,14
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 35","Toronto",N,N,"",2,389,"Jasinski","","Marek","People's Party - PPC","Parti populaire - PPC",N,N,3
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 35","Toronto",N,N,"",2,389,"McGuire","","Jeanne","Communist","Communiste",N,N,3
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 35","Toronto",N,N,"",2,389,"Paudel","","Bijay","Conservative","Conservateur",N,N,62
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 35","Toronto",N,N,"",2,389,"Sgro","","Judy","Liberal","Libéral",Y,Y,98
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 36","Toronto",N,N,"",0,328,"de Dovitiis","","Matias","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,15
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 36","Toronto",N,N,"",0,328,"Jasinski","","Marek","People's Party - PPC","Parti populaire - PPC",N,N,7
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 36","Toronto",N,N,"",0,328,"McGuire","","Jeanne","Communist","Communiste",N,N,0
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 36","Toronto",N,N,"",0,328,"Paudel","","Bijay","Conservative","Conservateur",N,N,43
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 36","Toronto",N,N,"",0,328,"Sgro","","Judy","Liberal","Libéral",Y,Y,60
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 37","Toronto",N,N,"",0,493,"de Dovitiis","","Matias","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,20
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 37","Toronto",N,N,"",0,493,"Jasinski","","Marek","People's Party - PPC","Parti populaire - PPC",N,N,1
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 37","Toronto",N,N,"",0,493,"McGuire","","Jeanne","Communist","Communiste",N,N,0
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 37","Toronto",N,N,"",0,493,"Paudel","","Bijay","Conservative","Conservateur",N,N,64
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 37","Toronto",N,N,"",0,493,"Sgro","","Judy","Liberal","Libéral",Y,Y,112
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 38","Toronto",N,N,"",2,485,"de Dovitiis","","Matias","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,15
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 38","Toronto",N,N,"",2,485,"Jasinski","","Marek","People's Party - PPC","Parti populaire - PPC",N,N,2
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 38","Toronto",N,N,"",2,485,"McGuire","","Jeanne","Communist","Communiste",N,N,1
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 38","Toronto",N,N,"",2,485,"Paudel","","Bijay","Conservative","Conservateur",N,N,85
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 38","Toronto",N,N,"",2,485,"Sgro","","Judy","Liberal","Libéral",Y,Y,95
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 39","Toronto",N,N,"",1,476,"de Dovitiis","","Matias","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,27
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 39","Toronto",N,N,"",1,476,"Jasinski","","Marek","People's Party - PPC","Parti populaire - PPC",N,N,2
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 39","Toronto",N,N,"",1,476,"McGuire","","Jeanne","Communist","Communiste",N,N,0
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 39","Toronto",N,N,"",1,476,"Paudel","","Bijay","Conservative","Conservateur",N,N,59
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 39","Toronto",N,N,"",1,476,"Sgro","","Judy","Liberal","Libéral",Y,Y,86
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 40","Toronto",N,N,"",2,569,"de Dovitiis","","Matias","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,27
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 40","Toronto",N,N,"",2,569,"Jasinski","","Marek","People's Party - PPC","Parti populaire - PPC",N,N,4
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 40","Toronto",N,N,"",2,569,"McGuire","","Jeanne","Communist","Communiste",N,N,1
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 40","Toronto",N,N,"",2,569,"Paudel","","Bijay","Conservative","Conservateur",N,N,63
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 40","Toronto",N,N,"",2,569,"Sgro","","Judy","Liberal","Libéral",Y,Y,125
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 41A","Toronto",N,N,"",1,317,"de Dovitiis","","Matias","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,12
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 41A","Toronto",N,N,"",1,317,"Jasinski","","Marek","People's Party - PPC","Parti populaire - PPC",N,N,1
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 41A","Toronto",N,N,"",1,317,"McGuire","","Jeanne","Communist","Communiste",N,N,0
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 41A","Toronto",N,N,"",1,317,"Paudel","","Bijay","Conservative","Conservateur",N,N,54
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 41A","Toronto",N,N,"",1,317,"Sgro","","Judy","Liberal","Libéral",Y,Y,69
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 41B","Toronto",N,N,"",0,317,"de Dovitiis","","Matias","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,4
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 41B","Toronto",N,N,"",0,317,"Jasinski","","Marek","People's Party - PPC","Parti populaire - PPC",N,N,1
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 41B","Toronto",N,N,"",0,317,"McGuire","","Jeanne","Communist","Communiste",N,N,0
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 41B","Toronto",N,N,"",0,317,"Paudel","","Bijay","Conservative","Conservateur",N,N,48
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 41B","Toronto",N,N,"",0,317,"Sgro","","Judy","Liberal","Libéral",Y,Y,67
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 42","Toronto",N,N,"",2,463,"de Dovitiis","","Matias","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,9
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 42","Toronto",N,N,"",2,463,"Jasinski","","Marek","People's Party - PPC","Parti populaire - PPC",N,N,3
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 42","Toronto",N,N,"",2,463,"McGuire","","Jeanne","Communist","Communiste",N,N,2
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 42","Toronto",N,N,"",2,463,"Paudel","","Bijay","Conservative","Conservateur",N,N,52
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 42","Toronto",N,N,"",2,463,"Sgro","","Judy","Liberal","Libéral",Y,Y,92
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 43","Toronto",N,N,"",2,513,"de Dovitiis","","Matias","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,21
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 43","Toronto",N,N,"",2,513,"Jasinski","","Marek","People's Party - PPC","Parti populaire - PPC",N,N,4
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 43","Toronto",N,N,"",2,513,"McGuire","","Jeanne","Communist","Communiste",N,N,0
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 43","Toronto",N,N,"",2,513,"Paudel","","Bijay","Conservative","Conservateur",N,N,66
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 43","Toronto",N,N,"",2,513,"Sgro","","Judy","Liberal","Libéral",Y,Y,110
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 44","Toronto",N,N,"",0,607,"de Dovitiis","","Matias","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,23
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 44","Toronto",N,N,"",0,607,"Jasinski","","Marek","People's Party - PPC","Parti populaire - PPC",N,N,3
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 44","Toronto",N,N,"",0,607,"McGuire","","Jeanne","Communist","Communiste",N,N,3
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 44","Toronto",N,N,"",0,607,"Paudel","","Bijay","Conservative","Conservateur",N,N,47
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 44","Toronto",N,N,"",0,607,"Sgro","","Judy","Liberal","Libéral",Y,Y,73
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 45","Toronto",N,N,"",4,617,"de Dovitiis","","Matias","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,12
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 45","Toronto",N,N,"",4,617,"Jasinski","","Marek","People's Party - PPC","Parti populaire - PPC",N,N,4
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 45","Toronto",N,N,"",4,617,"McGuire","","Jeanne","Communist","Communiste",N,N,4
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 45","Toronto",N,N,"",4,617,"Paudel","","Bijay","Conservative","Conservateur",N,N,89
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 45","Toronto",N,N,"",4,617,"Sgro","","Judy","Liberal","Libéral",Y,Y,141
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 46","Toronto",N,N,"",6,356,"de Dovitiis","","Matias","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,8
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 46","Toronto",N,N,"",6,356,"Jasinski","","Marek","People's Party - PPC","Parti populaire - PPC",N,N,3
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 46","Toronto",N,N,"",6,356,"McGuire","","Jeanne","Communist","Communiste",N,N,2
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 46","Toronto",N,N,"",6,356,"Paudel","","Bijay","Conservative","Conservateur",N,N,43
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 46","Toronto",N,N,"",6,356,"Sgro","","Judy","Liberal","Libéral",Y,Y,75
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 47","Toronto",N,N,"",1,584,"de Dovitiis","","Matias","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,15
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 47","Toronto",N,N,"",1,584,"Jasinski","","Marek","People's Party - PPC","Parti populaire - PPC",N,N,3
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 47","Toronto",N,N,"",1,584,"McGuire","","Jeanne","Communist","Communiste",N,N,2
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 47","Toronto",N,N,"",1,584,"Paudel","","Bijay","Conservative","Conservateur",N,N,91
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 47","Toronto",N,N,"",1,584,"Sgro","","Judy","Liberal","Libéral",Y,Y,134
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 48","Toronto",N,N,"",2,521,"de Dovitiis","","Matias","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,12
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 48","Toronto",N,N,"",2,521,"Jasinski","","Marek","People's Party - PPC","Parti populaire - PPC",N,N,2
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 48","Toronto",N,N,"",2,521,"McGuire","","Jeanne","Communist","Communiste",N,N,1
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 48","Toronto",N,N,"",2,521,"Paudel","","Bijay","Conservative","Conservateur",N,N,18
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 48","Toronto",N,N,"",2,521,"Sgro","","Judy","Liberal","Libéral",Y,Y,101
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 49","Toronto",N,N,"",2,460,"de Dovitiis","","Matias","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,16
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 49","Toronto",N,N,"",2,460,"Jasinski","","Marek","People's Party - PPC","Parti populaire - PPC",N,N,2
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 49","Toronto",N,N,"",2,460,"McGuire","","Jeanne","Communist","Communiste",N,N,3
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 49","Toronto",N,N,"",2,460,"Paudel","","Bijay","Conservative","Conservateur",N,N,46
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 49","Toronto",N,N,"",2,460,"Sgro","","Judy","Liberal","Libéral",Y,Y,87
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 50","Toronto",N,N,"",0,582,"de Dovitiis","","Matias","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,8
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 50","Toronto",N,N,"",0,582,"Jasinski","","Marek","People's Party - PPC","Parti populaire - PPC",N,N,5
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 50","Toronto",N,N,"",0,582,"McGuire","","Jeanne","Communist","Communiste",N,N,0
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 50","Toronto",N,N,"",0,582,"Paudel","","Bijay","Conservative","Conservateur",N,N,112
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 50","Toronto",N,N,"",0,582,"Sgro","","Judy","Liberal","Libéral",Y,Y,72
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 51","Toronto",N,N,"",0,598,"de Dovitiis","","Matias","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,9
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 51","Toronto",N,N,"",0,598,"Jasinski","","Marek","People's Party - PPC","Parti populaire - PPC",N,N,6
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 51","Toronto",N,N,"",0,598,"McGuire","","Jeanne","Communist","Communiste",N,N,1
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 51","Toronto",N,N,"",0,598,"Paudel","","Bijay","Conservative","Conservateur",N,N,121
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 51","Toronto",N,N,"",0,598,"Sgro","","Judy","Liberal","Libéral",Y,Y,105
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 52","Toronto",N,N,"",1,428,"de Dovitiis","","Matias","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,8
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 52","Toronto",N,N,"",1,428,"Jasinski","","Marek","People's Party - PPC","Parti populaire - PPC",N,N,5
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 52","Toronto",N,N,"",1,428,"McGuire","","Jeanne","Communist","Communiste",N,N,1
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 52","Toronto",N,N,"",1,428,"Paudel","","Bijay","Conservative","Conservateur",N,N,79
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 52","Toronto",N,N,"",1,428,"Sgro","","Judy","Liberal","Libéral",Y,Y,66
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 53","Toronto",N,N,"",1,428,"de Dovitiis","","Matias","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,6
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 53","Toronto",N,N,"",1,428,"Jasinski","","Marek","People's Party - PPC","Parti populaire - PPC",N,N,0
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 53","Toronto",N,N,"",1,428,"McGuire","","Jeanne","Communist","Communiste",N,N,0
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 53","Toronto",N,N,"",1,428,"Paudel","","Bijay","Conservative","Conservateur",N,N,60
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 53","Toronto",N,N,"",1,428,"Sgro","","Judy","Liberal","Libéral",Y,Y,76
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 54","Toronto",N,N,"",3,494,"de Dovitiis","","Matias","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,8
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 54","Toronto",N,N,"",3,494,"Jasinski","","Marek","People's Party - PPC","Parti populaire - PPC",N,N,5
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 54","Toronto",N,N,"",3,494,"McGuire","","Jeanne","Communist","Communiste",N,N,0
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 54","Toronto",N,N,"",3,494,"Paudel","","Bijay","Conservative","Conservateur",N,N,73
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 54","Toronto",N,N,"",3,494,"Sgro","","Judy","Liberal","Libéral",Y,Y,106
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 55","Toronto",N,N,"",0,403,"de Dovitiis","","Matias","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,6
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 55","Toronto",N,N,"",0,403,"Jasinski","","Marek","People's Party - PPC","Parti populaire - PPC",N,N,1
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 55","Toronto",N,N,"",0,403,"McGuire","","Jeanne","Communist","Communiste",N,N,2
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 55","Toronto",N,N,"",0,403,"Paudel","","Bijay","Conservative","Conservateur",N,N,68
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 55","Toronto",N,N,"",0,403,"Sgro","","Judy","Liberal","Libéral",Y,Y,59
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 56","Toronto",N,N,"",1,366,"de Dovitiis","","Matias","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,5
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 56","Toronto",N,N,"",1,366,"Jasinski","","Marek","People's Party - PPC","Parti populaire - PPC",N,N,1
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 56","Toronto",N,N,"",1,366,"McGuire","","Jeanne","Communist","Communiste",N,N,1
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 56","Toronto",N,N,"",1,366,"Paudel","","Bijay","Conservative","Conservateur",N,N,76
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 56","Toronto",N,N,"",1,366,"Sgro","","Judy","Liberal","Libéral",Y,Y,62
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 57","Toronto",N,N,"",1,448,"de Dovitiis","","Matias","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,7
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 57","Toronto",N,N,"",1,448,"Jasinski","","Marek","People's Party - PPC","Parti populaire - PPC",N,N,3
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 57","Toronto",N,N,"",1,448,"McGuire","","Jeanne","Communist","Communiste",N,N,0
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 57","Toronto",N,N,"",1,448,"Paudel","","Bijay","Conservative","Conservateur",N,N,86
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 57","Toronto",N,N,"",1,448,"Sgro","","Judy","Liberal","Libéral",Y,Y,97
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 58","Toronto",N,N,"",3,524,"de Dovitiis","","Matias","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,8
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 58","Toronto",N,N,"",3,524,"Jasinski","","Marek","People's Party - PPC","Parti populaire - PPC",N,N,5
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 58","Toronto",N,N,"",3,524,"McGuire","","Jeanne","Communist","Communiste",N,N,2
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 58","Toronto",N,N,"",3,524,"Paudel","","Bijay","Conservative","Conservateur",N,N,89
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 58","Toronto",N,N,"",3,524,"Sgro","","Judy","Liberal","Libéral",Y,Y,110
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 59","Toronto",N,N,"",1,420,"de Dovitiis","","Matias","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,8
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 59","Toronto",N,N,"",1,420,"Jasinski","","Marek","People's Party - PPC","Parti populaire - PPC",N,N,3
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 59","Toronto",N,N,"",1,420,"McGuire","","Jeanne","Communist","Communiste",N,N,0
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 59","Toronto",N,N,"",1,420,"Paudel","","Bijay","Conservative","Conservateur",N,N,85
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 59","Toronto",N,N,"",1,420,"Sgro","","Judy","Liberal","Libéral",Y,Y,84
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 60","Toronto",N,N,"",2,395,"de Dovitiis","","Matias","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,7
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 60","Toronto",N,N,"",2,395,"Jasinski","","Marek","People's Party - PPC","Parti populaire - PPC",N,N,9
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 60","Toronto",N,N,"",2,395,"McGuire","","Jeanne","Communist","Communiste",N,N,1
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 60","Toronto",N,N,"",2,395,"Paudel","","Bijay","Conservative","Conservateur",N,N,58
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 60","Toronto",N,N,"",2,395,"Sgro","","Judy","Liberal","Libéral",Y,Y,89
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 61A","Toronto",N,N,"",2,313,"de Dovitiis","","Matias","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,8
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 61A","Toronto",N,N,"",2,313,"Jasinski","","Marek","People's Party - PPC","Parti populaire - PPC",N,N,0
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 61A","Toronto",N,N,"",2,313,"McGuire","","Jeanne","Communist","Communiste",N,N,1
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 61A","Toronto",N,N,"",2,313,"Paudel","","Bijay","Conservative","Conservateur",N,N,51
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 61A","Toronto",N,N,"",2,313,"Sgro","","Judy","Liberal","Libéral",Y,Y,67
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 61B","Toronto",N,N,"",0,308,"de Dovitiis","","Matias","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,5
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 61B","Toronto",N,N,"",0,308,"Jasinski","","Marek","People's Party - PPC","Parti populaire - PPC",N,N,5
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 61B","Toronto",N,N,"",0,308,"McGuire","","Jeanne","Communist","Communiste",N,N,0
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 61B","Toronto",N,N,"",0,308,"Paudel","","Bijay","Conservative","Conservateur",N,N,56
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 61B","Toronto",N,N,"",0,308,"Sgro","","Judy","Liberal","Libéral",Y,Y,51
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 62","Toronto",N,N,"",3,408,"de Dovitiis","","Matias","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,3
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 62","Toronto",N,N,"",3,408,"Jasinski","","Marek","People's Party - PPC","Parti populaire - PPC",N,N,5
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 62","Toronto",N,N,"",3,408,"McGuire","","Jeanne","Communist","Communiste",N,N,0
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 62","Toronto",N,N,"",3,408,"Paudel","","Bijay","Conservative","Conservateur",N,N,93
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 62","Toronto",N,N,"",3,408,"Sgro","","Judy","Liberal","Libéral",Y,Y,87
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 63","Toronto",N,N,"",7,499,"de Dovitiis","","Matias","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,12
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 63","Toronto",N,N,"",7,499,"Jasinski","","Marek","People's Party - PPC","Parti populaire - PPC",N,N,5
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 63","Toronto",N,N,"",7,499,"McGuire","","Jeanne","Communist","Communiste",N,N,3
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 63","Toronto",N,N,"",7,499,"Paudel","","Bijay","Conservative","Conservateur",N,N,52
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 63","Toronto",N,N,"",7,499,"Sgro","","Judy","Liberal","Libéral",Y,Y,137
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 64","Toronto",N,N,"",4,447,"de Dovitiis","","Matias","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,4
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 64","Toronto",N,N,"",4,447,"Jasinski","","Marek","People's Party - PPC","Parti populaire - PPC",N,N,2
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 64","Toronto",N,N,"",4,447,"McGuire","","Jeanne","Communist","Communiste",N,N,3
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 64","Toronto",N,N,"",4,447,"Paudel","","Bijay","Conservative","Conservateur",N,N,45
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 64","Toronto",N,N,"",4,447,"Sgro","","Judy","Liberal","Libéral",Y,Y,117
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 65","Toronto",N,N,"",5,524,"de Dovitiis","","Matias","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,14
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 65","Toronto",N,N,"",5,524,"Jasinski","","Marek","People's Party - PPC","Parti populaire - PPC",N,N,7
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 65","Toronto",N,N,"",5,524,"McGuire","","Jeanne","Communist","Communiste",N,N,2
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 65","Toronto",N,N,"",5,524,"Paudel","","Bijay","Conservative","Conservateur",N,N,81
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 65","Toronto",N,N,"",5,524,"Sgro","","Judy","Liberal","Libéral",Y,Y,106
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 66","Toronto",N,N,"",0,414,"de Dovitiis","","Matias","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,9
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 66","Toronto",N,N,"",0,414,"Jasinski","","Marek","People's Party - PPC","Parti populaire - PPC",N,N,3
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 66","Toronto",N,N,"",0,414,"McGuire","","Jeanne","Communist","Communiste",N,N,1
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 66","Toronto",N,N,"",0,414,"Paudel","","Bijay","Conservative","Conservateur",N,N,50
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 66","Toronto",N,N,"",0,414,"Sgro","","Judy","Liberal","Libéral",Y,Y,103
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 67","Toronto",N,N,"",4,298,"de Dovitiis","","Matias","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,0
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 67","Toronto",N,N,"",4,298,"Jasinski","","Marek","People's Party - PPC","Parti populaire - PPC",N,N,3
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 67","Toronto",N,N,"",4,298,"McGuire","","Jeanne","Communist","Communiste",N,N,1
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 67","Toronto",N,N,"",4,298,"Paudel","","Bijay","Conservative","Conservateur",N,N,28
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 67","Toronto",N,N,"",4,298,"Sgro","","Judy","Liberal","Libéral",Y,Y,60
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 68","Toronto",N,N,"",1,462,"de Dovitiis","","Matias","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,10
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 68","Toronto",N,N,"",1,462,"Jasinski","","Marek","People's Party - PPC","Parti populaire - PPC",N,N,5
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 68","Toronto",N,N,"",1,462,"McGuire","","Jeanne","Communist","Communiste",N,N,0
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 68","Toronto",N,N,"",1,462,"Paudel","","Bijay","Conservative","Conservateur",N,N,78
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 68","Toronto",N,N,"",1,462,"Sgro","","Judy","Liberal","Libéral",Y,Y,85
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 69","Toronto",N,N,"",0,540,"de Dovitiis","","Matias","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,17
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 69","Toronto",N,N,"",0,540,"Jasinski","","Marek","People's Party - PPC","Parti populaire - PPC",N,N,3
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 69","Toronto",N,N,"",0,540,"McGuire","","Jeanne","Communist","Communiste",N,N,1
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 69","Toronto",N,N,"",0,540,"Paudel","","Bijay","Conservative","Conservateur",N,N,87
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 69","Toronto",N,N,"",0,540,"Sgro","","Judy","Liberal","Libéral",Y,Y,84
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 70","Toronto",N,N,"",0,439,"de Dovitiis","","Matias","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,8
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 70","Toronto",N,N,"",0,439,"Jasinski","","Marek","People's Party - PPC","Parti populaire - PPC",N,N,4
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 70","Toronto",N,N,"",0,439,"McGuire","","Jeanne","Communist","Communiste",N,N,0
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 70","Toronto",N,N,"",0,439,"Paudel","","Bijay","Conservative","Conservateur",N,N,52
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 70","Toronto",N,N,"",0,439,"Sgro","","Judy","Liberal","Libéral",Y,Y,68
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 71","Toronto",N,N,"",2,569,"de Dovitiis","","Matias","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,11
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 71","Toronto",N,N,"",2,569,"Jasinski","","Marek","People's Party - PPC","Parti populaire - PPC",N,N,3
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 71","Toronto",N,N,"",2,569,"McGuire","","Jeanne","Communist","Communiste",N,N,2
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 71","Toronto",N,N,"",2,569,"Paudel","","Bijay","Conservative","Conservateur",N,N,101
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 71","Toronto",N,N,"",2,569,"Sgro","","Judy","Liberal","Libéral",Y,Y,99
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 72A","Toronto",N,N,"",2,279,"de Dovitiis","","Matias","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,4
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 72A","Toronto",N,N,"",2,279,"Jasinski","","Marek","People's Party - PPC","Parti populaire - PPC",N,N,1
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 72A","Toronto",N,N,"",2,279,"McGuire","","Jeanne","Communist","Communiste",N,N,0
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 72A","Toronto",N,N,"",2,279,"Paudel","","Bijay","Conservative","Conservateur",N,N,48
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 72A","Toronto",N,N,"",2,279,"Sgro","","Judy","Liberal","Libéral",Y,Y,65
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 72B","Toronto",N,N,"",0,319,"de Dovitiis","","Matias","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,4
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 72B","Toronto",N,N,"",0,319,"Jasinski","","Marek","People's Party - PPC","Parti populaire - PPC",N,N,2
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 72B","Toronto",N,N,"",0,319,"McGuire","","Jeanne","Communist","Communiste",N,N,0
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 72B","Toronto",N,N,"",0,319,"Paudel","","Bijay","Conservative","Conservateur",N,N,53
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 72B","Toronto",N,N,"",0,319,"Sgro","","Judy","Liberal","Libéral",Y,Y,73
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 73","Toronto",N,N,"",5,370,"de Dovitiis","","Matias","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,17
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 73","Toronto",N,N,"",5,370,"Jasinski","","Marek","People's Party - PPC","Parti populaire - PPC",N,N,2
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 73","Toronto",N,N,"",5,370,"McGuire","","Jeanne","Communist","Communiste",N,N,5
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 73","Toronto",N,N,"",5,370,"Paudel","","Bijay","Conservative","Conservateur",N,N,39
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 73","Toronto",N,N,"",5,370,"Sgro","","Judy","Liberal","Libéral",Y,Y,150
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 74A","Toronto",N,N,"",0,343,"de Dovitiis","","Matias","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,14
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 74A","Toronto",N,N,"",0,343,"Jasinski","","Marek","People's Party - PPC","Parti populaire - PPC",N,N,0
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 74A","Toronto",N,N,"",0,343,"McGuire","","Jeanne","Communist","Communiste",N,N,2
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 74A","Toronto",N,N,"",0,343,"Paudel","","Bijay","Conservative","Conservateur",N,N,35
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 74A","Toronto",N,N,"",0,343,"Sgro","","Judy","Liberal","Libéral",Y,Y,83
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 74B","Toronto",N,N,"",0,327,"de Dovitiis","","Matias","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,6
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 74B","Toronto",N,N,"",0,327,"Jasinski","","Marek","People's Party - PPC","Parti populaire - PPC",N,N,1
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 74B","Toronto",N,N,"",0,327,"McGuire","","Jeanne","Communist","Communiste",N,N,4
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 74B","Toronto",N,N,"",0,327,"Paudel","","Bijay","Conservative","Conservateur",N,N,35
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 74B","Toronto",N,N,"",0,327,"Sgro","","Judy","Liberal","Libéral",Y,Y,80
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 75","Toronto",N,N,"",5,572,"de Dovitiis","","Matias","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,17
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 75","Toronto",N,N,"",5,572,"Jasinski","","Marek","People's Party - PPC","Parti populaire - PPC",N,N,4
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 75","Toronto",N,N,"",5,572,"McGuire","","Jeanne","Communist","Communiste",N,N,2
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 75","Toronto",N,N,"",5,572,"Paudel","","Bijay","Conservative","Conservateur",N,N,103
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 75","Toronto",N,N,"",5,572,"Sgro","","Judy","Liberal","Libéral",Y,Y,115
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 76","Toronto",N,N,"",2,532,"de Dovitiis","","Matias","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,11
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 76","Toronto",N,N,"",2,532,"Jasinski","","Marek","People's Party - PPC","Parti populaire - PPC",N,N,4
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 76","Toronto",N,N,"",2,532,"McGuire","","Jeanne","Communist","Communiste",N,N,2
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 76","Toronto",N,N,"",2,532,"Paudel","","Bijay","Conservative","Conservateur",N,N,55
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 76","Toronto",N,N,"",2,532,"Sgro","","Judy","Liberal","Libéral",Y,Y,106
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 77","Toronto",N,N,"",0,533,"de Dovitiis","","Matias","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,15
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 77","Toronto",N,N,"",0,533,"Jasinski","","Marek","People's Party - PPC","Parti populaire - PPC",N,N,3
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 77","Toronto",N,N,"",0,533,"McGuire","","Jeanne","Communist","Communiste",N,N,0
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 77","Toronto",N,N,"",0,533,"Paudel","","Bijay","Conservative","Conservateur",N,N,43
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 77","Toronto",N,N,"",0,533,"Sgro","","Judy","Liberal","Libéral",Y,Y,107
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 78","Toronto",N,N,"",2,513,"de Dovitiis","","Matias","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,5
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 78","Toronto",N,N,"",2,513,"Jasinski","","Marek","People's Party - PPC","Parti populaire - PPC",N,N,0
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 78","Toronto",N,N,"",2,513,"McGuire","","Jeanne","Communist","Communiste",N,N,2
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 78","Toronto",N,N,"",2,513,"Paudel","","Bijay","Conservative","Conservateur",N,N,37
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 78","Toronto",N,N,"",2,513,"Sgro","","Judy","Liberal","Libéral",Y,Y,124
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 79","Toronto",N,N,"",0,387,"de Dovitiis","","Matias","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,9
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 79","Toronto",N,N,"",0,387,"Jasinski","","Marek","People's Party - PPC","Parti populaire - PPC",N,N,0
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 79","Toronto",N,N,"",0,387,"McGuire","","Jeanne","Communist","Communiste",N,N,0
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 79","Toronto",N,N,"",0,387,"Paudel","","Bijay","Conservative","Conservateur",N,N,32
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 79","Toronto",N,N,"",0,387,"Sgro","","Judy","Liberal","Libéral",Y,Y,79
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 80","Toronto",N,N,"",7,428,"de Dovitiis","","Matias","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,6
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 80","Toronto",N,N,"",7,428,"Jasinski","","Marek","People's Party - PPC","Parti populaire - PPC",N,N,4
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 80","Toronto",N,N,"",7,428,"McGuire","","Jeanne","Communist","Communiste",N,N,0
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 80","Toronto",N,N,"",7,428,"Paudel","","Bijay","Conservative","Conservateur",N,N,82
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 80","Toronto",N,N,"",7,428,"Sgro","","Judy","Liberal","Libéral",Y,Y,28
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 81","Toronto",N,N,"",2,450,"de Dovitiis","","Matias","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,10
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 81","Toronto",N,N,"",2,450,"Jasinski","","Marek","People's Party - PPC","Parti populaire - PPC",N,N,8
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 81","Toronto",N,N,"",2,450,"McGuire","","Jeanne","Communist","Communiste",N,N,2
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 81","Toronto",N,N,"",2,450,"Paudel","","Bijay","Conservative","Conservateur",N,N,60
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 81","Toronto",N,N,"",2,450,"Sgro","","Judy","Liberal","Libéral",Y,Y,81
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 82","Toronto",N,N,"",1,274,"de Dovitiis","","Matias","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,3
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 82","Toronto",N,N,"",1,274,"Jasinski","","Marek","People's Party - PPC","Parti populaire - PPC",N,N,0
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 82","Toronto",N,N,"",1,274,"McGuire","","Jeanne","Communist","Communiste",N,N,1
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 82","Toronto",N,N,"",1,274,"Paudel","","Bijay","Conservative","Conservateur",N,N,38
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 82","Toronto",N,N,"",1,274,"Sgro","","Judy","Liberal","Libéral",Y,Y,42
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 83A","Toronto",N,N,"",3,321,"de Dovitiis","","Matias","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,5
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 83A","Toronto",N,N,"",3,321,"Jasinski","","Marek","People's Party - PPC","Parti populaire - PPC",N,N,0
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 83A","Toronto",N,N,"",3,321,"McGuire","","Jeanne","Communist","Communiste",N,N,1
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 83A","Toronto",N,N,"",3,321,"Paudel","","Bijay","Conservative","Conservateur",N,N,47
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 83A","Toronto",N,N,"",3,321,"Sgro","","Judy","Liberal","Libéral",Y,Y,55
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 83B","Toronto",N,N,"",2,307,"de Dovitiis","","Matias","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,9
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 83B","Toronto",N,N,"",2,307,"Jasinski","","Marek","People's Party - PPC","Parti populaire - PPC",N,N,1
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 83B","Toronto",N,N,"",2,307,"McGuire","","Jeanne","Communist","Communiste",N,N,0
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 83B","Toronto",N,N,"",2,307,"Paudel","","Bijay","Conservative","Conservateur",N,N,42
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 83B","Toronto",N,N,"",2,307,"Sgro","","Judy","Liberal","Libéral",Y,Y,49
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 84A","Toronto",N,N,"",3,309,"de Dovitiis","","Matias","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,5
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 84A","Toronto",N,N,"",3,309,"Jasinski","","Marek","People's Party - PPC","Parti populaire - PPC",N,N,1
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 84A","Toronto",N,N,"",3,309,"McGuire","","Jeanne","Communist","Communiste",N,N,1
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 84A","Toronto",N,N,"",3,309,"Paudel","","Bijay","Conservative","Conservateur",N,N,34
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 84A","Toronto",N,N,"",3,309,"Sgro","","Judy","Liberal","Libéral",Y,Y,70
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 84B","Toronto",N,N,"",3,329,"de Dovitiis","","Matias","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,2
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 84B","Toronto",N,N,"",3,329,"Jasinski","","Marek","People's Party - PPC","Parti populaire - PPC",N,N,2
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 84B","Toronto",N,N,"",3,329,"McGuire","","Jeanne","Communist","Communiste",N,N,1
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 84B","Toronto",N,N,"",3,329,"Paudel","","Bijay","Conservative","Conservateur",N,N,49
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 84B","Toronto",N,N,"",3,329,"Sgro","","Judy","Liberal","Libéral",Y,Y,58
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 85","Toronto",N,N,"",11,435,"de Dovitiis","","Matias","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,9
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 85","Toronto",N,N,"",11,435,"Jasinski","","Marek","People's Party - PPC","Parti populaire - PPC",N,N,1
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 85","Toronto",N,N,"",11,435,"McGuire","","Jeanne","Communist","Communiste",N,N,1
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 85","Toronto",N,N,"",11,435,"Paudel","","Bijay","Conservative","Conservateur",N,N,44
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 85","Toronto",N,N,"",11,435,"Sgro","","Judy","Liberal","Libéral",Y,Y,114
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 86","Toronto",N,N,"",7,483,"de Dovitiis","","Matias","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,19
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 86","Toronto",N,N,"",7,483,"Jasinski","","Marek","People's Party - PPC","Parti populaire - PPC",N,N,5
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 86","Toronto",N,N,"",7,483,"McGuire","","Jeanne","Communist","Communiste",N,N,2
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 86","Toronto",N,N,"",7,483,"Paudel","","Bijay","Conservative","Conservateur",N,N,68
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 86","Toronto",N,N,"",7,483,"Sgro","","Judy","Liberal","Libéral",Y,Y,115
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 87","Toronto",N,N,"",0,404,"de Dovitiis","","Matias","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,15
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 87","Toronto",N,N,"",0,404,"Jasinski","","Marek","People's Party - PPC","Parti populaire - PPC",N,N,4
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 87","Toronto",N,N,"",0,404,"McGuire","","Jeanne","Communist","Communiste",N,N,0
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 87","Toronto",N,N,"",0,404,"Paudel","","Bijay","Conservative","Conservateur",N,N,75
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 87","Toronto",N,N,"",0,404,"Sgro","","Judy","Liberal","Libéral",Y,Y,72
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 88","Toronto",N,N,"",5,479,"de Dovitiis","","Matias","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,12
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 88","Toronto",N,N,"",5,479,"Jasinski","","Marek","People's Party - PPC","Parti populaire - PPC",N,N,6
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 88","Toronto",N,N,"",5,479,"McGuire","","Jeanne","Communist","Communiste",N,N,1
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 88","Toronto",N,N,"",5,479,"Paudel","","Bijay","Conservative","Conservateur",N,N,90
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 88","Toronto",N,N,"",5,479,"Sgro","","Judy","Liberal","Libéral",Y,Y,120
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 89","Toronto",N,N,"",1,462,"de Dovitiis","","Matias","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,12
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 89","Toronto",N,N,"",1,462,"Jasinski","","Marek","People's Party - PPC","Parti populaire - PPC",N,N,0
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 89","Toronto",N,N,"",1,462,"McGuire","","Jeanne","Communist","Communiste",N,N,1
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 89","Toronto",N,N,"",1,462,"Paudel","","Bijay","Conservative","Conservateur",N,N,42
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 89","Toronto",N,N,"",1,462,"Sgro","","Judy","Liberal","Libéral",Y,Y,131
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 90","Toronto",N,N,"",1,389,"de Dovitiis","","Matias","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,10
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 90","Toronto",N,N,"",1,389,"Jasinski","","Marek","People's Party - PPC","Parti populaire - PPC",N,N,0
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 90","Toronto",N,N,"",1,389,"McGuire","","Jeanne","Communist","Communiste",N,N,1
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 90","Toronto",N,N,"",1,389,"Paudel","","Bijay","Conservative","Conservateur",N,N,71
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 90","Toronto",N,N,"",1,389,"Sgro","","Judy","Liberal","Libéral",Y,Y,85
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 91","Toronto",N,N,"",4,383,"de Dovitiis","","Matias","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,12
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 91","Toronto",N,N,"",4,383,"Jasinski","","Marek","People's Party - PPC","Parti populaire - PPC",N,N,1
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 91","Toronto",N,N,"",4,383,"McGuire","","Jeanne","Communist","Communiste",N,N,0
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 91","Toronto",N,N,"",4,383,"Paudel","","Bijay","Conservative","Conservateur",N,N,49
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 91","Toronto",N,N,"",4,383,"Sgro","","Judy","Liberal","Libéral",Y,Y,100
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 92","Toronto",N,N,"",3,553,"de Dovitiis","","Matias","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,14
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 92","Toronto",N,N,"",3,553,"Jasinski","","Marek","People's Party - PPC","Parti populaire - PPC",N,N,3
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 92","Toronto",N,N,"",3,553,"McGuire","","Jeanne","Communist","Communiste",N,N,1
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 92","Toronto",N,N,"",3,553,"Paudel","","Bijay","Conservative","Conservateur",N,N,95
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 92","Toronto",N,N,"",3,553,"Sgro","","Judy","Liberal","Libéral",Y,Y,104
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 93","Toronto",N,N,"",1,338,"de Dovitiis","","Matias","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,2
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 93","Toronto",N,N,"",1,338,"Jasinski","","Marek","People's Party - PPC","Parti populaire - PPC",N,N,0
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 93","Toronto",N,N,"",1,338,"McGuire","","Jeanne","Communist","Communiste",N,N,1
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 93","Toronto",N,N,"",1,338,"Paudel","","Bijay","Conservative","Conservateur",N,N,49
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 93","Toronto",N,N,"",1,338,"Sgro","","Judy","Liberal","Libéral",Y,Y,96
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 94","Toronto",N,N,"",3,387,"de Dovitiis","","Matias","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,2
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 94","Toronto",N,N,"",3,387,"Jasinski","","Marek","People's Party - PPC","Parti populaire - PPC",N,N,2
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 94","Toronto",N,N,"",3,387,"McGuire","","Jeanne","Communist","Communiste",N,N,1
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 94","Toronto",N,N,"",3,387,"Paudel","","Bijay","Conservative","Conservateur",N,N,72
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 94","Toronto",N,N,"",3,387,"Sgro","","Judy","Liberal","Libéral",Y,Y,96
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 95","Toronto",N,N,"",2,458,"de Dovitiis","","Matias","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,6
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 95","Toronto",N,N,"",2,458,"Jasinski","","Marek","People's Party - PPC","Parti populaire - PPC",N,N,3
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 95","Toronto",N,N,"",2,458,"McGuire","","Jeanne","Communist","Communiste",N,N,1
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 95","Toronto",N,N,"",2,458,"Paudel","","Bijay","Conservative","Conservateur",N,N,41
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 95","Toronto",N,N,"",2,458,"Sgro","","Judy","Liberal","Libéral",Y,Y,84
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 96","Toronto",N,N,"",2,494,"de Dovitiis","","Matias","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,19
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 96","Toronto",N,N,"",2,494,"Jasinski","","Marek","People's Party - PPC","Parti populaire - PPC",N,N,0
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 96","Toronto",N,N,"",2,494,"McGuire","","Jeanne","Communist","Communiste",N,N,0
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 96","Toronto",N,N,"",2,494,"Paudel","","Bijay","Conservative","Conservateur",N,N,63
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 96","Toronto",N,N,"",2,494,"Sgro","","Judy","Liberal","Libéral",Y,Y,75
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 97A","Toronto",N,N,"",1,444,"de Dovitiis","","Matias","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,5
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 97A","Toronto",N,N,"",1,444,"Jasinski","","Marek","People's Party - PPC","Parti populaire - PPC",N,N,1
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 97A","Toronto",N,N,"",1,444,"McGuire","","Jeanne","Communist","Communiste",N,N,0
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 97A","Toronto",N,N,"",1,444,"Paudel","","Bijay","Conservative","Conservateur",N,N,63
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 97A","Toronto",N,N,"",1,444,"Sgro","","Judy","Liberal","Libéral",Y,Y,87
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 97B","Toronto",N,N,"",1,46,"de Dovitiis","","Matias","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,1
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 97B","Toronto",N,N,"",1,46,"Jasinski","","Marek","People's Party - PPC","Parti populaire - PPC",N,N,2
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 97B","Toronto",N,N,"",1,46,"McGuire","","Jeanne","Communist","Communiste",N,N,1
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 97B","Toronto",N,N,"",1,46,"Paudel","","Bijay","Conservative","Conservateur",N,N,5
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 97B","Toronto",N,N,"",1,46,"Sgro","","Judy","Liberal","Libéral",Y,Y,31
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 98","Toronto",N,N,"",7,399,"de Dovitiis","","Matias","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,7
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 98","Toronto",N,N,"",7,399,"Jasinski","","Marek","People's Party - PPC","Parti populaire - PPC",N,N,0
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 98","Toronto",N,N,"",7,399,"McGuire","","Jeanne","Communist","Communiste",N,N,0
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 98","Toronto",N,N,"",7,399,"Paudel","","Bijay","Conservative","Conservateur",N,N,72
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 98","Toronto",N,N,"",7,399,"Sgro","","Judy","Liberal","Libéral",Y,Y,65
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 99","Toronto",N,N,"",1,436,"de Dovitiis","","Matias","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,9
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 99","Toronto",N,N,"",1,436,"Jasinski","","Marek","People's Party - PPC","Parti populaire - PPC",N,N,3
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 99","Toronto",N,N,"",1,436,"McGuire","","Jeanne","Communist","Communiste",N,N,0
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 99","Toronto",N,N,"",1,436,"Paudel","","Bijay","Conservative","Conservateur",N,N,61
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 99","Toronto",N,N,"",1,436,"Sgro","","Judy","Liberal","Libéral",Y,Y,85
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 100","Toronto",N,N,"",1,348,"de Dovitiis","","Matias","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,3
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 100","Toronto",N,N,"",1,348,"Jasinski","","Marek","People's Party - PPC","Parti populaire - PPC",N,N,3
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 100","Toronto",N,N,"",1,348,"McGuire","","Jeanne","Communist","Communiste",N,N,0
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 100","Toronto",N,N,"",1,348,"Paudel","","Bijay","Conservative","Conservateur",N,N,45
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 100","Toronto",N,N,"",1,348,"Sgro","","Judy","Liberal","Libéral",Y,Y,65
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 101","Toronto",N,N,"",1,499,"de Dovitiis","","Matias","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,5
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 101","Toronto",N,N,"",1,499,"Jasinski","","Marek","People's Party - PPC","Parti populaire - PPC",N,N,2
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 101","Toronto",N,N,"",1,499,"McGuire","","Jeanne","Communist","Communiste",N,N,0
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 101","Toronto",N,N,"",1,499,"Paudel","","Bijay","Conservative","Conservateur",N,N,53
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 101","Toronto",N,N,"",1,499,"Sgro","","Judy","Liberal","Libéral",Y,Y,107
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 102","Toronto",N,N,"",4,461,"de Dovitiis","","Matias","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,6
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 102","Toronto",N,N,"",4,461,"Jasinski","","Marek","People's Party - PPC","Parti populaire - PPC",N,N,3
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 102","Toronto",N,N,"",4,461,"McGuire","","Jeanne","Communist","Communiste",N,N,2
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 102","Toronto",N,N,"",4,461,"Paudel","","Bijay","Conservative","Conservateur",N,N,48
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 102","Toronto",N,N,"",4,461,"Sgro","","Judy","Liberal","Libéral",Y,Y,86
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 103","Toronto",N,N,"",6,516,"de Dovitiis","","Matias","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,15
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 103","Toronto",N,N,"",6,516,"Jasinski","","Marek","People's Party - PPC","Parti populaire - PPC",N,N,3
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 103","Toronto",N,N,"",6,516,"McGuire","","Jeanne","Communist","Communiste",N,N,4
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 103","Toronto",N,N,"",6,516,"Paudel","","Bijay","Conservative","Conservateur",N,N,87
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 103","Toronto",N,N,"",6,516,"Sgro","","Judy","Liberal","Libéral",Y,Y,126
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 104","Toronto",N,N,"",1,581,"de Dovitiis","","Matias","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,30
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 104","Toronto",N,N,"",1,581,"Jasinski","","Marek","People's Party - PPC","Parti populaire - PPC",N,N,3
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 104","Toronto",N,N,"",1,581,"McGuire","","Jeanne","Communist","Communiste",N,N,2
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 104","Toronto",N,N,"",1,581,"Paudel","","Bijay","Conservative","Conservateur",N,N,74
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 104","Toronto",N,N,"",1,581,"Sgro","","Judy","Liberal","Libéral",Y,Y,174
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 105","Toronto",N,N,"",6,445,"de Dovitiis","","Matias","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,19
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 105","Toronto",N,N,"",6,445,"Jasinski","","Marek","People's Party - PPC","Parti populaire - PPC",N,N,1
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 105","Toronto",N,N,"",6,445,"McGuire","","Jeanne","Communist","Communiste",N,N,0
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 105","Toronto",N,N,"",6,445,"Paudel","","Bijay","Conservative","Conservateur",N,N,72
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 105","Toronto",N,N,"",6,445,"Sgro","","Judy","Liberal","Libéral",Y,Y,88
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 106","Toronto",N,N,"",2,431,"de Dovitiis","","Matias","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,12
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 106","Toronto",N,N,"",2,431,"Jasinski","","Marek","People's Party - PPC","Parti populaire - PPC",N,N,3
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 106","Toronto",N,N,"",2,431,"McGuire","","Jeanne","Communist","Communiste",N,N,0
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 106","Toronto",N,N,"",2,431,"Paudel","","Bijay","Conservative","Conservateur",N,N,43
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 106","Toronto",N,N,"",2,431,"Sgro","","Judy","Liberal","Libéral",Y,Y,78
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 107","Toronto",N,N,"",2,399,"de Dovitiis","","Matias","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,11
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 107","Toronto",N,N,"",2,399,"Jasinski","","Marek","People's Party - PPC","Parti populaire - PPC",N,N,5
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 107","Toronto",N,N,"",2,399,"McGuire","","Jeanne","Communist","Communiste",N,N,0
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 107","Toronto",N,N,"",2,399,"Paudel","","Bijay","Conservative","Conservateur",N,N,59
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 107","Toronto",N,N,"",2,399,"Sgro","","Judy","Liberal","Libéral",Y,Y,87
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 108A","Toronto",N,N,"",0,369,"de Dovitiis","","Matias","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,10
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 108A","Toronto",N,N,"",0,369,"Jasinski","","Marek","People's Party - PPC","Parti populaire - PPC",N,N,0
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 108A","Toronto",N,N,"",0,369,"McGuire","","Jeanne","Communist","Communiste",N,N,0
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 108A","Toronto",N,N,"",0,369,"Paudel","","Bijay","Conservative","Conservateur",N,N,39
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 108A","Toronto",N,N,"",0,369,"Sgro","","Judy","Liberal","Libéral",Y,Y,67
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 108B","Toronto",N,N,"",1,397,"de Dovitiis","","Matias","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,2
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 108B","Toronto",N,N,"",1,397,"Jasinski","","Marek","People's Party - PPC","Parti populaire - PPC",N,N,1
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 108B","Toronto",N,N,"",1,397,"McGuire","","Jeanne","Communist","Communiste",N,N,0
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 108B","Toronto",N,N,"",1,397,"Paudel","","Bijay","Conservative","Conservateur",N,N,46
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 108B","Toronto",N,N,"",1,397,"Sgro","","Judy","Liberal","Libéral",Y,Y,58
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 109","Toronto",N,N,"",3,394,"de Dovitiis","","Matias","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,11
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 109","Toronto",N,N,"",3,394,"Jasinski","","Marek","People's Party - PPC","Parti populaire - PPC",N,N,3
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 109","Toronto",N,N,"",3,394,"McGuire","","Jeanne","Communist","Communiste",N,N,0
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 109","Toronto",N,N,"",3,394,"Paudel","","Bijay","Conservative","Conservateur",N,N,44
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 109","Toronto",N,N,"",3,394,"Sgro","","Judy","Liberal","Libéral",Y,Y,96
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 110","Toronto",N,N,"",1,398,"de Dovitiis","","Matias","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,11
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 110","Toronto",N,N,"",1,398,"Jasinski","","Marek","People's Party - PPC","Parti populaire - PPC",N,N,0
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 110","Toronto",N,N,"",1,398,"McGuire","","Jeanne","Communist","Communiste",N,N,1
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 110","Toronto",N,N,"",1,398,"Paudel","","Bijay","Conservative","Conservateur",N,N,65
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 110","Toronto",N,N,"",1,398,"Sgro","","Judy","Liberal","Libéral",Y,Y,87
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 111","Toronto",N,N,"",1,432,"de Dovitiis","","Matias","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,12
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 111","Toronto",N,N,"",1,432,"Jasinski","","Marek","People's Party - PPC","Parti populaire - PPC",N,N,5
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 111","Toronto",N,N,"",1,432,"McGuire","","Jeanne","Communist","Communiste",N,N,1
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 111","Toronto",N,N,"",1,432,"Paudel","","Bijay","Conservative","Conservateur",N,N,76
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 111","Toronto",N,N,"",1,432,"Sgro","","Judy","Liberal","Libéral",Y,Y,103
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 112","Toronto",N,N,"",1,359,"de Dovitiis","","Matias","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,10
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 112","Toronto",N,N,"",1,359,"Jasinski","","Marek","People's Party - PPC","Parti populaire - PPC",N,N,4
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 112","Toronto",N,N,"",1,359,"McGuire","","Jeanne","Communist","Communiste",N,N,1
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 112","Toronto",N,N,"",1,359,"Paudel","","Bijay","Conservative","Conservateur",N,N,58
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 112","Toronto",N,N,"",1,359,"Sgro","","Judy","Liberal","Libéral",Y,Y,70
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 113","Toronto",N,N,"",1,349,"de Dovitiis","","Matias","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,6
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 113","Toronto",N,N,"",1,349,"Jasinski","","Marek","People's Party - PPC","Parti populaire - PPC",N,N,1
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 113","Toronto",N,N,"",1,349,"McGuire","","Jeanne","Communist","Communiste",N,N,1
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 113","Toronto",N,N,"",1,349,"Paudel","","Bijay","Conservative","Conservateur",N,N,45
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 113","Toronto",N,N,"",1,349,"Sgro","","Judy","Liberal","Libéral",Y,Y,61
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 114","Toronto",N,N,"",2,434,"de Dovitiis","","Matias","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,12
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 114","Toronto",N,N,"",2,434,"Jasinski","","Marek","People's Party - PPC","Parti populaire - PPC",N,N,0
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 114","Toronto",N,N,"",2,434,"McGuire","","Jeanne","Communist","Communiste",N,N,0
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 114","Toronto",N,N,"",2,434,"Paudel","","Bijay","Conservative","Conservateur",N,N,90
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 114","Toronto",N,N,"",2,434,"Sgro","","Judy","Liberal","Libéral",Y,Y,86
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 115","Toronto",N,N,"",0,428,"de Dovitiis","","Matias","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,10
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 115","Toronto",N,N,"",0,428,"Jasinski","","Marek","People's Party - PPC","Parti populaire - PPC",N,N,2
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 115","Toronto",N,N,"",0,428,"McGuire","","Jeanne","Communist","Communiste",N,N,0
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 115","Toronto",N,N,"",0,428,"Paudel","","Bijay","Conservative","Conservateur",N,N,94
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 115","Toronto",N,N,"",0,428,"Sgro","","Judy","Liberal","Libéral",Y,Y,63
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 116","Toronto",N,N,"",2,465,"de Dovitiis","","Matias","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,8
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 116","Toronto",N,N,"",2,465,"Jasinski","","Marek","People's Party - PPC","Parti populaire - PPC",N,N,1
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 116","Toronto",N,N,"",2,465,"McGuire","","Jeanne","Communist","Communiste",N,N,1
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 116","Toronto",N,N,"",2,465,"Paudel","","Bijay","Conservative","Conservateur",N,N,73
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 116","Toronto",N,N,"",2,465,"Sgro","","Judy","Liberal","Libéral",Y,Y,98
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 117","Toronto",N,N,"",7,565,"de Dovitiis","","Matias","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,11
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 117","Toronto",N,N,"",7,565,"Jasinski","","Marek","People's Party - PPC","Parti populaire - PPC",N,N,4
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 117","Toronto",N,N,"",7,565,"McGuire","","Jeanne","Communist","Communiste",N,N,1
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 117","Toronto",N,N,"",7,565,"Paudel","","Bijay","Conservative","Conservateur",N,N,129
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 117","Toronto",N,N,"",7,565,"Sgro","","Judy","Liberal","Libéral",Y,Y,117
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 118","Toronto",N,N,"",1,448,"de Dovitiis","","Matias","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,11
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 118","Toronto",N,N,"",1,448,"Jasinski","","Marek","People's Party - PPC","Parti populaire - PPC",N,N,0
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 118","Toronto",N,N,"",1,448,"McGuire","","Jeanne","Communist","Communiste",N,N,0
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 118","Toronto",N,N,"",1,448,"Paudel","","Bijay","Conservative","Conservateur",N,N,55
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 118","Toronto",N,N,"",1,448,"Sgro","","Judy","Liberal","Libéral",Y,Y,85
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 119","Toronto",N,N,"",1,568,"de Dovitiis","","Matias","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,2
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 119","Toronto",N,N,"",1,568,"Jasinski","","Marek","People's Party - PPC","Parti populaire - PPC",N,N,0
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 119","Toronto",N,N,"",1,568,"McGuire","","Jeanne","Communist","Communiste",N,N,2
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 119","Toronto",N,N,"",1,568,"Paudel","","Bijay","Conservative","Conservateur",N,N,72
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 119","Toronto",N,N,"",1,568,"Sgro","","Judy","Liberal","Libéral",Y,Y,100
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 120","Toronto",N,N,"",0,420,"de Dovitiis","","Matias","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,7
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 120","Toronto",N,N,"",0,420,"Jasinski","","Marek","People's Party - PPC","Parti populaire - PPC",N,N,1
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 120","Toronto",N,N,"",0,420,"McGuire","","Jeanne","Communist","Communiste",N,N,0
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 120","Toronto",N,N,"",0,420,"Paudel","","Bijay","Conservative","Conservateur",N,N,45
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 120","Toronto",N,N,"",0,420,"Sgro","","Judy","Liberal","Libéral",Y,Y,126
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 121","Toronto",N,N,"",0,552,"de Dovitiis","","Matias","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,8
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 121","Toronto",N,N,"",0,552,"Jasinski","","Marek","People's Party - PPC","Parti populaire - PPC",N,N,4
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 121","Toronto",N,N,"",0,552,"McGuire","","Jeanne","Communist","Communiste",N,N,0
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 121","Toronto",N,N,"",0,552,"Paudel","","Bijay","Conservative","Conservateur",N,N,109
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 121","Toronto",N,N,"",0,552,"Sgro","","Judy","Liberal","Libéral",Y,Y,81
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 122A","Toronto",N,N,"",1,304,"de Dovitiis","","Matias","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,3
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 122A","Toronto",N,N,"",1,304,"Jasinski","","Marek","People's Party - PPC","Parti populaire - PPC",N,N,2
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 122A","Toronto",N,N,"",1,304,"McGuire","","Jeanne","Communist","Communiste",N,N,0
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 122A","Toronto",N,N,"",1,304,"Paudel","","Bijay","Conservative","Conservateur",N,N,29
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 122A","Toronto",N,N,"",1,304,"Sgro","","Judy","Liberal","Libéral",Y,Y,40
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 122B","Toronto",N,N,"",4,313,"de Dovitiis","","Matias","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,3
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 122B","Toronto",N,N,"",4,313,"Jasinski","","Marek","People's Party - PPC","Parti populaire - PPC",N,N,2
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 122B","Toronto",N,N,"",4,313,"McGuire","","Jeanne","Communist","Communiste",N,N,0
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 122B","Toronto",N,N,"",4,313,"Paudel","","Bijay","Conservative","Conservateur",N,N,33
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 122B","Toronto",N,N,"",4,313,"Sgro","","Judy","Liberal","Libéral",Y,Y,46
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 123","Toronto",N,N,"",0,534,"de Dovitiis","","Matias","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,10
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 123","Toronto",N,N,"",0,534,"Jasinski","","Marek","People's Party - PPC","Parti populaire - PPC",N,N,1
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 123","Toronto",N,N,"",0,534,"McGuire","","Jeanne","Communist","Communiste",N,N,2
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 123","Toronto",N,N,"",0,534,"Paudel","","Bijay","Conservative","Conservateur",N,N,112
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 123","Toronto",N,N,"",0,534,"Sgro","","Judy","Liberal","Libéral",Y,Y,106
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 124","Toronto",N,N,"",0,450,"de Dovitiis","","Matias","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,7
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 124","Toronto",N,N,"",0,450,"Jasinski","","Marek","People's Party - PPC","Parti populaire - PPC",N,N,2
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 124","Toronto",N,N,"",0,450,"McGuire","","Jeanne","Communist","Communiste",N,N,1
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 124","Toronto",N,N,"",0,450,"Paudel","","Bijay","Conservative","Conservateur",N,N,80
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 124","Toronto",N,N,"",0,450,"Sgro","","Judy","Liberal","Libéral",Y,Y,80
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 125","Toronto",N,N,"",5,421,"de Dovitiis","","Matias","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,6
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 125","Toronto",N,N,"",5,421,"Jasinski","","Marek","People's Party - PPC","Parti populaire - PPC",N,N,0
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 125","Toronto",N,N,"",5,421,"McGuire","","Jeanne","Communist","Communiste",N,N,0
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 125","Toronto",N,N,"",5,421,"Paudel","","Bijay","Conservative","Conservateur",N,N,55
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 125","Toronto",N,N,"",5,421,"Sgro","","Judy","Liberal","Libéral",Y,Y,88
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 126","Toronto",N,N,"",0,454,"de Dovitiis","","Matias","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,5
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 126","Toronto",N,N,"",0,454,"Jasinski","","Marek","People's Party - PPC","Parti populaire - PPC",N,N,0
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 126","Toronto",N,N,"",0,454,"McGuire","","Jeanne","Communist","Communiste",N,N,0
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 126","Toronto",N,N,"",0,454,"Paudel","","Bijay","Conservative","Conservateur",N,N,70
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 126","Toronto",N,N,"",0,454,"Sgro","","Judy","Liberal","Libéral",Y,Y,51
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 127","Toronto",N,N,"",2,561,"de Dovitiis","","Matias","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,8
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 127","Toronto",N,N,"",2,561,"Jasinski","","Marek","People's Party - PPC","Parti populaire - PPC",N,N,3
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 127","Toronto",N,N,"",2,561,"McGuire","","Jeanne","Communist","Communiste",N,N,3
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 127","Toronto",N,N,"",2,561,"Paudel","","Bijay","Conservative","Conservateur",N,N,75
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 127","Toronto",N,N,"",2,561,"Sgro","","Judy","Liberal","Libéral",Y,Y,110
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 128","Toronto",N,N,"",1,436,"de Dovitiis","","Matias","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,8
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 128","Toronto",N,N,"",1,436,"Jasinski","","Marek","People's Party - PPC","Parti populaire - PPC",N,N,5
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 128","Toronto",N,N,"",1,436,"McGuire","","Jeanne","Communist","Communiste",N,N,1
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 128","Toronto",N,N,"",1,436,"Paudel","","Bijay","Conservative","Conservateur",N,N,89
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 128","Toronto",N,N,"",1,436,"Sgro","","Judy","Liberal","Libéral",Y,Y,79
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 129","Toronto",N,N,"",1,466,"de Dovitiis","","Matias","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,16
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 129","Toronto",N,N,"",1,466,"Jasinski","","Marek","People's Party - PPC","Parti populaire - PPC",N,N,2
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 129","Toronto",N,N,"",1,466,"McGuire","","Jeanne","Communist","Communiste",N,N,0
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 129","Toronto",N,N,"",1,466,"Paudel","","Bijay","Conservative","Conservateur",N,N,82
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 129","Toronto",N,N,"",1,466,"Sgro","","Judy","Liberal","Libéral",Y,Y,64
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 130","Toronto",N,N,"",6,498,"de Dovitiis","","Matias","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,2
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 130","Toronto",N,N,"",6,498,"Jasinski","","Marek","People's Party - PPC","Parti populaire - PPC",N,N,2
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 130","Toronto",N,N,"",6,498,"McGuire","","Jeanne","Communist","Communiste",N,N,1
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 130","Toronto",N,N,"",6,498,"Paudel","","Bijay","Conservative","Conservateur",N,N,110
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 130","Toronto",N,N,"",6,498,"Sgro","","Judy","Liberal","Libéral",Y,Y,57
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 131","Toronto",N,N,"",2,441,"de Dovitiis","","Matias","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,9
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 131","Toronto",N,N,"",2,441,"Jasinski","","Marek","People's Party - PPC","Parti populaire - PPC",N,N,4
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 131","Toronto",N,N,"",2,441,"McGuire","","Jeanne","Communist","Communiste",N,N,0
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 131","Toronto",N,N,"",2,441,"Paudel","","Bijay","Conservative","Conservateur",N,N,72
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 131","Toronto",N,N,"",2,441,"Sgro","","Judy","Liberal","Libéral",Y,Y,73
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 400","Toronto",N,N,"",1,311,"de Dovitiis","","Matias","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,12
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 400","Toronto",N,N,"",1,311,"Jasinski","","Marek","People's Party - PPC","Parti populaire - PPC",N,N,3
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 400","Toronto",N,N,"",1,311,"McGuire","","Jeanne","Communist","Communiste",N,N,1
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 400","Toronto",N,N,"",1,311,"Paudel","","Bijay","Conservative","Conservateur",N,N,25
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 400","Toronto",N,N,"",1,311,"Sgro","","Judy","Liberal","Libéral",Y,Y,115
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 401","Toronto",N,N,"",0,464,"de Dovitiis","","Matias","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,19
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 401","Toronto",N,N,"",0,464,"Jasinski","","Marek","People's Party - PPC","Parti populaire - PPC",N,N,6
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 401","Toronto",N,N,"",0,464,"McGuire","","Jeanne","Communist","Communiste",N,N,2
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 401","Toronto",N,N,"",0,464,"Paudel","","Bijay","Conservative","Conservateur",N,N,59
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 401","Toronto",N,N,"",0,464,"Sgro","","Judy","Liberal","Libéral",Y,Y,147
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 402","Toronto",N,N,"",2,344,"de Dovitiis","","Matias","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,9
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 402","Toronto",N,N,"",2,344,"Jasinski","","Marek","People's Party - PPC","Parti populaire - PPC",N,N,3
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 402","Toronto",N,N,"",2,344,"McGuire","","Jeanne","Communist","Communiste",N,N,2
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 402","Toronto",N,N,"",2,344,"Paudel","","Bijay","Conservative","Conservateur",N,N,53
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 402","Toronto",N,N,"",2,344,"Sgro","","Judy","Liberal","Libéral",Y,Y,96
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 403","Toronto",N,N,"",3,314,"de Dovitiis","","Matias","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,3
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 403","Toronto",N,N,"",3,314,"Jasinski","","Marek","People's Party - PPC","Parti populaire - PPC",N,N,2
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 403","Toronto",N,N,"",3,314,"McGuire","","Jeanne","Communist","Communiste",N,N,2
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 403","Toronto",N,N,"",3,314,"Paudel","","Bijay","Conservative","Conservateur",N,N,56
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 403","Toronto",N,N,"",3,314,"Sgro","","Judy","Liberal","Libéral",Y,Y,95
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 404","Toronto",N,N,"",0,340,"de Dovitiis","","Matias","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,5
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 404","Toronto",N,N,"",0,340,"Jasinski","","Marek","People's Party - PPC","Parti populaire - PPC",N,N,2
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 404","Toronto",N,N,"",0,340,"McGuire","","Jeanne","Communist","Communiste",N,N,2
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 404","Toronto",N,N,"",0,340,"Paudel","","Bijay","Conservative","Conservateur",N,N,59
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 404","Toronto",N,N,"",0,340,"Sgro","","Judy","Liberal","Libéral",Y,Y,106
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 405","Toronto",N,N,"",5,575,"de Dovitiis","","Matias","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,20
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 405","Toronto",N,N,"",5,575,"Jasinski","","Marek","People's Party - PPC","Parti populaire - PPC",N,N,1
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 405","Toronto",N,N,"",5,575,"McGuire","","Jeanne","Communist","Communiste",N,N,3
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 405","Toronto",N,N,"",5,575,"Paudel","","Bijay","Conservative","Conservateur",N,N,28
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 405","Toronto",N,N,"",5,575,"Sgro","","Judy","Liberal","Libéral",Y,Y,212
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 406","Toronto",N,N,"",4,356,"de Dovitiis","","Matias","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,14
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 406","Toronto",N,N,"",4,356,"Jasinski","","Marek","People's Party - PPC","Parti populaire - PPC",N,N,7
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 406","Toronto",N,N,"",4,356,"McGuire","","Jeanne","Communist","Communiste",N,N,1
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 406","Toronto",N,N,"",4,356,"Paudel","","Bijay","Conservative","Conservateur",N,N,36
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 406","Toronto",N,N,"",4,356,"Sgro","","Judy","Liberal","Libéral",Y,Y,104
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 407","Toronto",N,N,"",1,528,"de Dovitiis","","Matias","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,11
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 407","Toronto",N,N,"",1,528,"Jasinski","","Marek","People's Party - PPC","Parti populaire - PPC",N,N,4
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 407","Toronto",N,N,"",1,528,"McGuire","","Jeanne","Communist","Communiste",N,N,1
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 407","Toronto",N,N,"",1,528,"Paudel","","Bijay","Conservative","Conservateur",N,N,25
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 407","Toronto",N,N,"",1,528,"Sgro","","Judy","Liberal","Libéral",Y,Y,99
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 408","Toronto",N,N,"",4,409,"de Dovitiis","","Matias","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,22
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 408","Toronto",N,N,"",4,409,"Jasinski","","Marek","People's Party - PPC","Parti populaire - PPC",N,N,8
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 408","Toronto",N,N,"",4,409,"McGuire","","Jeanne","Communist","Communiste",N,N,6
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 408","Toronto",N,N,"",4,409,"Paudel","","Bijay","Conservative","Conservateur",N,N,47
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 408","Toronto",N,N,"",4,409,"Sgro","","Judy","Liberal","Libéral",Y,Y,148
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 409","Toronto",N,N,"",6,335,"de Dovitiis","","Matias","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,9
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 409","Toronto",N,N,"",6,335,"Jasinski","","Marek","People's Party - PPC","Parti populaire - PPC",N,N,5
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 409","Toronto",N,N,"",6,335,"McGuire","","Jeanne","Communist","Communiste",N,N,1
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 409","Toronto",N,N,"",6,335,"Paudel","","Bijay","Conservative","Conservateur",N,N,45
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 409","Toronto",N,N,"",6,335,"Sgro","","Judy","Liberal","Libéral",Y,Y,86
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 410","Toronto",N,N,"",0,177,"de Dovitiis","","Matias","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,12
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 410","Toronto",N,N,"",0,177,"Jasinski","","Marek","People's Party - PPC","Parti populaire - PPC",N,N,1
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 410","Toronto",N,N,"",0,177,"McGuire","","Jeanne","Communist","Communiste",N,N,0
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 410","Toronto",N,N,"",0,177,"Paudel","","Bijay","Conservative","Conservateur",N,N,38
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 410","Toronto",N,N,"",0,177,"Sgro","","Judy","Liberal","Libéral",Y,Y,43
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 411","Toronto",N,N,"",5,381,"de Dovitiis","","Matias","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,12
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 411","Toronto",N,N,"",5,381,"Jasinski","","Marek","People's Party - PPC","Parti populaire - PPC",N,N,0
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 411","Toronto",N,N,"",5,381,"McGuire","","Jeanne","Communist","Communiste",N,N,1
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 411","Toronto",N,N,"",5,381,"Paudel","","Bijay","Conservative","Conservateur",N,N,76
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 411","Toronto",N,N,"",5,381,"Sgro","","Judy","Liberal","Libéral",Y,Y,100
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 412","Toronto",N,N,"",4,373,"de Dovitiis","","Matias","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,15
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 412","Toronto",N,N,"",4,373,"Jasinski","","Marek","People's Party - PPC","Parti populaire - PPC",N,N,1
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 412","Toronto",N,N,"",4,373,"McGuire","","Jeanne","Communist","Communiste",N,N,1
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 412","Toronto",N,N,"",4,373,"Paudel","","Bijay","Conservative","Conservateur",N,N,10
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 412","Toronto",N,N,"",4,373,"Sgro","","Judy","Liberal","Libéral",Y,Y,183
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 413","Toronto",N,N,"",3,328,"de Dovitiis","","Matias","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,10
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 413","Toronto",N,N,"",3,328,"Jasinski","","Marek","People's Party - PPC","Parti populaire - PPC",N,N,9
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 413","Toronto",N,N,"",3,328,"McGuire","","Jeanne","Communist","Communiste",N,N,3
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 413","Toronto",N,N,"",3,328,"Paudel","","Bijay","Conservative","Conservateur",N,N,59
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 413","Toronto",N,N,"",3,328,"Sgro","","Judy","Liberal","Libéral",Y,Y,91
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 414","Toronto",N,N,"",4,289,"de Dovitiis","","Matias","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,4
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 414","Toronto",N,N,"",4,289,"Jasinski","","Marek","People's Party - PPC","Parti populaire - PPC",N,N,4
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 414","Toronto",N,N,"",4,289,"McGuire","","Jeanne","Communist","Communiste",N,N,1
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 414","Toronto",N,N,"",4,289,"Paudel","","Bijay","Conservative","Conservateur",N,N,38
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 414","Toronto",N,N,"",4,289,"Sgro","","Judy","Liberal","Libéral",Y,Y,94
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 415","Toronto",N,N,"",3,438,"de Dovitiis","","Matias","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,17
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 415","Toronto",N,N,"",3,438,"Jasinski","","Marek","People's Party - PPC","Parti populaire - PPC",N,N,5
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 415","Toronto",N,N,"",3,438,"McGuire","","Jeanne","Communist","Communiste",N,N,1
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 415","Toronto",N,N,"",3,438,"Paudel","","Bijay","Conservative","Conservateur",N,N,40
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 415","Toronto",N,N,"",3,438,"Sgro","","Judy","Liberal","Libéral",Y,Y,104
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 416","Toronto",N,N,"",0,287,"de Dovitiis","","Matias","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,9
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 416","Toronto",N,N,"",0,287,"Jasinski","","Marek","People's Party - PPC","Parti populaire - PPC",N,N,1
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 416","Toronto",N,N,"",0,287,"McGuire","","Jeanne","Communist","Communiste",N,N,3
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 416","Toronto",N,N,"",0,287,"Paudel","","Bijay","Conservative","Conservateur",N,N,32
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 416","Toronto",N,N,"",0,287,"Sgro","","Judy","Liberal","Libéral",Y,Y,64
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 417","Toronto",N,N,"",1,300,"de Dovitiis","","Matias","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,7
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 417","Toronto",N,N,"",1,300,"Jasinski","","Marek","People's Party - PPC","Parti populaire - PPC",N,N,1
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 417","Toronto",N,N,"",1,300,"McGuire","","Jeanne","Communist","Communiste",N,N,1
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 417","Toronto",N,N,"",1,300,"Paudel","","Bijay","Conservative","Conservateur",N,N,25
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 417","Toronto",N,N,"",1,300,"Sgro","","Judy","Liberal","Libéral",Y,Y,119
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 418","Toronto",N,N,"",1,350,"de Dovitiis","","Matias","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,12
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 418","Toronto",N,N,"",1,350,"Jasinski","","Marek","People's Party - PPC","Parti populaire - PPC",N,N,0
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 418","Toronto",N,N,"",1,350,"McGuire","","Jeanne","Communist","Communiste",N,N,1
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 418","Toronto",N,N,"",1,350,"Paudel","","Bijay","Conservative","Conservateur",N,N,44
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 418","Toronto",N,N,"",1,350,"Sgro","","Judy","Liberal","Libéral",Y,Y,58
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 419","Toronto",N,N,"",0,240,"de Dovitiis","","Matias","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,2
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 419","Toronto",N,N,"",0,240,"Jasinski","","Marek","People's Party - PPC","Parti populaire - PPC",N,N,3
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 419","Toronto",N,N,"",0,240,"McGuire","","Jeanne","Communist","Communiste",N,N,0
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 419","Toronto",N,N,"",0,240,"Paudel","","Bijay","Conservative","Conservateur",N,N,10
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 419","Toronto",N,N,"",0,240,"Sgro","","Judy","Liberal","Libéral",Y,Y,68
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 420","Toronto",N,N,"",1,334,"de Dovitiis","","Matias","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,2
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 420","Toronto",N,N,"",1,334,"Jasinski","","Marek","People's Party - PPC","Parti populaire - PPC",N,N,1
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 420","Toronto",N,N,"",1,334,"McGuire","","Jeanne","Communist","Communiste",N,N,0
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 420","Toronto",N,N,"",1,334,"Paudel","","Bijay","Conservative","Conservateur",N,N,15
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 420","Toronto",N,N,"",1,334,"Sgro","","Judy","Liberal","Libéral",Y,Y,89
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 421","Toronto",N,N,"",0,325,"de Dovitiis","","Matias","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,5
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 421","Toronto",N,N,"",0,325,"Jasinski","","Marek","People's Party - PPC","Parti populaire - PPC",N,N,4
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 421","Toronto",N,N,"",0,325,"McGuire","","Jeanne","Communist","Communiste",N,N,0
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 421","Toronto",N,N,"",0,325,"Paudel","","Bijay","Conservative","Conservateur",N,N,29
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 421","Toronto",N,N,"",0,325,"Sgro","","Judy","Liberal","Libéral",Y,Y,82
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 422","Toronto",N,N,"",2,280,"de Dovitiis","","Matias","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,7
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 422","Toronto",N,N,"",2,280,"Jasinski","","Marek","People's Party - PPC","Parti populaire - PPC",N,N,2
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 422","Toronto",N,N,"",2,280,"McGuire","","Jeanne","Communist","Communiste",N,N,0
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 422","Toronto",N,N,"",2,280,"Paudel","","Bijay","Conservative","Conservateur",N,N,17
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 422","Toronto",N,N,"",2,280,"Sgro","","Judy","Liberal","Libéral",Y,Y,59
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 500","Mobile poll/Bureau itinérant",N,N,"",2,122,"de Dovitiis","","Matias","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,6
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 500","Mobile poll/Bureau itinérant",N,N,"",2,122,"Jasinski","","Marek","People's Party - PPC","Parti populaire - PPC",N,N,9
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 500","Mobile poll/Bureau itinérant",N,N,"",2,122,"McGuire","","Jeanne","Communist","Communiste",N,N,3
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 500","Mobile poll/Bureau itinérant",N,N,"",2,122,"Paudel","","Bijay","Conservative","Conservateur",N,N,18
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 500","Mobile poll/Bureau itinérant",N,N,"",2,122,"Sgro","","Judy","Liberal","Libéral",Y,Y,70
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 501","Mobile poll/Bureau itinérant",N,N,"500",0,50,"de Dovitiis","","Matias","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,0
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 501","Mobile poll/Bureau itinérant",N,N,"500",0,50,"Jasinski","","Marek","People's Party - PPC","Parti populaire - PPC",N,N,0
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 501","Mobile poll/Bureau itinérant",N,N,"500",0,50,"McGuire","","Jeanne","Communist","Communiste",N,N,0
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 501","Mobile poll/Bureau itinérant",N,N,"500",0,50,"Paudel","","Bijay","Conservative","Conservateur",N,N,0
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 501","Mobile poll/Bureau itinérant",N,N,"500",0,50,"Sgro","","Judy","Liberal","Libéral",Y,Y,0
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 502","Mobile poll/Bureau itinérant",Y,N,"",0,0,"de Dovitiis","","Matias","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,0
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 502","Mobile poll/Bureau itinérant",Y,N,"",0,0,"Jasinski","","Marek","People's Party - PPC","Parti populaire - PPC",N,N,0
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 502","Mobile poll/Bureau itinérant",Y,N,"",0,0,"McGuire","","Jeanne","Communist","Communiste",N,N,0
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 502","Mobile poll/Bureau itinérant",Y,N,"",0,0,"Paudel","","Bijay","Conservative","Conservateur",N,N,0
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 502","Mobile poll/Bureau itinérant",Y,N,"",0,0,"Sgro","","Judy","Liberal","Libéral",Y,Y,0
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 600","Toronto",N,N,"",4,0,"de Dovitiis","","Matias","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,29
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 600","Toronto",N,N,"",4,0,"Jasinski","","Marek","People's Party - PPC","Parti populaire - PPC",N,N,11
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 600","Toronto",N,N,"",4,0,"McGuire","","Jeanne","Communist","Communiste",N,N,1
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 600","Toronto",N,N,"",4,0,"Paudel","","Bijay","Conservative","Conservateur",N,N,420
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 600","Toronto",N,N,"",4,0,"Sgro","","Judy","Liberal","Libéral",Y,Y,347
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 601","Toronto",N,N,"",8,0,"de Dovitiis","","Matias","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,40
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 601","Toronto",N,N,"",8,0,"Jasinski","","Marek","People's Party - PPC","Parti populaire - PPC",N,N,16
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 601","Toronto",N,N,"",8,0,"McGuire","","Jeanne","Communist","Communiste",N,N,3
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 601","Toronto",N,N,"",8,0,"Paudel","","Bijay","Conservative","Conservateur",N,N,338
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 601","Toronto",N,N,"",8,0,"Sgro","","Judy","Liberal","Libéral",Y,Y,568
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 602","Toronto",N,N,"",20,0,"de Dovitiis","","Matias","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,43
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 602","Toronto",N,N,"",20,0,"Jasinski","","Marek","People's Party - PPC","Parti populaire - PPC",N,N,12
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 602","Toronto",N,N,"",20,0,"McGuire","","Jeanne","Communist","Communiste",N,N,3
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 602","Toronto",N,N,"",20,0,"Paudel","","Bijay","Conservative","Conservateur",N,N,294
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 602","Toronto",N,N,"",20,0,"Sgro","","Judy","Liberal","Libéral",Y,Y,435
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 603","Toronto",N,N,"",5,0,"de Dovitiis","","Matias","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,63
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 603","Toronto",N,N,"",5,0,"Jasinski","","Marek","People's Party - PPC","Parti populaire - PPC",N,N,15
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 603","Toronto",N,N,"",5,0,"McGuire","","Jeanne","Communist","Communiste",N,N,11
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 603","Toronto",N,N,"",5,0,"Paudel","","Bijay","Conservative","Conservateur",N,N,236
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 603","Toronto",N,N,"",5,0,"Sgro","","Judy","Liberal","Libéral",Y,Y,526
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 604","Toronto",N,N,"",4,0,"de Dovitiis","","Matias","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,67
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 604","Toronto",N,N,"",4,0,"Jasinski","","Marek","People's Party - PPC","Parti populaire - PPC",N,N,8
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 604","Toronto",N,N,"",4,0,"McGuire","","Jeanne","Communist","Communiste",N,N,1
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 604","Toronto",N,N,"",4,0,"Paudel","","Bijay","Conservative","Conservateur",N,N,270
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 604","Toronto",N,N,"",4,0,"Sgro","","Judy","Liberal","Libéral",Y,Y,622
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 605","Toronto",N,N,"",9,0,"de Dovitiis","","Matias","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,90
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 605","Toronto",N,N,"",9,0,"Jasinski","","Marek","People's Party - PPC","Parti populaire - PPC",N,N,17
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 605","Toronto",N,N,"",9,0,"McGuire","","Jeanne","Communist","Communiste",N,N,6
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 605","Toronto",N,N,"",9,0,"Paudel","","Bijay","Conservative","Conservateur",N,N,293
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 605","Toronto",N,N,"",9,0,"Sgro","","Judy","Liberal","Libéral",Y,Y,586
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 606","Toronto",N,N,"",12,0,"de Dovitiis","","Matias","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,45
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 606","Toronto",N,N,"",12,0,"Jasinski","","Marek","People's Party - PPC","Parti populaire - PPC",N,N,13
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 606","Toronto",N,N,"",12,0,"McGuire","","Jeanne","Communist","Communiste",N,N,5
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 606","Toronto",N,N,"",12,0,"Paudel","","Bijay","Conservative","Conservateur",N,N,171
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 606","Toronto",N,N,"",12,0,"Sgro","","Judy","Liberal","Libéral",Y,Y,321
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 607","Toronto",N,N,"",2,0,"de Dovitiis","","Matias","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,32
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 607","Toronto",N,N,"",2,0,"Jasinski","","Marek","People's Party - PPC","Parti populaire - PPC",N,N,10
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 607","Toronto",N,N,"",2,0,"McGuire","","Jeanne","Communist","Communiste",N,N,2
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 607","Toronto",N,N,"",2,0,"Paudel","","Bijay","Conservative","Conservateur",N,N,281
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 607","Toronto",N,N,"",2,0,"Sgro","","Judy","Liberal","Libéral",Y,Y,362
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 608","Toronto",N,N,"",4,0,"de Dovitiis","","Matias","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,52
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 608","Toronto",N,N,"",4,0,"Jasinski","","Marek","People's Party - PPC","Parti populaire - PPC",N,N,9
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 608","Toronto",N,N,"",4,0,"McGuire","","Jeanne","Communist","Communiste",N,N,5
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 608","Toronto",N,N,"",4,0,"Paudel","","Bijay","Conservative","Conservateur",N,N,300
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 608","Toronto",N,N,"",4,0,"Sgro","","Judy","Liberal","Libéral",Y,Y,586
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 609","Toronto",N,N,"",9,0,"de Dovitiis","","Matias","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,97
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 609","Toronto",N,N,"",9,0,"Jasinski","","Marek","People's Party - PPC","Parti populaire - PPC",N,N,9
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 609","Toronto",N,N,"",9,0,"McGuire","","Jeanne","Communist","Communiste",N,N,4
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 609","Toronto",N,N,"",9,0,"Paudel","","Bijay","Conservative","Conservateur",N,N,413
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 609","Toronto",N,N,"",9,0,"Sgro","","Judy","Liberal","Libéral",Y,Y,665
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 610","Toronto",N,N,"",1,0,"de Dovitiis","","Matias","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,67
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 610","Toronto",N,N,"",1,0,"Jasinski","","Marek","People's Party - PPC","Parti populaire - PPC",N,N,13
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 610","Toronto",N,N,"",1,0,"McGuire","","Jeanne","Communist","Communiste",N,N,4
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 610","Toronto",N,N,"",1,0,"Paudel","","Bijay","Conservative","Conservateur",N,N,491
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 610","Toronto",N,N,"",1,0,"Sgro","","Judy","Liberal","Libéral",Y,Y,510
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 611","Toronto",N,N,"",2,0,"de Dovitiis","","Matias","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,29
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 611","Toronto",N,N,"",2,0,"Jasinski","","Marek","People's Party - PPC","Parti populaire - PPC",N,N,6
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 611","Toronto",N,N,"",2,0,"McGuire","","Jeanne","Communist","Communiste",N,N,4
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 611","Toronto",N,N,"",2,0,"Paudel","","Bijay","Conservative","Conservateur",N,N,256
+35041,"Humber River--Black Creek","Humber River--Black Creek"," 611","Toronto",N,N,"",2,0,"Sgro","","Judy","Liberal","Libéral",Y,Y,368
+35041,"Humber River--Black Creek","Humber River--Black Creek"," S/R 1","SVR Group 1/RÉS Groupe 1",N,N,"",33,187,"de Dovitiis","","Matias","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,18
+35041,"Humber River--Black Creek","Humber River--Black Creek"," S/R 1","SVR Group 1/RÉS Groupe 1",N,N,"",33,187,"Jasinski","","Marek","People's Party - PPC","Parti populaire - PPC",N,N,9
+35041,"Humber River--Black Creek","Humber River--Black Creek"," S/R 1","SVR Group 1/RÉS Groupe 1",N,N,"",33,187,"McGuire","","Jeanne","Communist","Communiste",N,N,3
+35041,"Humber River--Black Creek","Humber River--Black Creek"," S/R 1","SVR Group 1/RÉS Groupe 1",N,N,"",33,187,"Paudel","","Bijay","Conservative","Conservateur",N,N,90
+35041,"Humber River--Black Creek","Humber River--Black Creek"," S/R 1","SVR Group 1/RÉS Groupe 1",N,N,"",33,187,"Sgro","","Judy","Liberal","Libéral",Y,Y,221
+35041,"Humber River--Black Creek","Humber River--Black Creek"," S/R 2","SVR Group 2/RÉS Groupe 2",N,N,"",69,0,"de Dovitiis","","Matias","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,81
+35041,"Humber River--Black Creek","Humber River--Black Creek"," S/R 2","SVR Group 2/RÉS Groupe 2",N,N,"",69,0,"Jasinski","","Marek","People's Party - PPC","Parti populaire - PPC",N,N,11
+35041,"Humber River--Black Creek","Humber River--Black Creek"," S/R 2","SVR Group 2/RÉS Groupe 2",N,N,"",69,0,"McGuire","","Jeanne","Communist","Communiste",N,N,6
+35041,"Humber River--Black Creek","Humber River--Black Creek"," S/R 2","SVR Group 2/RÉS Groupe 2",N,N,"",69,0,"Paudel","","Bijay","Conservative","Conservateur",N,N,286
+35041,"Humber River--Black Creek","Humber River--Black Creek"," S/R 2","SVR Group 2/RÉS Groupe 2",N,N,"",69,0,"Sgro","","Judy","Liberal","Libéral",Y,Y,630
