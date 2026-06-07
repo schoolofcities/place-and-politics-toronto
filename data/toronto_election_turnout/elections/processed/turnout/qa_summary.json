@@ -1,0 +1,24 @@
+{
+  "municipal_2023": {
+    "features": 1545,
+    "geometry_subdivisions_without_vote_result": 94,
+    "workbook_vote_subdivisions_without_geometry": 100
+  },
+  "provincial_2025": {
+    "features": 1532,
+    "features_with_geometry": 1388,
+    "official_rows_without_geometry": 17,
+    "official_advance_rows_without_geometry": 127,
+    "source_polygons_without_official_turnout": 0,
+    "official_suffix_poll_groups_aggregated": 29
+  },
+  "federal_2025": {
+    "combined_rows": 382,
+    "official_format2_rows_used": 27071,
+    "official_rows_with_suffix_aggregated": 359,
+    "official_rows_without_geometry": 796,
+    "source_polygons_without_official_turnout": 0,
+    "features": 5069,
+    "features_with_geometry": 4273
+  }
+}

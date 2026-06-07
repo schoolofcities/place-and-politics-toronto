@@ -1,0 +1,19 @@
+{
+  "crs_source": "EPSG:3347",
+  "map_crs": "EPSG:4326",
+  "da_count": 3743,
+  "ct_count": 622,
+  "toronto_linked_ct_count": 585,
+  "boundary_only_ct_count": 37,
+  "ada_count": 279,
+  "da_suppressed_confidentiality_count": 16,
+  "da_to_ada_relationship": "Toronto ADAs are formed from CT building units. DAs respect CT boundaries, so the published crosswalk follows DA to CT to ADA.",
+  "da_per_ada_min": 1,
+  "da_per_ada_max": 46,
+  "da_per_ada_mean": 13.415770609318997,
+  "outputs": {
+    "statcan_2021_toronto_da": 3743,
+    "statcan_2021_toronto_ct": 622,
+    "statcan_2021_toronto_ada": 279
+  }
+}

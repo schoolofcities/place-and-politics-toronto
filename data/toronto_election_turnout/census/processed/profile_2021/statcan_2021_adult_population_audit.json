@@ -1,0 +1,39 @@
+{
+  "variable_distinction": {
+    "population_18plus": "All persons aged 18+; 100% Census data.",
+    "citizen_canadian_18over": "Canadian citizens aged 18+; 25% sample Census Profile data."
+  },
+  "population_18plus": {
+    "da_row_count": 3743,
+    "da_missing_count": 9,
+    "da_sum": 2331690,
+    "official_toronto_csd": 2331130,
+    "difference": 560
+  },
+  "canadian_citizens_18plus": {
+    "official_toronto_csd": 1870055,
+    "da_sum": 1869930,
+    "da_suppressed_count": 16,
+    "da_difference": -125,
+    "toronto_linked_ct_count": 585,
+    "toronto_linked_ct_sum": 1870085,
+    "toronto_linked_ct_difference": 30,
+    "all_clipped_ct_count": 622,
+    "all_clipped_ct_sum_not_city_total": 1999260,
+    "ada_reference_count": 279,
+    "ada_reference_sum": 1870025,
+    "ada_reference_difference": -30
+  },
+  "ada_reconciliation": {
+    "ada_count": 279,
+    "exact_match_count": 77,
+    "within_5_count": 196,
+    "within_10_count": 252,
+    "mean_absolute_difference": 5.788530465949821,
+    "maximum_absolute_difference": 30
+  },
+  "reference_dataset_findings": {
+    "ada_profile": "Contains the same official characteristic and reconciles closely.",
+    "zack_taylor_ct2021": "Contains election-derived eligible-voter and historical population fields, but no equivalent 2021 Census Canadian-citizen 18+ variable."
+  }
+}

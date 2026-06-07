@@ -1,0 +1,637 @@
+﻿Electoral District Number/Numéro de circonscription,Electoral District Name_English/Nom de circonscription_Anglais,Electoral District Name_French/Nom de circonscription_Français,Polling Division Number/Numéro de section de vote,Polling Division Name/Nom de section de vote,Void Poll Indicator/Indicateur de bureau supprimé,No Poll Held Indicator/Indicateur de bureau sans scrutin,Combined with No./Résultats combinés à ceux du n°,Rejected Ballots for poll/Bulletins rejetés du bureau,Electors for poll/Électeurs du bureau,Candidate’s Family Name/Nom de famille du candidat,Candidate’s Middle Name/Second prénom du candidat,Candidate’s First Name/Prénom du candidat,Political Affiliation Name_English/Appartenance politique_Anglais,Political Affiliation Name_French/Appartenance politique_Français,Incumbent Indicator/Indicateur_Candidat sortant,Elected Candidate Indicator/Indicateur du candidat élu,Candidate Vote Count/Votes du candidat
+35120,"York Centre","York-Centre"," 1","Toronto",N,N,"",2,639,"Baber","","Roman","Conservative","Conservateur",N,Y,165
+35120,"York Centre","York-Centre"," 1","Toronto",N,N,"",2,639,"Saks","","Ya'ara","Liberal","Libéral",Y,N,104
+35120,"York Centre","York-Centre"," 1","Toronto",N,N,"",2,639,"Ulukanligil","","Yusuf","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,6
+35120,"York Centre","York-Centre"," 2","Toronto",N,N,"",5,552,"Baber","","Roman","Conservative","Conservateur",N,Y,133
+35120,"York Centre","York-Centre"," 2","Toronto",N,N,"",5,552,"Saks","","Ya'ara","Liberal","Libéral",Y,N,76
+35120,"York Centre","York-Centre"," 2","Toronto",N,N,"",5,552,"Ulukanligil","","Yusuf","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,1
+35120,"York Centre","York-Centre"," 3","Toronto",N,N,"",7,472,"Baber","","Roman","Conservative","Conservateur",N,Y,222
+35120,"York Centre","York-Centre"," 3","Toronto",N,N,"",7,472,"Saks","","Ya'ara","Liberal","Libéral",Y,N,64
+35120,"York Centre","York-Centre"," 3","Toronto",N,N,"",7,472,"Ulukanligil","","Yusuf","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,4
+35120,"York Centre","York-Centre"," 4","Toronto",N,N,"",5,616,"Baber","","Roman","Conservative","Conservateur",N,Y,151
+35120,"York Centre","York-Centre"," 4","Toronto",N,N,"",5,616,"Saks","","Ya'ara","Liberal","Libéral",Y,N,110
+35120,"York Centre","York-Centre"," 4","Toronto",N,N,"",5,616,"Ulukanligil","","Yusuf","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,5
+35120,"York Centre","York-Centre"," 5","Toronto",N,N,"",8,359,"Baber","","Roman","Conservative","Conservateur",N,Y,154
+35120,"York Centre","York-Centre"," 5","Toronto",N,N,"",8,359,"Saks","","Ya'ara","Liberal","Libéral",Y,N,96
+35120,"York Centre","York-Centre"," 5","Toronto",N,N,"",8,359,"Ulukanligil","","Yusuf","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,5
+35120,"York Centre","York-Centre"," 6","Toronto",N,N,"",1,524,"Baber","","Roman","Conservative","Conservateur",N,Y,90
+35120,"York Centre","York-Centre"," 6","Toronto",N,N,"",1,524,"Saks","","Ya'ara","Liberal","Libéral",Y,N,50
+35120,"York Centre","York-Centre"," 6","Toronto",N,N,"",1,524,"Ulukanligil","","Yusuf","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,2
+35120,"York Centre","York-Centre"," 7","Toronto",N,N,"",8,482,"Baber","","Roman","Conservative","Conservateur",N,Y,207
+35120,"York Centre","York-Centre"," 7","Toronto",N,N,"",8,482,"Saks","","Ya'ara","Liberal","Libéral",Y,N,104
+35120,"York Centre","York-Centre"," 7","Toronto",N,N,"",8,482,"Ulukanligil","","Yusuf","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,2
+35120,"York Centre","York-Centre"," 8","Toronto",N,N,"",0,601,"Baber","","Roman","Conservative","Conservateur",N,Y,85
+35120,"York Centre","York-Centre"," 8","Toronto",N,N,"",0,601,"Saks","","Ya'ara","Liberal","Libéral",Y,N,49
+35120,"York Centre","York-Centre"," 8","Toronto",N,N,"",0,601,"Ulukanligil","","Yusuf","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,5
+35120,"York Centre","York-Centre"," 9","Toronto",N,N,"",0,570,"Baber","","Roman","Conservative","Conservateur",N,Y,70
+35120,"York Centre","York-Centre"," 9","Toronto",N,N,"",0,570,"Saks","","Ya'ara","Liberal","Libéral",Y,N,48
+35120,"York Centre","York-Centre"," 9","Toronto",N,N,"",0,570,"Ulukanligil","","Yusuf","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,3
+35120,"York Centre","York-Centre"," 10","Toronto",N,N,"",2,528,"Baber","","Roman","Conservative","Conservateur",N,Y,142
+35120,"York Centre","York-Centre"," 10","Toronto",N,N,"",2,528,"Saks","","Ya'ara","Liberal","Libéral",Y,N,95
+35120,"York Centre","York-Centre"," 10","Toronto",N,N,"",2,528,"Ulukanligil","","Yusuf","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,6
+35120,"York Centre","York-Centre"," 11","Toronto",N,N,"",4,411,"Baber","","Roman","Conservative","Conservateur",N,Y,62
+35120,"York Centre","York-Centre"," 11","Toronto",N,N,"",4,411,"Saks","","Ya'ara","Liberal","Libéral",Y,N,58
+35120,"York Centre","York-Centre"," 11","Toronto",N,N,"",4,411,"Ulukanligil","","Yusuf","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,2
+35120,"York Centre","York-Centre"," 12","Toronto",N,N,"",4,396,"Baber","","Roman","Conservative","Conservateur",N,Y,113
+35120,"York Centre","York-Centre"," 12","Toronto",N,N,"",4,396,"Saks","","Ya'ara","Liberal","Libéral",Y,N,87
+35120,"York Centre","York-Centre"," 12","Toronto",N,N,"",4,396,"Ulukanligil","","Yusuf","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,9
+35120,"York Centre","York-Centre"," 13","Toronto",N,N,"",5,455,"Baber","","Roman","Conservative","Conservateur",N,Y,75
+35120,"York Centre","York-Centre"," 13","Toronto",N,N,"",5,455,"Saks","","Ya'ara","Liberal","Libéral",Y,N,73
+35120,"York Centre","York-Centre"," 13","Toronto",N,N,"",5,455,"Ulukanligil","","Yusuf","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,2
+35120,"York Centre","York-Centre"," 14A","Toronto",N,N,"",2,436,"Baber","","Roman","Conservative","Conservateur",N,Y,90
+35120,"York Centre","York-Centre"," 14A","Toronto",N,N,"",2,436,"Saks","","Ya'ara","Liberal","Libéral",Y,N,45
+35120,"York Centre","York-Centre"," 14A","Toronto",N,N,"",2,436,"Ulukanligil","","Yusuf","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,6
+35120,"York Centre","York-Centre"," 14B","Mobile poll/Bureau itinérant",N,N,"500",0,107,"Baber","","Roman","Conservative","Conservateur",N,Y,0
+35120,"York Centre","York-Centre"," 14B","Mobile poll/Bureau itinérant",N,N,"500",0,107,"Saks","","Ya'ara","Liberal","Libéral",Y,N,0
+35120,"York Centre","York-Centre"," 14B","Mobile poll/Bureau itinérant",N,N,"500",0,107,"Ulukanligil","","Yusuf","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,0
+35120,"York Centre","York-Centre"," 15","Toronto",N,N,"",0,679,"Baber","","Roman","Conservative","Conservateur",N,Y,143
+35120,"York Centre","York-Centre"," 15","Toronto",N,N,"",0,679,"Saks","","Ya'ara","Liberal","Libéral",Y,N,92
+35120,"York Centre","York-Centre"," 15","Toronto",N,N,"",0,679,"Ulukanligil","","Yusuf","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,5
+35120,"York Centre","York-Centre"," 16","Toronto",N,N,"",0,344,"Baber","","Roman","Conservative","Conservateur",N,Y,71
+35120,"York Centre","York-Centre"," 16","Toronto",N,N,"",0,344,"Saks","","Ya'ara","Liberal","Libéral",Y,N,47
+35120,"York Centre","York-Centre"," 16","Toronto",N,N,"",0,344,"Ulukanligil","","Yusuf","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,1
+35120,"York Centre","York-Centre"," 17","Toronto",N,N,"",0,353,"Baber","","Roman","Conservative","Conservateur",N,Y,47
+35120,"York Centre","York-Centre"," 17","Toronto",N,N,"",0,353,"Saks","","Ya'ara","Liberal","Libéral",Y,N,34
+35120,"York Centre","York-Centre"," 17","Toronto",N,N,"",0,353,"Ulukanligil","","Yusuf","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,13
+35120,"York Centre","York-Centre"," 18","Toronto",N,N,"",9,580,"Baber","","Roman","Conservative","Conservateur",N,Y,116
+35120,"York Centre","York-Centre"," 18","Toronto",N,N,"",9,580,"Saks","","Ya'ara","Liberal","Libéral",Y,N,81
+35120,"York Centre","York-Centre"," 18","Toronto",N,N,"",9,580,"Ulukanligil","","Yusuf","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,3
+35120,"York Centre","York-Centre"," 19","Toronto",N,N,"",3,537,"Baber","","Roman","Conservative","Conservateur",N,Y,136
+35120,"York Centre","York-Centre"," 19","Toronto",N,N,"",3,537,"Saks","","Ya'ara","Liberal","Libéral",Y,N,89
+35120,"York Centre","York-Centre"," 19","Toronto",N,N,"",3,537,"Ulukanligil","","Yusuf","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,4
+35120,"York Centre","York-Centre"," 20","Toronto",N,N,"",2,612,"Baber","","Roman","Conservative","Conservateur",N,Y,76
+35120,"York Centre","York-Centre"," 20","Toronto",N,N,"",2,612,"Saks","","Ya'ara","Liberal","Libéral",Y,N,49
+35120,"York Centre","York-Centre"," 20","Toronto",N,N,"",2,612,"Ulukanligil","","Yusuf","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,0
+35120,"York Centre","York-Centre"," 21","Toronto",N,N,"",2,541,"Baber","","Roman","Conservative","Conservateur",N,Y,72
+35120,"York Centre","York-Centre"," 21","Toronto",N,N,"",2,541,"Saks","","Ya'ara","Liberal","Libéral",Y,N,49
+35120,"York Centre","York-Centre"," 21","Toronto",N,N,"",2,541,"Ulukanligil","","Yusuf","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,4
+35120,"York Centre","York-Centre"," 22","Toronto",N,N,"",0,412,"Baber","","Roman","Conservative","Conservateur",N,Y,53
+35120,"York Centre","York-Centre"," 22","Toronto",N,N,"",0,412,"Saks","","Ya'ara","Liberal","Libéral",Y,N,39
+35120,"York Centre","York-Centre"," 22","Toronto",N,N,"",0,412,"Ulukanligil","","Yusuf","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,9
+35120,"York Centre","York-Centre"," 23","Toronto",N,N,"",0,453,"Baber","","Roman","Conservative","Conservateur",N,Y,113
+35120,"York Centre","York-Centre"," 23","Toronto",N,N,"",0,453,"Saks","","Ya'ara","Liberal","Libéral",Y,N,86
+35120,"York Centre","York-Centre"," 23","Toronto",N,N,"",0,453,"Ulukanligil","","Yusuf","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,3
+35120,"York Centre","York-Centre"," 24","Toronto",N,N,"",2,402,"Baber","","Roman","Conservative","Conservateur",N,Y,59
+35120,"York Centre","York-Centre"," 24","Toronto",N,N,"",2,402,"Saks","","Ya'ara","Liberal","Libéral",Y,N,65
+35120,"York Centre","York-Centre"," 24","Toronto",N,N,"",2,402,"Ulukanligil","","Yusuf","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,4
+35120,"York Centre","York-Centre"," 25","Toronto",N,N,"",0,399,"Baber","","Roman","Conservative","Conservateur",N,Y,89
+35120,"York Centre","York-Centre"," 25","Toronto",N,N,"",0,399,"Saks","","Ya'ara","Liberal","Libéral",Y,N,79
+35120,"York Centre","York-Centre"," 25","Toronto",N,N,"",0,399,"Ulukanligil","","Yusuf","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,5
+35120,"York Centre","York-Centre"," 26","Toronto",N,N,"",2,425,"Baber","","Roman","Conservative","Conservateur",N,Y,105
+35120,"York Centre","York-Centre"," 26","Toronto",N,N,"",2,425,"Saks","","Ya'ara","Liberal","Libéral",Y,N,68
+35120,"York Centre","York-Centre"," 26","Toronto",N,N,"",2,425,"Ulukanligil","","Yusuf","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,5
+35120,"York Centre","York-Centre"," 27","Toronto",N,N,"",10,592,"Baber","","Roman","Conservative","Conservateur",N,Y,76
+35120,"York Centre","York-Centre"," 27","Toronto",N,N,"",10,592,"Saks","","Ya'ara","Liberal","Libéral",Y,N,59
+35120,"York Centre","York-Centre"," 27","Toronto",N,N,"",10,592,"Ulukanligil","","Yusuf","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,1
+35120,"York Centre","York-Centre"," 28","Toronto",N,N,"",0,396,"Baber","","Roman","Conservative","Conservateur",N,Y,85
+35120,"York Centre","York-Centre"," 28","Toronto",N,N,"",0,396,"Saks","","Ya'ara","Liberal","Libéral",Y,N,46
+35120,"York Centre","York-Centre"," 28","Toronto",N,N,"",0,396,"Ulukanligil","","Yusuf","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,0
+35120,"York Centre","York-Centre"," 29","Toronto",N,N,"",0,458,"Baber","","Roman","Conservative","Conservateur",N,Y,119
+35120,"York Centre","York-Centre"," 29","Toronto",N,N,"",0,458,"Saks","","Ya'ara","Liberal","Libéral",Y,N,61
+35120,"York Centre","York-Centre"," 29","Toronto",N,N,"",0,458,"Ulukanligil","","Yusuf","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,3
+35120,"York Centre","York-Centre"," 30","Toronto",N,N,"",3,415,"Baber","","Roman","Conservative","Conservateur",N,Y,78
+35120,"York Centre","York-Centre"," 30","Toronto",N,N,"",3,415,"Saks","","Ya'ara","Liberal","Libéral",Y,N,47
+35120,"York Centre","York-Centre"," 30","Toronto",N,N,"",3,415,"Ulukanligil","","Yusuf","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,6
+35120,"York Centre","York-Centre"," 31","Toronto",N,N,"",1,396,"Baber","","Roman","Conservative","Conservateur",N,Y,71
+35120,"York Centre","York-Centre"," 31","Toronto",N,N,"",1,396,"Saks","","Ya'ara","Liberal","Libéral",Y,N,43
+35120,"York Centre","York-Centre"," 31","Toronto",N,N,"",1,396,"Ulukanligil","","Yusuf","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,4
+35120,"York Centre","York-Centre"," 32","Toronto",N,N,"",1,532,"Baber","","Roman","Conservative","Conservateur",N,Y,130
+35120,"York Centre","York-Centre"," 32","Toronto",N,N,"",1,532,"Saks","","Ya'ara","Liberal","Libéral",Y,N,65
+35120,"York Centre","York-Centre"," 32","Toronto",N,N,"",1,532,"Ulukanligil","","Yusuf","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,2
+35120,"York Centre","York-Centre"," 33","Toronto",N,N,"",3,659,"Baber","","Roman","Conservative","Conservateur",N,Y,160
+35120,"York Centre","York-Centre"," 33","Toronto",N,N,"",3,659,"Saks","","Ya'ara","Liberal","Libéral",Y,N,148
+35120,"York Centre","York-Centre"," 33","Toronto",N,N,"",3,659,"Ulukanligil","","Yusuf","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,2
+35120,"York Centre","York-Centre"," 34","Toronto",N,N,"",3,527,"Baber","","Roman","Conservative","Conservateur",N,Y,109
+35120,"York Centre","York-Centre"," 34","Toronto",N,N,"",3,527,"Saks","","Ya'ara","Liberal","Libéral",Y,N,107
+35120,"York Centre","York-Centre"," 34","Toronto",N,N,"",3,527,"Ulukanligil","","Yusuf","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,2
+35120,"York Centre","York-Centre"," 35","Toronto",N,N,"",0,507,"Baber","","Roman","Conservative","Conservateur",N,Y,114
+35120,"York Centre","York-Centre"," 35","Toronto",N,N,"",0,507,"Saks","","Ya'ara","Liberal","Libéral",Y,N,62
+35120,"York Centre","York-Centre"," 35","Toronto",N,N,"",0,507,"Ulukanligil","","Yusuf","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,3
+35120,"York Centre","York-Centre"," 36","Toronto",N,N,"",2,500,"Baber","","Roman","Conservative","Conservateur",N,Y,103
+35120,"York Centre","York-Centre"," 36","Toronto",N,N,"",2,500,"Saks","","Ya'ara","Liberal","Libéral",Y,N,38
+35120,"York Centre","York-Centre"," 36","Toronto",N,N,"",2,500,"Ulukanligil","","Yusuf","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,2
+35120,"York Centre","York-Centre"," 37","Toronto",N,N,"",2,562,"Baber","","Roman","Conservative","Conservateur",N,Y,101
+35120,"York Centre","York-Centre"," 37","Toronto",N,N,"",2,562,"Saks","","Ya'ara","Liberal","Libéral",Y,N,37
+35120,"York Centre","York-Centre"," 37","Toronto",N,N,"",2,562,"Ulukanligil","","Yusuf","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,1
+35120,"York Centre","York-Centre"," 38","Toronto",N,N,"",0,515,"Baber","","Roman","Conservative","Conservateur",N,Y,134
+35120,"York Centre","York-Centre"," 38","Toronto",N,N,"",0,515,"Saks","","Ya'ara","Liberal","Libéral",Y,N,62
+35120,"York Centre","York-Centre"," 38","Toronto",N,N,"",0,515,"Ulukanligil","","Yusuf","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,1
+35120,"York Centre","York-Centre"," 39","Toronto",N,N,"",1,424,"Baber","","Roman","Conservative","Conservateur",N,Y,87
+35120,"York Centre","York-Centre"," 39","Toronto",N,N,"",1,424,"Saks","","Ya'ara","Liberal","Libéral",Y,N,65
+35120,"York Centre","York-Centre"," 39","Toronto",N,N,"",1,424,"Ulukanligil","","Yusuf","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,5
+35120,"York Centre","York-Centre"," 40","Toronto",N,N,"",0,486,"Baber","","Roman","Conservative","Conservateur",N,Y,133
+35120,"York Centre","York-Centre"," 40","Toronto",N,N,"",0,486,"Saks","","Ya'ara","Liberal","Libéral",Y,N,77
+35120,"York Centre","York-Centre"," 40","Toronto",N,N,"",0,486,"Ulukanligil","","Yusuf","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,5
+35120,"York Centre","York-Centre"," 41A","Toronto",N,N,"",1,337,"Baber","","Roman","Conservative","Conservateur",N,Y,99
+35120,"York Centre","York-Centre"," 41A","Toronto",N,N,"",1,337,"Saks","","Ya'ara","Liberal","Libéral",Y,N,70
+35120,"York Centre","York-Centre"," 41A","Toronto",N,N,"",1,337,"Ulukanligil","","Yusuf","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,4
+35120,"York Centre","York-Centre"," 41B","Toronto",N,N,"",3,363,"Baber","","Roman","Conservative","Conservateur",N,Y,99
+35120,"York Centre","York-Centre"," 41B","Toronto",N,N,"",3,363,"Saks","","Ya'ara","Liberal","Libéral",Y,N,75
+35120,"York Centre","York-Centre"," 41B","Toronto",N,N,"",3,363,"Ulukanligil","","Yusuf","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,10
+35120,"York Centre","York-Centre"," 42","Toronto",N,N,"",0,443,"Baber","","Roman","Conservative","Conservateur",N,Y,123
+35120,"York Centre","York-Centre"," 42","Toronto",N,N,"",0,443,"Saks","","Ya'ara","Liberal","Libéral",Y,N,74
+35120,"York Centre","York-Centre"," 42","Toronto",N,N,"",0,443,"Ulukanligil","","Yusuf","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,1
+35120,"York Centre","York-Centre"," 43","Toronto",N,N,"",1,467,"Baber","","Roman","Conservative","Conservateur",N,Y,123
+35120,"York Centre","York-Centre"," 43","Toronto",N,N,"",1,467,"Saks","","Ya'ara","Liberal","Libéral",Y,N,60
+35120,"York Centre","York-Centre"," 43","Toronto",N,N,"",1,467,"Ulukanligil","","Yusuf","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,3
+35120,"York Centre","York-Centre"," 44","Toronto",N,N,"",0,417,"Baber","","Roman","Conservative","Conservateur",N,Y,70
+35120,"York Centre","York-Centre"," 44","Toronto",N,N,"",0,417,"Saks","","Ya'ara","Liberal","Libéral",Y,N,80
+35120,"York Centre","York-Centre"," 44","Toronto",N,N,"",0,417,"Ulukanligil","","Yusuf","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,3
+35120,"York Centre","York-Centre"," 45","Toronto",N,N,"",5,515,"Baber","","Roman","Conservative","Conservateur",N,Y,124
+35120,"York Centre","York-Centre"," 45","Toronto",N,N,"",5,515,"Saks","","Ya'ara","Liberal","Libéral",Y,N,56
+35120,"York Centre","York-Centre"," 45","Toronto",N,N,"",5,515,"Ulukanligil","","Yusuf","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,0
+35120,"York Centre","York-Centre"," 46","Toronto",N,N,"",7,362,"Baber","","Roman","Conservative","Conservateur",N,Y,106
+35120,"York Centre","York-Centre"," 46","Toronto",N,N,"",7,362,"Saks","","Ya'ara","Liberal","Libéral",Y,N,54
+35120,"York Centre","York-Centre"," 46","Toronto",N,N,"",7,362,"Ulukanligil","","Yusuf","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,4
+35120,"York Centre","York-Centre"," 47","Toronto",N,N,"",3,466,"Baber","","Roman","Conservative","Conservateur",N,Y,112
+35120,"York Centre","York-Centre"," 47","Toronto",N,N,"",3,466,"Saks","","Ya'ara","Liberal","Libéral",Y,N,84
+35120,"York Centre","York-Centre"," 47","Toronto",N,N,"",3,466,"Ulukanligil","","Yusuf","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,4
+35120,"York Centre","York-Centre"," 48","Toronto",N,N,"",2,561,"Baber","","Roman","Conservative","Conservateur",N,Y,84
+35120,"York Centre","York-Centre"," 48","Toronto",N,N,"",2,561,"Saks","","Ya'ara","Liberal","Libéral",Y,N,56
+35120,"York Centre","York-Centre"," 48","Toronto",N,N,"",2,561,"Ulukanligil","","Yusuf","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,4
+35120,"York Centre","York-Centre"," 49","Toronto",N,N,"",2,537,"Baber","","Roman","Conservative","Conservateur",N,Y,79
+35120,"York Centre","York-Centre"," 49","Toronto",N,N,"",2,537,"Saks","","Ya'ara","Liberal","Libéral",Y,N,71
+35120,"York Centre","York-Centre"," 49","Toronto",N,N,"",2,537,"Ulukanligil","","Yusuf","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,9
+35120,"York Centre","York-Centre"," 50","Toronto",N,N,"",2,613,"Baber","","Roman","Conservative","Conservateur",N,Y,120
+35120,"York Centre","York-Centre"," 50","Toronto",N,N,"",2,613,"Saks","","Ya'ara","Liberal","Libéral",Y,N,136
+35120,"York Centre","York-Centre"," 50","Toronto",N,N,"",2,613,"Ulukanligil","","Yusuf","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,18
+35120,"York Centre","York-Centre"," 51","Toronto",N,N,"",1,532,"Baber","","Roman","Conservative","Conservateur",N,Y,44
+35120,"York Centre","York-Centre"," 51","Toronto",N,N,"",1,532,"Saks","","Ya'ara","Liberal","Libéral",Y,N,56
+35120,"York Centre","York-Centre"," 51","Toronto",N,N,"",1,532,"Ulukanligil","","Yusuf","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,3
+35120,"York Centre","York-Centre"," 52","Toronto",N,N,"",2,348,"Baber","","Roman","Conservative","Conservateur",N,Y,87
+35120,"York Centre","York-Centre"," 52","Toronto",N,N,"",2,348,"Saks","","Ya'ara","Liberal","Libéral",Y,N,130
+35120,"York Centre","York-Centre"," 52","Toronto",N,N,"",2,348,"Ulukanligil","","Yusuf","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,7
+35120,"York Centre","York-Centre"," 53","Toronto",N,N,"",2,448,"Baber","","Roman","Conservative","Conservateur",N,Y,66
+35120,"York Centre","York-Centre"," 53","Toronto",N,N,"",2,448,"Saks","","Ya'ara","Liberal","Libéral",Y,N,82
+35120,"York Centre","York-Centre"," 53","Toronto",N,N,"",2,448,"Ulukanligil","","Yusuf","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,8
+35120,"York Centre","York-Centre"," 54","Toronto",N,N,"",8,593,"Baber","","Roman","Conservative","Conservateur",N,Y,88
+35120,"York Centre","York-Centre"," 54","Toronto",N,N,"",8,593,"Saks","","Ya'ara","Liberal","Libéral",Y,N,116
+35120,"York Centre","York-Centre"," 54","Toronto",N,N,"",8,593,"Ulukanligil","","Yusuf","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,8
+35120,"York Centre","York-Centre"," 55","Toronto",N,N,"",1,656,"Baber","","Roman","Conservative","Conservateur",N,Y,93
+35120,"York Centre","York-Centre"," 55","Toronto",N,N,"",1,656,"Saks","","Ya'ara","Liberal","Libéral",Y,N,130
+35120,"York Centre","York-Centre"," 55","Toronto",N,N,"",1,656,"Ulukanligil","","Yusuf","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,10
+35120,"York Centre","York-Centre"," 56","Toronto",N,N,"",2,400,"Baber","","Roman","Conservative","Conservateur",N,Y,53
+35120,"York Centre","York-Centre"," 56","Toronto",N,N,"",2,400,"Saks","","Ya'ara","Liberal","Libéral",Y,N,43
+35120,"York Centre","York-Centre"," 56","Toronto",N,N,"",2,400,"Ulukanligil","","Yusuf","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,4
+35120,"York Centre","York-Centre"," 57","Toronto",N,N,"",2,354,"Baber","","Roman","Conservative","Conservateur",N,Y,87
+35120,"York Centre","York-Centre"," 57","Toronto",N,N,"",2,354,"Saks","","Ya'ara","Liberal","Libéral",Y,N,101
+35120,"York Centre","York-Centre"," 57","Toronto",N,N,"",2,354,"Ulukanligil","","Yusuf","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,3
+35120,"York Centre","York-Centre"," 58","Toronto",N,N,"",1,344,"Baber","","Roman","Conservative","Conservateur",N,Y,56
+35120,"York Centre","York-Centre"," 58","Toronto",N,N,"",1,344,"Saks","","Ya'ara","Liberal","Libéral",Y,N,60
+35120,"York Centre","York-Centre"," 58","Toronto",N,N,"",1,344,"Ulukanligil","","Yusuf","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,6
+35120,"York Centre","York-Centre"," 59","Toronto",N,N,"",2,507,"Baber","","Roman","Conservative","Conservateur",N,Y,68
+35120,"York Centre","York-Centre"," 59","Toronto",N,N,"",2,507,"Saks","","Ya'ara","Liberal","Libéral",Y,N,51
+35120,"York Centre","York-Centre"," 59","Toronto",N,N,"",2,507,"Ulukanligil","","Yusuf","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,3
+35120,"York Centre","York-Centre"," 60","Toronto",N,N,"",1,462,"Baber","","Roman","Conservative","Conservateur",N,Y,140
+35120,"York Centre","York-Centre"," 60","Toronto",N,N,"",1,462,"Saks","","Ya'ara","Liberal","Libéral",Y,N,61
+35120,"York Centre","York-Centre"," 60","Toronto",N,N,"",1,462,"Ulukanligil","","Yusuf","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,0
+35120,"York Centre","York-Centre"," 61","Toronto",N,N,"",0,508,"Baber","","Roman","Conservative","Conservateur",N,Y,121
+35120,"York Centre","York-Centre"," 61","Toronto",N,N,"",0,508,"Saks","","Ya'ara","Liberal","Libéral",Y,N,67
+35120,"York Centre","York-Centre"," 61","Toronto",N,N,"",0,508,"Ulukanligil","","Yusuf","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,0
+35120,"York Centre","York-Centre"," 62","Toronto",N,N,"",2,467,"Baber","","Roman","Conservative","Conservateur",N,Y,43
+35120,"York Centre","York-Centre"," 62","Toronto",N,N,"",2,467,"Saks","","Ya'ara","Liberal","Libéral",Y,N,75
+35120,"York Centre","York-Centre"," 62","Toronto",N,N,"",2,467,"Ulukanligil","","Yusuf","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,6
+35120,"York Centre","York-Centre"," 63","Toronto",N,N,"",2,455,"Baber","","Roman","Conservative","Conservateur",N,Y,78
+35120,"York Centre","York-Centre"," 63","Toronto",N,N,"",2,455,"Saks","","Ya'ara","Liberal","Libéral",Y,N,39
+35120,"York Centre","York-Centre"," 63","Toronto",N,N,"",2,455,"Ulukanligil","","Yusuf","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,3
+35120,"York Centre","York-Centre"," 64","Toronto",N,N,"",1,541,"Baber","","Roman","Conservative","Conservateur",N,Y,204
+35120,"York Centre","York-Centre"," 64","Toronto",N,N,"",1,541,"Saks","","Ya'ara","Liberal","Libéral",Y,N,65
+35120,"York Centre","York-Centre"," 64","Toronto",N,N,"",1,541,"Ulukanligil","","Yusuf","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,3
+35120,"York Centre","York-Centre"," 65","Toronto",N,N,"",2,555,"Baber","","Roman","Conservative","Conservateur",N,Y,124
+35120,"York Centre","York-Centre"," 65","Toronto",N,N,"",2,555,"Saks","","Ya'ara","Liberal","Libéral",Y,N,108
+35120,"York Centre","York-Centre"," 65","Toronto",N,N,"",2,555,"Ulukanligil","","Yusuf","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,5
+35120,"York Centre","York-Centre"," 66","Toronto",N,N,"",5,572,"Baber","","Roman","Conservative","Conservateur",N,Y,123
+35120,"York Centre","York-Centre"," 66","Toronto",N,N,"",5,572,"Saks","","Ya'ara","Liberal","Libéral",Y,N,64
+35120,"York Centre","York-Centre"," 66","Toronto",N,N,"",5,572,"Ulukanligil","","Yusuf","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,2
+35120,"York Centre","York-Centre"," 67","Toronto",N,N,"",2,565,"Baber","","Roman","Conservative","Conservateur",N,Y,69
+35120,"York Centre","York-Centre"," 67","Toronto",N,N,"",2,565,"Saks","","Ya'ara","Liberal","Libéral",Y,N,99
+35120,"York Centre","York-Centre"," 67","Toronto",N,N,"",2,565,"Ulukanligil","","Yusuf","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,3
+35120,"York Centre","York-Centre"," 68","Toronto",N,N,"",4,507,"Baber","","Roman","Conservative","Conservateur",N,Y,54
+35120,"York Centre","York-Centre"," 68","Toronto",N,N,"",4,507,"Saks","","Ya'ara","Liberal","Libéral",Y,N,80
+35120,"York Centre","York-Centre"," 68","Toronto",N,N,"",4,507,"Ulukanligil","","Yusuf","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,3
+35120,"York Centre","York-Centre"," 69","Toronto",N,N,"",0,377,"Baber","","Roman","Conservative","Conservateur",N,Y,89
+35120,"York Centre","York-Centre"," 69","Toronto",N,N,"",0,377,"Saks","","Ya'ara","Liberal","Libéral",Y,N,30
+35120,"York Centre","York-Centre"," 69","Toronto",N,N,"",0,377,"Ulukanligil","","Yusuf","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,0
+35120,"York Centre","York-Centre"," 70","Toronto",N,N,"",3,410,"Baber","","Roman","Conservative","Conservateur",N,Y,112
+35120,"York Centre","York-Centre"," 70","Toronto",N,N,"",3,410,"Saks","","Ya'ara","Liberal","Libéral",Y,N,26
+35120,"York Centre","York-Centre"," 70","Toronto",N,N,"",3,410,"Ulukanligil","","Yusuf","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,0
+35120,"York Centre","York-Centre"," 71","Toronto",N,N,"",2,455,"Baber","","Roman","Conservative","Conservateur",N,Y,142
+35120,"York Centre","York-Centre"," 71","Toronto",N,N,"",2,455,"Saks","","Ya'ara","Liberal","Libéral",Y,N,45
+35120,"York Centre","York-Centre"," 71","Toronto",N,N,"",2,455,"Ulukanligil","","Yusuf","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,1
+35120,"York Centre","York-Centre"," 72","Toronto",N,N,"",1,392,"Baber","","Roman","Conservative","Conservateur",N,Y,86
+35120,"York Centre","York-Centre"," 72","Toronto",N,N,"",1,392,"Saks","","Ya'ara","Liberal","Libéral",Y,N,74
+35120,"York Centre","York-Centre"," 72","Toronto",N,N,"",1,392,"Ulukanligil","","Yusuf","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,8
+35120,"York Centre","York-Centre"," 73A","Toronto",N,N,"",0,375,"Baber","","Roman","Conservative","Conservateur",N,Y,74
+35120,"York Centre","York-Centre"," 73A","Toronto",N,N,"",0,375,"Saks","","Ya'ara","Liberal","Libéral",Y,N,97
+35120,"York Centre","York-Centre"," 73A","Toronto",N,N,"",0,375,"Ulukanligil","","Yusuf","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,6
+35120,"York Centre","York-Centre"," 73B","Toronto",N,N,"",2,355,"Baber","","Roman","Conservative","Conservateur",N,Y,77
+35120,"York Centre","York-Centre"," 73B","Toronto",N,N,"",2,355,"Saks","","Ya'ara","Liberal","Libéral",Y,N,85
+35120,"York Centre","York-Centre"," 73B","Toronto",N,N,"",2,355,"Ulukanligil","","Yusuf","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,5
+35120,"York Centre","York-Centre"," 74","Toronto",N,N,"",3,621,"Baber","","Roman","Conservative","Conservateur",N,Y,135
+35120,"York Centre","York-Centre"," 74","Toronto",N,N,"",3,621,"Saks","","Ya'ara","Liberal","Libéral",Y,N,116
+35120,"York Centre","York-Centre"," 74","Toronto",N,N,"",3,621,"Ulukanligil","","Yusuf","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,10
+35120,"York Centre","York-Centre"," 75A","Toronto",N,N,"",3,363,"Baber","","Roman","Conservative","Conservateur",N,Y,81
+35120,"York Centre","York-Centre"," 75A","Toronto",N,N,"",3,363,"Saks","","Ya'ara","Liberal","Libéral",Y,N,86
+35120,"York Centre","York-Centre"," 75A","Toronto",N,N,"",3,363,"Ulukanligil","","Yusuf","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,3
+35120,"York Centre","York-Centre"," 75B","Toronto",N,N,"",1,410,"Baber","","Roman","Conservative","Conservateur",N,Y,84
+35120,"York Centre","York-Centre"," 75B","Toronto",N,N,"",1,410,"Saks","","Ya'ara","Liberal","Libéral",Y,N,101
+35120,"York Centre","York-Centre"," 75B","Toronto",N,N,"",1,410,"Ulukanligil","","Yusuf","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,6
+35120,"York Centre","York-Centre"," 76","Toronto",N,N,"",1,413,"Baber","","Roman","Conservative","Conservateur",N,Y,98
+35120,"York Centre","York-Centre"," 76","Toronto",N,N,"",1,413,"Saks","","Ya'ara","Liberal","Libéral",Y,N,71
+35120,"York Centre","York-Centre"," 76","Toronto",N,N,"",1,413,"Ulukanligil","","Yusuf","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,1
+35120,"York Centre","York-Centre"," 77","Toronto",N,N,"",0,394,"Baber","","Roman","Conservative","Conservateur",N,Y,70
+35120,"York Centre","York-Centre"," 77","Toronto",N,N,"",0,394,"Saks","","Ya'ara","Liberal","Libéral",Y,N,63
+35120,"York Centre","York-Centre"," 77","Toronto",N,N,"",0,394,"Ulukanligil","","Yusuf","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,2
+35120,"York Centre","York-Centre"," 78","Toronto",N,N,"",1,574,"Baber","","Roman","Conservative","Conservateur",N,Y,117
+35120,"York Centre","York-Centre"," 78","Toronto",N,N,"",1,574,"Saks","","Ya'ara","Liberal","Libéral",Y,N,84
+35120,"York Centre","York-Centre"," 78","Toronto",N,N,"",1,574,"Ulukanligil","","Yusuf","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,5
+35120,"York Centre","York-Centre"," 79","Toronto",N,N,"",3,511,"Baber","","Roman","Conservative","Conservateur",N,Y,103
+35120,"York Centre","York-Centre"," 79","Toronto",N,N,"",3,511,"Saks","","Ya'ara","Liberal","Libéral",Y,N,87
+35120,"York Centre","York-Centre"," 79","Toronto",N,N,"",3,511,"Ulukanligil","","Yusuf","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,7
+35120,"York Centre","York-Centre"," 80","Toronto",N,N,"",0,395,"Baber","","Roman","Conservative","Conservateur",N,Y,68
+35120,"York Centre","York-Centre"," 80","Toronto",N,N,"",0,395,"Saks","","Ya'ara","Liberal","Libéral",Y,N,51
+35120,"York Centre","York-Centre"," 80","Toronto",N,N,"",0,395,"Ulukanligil","","Yusuf","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,4
+35120,"York Centre","York-Centre"," 81","Toronto",N,N,"",0,386,"Baber","","Roman","Conservative","Conservateur",N,Y,64
+35120,"York Centre","York-Centre"," 81","Toronto",N,N,"",0,386,"Saks","","Ya'ara","Liberal","Libéral",Y,N,45
+35120,"York Centre","York-Centre"," 81","Toronto",N,N,"",0,386,"Ulukanligil","","Yusuf","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,7
+35120,"York Centre","York-Centre"," 82","Toronto",N,N,"",5,590,"Baber","","Roman","Conservative","Conservateur",N,Y,131
+35120,"York Centre","York-Centre"," 82","Toronto",N,N,"",5,590,"Saks","","Ya'ara","Liberal","Libéral",Y,N,83
+35120,"York Centre","York-Centre"," 82","Toronto",N,N,"",5,590,"Ulukanligil","","Yusuf","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,8
+35120,"York Centre","York-Centre"," 83","Toronto",N,N,"",1,580,"Baber","","Roman","Conservative","Conservateur",N,Y,102
+35120,"York Centre","York-Centre"," 83","Toronto",N,N,"",1,580,"Saks","","Ya'ara","Liberal","Libéral",Y,N,66
+35120,"York Centre","York-Centre"," 83","Toronto",N,N,"",1,580,"Ulukanligil","","Yusuf","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,5
+35120,"York Centre","York-Centre"," 84","Toronto",N,N,"",1,382,"Baber","","Roman","Conservative","Conservateur",N,Y,67
+35120,"York Centre","York-Centre"," 84","Toronto",N,N,"",1,382,"Saks","","Ya'ara","Liberal","Libéral",Y,N,67
+35120,"York Centre","York-Centre"," 84","Toronto",N,N,"",1,382,"Ulukanligil","","Yusuf","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,6
+35120,"York Centre","York-Centre"," 85","Toronto",N,N,"",0,459,"Baber","","Roman","Conservative","Conservateur",N,Y,105
+35120,"York Centre","York-Centre"," 85","Toronto",N,N,"",0,459,"Saks","","Ya'ara","Liberal","Libéral",Y,N,97
+35120,"York Centre","York-Centre"," 85","Toronto",N,N,"",0,459,"Ulukanligil","","Yusuf","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,6
+35120,"York Centre","York-Centre"," 86","Toronto",N,N,"",4,390,"Baber","","Roman","Conservative","Conservateur",N,Y,57
+35120,"York Centre","York-Centre"," 86","Toronto",N,N,"",4,390,"Saks","","Ya'ara","Liberal","Libéral",Y,N,40
+35120,"York Centre","York-Centre"," 86","Toronto",N,N,"",4,390,"Ulukanligil","","Yusuf","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,4
+35120,"York Centre","York-Centre"," 87","Toronto",N,N,"",2,641,"Baber","","Roman","Conservative","Conservateur",N,Y,118
+35120,"York Centre","York-Centre"," 87","Toronto",N,N,"",2,641,"Saks","","Ya'ara","Liberal","Libéral",Y,N,125
+35120,"York Centre","York-Centre"," 87","Toronto",N,N,"",2,641,"Ulukanligil","","Yusuf","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,7
+35120,"York Centre","York-Centre"," 88","Toronto",N,N,"",1,532,"Baber","","Roman","Conservative","Conservateur",N,Y,95
+35120,"York Centre","York-Centre"," 88","Toronto",N,N,"",1,532,"Saks","","Ya'ara","Liberal","Libéral",Y,N,79
+35120,"York Centre","York-Centre"," 88","Toronto",N,N,"",1,532,"Ulukanligil","","Yusuf","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,13
+35120,"York Centre","York-Centre"," 89","Toronto",N,N,"",2,648,"Baber","","Roman","Conservative","Conservateur",N,Y,91
+35120,"York Centre","York-Centre"," 89","Toronto",N,N,"",2,648,"Saks","","Ya'ara","Liberal","Libéral",Y,N,76
+35120,"York Centre","York-Centre"," 89","Toronto",N,N,"",2,648,"Ulukanligil","","Yusuf","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,10
+35120,"York Centre","York-Centre"," 90","Toronto",N,N,"",4,601,"Baber","","Roman","Conservative","Conservateur",N,Y,104
+35120,"York Centre","York-Centre"," 90","Toronto",N,N,"",4,601,"Saks","","Ya'ara","Liberal","Libéral",Y,N,119
+35120,"York Centre","York-Centre"," 90","Toronto",N,N,"",4,601,"Ulukanligil","","Yusuf","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,8
+35120,"York Centre","York-Centre"," 91","Toronto",N,N,"",0,477,"Baber","","Roman","Conservative","Conservateur",N,Y,102
+35120,"York Centre","York-Centre"," 91","Toronto",N,N,"",0,477,"Saks","","Ya'ara","Liberal","Libéral",Y,N,115
+35120,"York Centre","York-Centre"," 91","Toronto",N,N,"",0,477,"Ulukanligil","","Yusuf","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,5
+35120,"York Centre","York-Centre"," 92","Toronto",N,N,"",2,471,"Baber","","Roman","Conservative","Conservateur",N,Y,95
+35120,"York Centre","York-Centre"," 92","Toronto",N,N,"",2,471,"Saks","","Ya'ara","Liberal","Libéral",Y,N,78
+35120,"York Centre","York-Centre"," 92","Toronto",N,N,"",2,471,"Ulukanligil","","Yusuf","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,8
+35120,"York Centre","York-Centre"," 93","Toronto",N,N,"",2,450,"Baber","","Roman","Conservative","Conservateur",N,Y,98
+35120,"York Centre","York-Centre"," 93","Toronto",N,N,"",2,450,"Saks","","Ya'ara","Liberal","Libéral",Y,N,107
+35120,"York Centre","York-Centre"," 93","Toronto",N,N,"",2,450,"Ulukanligil","","Yusuf","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,2
+35120,"York Centre","York-Centre"," 94","Toronto",N,N,"",2,449,"Baber","","Roman","Conservative","Conservateur",N,Y,90
+35120,"York Centre","York-Centre"," 94","Toronto",N,N,"",2,449,"Saks","","Ya'ara","Liberal","Libéral",Y,N,59
+35120,"York Centre","York-Centre"," 94","Toronto",N,N,"",2,449,"Ulukanligil","","Yusuf","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,5
+35120,"York Centre","York-Centre"," 95","Toronto",N,N,"",5,520,"Baber","","Roman","Conservative","Conservateur",N,Y,94
+35120,"York Centre","York-Centre"," 95","Toronto",N,N,"",5,520,"Saks","","Ya'ara","Liberal","Libéral",Y,N,111
+35120,"York Centre","York-Centre"," 95","Toronto",N,N,"",5,520,"Ulukanligil","","Yusuf","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,5
+35120,"York Centre","York-Centre"," 96","Toronto",N,N,"",4,610,"Baber","","Roman","Conservative","Conservateur",N,Y,139
+35120,"York Centre","York-Centre"," 96","Toronto",N,N,"",4,610,"Saks","","Ya'ara","Liberal","Libéral",Y,N,155
+35120,"York Centre","York-Centre"," 96","Toronto",N,N,"",4,610,"Ulukanligil","","Yusuf","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,4
+35120,"York Centre","York-Centre"," 97","Toronto",N,N,"",1,356,"Baber","","Roman","Conservative","Conservateur",N,Y,40
+35120,"York Centre","York-Centre"," 97","Toronto",N,N,"",1,356,"Saks","","Ya'ara","Liberal","Libéral",Y,N,46
+35120,"York Centre","York-Centre"," 97","Toronto",N,N,"",1,356,"Ulukanligil","","Yusuf","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,8
+35120,"York Centre","York-Centre"," 98","Toronto",N,N,"",2,503,"Baber","","Roman","Conservative","Conservateur",N,Y,98
+35120,"York Centre","York-Centre"," 98","Toronto",N,N,"",2,503,"Saks","","Ya'ara","Liberal","Libéral",Y,N,102
+35120,"York Centre","York-Centre"," 98","Toronto",N,N,"",2,503,"Ulukanligil","","Yusuf","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,5
+35120,"York Centre","York-Centre"," 99","Toronto",N,N,"",4,467,"Baber","","Roman","Conservative","Conservateur",N,Y,73
+35120,"York Centre","York-Centre"," 99","Toronto",N,N,"",4,467,"Saks","","Ya'ara","Liberal","Libéral",Y,N,74
+35120,"York Centre","York-Centre"," 99","Toronto",N,N,"",4,467,"Ulukanligil","","Yusuf","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,2
+35120,"York Centre","York-Centre"," 100","Toronto",N,N,"",3,562,"Baber","","Roman","Conservative","Conservateur",N,Y,91
+35120,"York Centre","York-Centre"," 100","Toronto",N,N,"",3,562,"Saks","","Ya'ara","Liberal","Libéral",Y,N,121
+35120,"York Centre","York-Centre"," 100","Toronto",N,N,"",3,562,"Ulukanligil","","Yusuf","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,14
+35120,"York Centre","York-Centre"," 101","Toronto",N,N,"",2,485,"Baber","","Roman","Conservative","Conservateur",N,Y,85
+35120,"York Centre","York-Centre"," 101","Toronto",N,N,"",2,485,"Saks","","Ya'ara","Liberal","Libéral",Y,N,81
+35120,"York Centre","York-Centre"," 101","Toronto",N,N,"",2,485,"Ulukanligil","","Yusuf","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,3
+35120,"York Centre","York-Centre"," 102","Toronto",N,N,"",0,474,"Baber","","Roman","Conservative","Conservateur",N,Y,56
+35120,"York Centre","York-Centre"," 102","Toronto",N,N,"",0,474,"Saks","","Ya'ara","Liberal","Libéral",Y,N,81
+35120,"York Centre","York-Centre"," 102","Toronto",N,N,"",0,474,"Ulukanligil","","Yusuf","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,6
+35120,"York Centre","York-Centre"," 103","Toronto",N,N,"",3,454,"Baber","","Roman","Conservative","Conservateur",N,Y,107
+35120,"York Centre","York-Centre"," 103","Toronto",N,N,"",3,454,"Saks","","Ya'ara","Liberal","Libéral",Y,N,51
+35120,"York Centre","York-Centre"," 103","Toronto",N,N,"",3,454,"Ulukanligil","","Yusuf","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,4
+35120,"York Centre","York-Centre"," 104","Toronto",N,N,"",4,517,"Baber","","Roman","Conservative","Conservateur",N,Y,82
+35120,"York Centre","York-Centre"," 104","Toronto",N,N,"",4,517,"Saks","","Ya'ara","Liberal","Libéral",Y,N,102
+35120,"York Centre","York-Centre"," 104","Toronto",N,N,"",4,517,"Ulukanligil","","Yusuf","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,9
+35120,"York Centre","York-Centre"," 105","Toronto",N,N,"",3,447,"Baber","","Roman","Conservative","Conservateur",N,Y,100
+35120,"York Centre","York-Centre"," 105","Toronto",N,N,"",3,447,"Saks","","Ya'ara","Liberal","Libéral",Y,N,109
+35120,"York Centre","York-Centre"," 105","Toronto",N,N,"",3,447,"Ulukanligil","","Yusuf","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,5
+35120,"York Centre","York-Centre"," 106","Toronto",N,N,"",2,560,"Baber","","Roman","Conservative","Conservateur",N,Y,116
+35120,"York Centre","York-Centre"," 106","Toronto",N,N,"",2,560,"Saks","","Ya'ara","Liberal","Libéral",Y,N,130
+35120,"York Centre","York-Centre"," 106","Toronto",N,N,"",2,560,"Ulukanligil","","Yusuf","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,6
+35120,"York Centre","York-Centre"," 107","Toronto",N,N,"",8,363,"Baber","","Roman","Conservative","Conservateur",N,Y,103
+35120,"York Centre","York-Centre"," 107","Toronto",N,N,"",8,363,"Saks","","Ya'ara","Liberal","Libéral",Y,N,68
+35120,"York Centre","York-Centre"," 107","Toronto",N,N,"",8,363,"Ulukanligil","","Yusuf","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,4
+35120,"York Centre","York-Centre"," 108","Toronto",N,N,"",0,532,"Baber","","Roman","Conservative","Conservateur",N,Y,106
+35120,"York Centre","York-Centre"," 108","Toronto",N,N,"",0,532,"Saks","","Ya'ara","Liberal","Libéral",Y,N,67
+35120,"York Centre","York-Centre"," 108","Toronto",N,N,"",0,532,"Ulukanligil","","Yusuf","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,3
+35120,"York Centre","York-Centre"," 109","Toronto",N,N,"",1,577,"Baber","","Roman","Conservative","Conservateur",N,Y,81
+35120,"York Centre","York-Centre"," 109","Toronto",N,N,"",1,577,"Saks","","Ya'ara","Liberal","Libéral",Y,N,72
+35120,"York Centre","York-Centre"," 109","Toronto",N,N,"",1,577,"Ulukanligil","","Yusuf","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,13
+35120,"York Centre","York-Centre"," 110","Toronto",N,N,"",2,482,"Baber","","Roman","Conservative","Conservateur",N,Y,92
+35120,"York Centre","York-Centre"," 110","Toronto",N,N,"",2,482,"Saks","","Ya'ara","Liberal","Libéral",Y,N,60
+35120,"York Centre","York-Centre"," 110","Toronto",N,N,"",2,482,"Ulukanligil","","Yusuf","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,3
+35120,"York Centre","York-Centre"," 111A","Toronto",N,N,"",1,255,"Baber","","Roman","Conservative","Conservateur",N,Y,46
+35120,"York Centre","York-Centre"," 111A","Toronto",N,N,"",1,255,"Saks","","Ya'ara","Liberal","Libéral",Y,N,59
+35120,"York Centre","York-Centre"," 111A","Toronto",N,N,"",1,255,"Ulukanligil","","Yusuf","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,2
+35120,"York Centre","York-Centre"," 111B","Toronto",N,N,"",2,281,"Baber","","Roman","Conservative","Conservateur",N,Y,52
+35120,"York Centre","York-Centre"," 111B","Toronto",N,N,"",2,281,"Saks","","Ya'ara","Liberal","Libéral",Y,N,37
+35120,"York Centre","York-Centre"," 111B","Toronto",N,N,"",2,281,"Ulukanligil","","Yusuf","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,2
+35120,"York Centre","York-Centre"," 112","Toronto",N,N,"",0,377,"Baber","","Roman","Conservative","Conservateur",N,Y,61
+35120,"York Centre","York-Centre"," 112","Toronto",N,N,"",0,377,"Saks","","Ya'ara","Liberal","Libéral",Y,N,66
+35120,"York Centre","York-Centre"," 112","Toronto",N,N,"",0,377,"Ulukanligil","","Yusuf","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,3
+35120,"York Centre","York-Centre"," 113","Toronto",N,N,"",3,414,"Baber","","Roman","Conservative","Conservateur",N,Y,65
+35120,"York Centre","York-Centre"," 113","Toronto",N,N,"",3,414,"Saks","","Ya'ara","Liberal","Libéral",Y,N,63
+35120,"York Centre","York-Centre"," 113","Toronto",N,N,"",3,414,"Ulukanligil","","Yusuf","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,6
+35120,"York Centre","York-Centre"," 114","Toronto",N,N,"",1,427,"Baber","","Roman","Conservative","Conservateur",N,Y,86
+35120,"York Centre","York-Centre"," 114","Toronto",N,N,"",1,427,"Saks","","Ya'ara","Liberal","Libéral",Y,N,84
+35120,"York Centre","York-Centre"," 114","Toronto",N,N,"",1,427,"Ulukanligil","","Yusuf","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,4
+35120,"York Centre","York-Centre"," 400","Toronto",N,N,"",3,322,"Baber","","Roman","Conservative","Conservateur",N,Y,143
+35120,"York Centre","York-Centre"," 400","Toronto",N,N,"",3,322,"Saks","","Ya'ara","Liberal","Libéral",Y,N,64
+35120,"York Centre","York-Centre"," 400","Toronto",N,N,"",3,322,"Ulukanligil","","Yusuf","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,8
+35120,"York Centre","York-Centre"," 401","Toronto",N,N,"",5,289,"Baber","","Roman","Conservative","Conservateur",N,Y,132
+35120,"York Centre","York-Centre"," 401","Toronto",N,N,"",5,289,"Saks","","Ya'ara","Liberal","Libéral",Y,N,39
+35120,"York Centre","York-Centre"," 401","Toronto",N,N,"",5,289,"Ulukanligil","","Yusuf","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,1
+35120,"York Centre","York-Centre"," 402","Toronto",N,N,"",0,212,"Baber","","Roman","Conservative","Conservateur",N,Y,78
+35120,"York Centre","York-Centre"," 402","Toronto",N,N,"",0,212,"Saks","","Ya'ara","Liberal","Libéral",Y,N,62
+35120,"York Centre","York-Centre"," 402","Toronto",N,N,"",0,212,"Ulukanligil","","Yusuf","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,1
+35120,"York Centre","York-Centre"," 403","Toronto",N,N,"7",0,176,"Baber","","Roman","Conservative","Conservateur",N,Y,0
+35120,"York Centre","York-Centre"," 403","Toronto",N,N,"7",0,176,"Saks","","Ya'ara","Liberal","Libéral",Y,N,0
+35120,"York Centre","York-Centre"," 403","Toronto",N,N,"7",0,176,"Ulukanligil","","Yusuf","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,0
+35120,"York Centre","York-Centre"," 404","Toronto",N,N,"3",0,193,"Baber","","Roman","Conservative","Conservateur",N,Y,0
+35120,"York Centre","York-Centre"," 404","Toronto",N,N,"3",0,193,"Saks","","Ya'ara","Liberal","Libéral",Y,N,0
+35120,"York Centre","York-Centre"," 404","Toronto",N,N,"3",0,193,"Ulukanligil","","Yusuf","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,0
+35120,"York Centre","York-Centre"," 405","Toronto",N,N,"406",0,281,"Baber","","Roman","Conservative","Conservateur",N,Y,0
+35120,"York Centre","York-Centre"," 405","Toronto",N,N,"406",0,281,"Saks","","Ya'ara","Liberal","Libéral",Y,N,0
+35120,"York Centre","York-Centre"," 405","Toronto",N,N,"406",0,281,"Ulukanligil","","Yusuf","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,0
+35120,"York Centre","York-Centre"," 406","Toronto",N,N,"",5,193,"Baber","","Roman","Conservative","Conservateur",N,Y,134
+35120,"York Centre","York-Centre"," 406","Toronto",N,N,"",5,193,"Saks","","Ya'ara","Liberal","Libéral",Y,N,126
+35120,"York Centre","York-Centre"," 406","Toronto",N,N,"",5,193,"Ulukanligil","","Yusuf","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,8
+35120,"York Centre","York-Centre"," 407","Toronto",N,N,"5",0,233,"Baber","","Roman","Conservative","Conservateur",N,Y,0
+35120,"York Centre","York-Centre"," 407","Toronto",N,N,"5",0,233,"Saks","","Ya'ara","Liberal","Libéral",Y,N,0
+35120,"York Centre","York-Centre"," 407","Toronto",N,N,"5",0,233,"Ulukanligil","","Yusuf","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,0
+35120,"York Centre","York-Centre"," 408","Toronto",N,N,"",7,330,"Baber","","Roman","Conservative","Conservateur",N,Y,150
+35120,"York Centre","York-Centre"," 408","Toronto",N,N,"",7,330,"Saks","","Ya'ara","Liberal","Libéral",Y,N,79
+35120,"York Centre","York-Centre"," 408","Toronto",N,N,"",7,330,"Ulukanligil","","Yusuf","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,12
+35120,"York Centre","York-Centre"," 409","Toronto",N,N,"",3,423,"Baber","","Roman","Conservative","Conservateur",N,Y,93
+35120,"York Centre","York-Centre"," 409","Toronto",N,N,"",3,423,"Saks","","Ya'ara","Liberal","Libéral",Y,N,61
+35120,"York Centre","York-Centre"," 409","Toronto",N,N,"",3,423,"Ulukanligil","","Yusuf","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,2
+35120,"York Centre","York-Centre"," 410","Toronto",N,N,"",2,364,"Baber","","Roman","Conservative","Conservateur",N,Y,105
+35120,"York Centre","York-Centre"," 410","Toronto",N,N,"",2,364,"Saks","","Ya'ara","Liberal","Libéral",Y,N,61
+35120,"York Centre","York-Centre"," 410","Toronto",N,N,"",2,364,"Ulukanligil","","Yusuf","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,5
+35120,"York Centre","York-Centre"," 411","Toronto",N,N,"402",0,165,"Baber","","Roman","Conservative","Conservateur",N,Y,0
+35120,"York Centre","York-Centre"," 411","Toronto",N,N,"402",0,165,"Saks","","Ya'ara","Liberal","Libéral",Y,N,0
+35120,"York Centre","York-Centre"," 411","Toronto",N,N,"402",0,165,"Ulukanligil","","Yusuf","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,0
+35120,"York Centre","York-Centre"," 412","Toronto",N,N,"",1,221,"Baber","","Roman","Conservative","Conservateur",N,Y,67
+35120,"York Centre","York-Centre"," 412","Toronto",N,N,"",1,221,"Saks","","Ya'ara","Liberal","Libéral",Y,N,45
+35120,"York Centre","York-Centre"," 412","Toronto",N,N,"",1,221,"Ulukanligil","","Yusuf","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,5
+35120,"York Centre","York-Centre"," 413","Toronto",N,N,"414",0,155,"Baber","","Roman","Conservative","Conservateur",N,Y,0
+35120,"York Centre","York-Centre"," 413","Toronto",N,N,"414",0,155,"Saks","","Ya'ara","Liberal","Libéral",Y,N,0
+35120,"York Centre","York-Centre"," 413","Toronto",N,N,"414",0,155,"Ulukanligil","","Yusuf","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,0
+35120,"York Centre","York-Centre"," 414","Toronto",N,N,"",3,254,"Baber","","Roman","Conservative","Conservateur",N,Y,73
+35120,"York Centre","York-Centre"," 414","Toronto",N,N,"",3,254,"Saks","","Ya'ara","Liberal","Libéral",Y,N,20
+35120,"York Centre","York-Centre"," 414","Toronto",N,N,"",3,254,"Ulukanligil","","Yusuf","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,0
+35120,"York Centre","York-Centre"," 415","Toronto",N,N,"46",0,175,"Baber","","Roman","Conservative","Conservateur",N,Y,0
+35120,"York Centre","York-Centre"," 415","Toronto",N,N,"46",0,175,"Saks","","Ya'ara","Liberal","Libéral",Y,N,0
+35120,"York Centre","York-Centre"," 415","Toronto",N,N,"46",0,175,"Ulukanligil","","Yusuf","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,0
+35120,"York Centre","York-Centre"," 416","Toronto",N,N,"",3,371,"Baber","","Roman","Conservative","Conservateur",N,Y,120
+35120,"York Centre","York-Centre"," 416","Toronto",N,N,"",3,371,"Saks","","Ya'ara","Liberal","Libéral",Y,N,57
+35120,"York Centre","York-Centre"," 416","Toronto",N,N,"",3,371,"Ulukanligil","","Yusuf","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,5
+35120,"York Centre","York-Centre"," 417","Toronto",N,N,"",5,612,"Baber","","Roman","Conservative","Conservateur",N,Y,91
+35120,"York Centre","York-Centre"," 417","Toronto",N,N,"",5,612,"Saks","","Ya'ara","Liberal","Libéral",Y,N,77
+35120,"York Centre","York-Centre"," 417","Toronto",N,N,"",5,612,"Ulukanligil","","Yusuf","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,7
+35120,"York Centre","York-Centre"," 418","Toronto",N,N,"",1,363,"Baber","","Roman","Conservative","Conservateur",N,Y,51
+35120,"York Centre","York-Centre"," 418","Toronto",N,N,"",1,363,"Saks","","Ya'ara","Liberal","Libéral",Y,N,58
+35120,"York Centre","York-Centre"," 418","Toronto",N,N,"",1,363,"Ulukanligil","","Yusuf","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,4
+35120,"York Centre","York-Centre"," 419","Toronto",N,N,"",2,329,"Baber","","Roman","Conservative","Conservateur",N,Y,119
+35120,"York Centre","York-Centre"," 419","Toronto",N,N,"",2,329,"Saks","","Ya'ara","Liberal","Libéral",Y,N,74
+35120,"York Centre","York-Centre"," 419","Toronto",N,N,"",2,329,"Ulukanligil","","Yusuf","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,8
+35120,"York Centre","York-Centre"," 420","Toronto",N,N,"",11,345,"Baber","","Roman","Conservative","Conservateur",N,Y,145
+35120,"York Centre","York-Centre"," 420","Toronto",N,N,"",11,345,"Saks","","Ya'ara","Liberal","Libéral",Y,N,58
+35120,"York Centre","York-Centre"," 420","Toronto",N,N,"",11,345,"Ulukanligil","","Yusuf","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,4
+35120,"York Centre","York-Centre"," 421","Toronto",N,N,"",2,328,"Baber","","Roman","Conservative","Conservateur",N,Y,165
+35120,"York Centre","York-Centre"," 421","Toronto",N,N,"",2,328,"Saks","","Ya'ara","Liberal","Libéral",Y,N,64
+35120,"York Centre","York-Centre"," 421","Toronto",N,N,"",2,328,"Ulukanligil","","Yusuf","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,1
+35120,"York Centre","York-Centre"," 422","Toronto",N,N,"408",0,230,"Baber","","Roman","Conservative","Conservateur",N,Y,0
+35120,"York Centre","York-Centre"," 422","Toronto",N,N,"408",0,230,"Saks","","Ya'ara","Liberal","Libéral",Y,N,0
+35120,"York Centre","York-Centre"," 422","Toronto",N,N,"408",0,230,"Ulukanligil","","Yusuf","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,0
+35120,"York Centre","York-Centre"," 423","Toronto",N,N,"",1,307,"Baber","","Roman","Conservative","Conservateur",N,Y,113
+35120,"York Centre","York-Centre"," 423","Toronto",N,N,"",1,307,"Saks","","Ya'ara","Liberal","Libéral",Y,N,33
+35120,"York Centre","York-Centre"," 423","Toronto",N,N,"",1,307,"Ulukanligil","","Yusuf","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,1
+35120,"York Centre","York-Centre"," 424","Toronto",N,N,"",5,304,"Baber","","Roman","Conservative","Conservateur",N,Y,123
+35120,"York Centre","York-Centre"," 424","Toronto",N,N,"",5,304,"Saks","","Ya'ara","Liberal","Libéral",Y,N,64
+35120,"York Centre","York-Centre"," 424","Toronto",N,N,"",5,304,"Ulukanligil","","Yusuf","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,0
+35120,"York Centre","York-Centre"," 425","Toronto",N,N,"",5,284,"Baber","","Roman","Conservative","Conservateur",N,Y,173
+35120,"York Centre","York-Centre"," 425","Toronto",N,N,"",5,284,"Saks","","Ya'ara","Liberal","Libéral",Y,N,140
+35120,"York Centre","York-Centre"," 425","Toronto",N,N,"",5,284,"Ulukanligil","","Yusuf","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,5
+35120,"York Centre","York-Centre"," 426","Toronto",N,N,"",5,367,"Baber","","Roman","Conservative","Conservateur",N,Y,129
+35120,"York Centre","York-Centre"," 426","Toronto",N,N,"",5,367,"Saks","","Ya'ara","Liberal","Libéral",Y,N,84
+35120,"York Centre","York-Centre"," 426","Toronto",N,N,"",5,367,"Ulukanligil","","Yusuf","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,5
+35120,"York Centre","York-Centre"," 427","Toronto",N,N,"425",0,283,"Baber","","Roman","Conservative","Conservateur",N,Y,0
+35120,"York Centre","York-Centre"," 427","Toronto",N,N,"425",0,283,"Saks","","Ya'ara","Liberal","Libéral",Y,N,0
+35120,"York Centre","York-Centre"," 427","Toronto",N,N,"425",0,283,"Ulukanligil","","Yusuf","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,0
+35120,"York Centre","York-Centre"," 428","Toronto",N,N,"434",0,160,"Baber","","Roman","Conservative","Conservateur",N,Y,0
+35120,"York Centre","York-Centre"," 428","Toronto",N,N,"434",0,160,"Saks","","Ya'ara","Liberal","Libéral",Y,N,0
+35120,"York Centre","York-Centre"," 428","Toronto",N,N,"434",0,160,"Ulukanligil","","Yusuf","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,0
+35120,"York Centre","York-Centre"," 429","Toronto",N,N,"",0,346,"Baber","","Roman","Conservative","Conservateur",N,Y,110
+35120,"York Centre","York-Centre"," 429","Toronto",N,N,"",0,346,"Saks","","Ya'ara","Liberal","Libéral",Y,N,79
+35120,"York Centre","York-Centre"," 429","Toronto",N,N,"",0,346,"Ulukanligil","","Yusuf","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,5
+35120,"York Centre","York-Centre"," 430","Toronto",N,N,"",3,278,"Baber","","Roman","Conservative","Conservateur",N,Y,94
+35120,"York Centre","York-Centre"," 430","Toronto",N,N,"",3,278,"Saks","","Ya'ara","Liberal","Libéral",Y,N,64
+35120,"York Centre","York-Centre"," 430","Toronto",N,N,"",3,278,"Ulukanligil","","Yusuf","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,6
+35120,"York Centre","York-Centre"," 431","Toronto",N,N,"",0,179,"Baber","","Roman","Conservative","Conservateur",N,Y,112
+35120,"York Centre","York-Centre"," 431","Toronto",N,N,"",0,179,"Saks","","Ya'ara","Liberal","Libéral",Y,N,69
+35120,"York Centre","York-Centre"," 431","Toronto",N,N,"",0,179,"Ulukanligil","","Yusuf","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,6
+35120,"York Centre","York-Centre"," 432","Toronto",N,N,"431",0,186,"Baber","","Roman","Conservative","Conservateur",N,Y,0
+35120,"York Centre","York-Centre"," 432","Toronto",N,N,"431",0,186,"Saks","","Ya'ara","Liberal","Libéral",Y,N,0
+35120,"York Centre","York-Centre"," 432","Toronto",N,N,"431",0,186,"Ulukanligil","","Yusuf","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,0
+35120,"York Centre","York-Centre"," 433A","Toronto",N,N,"26",0,152,"Baber","","Roman","Conservative","Conservateur",N,Y,0
+35120,"York Centre","York-Centre"," 433A","Toronto",N,N,"26",0,152,"Saks","","Ya'ara","Liberal","Libéral",Y,N,0
+35120,"York Centre","York-Centre"," 433A","Toronto",N,N,"26",0,152,"Ulukanligil","","Yusuf","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,0
+35120,"York Centre","York-Centre"," 433B","Toronto",N,N,"429",0,167,"Baber","","Roman","Conservative","Conservateur",N,Y,0
+35120,"York Centre","York-Centre"," 433B","Toronto",N,N,"429",0,167,"Saks","","Ya'ara","Liberal","Libéral",Y,N,0
+35120,"York Centre","York-Centre"," 433B","Toronto",N,N,"429",0,167,"Ulukanligil","","Yusuf","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,0
+35120,"York Centre","York-Centre"," 434","Toronto",N,N,"",6,238,"Baber","","Roman","Conservative","Conservateur",N,Y,117
+35120,"York Centre","York-Centre"," 434","Toronto",N,N,"",6,238,"Saks","","Ya'ara","Liberal","Libéral",Y,N,94
+35120,"York Centre","York-Centre"," 434","Toronto",N,N,"",6,238,"Ulukanligil","","Yusuf","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,1
+35120,"York Centre","York-Centre"," 435A","Toronto",N,N,"41A",0,123,"Baber","","Roman","Conservative","Conservateur",N,Y,0
+35120,"York Centre","York-Centre"," 435A","Toronto",N,N,"41A",0,123,"Saks","","Ya'ara","Liberal","Libéral",Y,N,0
+35120,"York Centre","York-Centre"," 435A","Toronto",N,N,"41A",0,123,"Ulukanligil","","Yusuf","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,0
+35120,"York Centre","York-Centre"," 435B","Toronto",N,N,"41B",0,150,"Baber","","Roman","Conservative","Conservateur",N,Y,0
+35120,"York Centre","York-Centre"," 435B","Toronto",N,N,"41B",0,150,"Saks","","Ya'ara","Liberal","Libéral",Y,N,0
+35120,"York Centre","York-Centre"," 435B","Toronto",N,N,"41B",0,150,"Ulukanligil","","Yusuf","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,0
+35120,"York Centre","York-Centre"," 436","Toronto",N,N,"",0,297,"Baber","","Roman","Conservative","Conservateur",N,Y,83
+35120,"York Centre","York-Centre"," 436","Toronto",N,N,"",0,297,"Saks","","Ya'ara","Liberal","Libéral",Y,N,20
+35120,"York Centre","York-Centre"," 436","Toronto",N,N,"",0,297,"Ulukanligil","","Yusuf","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,1
+35120,"York Centre","York-Centre"," 437","Toronto",N,N,"430",0,153,"Baber","","Roman","Conservative","Conservateur",N,Y,0
+35120,"York Centre","York-Centre"," 437","Toronto",N,N,"430",0,153,"Saks","","Ya'ara","Liberal","Libéral",Y,N,0
+35120,"York Centre","York-Centre"," 437","Toronto",N,N,"430",0,153,"Ulukanligil","","Yusuf","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,0
+35120,"York Centre","York-Centre"," 438","Toronto",N,N,"",7,201,"Baber","","Roman","Conservative","Conservateur",N,Y,114
+35120,"York Centre","York-Centre"," 438","Toronto",N,N,"",7,201,"Saks","","Ya'ara","Liberal","Libéral",Y,N,19
+35120,"York Centre","York-Centre"," 438","Toronto",N,N,"",7,201,"Ulukanligil","","Yusuf","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,1
+35120,"York Centre","York-Centre"," 439","Toronto",N,N,"",3,152,"Baber","","Roman","Conservative","Conservateur",N,Y,67
+35120,"York Centre","York-Centre"," 439","Toronto",N,N,"",3,152,"Saks","","Ya'ara","Liberal","Libéral",Y,N,24
+35120,"York Centre","York-Centre"," 439","Toronto",N,N,"",3,152,"Ulukanligil","","Yusuf","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,3
+35120,"York Centre","York-Centre"," 440","Toronto",N,N,"",3,409,"Baber","","Roman","Conservative","Conservateur",N,Y,82
+35120,"York Centre","York-Centre"," 440","Toronto",N,N,"",3,409,"Saks","","Ya'ara","Liberal","Libéral",Y,N,148
+35120,"York Centre","York-Centre"," 440","Toronto",N,N,"",3,409,"Ulukanligil","","Yusuf","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,8
+35120,"York Centre","York-Centre"," 441","Toronto",N,N,"444",0,141,"Baber","","Roman","Conservative","Conservateur",N,Y,0
+35120,"York Centre","York-Centre"," 441","Toronto",N,N,"444",0,141,"Saks","","Ya'ara","Liberal","Libéral",Y,N,0
+35120,"York Centre","York-Centre"," 441","Toronto",N,N,"444",0,141,"Ulukanligil","","Yusuf","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,0
+35120,"York Centre","York-Centre"," 442","Toronto",N,N,"",1,420,"Baber","","Roman","Conservative","Conservateur",N,Y,123
+35120,"York Centre","York-Centre"," 442","Toronto",N,N,"",1,420,"Saks","","Ya'ara","Liberal","Libéral",Y,N,141
+35120,"York Centre","York-Centre"," 442","Toronto",N,N,"",1,420,"Ulukanligil","","Yusuf","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,10
+35120,"York Centre","York-Centre"," 443","Toronto",Y,N,"",0,0,"Baber","","Roman","Conservative","Conservateur",N,Y,0
+35120,"York Centre","York-Centre"," 443","Toronto",Y,N,"",0,0,"Saks","","Ya'ara","Liberal","Libéral",Y,N,0
+35120,"York Centre","York-Centre"," 443","Toronto",Y,N,"",0,0,"Ulukanligil","","Yusuf","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,0
+35120,"York Centre","York-Centre"," 444","Toronto",N,N,"",5,220,"Baber","","Roman","Conservative","Conservateur",N,Y,91
+35120,"York Centre","York-Centre"," 444","Toronto",N,N,"",5,220,"Saks","","Ya'ara","Liberal","Libéral",Y,N,119
+35120,"York Centre","York-Centre"," 444","Toronto",N,N,"",5,220,"Ulukanligil","","Yusuf","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,8
+35120,"York Centre","York-Centre"," 445","Toronto",N,N,"442",0,121,"Baber","","Roman","Conservative","Conservateur",N,Y,0
+35120,"York Centre","York-Centre"," 445","Toronto",N,N,"442",0,121,"Saks","","Ya'ara","Liberal","Libéral",Y,N,0
+35120,"York Centre","York-Centre"," 445","Toronto",N,N,"442",0,121,"Ulukanligil","","Yusuf","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,0
+35120,"York Centre","York-Centre"," 446A","Toronto",N,N,"73A",0,58,"Baber","","Roman","Conservative","Conservateur",N,Y,0
+35120,"York Centre","York-Centre"," 446A","Toronto",N,N,"73A",0,58,"Saks","","Ya'ara","Liberal","Libéral",Y,N,0
+35120,"York Centre","York-Centre"," 446A","Toronto",N,N,"73A",0,58,"Ulukanligil","","Yusuf","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,0
+35120,"York Centre","York-Centre"," 446B","Toronto",N,N,"73B",0,27,"Baber","","Roman","Conservative","Conservateur",N,Y,0
+35120,"York Centre","York-Centre"," 446B","Toronto",N,N,"73B",0,27,"Saks","","Ya'ara","Liberal","Libéral",Y,N,0
+35120,"York Centre","York-Centre"," 446B","Toronto",N,N,"73B",0,27,"Ulukanligil","","Yusuf","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,0
+35120,"York Centre","York-Centre"," 447","Toronto",N,N,"52",0,244,"Baber","","Roman","Conservative","Conservateur",N,Y,0
+35120,"York Centre","York-Centre"," 447","Toronto",N,N,"52",0,244,"Saks","","Ya'ara","Liberal","Libéral",Y,N,0
+35120,"York Centre","York-Centre"," 447","Toronto",N,N,"52",0,244,"Ulukanligil","","Yusuf","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,0
+35120,"York Centre","York-Centre"," 448","Toronto",N,N,"",0,607,"Baber","","Roman","Conservative","Conservateur",N,Y,163
+35120,"York Centre","York-Centre"," 448","Toronto",N,N,"",0,607,"Saks","","Ya'ara","Liberal","Libéral",Y,N,142
+35120,"York Centre","York-Centre"," 448","Toronto",N,N,"",0,607,"Ulukanligil","","Yusuf","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,12
+35120,"York Centre","York-Centre"," 449","Toronto",N,N,"444",0,190,"Baber","","Roman","Conservative","Conservateur",N,Y,0
+35120,"York Centre","York-Centre"," 449","Toronto",N,N,"444",0,190,"Saks","","Ya'ara","Liberal","Libéral",Y,N,0
+35120,"York Centre","York-Centre"," 449","Toronto",N,N,"444",0,190,"Ulukanligil","","Yusuf","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,0
+35120,"York Centre","York-Centre"," 450","Toronto",N,N,"",13,471,"Baber","","Roman","Conservative","Conservateur",N,Y,104
+35120,"York Centre","York-Centre"," 450","Toronto",N,N,"",13,471,"Saks","","Ya'ara","Liberal","Libéral",Y,N,158
+35120,"York Centre","York-Centre"," 450","Toronto",N,N,"",13,471,"Ulukanligil","","Yusuf","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,11
+35120,"York Centre","York-Centre"," 451","Mobile poll/Bureau itinérant",N,N,"503",0,229,"Baber","","Roman","Conservative","Conservateur",N,Y,0
+35120,"York Centre","York-Centre"," 451","Mobile poll/Bureau itinérant",N,N,"503",0,229,"Saks","","Ya'ara","Liberal","Libéral",Y,N,0
+35120,"York Centre","York-Centre"," 451","Mobile poll/Bureau itinérant",N,N,"503",0,229,"Ulukanligil","","Yusuf","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,0
+35120,"York Centre","York-Centre"," 452","Toronto",N,N,"468",0,216,"Baber","","Roman","Conservative","Conservateur",N,Y,0
+35120,"York Centre","York-Centre"," 452","Toronto",N,N,"468",0,216,"Saks","","Ya'ara","Liberal","Libéral",Y,N,0
+35120,"York Centre","York-Centre"," 452","Toronto",N,N,"468",0,216,"Ulukanligil","","Yusuf","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,0
+35120,"York Centre","York-Centre"," 453A","Toronto",N,N,"111A",0,60,"Baber","","Roman","Conservative","Conservateur",N,Y,0
+35120,"York Centre","York-Centre"," 453A","Toronto",N,N,"111A",0,60,"Saks","","Ya'ara","Liberal","Libéral",Y,N,0
+35120,"York Centre","York-Centre"," 453A","Toronto",N,N,"111A",0,60,"Ulukanligil","","Yusuf","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,0
+35120,"York Centre","York-Centre"," 453B","Toronto",N,N,"111B",0,68,"Baber","","Roman","Conservative","Conservateur",N,Y,0
+35120,"York Centre","York-Centre"," 453B","Toronto",N,N,"111B",0,68,"Saks","","Ya'ara","Liberal","Libéral",Y,N,0
+35120,"York Centre","York-Centre"," 453B","Toronto",N,N,"111B",0,68,"Ulukanligil","","Yusuf","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,0
+35120,"York Centre","York-Centre"," 454","Toronto",N,N,"",0,253,"Baber","","Roman","Conservative","Conservateur",N,Y,67
+35120,"York Centre","York-Centre"," 454","Toronto",N,N,"",0,253,"Saks","","Ya'ara","Liberal","Libéral",Y,N,72
+35120,"York Centre","York-Centre"," 454","Toronto",N,N,"",0,253,"Ulukanligil","","Yusuf","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,9
+35120,"York Centre","York-Centre"," 455","Toronto",N,N,"",3,335,"Baber","","Roman","Conservative","Conservateur",N,Y,98
+35120,"York Centre","York-Centre"," 455","Toronto",N,N,"",3,335,"Saks","","Ya'ara","Liberal","Libéral",Y,N,116
+35120,"York Centre","York-Centre"," 455","Toronto",N,N,"",3,335,"Ulukanligil","","Yusuf","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,9
+35120,"York Centre","York-Centre"," 456A","Toronto",N,N,"75A",0,95,"Baber","","Roman","Conservative","Conservateur",N,Y,0
+35120,"York Centre","York-Centre"," 456A","Toronto",N,N,"75A",0,95,"Saks","","Ya'ara","Liberal","Libéral",Y,N,0
+35120,"York Centre","York-Centre"," 456A","Toronto",N,N,"75A",0,95,"Ulukanligil","","Yusuf","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,0
+35120,"York Centre","York-Centre"," 456B","Toronto",N,N,"75B",0,95,"Baber","","Roman","Conservative","Conservateur",N,Y,0
+35120,"York Centre","York-Centre"," 456B","Toronto",N,N,"75B",0,95,"Saks","","Ya'ara","Liberal","Libéral",Y,N,0
+35120,"York Centre","York-Centre"," 456B","Toronto",N,N,"75B",0,95,"Ulukanligil","","Yusuf","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,0
+35120,"York Centre","York-Centre"," 457","Toronto",N,N,"",13,266,"Baber","","Roman","Conservative","Conservateur",N,Y,116
+35120,"York Centre","York-Centre"," 457","Toronto",N,N,"",13,266,"Saks","","Ya'ara","Liberal","Libéral",Y,N,113
+35120,"York Centre","York-Centre"," 457","Toronto",N,N,"",13,266,"Ulukanligil","","Yusuf","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,15
+35120,"York Centre","York-Centre"," 458","Toronto",N,N,"454",0,213,"Baber","","Roman","Conservative","Conservateur",N,Y,0
+35120,"York Centre","York-Centre"," 458","Toronto",N,N,"454",0,213,"Saks","","Ya'ara","Liberal","Libéral",Y,N,0
+35120,"York Centre","York-Centre"," 458","Toronto",N,N,"454",0,213,"Ulukanligil","","Yusuf","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,0
+35120,"York Centre","York-Centre"," 459","Toronto",N,N,"",2,241,"Baber","","Roman","Conservative","Conservateur",N,Y,94
+35120,"York Centre","York-Centre"," 459","Toronto",N,N,"",2,241,"Saks","","Ya'ara","Liberal","Libéral",Y,N,137
+35120,"York Centre","York-Centre"," 459","Toronto",N,N,"",2,241,"Ulukanligil","","Yusuf","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,8
+35120,"York Centre","York-Centre"," 460","Toronto",N,N,"459",0,226,"Baber","","Roman","Conservative","Conservateur",N,Y,0
+35120,"York Centre","York-Centre"," 460","Toronto",N,N,"459",0,226,"Saks","","Ya'ara","Liberal","Libéral",Y,N,0
+35120,"York Centre","York-Centre"," 460","Toronto",N,N,"459",0,226,"Ulukanligil","","Yusuf","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,0
+35120,"York Centre","York-Centre"," 461","Toronto",N,N,"107",0,160,"Baber","","Roman","Conservative","Conservateur",N,Y,0
+35120,"York Centre","York-Centre"," 461","Toronto",N,N,"107",0,160,"Saks","","Ya'ara","Liberal","Libéral",Y,N,0
+35120,"York Centre","York-Centre"," 461","Toronto",N,N,"107",0,160,"Ulukanligil","","Yusuf","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,0
+35120,"York Centre","York-Centre"," 462","Toronto",N,N,"",2,266,"Baber","","Roman","Conservative","Conservateur",N,Y,13
+35120,"York Centre","York-Centre"," 462","Toronto",N,N,"",2,266,"Saks","","Ya'ara","Liberal","Libéral",Y,N,46
+35120,"York Centre","York-Centre"," 462","Toronto",N,N,"",2,266,"Ulukanligil","","Yusuf","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,2
+35120,"York Centre","York-Centre"," 463","Toronto",N,N,"12",0,231,"Baber","","Roman","Conservative","Conservateur",N,Y,0
+35120,"York Centre","York-Centre"," 463","Toronto",N,N,"12",0,231,"Saks","","Ya'ara","Liberal","Libéral",Y,N,0
+35120,"York Centre","York-Centre"," 463","Toronto",N,N,"12",0,231,"Ulukanligil","","Yusuf","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,0
+35120,"York Centre","York-Centre"," 464","Toronto",N,N,"467",0,251,"Baber","","Roman","Conservative","Conservateur",N,Y,0
+35120,"York Centre","York-Centre"," 464","Toronto",N,N,"467",0,251,"Saks","","Ya'ara","Liberal","Libéral",Y,N,0
+35120,"York Centre","York-Centre"," 464","Toronto",N,N,"467",0,251,"Ulukanligil","","Yusuf","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,0
+35120,"York Centre","York-Centre"," 465","Toronto",N,N,"466",0,227,"Baber","","Roman","Conservative","Conservateur",N,Y,0
+35120,"York Centre","York-Centre"," 465","Toronto",N,N,"466",0,227,"Saks","","Ya'ara","Liberal","Libéral",Y,N,0
+35120,"York Centre","York-Centre"," 465","Toronto",N,N,"466",0,227,"Ulukanligil","","Yusuf","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,0
+35120,"York Centre","York-Centre"," 466","Toronto",N,N,"",3,340,"Baber","","Roman","Conservative","Conservateur",N,Y,167
+35120,"York Centre","York-Centre"," 466","Toronto",N,N,"",3,340,"Saks","","Ya'ara","Liberal","Libéral",Y,N,184
+35120,"York Centre","York-Centre"," 466","Toronto",N,N,"",3,340,"Ulukanligil","","Yusuf","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,14
+35120,"York Centre","York-Centre"," 467","Toronto",N,N,"",5,320,"Baber","","Roman","Conservative","Conservateur",N,Y,144
+35120,"York Centre","York-Centre"," 467","Toronto",N,N,"",5,320,"Saks","","Ya'ara","Liberal","Libéral",Y,N,139
+35120,"York Centre","York-Centre"," 467","Toronto",N,N,"",5,320,"Ulukanligil","","Yusuf","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,6
+35120,"York Centre","York-Centre"," 468","Toronto",N,N,"",0,287,"Baber","","Roman","Conservative","Conservateur",N,Y,31
+35120,"York Centre","York-Centre"," 468","Toronto",N,N,"",0,287,"Saks","","Ya'ara","Liberal","Libéral",Y,N,47
+35120,"York Centre","York-Centre"," 468","Toronto",N,N,"",0,287,"Ulukanligil","","Yusuf","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,1
+35120,"York Centre","York-Centre"," 469","Toronto",N,N,"457",0,247,"Baber","","Roman","Conservative","Conservateur",N,Y,0
+35120,"York Centre","York-Centre"," 469","Toronto",N,N,"457",0,247,"Saks","","Ya'ara","Liberal","Libéral",Y,N,0
+35120,"York Centre","York-Centre"," 469","Toronto",N,N,"457",0,247,"Ulukanligil","","Yusuf","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,0
+35120,"York Centre","York-Centre"," 500","Mobile poll/Bureau itinérant",N,N,"",5,171,"Baber","","Roman","Conservative","Conservateur",N,Y,38
+35120,"York Centre","York-Centre"," 500","Mobile poll/Bureau itinérant",N,N,"",5,171,"Saks","","Ya'ara","Liberal","Libéral",Y,N,64
+35120,"York Centre","York-Centre"," 500","Mobile poll/Bureau itinérant",N,N,"",5,171,"Ulukanligil","","Yusuf","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,5
+35120,"York Centre","York-Centre"," 501","Mobile poll/Bureau itinérant",N,N,"500",0,52,"Baber","","Roman","Conservative","Conservateur",N,Y,0
+35120,"York Centre","York-Centre"," 501","Mobile poll/Bureau itinérant",N,N,"500",0,52,"Saks","","Ya'ara","Liberal","Libéral",Y,N,0
+35120,"York Centre","York-Centre"," 501","Mobile poll/Bureau itinérant",N,N,"500",0,52,"Ulukanligil","","Yusuf","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,0
+35120,"York Centre","York-Centre"," 502","Toronto",N,N,"27",0,17,"Baber","","Roman","Conservative","Conservateur",N,Y,0
+35120,"York Centre","York-Centre"," 502","Toronto",N,N,"27",0,17,"Saks","","Ya'ara","Liberal","Libéral",Y,N,0
+35120,"York Centre","York-Centre"," 502","Toronto",N,N,"27",0,17,"Ulukanligil","","Yusuf","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,0
+35120,"York Centre","York-Centre"," 503","Mobile poll/Bureau itinérant",N,N,"",12,53,"Baber","","Roman","Conservative","Conservateur",N,Y,43
+35120,"York Centre","York-Centre"," 503","Mobile poll/Bureau itinérant",N,N,"",12,53,"Saks","","Ya'ara","Liberal","Libéral",Y,N,38
+35120,"York Centre","York-Centre"," 503","Mobile poll/Bureau itinérant",N,N,"",12,53,"Ulukanligil","","Yusuf","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,8
+35120,"York Centre","York-Centre"," 504","Toronto",N,N,"84",0,1,"Baber","","Roman","Conservative","Conservateur",N,Y,0
+35120,"York Centre","York-Centre"," 504","Toronto",N,N,"84",0,1,"Saks","","Ya'ara","Liberal","Libéral",Y,N,0
+35120,"York Centre","York-Centre"," 504","Toronto",N,N,"84",0,1,"Ulukanligil","","Yusuf","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,0
+35120,"York Centre","York-Centre"," 600","Toronto",N,N,"",7,0,"Baber","","Roman","Conservative","Conservateur",N,Y,515
+35120,"York Centre","York-Centre"," 600","Toronto",N,N,"",7,0,"Saks","","Ya'ara","Liberal","Libéral",Y,N,334
+35120,"York Centre","York-Centre"," 600","Toronto",N,N,"",7,0,"Ulukanligil","","Yusuf","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,13
+35120,"York Centre","York-Centre"," 601","Toronto",N,N,"",25,0,"Baber","","Roman","Conservative","Conservateur",N,Y,873
+35120,"York Centre","York-Centre"," 601","Toronto",N,N,"",25,0,"Saks","","Ya'ara","Liberal","Libéral",Y,N,604
+35120,"York Centre","York-Centre"," 601","Toronto",N,N,"",25,0,"Ulukanligil","","Yusuf","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,38
+35120,"York Centre","York-Centre"," 602","Toronto",N,N,"",10,0,"Baber","","Roman","Conservative","Conservateur",N,Y,993
+35120,"York Centre","York-Centre"," 602","Toronto",N,N,"",10,0,"Saks","","Ya'ara","Liberal","Libéral",Y,N,661
+35120,"York Centre","York-Centre"," 602","Toronto",N,N,"",10,0,"Ulukanligil","","Yusuf","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,37
+35120,"York Centre","York-Centre"," 603","Toronto",N,N,"",19,0,"Baber","","Roman","Conservative","Conservateur",N,Y,1042
+35120,"York Centre","York-Centre"," 603","Toronto",N,N,"",19,0,"Saks","","Ya'ara","Liberal","Libéral",Y,N,705
+35120,"York Centre","York-Centre"," 603","Toronto",N,N,"",19,0,"Ulukanligil","","Yusuf","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,36
+35120,"York Centre","York-Centre"," 604","Toronto",N,N,"",4,0,"Baber","","Roman","Conservative","Conservateur",N,Y,764
+35120,"York Centre","York-Centre"," 604","Toronto",N,N,"",4,0,"Saks","","Ya'ara","Liberal","Libéral",Y,N,478
+35120,"York Centre","York-Centre"," 604","Toronto",N,N,"",4,0,"Ulukanligil","","Yusuf","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,19
+35120,"York Centre","York-Centre"," 605","Toronto",N,N,"",9,0,"Baber","","Roman","Conservative","Conservateur",N,Y,1192
+35120,"York Centre","York-Centre"," 605","Toronto",N,N,"",9,0,"Saks","","Ya'ara","Liberal","Libéral",Y,N,596
+35120,"York Centre","York-Centre"," 605","Toronto",N,N,"",9,0,"Ulukanligil","","Yusuf","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,29
+35120,"York Centre","York-Centre"," 606","Toronto",N,N,"",11,0,"Baber","","Roman","Conservative","Conservateur",N,Y,775
+35120,"York Centre","York-Centre"," 606","Toronto",N,N,"",11,0,"Saks","","Ya'ara","Liberal","Libéral",Y,N,557
+35120,"York Centre","York-Centre"," 606","Toronto",N,N,"",11,0,"Ulukanligil","","Yusuf","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,17
+35120,"York Centre","York-Centre"," 607","Toronto",N,N,"",12,0,"Baber","","Roman","Conservative","Conservateur",N,Y,747
+35120,"York Centre","York-Centre"," 607","Toronto",N,N,"",12,0,"Saks","","Ya'ara","Liberal","Libéral",Y,N,897
+35120,"York Centre","York-Centre"," 607","Toronto",N,N,"",12,0,"Ulukanligil","","Yusuf","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,48
+35120,"York Centre","York-Centre"," 608","Toronto",N,N,"",8,0,"Baber","","Roman","Conservative","Conservateur",N,Y,600
+35120,"York Centre","York-Centre"," 608","Toronto",N,N,"",8,0,"Saks","","Ya'ara","Liberal","Libéral",Y,N,869
+35120,"York Centre","York-Centre"," 608","Toronto",N,N,"",8,0,"Ulukanligil","","Yusuf","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,50
+35120,"York Centre","York-Centre"," 609","Toronto",N,N,"",6,0,"Baber","","Roman","Conservative","Conservateur",N,Y,574
+35120,"York Centre","York-Centre"," 609","Toronto",N,N,"",6,0,"Saks","","Ya'ara","Liberal","Libéral",Y,N,679
+35120,"York Centre","York-Centre"," 609","Toronto",N,N,"",6,0,"Ulukanligil","","Yusuf","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,44
+35120,"York Centre","York-Centre"," 610","Toronto",N,N,"",6,0,"Baber","","Roman","Conservative","Conservateur",N,Y,528
+35120,"York Centre","York-Centre"," 610","Toronto",N,N,"",6,0,"Saks","","Ya'ara","Liberal","Libéral",Y,N,660
+35120,"York Centre","York-Centre"," 610","Toronto",N,N,"",6,0,"Ulukanligil","","Yusuf","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,30
+35120,"York Centre","York-Centre"," S/R 1","SVR Group 1/RÉS Groupe 1",N,N,"",66,472,"Baber","","Roman","Conservative","Conservateur",N,Y,473
+35120,"York Centre","York-Centre"," S/R 1","SVR Group 1/RÉS Groupe 1",N,N,"",66,472,"Saks","","Ya'ara","Liberal","Libéral",Y,N,368
+35120,"York Centre","York-Centre"," S/R 1","SVR Group 1/RÉS Groupe 1",N,N,"",66,472,"Ulukanligil","","Yusuf","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,18
+35120,"York Centre","York-Centre"," S/R 2","SVR Group 2/RÉS Groupe 2",N,N,"",42,0,"Baber","","Roman","Conservative","Conservateur",N,Y,1255
+35120,"York Centre","York-Centre"," S/R 2","SVR Group 2/RÉS Groupe 2",N,N,"",42,0,"Saks","","Ya'ara","Liberal","Libéral",Y,N,703
+35120,"York Centre","York-Centre"," S/R 2","SVR Group 2/RÉS Groupe 2",N,N,"",42,0,"Ulukanligil","","Yusuf","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,30

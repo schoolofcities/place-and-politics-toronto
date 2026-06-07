@@ -1,0 +1,592 @@
+﻿Electoral District Number/Numéro de circonscription,Electoral District Name_English/Nom de circonscription_Anglais,Electoral District Name_French/Nom de circonscription_Français,Polling Division Number/Numéro de section de vote,Polling Division Name/Nom de section de vote,Void Poll Indicator/Indicateur de bureau supprimé,No Poll Held Indicator/Indicateur de bureau sans scrutin,Combined with No./Résultats combinés à ceux du n°,Rejected Ballots for poll/Bulletins rejetés du bureau,Electors for poll/Électeurs du bureau,Candidate’s Family Name/Nom de famille du candidat,Candidate’s Middle Name/Second prénom du candidat,Candidate’s First Name/Prénom du candidat,Political Affiliation Name_English/Appartenance politique_Anglais,Political Affiliation Name_French/Appartenance politique_Français,Incumbent Indicator/Indicateur_Candidat sortant,Elected Candidate Indicator/Indicateur du candidat élu,Candidate Vote Count/Votes du candidat
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 1","Toronto",N,N,"",0,419,"Hussen","","Ahmed","Liberal","Libéral",Y,Y,79
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 1","Toronto",N,N,"",0,419,"James","","Louise","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,10
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 1","Toronto",N,N,"",0,419,"Pham","","Nicolas","Conservative","Conservateur",N,N,122
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 2","Toronto",N,N,"",0,532,"Hussen","","Ahmed","Liberal","Libéral",Y,Y,87
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 2","Toronto",N,N,"",0,532,"James","","Louise","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,10
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 2","Toronto",N,N,"",0,532,"Pham","","Nicolas","Conservative","Conservateur",N,N,82
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 3","Toronto",N,N,"",2,470,"Hussen","","Ahmed","Liberal","Libéral",Y,Y,92
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 3","Toronto",N,N,"",2,470,"James","","Louise","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,5
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 3","Toronto",N,N,"",2,470,"Pham","","Nicolas","Conservative","Conservateur",N,N,136
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 4","Toronto",N,N,"",2,501,"Hussen","","Ahmed","Liberal","Libéral",Y,Y,84
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 4","Toronto",N,N,"",2,501,"James","","Louise","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,8
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 4","Toronto",N,N,"",2,501,"Pham","","Nicolas","Conservative","Conservateur",N,N,92
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 5","Toronto",N,N,"",1,547,"Hussen","","Ahmed","Liberal","Libéral",Y,Y,99
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 5","Toronto",N,N,"",1,547,"James","","Louise","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,3
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 5","Toronto",N,N,"",1,547,"Pham","","Nicolas","Conservative","Conservateur",N,N,112
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 6","Toronto",N,N,"",0,496,"Hussen","","Ahmed","Liberal","Libéral",Y,Y,93
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 6","Toronto",N,N,"",0,496,"James","","Louise","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,6
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 6","Toronto",N,N,"",0,496,"Pham","","Nicolas","Conservative","Conservateur",N,N,133
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 7","Toronto",N,N,"",0,530,"Hussen","","Ahmed","Liberal","Libéral",Y,Y,59
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 7","Toronto",N,N,"",0,530,"James","","Louise","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,2
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 7","Toronto",N,N,"",0,530,"Pham","","Nicolas","Conservative","Conservateur",N,N,104
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 8","Toronto",N,N,"",0,522,"Hussen","","Ahmed","Liberal","Libéral",Y,Y,71
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 8","Toronto",N,N,"",0,522,"James","","Louise","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,9
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 8","Toronto",N,N,"",0,522,"Pham","","Nicolas","Conservative","Conservateur",N,N,117
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 9","Toronto",N,N,"",1,535,"Hussen","","Ahmed","Liberal","Libéral",Y,Y,92
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 9","Toronto",N,N,"",1,535,"James","","Louise","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,5
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 9","Toronto",N,N,"",1,535,"Pham","","Nicolas","Conservative","Conservateur",N,N,147
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 10","Toronto",N,N,"",1,385,"Hussen","","Ahmed","Liberal","Libéral",Y,Y,72
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 10","Toronto",N,N,"",1,385,"James","","Louise","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,7
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 10","Toronto",N,N,"",1,385,"Pham","","Nicolas","Conservative","Conservateur",N,N,95
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 11","Toronto",N,N,"",0,453,"Hussen","","Ahmed","Liberal","Libéral",Y,Y,70
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 11","Toronto",N,N,"",0,453,"James","","Louise","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,9
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 11","Toronto",N,N,"",0,453,"Pham","","Nicolas","Conservative","Conservateur",N,N,72
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 12","Toronto",N,N,"",2,495,"Hussen","","Ahmed","Liberal","Libéral",Y,Y,88
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 12","Toronto",N,N,"",2,495,"James","","Louise","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,13
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 12","Toronto",N,N,"",2,495,"Pham","","Nicolas","Conservative","Conservateur",N,N,148
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 13","Toronto",N,N,"",5,459,"Hussen","","Ahmed","Liberal","Libéral",Y,Y,87
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 13","Toronto",N,N,"",5,459,"James","","Louise","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,3
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 13","Toronto",N,N,"",5,459,"Pham","","Nicolas","Conservative","Conservateur",N,N,91
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 14","Toronto",N,N,"",0,568,"Hussen","","Ahmed","Liberal","Libéral",Y,Y,83
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 14","Toronto",N,N,"",0,568,"James","","Louise","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,5
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 14","Toronto",N,N,"",0,568,"Pham","","Nicolas","Conservative","Conservateur",N,N,75
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 15","Toronto",N,N,"",3,395,"Hussen","","Ahmed","Liberal","Libéral",Y,Y,57
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 15","Toronto",N,N,"",3,395,"James","","Louise","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,13
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 15","Toronto",N,N,"",3,395,"Pham","","Nicolas","Conservative","Conservateur",N,N,55
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 16","Toronto",N,N,"",0,391,"Hussen","","Ahmed","Liberal","Libéral",Y,Y,76
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 16","Toronto",N,N,"",0,391,"James","","Louise","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,8
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 16","Toronto",N,N,"",0,391,"Pham","","Nicolas","Conservative","Conservateur",N,N,36
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 17","Toronto",N,N,"",0,468,"Hussen","","Ahmed","Liberal","Libéral",Y,Y,83
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 17","Toronto",N,N,"",0,468,"James","","Louise","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,8
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 17","Toronto",N,N,"",0,468,"Pham","","Nicolas","Conservative","Conservateur",N,N,54
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 18","Toronto",N,N,"",1,366,"Hussen","","Ahmed","Liberal","Libéral",Y,Y,74
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 18","Toronto",N,N,"",1,366,"James","","Louise","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,4
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 18","Toronto",N,N,"",1,366,"Pham","","Nicolas","Conservative","Conservateur",N,N,82
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 19","Toronto",N,N,"",8,460,"Hussen","","Ahmed","Liberal","Libéral",Y,Y,58
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 19","Toronto",N,N,"",8,460,"James","","Louise","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,8
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 19","Toronto",N,N,"",8,460,"Pham","","Nicolas","Conservative","Conservateur",N,N,106
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 20","Toronto",N,N,"",0,549,"Hussen","","Ahmed","Liberal","Libéral",Y,Y,60
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 20","Toronto",N,N,"",0,549,"James","","Louise","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,8
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 20","Toronto",N,N,"",0,549,"Pham","","Nicolas","Conservative","Conservateur",N,N,102
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 21","Toronto",N,N,"",5,684,"Hussen","","Ahmed","Liberal","Libéral",Y,Y,101
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 21","Toronto",N,N,"",5,684,"James","","Louise","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,9
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 21","Toronto",N,N,"",5,684,"Pham","","Nicolas","Conservative","Conservateur",N,N,115
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 22","Toronto",N,N,"",2,615,"Hussen","","Ahmed","Liberal","Libéral",Y,Y,77
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 22","Toronto",N,N,"",2,615,"James","","Louise","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,4
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 22","Toronto",N,N,"",2,615,"Pham","","Nicolas","Conservative","Conservateur",N,N,88
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 23","Toronto",N,N,"",4,513,"Hussen","","Ahmed","Liberal","Libéral",Y,Y,124
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 23","Toronto",N,N,"",4,513,"James","","Louise","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,8
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 23","Toronto",N,N,"",4,513,"Pham","","Nicolas","Conservative","Conservateur",N,N,84
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 24","Toronto",N,N,"",1,535,"Hussen","","Ahmed","Liberal","Libéral",Y,Y,66
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 24","Toronto",N,N,"",1,535,"James","","Louise","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,4
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 24","Toronto",N,N,"",1,535,"Pham","","Nicolas","Conservative","Conservateur",N,N,92
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 25","Toronto",N,N,"",2,531,"Hussen","","Ahmed","Liberal","Libéral",Y,Y,100
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 25","Toronto",N,N,"",2,531,"James","","Louise","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,12
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 25","Toronto",N,N,"",2,531,"Pham","","Nicolas","Conservative","Conservateur",N,N,144
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 26","Toronto",N,N,"",2,518,"Hussen","","Ahmed","Liberal","Libéral",Y,Y,152
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 26","Toronto",N,N,"",2,518,"James","","Louise","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,15
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 26","Toronto",N,N,"",2,518,"Pham","","Nicolas","Conservative","Conservateur",N,N,117
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 27","Toronto",N,N,"",2,445,"Hussen","","Ahmed","Liberal","Libéral",Y,Y,109
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 27","Toronto",N,N,"",2,445,"James","","Louise","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,7
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 27","Toronto",N,N,"",2,445,"Pham","","Nicolas","Conservative","Conservateur",N,N,133
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 28","Toronto",N,N,"",3,421,"Hussen","","Ahmed","Liberal","Libéral",Y,Y,94
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 28","Toronto",N,N,"",3,421,"James","","Louise","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,9
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 28","Toronto",N,N,"",3,421,"Pham","","Nicolas","Conservative","Conservateur",N,N,135
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 29","Toronto",N,N,"",2,363,"Hussen","","Ahmed","Liberal","Libéral",Y,Y,88
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 29","Toronto",N,N,"",2,363,"James","","Louise","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,8
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 29","Toronto",N,N,"",2,363,"Pham","","Nicolas","Conservative","Conservateur",N,N,115
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 30","Toronto",N,N,"",2,478,"Hussen","","Ahmed","Liberal","Libéral",Y,Y,106
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 30","Toronto",N,N,"",2,478,"James","","Louise","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,5
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 30","Toronto",N,N,"",2,478,"Pham","","Nicolas","Conservative","Conservateur",N,N,70
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 31","Toronto",N,N,"",2,455,"Hussen","","Ahmed","Liberal","Libéral",Y,Y,92
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 31","Toronto",N,N,"",2,455,"James","","Louise","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,5
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 31","Toronto",N,N,"",2,455,"Pham","","Nicolas","Conservative","Conservateur",N,N,94
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 32","Toronto",N,N,"",1,372,"Hussen","","Ahmed","Liberal","Libéral",Y,Y,67
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 32","Toronto",N,N,"",1,372,"James","","Louise","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,3
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 32","Toronto",N,N,"",1,372,"Pham","","Nicolas","Conservative","Conservateur",N,N,104
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 33","Toronto",N,N,"",0,530,"Hussen","","Ahmed","Liberal","Libéral",Y,Y,102
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 33","Toronto",N,N,"",0,530,"James","","Louise","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,14
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 33","Toronto",N,N,"",0,530,"Pham","","Nicolas","Conservative","Conservateur",N,N,72
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 34","Toronto",N,N,"",0,357,"Hussen","","Ahmed","Liberal","Libéral",Y,Y,59
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 34","Toronto",N,N,"",0,357,"James","","Louise","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,1
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 34","Toronto",N,N,"",0,357,"Pham","","Nicolas","Conservative","Conservateur",N,N,105
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 35","Toronto",N,N,"",0,501,"Hussen","","Ahmed","Liberal","Libéral",Y,Y,71
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 35","Toronto",N,N,"",0,501,"James","","Louise","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,17
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 35","Toronto",N,N,"",0,501,"Pham","","Nicolas","Conservative","Conservateur",N,N,75
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 36","Toronto",N,N,"",0,637,"Hussen","","Ahmed","Liberal","Libéral",Y,Y,136
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 36","Toronto",N,N,"",0,637,"James","","Louise","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,9
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 36","Toronto",N,N,"",0,637,"Pham","","Nicolas","Conservative","Conservateur",N,N,80
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 37","Toronto",N,N,"",1,527,"Hussen","","Ahmed","Liberal","Libéral",Y,Y,76
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 37","Toronto",N,N,"",1,527,"James","","Louise","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,8
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 37","Toronto",N,N,"",1,527,"Pham","","Nicolas","Conservative","Conservateur",N,N,79
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 38","Toronto",N,N,"",0,523,"Hussen","","Ahmed","Liberal","Libéral",Y,Y,101
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 38","Toronto",N,N,"",0,523,"James","","Louise","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,3
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 38","Toronto",N,N,"",0,523,"Pham","","Nicolas","Conservative","Conservateur",N,N,88
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 39","Toronto",N,N,"",1,485,"Hussen","","Ahmed","Liberal","Libéral",Y,Y,101
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 39","Toronto",N,N,"",1,485,"James","","Louise","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,7
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 39","Toronto",N,N,"",1,485,"Pham","","Nicolas","Conservative","Conservateur",N,N,81
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 40","Toronto",N,N,"",2,450,"Hussen","","Ahmed","Liberal","Libéral",Y,Y,85
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 40","Toronto",N,N,"",2,450,"James","","Louise","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,9
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 40","Toronto",N,N,"",2,450,"Pham","","Nicolas","Conservative","Conservateur",N,N,113
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 41","Toronto",N,N,"",8,635,"Hussen","","Ahmed","Liberal","Libéral",Y,Y,121
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 41","Toronto",N,N,"",8,635,"James","","Louise","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,5
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 41","Toronto",N,N,"",8,635,"Pham","","Nicolas","Conservative","Conservateur",N,N,94
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 42","Toronto",N,N,"",7,333,"Hussen","","Ahmed","Liberal","Libéral",Y,Y,79
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 42","Toronto",N,N,"",7,333,"James","","Louise","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,8
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 42","Toronto",N,N,"",7,333,"Pham","","Nicolas","Conservative","Conservateur",N,N,51
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 43","Toronto",N,N,"",0,449,"Hussen","","Ahmed","Liberal","Libéral",Y,Y,76
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 43","Toronto",N,N,"",0,449,"James","","Louise","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,7
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 43","Toronto",N,N,"",0,449,"Pham","","Nicolas","Conservative","Conservateur",N,N,63
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 44","Toronto",N,N,"",0,374,"Hussen","","Ahmed","Liberal","Libéral",Y,Y,72
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 44","Toronto",N,N,"",0,374,"James","","Louise","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,8
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 44","Toronto",N,N,"",0,374,"Pham","","Nicolas","Conservative","Conservateur",N,N,60
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 45","Toronto",N,N,"",0,602,"Hussen","","Ahmed","Liberal","Libéral",Y,Y,89
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 45","Toronto",N,N,"",0,602,"James","","Louise","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,6
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 45","Toronto",N,N,"",0,602,"Pham","","Nicolas","Conservative","Conservateur",N,N,88
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 46","Toronto",N,N,"",0,373,"Hussen","","Ahmed","Liberal","Libéral",Y,Y,90
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 46","Toronto",N,N,"",0,373,"James","","Louise","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,4
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 46","Toronto",N,N,"",0,373,"Pham","","Nicolas","Conservative","Conservateur",N,N,58
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 47","Toronto",N,N,"",3,345,"Hussen","","Ahmed","Liberal","Libéral",Y,Y,73
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 47","Toronto",N,N,"",3,345,"James","","Louise","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,9
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 47","Toronto",N,N,"",3,345,"Pham","","Nicolas","Conservative","Conservateur",N,N,62
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 48","Toronto",N,N,"",0,436,"Hussen","","Ahmed","Liberal","Libéral",Y,Y,82
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 48","Toronto",N,N,"",0,436,"James","","Louise","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,6
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 48","Toronto",N,N,"",0,436,"Pham","","Nicolas","Conservative","Conservateur",N,N,72
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 49","Toronto",N,N,"",0,441,"Hussen","","Ahmed","Liberal","Libéral",Y,Y,80
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 49","Toronto",N,N,"",0,441,"James","","Louise","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,12
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 49","Toronto",N,N,"",0,441,"Pham","","Nicolas","Conservative","Conservateur",N,N,41
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 50","Toronto",N,N,"",2,542,"Hussen","","Ahmed","Liberal","Libéral",Y,Y,72
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 50","Toronto",N,N,"",2,542,"James","","Louise","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,16
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 50","Toronto",N,N,"",2,542,"Pham","","Nicolas","Conservative","Conservateur",N,N,34
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 51","Toronto",N,N,"",2,389,"Hussen","","Ahmed","Liberal","Libéral",Y,Y,81
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 51","Toronto",N,N,"",2,389,"James","","Louise","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,11
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 51","Toronto",N,N,"",2,389,"Pham","","Nicolas","Conservative","Conservateur",N,N,92
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 52","Toronto",N,N,"",0,379,"Hussen","","Ahmed","Liberal","Libéral",Y,Y,88
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 52","Toronto",N,N,"",0,379,"James","","Louise","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,7
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 52","Toronto",N,N,"",0,379,"Pham","","Nicolas","Conservative","Conservateur",N,N,75
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 53","Toronto",N,N,"",0,472,"Hussen","","Ahmed","Liberal","Libéral",Y,Y,101
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 53","Toronto",N,N,"",0,472,"James","","Louise","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,11
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 53","Toronto",N,N,"",0,472,"Pham","","Nicolas","Conservative","Conservateur",N,N,103
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 54","Toronto",N,N,"",2,548,"Hussen","","Ahmed","Liberal","Libéral",Y,Y,116
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 54","Toronto",N,N,"",2,548,"James","","Louise","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,17
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 54","Toronto",N,N,"",2,548,"Pham","","Nicolas","Conservative","Conservateur",N,N,72
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 55","Toronto",N,N,"",2,725,"Hussen","","Ahmed","Liberal","Libéral",Y,Y,114
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 55","Toronto",N,N,"",2,725,"James","","Louise","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,7
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 55","Toronto",N,N,"",2,725,"Pham","","Nicolas","Conservative","Conservateur",N,N,99
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 56","Toronto",N,N,"",1,552,"Hussen","","Ahmed","Liberal","Libéral",Y,Y,111
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 56","Toronto",N,N,"",1,552,"James","","Louise","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,19
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 56","Toronto",N,N,"",1,552,"Pham","","Nicolas","Conservative","Conservateur",N,N,62
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 57","Toronto",N,N,"",1,758,"Hussen","","Ahmed","Liberal","Libéral",Y,Y,140
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 57","Toronto",N,N,"",1,758,"James","","Louise","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,8
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 57","Toronto",N,N,"",1,758,"Pham","","Nicolas","Conservative","Conservateur",N,N,59
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 58","Toronto",N,N,"",6,673,"Hussen","","Ahmed","Liberal","Libéral",Y,Y,105
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 58","Toronto",N,N,"",6,673,"James","","Louise","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,13
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 58","Toronto",N,N,"",6,673,"Pham","","Nicolas","Conservative","Conservateur",N,N,45
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 59","Toronto",N,N,"",5,556,"Hussen","","Ahmed","Liberal","Libéral",Y,Y,121
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 59","Toronto",N,N,"",5,556,"James","","Louise","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,13
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 59","Toronto",N,N,"",5,556,"Pham","","Nicolas","Conservative","Conservateur",N,N,59
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 60","Toronto",N,N,"",0,739,"Hussen","","Ahmed","Liberal","Libéral",Y,Y,149
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 60","Toronto",N,N,"",0,739,"James","","Louise","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,11
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 60","Toronto",N,N,"",0,739,"Pham","","Nicolas","Conservative","Conservateur",N,N,155
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 61","Toronto",N,N,"",2,448,"Hussen","","Ahmed","Liberal","Libéral",Y,Y,96
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 61","Toronto",N,N,"",2,448,"James","","Louise","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,14
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 61","Toronto",N,N,"",2,448,"Pham","","Nicolas","Conservative","Conservateur",N,N,72
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 62","Toronto",N,N,"",0,465,"Hussen","","Ahmed","Liberal","Libéral",Y,Y,77
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 62","Toronto",N,N,"",0,465,"James","","Louise","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,4
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 62","Toronto",N,N,"",0,465,"Pham","","Nicolas","Conservative","Conservateur",N,N,90
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 63","Toronto",N,N,"",1,567,"Hussen","","Ahmed","Liberal","Libéral",Y,Y,150
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 63","Toronto",N,N,"",1,567,"James","","Louise","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,11
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 63","Toronto",N,N,"",1,567,"Pham","","Nicolas","Conservative","Conservateur",N,N,48
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 64","Toronto",N,N,"",1,492,"Hussen","","Ahmed","Liberal","Libéral",Y,Y,112
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 64","Toronto",N,N,"",1,492,"James","","Louise","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,9
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 64","Toronto",N,N,"",1,492,"Pham","","Nicolas","Conservative","Conservateur",N,N,71
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 65","Toronto",N,N,"",0,503,"Hussen","","Ahmed","Liberal","Libéral",Y,Y,109
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 65","Toronto",N,N,"",0,503,"James","","Louise","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,14
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 65","Toronto",N,N,"",0,503,"Pham","","Nicolas","Conservative","Conservateur",N,N,54
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 66","Toronto",N,N,"",1,436,"Hussen","","Ahmed","Liberal","Libéral",Y,Y,97
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 66","Toronto",N,N,"",1,436,"James","","Louise","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,15
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 66","Toronto",N,N,"",1,436,"Pham","","Nicolas","Conservative","Conservateur",N,N,97
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 67","Toronto",N,N,"",1,374,"Hussen","","Ahmed","Liberal","Libéral",Y,Y,50
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 67","Toronto",N,N,"",1,374,"James","","Louise","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,5
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 67","Toronto",N,N,"",1,374,"Pham","","Nicolas","Conservative","Conservateur",N,N,55
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 68","Toronto",N,N,"",3,635,"Hussen","","Ahmed","Liberal","Libéral",Y,Y,131
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 68","Toronto",N,N,"",3,635,"James","","Louise","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,18
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 68","Toronto",N,N,"",3,635,"Pham","","Nicolas","Conservative","Conservateur",N,N,57
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 69","Toronto",N,N,"",1,468,"Hussen","","Ahmed","Liberal","Libéral",Y,Y,110
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 69","Toronto",N,N,"",1,468,"James","","Louise","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,2
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 69","Toronto",N,N,"",1,468,"Pham","","Nicolas","Conservative","Conservateur",N,N,48
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 70","Toronto",N,N,"",3,597,"Hussen","","Ahmed","Liberal","Libéral",Y,Y,165
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 70","Toronto",N,N,"",3,597,"James","","Louise","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,13
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 70","Toronto",N,N,"",3,597,"Pham","","Nicolas","Conservative","Conservateur",N,N,62
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 71","Toronto",N,N,"",2,556,"Hussen","","Ahmed","Liberal","Libéral",Y,Y,107
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 71","Toronto",N,N,"",2,556,"James","","Louise","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,7
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 71","Toronto",N,N,"",2,556,"Pham","","Nicolas","Conservative","Conservateur",N,N,101
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 72","Toronto",N,N,"",3,511,"Hussen","","Ahmed","Liberal","Libéral",Y,Y,122
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 72","Toronto",N,N,"",3,511,"James","","Louise","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,2
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 72","Toronto",N,N,"",3,511,"Pham","","Nicolas","Conservative","Conservateur",N,N,72
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 73","Toronto",N,N,"",0,609,"Hussen","","Ahmed","Liberal","Libéral",Y,Y,74
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 73","Toronto",N,N,"",0,609,"James","","Louise","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,8
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 73","Toronto",N,N,"",0,609,"Pham","","Nicolas","Conservative","Conservateur",N,N,153
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 74","Toronto",N,N,"",3,830,"Hussen","","Ahmed","Liberal","Libéral",Y,Y,145
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 74","Toronto",N,N,"",3,830,"James","","Louise","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,9
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 74","Toronto",N,N,"",3,830,"Pham","","Nicolas","Conservative","Conservateur",N,N,70
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 75","Toronto",N,N,"",0,409,"Hussen","","Ahmed","Liberal","Libéral",Y,Y,97
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 75","Toronto",N,N,"",0,409,"James","","Louise","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,10
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 75","Toronto",N,N,"",0,409,"Pham","","Nicolas","Conservative","Conservateur",N,N,100
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 76","Toronto",N,N,"",0,349,"Hussen","","Ahmed","Liberal","Libéral",Y,Y,57
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 76","Toronto",N,N,"",0,349,"James","","Louise","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,5
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 76","Toronto",N,N,"",0,349,"Pham","","Nicolas","Conservative","Conservateur",N,N,83
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 77","Toronto",N,N,"",0,353,"Hussen","","Ahmed","Liberal","Libéral",Y,Y,60
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 77","Toronto",N,N,"",0,353,"James","","Louise","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,7
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 77","Toronto",N,N,"",0,353,"Pham","","Nicolas","Conservative","Conservateur",N,N,79
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 78","Toronto",N,N,"",1,585,"Hussen","","Ahmed","Liberal","Libéral",Y,Y,94
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 78","Toronto",N,N,"",1,585,"James","","Louise","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,4
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 78","Toronto",N,N,"",1,585,"Pham","","Nicolas","Conservative","Conservateur",N,N,84
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 79","Toronto",N,N,"",1,422,"Hussen","","Ahmed","Liberal","Libéral",Y,Y,63
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 79","Toronto",N,N,"",1,422,"James","","Louise","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,5
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 79","Toronto",N,N,"",1,422,"Pham","","Nicolas","Conservative","Conservateur",N,N,63
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 80","Toronto",N,N,"",0,449,"Hussen","","Ahmed","Liberal","Libéral",Y,Y,61
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 80","Toronto",N,N,"",0,449,"James","","Louise","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,10
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 80","Toronto",N,N,"",0,449,"Pham","","Nicolas","Conservative","Conservateur",N,N,97
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 81","Toronto",N,N,"",2,471,"Hussen","","Ahmed","Liberal","Libéral",Y,Y,79
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 81","Toronto",N,N,"",2,471,"James","","Louise","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,8
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 81","Toronto",N,N,"",2,471,"Pham","","Nicolas","Conservative","Conservateur",N,N,33
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 82","Toronto",N,N,"",0,524,"Hussen","","Ahmed","Liberal","Libéral",Y,Y,110
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 82","Toronto",N,N,"",0,524,"James","","Louise","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,9
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 82","Toronto",N,N,"",0,524,"Pham","","Nicolas","Conservative","Conservateur",N,N,67
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 83","Toronto",N,N,"",0,563,"Hussen","","Ahmed","Liberal","Libéral",Y,Y,131
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 83","Toronto",N,N,"",0,563,"James","","Louise","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,14
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 83","Toronto",N,N,"",0,563,"Pham","","Nicolas","Conservative","Conservateur",N,N,80
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 84","Toronto",N,N,"",6,441,"Hussen","","Ahmed","Liberal","Libéral",Y,Y,101
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 84","Toronto",N,N,"",6,441,"James","","Louise","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,7
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 84","Toronto",N,N,"",6,441,"Pham","","Nicolas","Conservative","Conservateur",N,N,98
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 85","Toronto",N,N,"",0,424,"Hussen","","Ahmed","Liberal","Libéral",Y,Y,75
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 85","Toronto",N,N,"",0,424,"James","","Louise","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,15
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 85","Toronto",N,N,"",0,424,"Pham","","Nicolas","Conservative","Conservateur",N,N,57
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 86","Toronto",N,N,"",3,348,"Hussen","","Ahmed","Liberal","Libéral",Y,Y,65
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 86","Toronto",N,N,"",3,348,"James","","Louise","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,8
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 86","Toronto",N,N,"",3,348,"Pham","","Nicolas","Conservative","Conservateur",N,N,41
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 87","Toronto",N,N,"",1,457,"Hussen","","Ahmed","Liberal","Libéral",Y,Y,78
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 87","Toronto",N,N,"",1,457,"James","","Louise","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,2
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 87","Toronto",N,N,"",1,457,"Pham","","Nicolas","Conservative","Conservateur",N,N,49
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 88","Toronto",N,N,"",3,487,"Hussen","","Ahmed","Liberal","Libéral",Y,Y,129
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 88","Toronto",N,N,"",3,487,"James","","Louise","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,18
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 88","Toronto",N,N,"",3,487,"Pham","","Nicolas","Conservative","Conservateur",N,N,90
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 89","Toronto",N,N,"",4,504,"Hussen","","Ahmed","Liberal","Libéral",Y,Y,102
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 89","Toronto",N,N,"",4,504,"James","","Louise","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,5
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 89","Toronto",N,N,"",4,504,"Pham","","Nicolas","Conservative","Conservateur",N,N,68
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 90","Toronto",N,N,"",11,588,"Hussen","","Ahmed","Liberal","Libéral",Y,Y,146
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 90","Toronto",N,N,"",11,588,"James","","Louise","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,12
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 90","Toronto",N,N,"",11,588,"Pham","","Nicolas","Conservative","Conservateur",N,N,71
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 91","Toronto",N,N,"",0,480,"Hussen","","Ahmed","Liberal","Libéral",Y,Y,104
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 91","Toronto",N,N,"",0,480,"James","","Louise","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,9
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 91","Toronto",N,N,"",0,480,"Pham","","Nicolas","Conservative","Conservateur",N,N,84
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 92","Toronto",N,N,"",2,618,"Hussen","","Ahmed","Liberal","Libéral",Y,Y,198
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 92","Toronto",N,N,"",2,618,"James","","Louise","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,18
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 92","Toronto",N,N,"",2,618,"Pham","","Nicolas","Conservative","Conservateur",N,N,89
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 93","Toronto",N,N,"",0,688,"Hussen","","Ahmed","Liberal","Libéral",Y,Y,111
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 93","Toronto",N,N,"",0,688,"James","","Louise","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,13
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 93","Toronto",N,N,"",0,688,"Pham","","Nicolas","Conservative","Conservateur",N,N,67
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 94","Toronto",N,N,"",6,378,"Hussen","","Ahmed","Liberal","Libéral",Y,Y,56
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 94","Toronto",N,N,"",6,378,"James","","Louise","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,2
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 94","Toronto",N,N,"",6,378,"Pham","","Nicolas","Conservative","Conservateur",N,N,74
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 95","Toronto",N,N,"",0,447,"Hussen","","Ahmed","Liberal","Libéral",Y,Y,76
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 95","Toronto",N,N,"",0,447,"James","","Louise","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,3
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 95","Toronto",N,N,"",0,447,"Pham","","Nicolas","Conservative","Conservateur",N,N,77
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 96","Toronto",N,N,"",1,452,"Hussen","","Ahmed","Liberal","Libéral",Y,Y,99
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 96","Toronto",N,N,"",1,452,"James","","Louise","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,3
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 96","Toronto",N,N,"",1,452,"Pham","","Nicolas","Conservative","Conservateur",N,N,117
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 97","Toronto",N,N,"",0,459,"Hussen","","Ahmed","Liberal","Libéral",Y,Y,87
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 97","Toronto",N,N,"",0,459,"James","","Louise","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,5
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 97","Toronto",N,N,"",0,459,"Pham","","Nicolas","Conservative","Conservateur",N,N,102
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 98A","Toronto",N,N,"",1,331,"Hussen","","Ahmed","Liberal","Libéral",Y,Y,78
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 98A","Toronto",N,N,"",1,331,"James","","Louise","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,7
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 98A","Toronto",N,N,"",1,331,"Pham","","Nicolas","Conservative","Conservateur",N,N,58
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 98B","Mobile poll/Bureau itinérant",N,N,"",0,125,"Hussen","","Ahmed","Liberal","Libéral",Y,Y,44
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 98B","Mobile poll/Bureau itinérant",N,N,"",0,125,"James","","Louise","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,4
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 98B","Mobile poll/Bureau itinérant",N,N,"",0,125,"Pham","","Nicolas","Conservative","Conservateur",N,N,24
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 99","Toronto",N,N,"",3,521,"Hussen","","Ahmed","Liberal","Libéral",Y,Y,80
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 99","Toronto",N,N,"",3,521,"James","","Louise","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,6
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 99","Toronto",N,N,"",3,521,"Pham","","Nicolas","Conservative","Conservateur",N,N,111
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 100","Toronto",N,N,"",4,543,"Hussen","","Ahmed","Liberal","Libéral",Y,Y,115
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 100","Toronto",N,N,"",4,543,"James","","Louise","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,8
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 100","Toronto",N,N,"",4,543,"Pham","","Nicolas","Conservative","Conservateur",N,N,79
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 101","Toronto",N,N,"",5,372,"Hussen","","Ahmed","Liberal","Libéral",Y,Y,94
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 101","Toronto",N,N,"",5,372,"James","","Louise","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,14
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 101","Toronto",N,N,"",5,372,"Pham","","Nicolas","Conservative","Conservateur",N,N,57
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 102","Toronto",N,N,"",1,581,"Hussen","","Ahmed","Liberal","Libéral",Y,Y,137
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 102","Toronto",N,N,"",1,581,"James","","Louise","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,21
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 102","Toronto",N,N,"",1,581,"Pham","","Nicolas","Conservative","Conservateur",N,N,64
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 103","Toronto",N,N,"",5,465,"Hussen","","Ahmed","Liberal","Libéral",Y,Y,84
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 103","Toronto",N,N,"",5,465,"James","","Louise","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,14
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 103","Toronto",N,N,"",5,465,"Pham","","Nicolas","Conservative","Conservateur",N,N,67
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 104","Toronto",N,N,"",2,512,"Hussen","","Ahmed","Liberal","Libéral",Y,Y,95
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 104","Toronto",N,N,"",2,512,"James","","Louise","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,7
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 104","Toronto",N,N,"",2,512,"Pham","","Nicolas","Conservative","Conservateur",N,N,64
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 105","Toronto",N,N,"",6,564,"Hussen","","Ahmed","Liberal","Libéral",Y,Y,105
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 105","Toronto",N,N,"",6,564,"James","","Louise","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,12
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 105","Toronto",N,N,"",6,564,"Pham","","Nicolas","Conservative","Conservateur",N,N,93
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 106","Toronto",N,N,"",0,419,"Hussen","","Ahmed","Liberal","Libéral",Y,Y,50
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 106","Toronto",N,N,"",0,419,"James","","Louise","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,4
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 106","Toronto",N,N,"",0,419,"Pham","","Nicolas","Conservative","Conservateur",N,N,53
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 107","Toronto",N,N,"",3,449,"Hussen","","Ahmed","Liberal","Libéral",Y,Y,64
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 107","Toronto",N,N,"",3,449,"James","","Louise","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,7
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 107","Toronto",N,N,"",3,449,"Pham","","Nicolas","Conservative","Conservateur",N,N,66
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 108","Toronto",N,N,"",0,591,"Hussen","","Ahmed","Liberal","Libéral",Y,Y,84
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 108","Toronto",N,N,"",0,591,"James","","Louise","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,8
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 108","Toronto",N,N,"",0,591,"Pham","","Nicolas","Conservative","Conservateur",N,N,43
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 109","Toronto",N,N,"",2,452,"Hussen","","Ahmed","Liberal","Libéral",Y,Y,80
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 109","Toronto",N,N,"",2,452,"James","","Louise","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,9
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 109","Toronto",N,N,"",2,452,"Pham","","Nicolas","Conservative","Conservateur",N,N,89
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 110","Toronto",N,N,"",0,508,"Hussen","","Ahmed","Liberal","Libéral",Y,Y,68
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 110","Toronto",N,N,"",0,508,"James","","Louise","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,7
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 110","Toronto",N,N,"",0,508,"Pham","","Nicolas","Conservative","Conservateur",N,N,68
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 111","Toronto",N,N,"",2,609,"Hussen","","Ahmed","Liberal","Libéral",Y,Y,108
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 111","Toronto",N,N,"",2,609,"James","","Louise","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,9
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 111","Toronto",N,N,"",2,609,"Pham","","Nicolas","Conservative","Conservateur",N,N,88
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 112","Toronto",N,N,"",0,466,"Hussen","","Ahmed","Liberal","Libéral",Y,Y,29
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 112","Toronto",N,N,"",0,466,"James","","Louise","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,6
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 112","Toronto",N,N,"",0,466,"Pham","","Nicolas","Conservative","Conservateur",N,N,82
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 113","Toronto",N,N,"",0,442,"Hussen","","Ahmed","Liberal","Libéral",Y,Y,82
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 113","Toronto",N,N,"",0,442,"James","","Louise","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,5
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 113","Toronto",N,N,"",0,442,"Pham","","Nicolas","Conservative","Conservateur",N,N,36
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 114","Toronto",N,N,"",0,570,"Hussen","","Ahmed","Liberal","Libéral",Y,Y,67
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 114","Toronto",N,N,"",0,570,"James","","Louise","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,5
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 114","Toronto",N,N,"",0,570,"Pham","","Nicolas","Conservative","Conservateur",N,N,70
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 115","Toronto",N,N,"",3,420,"Hussen","","Ahmed","Liberal","Libéral",Y,Y,57
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 115","Toronto",N,N,"",3,420,"James","","Louise","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,10
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 115","Toronto",N,N,"",3,420,"Pham","","Nicolas","Conservative","Conservateur",N,N,44
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 116","Toronto",N,N,"",0,500,"Hussen","","Ahmed","Liberal","Libéral",Y,Y,128
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 116","Toronto",N,N,"",0,500,"James","","Louise","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,21
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 116","Toronto",N,N,"",0,500,"Pham","","Nicolas","Conservative","Conservateur",N,N,83
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 117","Toronto",N,N,"",3,547,"Hussen","","Ahmed","Liberal","Libéral",Y,Y,131
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 117","Toronto",N,N,"",3,547,"James","","Louise","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,14
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 117","Toronto",N,N,"",3,547,"Pham","","Nicolas","Conservative","Conservateur",N,N,113
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 118","Toronto",N,N,"",4,376,"Hussen","","Ahmed","Liberal","Libéral",Y,Y,87
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 118","Toronto",N,N,"",4,376,"James","","Louise","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,17
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 118","Toronto",N,N,"",4,376,"Pham","","Nicolas","Conservative","Conservateur",N,N,63
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 119","Toronto",N,N,"",0,527,"Hussen","","Ahmed","Liberal","Libéral",Y,Y,85
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 119","Toronto",N,N,"",0,527,"James","","Louise","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,17
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 119","Toronto",N,N,"",0,527,"Pham","","Nicolas","Conservative","Conservateur",N,N,79
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 120","Toronto",N,N,"",0,441,"Hussen","","Ahmed","Liberal","Libéral",Y,Y,92
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 120","Toronto",N,N,"",0,441,"James","","Louise","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,11
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 120","Toronto",N,N,"",0,441,"Pham","","Nicolas","Conservative","Conservateur",N,N,60
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 121","Toronto",N,N,"",1,382,"Hussen","","Ahmed","Liberal","Libéral",Y,Y,54
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 121","Toronto",N,N,"",1,382,"James","","Louise","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,10
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 121","Toronto",N,N,"",1,382,"Pham","","Nicolas","Conservative","Conservateur",N,N,56
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 122","Toronto",N,N,"",0,414,"Hussen","","Ahmed","Liberal","Libéral",Y,Y,75
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 122","Toronto",N,N,"",0,414,"James","","Louise","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,7
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 122","Toronto",N,N,"",0,414,"Pham","","Nicolas","Conservative","Conservateur",N,N,62
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 400","Toronto",N,N,"",0,197,"Hussen","","Ahmed","Liberal","Libéral",Y,Y,75
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 400","Toronto",N,N,"",0,197,"James","","Louise","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,10
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 400","Toronto",N,N,"",0,197,"Pham","","Nicolas","Conservative","Conservateur",N,N,35
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 401","Toronto",N,N,"",2,343,"Hussen","","Ahmed","Liberal","Libéral",Y,Y,78
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 401","Toronto",N,N,"",2,343,"James","","Louise","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,4
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 401","Toronto",N,N,"",2,343,"Pham","","Nicolas","Conservative","Conservateur",N,N,20
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 402","Toronto",N,N,"",1,366,"Hussen","","Ahmed","Liberal","Libéral",Y,Y,88
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 402","Toronto",N,N,"",1,366,"James","","Louise","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,4
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 402","Toronto",N,N,"",1,366,"Pham","","Nicolas","Conservative","Conservateur",N,N,19
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 403","Toronto",N,N,"",2,348,"Hussen","","Ahmed","Liberal","Libéral",Y,Y,76
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 403","Toronto",N,N,"",2,348,"James","","Louise","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,5
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 403","Toronto",N,N,"",2,348,"Pham","","Nicolas","Conservative","Conservateur",N,N,19
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 404","Toronto",N,N,"",5,300,"Hussen","","Ahmed","Liberal","Libéral",Y,Y,33
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 404","Toronto",N,N,"",5,300,"James","","Louise","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,3
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 404","Toronto",N,N,"",5,300,"Pham","","Nicolas","Conservative","Conservateur",N,N,43
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 405","Toronto",N,N,"",1,169,"Hussen","","Ahmed","Liberal","Libéral",Y,Y,72
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 405","Toronto",N,N,"",1,169,"James","","Louise","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,2
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 405","Toronto",N,N,"",1,169,"Pham","","Nicolas","Conservative","Conservateur",N,N,12
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 406","Toronto",N,N,"",0,306,"Hussen","","Ahmed","Liberal","Libéral",Y,Y,56
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 406","Toronto",N,N,"",0,306,"James","","Louise","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,11
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 406","Toronto",N,N,"",0,306,"Pham","","Nicolas","Conservative","Conservateur",N,N,26
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 407","Toronto",N,N,"",0,214,"Hussen","","Ahmed","Liberal","Libéral",Y,Y,58
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 407","Toronto",N,N,"",0,214,"James","","Louise","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,3
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 407","Toronto",N,N,"",0,214,"Pham","","Nicolas","Conservative","Conservateur",N,N,17
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 408","Toronto",N,N,"",4,301,"Hussen","","Ahmed","Liberal","Libéral",Y,Y,91
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 408","Toronto",N,N,"",4,301,"James","","Louise","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,1
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 408","Toronto",N,N,"",4,301,"Pham","","Nicolas","Conservative","Conservateur",N,N,34
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 409","Toronto",N,N,"",9,279,"Hussen","","Ahmed","Liberal","Libéral",Y,Y,73
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 409","Toronto",N,N,"",9,279,"James","","Louise","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,16
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 409","Toronto",N,N,"",9,279,"Pham","","Nicolas","Conservative","Conservateur",N,N,43
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 410","Toronto",N,N,"",1,144,"Hussen","","Ahmed","Liberal","Libéral",Y,Y,23
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 410","Toronto",N,N,"",1,144,"James","","Louise","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,7
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 410","Toronto",N,N,"",1,144,"Pham","","Nicolas","Conservative","Conservateur",N,N,9
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 411","Toronto",N,N,"",2,586,"Hussen","","Ahmed","Liberal","Libéral",Y,Y,171
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 411","Toronto",N,N,"",2,586,"James","","Louise","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,11
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 411","Toronto",N,N,"",2,586,"Pham","","Nicolas","Conservative","Conservateur",N,N,45
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 412","Toronto",N,N,"",1,639,"Hussen","","Ahmed","Liberal","Libéral",Y,Y,170
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 412","Toronto",N,N,"",1,639,"James","","Louise","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,8
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 412","Toronto",N,N,"",1,639,"Pham","","Nicolas","Conservative","Conservateur",N,N,122
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 413","Toronto",N,N,"",3,573,"Hussen","","Ahmed","Liberal","Libéral",Y,Y,182
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 413","Toronto",N,N,"",3,573,"James","","Louise","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,7
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 413","Toronto",N,N,"",3,573,"Pham","","Nicolas","Conservative","Conservateur",N,N,67
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 414","Toronto",N,N,"",1,462,"Hussen","","Ahmed","Liberal","Libéral",Y,Y,104
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 414","Toronto",N,N,"",1,462,"James","","Louise","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,12
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 414","Toronto",N,N,"",1,462,"Pham","","Nicolas","Conservative","Conservateur",N,N,46
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 415","Toronto",N,N,"",1,122,"Hussen","","Ahmed","Liberal","Libéral",Y,Y,22
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 415","Toronto",N,N,"",1,122,"James","","Louise","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,2
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 415","Toronto",N,N,"",1,122,"Pham","","Nicolas","Conservative","Conservateur",N,N,9
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 416","Toronto",N,N,"",1,136,"Hussen","","Ahmed","Liberal","Libéral",Y,Y,51
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 416","Toronto",N,N,"",1,136,"James","","Louise","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,8
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 416","Toronto",N,N,"",1,136,"Pham","","Nicolas","Conservative","Conservateur",N,N,15
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 417","Toronto",N,N,"",0,422,"Hussen","","Ahmed","Liberal","Libéral",Y,Y,81
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 417","Toronto",N,N,"",0,422,"James","","Louise","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,7
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 417","Toronto",N,N,"",0,422,"Pham","","Nicolas","Conservative","Conservateur",N,N,44
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 418","Toronto",N,N,"",0,242,"Hussen","","Ahmed","Liberal","Libéral",Y,Y,77
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 418","Toronto",N,N,"",0,242,"James","","Louise","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,8
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 418","Toronto",N,N,"",0,242,"Pham","","Nicolas","Conservative","Conservateur",N,N,17
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 419","Toronto",N,N,"",10,322,"Hussen","","Ahmed","Liberal","Libéral",Y,Y,105
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 419","Toronto",N,N,"",10,322,"James","","Louise","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,3
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 419","Toronto",N,N,"",10,322,"Pham","","Nicolas","Conservative","Conservateur",N,N,17
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 420","Toronto",N,N,"",0,290,"Hussen","","Ahmed","Liberal","Libéral",Y,Y,72
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 420","Toronto",N,N,"",0,290,"James","","Louise","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,1
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 420","Toronto",N,N,"",0,290,"Pham","","Nicolas","Conservative","Conservateur",N,N,14
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 421","Toronto",N,N,"",0,136,"Hussen","","Ahmed","Liberal","Libéral",Y,Y,54
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 421","Toronto",N,N,"",0,136,"James","","Louise","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,3
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 421","Toronto",N,N,"",0,136,"Pham","","Nicolas","Conservative","Conservateur",N,N,10
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 422","Toronto",N,N,"",2,262,"Hussen","","Ahmed","Liberal","Libéral",Y,Y,86
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 422","Toronto",N,N,"",2,262,"James","","Louise","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,5
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 422","Toronto",N,N,"",2,262,"Pham","","Nicolas","Conservative","Conservateur",N,N,14
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 423","Toronto",N,N,"",4,352,"Hussen","","Ahmed","Liberal","Libéral",Y,Y,87
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 423","Toronto",N,N,"",4,352,"James","","Louise","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,8
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 423","Toronto",N,N,"",4,352,"Pham","","Nicolas","Conservative","Conservateur",N,N,24
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 424","Toronto",N,N,"",0,410,"Hussen","","Ahmed","Liberal","Libéral",Y,Y,117
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 424","Toronto",N,N,"",0,410,"James","","Louise","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,11
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 424","Toronto",N,N,"",0,410,"Pham","","Nicolas","Conservative","Conservateur",N,N,24
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 425","Toronto",N,N,"",0,283,"Hussen","","Ahmed","Liberal","Libéral",Y,Y,83
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 425","Toronto",N,N,"",0,283,"James","","Louise","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,6
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 425","Toronto",N,N,"",0,283,"Pham","","Nicolas","Conservative","Conservateur",N,N,59
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 426","Toronto",N,N,"",0,182,"Hussen","","Ahmed","Liberal","Libéral",Y,Y,50
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 426","Toronto",N,N,"",0,182,"James","","Louise","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,4
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 426","Toronto",N,N,"",0,182,"Pham","","Nicolas","Conservative","Conservateur",N,N,4
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 427","Toronto",N,N,"",1,291,"Hussen","","Ahmed","Liberal","Libéral",Y,Y,61
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 427","Toronto",N,N,"",1,291,"James","","Louise","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,9
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 427","Toronto",N,N,"",1,291,"Pham","","Nicolas","Conservative","Conservateur",N,N,48
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 428","Toronto",N,N,"",2,288,"Hussen","","Ahmed","Liberal","Libéral",Y,Y,108
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 428","Toronto",N,N,"",2,288,"James","","Louise","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,9
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 428","Toronto",N,N,"",2,288,"Pham","","Nicolas","Conservative","Conservateur",N,N,27
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 429","Toronto",N,N,"",6,328,"Hussen","","Ahmed","Liberal","Libéral",Y,Y,94
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 429","Toronto",N,N,"",6,328,"James","","Louise","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,4
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 429","Toronto",N,N,"",6,328,"Pham","","Nicolas","Conservative","Conservateur",N,N,15
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 430","Toronto",N,N,"",2,209,"Hussen","","Ahmed","Liberal","Libéral",Y,Y,63
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 430","Toronto",N,N,"",2,209,"James","","Louise","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,5
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 430","Toronto",N,N,"",2,209,"Pham","","Nicolas","Conservative","Conservateur",N,N,33
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 431","Toronto",N,N,"",0,157,"Hussen","","Ahmed","Liberal","Libéral",Y,Y,56
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 431","Toronto",N,N,"",0,157,"James","","Louise","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,4
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 431","Toronto",N,N,"",0,157,"Pham","","Nicolas","Conservative","Conservateur",N,N,21
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 432","Toronto",N,N,"",0,387,"Hussen","","Ahmed","Liberal","Libéral",Y,Y,92
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 432","Toronto",N,N,"",0,387,"James","","Louise","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,4
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 432","Toronto",N,N,"",0,387,"Pham","","Nicolas","Conservative","Conservateur",N,N,49
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 433","Toronto",N,N,"",7,572,"Hussen","","Ahmed","Liberal","Libéral",Y,Y,111
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 433","Toronto",N,N,"",7,572,"James","","Louise","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,9
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 433","Toronto",N,N,"",7,572,"Pham","","Nicolas","Conservative","Conservateur",N,N,64
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 434","Toronto",N,N,"",2,770,"Hussen","","Ahmed","Liberal","Libéral",Y,Y,159
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 434","Toronto",N,N,"",2,770,"James","","Louise","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,12
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 434","Toronto",N,N,"",2,770,"Pham","","Nicolas","Conservative","Conservateur",N,N,105
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 435","Toronto",N,N,"",3,454,"Hussen","","Ahmed","Liberal","Libéral",Y,Y,98
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 435","Toronto",N,N,"",3,454,"James","","Louise","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,8
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 435","Toronto",N,N,"",3,454,"Pham","","Nicolas","Conservative","Conservateur",N,N,70
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 436","Toronto",N,N,"",1,69,"Hussen","","Ahmed","Liberal","Libéral",Y,Y,35
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 436","Toronto",N,N,"",1,69,"James","","Louise","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,15
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 436","Toronto",N,N,"",1,69,"Pham","","Nicolas","Conservative","Conservateur",N,N,11
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 437","Toronto",N,N,"",2,300,"Hussen","","Ahmed","Liberal","Libéral",Y,Y,71
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 437","Toronto",N,N,"",2,300,"James","","Louise","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,18
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 437","Toronto",N,N,"",2,300,"Pham","","Nicolas","Conservative","Conservateur",N,N,65
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 438","Toronto",N,N,"",0,223,"Hussen","","Ahmed","Liberal","Libéral",Y,Y,49
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 438","Toronto",N,N,"",0,223,"James","","Louise","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,10
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 438","Toronto",N,N,"",0,223,"Pham","","Nicolas","Conservative","Conservateur",N,N,29
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 439","Toronto",N,N,"",3,507,"Hussen","","Ahmed","Liberal","Libéral",Y,Y,197
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 439","Toronto",N,N,"",3,507,"James","","Louise","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,11
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 439","Toronto",N,N,"",3,507,"Pham","","Nicolas","Conservative","Conservateur",N,N,164
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 440","Toronto",N,N,"",1,585,"Hussen","","Ahmed","Liberal","Libéral",Y,Y,75
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 440","Toronto",N,N,"",1,585,"James","","Louise","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,6
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 440","Toronto",N,N,"",1,585,"Pham","","Nicolas","Conservative","Conservateur",N,N,95
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 441","Toronto",N,N,"",5,263,"Hussen","","Ahmed","Liberal","Libéral",Y,Y,108
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 441","Toronto",N,N,"",5,263,"James","","Louise","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,9
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 441","Toronto",N,N,"",5,263,"Pham","","Nicolas","Conservative","Conservateur",N,N,76
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 442","Toronto",N,N,"",8,251,"Hussen","","Ahmed","Liberal","Libéral",Y,Y,82
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 442","Toronto",N,N,"",8,251,"James","","Louise","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,6
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 442","Toronto",N,N,"",8,251,"Pham","","Nicolas","Conservative","Conservateur",N,N,78
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 443","Toronto",N,N,"",1,445,"Hussen","","Ahmed","Liberal","Libéral",Y,Y,76
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 443","Toronto",N,N,"",1,445,"James","","Louise","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,12
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 443","Toronto",N,N,"",1,445,"Pham","","Nicolas","Conservative","Conservateur",N,N,75
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 444","Toronto",N,N,"",6,424,"Hussen","","Ahmed","Liberal","Libéral",Y,Y,144
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 444","Toronto",N,N,"",6,424,"James","","Louise","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,15
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 444","Toronto",N,N,"",6,424,"Pham","","Nicolas","Conservative","Conservateur",N,N,116
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 445","Toronto",N,N,"",0,68,"Hussen","","Ahmed","Liberal","Libéral",Y,Y,12
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 445","Toronto",N,N,"",0,68,"James","","Louise","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,4
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 445","Toronto",N,N,"",0,68,"Pham","","Nicolas","Conservative","Conservateur",N,N,22
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 446","Toronto",N,N,"",2,365,"Hussen","","Ahmed","Liberal","Libéral",Y,Y,122
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 446","Toronto",N,N,"",2,365,"James","","Louise","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,11
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 446","Toronto",N,N,"",2,365,"Pham","","Nicolas","Conservative","Conservateur",N,N,83
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 447","Toronto",N,N,"",2,214,"Hussen","","Ahmed","Liberal","Libéral",Y,Y,52
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 447","Toronto",N,N,"",2,214,"James","","Louise","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,10
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 447","Toronto",N,N,"",2,214,"Pham","","Nicolas","Conservative","Conservateur",N,N,24
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 448","Toronto",N,N,"",0,264,"Hussen","","Ahmed","Liberal","Libéral",Y,Y,88
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 448","Toronto",N,N,"",0,264,"James","","Louise","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,13
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 448","Toronto",N,N,"",0,264,"Pham","","Nicolas","Conservative","Conservateur",N,N,26
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 449","Toronto",N,N,"",6,317,"Hussen","","Ahmed","Liberal","Libéral",Y,Y,104
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 449","Toronto",N,N,"",6,317,"James","","Louise","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,8
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 449","Toronto",N,N,"",6,317,"Pham","","Nicolas","Conservative","Conservateur",N,N,91
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 450","Toronto",N,N,"",3,392,"Hussen","","Ahmed","Liberal","Libéral",Y,Y,146
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 450","Toronto",N,N,"",3,392,"James","","Louise","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,13
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 450","Toronto",N,N,"",3,392,"Pham","","Nicolas","Conservative","Conservateur",N,N,95
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 451","Toronto",N,N,"",0,385,"Hussen","","Ahmed","Liberal","Libéral",Y,Y,146
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 451","Toronto",N,N,"",0,385,"James","","Louise","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,14
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 451","Toronto",N,N,"",0,385,"Pham","","Nicolas","Conservative","Conservateur",N,N,100
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 452","Toronto",N,N,"",2,363,"Hussen","","Ahmed","Liberal","Libéral",Y,Y,142
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 452","Toronto",N,N,"",2,363,"James","","Louise","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,12
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 452","Toronto",N,N,"",2,363,"Pham","","Nicolas","Conservative","Conservateur",N,N,97
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 453","Toronto",N,N,"",4,375,"Hussen","","Ahmed","Liberal","Libéral",Y,Y,147
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 453","Toronto",N,N,"",4,375,"James","","Louise","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,10
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 453","Toronto",N,N,"",4,375,"Pham","","Nicolas","Conservative","Conservateur",N,N,106
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 500","Toronto",N,N,"5",0,0,"Hussen","","Ahmed","Liberal","Libéral",Y,Y,0
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 500","Toronto",N,N,"5",0,0,"James","","Louise","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,0
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 500","Toronto",N,N,"5",0,0,"Pham","","Nicolas","Conservative","Conservateur",N,N,0
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 501","Mobile poll/Bureau itinérant",N,N,"",2,70,"Hussen","","Ahmed","Liberal","Libéral",Y,Y,34
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 501","Mobile poll/Bureau itinérant",N,N,"",2,70,"James","","Louise","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,11
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 501","Mobile poll/Bureau itinérant",N,N,"",2,70,"Pham","","Nicolas","Conservative","Conservateur",N,N,11
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 502","Mobile poll/Bureau itinérant",N,N,"501",0,39,"Hussen","","Ahmed","Liberal","Libéral",Y,Y,0
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 502","Mobile poll/Bureau itinérant",N,N,"501",0,39,"James","","Louise","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,0
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 502","Mobile poll/Bureau itinérant",N,N,"501",0,39,"Pham","","Nicolas","Conservative","Conservateur",N,N,0
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 503","Mobile poll/Bureau itinérant",N,N,"98B",0,6,"Hussen","","Ahmed","Liberal","Libéral",Y,Y,0
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 503","Mobile poll/Bureau itinérant",N,N,"98B",0,6,"James","","Louise","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,0
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 503","Mobile poll/Bureau itinérant",N,N,"98B",0,6,"Pham","","Nicolas","Conservative","Conservateur",N,N,0
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 600","Toronto",N,N,"",6,0,"Hussen","","Ahmed","Liberal","Libéral",Y,Y,476
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 600","Toronto",N,N,"",6,0,"James","","Louise","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,22
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 600","Toronto",N,N,"",6,0,"Pham","","Nicolas","Conservative","Conservateur",N,N,510
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 601","Toronto",N,N,"",12,0,"Hussen","","Ahmed","Liberal","Libéral",Y,Y,831
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 601","Toronto",N,N,"",12,0,"James","","Louise","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,63
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 601","Toronto",N,N,"",12,0,"Pham","","Nicolas","Conservative","Conservateur",N,N,630
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 602","Toronto",N,N,"",5,0,"Hussen","","Ahmed","Liberal","Libéral",Y,Y,576
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 602","Toronto",N,N,"",5,0,"James","","Louise","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,45
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 602","Toronto",N,N,"",5,0,"Pham","","Nicolas","Conservative","Conservateur",N,N,389
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 603","Toronto",N,N,"",5,0,"Hussen","","Ahmed","Liberal","Libéral",Y,Y,383
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 603","Toronto",N,N,"",5,0,"James","","Louise","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,26
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 603","Toronto",N,N,"",5,0,"Pham","","Nicolas","Conservative","Conservateur",N,N,258
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 604","Toronto",N,N,"",7,0,"Hussen","","Ahmed","Liberal","Libéral",Y,Y,924
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 604","Toronto",N,N,"",7,0,"James","","Louise","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,89
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 604","Toronto",N,N,"",7,0,"Pham","","Nicolas","Conservative","Conservateur",N,N,421
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 605","Toronto",N,N,"",4,0,"Hussen","","Ahmed","Liberal","Libéral",Y,Y,468
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 605","Toronto",N,N,"",4,0,"James","","Louise","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,30
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 605","Toronto",N,N,"",4,0,"Pham","","Nicolas","Conservative","Conservateur",N,N,245
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 606","Toronto",N,N,"",2,0,"Hussen","","Ahmed","Liberal","Libéral",Y,Y,431
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 606","Toronto",N,N,"",2,0,"James","","Louise","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,42
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 606","Toronto",N,N,"",2,0,"Pham","","Nicolas","Conservative","Conservateur",N,N,289
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 607","Toronto",N,N,"",4,0,"Hussen","","Ahmed","Liberal","Libéral",Y,Y,504
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 607","Toronto",N,N,"",4,0,"James","","Louise","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,56
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 607","Toronto",N,N,"",4,0,"Pham","","Nicolas","Conservative","Conservateur",N,N,257
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 608","Toronto",N,N,"",1,0,"Hussen","","Ahmed","Liberal","Libéral",Y,Y,495
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 608","Toronto",N,N,"",1,0,"James","","Louise","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,23
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 608","Toronto",N,N,"",1,0,"Pham","","Nicolas","Conservative","Conservateur",N,N,401
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 609","Toronto",N,N,"",5,0,"Hussen","","Ahmed","Liberal","Libéral",Y,Y,481
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 609","Toronto",N,N,"",5,0,"James","","Louise","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,26
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 609","Toronto",N,N,"",5,0,"Pham","","Nicolas","Conservative","Conservateur",N,N,381
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 610","Toronto",N,N,"",1,0,"Hussen","","Ahmed","Liberal","Libéral",Y,Y,254
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 610","Toronto",N,N,"",1,0,"James","","Louise","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,13
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 610","Toronto",N,N,"",1,0,"Pham","","Nicolas","Conservative","Conservateur",N,N,163
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 611","Toronto",N,N,"",3,0,"Hussen","","Ahmed","Liberal","Libéral",Y,Y,585
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 611","Toronto",N,N,"",3,0,"James","","Louise","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,53
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 611","Toronto",N,N,"",3,0,"Pham","","Nicolas","Conservative","Conservateur",N,N,302
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 612","Toronto",N,N,"",8,0,"Hussen","","Ahmed","Liberal","Libéral",Y,Y,443
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 612","Toronto",N,N,"",8,0,"James","","Louise","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,32
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 612","Toronto",N,N,"",8,0,"Pham","","Nicolas","Conservative","Conservateur",N,N,225
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 613","Toronto",N,N,"",1,0,"Hussen","","Ahmed","Liberal","Libéral",Y,Y,383
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 613","Toronto",N,N,"",1,0,"James","","Louise","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,40
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," 613","Toronto",N,N,"",1,0,"Pham","","Nicolas","Conservative","Conservateur",N,N,235
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," S/R 1","SVR Group 1/RÉS Groupe 1",N,N,"",77,228,"Hussen","","Ahmed","Liberal","Libéral",Y,Y,359
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," S/R 1","SVR Group 1/RÉS Groupe 1",N,N,"",77,228,"James","","Louise","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,39
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," S/R 1","SVR Group 1/RÉS Groupe 1",N,N,"",77,228,"Pham","","Nicolas","Conservative","Conservateur",N,N,155
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," S/R 2","SVR Group 2/RÉS Groupe 2",N,N,"",61,0,"Hussen","","Ahmed","Liberal","Libéral",Y,Y,835
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," S/R 2","SVR Group 2/RÉS Groupe 2",N,N,"",61,0,"James","","Louise","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,67
+35122,"York South--Weston--Etobicoke","York-Sud--Weston--Etobicoke"," S/R 2","SVR Group 2/RÉS Groupe 2",N,N,"",61,0,"Pham","","Nicolas","Conservative","Conservateur",N,N,300

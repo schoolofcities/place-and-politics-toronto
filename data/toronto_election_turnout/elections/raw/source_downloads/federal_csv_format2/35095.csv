@@ -1,0 +1,625 @@
+﻿Electoral District Number/Numéro de circonscription,Electoral District Name_English/Nom de circonscription_Anglais,Electoral District Name_French/Nom de circonscription_Français,Polling Division Number/Numéro de section de vote,Polling Division Name/Nom de section de vote,Void Poll Indicator/Indicateur de bureau supprimé,No Poll Held Indicator/Indicateur de bureau sans scrutin,Combined with No./Résultats combinés à ceux du n°,Rejected Ballots for poll/Bulletins rejetés du bureau,Electors for poll/Électeurs du bureau,Candidate’s Family Name/Nom de famille du candidat,Candidate’s Middle Name/Second prénom du candidat,Candidate’s First Name/Prénom du candidat,Political Affiliation Name_English/Appartenance politique_Anglais,Political Affiliation Name_French/Appartenance politique_Français,Incumbent Indicator/Indicateur_Candidat sortant,Elected Candidate Indicator/Indicateur du candidat élu,Candidate Vote Count/Votes du candidat
+35095,"Scarborough North","Scarborough-Nord"," 1","Toronto",N,N,"",0,463,"Chen","","Shaun","Liberal","Libéral",Y,Y,95
+35095,"Scarborough North","Scarborough-Nord"," 1","Toronto",N,N,"",0,463,"Manji","","Karishma","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,3
+35095,"Scarborough North","Scarborough-Nord"," 1","Toronto",N,N,"",0,463,"Sandhu","","Gurmit","Conservative","Conservateur",N,N,45
+35095,"Scarborough North","Scarborough-Nord"," 2","Toronto",N,N,"",1,562,"Chen","","Shaun","Liberal","Libéral",Y,Y,121
+35095,"Scarborough North","Scarborough-Nord"," 2","Toronto",N,N,"",1,562,"Manji","","Karishma","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,6
+35095,"Scarborough North","Scarborough-Nord"," 2","Toronto",N,N,"",1,562,"Sandhu","","Gurmit","Conservative","Conservateur",N,N,74
+35095,"Scarborough North","Scarborough-Nord"," 3","Toronto",N,N,"",0,482,"Chen","","Shaun","Liberal","Libéral",Y,Y,109
+35095,"Scarborough North","Scarborough-Nord"," 3","Toronto",N,N,"",0,482,"Manji","","Karishma","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,8
+35095,"Scarborough North","Scarborough-Nord"," 3","Toronto",N,N,"",0,482,"Sandhu","","Gurmit","Conservative","Conservateur",N,N,52
+35095,"Scarborough North","Scarborough-Nord"," 4","Toronto",N,N,"",0,450,"Chen","","Shaun","Liberal","Libéral",Y,Y,110
+35095,"Scarborough North","Scarborough-Nord"," 4","Toronto",N,N,"",0,450,"Manji","","Karishma","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,4
+35095,"Scarborough North","Scarborough-Nord"," 4","Toronto",N,N,"",0,450,"Sandhu","","Gurmit","Conservative","Conservateur",N,N,51
+35095,"Scarborough North","Scarborough-Nord"," 5","Toronto",N,N,"",1,389,"Chen","","Shaun","Liberal","Libéral",Y,Y,64
+35095,"Scarborough North","Scarborough-Nord"," 5","Toronto",N,N,"",1,389,"Manji","","Karishma","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,3
+35095,"Scarborough North","Scarborough-Nord"," 5","Toronto",N,N,"",1,389,"Sandhu","","Gurmit","Conservative","Conservateur",N,N,44
+35095,"Scarborough North","Scarborough-Nord"," 6","Toronto",N,N,"",2,566,"Chen","","Shaun","Liberal","Libéral",Y,Y,142
+35095,"Scarborough North","Scarborough-Nord"," 6","Toronto",N,N,"",2,566,"Manji","","Karishma","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,3
+35095,"Scarborough North","Scarborough-Nord"," 6","Toronto",N,N,"",2,566,"Sandhu","","Gurmit","Conservative","Conservateur",N,N,68
+35095,"Scarborough North","Scarborough-Nord"," 7","Toronto",N,N,"",0,430,"Chen","","Shaun","Liberal","Libéral",Y,Y,80
+35095,"Scarborough North","Scarborough-Nord"," 7","Toronto",N,N,"",0,430,"Manji","","Karishma","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,5
+35095,"Scarborough North","Scarborough-Nord"," 7","Toronto",N,N,"",0,430,"Sandhu","","Gurmit","Conservative","Conservateur",N,N,26
+35095,"Scarborough North","Scarborough-Nord"," 8","Toronto",N,N,"",1,340,"Chen","","Shaun","Liberal","Libéral",Y,Y,68
+35095,"Scarborough North","Scarborough-Nord"," 8","Toronto",N,N,"",1,340,"Manji","","Karishma","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,6
+35095,"Scarborough North","Scarborough-Nord"," 8","Toronto",N,N,"",1,340,"Sandhu","","Gurmit","Conservative","Conservateur",N,N,35
+35095,"Scarborough North","Scarborough-Nord"," 9","Toronto",N,N,"",1,443,"Chen","","Shaun","Liberal","Libéral",Y,Y,128
+35095,"Scarborough North","Scarborough-Nord"," 9","Toronto",N,N,"",1,443,"Manji","","Karishma","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,4
+35095,"Scarborough North","Scarborough-Nord"," 9","Toronto",N,N,"",1,443,"Sandhu","","Gurmit","Conservative","Conservateur",N,N,58
+35095,"Scarborough North","Scarborough-Nord"," 10","Toronto",N,N,"",0,613,"Chen","","Shaun","Liberal","Libéral",Y,Y,164
+35095,"Scarborough North","Scarborough-Nord"," 10","Toronto",N,N,"",0,613,"Manji","","Karishma","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,10
+35095,"Scarborough North","Scarborough-Nord"," 10","Toronto",N,N,"",0,613,"Sandhu","","Gurmit","Conservative","Conservateur",N,N,70
+35095,"Scarborough North","Scarborough-Nord"," 11","Toronto",N,N,"",1,367,"Chen","","Shaun","Liberal","Libéral",Y,Y,59
+35095,"Scarborough North","Scarborough-Nord"," 11","Toronto",N,N,"",1,367,"Manji","","Karishma","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,3
+35095,"Scarborough North","Scarborough-Nord"," 11","Toronto",N,N,"",1,367,"Sandhu","","Gurmit","Conservative","Conservateur",N,N,43
+35095,"Scarborough North","Scarborough-Nord"," 12","Toronto",N,N,"",1,377,"Chen","","Shaun","Liberal","Libéral",Y,Y,50
+35095,"Scarborough North","Scarborough-Nord"," 12","Toronto",N,N,"",1,377,"Manji","","Karishma","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,3
+35095,"Scarborough North","Scarborough-Nord"," 12","Toronto",N,N,"",1,377,"Sandhu","","Gurmit","Conservative","Conservateur",N,N,33
+35095,"Scarborough North","Scarborough-Nord"," 13","Toronto",N,N,"",3,439,"Chen","","Shaun","Liberal","Libéral",Y,Y,90
+35095,"Scarborough North","Scarborough-Nord"," 13","Toronto",N,N,"",3,439,"Manji","","Karishma","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,5
+35095,"Scarborough North","Scarborough-Nord"," 13","Toronto",N,N,"",3,439,"Sandhu","","Gurmit","Conservative","Conservateur",N,N,55
+35095,"Scarborough North","Scarborough-Nord"," 14","Toronto",N,N,"",0,350,"Chen","","Shaun","Liberal","Libéral",Y,Y,61
+35095,"Scarborough North","Scarborough-Nord"," 14","Toronto",N,N,"",0,350,"Manji","","Karishma","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,2
+35095,"Scarborough North","Scarborough-Nord"," 14","Toronto",N,N,"",0,350,"Sandhu","","Gurmit","Conservative","Conservateur",N,N,28
+35095,"Scarborough North","Scarborough-Nord"," 15","Toronto",N,N,"",0,402,"Chen","","Shaun","Liberal","Libéral",Y,Y,71
+35095,"Scarborough North","Scarborough-Nord"," 15","Toronto",N,N,"",0,402,"Manji","","Karishma","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,3
+35095,"Scarborough North","Scarborough-Nord"," 15","Toronto",N,N,"",0,402,"Sandhu","","Gurmit","Conservative","Conservateur",N,N,45
+35095,"Scarborough North","Scarborough-Nord"," 16","Toronto",N,N,"",0,332,"Chen","","Shaun","Liberal","Libéral",Y,Y,63
+35095,"Scarborough North","Scarborough-Nord"," 16","Toronto",N,N,"",0,332,"Manji","","Karishma","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,3
+35095,"Scarborough North","Scarborough-Nord"," 16","Toronto",N,N,"",0,332,"Sandhu","","Gurmit","Conservative","Conservateur",N,N,32
+35095,"Scarborough North","Scarborough-Nord"," 17","Toronto",N,N,"",1,348,"Chen","","Shaun","Liberal","Libéral",Y,Y,94
+35095,"Scarborough North","Scarborough-Nord"," 17","Toronto",N,N,"",1,348,"Manji","","Karishma","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,4
+35095,"Scarborough North","Scarborough-Nord"," 17","Toronto",N,N,"",1,348,"Sandhu","","Gurmit","Conservative","Conservateur",N,N,48
+35095,"Scarborough North","Scarborough-Nord"," 18","Toronto",N,N,"",0,427,"Chen","","Shaun","Liberal","Libéral",Y,Y,97
+35095,"Scarborough North","Scarborough-Nord"," 18","Toronto",N,N,"",0,427,"Manji","","Karishma","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,7
+35095,"Scarborough North","Scarborough-Nord"," 18","Toronto",N,N,"",0,427,"Sandhu","","Gurmit","Conservative","Conservateur",N,N,69
+35095,"Scarborough North","Scarborough-Nord"," 19","Toronto",N,N,"",0,371,"Chen","","Shaun","Liberal","Libéral",Y,Y,95
+35095,"Scarborough North","Scarborough-Nord"," 19","Toronto",N,N,"",0,371,"Manji","","Karishma","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,2
+35095,"Scarborough North","Scarborough-Nord"," 19","Toronto",N,N,"",0,371,"Sandhu","","Gurmit","Conservative","Conservateur",N,N,56
+35095,"Scarborough North","Scarborough-Nord"," 20","Toronto",N,N,"",1,423,"Chen","","Shaun","Liberal","Libéral",Y,Y,98
+35095,"Scarborough North","Scarborough-Nord"," 20","Toronto",N,N,"",1,423,"Manji","","Karishma","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,5
+35095,"Scarborough North","Scarborough-Nord"," 20","Toronto",N,N,"",1,423,"Sandhu","","Gurmit","Conservative","Conservateur",N,N,53
+35095,"Scarborough North","Scarborough-Nord"," 21","Toronto",N,N,"",0,393,"Chen","","Shaun","Liberal","Libéral",Y,Y,70
+35095,"Scarborough North","Scarborough-Nord"," 21","Toronto",N,N,"",0,393,"Manji","","Karishma","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,1
+35095,"Scarborough North","Scarborough-Nord"," 21","Toronto",N,N,"",0,393,"Sandhu","","Gurmit","Conservative","Conservateur",N,N,52
+35095,"Scarborough North","Scarborough-Nord"," 22","Toronto",N,N,"",2,412,"Chen","","Shaun","Liberal","Libéral",Y,Y,88
+35095,"Scarborough North","Scarborough-Nord"," 22","Toronto",N,N,"",2,412,"Manji","","Karishma","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,1
+35095,"Scarborough North","Scarborough-Nord"," 22","Toronto",N,N,"",2,412,"Sandhu","","Gurmit","Conservative","Conservateur",N,N,60
+35095,"Scarborough North","Scarborough-Nord"," 23","Toronto",N,N,"",1,440,"Chen","","Shaun","Liberal","Libéral",Y,Y,89
+35095,"Scarborough North","Scarborough-Nord"," 23","Toronto",N,N,"",1,440,"Manji","","Karishma","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,4
+35095,"Scarborough North","Scarborough-Nord"," 23","Toronto",N,N,"",1,440,"Sandhu","","Gurmit","Conservative","Conservateur",N,N,36
+35095,"Scarborough North","Scarborough-Nord"," 24","Toronto",N,N,"",1,281,"Chen","","Shaun","Liberal","Libéral",Y,Y,49
+35095,"Scarborough North","Scarborough-Nord"," 24","Toronto",N,N,"",1,281,"Manji","","Karishma","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,1
+35095,"Scarborough North","Scarborough-Nord"," 24","Toronto",N,N,"",1,281,"Sandhu","","Gurmit","Conservative","Conservateur",N,N,41
+35095,"Scarborough North","Scarborough-Nord"," 25","Toronto",N,N,"",0,411,"Chen","","Shaun","Liberal","Libéral",Y,Y,75
+35095,"Scarborough North","Scarborough-Nord"," 25","Toronto",N,N,"",0,411,"Manji","","Karishma","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,6
+35095,"Scarborough North","Scarborough-Nord"," 25","Toronto",N,N,"",0,411,"Sandhu","","Gurmit","Conservative","Conservateur",N,N,60
+35095,"Scarborough North","Scarborough-Nord"," 26","Toronto",N,N,"",0,392,"Chen","","Shaun","Liberal","Libéral",Y,Y,104
+35095,"Scarborough North","Scarborough-Nord"," 26","Toronto",N,N,"",0,392,"Manji","","Karishma","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,9
+35095,"Scarborough North","Scarborough-Nord"," 26","Toronto",N,N,"",0,392,"Sandhu","","Gurmit","Conservative","Conservateur",N,N,63
+35095,"Scarborough North","Scarborough-Nord"," 27","Toronto",N,N,"",3,408,"Chen","","Shaun","Liberal","Libéral",Y,Y,101
+35095,"Scarborough North","Scarborough-Nord"," 27","Toronto",N,N,"",3,408,"Manji","","Karishma","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,5
+35095,"Scarborough North","Scarborough-Nord"," 27","Toronto",N,N,"",3,408,"Sandhu","","Gurmit","Conservative","Conservateur",N,N,79
+35095,"Scarborough North","Scarborough-Nord"," 28","Toronto",N,N,"",2,329,"Chen","","Shaun","Liberal","Libéral",Y,Y,59
+35095,"Scarborough North","Scarborough-Nord"," 28","Toronto",N,N,"",2,329,"Manji","","Karishma","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,6
+35095,"Scarborough North","Scarborough-Nord"," 28","Toronto",N,N,"",2,329,"Sandhu","","Gurmit","Conservative","Conservateur",N,N,42
+35095,"Scarborough North","Scarborough-Nord"," 29","Toronto",N,N,"",1,468,"Chen","","Shaun","Liberal","Libéral",Y,Y,91
+35095,"Scarborough North","Scarborough-Nord"," 29","Toronto",N,N,"",1,468,"Manji","","Karishma","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,5
+35095,"Scarborough North","Scarborough-Nord"," 29","Toronto",N,N,"",1,468,"Sandhu","","Gurmit","Conservative","Conservateur",N,N,48
+35095,"Scarborough North","Scarborough-Nord"," 30","Toronto",N,N,"",0,443,"Chen","","Shaun","Liberal","Libéral",Y,Y,87
+35095,"Scarborough North","Scarborough-Nord"," 30","Toronto",N,N,"",0,443,"Manji","","Karishma","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,1
+35095,"Scarborough North","Scarborough-Nord"," 30","Toronto",N,N,"",0,443,"Sandhu","","Gurmit","Conservative","Conservateur",N,N,65
+35095,"Scarborough North","Scarborough-Nord"," 31","Toronto",N,N,"",4,567,"Chen","","Shaun","Liberal","Libéral",Y,Y,137
+35095,"Scarborough North","Scarborough-Nord"," 31","Toronto",N,N,"",4,567,"Manji","","Karishma","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,11
+35095,"Scarborough North","Scarborough-Nord"," 31","Toronto",N,N,"",4,567,"Sandhu","","Gurmit","Conservative","Conservateur",N,N,62
+35095,"Scarborough North","Scarborough-Nord"," 32","Toronto",N,N,"",4,482,"Chen","","Shaun","Liberal","Libéral",Y,Y,128
+35095,"Scarborough North","Scarborough-Nord"," 32","Toronto",N,N,"",4,482,"Manji","","Karishma","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,9
+35095,"Scarborough North","Scarborough-Nord"," 32","Toronto",N,N,"",4,482,"Sandhu","","Gurmit","Conservative","Conservateur",N,N,63
+35095,"Scarborough North","Scarborough-Nord"," 33","Toronto",N,N,"",1,534,"Chen","","Shaun","Liberal","Libéral",Y,Y,85
+35095,"Scarborough North","Scarborough-Nord"," 33","Toronto",N,N,"",1,534,"Manji","","Karishma","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,7
+35095,"Scarborough North","Scarborough-Nord"," 33","Toronto",N,N,"",1,534,"Sandhu","","Gurmit","Conservative","Conservateur",N,N,69
+35095,"Scarborough North","Scarborough-Nord"," 34","Toronto",N,N,"",1,377,"Chen","","Shaun","Liberal","Libéral",Y,Y,113
+35095,"Scarborough North","Scarborough-Nord"," 34","Toronto",N,N,"",1,377,"Manji","","Karishma","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,4
+35095,"Scarborough North","Scarborough-Nord"," 34","Toronto",N,N,"",1,377,"Sandhu","","Gurmit","Conservative","Conservateur",N,N,58
+35095,"Scarborough North","Scarborough-Nord"," 35","Toronto",N,N,"",1,360,"Chen","","Shaun","Liberal","Libéral",Y,Y,83
+35095,"Scarborough North","Scarborough-Nord"," 35","Toronto",N,N,"",1,360,"Manji","","Karishma","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,79
+35095,"Scarborough North","Scarborough-Nord"," 35","Toronto",N,N,"",1,360,"Sandhu","","Gurmit","Conservative","Conservateur",N,N,5
+35095,"Scarborough North","Scarborough-Nord"," 36","Toronto",N,N,"",3,373,"Chen","","Shaun","Liberal","Libéral",Y,Y,101
+35095,"Scarborough North","Scarborough-Nord"," 36","Toronto",N,N,"",3,373,"Manji","","Karishma","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,5
+35095,"Scarborough North","Scarborough-Nord"," 36","Toronto",N,N,"",3,373,"Sandhu","","Gurmit","Conservative","Conservateur",N,N,73
+35095,"Scarborough North","Scarborough-Nord"," 37","Toronto",N,N,"",6,339,"Chen","","Shaun","Liberal","Libéral",Y,Y,65
+35095,"Scarborough North","Scarborough-Nord"," 37","Toronto",N,N,"",6,339,"Manji","","Karishma","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,7
+35095,"Scarborough North","Scarborough-Nord"," 37","Toronto",N,N,"",6,339,"Sandhu","","Gurmit","Conservative","Conservateur",N,N,75
+35095,"Scarborough North","Scarborough-Nord"," 38","Toronto",N,N,"",2,506,"Chen","","Shaun","Liberal","Libéral",Y,Y,134
+35095,"Scarborough North","Scarborough-Nord"," 38","Toronto",N,N,"",2,506,"Manji","","Karishma","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,5
+35095,"Scarborough North","Scarborough-Nord"," 38","Toronto",N,N,"",2,506,"Sandhu","","Gurmit","Conservative","Conservateur",N,N,95
+35095,"Scarborough North","Scarborough-Nord"," 39","Toronto",N,N,"",1,439,"Chen","","Shaun","Liberal","Libéral",Y,Y,123
+35095,"Scarborough North","Scarborough-Nord"," 39","Toronto",N,N,"",1,439,"Manji","","Karishma","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,7
+35095,"Scarborough North","Scarborough-Nord"," 39","Toronto",N,N,"",1,439,"Sandhu","","Gurmit","Conservative","Conservateur",N,N,71
+35095,"Scarborough North","Scarborough-Nord"," 40","Toronto",N,N,"",5,574,"Chen","","Shaun","Liberal","Libéral",Y,Y,135
+35095,"Scarborough North","Scarborough-Nord"," 40","Toronto",N,N,"",5,574,"Manji","","Karishma","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,10
+35095,"Scarborough North","Scarborough-Nord"," 40","Toronto",N,N,"",5,574,"Sandhu","","Gurmit","Conservative","Conservateur",N,N,81
+35095,"Scarborough North","Scarborough-Nord"," 41","Toronto",N,N,"",7,380,"Chen","","Shaun","Liberal","Libéral",Y,Y,114
+35095,"Scarborough North","Scarborough-Nord"," 41","Toronto",N,N,"",7,380,"Manji","","Karishma","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,8
+35095,"Scarborough North","Scarborough-Nord"," 41","Toronto",N,N,"",7,380,"Sandhu","","Gurmit","Conservative","Conservateur",N,N,44
+35095,"Scarborough North","Scarborough-Nord"," 42","Toronto",N,N,"",1,339,"Chen","","Shaun","Liberal","Libéral",Y,Y,88
+35095,"Scarborough North","Scarborough-Nord"," 42","Toronto",N,N,"",1,339,"Manji","","Karishma","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,6
+35095,"Scarborough North","Scarborough-Nord"," 42","Toronto",N,N,"",1,339,"Sandhu","","Gurmit","Conservative","Conservateur",N,N,22
+35095,"Scarborough North","Scarborough-Nord"," 43","Toronto",N,N,"",2,430,"Chen","","Shaun","Liberal","Libéral",Y,Y,127
+35095,"Scarborough North","Scarborough-Nord"," 43","Toronto",N,N,"",2,430,"Manji","","Karishma","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,3
+35095,"Scarborough North","Scarborough-Nord"," 43","Toronto",N,N,"",2,430,"Sandhu","","Gurmit","Conservative","Conservateur",N,N,38
+35095,"Scarborough North","Scarborough-Nord"," 44","Toronto",N,N,"",2,365,"Chen","","Shaun","Liberal","Libéral",Y,Y,81
+35095,"Scarborough North","Scarborough-Nord"," 44","Toronto",N,N,"",2,365,"Manji","","Karishma","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,4
+35095,"Scarborough North","Scarborough-Nord"," 44","Toronto",N,N,"",2,365,"Sandhu","","Gurmit","Conservative","Conservateur",N,N,31
+35095,"Scarborough North","Scarborough-Nord"," 45","Toronto",N,N,"",5,395,"Chen","","Shaun","Liberal","Libéral",Y,Y,122
+35095,"Scarborough North","Scarborough-Nord"," 45","Toronto",N,N,"",5,395,"Manji","","Karishma","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,5
+35095,"Scarborough North","Scarborough-Nord"," 45","Toronto",N,N,"",5,395,"Sandhu","","Gurmit","Conservative","Conservateur",N,N,44
+35095,"Scarborough North","Scarborough-Nord"," 46","Toronto",N,N,"",2,442,"Chen","","Shaun","Liberal","Libéral",Y,Y,82
+35095,"Scarborough North","Scarborough-Nord"," 46","Toronto",N,N,"",2,442,"Manji","","Karishma","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,6
+35095,"Scarborough North","Scarborough-Nord"," 46","Toronto",N,N,"",2,442,"Sandhu","","Gurmit","Conservative","Conservateur",N,N,71
+35095,"Scarborough North","Scarborough-Nord"," 47","Toronto",N,N,"",2,516,"Chen","","Shaun","Liberal","Libéral",Y,Y,61
+35095,"Scarborough North","Scarborough-Nord"," 47","Toronto",N,N,"",2,516,"Manji","","Karishma","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,10
+35095,"Scarborough North","Scarborough-Nord"," 47","Toronto",N,N,"",2,516,"Sandhu","","Gurmit","Conservative","Conservateur",N,N,60
+35095,"Scarborough North","Scarborough-Nord"," 48","Toronto",N,N,"",1,360,"Chen","","Shaun","Liberal","Libéral",Y,Y,81
+35095,"Scarborough North","Scarborough-Nord"," 48","Toronto",N,N,"",1,360,"Manji","","Karishma","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,4
+35095,"Scarborough North","Scarborough-Nord"," 48","Toronto",N,N,"",1,360,"Sandhu","","Gurmit","Conservative","Conservateur",N,N,45
+35095,"Scarborough North","Scarborough-Nord"," 49","Toronto",N,N,"",0,381,"Chen","","Shaun","Liberal","Libéral",Y,Y,44
+35095,"Scarborough North","Scarborough-Nord"," 49","Toronto",N,N,"",0,381,"Manji","","Karishma","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,1
+35095,"Scarborough North","Scarborough-Nord"," 49","Toronto",N,N,"",0,381,"Sandhu","","Gurmit","Conservative","Conservateur",N,N,54
+35095,"Scarborough North","Scarborough-Nord"," 50","Toronto",N,N,"",1,407,"Chen","","Shaun","Liberal","Libéral",Y,Y,80
+35095,"Scarborough North","Scarborough-Nord"," 50","Toronto",N,N,"",1,407,"Manji","","Karishma","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,5
+35095,"Scarborough North","Scarborough-Nord"," 50","Toronto",N,N,"",1,407,"Sandhu","","Gurmit","Conservative","Conservateur",N,N,50
+35095,"Scarborough North","Scarborough-Nord"," 51","Toronto",N,N,"",0,363,"Chen","","Shaun","Liberal","Libéral",Y,Y,61
+35095,"Scarborough North","Scarborough-Nord"," 51","Toronto",N,N,"",0,363,"Manji","","Karishma","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,1
+35095,"Scarborough North","Scarborough-Nord"," 51","Toronto",N,N,"",0,363,"Sandhu","","Gurmit","Conservative","Conservateur",N,N,58
+35095,"Scarborough North","Scarborough-Nord"," 52","Toronto",N,N,"",2,405,"Chen","","Shaun","Liberal","Libéral",Y,Y,78
+35095,"Scarborough North","Scarborough-Nord"," 52","Toronto",N,N,"",2,405,"Manji","","Karishma","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,2
+35095,"Scarborough North","Scarborough-Nord"," 52","Toronto",N,N,"",2,405,"Sandhu","","Gurmit","Conservative","Conservateur",N,N,42
+35095,"Scarborough North","Scarborough-Nord"," 53","Toronto",N,N,"",2,455,"Chen","","Shaun","Liberal","Libéral",Y,Y,91
+35095,"Scarborough North","Scarborough-Nord"," 53","Toronto",N,N,"",2,455,"Manji","","Karishma","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,6
+35095,"Scarborough North","Scarborough-Nord"," 53","Toronto",N,N,"",2,455,"Sandhu","","Gurmit","Conservative","Conservateur",N,N,65
+35095,"Scarborough North","Scarborough-Nord"," 54","Toronto",N,N,"",1,378,"Chen","","Shaun","Liberal","Libéral",Y,Y,99
+35095,"Scarborough North","Scarborough-Nord"," 54","Toronto",N,N,"",1,378,"Manji","","Karishma","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,3
+35095,"Scarborough North","Scarborough-Nord"," 54","Toronto",N,N,"",1,378,"Sandhu","","Gurmit","Conservative","Conservateur",N,N,50
+35095,"Scarborough North","Scarborough-Nord"," 55","Toronto",N,N,"",0,369,"Chen","","Shaun","Liberal","Libéral",Y,Y,87
+35095,"Scarborough North","Scarborough-Nord"," 55","Toronto",N,N,"",0,369,"Manji","","Karishma","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,3
+35095,"Scarborough North","Scarborough-Nord"," 55","Toronto",N,N,"",0,369,"Sandhu","","Gurmit","Conservative","Conservateur",N,N,62
+35095,"Scarborough North","Scarborough-Nord"," 56","Toronto",N,N,"",1,429,"Chen","","Shaun","Liberal","Libéral",Y,Y,88
+35095,"Scarborough North","Scarborough-Nord"," 56","Toronto",N,N,"",1,429,"Manji","","Karishma","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,56
+35095,"Scarborough North","Scarborough-Nord"," 56","Toronto",N,N,"",1,429,"Sandhu","","Gurmit","Conservative","Conservateur",N,N,9
+35095,"Scarborough North","Scarborough-Nord"," 57","Toronto",N,N,"",0,335,"Chen","","Shaun","Liberal","Libéral",Y,Y,80
+35095,"Scarborough North","Scarborough-Nord"," 57","Toronto",N,N,"",0,335,"Manji","","Karishma","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,3
+35095,"Scarborough North","Scarborough-Nord"," 57","Toronto",N,N,"",0,335,"Sandhu","","Gurmit","Conservative","Conservateur",N,N,57
+35095,"Scarborough North","Scarborough-Nord"," 58","Toronto",N,N,"",1,408,"Chen","","Shaun","Liberal","Libéral",Y,Y,92
+35095,"Scarborough North","Scarborough-Nord"," 58","Toronto",N,N,"",1,408,"Manji","","Karishma","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,5
+35095,"Scarborough North","Scarborough-Nord"," 58","Toronto",N,N,"",1,408,"Sandhu","","Gurmit","Conservative","Conservateur",N,N,72
+35095,"Scarborough North","Scarborough-Nord"," 59","Toronto",N,N,"",0,341,"Chen","","Shaun","Liberal","Libéral",Y,Y,72
+35095,"Scarborough North","Scarborough-Nord"," 59","Toronto",N,N,"",0,341,"Manji","","Karishma","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,2
+35095,"Scarborough North","Scarborough-Nord"," 59","Toronto",N,N,"",0,341,"Sandhu","","Gurmit","Conservative","Conservateur",N,N,38
+35095,"Scarborough North","Scarborough-Nord"," 60","Toronto",N,N,"",2,427,"Chen","","Shaun","Liberal","Libéral",Y,Y,117
+35095,"Scarborough North","Scarborough-Nord"," 60","Toronto",N,N,"",2,427,"Manji","","Karishma","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,4
+35095,"Scarborough North","Scarborough-Nord"," 60","Toronto",N,N,"",2,427,"Sandhu","","Gurmit","Conservative","Conservateur",N,N,53
+35095,"Scarborough North","Scarborough-Nord"," 61","Toronto",N,N,"",1,460,"Chen","","Shaun","Liberal","Libéral",Y,Y,90
+35095,"Scarborough North","Scarborough-Nord"," 61","Toronto",N,N,"",1,460,"Manji","","Karishma","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,6
+35095,"Scarborough North","Scarborough-Nord"," 61","Toronto",N,N,"",1,460,"Sandhu","","Gurmit","Conservative","Conservateur",N,N,51
+35095,"Scarborough North","Scarborough-Nord"," 62","Toronto",N,N,"",1,419,"Chen","","Shaun","Liberal","Libéral",Y,Y,113
+35095,"Scarborough North","Scarborough-Nord"," 62","Toronto",N,N,"",1,419,"Manji","","Karishma","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,10
+35095,"Scarborough North","Scarborough-Nord"," 62","Toronto",N,N,"",1,419,"Sandhu","","Gurmit","Conservative","Conservateur",N,N,40
+35095,"Scarborough North","Scarborough-Nord"," 63","Toronto",N,N,"",0,580,"Chen","","Shaun","Liberal","Libéral",Y,Y,116
+35095,"Scarborough North","Scarborough-Nord"," 63","Toronto",N,N,"",0,580,"Manji","","Karishma","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,9
+35095,"Scarborough North","Scarborough-Nord"," 63","Toronto",N,N,"",0,580,"Sandhu","","Gurmit","Conservative","Conservateur",N,N,75
+35095,"Scarborough North","Scarborough-Nord"," 64","Toronto",N,N,"",0,434,"Chen","","Shaun","Liberal","Libéral",Y,Y,86
+35095,"Scarborough North","Scarborough-Nord"," 64","Toronto",N,N,"",0,434,"Manji","","Karishma","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,8
+35095,"Scarborough North","Scarborough-Nord"," 64","Toronto",N,N,"",0,434,"Sandhu","","Gurmit","Conservative","Conservateur",N,N,37
+35095,"Scarborough North","Scarborough-Nord"," 65","Toronto",N,N,"",0,424,"Chen","","Shaun","Liberal","Libéral",Y,Y,82
+35095,"Scarborough North","Scarborough-Nord"," 65","Toronto",N,N,"",0,424,"Manji","","Karishma","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,0
+35095,"Scarborough North","Scarborough-Nord"," 65","Toronto",N,N,"",0,424,"Sandhu","","Gurmit","Conservative","Conservateur",N,N,51
+35095,"Scarborough North","Scarborough-Nord"," 66","Toronto",N,N,"",0,384,"Chen","","Shaun","Liberal","Libéral",Y,Y,79
+35095,"Scarborough North","Scarborough-Nord"," 66","Toronto",N,N,"",0,384,"Manji","","Karishma","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,4
+35095,"Scarborough North","Scarborough-Nord"," 66","Toronto",N,N,"",0,384,"Sandhu","","Gurmit","Conservative","Conservateur",N,N,36
+35095,"Scarborough North","Scarborough-Nord"," 67","Toronto",N,N,"",1,329,"Chen","","Shaun","Liberal","Libéral",Y,Y,56
+35095,"Scarborough North","Scarborough-Nord"," 67","Toronto",N,N,"",1,329,"Manji","","Karishma","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,2
+35095,"Scarborough North","Scarborough-Nord"," 67","Toronto",N,N,"",1,329,"Sandhu","","Gurmit","Conservative","Conservateur",N,N,41
+35095,"Scarborough North","Scarborough-Nord"," 68","Toronto",N,N,"",4,437,"Chen","","Shaun","Liberal","Libéral",Y,Y,77
+35095,"Scarborough North","Scarborough-Nord"," 68","Toronto",N,N,"",4,437,"Manji","","Karishma","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,5
+35095,"Scarborough North","Scarborough-Nord"," 68","Toronto",N,N,"",4,437,"Sandhu","","Gurmit","Conservative","Conservateur",N,N,39
+35095,"Scarborough North","Scarborough-Nord"," 69","Toronto",N,N,"",4,541,"Chen","","Shaun","Liberal","Libéral",Y,Y,74
+35095,"Scarborough North","Scarborough-Nord"," 69","Toronto",N,N,"",4,541,"Manji","","Karishma","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,10
+35095,"Scarborough North","Scarborough-Nord"," 69","Toronto",N,N,"",4,541,"Sandhu","","Gurmit","Conservative","Conservateur",N,N,57
+35095,"Scarborough North","Scarborough-Nord"," 70","Toronto",N,N,"",1,552,"Chen","","Shaun","Liberal","Libéral",Y,Y,95
+35095,"Scarborough North","Scarborough-Nord"," 70","Toronto",N,N,"",1,552,"Manji","","Karishma","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,5
+35095,"Scarborough North","Scarborough-Nord"," 70","Toronto",N,N,"",1,552,"Sandhu","","Gurmit","Conservative","Conservateur",N,N,49
+35095,"Scarborough North","Scarborough-Nord"," 71","Toronto",N,N,"",0,607,"Chen","","Shaun","Liberal","Libéral",Y,Y,128
+35095,"Scarborough North","Scarborough-Nord"," 71","Toronto",N,N,"",0,607,"Manji","","Karishma","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,10
+35095,"Scarborough North","Scarborough-Nord"," 71","Toronto",N,N,"",0,607,"Sandhu","","Gurmit","Conservative","Conservateur",N,N,52
+35095,"Scarborough North","Scarborough-Nord"," 72","Toronto",N,N,"",1,371,"Chen","","Shaun","Liberal","Libéral",Y,Y,94
+35095,"Scarborough North","Scarborough-Nord"," 72","Toronto",N,N,"",1,371,"Manji","","Karishma","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,6
+35095,"Scarborough North","Scarborough-Nord"," 72","Toronto",N,N,"",1,371,"Sandhu","","Gurmit","Conservative","Conservateur",N,N,57
+35095,"Scarborough North","Scarborough-Nord"," 73","Toronto",N,N,"",2,492,"Chen","","Shaun","Liberal","Libéral",Y,Y,118
+35095,"Scarborough North","Scarborough-Nord"," 73","Toronto",N,N,"",2,492,"Manji","","Karishma","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,7
+35095,"Scarborough North","Scarborough-Nord"," 73","Toronto",N,N,"",2,492,"Sandhu","","Gurmit","Conservative","Conservateur",N,N,66
+35095,"Scarborough North","Scarborough-Nord"," 74","Toronto",N,N,"",2,588,"Chen","","Shaun","Liberal","Libéral",Y,Y,145
+35095,"Scarborough North","Scarborough-Nord"," 74","Toronto",N,N,"",2,588,"Manji","","Karishma","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,9
+35095,"Scarborough North","Scarborough-Nord"," 74","Toronto",N,N,"",2,588,"Sandhu","","Gurmit","Conservative","Conservateur",N,N,81
+35095,"Scarborough North","Scarborough-Nord"," 75","Toronto",N,N,"",2,326,"Chen","","Shaun","Liberal","Libéral",Y,Y,87
+35095,"Scarborough North","Scarborough-Nord"," 75","Toronto",N,N,"",2,326,"Manji","","Karishma","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,8
+35095,"Scarborough North","Scarborough-Nord"," 75","Toronto",N,N,"",2,326,"Sandhu","","Gurmit","Conservative","Conservateur",N,N,50
+35095,"Scarborough North","Scarborough-Nord"," 76","Toronto",N,N,"",3,460,"Chen","","Shaun","Liberal","Libéral",Y,Y,120
+35095,"Scarborough North","Scarborough-Nord"," 76","Toronto",N,N,"",3,460,"Manji","","Karishma","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,6
+35095,"Scarborough North","Scarborough-Nord"," 76","Toronto",N,N,"",3,460,"Sandhu","","Gurmit","Conservative","Conservateur",N,N,59
+35095,"Scarborough North","Scarborough-Nord"," 77","Toronto",N,N,"",2,506,"Chen","","Shaun","Liberal","Libéral",Y,Y,107
+35095,"Scarborough North","Scarborough-Nord"," 77","Toronto",N,N,"",2,506,"Manji","","Karishma","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,6
+35095,"Scarborough North","Scarborough-Nord"," 77","Toronto",N,N,"",2,506,"Sandhu","","Gurmit","Conservative","Conservateur",N,N,84
+35095,"Scarborough North","Scarborough-Nord"," 78","Toronto",N,N,"",1,529,"Chen","","Shaun","Liberal","Libéral",Y,Y,161
+35095,"Scarborough North","Scarborough-Nord"," 78","Toronto",N,N,"",1,529,"Manji","","Karishma","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,10
+35095,"Scarborough North","Scarborough-Nord"," 78","Toronto",N,N,"",1,529,"Sandhu","","Gurmit","Conservative","Conservateur",N,N,76
+35095,"Scarborough North","Scarborough-Nord"," 79","Toronto",N,N,"",0,577,"Chen","","Shaun","Liberal","Libéral",Y,Y,135
+35095,"Scarborough North","Scarborough-Nord"," 79","Toronto",N,N,"",0,577,"Manji","","Karishma","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,12
+35095,"Scarborough North","Scarborough-Nord"," 79","Toronto",N,N,"",0,577,"Sandhu","","Gurmit","Conservative","Conservateur",N,N,46
+35095,"Scarborough North","Scarborough-Nord"," 80","Toronto",N,N,"",0,464,"Chen","","Shaun","Liberal","Libéral",Y,Y,155
+35095,"Scarborough North","Scarborough-Nord"," 80","Toronto",N,N,"",0,464,"Manji","","Karishma","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,8
+35095,"Scarborough North","Scarborough-Nord"," 80","Toronto",N,N,"",0,464,"Sandhu","","Gurmit","Conservative","Conservateur",N,N,54
+35095,"Scarborough North","Scarborough-Nord"," 81","Toronto",N,N,"",2,530,"Chen","","Shaun","Liberal","Libéral",Y,Y,119
+35095,"Scarborough North","Scarborough-Nord"," 81","Toronto",N,N,"",2,530,"Manji","","Karishma","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,7
+35095,"Scarborough North","Scarborough-Nord"," 81","Toronto",N,N,"",2,530,"Sandhu","","Gurmit","Conservative","Conservateur",N,N,52
+35095,"Scarborough North","Scarborough-Nord"," 82","Toronto",N,N,"",0,445,"Chen","","Shaun","Liberal","Libéral",Y,Y,104
+35095,"Scarborough North","Scarborough-Nord"," 82","Toronto",N,N,"",0,445,"Manji","","Karishma","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,10
+35095,"Scarborough North","Scarborough-Nord"," 82","Toronto",N,N,"",0,445,"Sandhu","","Gurmit","Conservative","Conservateur",N,N,48
+35095,"Scarborough North","Scarborough-Nord"," 83","Toronto",N,N,"",2,433,"Chen","","Shaun","Liberal","Libéral",Y,Y,117
+35095,"Scarborough North","Scarborough-Nord"," 83","Toronto",N,N,"",2,433,"Manji","","Karishma","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,10
+35095,"Scarborough North","Scarborough-Nord"," 83","Toronto",N,N,"",2,433,"Sandhu","","Gurmit","Conservative","Conservateur",N,N,83
+35095,"Scarborough North","Scarborough-Nord"," 84","Toronto",N,N,"",2,541,"Chen","","Shaun","Liberal","Libéral",Y,Y,112
+35095,"Scarborough North","Scarborough-Nord"," 84","Toronto",N,N,"",2,541,"Manji","","Karishma","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,8
+35095,"Scarborough North","Scarborough-Nord"," 84","Toronto",N,N,"",2,541,"Sandhu","","Gurmit","Conservative","Conservateur",N,N,95
+35095,"Scarborough North","Scarborough-Nord"," 85","Toronto",N,N,"",1,451,"Chen","","Shaun","Liberal","Libéral",Y,Y,156
+35095,"Scarborough North","Scarborough-Nord"," 85","Toronto",N,N,"",1,451,"Manji","","Karishma","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,7
+35095,"Scarborough North","Scarborough-Nord"," 85","Toronto",N,N,"",1,451,"Sandhu","","Gurmit","Conservative","Conservateur",N,N,69
+35095,"Scarborough North","Scarborough-Nord"," 86","Toronto",N,N,"",3,470,"Chen","","Shaun","Liberal","Libéral",Y,Y,124
+35095,"Scarborough North","Scarborough-Nord"," 86","Toronto",N,N,"",3,470,"Manji","","Karishma","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,2
+35095,"Scarborough North","Scarborough-Nord"," 86","Toronto",N,N,"",3,470,"Sandhu","","Gurmit","Conservative","Conservateur",N,N,41
+35095,"Scarborough North","Scarborough-Nord"," 87","Toronto",N,N,"",2,497,"Chen","","Shaun","Liberal","Libéral",Y,Y,114
+35095,"Scarborough North","Scarborough-Nord"," 87","Toronto",N,N,"",2,497,"Manji","","Karishma","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,8
+35095,"Scarborough North","Scarborough-Nord"," 87","Toronto",N,N,"",2,497,"Sandhu","","Gurmit","Conservative","Conservateur",N,N,54
+35095,"Scarborough North","Scarborough-Nord"," 88","Toronto",N,N,"",4,421,"Chen","","Shaun","Liberal","Libéral",Y,Y,108
+35095,"Scarborough North","Scarborough-Nord"," 88","Toronto",N,N,"",4,421,"Manji","","Karishma","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,9
+35095,"Scarborough North","Scarborough-Nord"," 88","Toronto",N,N,"",4,421,"Sandhu","","Gurmit","Conservative","Conservateur",N,N,39
+35095,"Scarborough North","Scarborough-Nord"," 89","Toronto",N,N,"",1,361,"Chen","","Shaun","Liberal","Libéral",Y,Y,66
+35095,"Scarborough North","Scarborough-Nord"," 89","Toronto",N,N,"",1,361,"Manji","","Karishma","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,11
+35095,"Scarborough North","Scarborough-Nord"," 89","Toronto",N,N,"",1,361,"Sandhu","","Gurmit","Conservative","Conservateur",N,N,45
+35095,"Scarborough North","Scarborough-Nord"," 90","Toronto",N,N,"",0,442,"Chen","","Shaun","Liberal","Libéral",Y,Y,109
+35095,"Scarborough North","Scarborough-Nord"," 90","Toronto",N,N,"",0,442,"Manji","","Karishma","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,6
+35095,"Scarborough North","Scarborough-Nord"," 90","Toronto",N,N,"",0,442,"Sandhu","","Gurmit","Conservative","Conservateur",N,N,49
+35095,"Scarborough North","Scarborough-Nord"," 91","Toronto",N,N,"",0,372,"Chen","","Shaun","Liberal","Libéral",Y,Y,93
+35095,"Scarborough North","Scarborough-Nord"," 91","Toronto",N,N,"",0,372,"Manji","","Karishma","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,3
+35095,"Scarborough North","Scarborough-Nord"," 91","Toronto",N,N,"",0,372,"Sandhu","","Gurmit","Conservative","Conservateur",N,N,54
+35095,"Scarborough North","Scarborough-Nord"," 92","Toronto",N,N,"",1,444,"Chen","","Shaun","Liberal","Libéral",Y,Y,105
+35095,"Scarborough North","Scarborough-Nord"," 92","Toronto",N,N,"",1,444,"Manji","","Karishma","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,6
+35095,"Scarborough North","Scarborough-Nord"," 92","Toronto",N,N,"",1,444,"Sandhu","","Gurmit","Conservative","Conservateur",N,N,76
+35095,"Scarborough North","Scarborough-Nord"," 93","Toronto",N,N,"",1,286,"Chen","","Shaun","Liberal","Libéral",Y,Y,53
+35095,"Scarborough North","Scarborough-Nord"," 93","Toronto",N,N,"",1,286,"Manji","","Karishma","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,1
+35095,"Scarborough North","Scarborough-Nord"," 93","Toronto",N,N,"",1,286,"Sandhu","","Gurmit","Conservative","Conservateur",N,N,63
+35095,"Scarborough North","Scarborough-Nord"," 94","Toronto",N,N,"",1,382,"Chen","","Shaun","Liberal","Libéral",Y,Y,94
+35095,"Scarborough North","Scarborough-Nord"," 94","Toronto",N,N,"",1,382,"Manji","","Karishma","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,1
+35095,"Scarborough North","Scarborough-Nord"," 94","Toronto",N,N,"",1,382,"Sandhu","","Gurmit","Conservative","Conservateur",N,N,52
+35095,"Scarborough North","Scarborough-Nord"," 95","Toronto",N,N,"",1,530,"Chen","","Shaun","Liberal","Libéral",Y,Y,140
+35095,"Scarborough North","Scarborough-Nord"," 95","Toronto",N,N,"",1,530,"Manji","","Karishma","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,13
+35095,"Scarborough North","Scarborough-Nord"," 95","Toronto",N,N,"",1,530,"Sandhu","","Gurmit","Conservative","Conservateur",N,N,67
+35095,"Scarborough North","Scarborough-Nord"," 96","Toronto",N,N,"",1,474,"Chen","","Shaun","Liberal","Libéral",Y,Y,116
+35095,"Scarborough North","Scarborough-Nord"," 96","Toronto",N,N,"",1,474,"Manji","","Karishma","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,17
+35095,"Scarborough North","Scarborough-Nord"," 96","Toronto",N,N,"",1,474,"Sandhu","","Gurmit","Conservative","Conservateur",N,N,89
+35095,"Scarborough North","Scarborough-Nord"," 97","Toronto",N,N,"",3,580,"Chen","","Shaun","Liberal","Libéral",Y,Y,125
+35095,"Scarborough North","Scarborough-Nord"," 97","Toronto",N,N,"",3,580,"Manji","","Karishma","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,11
+35095,"Scarborough North","Scarborough-Nord"," 97","Toronto",N,N,"",3,580,"Sandhu","","Gurmit","Conservative","Conservateur",N,N,87
+35095,"Scarborough North","Scarborough-Nord"," 98","Toronto",N,N,"",2,540,"Chen","","Shaun","Liberal","Libéral",Y,Y,114
+35095,"Scarborough North","Scarborough-Nord"," 98","Toronto",N,N,"",2,540,"Manji","","Karishma","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,10
+35095,"Scarborough North","Scarborough-Nord"," 98","Toronto",N,N,"",2,540,"Sandhu","","Gurmit","Conservative","Conservateur",N,N,60
+35095,"Scarborough North","Scarborough-Nord"," 99","Toronto",N,N,"",0,312,"Chen","","Shaun","Liberal","Libéral",Y,Y,105
+35095,"Scarborough North","Scarborough-Nord"," 99","Toronto",N,N,"",0,312,"Manji","","Karishma","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,2
+35095,"Scarborough North","Scarborough-Nord"," 99","Toronto",N,N,"",0,312,"Sandhu","","Gurmit","Conservative","Conservateur",N,N,50
+35095,"Scarborough North","Scarborough-Nord"," 100","Toronto",N,N,"",0,410,"Chen","","Shaun","Liberal","Libéral",Y,Y,74
+35095,"Scarborough North","Scarborough-Nord"," 100","Toronto",N,N,"",0,410,"Manji","","Karishma","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,11
+35095,"Scarborough North","Scarborough-Nord"," 100","Toronto",N,N,"",0,410,"Sandhu","","Gurmit","Conservative","Conservateur",N,N,57
+35095,"Scarborough North","Scarborough-Nord"," 101","Toronto",N,N,"",4,434,"Chen","","Shaun","Liberal","Libéral",Y,Y,87
+35095,"Scarborough North","Scarborough-Nord"," 101","Toronto",N,N,"",4,434,"Manji","","Karishma","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,8
+35095,"Scarborough North","Scarborough-Nord"," 101","Toronto",N,N,"",4,434,"Sandhu","","Gurmit","Conservative","Conservateur",N,N,71
+35095,"Scarborough North","Scarborough-Nord"," 102","Toronto",N,N,"",0,360,"Chen","","Shaun","Liberal","Libéral",Y,Y,95
+35095,"Scarborough North","Scarborough-Nord"," 102","Toronto",N,N,"",0,360,"Manji","","Karishma","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,2
+35095,"Scarborough North","Scarborough-Nord"," 102","Toronto",N,N,"",0,360,"Sandhu","","Gurmit","Conservative","Conservateur",N,N,52
+35095,"Scarborough North","Scarborough-Nord"," 103","Toronto",N,N,"",0,419,"Chen","","Shaun","Liberal","Libéral",Y,Y,110
+35095,"Scarborough North","Scarborough-Nord"," 103","Toronto",N,N,"",0,419,"Manji","","Karishma","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,10
+35095,"Scarborough North","Scarborough-Nord"," 103","Toronto",N,N,"",0,419,"Sandhu","","Gurmit","Conservative","Conservateur",N,N,78
+35095,"Scarborough North","Scarborough-Nord"," 104","Toronto",N,N,"",1,586,"Chen","","Shaun","Liberal","Libéral",Y,Y,104
+35095,"Scarborough North","Scarborough-Nord"," 104","Toronto",N,N,"",1,586,"Manji","","Karishma","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,10
+35095,"Scarborough North","Scarborough-Nord"," 104","Toronto",N,N,"",1,586,"Sandhu","","Gurmit","Conservative","Conservateur",N,N,68
+35095,"Scarborough North","Scarborough-Nord"," 105","Toronto",N,N,"",2,474,"Chen","","Shaun","Liberal","Libéral",Y,Y,112
+35095,"Scarborough North","Scarborough-Nord"," 105","Toronto",N,N,"",2,474,"Manji","","Karishma","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,12
+35095,"Scarborough North","Scarborough-Nord"," 105","Toronto",N,N,"",2,474,"Sandhu","","Gurmit","Conservative","Conservateur",N,N,69
+35095,"Scarborough North","Scarborough-Nord"," 106","Toronto",N,N,"",1,305,"Chen","","Shaun","Liberal","Libéral",Y,Y,59
+35095,"Scarborough North","Scarborough-Nord"," 106","Toronto",N,N,"",1,305,"Manji","","Karishma","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,2
+35095,"Scarborough North","Scarborough-Nord"," 106","Toronto",N,N,"",1,305,"Sandhu","","Gurmit","Conservative","Conservateur",N,N,37
+35095,"Scarborough North","Scarborough-Nord"," 107","Toronto",N,N,"",0,523,"Chen","","Shaun","Liberal","Libéral",Y,Y,146
+35095,"Scarborough North","Scarborough-Nord"," 107","Toronto",N,N,"",0,523,"Manji","","Karishma","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,6
+35095,"Scarborough North","Scarborough-Nord"," 107","Toronto",N,N,"",0,523,"Sandhu","","Gurmit","Conservative","Conservateur",N,N,87
+35095,"Scarborough North","Scarborough-Nord"," 108","Toronto",N,N,"",3,475,"Chen","","Shaun","Liberal","Libéral",Y,Y,84
+35095,"Scarborough North","Scarborough-Nord"," 108","Toronto",N,N,"",3,475,"Manji","","Karishma","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,7
+35095,"Scarborough North","Scarborough-Nord"," 108","Toronto",N,N,"",3,475,"Sandhu","","Gurmit","Conservative","Conservateur",N,N,38
+35095,"Scarborough North","Scarborough-Nord"," 109","Toronto",N,N,"",1,460,"Chen","","Shaun","Liberal","Libéral",Y,Y,70
+35095,"Scarborough North","Scarborough-Nord"," 109","Toronto",N,N,"",1,460,"Manji","","Karishma","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,9
+35095,"Scarborough North","Scarborough-Nord"," 109","Toronto",N,N,"",1,460,"Sandhu","","Gurmit","Conservative","Conservateur",N,N,40
+35095,"Scarborough North","Scarborough-Nord"," 110","Toronto",N,N,"",0,433,"Chen","","Shaun","Liberal","Libéral",Y,Y,76
+35095,"Scarborough North","Scarborough-Nord"," 110","Toronto",N,N,"",0,433,"Manji","","Karishma","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,10
+35095,"Scarborough North","Scarborough-Nord"," 110","Toronto",N,N,"",0,433,"Sandhu","","Gurmit","Conservative","Conservateur",N,N,48
+35095,"Scarborough North","Scarborough-Nord"," 111","Toronto",N,N,"",1,295,"Chen","","Shaun","Liberal","Libéral",Y,Y,91
+35095,"Scarborough North","Scarborough-Nord"," 111","Toronto",N,N,"",1,295,"Manji","","Karishma","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,8
+35095,"Scarborough North","Scarborough-Nord"," 111","Toronto",N,N,"",1,295,"Sandhu","","Gurmit","Conservative","Conservateur",N,N,48
+35095,"Scarborough North","Scarborough-Nord"," 112","Toronto",N,N,"",1,383,"Chen","","Shaun","Liberal","Libéral",Y,Y,112
+35095,"Scarborough North","Scarborough-Nord"," 112","Toronto",N,N,"",1,383,"Manji","","Karishma","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,12
+35095,"Scarborough North","Scarborough-Nord"," 112","Toronto",N,N,"",1,383,"Sandhu","","Gurmit","Conservative","Conservateur",N,N,19
+35095,"Scarborough North","Scarborough-Nord"," 113","Toronto",N,N,"",2,484,"Chen","","Shaun","Liberal","Libéral",Y,Y,97
+35095,"Scarborough North","Scarborough-Nord"," 113","Toronto",N,N,"",2,484,"Manji","","Karishma","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,9
+35095,"Scarborough North","Scarborough-Nord"," 113","Toronto",N,N,"",2,484,"Sandhu","","Gurmit","Conservative","Conservateur",N,N,43
+35095,"Scarborough North","Scarborough-Nord"," 114","Toronto",N,N,"",0,457,"Chen","","Shaun","Liberal","Libéral",Y,Y,89
+35095,"Scarborough North","Scarborough-Nord"," 114","Toronto",N,N,"",0,457,"Manji","","Karishma","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,6
+35095,"Scarborough North","Scarborough-Nord"," 114","Toronto",N,N,"",0,457,"Sandhu","","Gurmit","Conservative","Conservateur",N,N,47
+35095,"Scarborough North","Scarborough-Nord"," 115","Toronto",N,N,"",3,407,"Chen","","Shaun","Liberal","Libéral",Y,Y,89
+35095,"Scarborough North","Scarborough-Nord"," 115","Toronto",N,N,"",3,407,"Manji","","Karishma","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,10
+35095,"Scarborough North","Scarborough-Nord"," 115","Toronto",N,N,"",3,407,"Sandhu","","Gurmit","Conservative","Conservateur",N,N,28
+35095,"Scarborough North","Scarborough-Nord"," 116","Toronto",N,N,"",1,484,"Chen","","Shaun","Liberal","Libéral",Y,Y,77
+35095,"Scarborough North","Scarborough-Nord"," 116","Toronto",N,N,"",1,484,"Manji","","Karishma","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,9
+35095,"Scarborough North","Scarborough-Nord"," 116","Toronto",N,N,"",1,484,"Sandhu","","Gurmit","Conservative","Conservateur",N,N,33
+35095,"Scarborough North","Scarborough-Nord"," 117","Toronto",N,N,"",2,410,"Chen","","Shaun","Liberal","Libéral",Y,Y,69
+35095,"Scarborough North","Scarborough-Nord"," 117","Toronto",N,N,"",2,410,"Manji","","Karishma","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,15
+35095,"Scarborough North","Scarborough-Nord"," 117","Toronto",N,N,"",2,410,"Sandhu","","Gurmit","Conservative","Conservateur",N,N,68
+35095,"Scarborough North","Scarborough-Nord"," 118","Toronto",N,N,"",0,428,"Chen","","Shaun","Liberal","Libéral",Y,Y,60
+35095,"Scarborough North","Scarborough-Nord"," 118","Toronto",N,N,"",0,428,"Manji","","Karishma","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,0
+35095,"Scarborough North","Scarborough-Nord"," 118","Toronto",N,N,"",0,428,"Sandhu","","Gurmit","Conservative","Conservateur",N,N,40
+35095,"Scarborough North","Scarborough-Nord"," 119","Toronto",N,N,"",1,498,"Chen","","Shaun","Liberal","Libéral",Y,Y,102
+35095,"Scarborough North","Scarborough-Nord"," 119","Toronto",N,N,"",1,498,"Manji","","Karishma","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,6
+35095,"Scarborough North","Scarborough-Nord"," 119","Toronto",N,N,"",1,498,"Sandhu","","Gurmit","Conservative","Conservateur",N,N,58
+35095,"Scarborough North","Scarborough-Nord"," 120","Toronto",N,N,"",1,591,"Chen","","Shaun","Liberal","Libéral",Y,Y,89
+35095,"Scarborough North","Scarborough-Nord"," 120","Toronto",N,N,"",1,591,"Manji","","Karishma","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,2
+35095,"Scarborough North","Scarborough-Nord"," 120","Toronto",N,N,"",1,591,"Sandhu","","Gurmit","Conservative","Conservateur",N,N,68
+35095,"Scarborough North","Scarborough-Nord"," 121","Toronto",N,N,"",0,321,"Chen","","Shaun","Liberal","Libéral",Y,Y,51
+35095,"Scarborough North","Scarborough-Nord"," 121","Toronto",N,N,"",0,321,"Manji","","Karishma","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,0
+35095,"Scarborough North","Scarborough-Nord"," 121","Toronto",N,N,"",0,321,"Sandhu","","Gurmit","Conservative","Conservateur",N,N,52
+35095,"Scarborough North","Scarborough-Nord"," 122","Toronto",N,N,"",1,322,"Chen","","Shaun","Liberal","Libéral",Y,Y,51
+35095,"Scarborough North","Scarborough-Nord"," 122","Toronto",N,N,"",1,322,"Manji","","Karishma","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,8
+35095,"Scarborough North","Scarborough-Nord"," 122","Toronto",N,N,"",1,322,"Sandhu","","Gurmit","Conservative","Conservateur",N,N,35
+35095,"Scarborough North","Scarborough-Nord"," 123","Toronto",N,N,"",1,555,"Chen","","Shaun","Liberal","Libéral",Y,Y,113
+35095,"Scarborough North","Scarborough-Nord"," 123","Toronto",N,N,"",1,555,"Manji","","Karishma","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,9
+35095,"Scarborough North","Scarborough-Nord"," 123","Toronto",N,N,"",1,555,"Sandhu","","Gurmit","Conservative","Conservateur",N,N,60
+35095,"Scarborough North","Scarborough-Nord"," 124","Toronto",N,N,"",2,442,"Chen","","Shaun","Liberal","Libéral",Y,Y,96
+35095,"Scarborough North","Scarborough-Nord"," 124","Toronto",N,N,"",2,442,"Manji","","Karishma","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,5
+35095,"Scarborough North","Scarborough-Nord"," 124","Toronto",N,N,"",2,442,"Sandhu","","Gurmit","Conservative","Conservateur",N,N,73
+35095,"Scarborough North","Scarborough-Nord"," 125","Toronto",N,N,"",3,489,"Chen","","Shaun","Liberal","Libéral",Y,Y,130
+35095,"Scarborough North","Scarborough-Nord"," 125","Toronto",N,N,"",3,489,"Manji","","Karishma","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,7
+35095,"Scarborough North","Scarborough-Nord"," 125","Toronto",N,N,"",3,489,"Sandhu","","Gurmit","Conservative","Conservateur",N,N,75
+35095,"Scarborough North","Scarborough-Nord"," 126","Toronto",N,N,"",0,469,"Chen","","Shaun","Liberal","Libéral",Y,Y,72
+35095,"Scarborough North","Scarborough-Nord"," 126","Toronto",N,N,"",0,469,"Manji","","Karishma","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,0
+35095,"Scarborough North","Scarborough-Nord"," 126","Toronto",N,N,"",0,469,"Sandhu","","Gurmit","Conservative","Conservateur",N,N,45
+35095,"Scarborough North","Scarborough-Nord"," 127","Toronto",N,N,"",0,416,"Chen","","Shaun","Liberal","Libéral",Y,Y,83
+35095,"Scarborough North","Scarborough-Nord"," 127","Toronto",N,N,"",0,416,"Manji","","Karishma","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,8
+35095,"Scarborough North","Scarborough-Nord"," 127","Toronto",N,N,"",0,416,"Sandhu","","Gurmit","Conservative","Conservateur",N,N,96
+35095,"Scarborough North","Scarborough-Nord"," 128","Toronto",N,N,"",0,340,"Chen","","Shaun","Liberal","Libéral",Y,Y,44
+35095,"Scarborough North","Scarborough-Nord"," 128","Toronto",N,N,"",0,340,"Manji","","Karishma","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,3
+35095,"Scarborough North","Scarborough-Nord"," 128","Toronto",N,N,"",0,340,"Sandhu","","Gurmit","Conservative","Conservateur",N,N,43
+35095,"Scarborough North","Scarborough-Nord"," 129","Toronto",N,N,"",0,505,"Chen","","Shaun","Liberal","Libéral",Y,Y,154
+35095,"Scarborough North","Scarborough-Nord"," 129","Toronto",N,N,"",0,505,"Manji","","Karishma","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,12
+35095,"Scarborough North","Scarborough-Nord"," 129","Toronto",N,N,"",0,505,"Sandhu","","Gurmit","Conservative","Conservateur",N,N,104
+35095,"Scarborough North","Scarborough-Nord"," 130","Toronto",N,N,"",0,486,"Chen","","Shaun","Liberal","Libéral",Y,Y,66
+35095,"Scarborough North","Scarborough-Nord"," 130","Toronto",N,N,"",0,486,"Manji","","Karishma","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,5
+35095,"Scarborough North","Scarborough-Nord"," 130","Toronto",N,N,"",0,486,"Sandhu","","Gurmit","Conservative","Conservateur",N,N,60
+35095,"Scarborough North","Scarborough-Nord"," 131","Toronto",N,N,"",1,368,"Chen","","Shaun","Liberal","Libéral",Y,Y,77
+35095,"Scarborough North","Scarborough-Nord"," 131","Toronto",N,N,"",1,368,"Manji","","Karishma","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,2
+35095,"Scarborough North","Scarborough-Nord"," 131","Toronto",N,N,"",1,368,"Sandhu","","Gurmit","Conservative","Conservateur",N,N,58
+35095,"Scarborough North","Scarborough-Nord"," 132","Toronto",N,N,"",0,362,"Chen","","Shaun","Liberal","Libéral",Y,Y,49
+35095,"Scarborough North","Scarborough-Nord"," 132","Toronto",N,N,"",0,362,"Manji","","Karishma","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,2
+35095,"Scarborough North","Scarborough-Nord"," 132","Toronto",N,N,"",0,362,"Sandhu","","Gurmit","Conservative","Conservateur",N,N,54
+35095,"Scarborough North","Scarborough-Nord"," 133","Toronto",N,N,"",0,390,"Chen","","Shaun","Liberal","Libéral",Y,Y,86
+35095,"Scarborough North","Scarborough-Nord"," 133","Toronto",N,N,"",0,390,"Manji","","Karishma","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,4
+35095,"Scarborough North","Scarborough-Nord"," 133","Toronto",N,N,"",0,390,"Sandhu","","Gurmit","Conservative","Conservateur",N,N,52
+35095,"Scarborough North","Scarborough-Nord"," 134","Toronto",N,N,"",0,379,"Chen","","Shaun","Liberal","Libéral",Y,Y,61
+35095,"Scarborough North","Scarborough-Nord"," 134","Toronto",N,N,"",0,379,"Manji","","Karishma","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,1
+35095,"Scarborough North","Scarborough-Nord"," 134","Toronto",N,N,"",0,379,"Sandhu","","Gurmit","Conservative","Conservateur",N,N,45
+35095,"Scarborough North","Scarborough-Nord"," 135","Toronto",N,N,"",1,374,"Chen","","Shaun","Liberal","Libéral",Y,Y,71
+35095,"Scarborough North","Scarborough-Nord"," 135","Toronto",N,N,"",1,374,"Manji","","Karishma","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,6
+35095,"Scarborough North","Scarborough-Nord"," 135","Toronto",N,N,"",1,374,"Sandhu","","Gurmit","Conservative","Conservateur",N,N,36
+35095,"Scarborough North","Scarborough-Nord"," 136","Toronto",N,N,"",1,349,"Chen","","Shaun","Liberal","Libéral",Y,Y,89
+35095,"Scarborough North","Scarborough-Nord"," 136","Toronto",N,N,"",1,349,"Manji","","Karishma","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,4
+35095,"Scarborough North","Scarborough-Nord"," 136","Toronto",N,N,"",1,349,"Sandhu","","Gurmit","Conservative","Conservateur",N,N,48
+35095,"Scarborough North","Scarborough-Nord"," 137","Toronto",N,N,"",1,389,"Chen","","Shaun","Liberal","Libéral",Y,Y,97
+35095,"Scarborough North","Scarborough-Nord"," 137","Toronto",N,N,"",1,389,"Manji","","Karishma","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,3
+35095,"Scarborough North","Scarborough-Nord"," 137","Toronto",N,N,"",1,389,"Sandhu","","Gurmit","Conservative","Conservateur",N,N,63
+35095,"Scarborough North","Scarborough-Nord"," 138","Toronto",N,N,"",1,365,"Chen","","Shaun","Liberal","Libéral",Y,Y,61
+35095,"Scarborough North","Scarborough-Nord"," 138","Toronto",N,N,"",1,365,"Manji","","Karishma","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,3
+35095,"Scarborough North","Scarborough-Nord"," 138","Toronto",N,N,"",1,365,"Sandhu","","Gurmit","Conservative","Conservateur",N,N,57
+35095,"Scarborough North","Scarborough-Nord"," 139","Toronto",N,N,"",0,398,"Chen","","Shaun","Liberal","Libéral",Y,Y,86
+35095,"Scarborough North","Scarborough-Nord"," 139","Toronto",N,N,"",0,398,"Manji","","Karishma","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,9
+35095,"Scarborough North","Scarborough-Nord"," 139","Toronto",N,N,"",0,398,"Sandhu","","Gurmit","Conservative","Conservateur",N,N,48
+35095,"Scarborough North","Scarborough-Nord"," 140","Toronto",N,N,"",2,390,"Chen","","Shaun","Liberal","Libéral",Y,Y,73
+35095,"Scarborough North","Scarborough-Nord"," 140","Toronto",N,N,"",2,390,"Manji","","Karishma","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,3
+35095,"Scarborough North","Scarborough-Nord"," 140","Toronto",N,N,"",2,390,"Sandhu","","Gurmit","Conservative","Conservateur",N,N,32
+35095,"Scarborough North","Scarborough-Nord"," 141","Toronto",N,N,"",3,428,"Chen","","Shaun","Liberal","Libéral",Y,Y,79
+35095,"Scarborough North","Scarborough-Nord"," 141","Toronto",N,N,"",3,428,"Manji","","Karishma","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,12
+35095,"Scarborough North","Scarborough-Nord"," 141","Toronto",N,N,"",3,428,"Sandhu","","Gurmit","Conservative","Conservateur",N,N,64
+35095,"Scarborough North","Scarborough-Nord"," 142","Toronto",N,N,"",1,404,"Chen","","Shaun","Liberal","Libéral",Y,Y,97
+35095,"Scarborough North","Scarborough-Nord"," 142","Toronto",N,N,"",1,404,"Manji","","Karishma","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,4
+35095,"Scarborough North","Scarborough-Nord"," 142","Toronto",N,N,"",1,404,"Sandhu","","Gurmit","Conservative","Conservateur",N,N,47
+35095,"Scarborough North","Scarborough-Nord"," 143","Toronto",N,N,"",2,364,"Chen","","Shaun","Liberal","Libéral",Y,Y,75
+35095,"Scarborough North","Scarborough-Nord"," 143","Toronto",N,N,"",2,364,"Manji","","Karishma","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,3
+35095,"Scarborough North","Scarborough-Nord"," 143","Toronto",N,N,"",2,364,"Sandhu","","Gurmit","Conservative","Conservateur",N,N,62
+35095,"Scarborough North","Scarborough-Nord"," 144","Toronto",N,N,"",1,384,"Chen","","Shaun","Liberal","Libéral",Y,Y,99
+35095,"Scarborough North","Scarborough-Nord"," 144","Toronto",N,N,"",1,384,"Manji","","Karishma","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,8
+35095,"Scarborough North","Scarborough-Nord"," 144","Toronto",N,N,"",1,384,"Sandhu","","Gurmit","Conservative","Conservateur",N,N,29
+35095,"Scarborough North","Scarborough-Nord"," 145","Toronto",N,N,"",1,395,"Chen","","Shaun","Liberal","Libéral",Y,Y,70
+35095,"Scarborough North","Scarborough-Nord"," 145","Toronto",N,N,"",1,395,"Manji","","Karishma","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,8
+35095,"Scarborough North","Scarborough-Nord"," 145","Toronto",N,N,"",1,395,"Sandhu","","Gurmit","Conservative","Conservateur",N,N,57
+35095,"Scarborough North","Scarborough-Nord"," 146","Toronto",N,N,"",0,386,"Chen","","Shaun","Liberal","Libéral",Y,Y,76
+35095,"Scarborough North","Scarborough-Nord"," 146","Toronto",N,N,"",0,386,"Manji","","Karishma","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,11
+35095,"Scarborough North","Scarborough-Nord"," 146","Toronto",N,N,"",0,386,"Sandhu","","Gurmit","Conservative","Conservateur",N,N,33
+35095,"Scarborough North","Scarborough-Nord"," 147","Toronto",N,N,"",1,425,"Chen","","Shaun","Liberal","Libéral",Y,Y,96
+35095,"Scarborough North","Scarborough-Nord"," 147","Toronto",N,N,"",1,425,"Manji","","Karishma","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,8
+35095,"Scarborough North","Scarborough-Nord"," 147","Toronto",N,N,"",1,425,"Sandhu","","Gurmit","Conservative","Conservateur",N,N,55
+35095,"Scarborough North","Scarborough-Nord"," 148","Toronto",N,N,"",2,479,"Chen","","Shaun","Liberal","Libéral",Y,Y,89
+35095,"Scarborough North","Scarborough-Nord"," 148","Toronto",N,N,"",2,479,"Manji","","Karishma","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,2
+35095,"Scarborough North","Scarborough-Nord"," 148","Toronto",N,N,"",2,479,"Sandhu","","Gurmit","Conservative","Conservateur",N,N,69
+35095,"Scarborough North","Scarborough-Nord"," 149","Toronto",N,N,"",1,316,"Chen","","Shaun","Liberal","Libéral",Y,Y,89
+35095,"Scarborough North","Scarborough-Nord"," 149","Toronto",N,N,"",1,316,"Manji","","Karishma","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,1
+35095,"Scarborough North","Scarborough-Nord"," 149","Toronto",N,N,"",1,316,"Sandhu","","Gurmit","Conservative","Conservateur",N,N,41
+35095,"Scarborough North","Scarborough-Nord"," 150","Toronto",N,N,"",0,368,"Chen","","Shaun","Liberal","Libéral",Y,Y,70
+35095,"Scarborough North","Scarborough-Nord"," 150","Toronto",N,N,"",0,368,"Manji","","Karishma","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,7
+35095,"Scarborough North","Scarborough-Nord"," 150","Toronto",N,N,"",0,368,"Sandhu","","Gurmit","Conservative","Conservateur",N,N,52
+35095,"Scarborough North","Scarborough-Nord"," 151","Toronto",N,N,"",1,370,"Chen","","Shaun","Liberal","Libéral",Y,Y,75
+35095,"Scarborough North","Scarborough-Nord"," 151","Toronto",N,N,"",1,370,"Manji","","Karishma","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,3
+35095,"Scarborough North","Scarborough-Nord"," 151","Toronto",N,N,"",1,370,"Sandhu","","Gurmit","Conservative","Conservateur",N,N,65
+35095,"Scarborough North","Scarborough-Nord"," 152","Toronto",N,N,"",2,441,"Chen","","Shaun","Liberal","Libéral",Y,Y,70
+35095,"Scarborough North","Scarborough-Nord"," 152","Toronto",N,N,"",2,441,"Manji","","Karishma","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,5
+35095,"Scarborough North","Scarborough-Nord"," 152","Toronto",N,N,"",2,441,"Sandhu","","Gurmit","Conservative","Conservateur",N,N,46
+35095,"Scarborough North","Scarborough-Nord"," 153","Toronto",N,N,"",2,422,"Chen","","Shaun","Liberal","Libéral",Y,Y,74
+35095,"Scarborough North","Scarborough-Nord"," 153","Toronto",N,N,"",2,422,"Manji","","Karishma","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,0
+35095,"Scarborough North","Scarborough-Nord"," 153","Toronto",N,N,"",2,422,"Sandhu","","Gurmit","Conservative","Conservateur",N,N,48
+35095,"Scarborough North","Scarborough-Nord"," 154","Toronto",N,N,"",3,355,"Chen","","Shaun","Liberal","Libéral",Y,Y,73
+35095,"Scarborough North","Scarborough-Nord"," 154","Toronto",N,N,"",3,355,"Manji","","Karishma","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,2
+35095,"Scarborough North","Scarborough-Nord"," 154","Toronto",N,N,"",3,355,"Sandhu","","Gurmit","Conservative","Conservateur",N,N,71
+35095,"Scarborough North","Scarborough-Nord"," 155","Toronto",N,N,"",0,452,"Chen","","Shaun","Liberal","Libéral",Y,Y,86
+35095,"Scarborough North","Scarborough-Nord"," 155","Toronto",N,N,"",0,452,"Manji","","Karishma","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,5
+35095,"Scarborough North","Scarborough-Nord"," 155","Toronto",N,N,"",0,452,"Sandhu","","Gurmit","Conservative","Conservateur",N,N,53
+35095,"Scarborough North","Scarborough-Nord"," 156","Toronto",N,N,"",0,376,"Chen","","Shaun","Liberal","Libéral",Y,Y,57
+35095,"Scarborough North","Scarborough-Nord"," 156","Toronto",N,N,"",0,376,"Manji","","Karishma","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,2
+35095,"Scarborough North","Scarborough-Nord"," 156","Toronto",N,N,"",0,376,"Sandhu","","Gurmit","Conservative","Conservateur",N,N,48
+35095,"Scarborough North","Scarborough-Nord"," 157","Toronto",N,N,"",0,337,"Chen","","Shaun","Liberal","Libéral",Y,Y,45
+35095,"Scarborough North","Scarborough-Nord"," 157","Toronto",N,N,"",0,337,"Manji","","Karishma","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,2
+35095,"Scarborough North","Scarborough-Nord"," 157","Toronto",N,N,"",0,337,"Sandhu","","Gurmit","Conservative","Conservateur",N,N,44
+35095,"Scarborough North","Scarborough-Nord"," 158","Toronto",N,N,"",0,285,"Chen","","Shaun","Liberal","Libéral",Y,Y,27
+35095,"Scarborough North","Scarborough-Nord"," 158","Toronto",N,N,"",0,285,"Manji","","Karishma","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,1
+35095,"Scarborough North","Scarborough-Nord"," 158","Toronto",N,N,"",0,285,"Sandhu","","Gurmit","Conservative","Conservateur",N,N,37
+35095,"Scarborough North","Scarborough-Nord"," 159","Toronto",N,N,"",1,508,"Chen","","Shaun","Liberal","Libéral",Y,Y,61
+35095,"Scarborough North","Scarborough-Nord"," 159","Toronto",N,N,"",1,508,"Manji","","Karishma","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,1
+35095,"Scarborough North","Scarborough-Nord"," 159","Toronto",N,N,"",1,508,"Sandhu","","Gurmit","Conservative","Conservateur",N,N,57
+35095,"Scarborough North","Scarborough-Nord"," 160","Toronto",N,N,"",4,450,"Chen","","Shaun","Liberal","Libéral",Y,Y,57
+35095,"Scarborough North","Scarborough-Nord"," 160","Toronto",N,N,"",4,450,"Manji","","Karishma","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,4
+35095,"Scarborough North","Scarborough-Nord"," 160","Toronto",N,N,"",4,450,"Sandhu","","Gurmit","Conservative","Conservateur",N,N,49
+35095,"Scarborough North","Scarborough-Nord"," 161","Toronto",N,N,"",0,367,"Chen","","Shaun","Liberal","Libéral",Y,Y,76
+35095,"Scarborough North","Scarborough-Nord"," 161","Toronto",N,N,"",0,367,"Manji","","Karishma","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,3
+35095,"Scarborough North","Scarborough-Nord"," 161","Toronto",N,N,"",0,367,"Sandhu","","Gurmit","Conservative","Conservateur",N,N,53
+35095,"Scarborough North","Scarborough-Nord"," 162","Toronto",N,N,"",1,539,"Chen","","Shaun","Liberal","Libéral",Y,Y,77
+35095,"Scarborough North","Scarborough-Nord"," 162","Toronto",N,N,"",1,539,"Manji","","Karishma","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,2
+35095,"Scarborough North","Scarborough-Nord"," 162","Toronto",N,N,"",1,539,"Sandhu","","Gurmit","Conservative","Conservateur",N,N,57
+35095,"Scarborough North","Scarborough-Nord"," 163","Toronto",N,N,"",2,449,"Chen","","Shaun","Liberal","Libéral",Y,Y,95
+35095,"Scarborough North","Scarborough-Nord"," 163","Toronto",N,N,"",2,449,"Manji","","Karishma","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,5
+35095,"Scarborough North","Scarborough-Nord"," 163","Toronto",N,N,"",2,449,"Sandhu","","Gurmit","Conservative","Conservateur",N,N,52
+35095,"Scarborough North","Scarborough-Nord"," 400","Toronto",N,N,"",1,354,"Chen","","Shaun","Liberal","Libéral",Y,Y,102
+35095,"Scarborough North","Scarborough-Nord"," 400","Toronto",N,N,"",1,354,"Manji","","Karishma","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,6
+35095,"Scarborough North","Scarborough-Nord"," 400","Toronto",N,N,"",1,354,"Sandhu","","Gurmit","Conservative","Conservateur",N,N,69
+35095,"Scarborough North","Scarborough-Nord"," 401","Toronto",N,N,"",1,355,"Chen","","Shaun","Liberal","Libéral",Y,Y,86
+35095,"Scarborough North","Scarborough-Nord"," 401","Toronto",N,N,"",1,355,"Manji","","Karishma","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,7
+35095,"Scarborough North","Scarborough-Nord"," 401","Toronto",N,N,"",1,355,"Sandhu","","Gurmit","Conservative","Conservateur",N,N,66
+35095,"Scarborough North","Scarborough-Nord"," 402","Toronto",N,N,"",3,388,"Chen","","Shaun","Liberal","Libéral",Y,Y,92
+35095,"Scarborough North","Scarborough-Nord"," 402","Toronto",N,N,"",3,388,"Manji","","Karishma","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,9
+35095,"Scarborough North","Scarborough-Nord"," 402","Toronto",N,N,"",3,388,"Sandhu","","Gurmit","Conservative","Conservateur",N,N,91
+35095,"Scarborough North","Scarborough-Nord"," 403","Toronto",N,N,"",3,485,"Chen","","Shaun","Liberal","Libéral",Y,Y,171
+35095,"Scarborough North","Scarborough-Nord"," 403","Toronto",N,N,"",3,485,"Manji","","Karishma","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,14
+35095,"Scarborough North","Scarborough-Nord"," 403","Toronto",N,N,"",3,485,"Sandhu","","Gurmit","Conservative","Conservateur",N,N,98
+35095,"Scarborough North","Scarborough-Nord"," 404","Toronto",N,N,"",5,460,"Chen","","Shaun","Liberal","Libéral",Y,Y,136
+35095,"Scarborough North","Scarborough-Nord"," 404","Toronto",N,N,"",5,460,"Manji","","Karishma","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,9
+35095,"Scarborough North","Scarborough-Nord"," 404","Toronto",N,N,"",5,460,"Sandhu","","Gurmit","Conservative","Conservateur",N,N,92
+35095,"Scarborough North","Scarborough-Nord"," 405","Toronto",N,N,"",0,471,"Chen","","Shaun","Liberal","Libéral",Y,Y,129
+35095,"Scarborough North","Scarborough-Nord"," 405","Toronto",N,N,"",0,471,"Manji","","Karishma","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,11
+35095,"Scarborough North","Scarborough-Nord"," 405","Toronto",N,N,"",0,471,"Sandhu","","Gurmit","Conservative","Conservateur",N,N,82
+35095,"Scarborough North","Scarborough-Nord"," 406","Toronto",N,N,"",4,448,"Chen","","Shaun","Liberal","Libéral",Y,Y,131
+35095,"Scarborough North","Scarborough-Nord"," 406","Toronto",N,N,"",4,448,"Manji","","Karishma","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,2
+35095,"Scarborough North","Scarborough-Nord"," 406","Toronto",N,N,"",4,448,"Sandhu","","Gurmit","Conservative","Conservateur",N,N,83
+35095,"Scarborough North","Scarborough-Nord"," 407","Toronto",N,N,"",0,217,"Chen","","Shaun","Liberal","Libéral",Y,Y,67
+35095,"Scarborough North","Scarborough-Nord"," 407","Toronto",N,N,"",0,217,"Manji","","Karishma","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,8
+35095,"Scarborough North","Scarborough-Nord"," 407","Toronto",N,N,"",0,217,"Sandhu","","Gurmit","Conservative","Conservateur",N,N,29
+35095,"Scarborough North","Scarborough-Nord"," 408","Toronto",N,N,"",4,432,"Chen","","Shaun","Liberal","Libéral",Y,Y,167
+35095,"Scarborough North","Scarborough-Nord"," 408","Toronto",N,N,"",4,432,"Manji","","Karishma","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,13
+35095,"Scarborough North","Scarborough-Nord"," 408","Toronto",N,N,"",4,432,"Sandhu","","Gurmit","Conservative","Conservateur",N,N,58
+35095,"Scarborough North","Scarborough-Nord"," 409","Toronto",N,N,"",1,339,"Chen","","Shaun","Liberal","Libéral",Y,Y,123
+35095,"Scarborough North","Scarborough-Nord"," 409","Toronto",N,N,"",1,339,"Manji","","Karishma","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,8
+35095,"Scarborough North","Scarborough-Nord"," 409","Toronto",N,N,"",1,339,"Sandhu","","Gurmit","Conservative","Conservateur",N,N,58
+35095,"Scarborough North","Scarborough-Nord"," 410","Toronto",N,N,"",1,339,"Chen","","Shaun","Liberal","Libéral",Y,Y,113
+35095,"Scarborough North","Scarborough-Nord"," 410","Toronto",N,N,"",1,339,"Manji","","Karishma","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,4
+35095,"Scarborough North","Scarborough-Nord"," 410","Toronto",N,N,"",1,339,"Sandhu","","Gurmit","Conservative","Conservateur",N,N,72
+35095,"Scarborough North","Scarborough-Nord"," 411","Toronto",N,N,"",3,193,"Chen","","Shaun","Liberal","Libéral",Y,Y,68
+35095,"Scarborough North","Scarborough-Nord"," 411","Toronto",N,N,"",3,193,"Manji","","Karishma","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,6
+35095,"Scarborough North","Scarborough-Nord"," 411","Toronto",N,N,"",3,193,"Sandhu","","Gurmit","Conservative","Conservateur",N,N,38
+35095,"Scarborough North","Scarborough-Nord"," 412","Toronto",N,N,"",1,146,"Chen","","Shaun","Liberal","Libéral",Y,Y,66
+35095,"Scarborough North","Scarborough-Nord"," 412","Toronto",N,N,"",1,146,"Manji","","Karishma","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,8
+35095,"Scarborough North","Scarborough-Nord"," 412","Toronto",N,N,"",1,146,"Sandhu","","Gurmit","Conservative","Conservateur",N,N,21
+35095,"Scarborough North","Scarborough-Nord"," 413","Toronto",N,N,"",1,408,"Chen","","Shaun","Liberal","Libéral",Y,Y,148
+35095,"Scarborough North","Scarborough-Nord"," 413","Toronto",N,N,"",1,408,"Manji","","Karishma","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,14
+35095,"Scarborough North","Scarborough-Nord"," 413","Toronto",N,N,"",1,408,"Sandhu","","Gurmit","Conservative","Conservateur",N,N,87
+35095,"Scarborough North","Scarborough-Nord"," 414","Toronto",N,N,"",5,429,"Chen","","Shaun","Liberal","Libéral",Y,Y,166
+35095,"Scarborough North","Scarborough-Nord"," 414","Toronto",N,N,"",5,429,"Manji","","Karishma","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,18
+35095,"Scarborough North","Scarborough-Nord"," 414","Toronto",N,N,"",5,429,"Sandhu","","Gurmit","Conservative","Conservateur",N,N,83
+35095,"Scarborough North","Scarborough-Nord"," 415","Toronto",N,N,"",1,202,"Chen","","Shaun","Liberal","Libéral",Y,Y,54
+35095,"Scarborough North","Scarborough-Nord"," 415","Toronto",N,N,"",1,202,"Manji","","Karishma","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,7
+35095,"Scarborough North","Scarborough-Nord"," 415","Toronto",N,N,"",1,202,"Sandhu","","Gurmit","Conservative","Conservateur",N,N,32
+35095,"Scarborough North","Scarborough-Nord"," 416","Toronto",N,N,"",4,376,"Chen","","Shaun","Liberal","Libéral",Y,Y,134
+35095,"Scarborough North","Scarborough-Nord"," 416","Toronto",N,N,"",4,376,"Manji","","Karishma","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,14
+35095,"Scarborough North","Scarborough-Nord"," 416","Toronto",N,N,"",4,376,"Sandhu","","Gurmit","Conservative","Conservateur",N,N,77
+35095,"Scarborough North","Scarborough-Nord"," 417","Toronto",N,N,"",2,313,"Chen","","Shaun","Liberal","Libéral",Y,Y,109
+35095,"Scarborough North","Scarborough-Nord"," 417","Toronto",N,N,"",2,313,"Manji","","Karishma","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,5
+35095,"Scarborough North","Scarborough-Nord"," 417","Toronto",N,N,"",2,313,"Sandhu","","Gurmit","Conservative","Conservateur",N,N,55
+35095,"Scarborough North","Scarborough-Nord"," 418","Toronto",N,N,"",0,446,"Chen","","Shaun","Liberal","Libéral",Y,Y,130
+35095,"Scarborough North","Scarborough-Nord"," 418","Toronto",N,N,"",0,446,"Manji","","Karishma","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,13
+35095,"Scarborough North","Scarborough-Nord"," 418","Toronto",N,N,"",0,446,"Sandhu","","Gurmit","Conservative","Conservateur",N,N,95
+35095,"Scarborough North","Scarborough-Nord"," 419","Toronto",N,N,"",1,399,"Chen","","Shaun","Liberal","Libéral",Y,Y,165
+35095,"Scarborough North","Scarborough-Nord"," 419","Toronto",N,N,"",1,399,"Manji","","Karishma","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,12
+35095,"Scarborough North","Scarborough-Nord"," 419","Toronto",N,N,"",1,399,"Sandhu","","Gurmit","Conservative","Conservateur",N,N,73
+35095,"Scarborough North","Scarborough-Nord"," 420","Toronto",N,N,"",0,520,"Chen","","Shaun","Liberal","Libéral",Y,Y,203
+35095,"Scarborough North","Scarborough-Nord"," 420","Toronto",N,N,"",0,520,"Manji","","Karishma","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,8
+35095,"Scarborough North","Scarborough-Nord"," 420","Toronto",N,N,"",0,520,"Sandhu","","Gurmit","Conservative","Conservateur",N,N,100
+35095,"Scarborough North","Scarborough-Nord"," 500","Mobile poll/Bureau itinérant",N,N,"",2,186,"Chen","","Shaun","Liberal","Libéral",Y,Y,87
+35095,"Scarborough North","Scarborough-Nord"," 500","Mobile poll/Bureau itinérant",N,N,"",2,186,"Manji","","Karishma","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,8
+35095,"Scarborough North","Scarborough-Nord"," 500","Mobile poll/Bureau itinérant",N,N,"",2,186,"Sandhu","","Gurmit","Conservative","Conservateur",N,N,47
+35095,"Scarborough North","Scarborough-Nord"," 501","Mobile poll/Bureau itinérant",N,N,"",5,159,"Chen","","Shaun","Liberal","Libéral",Y,Y,109
+35095,"Scarborough North","Scarborough-Nord"," 501","Mobile poll/Bureau itinérant",N,N,"",5,159,"Manji","","Karishma","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,10
+35095,"Scarborough North","Scarborough-Nord"," 501","Mobile poll/Bureau itinérant",N,N,"",5,159,"Sandhu","","Gurmit","Conservative","Conservateur",N,N,61
+35095,"Scarborough North","Scarborough-Nord"," 502","Mobile poll/Bureau itinérant",N,N,"",2,64,"Chen","","Shaun","Liberal","Libéral",Y,Y,76
+35095,"Scarborough North","Scarborough-Nord"," 502","Mobile poll/Bureau itinérant",N,N,"",2,64,"Manji","","Karishma","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,4
+35095,"Scarborough North","Scarborough-Nord"," 502","Mobile poll/Bureau itinérant",N,N,"",2,64,"Sandhu","","Gurmit","Conservative","Conservateur",N,N,35
+35095,"Scarborough North","Scarborough-Nord"," 503","Mobile poll/Bureau itinérant",N,N,"502",0,150,"Chen","","Shaun","Liberal","Libéral",Y,Y,0
+35095,"Scarborough North","Scarborough-Nord"," 503","Mobile poll/Bureau itinérant",N,N,"502",0,150,"Manji","","Karishma","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,0
+35095,"Scarborough North","Scarborough-Nord"," 503","Mobile poll/Bureau itinérant",N,N,"502",0,150,"Sandhu","","Gurmit","Conservative","Conservateur",N,N,0
+35095,"Scarborough North","Scarborough-Nord"," 504","Mobile poll/Bureau itinérant",N,N,"500",0,77,"Chen","","Shaun","Liberal","Libéral",Y,Y,0
+35095,"Scarborough North","Scarborough-Nord"," 504","Mobile poll/Bureau itinérant",N,N,"500",0,77,"Manji","","Karishma","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,0
+35095,"Scarborough North","Scarborough-Nord"," 504","Mobile poll/Bureau itinérant",N,N,"500",0,77,"Sandhu","","Gurmit","Conservative","Conservateur",N,N,0
+35095,"Scarborough North","Scarborough-Nord"," 505","Mobile poll/Bureau itinérant",N,N,"501",0,200,"Chen","","Shaun","Liberal","Libéral",Y,Y,0
+35095,"Scarborough North","Scarborough-Nord"," 505","Mobile poll/Bureau itinérant",N,N,"501",0,200,"Manji","","Karishma","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,0
+35095,"Scarborough North","Scarborough-Nord"," 505","Mobile poll/Bureau itinérant",N,N,"501",0,200,"Sandhu","","Gurmit","Conservative","Conservateur",N,N,0
+35095,"Scarborough North","Scarborough-Nord"," 600","Toronto",N,N,"",15,0,"Chen","","Shaun","Liberal","Libéral",Y,Y,904
+35095,"Scarborough North","Scarborough-Nord"," 600","Toronto",N,N,"",15,0,"Manji","","Karishma","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,31
+35095,"Scarborough North","Scarborough-Nord"," 600","Toronto",N,N,"",15,0,"Sandhu","","Gurmit","Conservative","Conservateur",N,N,427
+35095,"Scarborough North","Scarborough-Nord"," 601","Toronto",N,N,"",7,0,"Chen","","Shaun","Liberal","Libéral",Y,Y,677
+35095,"Scarborough North","Scarborough-Nord"," 601","Toronto",N,N,"",7,0,"Manji","","Karishma","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,39
+35095,"Scarborough North","Scarborough-Nord"," 601","Toronto",N,N,"",7,0,"Sandhu","","Gurmit","Conservative","Conservateur",N,N,329
+35095,"Scarborough North","Scarborough-Nord"," 602","Toronto",N,N,"",4,0,"Chen","","Shaun","Liberal","Libéral",Y,Y,623
+35095,"Scarborough North","Scarborough-Nord"," 602","Toronto",N,N,"",4,0,"Manji","","Karishma","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,13
+35095,"Scarborough North","Scarborough-Nord"," 602","Toronto",N,N,"",4,0,"Sandhu","","Gurmit","Conservative","Conservateur",N,N,328
+35095,"Scarborough North","Scarborough-Nord"," 603","Toronto",N,N,"",8,0,"Chen","","Shaun","Liberal","Libéral",Y,Y,516
+35095,"Scarborough North","Scarborough-Nord"," 603","Toronto",N,N,"",8,0,"Manji","","Karishma","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,19
+35095,"Scarborough North","Scarborough-Nord"," 603","Toronto",N,N,"",8,0,"Sandhu","","Gurmit","Conservative","Conservateur",N,N,257
+35095,"Scarborough North","Scarborough-Nord"," 604","Toronto",N,N,"",1,0,"Chen","","Shaun","Liberal","Libéral",Y,Y,495
+35095,"Scarborough North","Scarborough-Nord"," 604","Toronto",N,N,"",1,0,"Manji","","Karishma","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,10
+35095,"Scarborough North","Scarborough-Nord"," 604","Toronto",N,N,"",1,0,"Sandhu","","Gurmit","Conservative","Conservateur",N,N,212
+35095,"Scarborough North","Scarborough-Nord"," 605","Toronto",N,N,"",1,0,"Chen","","Shaun","Liberal","Libéral",Y,Y,501
+35095,"Scarborough North","Scarborough-Nord"," 605","Toronto",N,N,"",1,0,"Manji","","Karishma","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,19
+35095,"Scarborough North","Scarborough-Nord"," 605","Toronto",N,N,"",1,0,"Sandhu","","Gurmit","Conservative","Conservateur",N,N,207
+35095,"Scarborough North","Scarborough-Nord"," 606","Toronto",N,N,"",1,0,"Chen","","Shaun","Liberal","Libéral",Y,Y,522
+35095,"Scarborough North","Scarborough-Nord"," 606","Toronto",N,N,"",1,0,"Manji","","Karishma","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,25
+35095,"Scarborough North","Scarborough-Nord"," 606","Toronto",N,N,"",1,0,"Sandhu","","Gurmit","Conservative","Conservateur",N,N,191
+35095,"Scarborough North","Scarborough-Nord"," 607","Toronto",N,N,"",11,0,"Chen","","Shaun","Liberal","Libéral",Y,Y,703
+35095,"Scarborough North","Scarborough-Nord"," 607","Toronto",N,N,"",11,0,"Manji","","Karishma","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,48
+35095,"Scarborough North","Scarborough-Nord"," 607","Toronto",N,N,"",11,0,"Sandhu","","Gurmit","Conservative","Conservateur",N,N,277
+35095,"Scarborough North","Scarborough-Nord"," 608","Toronto",N,N,"",7,0,"Chen","","Shaun","Liberal","Libéral",Y,Y,735
+35095,"Scarborough North","Scarborough-Nord"," 608","Toronto",N,N,"",7,0,"Manji","","Karishma","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,41
+35095,"Scarborough North","Scarborough-Nord"," 608","Toronto",N,N,"",7,0,"Sandhu","","Gurmit","Conservative","Conservateur",N,N,278
+35095,"Scarborough North","Scarborough-Nord"," 609","Toronto",N,N,"",20,0,"Chen","","Shaun","Liberal","Libéral",Y,Y,601
+35095,"Scarborough North","Scarborough-Nord"," 609","Toronto",N,N,"",20,0,"Manji","","Karishma","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,50
+35095,"Scarborough North","Scarborough-Nord"," 609","Toronto",N,N,"",20,0,"Sandhu","","Gurmit","Conservative","Conservateur",N,N,210
+35095,"Scarborough North","Scarborough-Nord"," 610","Toronto",N,N,"",14,0,"Chen","","Shaun","Liberal","Libéral",Y,Y,760
+35095,"Scarborough North","Scarborough-Nord"," 610","Toronto",N,N,"",14,0,"Manji","","Karishma","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,35
+35095,"Scarborough North","Scarborough-Nord"," 610","Toronto",N,N,"",14,0,"Sandhu","","Gurmit","Conservative","Conservateur",N,N,241
+35095,"Scarborough North","Scarborough-Nord"," 611","Toronto",N,N,"",5,0,"Chen","","Shaun","Liberal","Libéral",Y,Y,960
+35095,"Scarborough North","Scarborough-Nord"," 611","Toronto",N,N,"",5,0,"Manji","","Karishma","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,67
+35095,"Scarborough North","Scarborough-Nord"," 611","Toronto",N,N,"",5,0,"Sandhu","","Gurmit","Conservative","Conservateur",N,N,454
+35095,"Scarborough North","Scarborough-Nord"," 612","Toronto",N,N,"",11,0,"Chen","","Shaun","Liberal","Libéral",Y,Y,587
+35095,"Scarborough North","Scarborough-Nord"," 612","Toronto",N,N,"",11,0,"Manji","","Karishma","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,29
+35095,"Scarborough North","Scarborough-Nord"," 612","Toronto",N,N,"",11,0,"Sandhu","","Gurmit","Conservative","Conservateur",N,N,279
+35095,"Scarborough North","Scarborough-Nord"," 613","Toronto",N,N,"",4,0,"Chen","","Shaun","Liberal","Libéral",Y,Y,417
+35095,"Scarborough North","Scarborough-Nord"," 613","Toronto",N,N,"",4,0,"Manji","","Karishma","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,17
+35095,"Scarborough North","Scarborough-Nord"," 613","Toronto",N,N,"",4,0,"Sandhu","","Gurmit","Conservative","Conservateur",N,N,184
+35095,"Scarborough North","Scarborough-Nord"," 614","Toronto",N,N,"",5,0,"Chen","","Shaun","Liberal","Libéral",Y,Y,574
+35095,"Scarborough North","Scarborough-Nord"," 614","Toronto",N,N,"",5,0,"Manji","","Karishma","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,25
+35095,"Scarborough North","Scarborough-Nord"," 614","Toronto",N,N,"",5,0,"Sandhu","","Gurmit","Conservative","Conservateur",N,N,328
+35095,"Scarborough North","Scarborough-Nord"," 615","Toronto",N,N,"",4,0,"Chen","","Shaun","Liberal","Libéral",Y,Y,778
+35095,"Scarborough North","Scarborough-Nord"," 615","Toronto",N,N,"",4,0,"Manji","","Karishma","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,37
+35095,"Scarborough North","Scarborough-Nord"," 615","Toronto",N,N,"",4,0,"Sandhu","","Gurmit","Conservative","Conservateur",N,N,425
+35095,"Scarborough North","Scarborough-Nord"," S/R 1","SVR Group 1/RÉS Groupe 1",N,N,"",32,292,"Chen","","Shaun","Liberal","Libéral",Y,Y,474
+35095,"Scarborough North","Scarborough-Nord"," S/R 1","SVR Group 1/RÉS Groupe 1",N,N,"",32,292,"Manji","","Karishma","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,29
+35095,"Scarborough North","Scarborough-Nord"," S/R 1","SVR Group 1/RÉS Groupe 1",N,N,"",32,292,"Sandhu","","Gurmit","Conservative","Conservateur",N,N,130
+35095,"Scarborough North","Scarborough-Nord"," S/R 2","SVR Group 2/RÉS Groupe 2",N,N,"",45,0,"Chen","","Shaun","Liberal","Libéral",Y,Y,831
+35095,"Scarborough North","Scarborough-Nord"," S/R 2","SVR Group 2/RÉS Groupe 2",N,N,"",45,0,"Manji","","Karishma","NDP-New Democratic Party","NPD-Nouveau Parti démocratique",N,N,26
+35095,"Scarborough North","Scarborough-Nord"," S/R 2","SVR Group 2/RÉS Groupe 2",N,N,"",45,0,"Sandhu","","Gurmit","Conservative","Conservateur",N,N,284

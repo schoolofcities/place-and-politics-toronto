@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Toronto Census Geography Map</title>
+    <link rel="stylesheet" href="/vendor/leaflet/leaflet.css">
+    <link rel="stylesheet" href="/src/styles.css">
+  </head>
+  <body>
+    <main class="app-shell">
+      <aside class="panel" aria-label="Census geography controls and summary">
+        <div class="brand">
+          <p class="eyebrow">Toronto census 2021</p>
+          <h1>Census Geography Explorer</h1>
+        </div>
+
+        <section class="control-group">
+          <label for="levelSelect">Geography level</label>
+          <select id="levelSelect">
+            <option value="da">Dissemination Area (DA)</option>
+            <option value="ct">Census Tract (CT)</option>
+            <option value="ada">Aggregate Dissemination Area (ADA)</option>
+          </select>
+        </section>
+
+        <section class="control-group">
+          <label for="metricSelect">Map value</label>
+          <select id="metricSelect">
+            <option value="citizens">Canadian citizens aged 18+</option>
+            <option value="area">Land area</option>
+            <option value="none">Boundaries only</option>
+          </select>
+        </section>
+
+        <section class="control-group checkbox-row">
+          <label>
+            <input id="adaOverlay" type="checkbox">
+            Overlay ADA boundaries
+          </label>
+        </section>
+
+        <section class="stats" aria-label="Current geography summary">
+          <div><span>Areas shown</span><strong id="statCount">0</strong></div>
+          <div><span>Suppressed / unpublished</span><strong id="statMissing">0</strong></div>
+          <div><span>Citizens aged 18+</span><strong id="statCitizens">0</strong></div>
+          <div><span>Median land area</span><strong id="statArea">0</strong></div>
+        </section>
+
+        <section class="legend" aria-label="Map legend">
+          <h2 id="legendTitle">Canadian citizens aged 18+</h2>
+          <div id="legendRows"></div>
+        </section>
+
+        <details class="data-notes" open>
+          <summary>Geography notes</summary>
+          <ul>
+            <li>DA is the finest layer: 3,743 Toronto areas compared with 622 CTs and 279 ADAs.</li>
+            <li>In Toronto, Statistics Canada builds ADAs from CTs. DAs nest within CTs, producing a DA → CT → ADA hierarchy.</li>
+            <li>Citizen counts are 2021 Census Profile estimates, not election elector counts.</li>
+            <li>Blank DA citizenship values are official confidentiality suppressions, not zero population or unrecorded census responses.</li>
+          </ul>
+        </details>
+      </aside>
+
+      <section class="map-wrap" aria-label="Interactive census geography map">
+        <div id="map"></div>
+        <div class="map-status" id="status">Loading geography...</div>
+      </section>
+    </main>
+
+    <script src="/vendor/leaflet/leaflet.js"></script>
+    <script src="/src/app.js"></script>
+  </body>
+</html>

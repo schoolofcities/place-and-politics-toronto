@@ -1,0 +1,76 @@
+{
+  "municipal_2023_mayor": {
+    "party_columns": {
+      "Non-partisan": "party_non_partisan_votes"
+    },
+    "poll_rows": 1545,
+    "polls_with_candidate_results": 1451,
+    "candidate_rows": 102,
+    "source_poll_candidate_rows": 148002,
+    "poll_candidate_vote_rows": 28998,
+    "omitted_zero_vote_rows": 119004,
+    "zero_vote_storage_rule": "The bridge stores only nonzero candidate votes. For polls with a non-null poll_total_candidate_votes value, an applicable candidate absent from the bridge has zero votes.",
+    "candidate_file": "toronto_municipal_2023_mayor_candidates.csv",
+    "poll_candidate_vote_file": "toronto_municipal_2023_mayor_poll_candidate_votes.csv",
+    "poll_summary_csv": "toronto_municipal_2023_mayor_turnout_subdivisions.csv",
+    "poll_summary_geojson": "toronto_municipal_2023_mayor_turnout_subdivisions.geojson"
+  },
+  "provincial_2025": {
+    "party_columns": {
+      "Canadians' Choice Party": "party_canadians_choice_party_votes",
+      "Communist Party of Canada (Ontario)": "party_communist_party_of_canada_ontario_votes",
+      "Green Party of Ontario": "party_green_party_of_ontario_votes",
+      "Independent": "party_independent_votes",
+      "New Blue Party of Ontario": "party_new_blue_party_of_ontario_votes",
+      "New Democratic Party of Ontario": "party_new_democratic_party_of_ontario_votes",
+      "None of the Above Direct Democracy Party": "party_none_of_the_above_direct_democracy_party_votes",
+      "Ontario Centrist Party": "party_ontario_centrist_party_votes",
+      "Ontario Liberal Party": "party_ontario_liberal_party_votes",
+      "Ontario Moderate Party": "party_ontario_moderate_party_votes",
+      "Ontario Party": "party_ontario_party_votes",
+      "Party for People with Special Needs": "party_party_for_people_with_special_needs_votes",
+      "Populist Party Ontario": "party_populist_party_ontario_votes",
+      "Progress Party Ontario": "party_progress_party_ontario_votes",
+      "Progressive Conservative Party of Ontario": "party_progressive_conservative_party_of_ontario_votes"
+    },
+    "poll_rows": 1532,
+    "polls_with_candidate_results": 1532,
+    "candidate_rows": 144,
+    "source_poll_candidate_rows": 8874,
+    "poll_candidate_vote_rows": 8186,
+    "omitted_zero_vote_rows": 688,
+    "zero_vote_storage_rule": "The bridge stores only nonzero candidate votes. For polls with a non-null poll_total_candidate_votes value, an applicable candidate absent from the bridge has zero votes.",
+    "candidate_file": "toronto_provincial_2025_candidates.csv",
+    "poll_candidate_vote_file": "toronto_provincial_2025_poll_candidate_votes.csv",
+    "poll_summary_csv": "toronto_provincial_2025_turnout_poll_divisions.csv",
+    "poll_summary_geojson": "toronto_provincial_2025_turnout_poll_divisions.geojson"
+  },
+  "federal_2025": {
+    "party_columns": {
+      "Animal Protection Party": "party_animal_protection_party_votes",
+      "Canadian Future Party": "party_canadian_future_party_votes",
+      "Centrist": "party_centrist_votes",
+      "Communist": "party_communist_votes",
+      "Conservative": "party_conservative_votes",
+      "Green Party": "party_green_party_votes",
+      "Independent": "party_independent_votes",
+      "Liberal": "party_liberal_votes",
+      "Marijuana Party": "party_marijuana_party_votes",
+      "Marxist-Leninist": "party_marxist_leninist_votes",
+      "NDP-New Democratic Party": "party_ndp_new_democratic_party_votes",
+      "No Affiliation": "party_no_affiliation_votes",
+      "People's Party - PPC": "party_people_s_party_ppc_votes"
+    },
+    "poll_rows": 5069,
+    "polls_with_candidate_results": 4687,
+    "candidate_rows": 125,
+    "source_poll_candidate_rows": 24394,
+    "poll_candidate_vote_rows": 20212,
+    "omitted_zero_vote_rows": 4182,
+    "zero_vote_storage_rule": "The bridge stores only nonzero candidate votes. For polls with a non-null poll_total_candidate_votes value, an applicable candidate absent from the bridge has zero votes.",
+    "candidate_file": "toronto_federal_2025_candidates.csv",
+    "poll_candidate_vote_file": "toronto_federal_2025_poll_candidate_votes.csv",
+    "poll_summary_csv": "toronto_federal_2025_turnout_poll_divisions.csv",
+    "poll_summary_geojson": "toronto_federal_2025_turnout_poll_divisions.geojson"
+  }
+}

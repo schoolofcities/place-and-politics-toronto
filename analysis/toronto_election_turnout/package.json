@@ -4,8 +4,11 @@
   "private": true,
   "description": "Interactive map viewer for Toronto municipal, provincial, and federal polling-division turnout datasets.",
   "scripts": {
-    "start": "node viewer/server.js",
-    "serve": "node viewer/server.js"
+    "build:data": "python3 elections/scripts/build_election_datasets.py",
+    "build:census-map": "python3 census/scripts/build_census_geography_viewer_data.py",
+    "start": "node elections/viewer/server.js",
+    "serve": "node elections/viewer/server.js",
+    "start:census": "node census/viewer/server.js"
   },
   "dependencies": {}
 }

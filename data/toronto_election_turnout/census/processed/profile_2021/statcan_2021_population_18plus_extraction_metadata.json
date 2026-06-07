@@ -1,0 +1,18 @@
+{
+  "source_table": "98-10-0023-01",
+  "source_url": "https://www150.statcan.gc.ca/t1/tbl1/en/tv.action?pid=9810002301",
+  "universe": "Total population, including institutional residents, 2021 Census - 100% data",
+  "calculation": "Total - Age minus ages 0 to 14, 15, 16, and 17",
+  "toronto_da_rows": 3743,
+  "toronto_da_missing_rows": 9,
+  "toronto_da_sum_population_18plus": 2331690,
+  "official_toronto_csd_population_total": 2794355,
+  "official_toronto_csd_population_under18": 463225,
+  "official_toronto_csd_population_18plus": 2331130,
+  "da_sum_minus_official_csd": 560,
+  "notes": [
+    "This is all persons aged 18+, not Canadian citizens aged 18+.",
+    "Counts are independently randomly rounded.",
+    "Rows marked x by Statistics Canada remain null."
+  ]
+}

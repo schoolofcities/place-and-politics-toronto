@@ -1,0 +1,25 @@
+{
+  "created_at_utc": "2026-06-07T00:40:54.238659+00:00",
+  "source": "Statistics Canada 2021 Census Profile comprehensive CSV downloads with confidence intervals",
+  "da_source_url": "https://www12-2021.statcan.gc.ca/census-recensement/2021/dp-pd/prof/details/download-telecharger/comp/GetFile.cfm?Lang=E&FILETYPE=CSV&GEONO=006CI_Ontario",
+  "ct_source_url": "https://www12-2021.statcan.gc.ca/census-recensement/2021/dp-pd/prof/details/download-telecharger/comp/GetFile.cfm?Lang=E&FILETYPE=CSV&GEONO=007CI",
+  "characteristic_id": 1525,
+  "characteristic_code": "citizen_canadian_18over",
+  "characteristic_name": "Canadian citizens aged 18 and over",
+  "da_expected_rows": 3743,
+  "da_extracted_rows": 3743,
+  "da_total_citizen_canadian_18over": 1869930,
+  "da_missing_citizen_canadian_18over_rows": 16,
+  "ct_expected_rows": 622,
+  "ct_extracted_rows": 622,
+  "ct_total_citizen_canadian_18over": 1999260,
+  "ct_missing_citizen_canadian_18over_rows": 2,
+  "notes": [
+    "The source zips are not stored in Git because they are large official comprehensive downloads.",
+    "The DA universe is restricted to DAUID prefix 3520, which corresponds to Toronto census division/census subdivision geographies.",
+    "The CT universe follows the stored Toronto CT geometry file.",
+    "The direct CT-level Census Profile sum does not reconcile exactly to the Toronto CSD/DA sum for this 25% sample characteristic; use DA-level weights as the primary ancillary input.",
+    "Values are Census Profile counts of Canadian citizens aged 18 and over, not election elector counts.",
+    "Blank values with a fourth data-quality-flag digit of 9 are explicitly suppressed by Statistics Canada for long-form confidentiality; they are not survey non-response or zero population."
+  ]
+}
