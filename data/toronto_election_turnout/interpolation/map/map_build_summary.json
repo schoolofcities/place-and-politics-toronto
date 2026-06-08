@@ -1,0 +1,26 @@
+{
+  "ancillary_weight_variable": "citizen_canadian_18over",
+  "audit_gates": {
+    "no_geometry_allocation": true,
+    "official_result_reconciliation": true,
+    "primary_vote_validation": true,
+    "vote_bearing_exclusions": true
+  },
+  "datasets": [
+    {
+      "election_id": "municipal_2023_mayor",
+      "feature_count": 585
+    },
+    {
+      "election_id": "provincial_2025",
+      "feature_count": 585
+    },
+    {
+      "election_id": "federal_2025",
+      "feature_count": 585
+    }
+  ],
+  "map_created": true,
+  "primary_metric": "estimated_participation_citizen_18plus",
+  "target_ct_count": 585
+}

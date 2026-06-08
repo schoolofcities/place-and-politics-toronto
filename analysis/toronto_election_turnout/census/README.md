@@ -38,6 +38,10 @@ census/
   - Reconciles adult-population and adult-citizen totals across DA, CT, ADA,
     and Toronto CSD geographies.
 
+- `scripts/audit_adult_suppression_reconciliation.py`
+  - Distinguishes suppression of Canadian citizens aged 18+ from suppression
+    of all residents aged 18+ at DA and CT levels.
+
 ## Docs
 
 - `docs/poll_to_ct_interpolation_readiness.md`: current readiness and unresolved interpolation issues.

@@ -1,0 +1,3 @@
+geo_level,geo_id,ct_id,ada_id,citizens_18plus,citizens_18plus_status,population_18plus,population_18plus_status,data_quality_flag,interpretation,can_fill_suppressed_value
+CT,5350006.00,5350006.00,,,suppressed_confidentiality,120,published,00999,Canadian citizens aged 18+ is suppressed in the 25% Census Profile; all residents aged 18+ remains published in the 100% age table.,false
+CT,5350205.00,5350205.00,,,suppressed_confidentiality,145,published,05999,Canadian citizens aged 18+ is suppressed in the 25% Census Profile; all residents aged 18+ remains published in the 100% age table.,false

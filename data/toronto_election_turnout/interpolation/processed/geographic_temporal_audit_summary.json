@@ -1,0 +1,10 @@
+{
+  "geographic_coverage_complete": true,
+  "geographies_added": 0,
+  "official_sources": {
+    "age_population": "https://www150.statcan.gc.ca/n1/en/tbl/csv/17100152-eng.zip",
+    "total_population": "https://www150.statcan.gc.ca/n1/en/tbl/csv/17100155-eng.zip"
+  },
+  "temporal_adjustment_applied": false,
+  "temporal_adjustment_blocker": "No official annual citizen_canadian_18over series exists for the required small-area or Toronto geography."
+}

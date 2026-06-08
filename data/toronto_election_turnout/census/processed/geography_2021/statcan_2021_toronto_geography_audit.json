@@ -7,6 +7,8 @@
   "boundary_only_ct_count": 37,
   "ada_count": 279,
   "da_suppressed_confidentiality_count": 16,
+  "da_population_18plus_suppressed_count": 9,
+  "ct_population_18plus_suppressed_count": 0,
   "da_to_ada_relationship": "Toronto ADAs are formed from CT building units. DAs respect CT boundaries, so the published crosswalk follows DA to CT to ADA.",
   "da_per_ada_min": 1,
   "da_per_ada_max": 46,

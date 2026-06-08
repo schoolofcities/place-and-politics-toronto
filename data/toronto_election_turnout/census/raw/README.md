@@ -7,6 +7,22 @@ The `source_downloads` folder also contains
 table `98-10-0023-01`. It supports an exact calculation of all-person
 population aged 18+ from published single-year age counts.
 
+It also contains `statcan_2021_ct_age_single_year_98100024-eng.zip`, official
+table `98-10-0024-01`, used for the corresponding CT-level calculation and
+suppression audit.
+
+It also contains annual Statistics Canada estimate tables used only for
+temporal diagnostics in the interpolation audit:
+
+- `statcan_annual_csd_population_17100155-eng.zip`
+  - Table `17-10-0155-01`, Toronto CSD total population estimates.
+- `statcan_annual_cd_age_17100152-eng.zip`
+  - Table `17-10-0152-01`, Toronto CD age estimates.
+
+These annual tables do not publish Canadian citizens aged 18 and over at DA,
+CT, Toronto CSD, or Toronto CD geography. They are therefore not used to
+replace or scale the production `citizen_canadian_18over` denominator.
+
 ## Stored Files
 
 ### Official Statistics Canada Geometry
@@ -88,6 +104,10 @@ The source downloads are:
   `https://geo.statcan.gc.ca/geo_wa/rest/services/2021/Cartographic_boundary_files/MapServer/12`
 - Census Profile download page for DA/CT attributes:
   `https://www12.statcan.gc.ca/census-recensement/2021/dp-pd/prof/details/download-telecharger.cfm`
+- Annual CSD total population estimates, table 17-10-0155-01:
+  `https://www150.statcan.gc.ca/n1/en/tbl/csv/17100155-eng.zip`
+- Annual CD age estimates, table 17-10-0152-01:
+  `https://www150.statcan.gc.ca/n1/en/tbl/csv/17100152-eng.zip`
 
 ## Attribute Data Status
 

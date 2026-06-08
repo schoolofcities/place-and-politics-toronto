@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Toronto CT Election Interpolation</title>
+    <link rel="stylesheet" href="/vendor/leaflet/leaflet.css">
+    <link rel="stylesheet" href="/src/styles.css">
+  </head>
+  <body>
+    <main class="app-shell">
+      <aside class="panel" aria-label="Map controls and audit summary">
+        <header class="brand">
+          <p class="eyebrow">Toronto election interpolation</p>
+          <h1>Census Tract Participation</h1>
+          <p class="subtitle">Population-weighted estimates using Canadian citizens aged 18 and over.</p>
+        </header>
+
+        <section class="control-group">
+          <label for="electionSelect">Election</label>
+          <select id="electionSelect">
+            <option value="municipal_2023_mayor">Municipal Mayor 2023</option>
+            <option value="provincial_2025">Provincial 2025</option>
+            <option value="federal_2025">Federal 2025</option>
+          </select>
+        </section>
+
+        <section class="control-group">
+          <label for="metricSelect">Map measure</label>
+          <select id="metricSelect">
+            <option value="citizen">Votes / citizen population 18+</option>
+            <option value="electors">Votes / allocated electors</option>
+          </select>
+        </section>
+
+        <section class="control-group">
+          <label id="distributionLabel" for="partySelect">Political party</label>
+          <select id="partySelect">
+            <option value="">Turnout map</option>
+          </select>
+          <p class="control-note" id="partyNote">Select a party to color CTs by its share of valid candidate votes.</p>
+        </section>
+
+        <section class="stats" aria-label="Toronto-wide estimates">
+          <div><span>CTs mapped</span><strong id="statCount">585</strong></div>
+          <div><span>Estimated votes</span><strong id="statVotes">0</strong></div>
+          <div><span>Citizen 18+ rate</span><strong id="statCitizen">--</strong></div>
+          <div><span>Official elector rate</span><strong id="statOfficial">--</strong></div>
+        </section>
+
+        <section class="comparison" aria-label="Turnout comparison">
+          <h2>Turnout audit</h2>
+          <div id="comparisonRows"></div>
+          <p id="comparisonNote"></p>
+        </section>
+
+        <section class="legend" aria-label="Map legend">
+          <h2 id="legendTitle">Participation rate</h2>
+          <div id="legendRows"></div>
+        </section>
+
+        <details class="audit-notes" open>
+          <summary>Method and integrity</summary>
+          <ul>
+            <li>All official party and candidate totals match globally and by ward/riding.</li>
+            <li>No-geometry vote records are allocated using district-to-CT citizen-18+ weights.</li>
+            <li>Two CT citizen counts are suppressed; their citizen-rate value remains unavailable.</li>
+            <li>Ontario and Canada turnout rates are contextual comparisons, not Toronto validation targets.</li>
+            <li>Party and municipal candidate maps use vote share rather than raw counts so differently sized CTs remain comparable.</li>
+          </ul>
+        </details>
+      </aside>
+
+      <section class="map-wrap" aria-label="Interactive census tract map">
+        <div id="map"></div>
+        <div class="map-status" id="status">Loading validated CT estimates...</div>
+      </section>
+    </main>
+
+    <script src="/vendor/leaflet/leaflet.js"></script>
+    <script src="/src/app.js"></script>
+  </body>
+</html>

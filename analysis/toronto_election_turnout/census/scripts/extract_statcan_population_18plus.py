@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Extract 2021 population aged 18+ from Statistics Canada table 98-10-0023-01."""
+"""Extract 2021 population aged 18+ for Toronto DAs and CTs."""
 
 from __future__ import annotations
 
@@ -11,10 +11,13 @@ from pathlib import Path
 
 REPO_ROOT = Path(__file__).resolve().parents[4]
 DATA_ROOT = REPO_ROOT / "data" / "toronto_election_turnout" / "census"
-SOURCE = DATA_ROOT / "raw" / "source_downloads" / "statcan_2021_age_single_year_98100023-eng.zip"
+DA_SOURCE_ZIP = DATA_ROOT / "raw" / "source_downloads" / "statcan_2021_age_single_year_98100023-eng.zip"
+CT_SOURCE_ZIP = DATA_ROOT / "raw" / "source_downloads" / "statcan_2021_ct_age_single_year_98100024-eng.zip"
 PROFILE = DATA_ROOT / "processed" / "profile_2021"
 DA_SOURCE = PROFILE / "statcan_2021_da_citizens_18plus.csv"
-OUTPUT = PROFILE / "statcan_2021_da_population_18plus.csv"
+CT_SOURCE = PROFILE / "statcan_2021_ct_citizens_18plus.csv"
+DA_OUTPUT = PROFILE / "statcan_2021_da_population_18plus.csv"
+CT_OUTPUT = PROFILE / "statcan_2021_ct_population_18plus.csv"
 METADATA = PROFILE / "statcan_2021_population_18plus_extraction_metadata.json"
 TORONTO_CSD_DGUID = "2021A00053520005"
 
@@ -24,11 +27,14 @@ def as_int(value: str) -> int | None:
     return int(float(text)) if text else None
 
 
-def main() -> None:
-    with DA_SOURCE.open(newline="", encoding="utf-8-sig") as f:
-        da_rows = list(csv.DictReader(f))
-    da_dguids = {row["dguid"] for row in da_rows}
-    wanted_dguids = da_dguids | {TORONTO_CSD_DGUID}
+def read_rows(path: Path) -> list[dict[str, str]]:
+    with path.open(newline="", encoding="utf-8-sig") as f:
+        return list(csv.DictReader(f))
+
+
+def extract_values(
+    source_zip: Path, member: str, wanted_dguids: set[str]
+) -> dict[str, dict[str, int | str | None]]:
     values: dict[str, dict[str, int | str | None]] = {
         dguid: {
             "geo_name": "",
@@ -40,9 +46,8 @@ def main() -> None:
         }
         for dguid in wanted_dguids
     }
-
-    with zipfile.ZipFile(SOURCE) as archive:
-        with archive.open("98100023.csv") as raw:
+    with zipfile.ZipFile(source_zip) as archive:
+        with archive.open(member) as raw:
             text = (line.decode("utf-8-sig") for line in raw)
             for row in csv.DictReader(text):
                 dguid = row["DGUID"]
@@ -62,9 +67,17 @@ def main() -> None:
                     if count is not None:
                         record["ages_15_17"] = int(record["ages_15_17"]) + count
                     record["age_15_17_count"] = int(record["age_15_17_count"]) + 1
+    return values
 
+
+def build_output_rows(
+    source_rows: list[dict[str, str]],
+    values: dict[str, dict[str, int | str | None]],
+    geo_level: str,
+    source_table: str,
+) -> list[dict[str, object]]:
     output_rows = []
-    for source_row in da_rows:
+    for source_row in source_rows:
         record = values[source_row["dguid"]]
         complete = (
             record["total"] is not None
@@ -81,7 +94,7 @@ def main() -> None:
         )
         output_rows.append(
             {
-                "geo_level": "DA",
+                "geo_level": geo_level,
                 "dguid": source_row["dguid"],
                 "geo_id": source_row["geo_id"],
                 "geo_name": source_row["geo_name"],
@@ -99,20 +112,46 @@ def main() -> None:
                     else "not_published"
                 ),
                 "source_symbol": record["symbol"],
-                "source_table": "98-10-0023-01",
+                "source_table": source_table,
                 "method_note": (
                     "Total - Age minus the published 0-to-14 aggregate and "
                     "single-year counts for ages 15, 16, and 17; 100% Census data."
                 ),
             }
         )
+    return output_rows
 
-    with OUTPUT.open("w", newline="", encoding="utf-8") as f:
-        writer = csv.DictWriter(f, fieldnames=output_rows[0].keys())
+
+def write_rows(path: Path, rows: list[dict[str, object]]) -> None:
+    with path.open("w", newline="", encoding="utf-8") as f:
+        writer = csv.DictWriter(f, fieldnames=rows[0].keys())
         writer.writeheader()
-        writer.writerows(output_rows)
+        writer.writerows(rows)
 
-    city = values[TORONTO_CSD_DGUID]
+
+def main() -> None:
+    da_rows = read_rows(DA_SOURCE)
+    ct_rows = read_rows(CT_SOURCE)
+    da_values = extract_values(
+        DA_SOURCE_ZIP,
+        "98100023.csv",
+        {row["dguid"] for row in da_rows} | {TORONTO_CSD_DGUID},
+    )
+    ct_values = extract_values(
+        CT_SOURCE_ZIP,
+        "98100024.csv",
+        {row["dguid"] for row in ct_rows},
+    )
+    da_output_rows = build_output_rows(
+        da_rows, da_values, "DA", "98-10-0023-01"
+    )
+    ct_output_rows = build_output_rows(
+        ct_rows, ct_values, "CT", "98-10-0024-01"
+    )
+    write_rows(DA_OUTPUT, da_output_rows)
+    write_rows(CT_OUTPUT, ct_output_rows)
+
+    city = da_values[TORONTO_CSD_DGUID]
     city_complete = (
         city["total"] is not None
         and city["under15"] is not None
@@ -124,19 +163,37 @@ def main() -> None:
     city_18plus = int(city["total"]) - city_under18 if city_complete else None
     da_total = sum(
         int(row["population_18plus"])
-        for row in output_rows
+        for row in da_output_rows
+        if row["population_18plus"] != ""
+    )
+    ct_total = sum(
+        int(row["population_18plus"])
+        for row in ct_output_rows
         if row["population_18plus"] != ""
     )
     metadata = {
-        "source_table": "98-10-0023-01",
-        "source_url": "https://www150.statcan.gc.ca/t1/tbl1/en/tv.action?pid=9810002301",
+        "source_tables": {
+            "DA_and_CSD": {
+                "table": "98-10-0023-01",
+                "url": "https://www150.statcan.gc.ca/t1/tbl1/en/tv.action?pid=9810002301",
+            },
+            "CT": {
+                "table": "98-10-0024-01",
+                "url": "https://www150.statcan.gc.ca/t1/tbl1/en/tv.action?pid=9810002401",
+            },
+        },
         "universe": "Total population, including institutional residents, 2021 Census - 100% data",
         "calculation": "Total - Age minus ages 0 to 14, 15, 16, and 17",
-        "toronto_da_rows": len(output_rows),
+        "toronto_da_rows": len(da_output_rows),
         "toronto_da_missing_rows": sum(
-            row["value_status"] != "published" for row in output_rows
+            row["value_status"] != "published" for row in da_output_rows
         ),
         "toronto_da_sum_population_18plus": da_total,
+        "toronto_clipped_ct_rows": len(ct_output_rows),
+        "toronto_clipped_ct_missing_rows": sum(
+            row["value_status"] != "published" for row in ct_output_rows
+        ),
+        "toronto_clipped_ct_sum_population_18plus": ct_total,
         "official_toronto_csd_population_total": city["total"],
         "official_toronto_csd_population_under18": city_under18,
         "official_toronto_csd_population_18plus": city_18plus,

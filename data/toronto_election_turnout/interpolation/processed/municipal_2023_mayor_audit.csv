@@ -1,0 +1,10 @@
+election_id,metric,value
+municipal_2023_mayor,input_poll_rows,1545
+municipal_2023_mayor,mapped_vote_rows,1351
+municipal_2023_mayor,no_geometry_vote_rows,100
+municipal_2023_mayor,missing_votes_excluded_rows,94
+municipal_2023_mayor,votes_exceed_electors_rows,0
+municipal_2023_mayor,invalid_poll_geometries_repaired,4
+municipal_2023_mayor,invalid_district_geometries_repaired,0
+municipal_2023_mayor,poll_area_fallback_rows,1
+municipal_2023_mayor,excluded_or_unallocated_rows,94

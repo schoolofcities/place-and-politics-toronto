@@ -28,6 +28,7 @@
           <label for="metricSelect">Map value</label>
           <select id="metricSelect">
             <option value="citizens">Canadian citizens aged 18+</option>
+            <option value="population18">All residents aged 18+</option>
             <option value="area">Land area</option>
             <option value="none">Boundaries only</option>
           </select>
@@ -41,9 +42,9 @@
         </section>
 
         <section class="stats" aria-label="Current geography summary">
-          <div><span>Areas shown</span><strong id="statCount">0</strong></div>
+          <div><span>Areas analyzed</span><strong id="statCount">0</strong></div>
           <div><span>Suppressed / unpublished</span><strong id="statMissing">0</strong></div>
-          <div><span>Citizens aged 18+</span><strong id="statCitizens">0</strong></div>
+          <div><span id="statValueLabel">Citizens aged 18+</span><strong id="statCitizens">0</strong></div>
           <div><span>Median land area</span><strong id="statArea">0</strong></div>
         </section>
 
@@ -57,8 +58,10 @@
           <ul>
             <li>DA is the finest layer: 3,743 Toronto areas compared with 622 CTs and 279 ADAs.</li>
             <li>In Toronto, Statistics Canada builds ADAs from CTs. DAs nest within CTs, producing a DA → CT → ADA hierarchy.</li>
-            <li>Citizen counts are 2021 Census Profile estimates, not election elector counts.</li>
-            <li>Blank DA citizenship values are official confidentiality suppressions, not zero population or unrecorded census responses.</li>
+            <li>Citizen counts are 25% Census Profile estimates; all-resident age counts are 100% Census age-table values.</li>
+            <li>The citizenship metric has 16 suppressed DAs; the all-resident age metric has 9. These are different Census variables.</li>
+            <li>Blank DA values are official confidentiality suppressions, not zero population or unrecorded census responses.</li>
+            <li>CT statistics use the 585 CTs linked to Toronto DAs. Boundary-intersecting CT slivers outside that universe remain visible but are excluded from totals.</li>
           </ul>
         </details>
       </aside>

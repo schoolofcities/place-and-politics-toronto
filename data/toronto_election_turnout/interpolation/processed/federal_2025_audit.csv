@@ -1,0 +1,10 @@
+election_id,metric,value
+federal_2025,input_poll_rows,5069
+federal_2025,mapped_vote_rows,4273
+federal_2025,no_geometry_vote_rows,414
+federal_2025,missing_votes_excluded_rows,382
+federal_2025,votes_exceed_electors_rows,27
+federal_2025,invalid_poll_geometries_repaired,107
+federal_2025,invalid_district_geometries_repaired,0
+federal_2025,poll_area_fallback_rows,0
+federal_2025,excluded_or_unallocated_rows,382

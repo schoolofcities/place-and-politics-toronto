@@ -1,0 +1,17 @@
+geo_level,geo_id,ct_id,ada_id,citizens_18plus,citizens_18plus_status,population_18plus,population_18plus_status,data_quality_flag,interpretation,can_fill_suppressed_value
+DA,35200313,5350303.00,35200052,,suppressed_confidentiality,,suppressed_confidentiality,09999,Both Canadian citizens aged 18+ and all residents aged 18+ are officially suppressed. Values remain null.,false
+DA,35200545,5350194.02,35200166,,suppressed_confidentiality,225,published,00999,Canadian citizens aged 18+ is suppressed in the 25% Census Profile; all residents aged 18+ remains published in the 100% age table.,false
+DA,35200829,5350017.02,35200333,,suppressed_confidentiality,,suppressed_confidentiality,09999,Both Canadian citizens aged 18+ and all residents aged 18+ are officially suppressed. Values remain null.,false
+DA,35201461,5350006.00,35200307,,suppressed_confidentiality,120,published,00999,Canadian citizens aged 18+ is suppressed in the 25% Census Profile; all residents aged 18+ remains published in the 100% age table.,false
+DA,35203185,5350069.00,35200234,,suppressed_confidentiality,0,published,00999,Canadian citizens aged 18+ is suppressed in the 25% Census Profile; all residents aged 18+ remains published in the 100% age table.,false
+DA,35203649,5350363.04,35200027,,suppressed_confidentiality,,suppressed_confidentiality,09999,Both Canadian citizens aged 18+ and all residents aged 18+ are officially suppressed. Values remain null.,false
+DA,35203717,5350362.01,35200007,,suppressed_confidentiality,55,published,02999,Canadian citizens aged 18+ is suppressed in the 25% Census Profile; all residents aged 18+ remains published in the 100% age table.,false
+DA,35204258,5350250.04,35200132,,suppressed_confidentiality,,suppressed_confidentiality,09999,Both Canadian citizens aged 18+ and all residents aged 18+ are officially suppressed. Values remain null.,false
+DA,35204479,5350247.01,35200196,,suppressed_confidentiality,45,published,02999,Canadian citizens aged 18+ is suppressed in the 25% Census Profile; all residents aged 18+ remains published in the 100% age table.,false
+DA,35204599,5350062.01,35200332,,suppressed_confidentiality,285,published,00999,Canadian citizens aged 18+ is suppressed in the 25% Census Profile; all residents aged 18+ remains published in the 100% age table.,false
+DA,35204701,5350205.00,35200323,,suppressed_confidentiality,145,published,05999,Canadian citizens aged 18+ is suppressed in the 25% Census Profile; all residents aged 18+ remains published in the 100% age table.,false
+DA,35204790,5350320.01,35200061,,suppressed_confidentiality,,suppressed_confidentiality,09999,Both Canadian citizens aged 18+ and all residents aged 18+ are officially suppressed. Values remain null.,false
+DA,35204854,5350270.02,35200091,,suppressed_confidentiality,,suppressed_confidentiality,09999,Both Canadian citizens aged 18+ and all residents aged 18+ are officially suppressed. Values remain null.,false
+DA,35204860,5350368.01,35200065,,suppressed_confidentiality,,suppressed_confidentiality,09999,Both Canadian citizens aged 18+ and all residents aged 18+ are officially suppressed. Values remain null.,false
+DA,35204878,5350260.07,35200151,,suppressed_confidentiality,,suppressed_confidentiality,09999,Both Canadian citizens aged 18+ and all residents aged 18+ are officially suppressed. Values remain null.,false
+DA,35204899,5350013.02,35200291,,suppressed_confidentiality,,suppressed_confidentiality,09999,Both Canadian citizens aged 18+ and all residents aged 18+ are officially suppressed. Values remain null.,false

@@ -1,9 +1,11 @@
 # Toronto Election Turnout Data
 
-This folder is split into two data batches:
+This folder is split into three data batches:
 
 - `elections/`: municipal, provincial, and federal election source files and processed polling-division turnout outputs.
 - `census/`: 2021 census geography, Census Profile attributes, and census-tract reference/interpolation inputs.
+- `interpolation/`: generated poll/district-to-census-tract crosswalks,
+  estimates, audits, exclusions, and validation reports.
 
 This separation is intentional. Election files describe votes, electors, polling
 divisions, wards, and ridings. Census files describe DAs, CTs, CSD geography,
@@ -25,6 +27,8 @@ data/toronto_election_turnout/
     reference/
       ada_2021/
       zack_taylor_ct2021/
+  interpolation/
+    processed/
 ```
 
 ## Election Data
@@ -72,3 +76,11 @@ metadata sidecars.
 
 See `analysis/toronto_election_turnout/census/docs/` for interpolation notes,
 the Zack Taylor comparison, and the source PDF.
+
+## Interpolation Data
+
+`interpolation/processed/` stores generated CT-level estimates and validation
+outputs from `analysis/toronto_election_turnout/interpolation/`. The default
+workflow uses DA-level `citizen_canadian_18over` as the population weight,
+treats suppressed DA values as zero, and writes separate poll-to-CT and
+district-to-CT crosswalks.

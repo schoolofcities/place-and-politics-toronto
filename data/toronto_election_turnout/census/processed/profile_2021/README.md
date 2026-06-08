@@ -29,6 +29,20 @@ poll-to-census-tract interpolation.
   - One row per Toronto DA.
   - All persons aged 18 years and over from 100% Census single-year-age data.
   - Distinct from Canadian citizens aged 18 and over.
+  - Missing/suppressed rows: 9.
+
+- `statcan_2021_ct_population_18plus.csv`
+  - One row per stored CT intersecting the Toronto clipping boundary.
+  - All persons aged 18 years and over from the 100% Census age table.
+  - All 585 CTs linked to Toronto DAs have published values.
+
+- `statcan_2021_da_adult_suppression_reconciliation.csv`
+  - Reconciles the 16 citizenship suppressions with the 9 all-resident age
+    suppressions at DA level.
+
+- `statcan_2021_ct_adult_suppression_reconciliation.csv`
+  - Records 2 citizenship suppressions and 0 all-resident age suppressions
+    among Toronto-linked CTs.
 
 - `statcan_2021_population_18plus_extraction_metadata.json`
   - Reconciles the DA sum with the independently published Toronto CSD value.
@@ -42,8 +56,8 @@ poll-to-census-tract interpolation.
 ## Source and Reproducibility
 
 The files were extracted from official Statistics Canada 2021 Census Profile
-comprehensive CSV downloads with confidence intervals. The large source zips
-are not stored in Git.
+comprehensive CSV downloads and official single-year age tables. The two age
+table source zips are retained under `census/raw/source_downloads/`.
 
 Rebuild with:
 
@@ -55,6 +69,12 @@ The script expects the official source zips in `/private/tmp`:
 
 - `/private/tmp/statcan_da_ontario_ci.zip`
 - `/private/tmp/statcan_ct_ci.zip`
+
+Rebuild the all-resident age tables with:
+
+```bash
+python3 analysis/toronto_election_turnout/census/scripts/extract_statcan_population_18plus.py
+```
 
 The DA table should be used as the primary ancillary population-weight input.
 Its total closely matches the official Toronto CSD row in the same Census

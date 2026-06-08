@@ -8,6 +8,12 @@ official Statistics Canada product publishes the values or whether a value can
 be recovered by subtracting the other DAs from the containing census tract
 (CT).
 
+The map's 16 blanks are therefore correct for the citizenship metric. A
+separate 100% Census age table has only nine suppressed DAs for the broader
+measure `all residents aged 18 and over`. Seven DAs have a published
+all-resident adult count while their citizenship-based adult count remains
+suppressed. The variables must not be substituted for one another.
+
 ## Official-Source Search
 
 The exact characteristic is available in the 2021 Census Profile, including at
@@ -31,6 +37,11 @@ same disseminated census data. Citizenship highlight tables and special
 profiles do not provide an unsuppressed DA substitute, and public-use
 microdata do not identify respondents at DA geography.
 
+For the all-resident age measure, nine DAs are suppressed in official table
+`98-10-0023-01`. The same measure is published for all 585 Toronto-linked CTs
+in table `98-10-0024-01`. CT-minus-DA residuals are not exact DA values because
+the component cells and totals are independently rounded.
+
 Official sources:
 
 - Census Profile catalogue and geography coverage:
@@ -41,6 +52,10 @@ Official sources:
   https://www12.statcan.gc.ca/census-recensement/2021/dp-pd/dv-vd/cpdv-vdpr/about-apropos-eng.cfm
 - 2021 Census guide on confidentiality and suppression:
   https://www12.statcan.gc.ca/census-recensement/2021/ref/98-304/98-304-x2021001-eng.pdf
+- DA single-year age table `98-10-0023-01`:
+  https://www150.statcan.gc.ca/t1/tbl1/en/tv.action?pid=9810002301
+- CT single-year age table `98-10-0024-01`:
+  https://www150.statcan.gc.ca/t1/tbl1/en/tv.action?pid=9810002401
 
 ## CT Residual Test
 
@@ -81,3 +96,8 @@ in separate columns with uncertainty and provenance.
 The 100% age profile is not an exact substitute. It can describe the adult-age
 population, but it cannot identify which adults are Canadian citizens. Mixing
 it into the citizenship field would change the variable's meaning.
+
+The direct variable-by-variable reconciliation is stored in:
+
+- `data/toronto_election_turnout/census/processed/profile_2021/statcan_2021_da_adult_suppression_reconciliation.csv`
+- `data/toronto_election_turnout/census/processed/profile_2021/statcan_2021_ct_adult_suppression_reconciliation.csv`

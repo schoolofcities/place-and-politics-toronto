@@ -16,7 +16,24 @@ The second measure is not total adult population. The first is not a count of
 citizens or eligible electors.
 
 Nine Toronto DAs are marked `x` in the official 100% age table and remain null.
-They are not interpreted as zero.
+They are not interpreted as zero. This is distinct from the 16 DAs whose
+25% Census Profile value for Canadian citizens aged 18+ is suppressed.
+
+The seven DAs suppressed only for the citizenship measure have these official
+all-resident age-table values:
+
+| DA | All residents aged 18+ |
+| --- | ---: |
+| 35200545 | 225 |
+| 35201461 | 120 |
+| 35203185 | 0 |
+| 35203717 | 55 |
+| 35204479 | 45 |
+| 35204599 | 285 |
+| 35204701 | 145 |
+
+These values do not fill the citizenship field because the two variables have
+different universes.
 
 For all persons aged 18+:
 
@@ -45,6 +62,10 @@ The CT and ADA totals are each within 30 people of the official city value.
 The sum of all 622 stored clipped CT features is not a Toronto total. Some CTs
 intersect the Toronto boundary but do not contain a Toronto DA. Only the 585 CT
 identifiers in the DA-to-CT crosswalk form the comparable Toronto universe.
+
+Within those 585 CTs, all-resident population aged 18+ is published for every
+CT. Canadian citizens aged 18+ is suppressed for two CTs: `5350006.00` and
+`5350205.00`. Their values remain null.
 
 ## ADA Reference Check
 
@@ -75,5 +96,7 @@ exactly.
   https://www12.statcan.gc.ca/census-recensement/2021/dp-pd/prof/details/page.cfm?DGUIDlist=2021A00053520005&GENDERlist=1&HEADERlist=0&Lang=E&STATISTIClist=1
 - Single-year age table `98-10-0023-01`:
   https://www150.statcan.gc.ca/t1/tbl1/en/tv.action?pid=9810002301
+- CT single-year age table `98-10-0024-01`:
+  https://www150.statcan.gc.ca/t1/tbl1/en/tv.action?pid=9810002401
 - Random rounding:
   https://www12.statcan.gc.ca/census-recensement/2021/dp-pd/dt-td/about.cfm

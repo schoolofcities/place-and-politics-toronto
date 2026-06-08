@@ -14,6 +14,39 @@ const sources = {
 };
 
 const state = { level: "da", metric: "citizens", data: {}, layer: null, overlay: null };
+const metricMeta = {
+  citizens: {
+    label: "Canadian citizens aged 18+",
+    shortLabel: "Citizens aged 18+",
+    missingLabel: "Suppressed / unpublished",
+    value(feature) {
+      const p = feature.properties;
+      return state.level === "ada"
+        ? p.ada_profile_citizen_canadian_18over
+        : p.citizen_canadian_18over;
+    },
+    status(feature) {
+      return feature.properties.value_status;
+    },
+    note(feature) {
+      return feature.properties.source_note;
+    }
+  },
+  population18: {
+    label: "All residents aged 18+",
+    shortLabel: "Residents aged 18+",
+    missingLabel: "Suppressed / incomplete",
+    value(feature) {
+      return feature.properties.population_18plus;
+    },
+    status(feature) {
+      return feature.properties.population_18plus_value_status;
+    },
+    note(feature) {
+      return feature.properties.population_18plus_source_note;
+    }
+  }
+};
 const colors = ["#edf5e9", "#b8dfc0", "#6fb9a5", "#32858a", "#294c73"];
 const map = L.map("map", { preferCanvas: true }).setView([43.71, -79.38], 11);
 
@@ -30,6 +63,7 @@ const els = {
   missing: document.getElementById("statMissing"),
   citizens: document.getElementById("statCitizens"),
   area: document.getElementById("statArea"),
+  valueLabel: document.getElementById("statValueLabel"),
   legendTitle: document.getElementById("legendTitle"),
   legendRows: document.getElementById("legendRows"),
   status: document.getElementById("status")
@@ -40,16 +74,15 @@ function fmt(value, digits = 0) {
   return Number(value).toLocaleString("en-CA", { maximumFractionDigits: digits });
 }
 
-function citizenValue(p) {
-  return state.level === "ada"
-    ? p.ada_profile_citizen_canadian_18over
-    : p.citizen_canadian_18over;
+function activeMetric() {
+  return metricMeta[state.metric] || null;
 }
 
 function metricValue(feature) {
   if (state.metric === "none") return null;
   if (state.metric === "area") return Number(feature.properties.LANDAREA);
-  const value = citizenValue(feature.properties);
+  const metric = activeMetric();
+  const value = metric ? metric.value(feature) : null;
   return value === null || value === undefined ? null : Number(value);
 }
 
@@ -80,26 +113,35 @@ function popup(feature) {
          <tr><th>Component DAs</th><td>${fmt(p.component_da_count)}</td></tr>
          <tr><th>DA-summed citizens</th><td>${fmt(p.da_sum_citizen_canadian_18over)}</td></tr>`;
   const status = p.value_status && p.value_status !== "published"
-    ? `<tr><th>Value status</th><td>Suppressed for confidentiality</td></tr>`
+    ? `<tr><th>Citizen value status</th><td>${p.value_status}</td></tr>`
+    : "";
+  const populationStatus = p.population_18plus_value_status && p.population_18plus_value_status !== "published"
+    ? `<tr><th>Resident 18+ status</th><td>${p.population_18plus_value_status}</td></tr>`
     : "";
   const note = p.source_note
     ? `<tr><th>Source note</th><td>${p.source_note}</td></tr>`
     : "";
+  const populationNote = p.population_18plus_source_note
+    ? `<tr><th>Resident 18+ note</th><td>${p.population_18plus_source_note}</td></tr>`
+    : "";
   return `
     <h3 class="popup-title">${p.geo_level} ${p.geo_id}</h3>
     <table class="popup-table">
-      <tr><th>Citizens aged 18+</th><td>${fmt(citizenValue(p))}</td></tr>
+      <tr><th>Citizens aged 18+</th><td>${fmt(metricMeta.citizens.value(feature))}</td></tr>
+      <tr><th>Residents aged 18+</th><td>${fmt(metricMeta.population18.value(feature))}</td></tr>
       <tr><th>Land area (km²)</th><td>${fmt(p.LANDAREA, 3)}</td></tr>
       ${relationship}
       ${status}
+      ${populationStatus}
       ${note}
+      ${populationNote}
     </table>`;
 }
 
 function renderLegend(breaks) {
   const title = state.metric === "area"
     ? "Land area (km²)"
-    : state.metric === "none" ? "Boundaries" : "Canadian citizens aged 18+";
+    : state.metric === "none" ? "Boundaries" : activeMetric().label;
   els.legendTitle.textContent = title;
   if (!breaks.length) {
     els.legendRows.innerHTML = `<div class="legend-row"><i style="background:#dce8e1"></i><span>Geography boundary</span></div>`;
@@ -111,12 +153,17 @@ function renderLegend(breaks) {
 }
 
 function updateStats(features) {
-  const citizens = features.map((f) => citizenValue(f.properties));
-  const areas = features.map((f) => Number(f.properties.LANDAREA)).filter(Number.isFinite).sort((a, b) => a - b);
-  const validCitizens = citizens.filter((v) => v !== null && v !== undefined).map(Number);
-  els.count.textContent = fmt(features.length);
-  els.missing.textContent = fmt(citizens.length - validCitizens.length);
-  els.citizens.textContent = fmt(validCitizens.reduce((sum, value) => sum + value, 0));
+  const metric = activeMetric();
+  const analysisFeatures = state.level === "ct"
+    ? features.filter((feature) => feature.properties.contains_toronto_da)
+    : features;
+  const values = metric ? analysisFeatures.map((f) => metric.value(f)) : [];
+  const areas = analysisFeatures.map((f) => Number(f.properties.LANDAREA)).filter(Number.isFinite).sort((a, b) => a - b);
+  const validValues = values.filter((v) => v !== null && v !== undefined).map(Number);
+  els.count.textContent = fmt(analysisFeatures.length);
+  els.missing.textContent = metric ? fmt(values.length - validValues.length) : "0";
+  els.valueLabel.textContent = metric ? metric.shortLabel : "Mapped value";
+  els.citizens.textContent = metric ? fmt(validValues.reduce((sum, value) => sum + value, 0)) : "No data";
   els.area.textContent = areas.length ? `${fmt(areas[Math.floor(areas.length / 2)], 3)} km²` : "No data";
 }
 

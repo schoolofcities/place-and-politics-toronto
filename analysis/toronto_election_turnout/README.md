@@ -4,6 +4,8 @@ This folder mirrors the data split:
 
 - `elections/`: scripts, notes, and viewer for polling-division election turnout.
 - `census/`: scripts and notes for 2021 census inputs, reference CT files, and poll-to-CT interpolation readiness.
+- `interpolation/`: population-weighted poll/district-to-CT allocation, audits,
+  and preservation validation.
 
 ## Python Setup
 
@@ -79,6 +81,17 @@ python census/scripts/convert_zack_taylor_stata.py /path/to/tor_electoral_ct2021
 Outputs go to:
 
 - `../../data/toronto_election_turnout/census/reference/zack_taylor_ct2021/`
+
+Build the poll-to-CT interpolation:
+
+```bash
+cd interpolation
+python3 run_interpolation.py
+```
+
+Outputs go to:
+
+- `../../data/toronto_election_turnout/interpolation/processed/`
 
 ## Notes
 

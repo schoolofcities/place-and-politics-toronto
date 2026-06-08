@@ -75,6 +75,8 @@ def main():
     OUT.mkdir(parents=True, exist_ok=True)
     da_profile = read_csv(PROFILE / "statcan_2021_da_citizens_18plus.csv", "geo_id")
     ct_profile = read_csv(PROFILE / "statcan_2021_ct_citizens_18plus.csv", "geo_id")
+    da_population = read_csv(PROFILE / "statcan_2021_da_population_18plus.csv", "geo_id")
+    ct_population = read_csv(PROFILE / "statcan_2021_ct_population_18plus.csv", "geo_id")
 
     ada_profile = {}
     with (ADA_REFERENCE / "toronto_ada_2021_profile.csv").open(
@@ -201,7 +203,13 @@ def main():
         export_layer(ADA_REFERENCE / "toronto_ada_2021_boundaries.gpkg", raw_ada, "toronto-ada")
 
         da_aggregates = defaultdict(
-            lambda: {"component_da_count": 0, "missing_da_count": 0, "citizens": 0}
+            lambda: {
+                "component_da_count": 0,
+                "missing_da_count": 0,
+                "citizens": 0,
+                "population_18plus": 0,
+                "population_18plus_missing_count": 0,
+            }
         )
         ct_counts = defaultdict(set)
         for da_id, profile_row in da_profile.items():
@@ -215,6 +223,13 @@ def main():
                 aggregate["missing_da_count"] += 1
             else:
                 aggregate["citizens"] += value
+            population_value = nullable_number(
+                da_population[da_id]["population_18plus"], integer=True
+            )
+            if population_value is None:
+                aggregate["population_18plus_missing_count"] += 1
+            else:
+                aggregate["population_18plus"] += population_value
 
         def update_da(feature):
             p = feature["properties"]
@@ -222,6 +237,7 @@ def main():
             if da_id not in da_profile:
                 return False
             profile_row = da_profile[da_id]
+            population_row = da_population[da_id]
             p.update(
                 {
                     "geo_level": "DA",
@@ -235,6 +251,17 @@ def main():
                     "data_quality_flag": profile_row["data_quality_flag"],
                     "value_status": profile_row["value_status"],
                     "source_note": profile_row["source_note"],
+                    "population_18plus": nullable_number(
+                        population_row["population_18plus"], integer=True
+                    ),
+                    "population_18plus_value_status": population_row["value_status"],
+                    "population_18plus_source_symbol": population_row["source_symbol"],
+                    "population_18plus_source_note": (
+                        "Official 100% Census age-table value."
+                        if population_row["value_status"] == "published"
+                        else "Suppressed by Statistics Canada to meet the "
+                        "confidentiality requirements of the Statistics Act."
+                    ),
                 }
             )
             return True
@@ -245,6 +272,7 @@ def main():
             if ct_id not in ct_profile:
                 return False
             profile_row = ct_profile[ct_id]
+            population_row = ct_population[ct_id]
             linked_to_toronto_da = ct_id in linked_ct_ids
             profile_value = nullable_number(
                 profile_row["citizen_canadian_18over"], integer=True
@@ -273,6 +301,31 @@ def main():
                         "verified Toronto DA maps to this CT. Its full-CT profile "
                         "count is retained separately and excluded from Toronto totals."
                     ),
+                    "population_18plus": (
+                        nullable_number(
+                            population_row["population_18plus"], integer=True
+                        )
+                        if linked_to_toronto_da
+                        else None
+                    ),
+                    "profile_population_18plus": nullable_number(
+                        population_row["population_18plus"], integer=True
+                    ),
+                    "population_18plus_value_status": (
+                        population_row["value_status"]
+                        if linked_to_toronto_da
+                        else "boundary_intersection_not_toronto_da_universe"
+                    ),
+                    "population_18plus_source_symbol": population_row["source_symbol"],
+                    "population_18plus_source_note": (
+                        "Official 100% Census age-table value."
+                        if linked_to_toronto_da
+                        and population_row["value_status"] == "published"
+                        else "CT is outside the comparable Toronto DA universe."
+                        if not linked_to_toronto_da
+                        else "Suppressed by Statistics Canada to meet the "
+                        "confidentiality requirements of the Statistics Act."
+                    ),
                 }
             )
             return True
@@ -295,6 +348,28 @@ def main():
                     ),
                     "ada_profile_rate_total": nullable_number(
                         official.get("C10_RATE_TOTAL")
+                    ),
+                    "population_18plus": (
+                        aggregate["population_18plus"]
+                        if aggregate["population_18plus_missing_count"] == 0
+                        else None
+                    ),
+                    "population_18plus_component_da_sum": aggregate[
+                        "population_18plus"
+                    ],
+                    "population_18plus_missing_da_count": aggregate[
+                        "population_18plus_missing_count"
+                    ],
+                    "population_18plus_value_status": (
+                        "aggregated_from_published_das"
+                        if aggregate["population_18plus_missing_count"] == 0
+                        else "incomplete_due_to_suppressed_das"
+                    ),
+                    "population_18plus_source_note": (
+                        "Sum of component DA 100% Census age-table values."
+                        if aggregate["population_18plus_missing_count"] == 0
+                        else "Not displayed because at least one component DA "
+                        "age value is officially suppressed."
                     ),
                 }
             )
@@ -339,6 +414,15 @@ def main():
         "da_suppressed_confidentiality_count": sum(
             row["value_status"] == "suppressed_confidentiality"
             for row in da_profile.values()
+        ),
+        "da_population_18plus_suppressed_count": sum(
+            row["value_status"] == "suppressed_confidentiality"
+            for row in da_population.values()
+        ),
+        "ct_population_18plus_suppressed_count": sum(
+            row["value_status"] == "suppressed_confidentiality"
+            for ct_id, row in ct_population.items()
+            if ct_id in linked_ct_ids
         ),
         "da_to_ada_relationship": (
             "Toronto ADAs are formed from CT building units. DAs respect CT "

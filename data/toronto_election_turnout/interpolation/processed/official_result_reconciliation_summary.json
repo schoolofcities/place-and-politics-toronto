@@ -1,0 +1,12 @@
+{
+  "candidate_comparison_rows": 3190,
+  "comparison_granularity": [
+    "global",
+    "district"
+  ],
+  "failure_count": 0,
+  "municipal_party_note": "The mayoral election is non-partisan; candidate totals are the finest meaningful official result measure.",
+  "official_source_match": true,
+  "party_comparison_rows": 741,
+  "turnout_numerator_note": "Party and candidate totals are valid votes. Total ballots cast can be larger because it includes rejected, unmarked, or declined ballots."
+}

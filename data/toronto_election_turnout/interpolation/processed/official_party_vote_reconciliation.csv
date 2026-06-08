@@ -1,0 +1,742 @@
+election_id,geography_level,geography_id,measure_type,measure_name,official_total,normalized_total,official_to_normalized_difference,official_to_normalized_match,interpolated_total,normalized_to_interpolated_difference,normalized_to_interpolated_match
+municipal_2023_mayor,district,01,party,Non-partisan,17822.0,17822.0,0.0,True,17822.000000000004,3.637978807091713e-12,True
+municipal_2023_mayor,district,02,party,Non-partisan,37925.0,37925.0,0.0,True,37925.000000000015,1.4551915228366852e-11,True
+municipal_2023_mayor,district,03,party,Non-partisan,42189.0,42189.0,0.0,True,42188.99999999994,-5.820766091346741e-11,True
+municipal_2023_mayor,district,04,party,Non-partisan,39170.0,39170.0,0.0,True,39169.99999999999,-7.275957614183426e-12,True
+municipal_2023_mayor,district,05,party,Non-partisan,25024.0,25024.0,0.0,True,25023.99999999998,-1.8189894035458565e-11,True
+municipal_2023_mayor,district,06,party,Non-partisan,22703.0,22703.0,0.0,True,22703.000000000004,3.637978807091713e-12,True
+municipal_2023_mayor,district,07,party,Non-partisan,15936.0,15936.0,0.0,True,15936.000000000007,7.275957614183426e-12,True
+municipal_2023_mayor,district,08,party,Non-partisan,34449.0,34449.0,0.0,True,34449.00000000001,7.275957614183426e-12,True
+municipal_2023_mayor,district,09,party,Non-partisan,34215.0,34215.0,0.0,True,34214.99999999998,-2.1827872842550278e-11,True
+municipal_2023_mayor,district,10,party,Non-partisan,33568.0,33568.0,0.0,True,33567.99999999999,-7.275957614183426e-12,True
+municipal_2023_mayor,district,11,party,Non-partisan,34804.0,34804.0,0.0,True,34804.00000000002,2.1827872842550278e-11,True
+municipal_2023_mayor,district,12,party,Non-partisan,40149.0,40149.0,0.0,True,40148.999999999985,-1.4551915228366852e-11,True
+municipal_2023_mayor,district,13,party,Non-partisan,31397.0,31397.0,0.0,True,31397.000000000004,3.637978807091713e-12,True
+municipal_2023_mayor,district,14,party,Non-partisan,37692.0,37692.0,0.0,True,37691.999999999985,-1.4551915228366852e-11,True
+municipal_2023_mayor,district,15,party,Non-partisan,30858.0,30858.0,0.0,True,30858.00000000001,1.0913936421275139e-11,True
+municipal_2023_mayor,district,16,party,Non-partisan,21958.0,21958.0,0.0,True,21957.999999999993,-7.275957614183426e-12,True
+municipal_2023_mayor,district,17,party,Non-partisan,24777.0,24777.0,0.0,True,24777.000000000015,1.4551915228366852e-11,True
+municipal_2023_mayor,district,18,party,Non-partisan,23788.0,23788.0,0.0,True,23787.999999999993,-7.275957614183426e-12,True
+municipal_2023_mayor,district,19,party,Non-partisan,36944.0,36944.0,0.0,True,36944.0,0.0,True
+municipal_2023_mayor,district,20,party,Non-partisan,27958.0,27958.0,0.0,True,27958.0,0.0,True
+municipal_2023_mayor,district,21,party,Non-partisan,23061.0,23061.0,0.0,True,23061.000000000044,4.3655745685100555e-11,True
+municipal_2023_mayor,district,22,party,Non-partisan,22707.0,22707.0,0.0,True,22707.000000000015,1.4551915228366852e-11,True
+municipal_2023_mayor,district,23,party,Non-partisan,18960.0,18960.0,0.0,True,18960.000000000004,3.637978807091713e-12,True
+municipal_2023_mayor,district,24,party,Non-partisan,21136.0,21136.0,0.0,True,21135.99999999999,-1.0913936421275139e-11,True
+municipal_2023_mayor,district,25,party,Non-partisan,25448.0,25448.0,0.0,True,25447.99999999999,-1.0913936421275139e-11,True
+municipal_2023_mayor,global,ALL,party,Non-partisan,724638.0,724638.0,0.0,True,724638.0000000016,1.6298145055770874e-09,True
+provincial_2025,district,007,party,Canadians' Choice Party,107.0,107.0,0.0,True,106.99999999999991,-8.526512829121202e-14,True
+provincial_2025,district,007,party,Communist Party of Canada (Ontario),0.0,0.0,0.0,True,0.0,0.0,True
+provincial_2025,district,007,party,Green Party of Ontario,1298.0,1298.0,0.0,True,1297.999999999999,-9.094947017729282e-13,True
+provincial_2025,district,007,party,Independent,122.0,122.0,0.0,True,122.00000000000001,1.4210854715202004e-14,True
+provincial_2025,district,007,party,New Blue Party of Ontario,246.0,246.0,0.0,True,246.00000000000034,3.410605131648481e-13,True
+provincial_2025,district,007,party,New Democratic Party of Ontario,9660.0,9660.0,0.0,True,9660.0,0.0,True
+provincial_2025,district,007,party,None of the Above Direct Democracy Party,0.0,0.0,0.0,True,0.0,0.0,True
+provincial_2025,district,007,party,Ontario Centrist Party,0.0,0.0,0.0,True,0.0,0.0,True
+provincial_2025,district,007,party,Ontario Liberal Party,21545.0,21545.0,0.0,True,21545.0,0.0,True
+provincial_2025,district,007,party,Ontario Moderate Party,0.0,0.0,0.0,True,0.0,0.0,True
+provincial_2025,district,007,party,Ontario Party,125.0,125.0,0.0,True,124.99999999999999,-1.4210854715202004e-14,True
+provincial_2025,district,007,party,Party for People with Special Needs,0.0,0.0,0.0,True,0.0,0.0,True
+provincial_2025,district,007,party,Populist Party Ontario,0.0,0.0,0.0,True,0.0,0.0,True
+provincial_2025,district,007,party,Progress Party Ontario,0.0,0.0,0.0,True,0.0,0.0,True
+provincial_2025,district,007,party,Progressive Conservative Party of Ontario,9001.0,9001.0,0.0,True,9000.999999999998,-1.8189894035458565e-12,True
+provincial_2025,district,019,party,Canadians' Choice Party,0.0,0.0,0.0,True,0.0,0.0,True
+provincial_2025,district,019,party,Communist Party of Canada (Ontario),556.0,556.0,0.0,True,556.0000000000006,5.684341886080801e-13,True
+provincial_2025,district,019,party,Green Party of Ontario,1184.0,1184.0,0.0,True,1183.9999999999984,-1.5916157281026244e-12,True
+provincial_2025,district,019,party,Independent,0.0,0.0,0.0,True,0.0,0.0,True
+provincial_2025,district,019,party,New Blue Party of Ontario,0.0,0.0,0.0,True,0.0,0.0,True
+provincial_2025,district,019,party,New Democratic Party of Ontario,22143.0,22143.0,0.0,True,22143.0,0.0,True
+provincial_2025,district,019,party,None of the Above Direct Democracy Party,0.0,0.0,0.0,True,0.0,0.0,True
+provincial_2025,district,019,party,Ontario Centrist Party,0.0,0.0,0.0,True,0.0,0.0,True
+provincial_2025,district,019,party,Ontario Liberal Party,7983.0,7983.0,0.0,True,7982.999999999998,-1.8189894035458565e-12,True
+provincial_2025,district,019,party,Ontario Moderate Party,0.0,0.0,0.0,True,0.0,0.0,True
+provincial_2025,district,019,party,Ontario Party,0.0,0.0,0.0,True,0.0,0.0,True
+provincial_2025,district,019,party,Party for People with Special Needs,0.0,0.0,0.0,True,0.0,0.0,True
+provincial_2025,district,019,party,Populist Party Ontario,0.0,0.0,0.0,True,0.0,0.0,True
+provincial_2025,district,019,party,Progress Party Ontario,0.0,0.0,0.0,True,0.0,0.0,True
+provincial_2025,district,019,party,Progressive Conservative Party of Ontario,6937.0,6937.0,0.0,True,6936.999999999992,-8.185452315956354e-12,True
+provincial_2025,district,020,party,Canadians' Choice Party,0.0,0.0,0.0,True,0.0,0.0,True
+provincial_2025,district,020,party,Communist Party of Canada (Ontario),0.0,0.0,0.0,True,0.0,0.0,True
+provincial_2025,district,020,party,Green Party of Ontario,778.0,778.0,0.0,True,777.9999999999999,-1.1368683772161603e-13,True
+provincial_2025,district,020,party,Independent,0.0,0.0,0.0,True,0.0,0.0,True
+provincial_2025,district,020,party,New Blue Party of Ontario,0.0,0.0,0.0,True,0.0,0.0,True
+provincial_2025,district,020,party,New Democratic Party of Ontario,2094.0,2094.0,0.0,True,2093.9999999999995,-4.547473508864641e-13,True
+provincial_2025,district,020,party,None of the Above Direct Democracy Party,0.0,0.0,0.0,True,0.0,0.0,True
+provincial_2025,district,020,party,Ontario Centrist Party,0.0,0.0,0.0,True,0.0,0.0,True
+provincial_2025,district,020,party,Ontario Liberal Party,15465.0,15465.0,0.0,True,15464.999999999993,-7.275957614183426e-12,True
+provincial_2025,district,020,party,Ontario Moderate Party,180.0,180.0,0.0,True,180.00000000000017,1.7053025658242404e-13,True
+provincial_2025,district,020,party,Ontario Party,0.0,0.0,0.0,True,0.0,0.0,True
+provincial_2025,district,020,party,Party for People with Special Needs,0.0,0.0,0.0,True,0.0,0.0,True
+provincial_2025,district,020,party,Populist Party Ontario,0.0,0.0,0.0,True,0.0,0.0,True
+provincial_2025,district,020,party,Progress Party Ontario,0.0,0.0,0.0,True,0.0,0.0,True
+provincial_2025,district,020,party,Progressive Conservative Party of Ontario,8784.0,8784.0,0.0,True,8783.999999999995,-5.4569682106375694e-12,True
+provincial_2025,district,021,party,Canadians' Choice Party,0.0,0.0,0.0,True,0.0,0.0,True
+provincial_2025,district,021,party,Communist Party of Canada (Ontario),0.0,0.0,0.0,True,0.0,0.0,True
+provincial_2025,district,021,party,Green Party of Ontario,784.0,784.0,0.0,True,783.9999999999999,-1.1368683772161603e-13,True
+provincial_2025,district,021,party,Independent,3005.0,3005.0,0.0,True,3005.0000000000027,2.7284841053187847e-12,True
+provincial_2025,district,021,party,New Blue Party of Ontario,346.0,346.0,0.0,True,345.99999999999983,-1.7053025658242404e-13,True
+provincial_2025,district,021,party,New Democratic Party of Ontario,1562.0,1562.0,0.0,True,1562.0,0.0,True
+provincial_2025,district,021,party,None of the Above Direct Democracy Party,0.0,0.0,0.0,True,0.0,0.0,True
+provincial_2025,district,021,party,Ontario Centrist Party,0.0,0.0,0.0,True,0.0,0.0,True
+provincial_2025,district,021,party,Ontario Liberal Party,13375.0,13375.0,0.0,True,13375.000000000013,1.2732925824820995e-11,True
+provincial_2025,district,021,party,Ontario Moderate Party,0.0,0.0,0.0,True,0.0,0.0,True
+provincial_2025,district,021,party,Ontario Party,0.0,0.0,0.0,True,0.0,0.0,True
+provincial_2025,district,021,party,Party for People with Special Needs,0.0,0.0,0.0,True,0.0,0.0,True
+provincial_2025,district,021,party,Populist Party Ontario,0.0,0.0,0.0,True,0.0,0.0,True
+provincial_2025,district,021,party,Progress Party Ontario,0.0,0.0,0.0,True,0.0,0.0,True
+provincial_2025,district,021,party,Progressive Conservative Party of Ontario,11484.0,11484.0,0.0,True,11484.000000000005,5.4569682106375694e-12,True
+provincial_2025,district,022,party,Canadians' Choice Party,0.0,0.0,0.0,True,0.0,0.0,True
+provincial_2025,district,022,party,Communist Party of Canada (Ontario),0.0,0.0,0.0,True,0.0,0.0,True
+provincial_2025,district,022,party,Green Party of Ontario,1052.0,1052.0,0.0,True,1051.9999999999995,-4.547473508864641e-13,True
+provincial_2025,district,022,party,Independent,247.0,247.0,0.0,True,247.00000000000014,1.4210854715202004e-13,True
+provincial_2025,district,022,party,New Blue Party of Ontario,287.0,287.0,0.0,True,287.0000000000003,2.8421709430404007e-13,True
+provincial_2025,district,022,party,New Democratic Party of Ontario,1268.0,1268.0,0.0,True,1267.9999999999993,-6.821210263296962e-13,True
+provincial_2025,district,022,party,None of the Above Direct Democracy Party,0.0,0.0,0.0,True,0.0,0.0,True
+provincial_2025,district,022,party,Ontario Centrist Party,0.0,0.0,0.0,True,0.0,0.0,True
+provincial_2025,district,022,party,Ontario Liberal Party,18350.0,18350.0,0.0,True,18350.0,0.0,True
+provincial_2025,district,022,party,Ontario Moderate Party,0.0,0.0,0.0,True,0.0,0.0,True
+provincial_2025,district,022,party,Ontario Party,0.0,0.0,0.0,True,0.0,0.0,True
+provincial_2025,district,022,party,Party for People with Special Needs,0.0,0.0,0.0,True,0.0,0.0,True
+provincial_2025,district,022,party,Populist Party Ontario,0.0,0.0,0.0,True,0.0,0.0,True
+provincial_2025,district,022,party,Progress Party Ontario,0.0,0.0,0.0,True,0.0,0.0,True
+provincial_2025,district,022,party,Progressive Conservative Party of Ontario,10870.0,10870.0,0.0,True,10869.999999999996,-3.637978807091713e-12,True
+provincial_2025,district,025,party,Canadians' Choice Party,0.0,0.0,0.0,True,0.0,0.0,True
+provincial_2025,district,025,party,Communist Party of Canada (Ontario),0.0,0.0,0.0,True,0.0,0.0,True
+provincial_2025,district,025,party,Green Party of Ontario,1390.0,1390.0,0.0,True,1390.0,0.0,True
+provincial_2025,district,025,party,Independent,0.0,0.0,0.0,True,0.0,0.0,True
+provincial_2025,district,025,party,New Blue Party of Ontario,0.0,0.0,0.0,True,0.0,0.0,True
+provincial_2025,district,025,party,New Democratic Party of Ontario,0.0,0.0,0.0,True,0.0,0.0,True
+provincial_2025,district,025,party,None of the Above Direct Democracy Party,0.0,0.0,0.0,True,0.0,0.0,True
+provincial_2025,district,025,party,Ontario Centrist Party,0.0,0.0,0.0,True,0.0,0.0,True
+provincial_2025,district,025,party,Ontario Liberal Party,19389.0,19389.0,0.0,True,19388.999999999996,-3.637978807091713e-12,True
+provincial_2025,district,025,party,Ontario Moderate Party,0.0,0.0,0.0,True,0.0,0.0,True
+provincial_2025,district,025,party,Ontario Party,0.0,0.0,0.0,True,0.0,0.0,True
+provincial_2025,district,025,party,Party for People with Special Needs,0.0,0.0,0.0,True,0.0,0.0,True
+provincial_2025,district,025,party,Populist Party Ontario,0.0,0.0,0.0,True,0.0,0.0,True
+provincial_2025,district,025,party,Progress Party Ontario,0.0,0.0,0.0,True,0.0,0.0,True
+provincial_2025,district,025,party,Progressive Conservative Party of Ontario,19556.0,19556.0,0.0,True,19556.000000000015,1.4551915228366852e-11,True
+provincial_2025,district,028,party,Canadians' Choice Party,479.0,479.0,0.0,True,479.0,0.0,True
+provincial_2025,district,028,party,Communist Party of Canada (Ontario),0.0,0.0,0.0,True,0.0,0.0,True
+provincial_2025,district,028,party,Green Party of Ontario,1000.0,1000.0,0.0,True,999.9999999999997,-3.410605131648481e-13,True
+provincial_2025,district,028,party,Independent,0.0,0.0,0.0,True,0.0,0.0,True
+provincial_2025,district,028,party,New Blue Party of Ontario,658.0,658.0,0.0,True,658.0000000000009,9.094947017729282e-13,True
+provincial_2025,district,028,party,New Democratic Party of Ontario,2151.0,2151.0,0.0,True,2150.9999999999995,-4.547473508864641e-13,True
+provincial_2025,district,028,party,None of the Above Direct Democracy Party,192.0,192.0,0.0,True,191.99999999999994,-5.684341886080802e-14,True
+provincial_2025,district,028,party,Ontario Centrist Party,0.0,0.0,0.0,True,0.0,0.0,True
+provincial_2025,district,028,party,Ontario Liberal Party,19358.0,19358.0,0.0,True,19358.000000000015,1.4551915228366852e-11,True
+provincial_2025,district,028,party,Ontario Moderate Party,0.0,0.0,0.0,True,0.0,0.0,True
+provincial_2025,district,028,party,Ontario Party,0.0,0.0,0.0,True,0.0,0.0,True
+provincial_2025,district,028,party,Party for People with Special Needs,180.0,180.0,0.0,True,180.00000000000006,5.684341886080802e-14,True
+provincial_2025,district,028,party,Populist Party Ontario,0.0,0.0,0.0,True,0.0,0.0,True
+provincial_2025,district,028,party,Progress Party Ontario,0.0,0.0,0.0,True,0.0,0.0,True
+provincial_2025,district,028,party,Progressive Conservative Party of Ontario,22261.0,22261.0,0.0,True,22261.00000000001,1.0913936421275139e-11,True
+provincial_2025,district,029,party,Canadians' Choice Party,0.0,0.0,0.0,True,0.0,0.0,True
+provincial_2025,district,029,party,Communist Party of Canada (Ontario),0.0,0.0,0.0,True,0.0,0.0,True
+provincial_2025,district,029,party,Green Party of Ontario,1218.0,1218.0,0.0,True,1218.0,0.0,True
+provincial_2025,district,029,party,Independent,0.0,0.0,0.0,True,0.0,0.0,True
+provincial_2025,district,029,party,New Blue Party of Ontario,452.0,452.0,0.0,True,452.0000000000001,1.1368683772161603e-13,True
+provincial_2025,district,029,party,New Democratic Party of Ontario,3640.0,3640.0,0.0,True,3640.000000000004,4.092726157978177e-12,True
+provincial_2025,district,029,party,None of the Above Direct Democracy Party,165.0,165.0,0.0,True,165.0000000000001,1.1368683772161603e-13,True
+provincial_2025,district,029,party,Ontario Centrist Party,0.0,0.0,0.0,True,0.0,0.0,True
+provincial_2025,district,029,party,Ontario Liberal Party,25195.0,25195.0,0.0,True,25194.99999999999,-1.0913936421275139e-11,True
+provincial_2025,district,029,party,Ontario Moderate Party,204.0,204.0,0.0,True,203.99999999999986,-1.4210854715202004e-13,True
+provincial_2025,district,029,party,Ontario Party,0.0,0.0,0.0,True,0.0,0.0,True
+provincial_2025,district,029,party,Party for People with Special Needs,0.0,0.0,0.0,True,0.0,0.0,True
+provincial_2025,district,029,party,Populist Party Ontario,0.0,0.0,0.0,True,0.0,0.0,True
+provincial_2025,district,029,party,Progress Party Ontario,0.0,0.0,0.0,True,0.0,0.0,True
+provincial_2025,district,029,party,Progressive Conservative Party of Ontario,21050.0,21050.0,0.0,True,21049.99999999999,-1.0913936421275139e-11,True
+provincial_2025,district,030,party,Canadians' Choice Party,0.0,0.0,0.0,True,0.0,0.0,True
+provincial_2025,district,030,party,Communist Party of Canada (Ontario),0.0,0.0,0.0,True,0.0,0.0,True
+provincial_2025,district,030,party,Green Party of Ontario,526.0,526.0,0.0,True,525.9999999999995,-4.547473508864641e-13,True
+provincial_2025,district,030,party,Independent,0.0,0.0,0.0,True,0.0,0.0,True
+provincial_2025,district,030,party,New Blue Party of Ontario,177.0,177.0,0.0,True,177.0000000000001,1.1368683772161603e-13,True
+provincial_2025,district,030,party,New Democratic Party of Ontario,2067.0,2067.0,0.0,True,2067.0000000000005,4.547473508864641e-13,True
+provincial_2025,district,030,party,None of the Above Direct Democracy Party,0.0,0.0,0.0,True,0.0,0.0,True
+provincial_2025,district,030,party,Ontario Centrist Party,0.0,0.0,0.0,True,0.0,0.0,True
+provincial_2025,district,030,party,Ontario Liberal Party,7369.0,7369.0,0.0,True,7368.999999999999,-9.094947017729282e-13,True
+provincial_2025,district,030,party,Ontario Moderate Party,0.0,0.0,0.0,True,0.0,0.0,True
+provincial_2025,district,030,party,Ontario Party,405.0,405.0,0.0,True,404.9999999999998,-2.2737367544323206e-13,True
+provincial_2025,district,030,party,Party for People with Special Needs,0.0,0.0,0.0,True,0.0,0.0,True
+provincial_2025,district,030,party,Populist Party Ontario,0.0,0.0,0.0,True,0.0,0.0,True
+provincial_2025,district,030,party,Progress Party Ontario,0.0,0.0,0.0,True,0.0,0.0,True
+provincial_2025,district,030,party,Progressive Conservative Party of Ontario,15426.0,15426.0,0.0,True,15426.000000000016,1.6370904631912708e-11,True
+provincial_2025,district,041,party,Canadians' Choice Party,0.0,0.0,0.0,True,0.0,0.0,True
+provincial_2025,district,041,party,Communist Party of Canada (Ontario),280.0,280.0,0.0,True,280.0,0.0,True
+provincial_2025,district,041,party,Green Party of Ontario,402.0,402.0,0.0,True,402.00000000000034,3.410605131648481e-13,True
+provincial_2025,district,041,party,Independent,0.0,0.0,0.0,True,0.0,0.0,True
+provincial_2025,district,041,party,New Blue Party of Ontario,0.0,0.0,0.0,True,0.0,0.0,True
+provincial_2025,district,041,party,New Democratic Party of Ontario,8788.0,8788.0,0.0,True,8788.000000000004,3.637978807091713e-12,True
+provincial_2025,district,041,party,None of the Above Direct Democracy Party,0.0,0.0,0.0,True,0.0,0.0,True
+provincial_2025,district,041,party,Ontario Centrist Party,0.0,0.0,0.0,True,0.0,0.0,True
+provincial_2025,district,041,party,Ontario Liberal Party,6811.0,6811.0,0.0,True,6811.000000000003,2.7284841053187847e-12,True
+provincial_2025,district,041,party,Ontario Moderate Party,0.0,0.0,0.0,True,0.0,0.0,True
+provincial_2025,district,041,party,Ontario Party,0.0,0.0,0.0,True,0.0,0.0,True
+provincial_2025,district,041,party,Party for People with Special Needs,0.0,0.0,0.0,True,0.0,0.0,True
+provincial_2025,district,041,party,Populist Party Ontario,0.0,0.0,0.0,True,0.0,0.0,True
+provincial_2025,district,041,party,Progress Party Ontario,0.0,0.0,0.0,True,0.0,0.0,True
+provincial_2025,district,041,party,Progressive Conservative Party of Ontario,8595.0,8595.0,0.0,True,8595.000000000002,1.8189894035458565e-12,True
+provincial_2025,district,083,party,Canadians' Choice Party,0.0,0.0,0.0,True,0.0,0.0,True
+provincial_2025,district,083,party,Communist Party of Canada (Ontario),283.0,283.0,0.0,True,283.0,0.0,True
+provincial_2025,district,083,party,Green Party of Ontario,1968.0,1968.0,0.0,True,1968.0000000000005,4.547473508864641e-13,True
+provincial_2025,district,083,party,Independent,0.0,0.0,0.0,True,0.0,0.0,True
+provincial_2025,district,083,party,New Blue Party of Ontario,462.0,462.0,0.0,True,462.0000000000003,2.8421709430404007e-13,True
+provincial_2025,district,083,party,New Democratic Party of Ontario,20508.0,20508.0,0.0,True,20508.000000000004,3.637978807091713e-12,True
+provincial_2025,district,083,party,None of the Above Direct Democracy Party,0.0,0.0,0.0,True,0.0,0.0,True
+provincial_2025,district,083,party,Ontario Centrist Party,0.0,0.0,0.0,True,0.0,0.0,True
+provincial_2025,district,083,party,Ontario Liberal Party,13941.0,13941.0,0.0,True,13940.999999999987,-1.2732925824820995e-11,True
+provincial_2025,district,083,party,Ontario Moderate Party,0.0,0.0,0.0,True,0.0,0.0,True
+provincial_2025,district,083,party,Ontario Party,0.0,0.0,0.0,True,0.0,0.0,True
+provincial_2025,district,083,party,Party for People with Special Needs,0.0,0.0,0.0,True,0.0,0.0,True
+provincial_2025,district,083,party,Populist Party Ontario,0.0,0.0,0.0,True,0.0,0.0,True
+provincial_2025,district,083,party,Progress Party Ontario,0.0,0.0,0.0,True,0.0,0.0,True
+provincial_2025,district,083,party,Progressive Conservative Party of Ontario,8058.0,8058.0,0.0,True,8057.999999999993,-7.275957614183426e-12,True
+provincial_2025,district,093,party,Canadians' Choice Party,0.0,0.0,0.0,True,0.0,0.0,True
+provincial_2025,district,093,party,Communist Party of Canada (Ontario),0.0,0.0,0.0,True,0.0,0.0,True
+provincial_2025,district,093,party,Green Party of Ontario,556.0,556.0,0.0,True,555.9999999999997,-3.410605131648481e-13,True
+provincial_2025,district,093,party,Independent,0.0,0.0,0.0,True,0.0,0.0,True
+provincial_2025,district,093,party,New Blue Party of Ontario,249.0,249.0,0.0,True,249.00000000000009,8.526512829121202e-14,True
+provincial_2025,district,093,party,New Democratic Party of Ontario,1368.0,1368.0,0.0,True,1368.000000000001,9.094947017729282e-13,True
+provincial_2025,district,093,party,None of the Above Direct Democracy Party,0.0,0.0,0.0,True,0.0,0.0,True
+provincial_2025,district,093,party,Ontario Centrist Party,0.0,0.0,0.0,True,0.0,0.0,True
+provincial_2025,district,093,party,Ontario Liberal Party,11430.0,11430.0,0.0,True,11430.000000000002,1.8189894035458565e-12,True
+provincial_2025,district,093,party,Ontario Moderate Party,0.0,0.0,0.0,True,0.0,0.0,True
+provincial_2025,district,093,party,Ontario Party,200.0,200.0,0.0,True,199.99999999999997,-2.842170943040401e-14,True
+provincial_2025,district,093,party,Party for People with Special Needs,0.0,0.0,0.0,True,0.0,0.0,True
+provincial_2025,district,093,party,Populist Party Ontario,0.0,0.0,0.0,True,0.0,0.0,True
+provincial_2025,district,093,party,Progress Party Ontario,0.0,0.0,0.0,True,0.0,0.0,True
+provincial_2025,district,093,party,Progressive Conservative Party of Ontario,13468.0,13468.0,0.0,True,13468.000000000005,5.4569682106375694e-12,True
+provincial_2025,district,094,party,Canadians' Choice Party,0.0,0.0,0.0,True,0.0,0.0,True
+provincial_2025,district,094,party,Communist Party of Canada (Ontario),0.0,0.0,0.0,True,0.0,0.0,True
+provincial_2025,district,094,party,Green Party of Ontario,918.0,918.0,0.0,True,917.9999999999998,-2.2737367544323206e-13,True
+provincial_2025,district,094,party,Independent,0.0,0.0,0.0,True,0.0,0.0,True
+provincial_2025,district,094,party,New Blue Party of Ontario,379.0,379.0,0.0,True,379.0000000000001,1.1368683772161603e-13,True
+provincial_2025,district,094,party,New Democratic Party of Ontario,2628.0,2628.0,0.0,True,2627.9999999999995,-4.547473508864641e-13,True
+provincial_2025,district,094,party,None of the Above Direct Democracy Party,0.0,0.0,0.0,True,0.0,0.0,True
+provincial_2025,district,094,party,Ontario Centrist Party,211.0,211.0,0.0,True,210.99999999999994,-5.684341886080802e-14,True
+provincial_2025,district,094,party,Ontario Liberal Party,12839.0,12839.0,0.0,True,12839.000000000013,1.2732925824820995e-11,True
+provincial_2025,district,094,party,Ontario Moderate Party,0.0,0.0,0.0,True,0.0,0.0,True
+provincial_2025,district,094,party,Ontario Party,0.0,0.0,0.0,True,0.0,0.0,True
+provincial_2025,district,094,party,Party for People with Special Needs,0.0,0.0,0.0,True,0.0,0.0,True
+provincial_2025,district,094,party,Populist Party Ontario,0.0,0.0,0.0,True,0.0,0.0,True
+provincial_2025,district,094,party,Progress Party Ontario,0.0,0.0,0.0,True,0.0,0.0,True
+provincial_2025,district,094,party,Progressive Conservative Party of Ontario,13363.0,13363.0,0.0,True,13362.999999999998,-1.8189894035458565e-12,True
+provincial_2025,district,095,party,Canadians' Choice Party,0.0,0.0,0.0,True,0.0,0.0,True
+provincial_2025,district,095,party,Communist Party of Canada (Ontario),0.0,0.0,0.0,True,0.0,0.0,True
+provincial_2025,district,095,party,Green Party of Ontario,661.0,661.0,0.0,True,661.0000000000002,2.2737367544323206e-13,True
+provincial_2025,district,095,party,Independent,267.0,267.0,0.0,True,266.99999999999994,-5.684341886080802e-14,True
+provincial_2025,district,095,party,New Blue Party of Ontario,298.0,298.0,0.0,True,297.9999999999997,-2.8421709430404007e-13,True
+provincial_2025,district,095,party,New Democratic Party of Ontario,1811.0,1811.0,0.0,True,1811.0000000000002,2.2737367544323206e-13,True
+provincial_2025,district,095,party,None of the Above Direct Democracy Party,0.0,0.0,0.0,True,0.0,0.0,True
+provincial_2025,district,095,party,Ontario Centrist Party,0.0,0.0,0.0,True,0.0,0.0,True
+provincial_2025,district,095,party,Ontario Liberal Party,13813.0,13813.0,0.0,True,13813.00000000001,9.094947017729282e-12,True
+provincial_2025,district,095,party,Ontario Moderate Party,0.0,0.0,0.0,True,0.0,0.0,True
+provincial_2025,district,095,party,Ontario Party,0.0,0.0,0.0,True,0.0,0.0,True
+provincial_2025,district,095,party,Party for People with Special Needs,0.0,0.0,0.0,True,0.0,0.0,True
+provincial_2025,district,095,party,Populist Party Ontario,0.0,0.0,0.0,True,0.0,0.0,True
+provincial_2025,district,095,party,Progress Party Ontario,0.0,0.0,0.0,True,0.0,0.0,True
+provincial_2025,district,095,party,Progressive Conservative Party of Ontario,10224.0,10224.0,0.0,True,10224.000000000002,1.8189894035458565e-12,True
+provincial_2025,district,096,party,Canadians' Choice Party,0.0,0.0,0.0,True,0.0,0.0,True
+provincial_2025,district,096,party,Communist Party of Canada (Ontario),0.0,0.0,0.0,True,0.0,0.0,True
+provincial_2025,district,096,party,Green Party of Ontario,465.0,465.0,0.0,True,464.99999999999994,-5.684341886080802e-14,True
+provincial_2025,district,096,party,Independent,0.0,0.0,0.0,True,0.0,0.0,True
+provincial_2025,district,096,party,New Blue Party of Ontario,0.0,0.0,0.0,True,0.0,0.0,True
+provincial_2025,district,096,party,New Democratic Party of Ontario,2554.0,2554.0,0.0,True,2553.999999999999,-9.094947017729282e-13,True
+provincial_2025,district,096,party,None of the Above Direct Democracy Party,0.0,0.0,0.0,True,0.0,0.0,True
+provincial_2025,district,096,party,Ontario Centrist Party,0.0,0.0,0.0,True,0.0,0.0,True
+provincial_2025,district,096,party,Ontario Liberal Party,8548.0,8548.0,0.0,True,8547.999999999996,-3.637978807091713e-12,True
+provincial_2025,district,096,party,Ontario Moderate Party,0.0,0.0,0.0,True,0.0,0.0,True
+provincial_2025,district,096,party,Ontario Party,0.0,0.0,0.0,True,0.0,0.0,True
+provincial_2025,district,096,party,Party for People with Special Needs,0.0,0.0,0.0,True,0.0,0.0,True
+provincial_2025,district,096,party,Populist Party Ontario,0.0,0.0,0.0,True,0.0,0.0,True
+provincial_2025,district,096,party,Progress Party Ontario,0.0,0.0,0.0,True,0.0,0.0,True
+provincial_2025,district,096,party,Progressive Conservative Party of Ontario,13031.0,13031.0,0.0,True,13031.0,0.0,True
+provincial_2025,district,097,party,Canadians' Choice Party,0.0,0.0,0.0,True,0.0,0.0,True
+provincial_2025,district,097,party,Communist Party of Canada (Ontario),114.0,114.0,0.0,True,114.00000000000009,8.526512829121202e-14,True
+provincial_2025,district,097,party,Green Party of Ontario,727.0,727.0,0.0,True,726.9999999999997,-3.410605131648481e-13,True
+provincial_2025,district,097,party,Independent,0.0,0.0,0.0,True,0.0,0.0,True
+provincial_2025,district,097,party,New Blue Party of Ontario,0.0,0.0,0.0,True,0.0,0.0,True
+provincial_2025,district,097,party,New Democratic Party of Ontario,2360.0,2360.0,0.0,True,2360.000000000001,9.094947017729282e-13,True
+provincial_2025,district,097,party,None of the Above Direct Democracy Party,326.0,326.0,0.0,True,326.0000000000003,2.8421709430404007e-13,True
+provincial_2025,district,097,party,Ontario Centrist Party,0.0,0.0,0.0,True,0.0,0.0,True
+provincial_2025,district,097,party,Ontario Liberal Party,13385.0,13385.0,0.0,True,13385.0,0.0,True
+provincial_2025,district,097,party,Ontario Moderate Party,0.0,0.0,0.0,True,0.0,0.0,True
+provincial_2025,district,097,party,Ontario Party,0.0,0.0,0.0,True,0.0,0.0,True
+provincial_2025,district,097,party,Party for People with Special Needs,0.0,0.0,0.0,True,0.0,0.0,True
+provincial_2025,district,097,party,Populist Party Ontario,0.0,0.0,0.0,True,0.0,0.0,True
+provincial_2025,district,097,party,Progress Party Ontario,0.0,0.0,0.0,True,0.0,0.0,True
+provincial_2025,district,097,party,Progressive Conservative Party of Ontario,16357.0,16357.0,0.0,True,16357.000000000002,1.8189894035458565e-12,True
+provincial_2025,district,098,party,Canadians' Choice Party,0.0,0.0,0.0,True,0.0,0.0,True
+provincial_2025,district,098,party,Communist Party of Canada (Ontario),0.0,0.0,0.0,True,0.0,0.0,True
+provincial_2025,district,098,party,Green Party of Ontario,1194.0,1194.0,0.0,True,1194.0000000000002,2.2737367544323206e-13,True
+provincial_2025,district,098,party,Independent,0.0,0.0,0.0,True,0.0,0.0,True
+provincial_2025,district,098,party,New Blue Party of Ontario,0.0,0.0,0.0,True,0.0,0.0,True
+provincial_2025,district,098,party,New Democratic Party of Ontario,14557.0,14557.0,0.0,True,14556.999999999998,-1.8189894035458565e-12,True
+provincial_2025,district,098,party,None of the Above Direct Democracy Party,0.0,0.0,0.0,True,0.0,0.0,True
+provincial_2025,district,098,party,Ontario Centrist Party,0.0,0.0,0.0,True,0.0,0.0,True
+provincial_2025,district,098,party,Ontario Liberal Party,7786.0,7786.0,0.0,True,7785.999999999994,-6.366462912410498e-12,True
+provincial_2025,district,098,party,Ontario Moderate Party,0.0,0.0,0.0,True,0.0,0.0,True
+provincial_2025,district,098,party,Ontario Party,0.0,0.0,0.0,True,0.0,0.0,True
+provincial_2025,district,098,party,Party for People with Special Needs,0.0,0.0,0.0,True,0.0,0.0,True
+provincial_2025,district,098,party,Populist Party Ontario,0.0,0.0,0.0,True,0.0,0.0,True
+provincial_2025,district,098,party,Progress Party Ontario,0.0,0.0,0.0,True,0.0,0.0,True
+provincial_2025,district,098,party,Progressive Conservative Party of Ontario,10400.0,10400.0,0.0,True,10399.999999999998,-1.8189894035458565e-12,True
+provincial_2025,district,101,party,Canadians' Choice Party,0.0,0.0,0.0,True,0.0,0.0,True
+provincial_2025,district,101,party,Communist Party of Canada (Ontario),0.0,0.0,0.0,True,0.0,0.0,True
+provincial_2025,district,101,party,Green Party of Ontario,1220.0,1220.0,0.0,True,1219.9999999999993,-6.821210263296962e-13,True
+provincial_2025,district,101,party,Independent,0.0,0.0,0.0,True,0.0,0.0,True
+provincial_2025,district,101,party,New Blue Party of Ontario,0.0,0.0,0.0,True,0.0,0.0,True
+provincial_2025,district,101,party,New Democratic Party of Ontario,20441.0,20441.0,0.0,True,20441.000000000004,3.637978807091713e-12,True
+provincial_2025,district,101,party,None of the Above Direct Democracy Party,293.0,293.0,0.0,True,293.00000000000006,5.684341886080802e-14,True
+provincial_2025,district,101,party,Ontario Centrist Party,0.0,0.0,0.0,True,0.0,0.0,True
+provincial_2025,district,101,party,Ontario Liberal Party,14331.0,14331.0,0.0,True,14330.999999999998,-1.8189894035458565e-12,True
+provincial_2025,district,101,party,Ontario Moderate Party,0.0,0.0,0.0,True,0.0,0.0,True
+provincial_2025,district,101,party,Ontario Party,0.0,0.0,0.0,True,0.0,0.0,True
+provincial_2025,district,101,party,Party for People with Special Needs,0.0,0.0,0.0,True,0.0,0.0,True
+provincial_2025,district,101,party,Populist Party Ontario,0.0,0.0,0.0,True,0.0,0.0,True
+provincial_2025,district,101,party,Progress Party Ontario,0.0,0.0,0.0,True,0.0,0.0,True
+provincial_2025,district,101,party,Progressive Conservative Party of Ontario,9139.0,9139.0,0.0,True,9138.999999999998,-1.8189894035458565e-12,True
+provincial_2025,district,109,party,Canadians' Choice Party,0.0,0.0,0.0,True,0.0,0.0,True
+provincial_2025,district,109,party,Communist Party of Canada (Ontario),0.0,0.0,0.0,True,0.0,0.0,True
+provincial_2025,district,109,party,Green Party of Ontario,1054.0,1054.0,0.0,True,1053.9999999999993,-6.821210263296962e-13,True
+provincial_2025,district,109,party,Independent,151.0,151.0,0.0,True,150.99999999999994,-5.684341886080802e-14,True
+provincial_2025,district,109,party,New Blue Party of Ontario,290.0,290.0,0.0,True,290.0000000000002,2.2737367544323206e-13,True
+provincial_2025,district,109,party,New Democratic Party of Ontario,17415.0,17415.0,0.0,True,17415.000000000004,3.637978807091713e-12,True
+provincial_2025,district,109,party,None of the Above Direct Democracy Party,0.0,0.0,0.0,True,0.0,0.0,True
+provincial_2025,district,109,party,Ontario Centrist Party,0.0,0.0,0.0,True,0.0,0.0,True
+provincial_2025,district,109,party,Ontario Liberal Party,14152.0,14152.0,0.0,True,14151.999999999995,-5.4569682106375694e-12,True
+provincial_2025,district,109,party,Ontario Moderate Party,0.0,0.0,0.0,True,0.0,0.0,True
+provincial_2025,district,109,party,Ontario Party,0.0,0.0,0.0,True,0.0,0.0,True
+provincial_2025,district,109,party,Party for People with Special Needs,0.0,0.0,0.0,True,0.0,0.0,True
+provincial_2025,district,109,party,Populist Party Ontario,0.0,0.0,0.0,True,0.0,0.0,True
+provincial_2025,district,109,party,Progress Party Ontario,381.0,381.0,0.0,True,380.99999999999994,-5.684341886080802e-14,True
+provincial_2025,district,109,party,Progressive Conservative Party of Ontario,5692.0,5692.0,0.0,True,5692.0,0.0,True
+provincial_2025,district,110,party,Canadians' Choice Party,0.0,0.0,0.0,True,0.0,0.0,True
+provincial_2025,district,110,party,Communist Party of Canada (Ontario),0.0,0.0,0.0,True,0.0,0.0,True
+provincial_2025,district,110,party,Green Party of Ontario,1199.0,1199.0,0.0,True,1199.0000000000005,4.547473508864641e-13,True
+provincial_2025,district,110,party,Independent,0.0,0.0,0.0,True,0.0,0.0,True
+provincial_2025,district,110,party,New Blue Party of Ontario,424.0,424.0,0.0,True,423.99999999999966,-3.410605131648481e-13,True
+provincial_2025,district,110,party,New Democratic Party of Ontario,25607.0,25607.0,0.0,True,25607.000000000015,1.4551915228366852e-11,True
+provincial_2025,district,110,party,None of the Above Direct Democracy Party,0.0,0.0,0.0,True,0.0,0.0,True
+provincial_2025,district,110,party,Ontario Centrist Party,0.0,0.0,0.0,True,0.0,0.0,True
+provincial_2025,district,110,party,Ontario Liberal Party,8997.0,8997.0,0.0,True,8996.999999999985,-1.4551915228366852e-11,True
+provincial_2025,district,110,party,Ontario Moderate Party,0.0,0.0,0.0,True,0.0,0.0,True
+provincial_2025,district,110,party,Ontario Party,0.0,0.0,0.0,True,0.0,0.0,True
+provincial_2025,district,110,party,Party for People with Special Needs,0.0,0.0,0.0,True,0.0,0.0,True
+provincial_2025,district,110,party,Populist Party Ontario,0.0,0.0,0.0,True,0.0,0.0,True
+provincial_2025,district,110,party,Progress Party Ontario,0.0,0.0,0.0,True,0.0,0.0,True
+provincial_2025,district,110,party,Progressive Conservative Party of Ontario,6172.0,6172.0,0.0,True,6172.000000000001,9.094947017729282e-13,True
+provincial_2025,district,111,party,Canadians' Choice Party,0.0,0.0,0.0,True,0.0,0.0,True
+provincial_2025,district,111,party,Communist Party of Canada (Ontario),0.0,0.0,0.0,True,0.0,0.0,True
+provincial_2025,district,111,party,Green Party of Ontario,873.0,873.0,0.0,True,873.0000000000005,4.547473508864641e-13,True
+provincial_2025,district,111,party,Independent,0.0,0.0,0.0,True,0.0,0.0,True
+provincial_2025,district,111,party,New Blue Party of Ontario,0.0,0.0,0.0,True,0.0,0.0,True
+provincial_2025,district,111,party,New Democratic Party of Ontario,13553.0,13553.0,0.0,True,13553.0,0.0,True
+provincial_2025,district,111,party,None of the Above Direct Democracy Party,0.0,0.0,0.0,True,0.0,0.0,True
+provincial_2025,district,111,party,Ontario Centrist Party,0.0,0.0,0.0,True,0.0,0.0,True
+provincial_2025,district,111,party,Ontario Liberal Party,17451.0,17451.0,0.0,True,17451.000000000004,3.637978807091713e-12,True
+provincial_2025,district,111,party,Ontario Moderate Party,0.0,0.0,0.0,True,0.0,0.0,True
+provincial_2025,district,111,party,Ontario Party,0.0,0.0,0.0,True,0.0,0.0,True
+provincial_2025,district,111,party,Party for People with Special Needs,0.0,0.0,0.0,True,0.0,0.0,True
+provincial_2025,district,111,party,Populist Party Ontario,0.0,0.0,0.0,True,0.0,0.0,True
+provincial_2025,district,111,party,Progress Party Ontario,0.0,0.0,0.0,True,0.0,0.0,True
+provincial_2025,district,111,party,Progressive Conservative Party of Ontario,10822.0,10822.0,0.0,True,10821.999999999998,-1.8189894035458565e-12,True
+provincial_2025,district,112,party,Canadians' Choice Party,0.0,0.0,0.0,True,0.0,0.0,True
+provincial_2025,district,112,party,Communist Party of Canada (Ontario),0.0,0.0,0.0,True,0.0,0.0,True
+provincial_2025,district,112,party,Green Party of Ontario,1227.0,1227.0,0.0,True,1226.9999999999995,-4.547473508864641e-13,True
+provincial_2025,district,112,party,Independent,0.0,0.0,0.0,True,0.0,0.0,True
+provincial_2025,district,112,party,New Blue Party of Ontario,299.0,299.0,0.0,True,299.0000000000007,6.821210263296962e-13,True
+provincial_2025,district,112,party,New Democratic Party of Ontario,17912.0,17912.0,0.0,True,17912.00000000003,2.9103830456733704e-11,True
+provincial_2025,district,112,party,None of the Above Direct Democracy Party,0.0,0.0,0.0,True,0.0,0.0,True
+provincial_2025,district,112,party,Ontario Centrist Party,0.0,0.0,0.0,True,0.0,0.0,True
+provincial_2025,district,112,party,Ontario Liberal Party,12098.0,12098.0,0.0,True,12098.00000000001,9.094947017729282e-12,True
+provincial_2025,district,112,party,Ontario Moderate Party,0.0,0.0,0.0,True,0.0,0.0,True
+provincial_2025,district,112,party,Ontario Party,0.0,0.0,0.0,True,0.0,0.0,True
+provincial_2025,district,112,party,Party for People with Special Needs,0.0,0.0,0.0,True,0.0,0.0,True
+provincial_2025,district,112,party,Populist Party Ontario,0.0,0.0,0.0,True,0.0,0.0,True
+provincial_2025,district,112,party,Progress Party Ontario,0.0,0.0,0.0,True,0.0,0.0,True
+provincial_2025,district,112,party,Progressive Conservative Party of Ontario,7829.0,7829.0,0.0,True,7829.000000000005,4.547473508864641e-12,True
+provincial_2025,district,117,party,Canadians' Choice Party,0.0,0.0,0.0,True,0.0,0.0,True
+provincial_2025,district,117,party,Communist Party of Canada (Ontario),0.0,0.0,0.0,True,0.0,0.0,True
+provincial_2025,district,117,party,Green Party of Ontario,778.0,778.0,0.0,True,778.0000000000001,1.1368683772161603e-13,True
+provincial_2025,district,117,party,Independent,222.0,222.0,0.0,True,222.00000000000009,8.526512829121202e-14,True
+provincial_2025,district,117,party,New Blue Party of Ontario,0.0,0.0,0.0,True,0.0,0.0,True
+provincial_2025,district,117,party,New Democratic Party of Ontario,1705.0,1705.0,0.0,True,1705.0000000000002,2.2737367544323206e-13,True
+provincial_2025,district,117,party,None of the Above Direct Democracy Party,0.0,0.0,0.0,True,0.0,0.0,True
+provincial_2025,district,117,party,Ontario Centrist Party,0.0,0.0,0.0,True,0.0,0.0,True
+provincial_2025,district,117,party,Ontario Liberal Party,13871.0,13871.0,0.0,True,13870.999999999998,-1.8189894035458565e-12,True
+provincial_2025,district,117,party,Ontario Moderate Party,0.0,0.0,0.0,True,0.0,0.0,True
+provincial_2025,district,117,party,Ontario Party,0.0,0.0,0.0,True,0.0,0.0,True
+provincial_2025,district,117,party,Party for People with Special Needs,0.0,0.0,0.0,True,0.0,0.0,True
+provincial_2025,district,117,party,Populist Party Ontario,0.0,0.0,0.0,True,0.0,0.0,True
+provincial_2025,district,117,party,Progress Party Ontario,221.0,221.0,0.0,True,221.0000000000002,1.9895196601282805e-13,True
+provincial_2025,district,117,party,Progressive Conservative Party of Ontario,14476.0,14476.0,0.0,True,14475.999999999985,-1.4551915228366852e-11,True
+provincial_2025,district,120,party,Canadians' Choice Party,0.0,0.0,0.0,True,0.0,0.0,True
+provincial_2025,district,120,party,Communist Party of Canada (Ontario),0.0,0.0,0.0,True,0.0,0.0,True
+provincial_2025,district,120,party,Green Party of Ontario,658.0,658.0,0.0,True,658.0000000000002,2.2737367544323206e-13,True
+provincial_2025,district,120,party,Independent,0.0,0.0,0.0,True,0.0,0.0,True
+provincial_2025,district,120,party,New Blue Party of Ontario,309.0,309.0,0.0,True,308.9999999999999,-1.1368683772161603e-13,True
+provincial_2025,district,120,party,New Democratic Party of Ontario,1700.0,1700.0,0.0,True,1699.9999999999989,-1.1368683772161603e-12,True
+provincial_2025,district,120,party,None of the Above Direct Democracy Party,0.0,0.0,0.0,True,0.0,0.0,True
+provincial_2025,district,120,party,Ontario Centrist Party,0.0,0.0,0.0,True,0.0,0.0,True
+provincial_2025,district,120,party,Ontario Liberal Party,10823.0,10823.0,0.0,True,10823.0,0.0,True
+provincial_2025,district,120,party,Ontario Moderate Party,111.0,111.0,0.0,True,111.0,0.0,True
+provincial_2025,district,120,party,Ontario Party,0.0,0.0,0.0,True,0.0,0.0,True
+provincial_2025,district,120,party,Party for People with Special Needs,212.0,212.0,0.0,True,211.99999999999997,-2.842170943040401e-14,True
+provincial_2025,district,120,party,Populist Party Ontario,140.0,140.0,0.0,True,140.00000000000006,5.684341886080802e-14,True
+provincial_2025,district,120,party,Progress Party Ontario,0.0,0.0,0.0,True,0.0,0.0,True
+provincial_2025,district,120,party,Progressive Conservative Party of Ontario,16416.0,16416.0,0.0,True,16415.99999999998,-1.8189894035458565e-11,True
+provincial_2025,district,122,party,Canadians' Choice Party,0.0,0.0,0.0,True,0.0,0.0,True
+provincial_2025,district,122,party,Communist Party of Canada (Ontario),0.0,0.0,0.0,True,0.0,0.0,True
+provincial_2025,district,122,party,Green Party of Ontario,844.0,844.0,0.0,True,843.999999999999,-1.0231815394945443e-12,True
+provincial_2025,district,122,party,Independent,213.0,213.0,0.0,True,212.99999999999983,-1.7053025658242404e-13,True
+provincial_2025,district,122,party,New Blue Party of Ontario,396.0,396.0,0.0,True,395.99999999999994,-5.684341886080802e-14,True
+provincial_2025,district,122,party,New Democratic Party of Ontario,8101.0,8101.0,0.0,True,8101.000000000002,1.8189894035458565e-12,True
+provincial_2025,district,122,party,None of the Above Direct Democracy Party,0.0,0.0,0.0,True,0.0,0.0,True
+provincial_2025,district,122,party,Ontario Centrist Party,0.0,0.0,0.0,True,0.0,0.0,True
+provincial_2025,district,122,party,Ontario Liberal Party,10940.0,10940.0,0.0,True,10940.000000000011,1.0913936421275139e-11,True
+provincial_2025,district,122,party,Ontario Moderate Party,0.0,0.0,0.0,True,0.0,0.0,True
+provincial_2025,district,122,party,Ontario Party,0.0,0.0,0.0,True,0.0,0.0,True
+provincial_2025,district,122,party,Party for People with Special Needs,0.0,0.0,0.0,True,0.0,0.0,True
+provincial_2025,district,122,party,Populist Party Ontario,0.0,0.0,0.0,True,0.0,0.0,True
+provincial_2025,district,122,party,Progress Party Ontario,0.0,0.0,0.0,True,0.0,0.0,True
+provincial_2025,district,122,party,Progressive Conservative Party of Ontario,11142.0,11142.0,0.0,True,11141.999999999985,-1.4551915228366852e-11,True
+provincial_2025,global,ALL,party,Canadians' Choice Party,586.0,586.0,0.0,True,586.0000000000001,1.1368683772161603e-13,True
+provincial_2025,global,ALL,party,Communist Party of Canada (Ontario),1233.0,1233.0,0.0,True,1232.999999999998,-2.0463630789890885e-12,True
+provincial_2025,global,ALL,party,Green Party of Ontario,23974.0,23974.0,0.0,True,23974.000000000004,3.637978807091713e-12,True
+provincial_2025,global,ALL,party,Independent,4227.0,4227.0,0.0,True,4227.000000000009,9.094947017729282e-12,True
+provincial_2025,global,ALL,party,New Blue Party of Ontario,5272.0,5272.0,0.0,True,5272.000000000025,2.4556356947869062e-11,True
+provincial_2025,global,ALL,party,New Democratic Party of Ontario,205593.0,205593.0,0.0,True,205592.9999999995,-4.94765117764473e-10,True
+provincial_2025,global,ALL,party,None of the Above Direct Democracy Party,976.0,976.0,0.0,True,976.0000000000005,4.547473508864641e-13,True
+provincial_2025,global,ALL,party,Ontario Centrist Party,211.0,211.0,0.0,True,210.99999999999994,-5.684341886080802e-14,True
+provincial_2025,global,ALL,party,Ontario Liberal Party,339245.0,339245.0,0.0,True,339245.00000000146,1.4551915228366852e-09,True
+provincial_2025,global,ALL,party,Ontario Moderate Party,495.0,495.0,0.0,True,495.0,0.0,True
+provincial_2025,global,ALL,party,Ontario Party,730.0,730.0,0.0,True,730.0000000000002,2.2737367544323206e-13,True
+provincial_2025,global,ALL,party,Party for People with Special Needs,392.0,392.0,0.0,True,391.99999999999983,-1.7053025658242404e-13,True
+provincial_2025,global,ALL,party,Populist Party Ontario,140.0,140.0,0.0,True,140.00000000000006,5.684341886080802e-14,True
+provincial_2025,global,ALL,party,Progress Party Ontario,602.0,602.0,0.0,True,601.9999999999999,-1.1368683772161603e-13,True
+provincial_2025,global,ALL,party,Progressive Conservative Party of Ontario,300553.0,300553.0,0.0,True,300552.999999999,-9.89530235528946e-10,True
+federal_2025,district,35007,party,Animal Protection Party,0.0,0.0,0.0,True,0.0,0.0,True
+federal_2025,district,35007,party,Canadian Future Party,0.0,0.0,0.0,True,0.0,0.0,True
+federal_2025,district,35007,party,Centrist,0.0,0.0,0.0,True,0.0,0.0,True
+federal_2025,district,35007,party,Communist,146.0,146.0,0.0,True,145.99999999999977,-2.2737367544323206e-13,True
+federal_2025,district,35007,party,Conservative,13830.0,13830.0,0.0,True,13829.999999999993,-7.275957614183426e-12,True
+federal_2025,district,35007,party,Green Party,748.0,748.0,0.0,True,747.9999999999991,-9.094947017729282e-13,True
+federal_2025,district,35007,party,Independent,161.0,161.0,0.0,True,160.99999999999974,-2.5579538487363607e-13,True
+federal_2025,district,35007,party,Liberal,39804.0,39804.0,0.0,True,39804.00000000003,2.9103830456733704e-11,True
+federal_2025,district,35007,party,Marijuana Party,0.0,0.0,0.0,True,0.0,0.0,True
+federal_2025,district,35007,party,Marxist-Leninist,39.0,39.0,0.0,True,39.0,0.0,True
+federal_2025,district,35007,party,NDP-New Democratic Party,4027.0,4027.0,0.0,True,4026.9999999999945,-5.4569682106375694e-12,True
+federal_2025,district,35007,party,No Affiliation,0.0,0.0,0.0,True,0.0,0.0,True
+federal_2025,district,35007,party,People's Party - PPC,0.0,0.0,0.0,True,0.0,0.0,True
+federal_2025,district,35022,party,Animal Protection Party,0.0,0.0,0.0,True,0.0,0.0,True
+federal_2025,district,35022,party,Canadian Future Party,0.0,0.0,0.0,True,0.0,0.0,True
+federal_2025,district,35022,party,Centrist,0.0,0.0,0.0,True,0.0,0.0,True
+federal_2025,district,35022,party,Communist,387.0,387.0,0.0,True,386.9999999999989,-1.0800249583553523e-12,True
+federal_2025,district,35022,party,Conservative,14189.0,14189.0,0.0,True,14188.999999999978,-2.1827872842550278e-11,True
+federal_2025,district,35022,party,Green Party,782.0,782.0,0.0,True,781.9999999999987,-1.2505552149377763e-12,True
+federal_2025,district,35022,party,Independent,0.0,0.0,0.0,True,0.0,0.0,True
+federal_2025,district,35022,party,Liberal,35364.0,35364.0,0.0,True,35363.99999999999,-7.275957614183426e-12,True
+federal_2025,district,35022,party,Marijuana Party,0.0,0.0,0.0,True,0.0,0.0,True
+federal_2025,district,35022,party,Marxist-Leninist,0.0,0.0,0.0,True,0.0,0.0,True
+federal_2025,district,35022,party,NDP-New Democratic Party,10452.0,10452.0,0.0,True,10452.00000000001,9.094947017729282e-12,True
+federal_2025,district,35022,party,No Affiliation,0.0,0.0,0.0,True,0.0,0.0,True
+federal_2025,district,35022,party,People's Party - PPC,0.0,0.0,0.0,True,0.0,0.0,True
+federal_2025,district,35023,party,Animal Protection Party,0.0,0.0,0.0,True,0.0,0.0,True
+federal_2025,district,35023,party,Canadian Future Party,0.0,0.0,0.0,True,0.0,0.0,True
+federal_2025,district,35023,party,Centrist,0.0,0.0,0.0,True,0.0,0.0,True
+federal_2025,district,35023,party,Communist,0.0,0.0,0.0,True,0.0,0.0,True
+federal_2025,district,35023,party,Conservative,20546.0,20546.0,0.0,True,20545.99999999999,-1.0913936421275139e-11,True
+federal_2025,district,35023,party,Green Party,448.0,448.0,0.0,True,447.99999999999994,-5.684341886080802e-14,True
+federal_2025,district,35023,party,Independent,0.0,0.0,0.0,True,0.0,0.0,True
+federal_2025,district,35023,party,Liberal,25822.0,25822.0,0.0,True,25821.999999999953,-4.729372449219227e-11,True
+federal_2025,district,35023,party,Marijuana Party,0.0,0.0,0.0,True,0.0,0.0,True
+federal_2025,district,35023,party,Marxist-Leninist,0.0,0.0,0.0,True,0.0,0.0,True
+federal_2025,district,35023,party,NDP-New Democratic Party,1191.0,1191.0,0.0,True,1191.0000000000007,6.821210263296962e-13,True
+federal_2025,district,35023,party,No Affiliation,260.0,260.0,0.0,True,259.99999999999926,-7.389644451905042e-13,True
+federal_2025,district,35023,party,People's Party - PPC,260.0,260.0,0.0,True,259.99999999999915,-8.526512829121202e-13,True
+federal_2025,district,35024,party,Animal Protection Party,0.0,0.0,0.0,True,0.0,0.0,True
+federal_2025,district,35024,party,Canadian Future Party,0.0,0.0,0.0,True,0.0,0.0,True
+federal_2025,district,35024,party,Centrist,0.0,0.0,0.0,True,0.0,0.0,True
+federal_2025,district,35024,party,Communist,0.0,0.0,0.0,True,0.0,0.0,True
+federal_2025,district,35024,party,Conservative,19480.0,19480.0,0.0,True,19479.99999999998,-1.8189894035458565e-11,True
+federal_2025,district,35024,party,Green Party,616.0,616.0,0.0,True,615.9999999999998,-2.2737367544323206e-13,True
+federal_2025,district,35024,party,Independent,442.0,442.0,0.0,True,441.9999999999993,-6.821210263296962e-13,True
+federal_2025,district,35024,party,Liberal,36744.0,36744.0,0.0,True,36743.99999999991,-8.731149137020111e-11,True
+federal_2025,district,35024,party,Marijuana Party,0.0,0.0,0.0,True,0.0,0.0,True
+federal_2025,district,35024,party,Marxist-Leninist,0.0,0.0,0.0,True,0.0,0.0,True
+federal_2025,district,35024,party,NDP-New Democratic Party,1382.0,1382.0,0.0,True,1381.9999999999989,-1.1368683772161603e-12,True
+federal_2025,district,35024,party,No Affiliation,0.0,0.0,0.0,True,0.0,0.0,True
+federal_2025,district,35024,party,People's Party - PPC,0.0,0.0,0.0,True,0.0,0.0,True
+federal_2025,district,35026,party,Animal Protection Party,0.0,0.0,0.0,True,0.0,0.0,True
+federal_2025,district,35026,party,Canadian Future Party,0.0,0.0,0.0,True,0.0,0.0,True
+federal_2025,district,35026,party,Centrist,0.0,0.0,0.0,True,0.0,0.0,True
+federal_2025,district,35026,party,Communist,0.0,0.0,0.0,True,0.0,0.0,True
+federal_2025,district,35026,party,Conservative,29061.0,29061.0,0.0,True,29060.999999999964,-3.637978807091713e-11,True
+federal_2025,district,35026,party,Green Party,429.0,429.0,0.0,True,429.0000000000001,1.1368683772161603e-13,True
+federal_2025,district,35026,party,Independent,0.0,0.0,0.0,True,0.0,0.0,True
+federal_2025,district,35026,party,Liberal,29949.0,29949.0,0.0,True,29948.999999999993,-7.275957614183426e-12,True
+federal_2025,district,35026,party,Marijuana Party,0.0,0.0,0.0,True,0.0,0.0,True
+federal_2025,district,35026,party,Marxist-Leninist,0.0,0.0,0.0,True,0.0,0.0,True
+federal_2025,district,35026,party,NDP-New Democratic Party,996.0,996.0,0.0,True,996.0000000000008,7.958078640513122e-13,True
+federal_2025,district,35026,party,No Affiliation,0.0,0.0,0.0,True,0.0,0.0,True
+federal_2025,district,35026,party,People's Party - PPC,326.0,326.0,0.0,True,326.0,0.0,True
+federal_2025,district,35029,party,Animal Protection Party,0.0,0.0,0.0,True,0.0,0.0,True
+federal_2025,district,35029,party,Canadian Future Party,0.0,0.0,0.0,True,0.0,0.0,True
+federal_2025,district,35029,party,Centrist,0.0,0.0,0.0,True,0.0,0.0,True
+federal_2025,district,35029,party,Communist,0.0,0.0,0.0,True,0.0,0.0,True
+federal_2025,district,35029,party,Conservative,29713.0,29713.0,0.0,True,29713.000000000047,4.729372449219227e-11,True
+federal_2025,district,35029,party,Green Party,0.0,0.0,0.0,True,0.0,0.0,True
+federal_2025,district,35029,party,Independent,0.0,0.0,0.0,True,0.0,0.0,True
+federal_2025,district,35029,party,Liberal,36186.0,36186.0,0.0,True,36186.00000000002,2.1827872842550278e-11,True
+federal_2025,district,35029,party,Marijuana Party,0.0,0.0,0.0,True,0.0,0.0,True
+federal_2025,district,35029,party,Marxist-Leninist,0.0,0.0,0.0,True,0.0,0.0,True
+federal_2025,district,35029,party,NDP-New Democratic Party,1611.0,1611.0,0.0,True,1611.000000000001,9.094947017729282e-13,True
+federal_2025,district,35029,party,No Affiliation,0.0,0.0,0.0,True,0.0,0.0,True
+federal_2025,district,35029,party,People's Party - PPC,0.0,0.0,0.0,True,0.0,0.0,True
+federal_2025,district,35030,party,Animal Protection Party,0.0,0.0,0.0,True,0.0,0.0,True
+federal_2025,district,35030,party,Canadian Future Party,0.0,0.0,0.0,True,0.0,0.0,True
+federal_2025,district,35030,party,Centrist,0.0,0.0,0.0,True,0.0,0.0,True
+federal_2025,district,35030,party,Communist,0.0,0.0,0.0,True,0.0,0.0,True
+federal_2025,district,35030,party,Conservative,25348.0,25348.0,0.0,True,25347.99999999998,-1.8189894035458565e-11,True
+federal_2025,district,35030,party,Green Party,0.0,0.0,0.0,True,0.0,0.0,True
+federal_2025,district,35030,party,Independent,0.0,0.0,0.0,True,0.0,0.0,True
+federal_2025,district,35030,party,Liberal,37512.0,37512.0,0.0,True,37512.00000000005,5.093170329928398e-11,True
+federal_2025,district,35030,party,Marijuana Party,0.0,0.0,0.0,True,0.0,0.0,True
+federal_2025,district,35030,party,Marxist-Leninist,197.0,197.0,0.0,True,196.9999999999999,-1.1368683772161603e-13,True
+federal_2025,district,35030,party,NDP-New Democratic Party,1665.0,1665.0,0.0,True,1665.0000000000014,1.3642420526593924e-12,True
+federal_2025,district,35030,party,No Affiliation,0.0,0.0,0.0,True,0.0,0.0,True
+federal_2025,district,35030,party,People's Party - PPC,616.0,616.0,0.0,True,616.0000000000016,1.5916157281026244e-12,True
+federal_2025,district,35031,party,Animal Protection Party,0.0,0.0,0.0,True,0.0,0.0,True
+federal_2025,district,35031,party,Canadian Future Party,0.0,0.0,0.0,True,0.0,0.0,True
+federal_2025,district,35031,party,Centrist,0.0,0.0,0.0,True,0.0,0.0,True
+federal_2025,district,35031,party,Communist,0.0,0.0,0.0,True,0.0,0.0,True
+federal_2025,district,35031,party,Conservative,17359.0,17359.0,0.0,True,17359.000000000015,1.4551915228366852e-11,True
+federal_2025,district,35031,party,Green Party,394.0,394.0,0.0,True,394.00000000000034,3.410605131648481e-13,True
+federal_2025,district,35031,party,Independent,132.0,132.0,0.0,True,132.00000000000014,1.4210854715202004e-13,True
+federal_2025,district,35031,party,Liberal,22270.0,22270.0,0.0,True,22269.99999999999,-1.0913936421275139e-11,True
+federal_2025,district,35031,party,Marijuana Party,0.0,0.0,0.0,True,0.0,0.0,True
+federal_2025,district,35031,party,Marxist-Leninist,0.0,0.0,0.0,True,0.0,0.0,True
+federal_2025,district,35031,party,NDP-New Democratic Party,1354.0,1354.0,0.0,True,1354.0000000000005,4.547473508864641e-13,True
+federal_2025,district,35031,party,No Affiliation,0.0,0.0,0.0,True,0.0,0.0,True
+federal_2025,district,35031,party,People's Party - PPC,846.0,846.0,0.0,True,846.0000000000005,4.547473508864641e-13,True
+federal_2025,district,35041,party,Animal Protection Party,0.0,0.0,0.0,True,0.0,0.0,True
+federal_2025,district,35041,party,Canadian Future Party,0.0,0.0,0.0,True,0.0,0.0,True
+federal_2025,district,35041,party,Centrist,0.0,0.0,0.0,True,0.0,0.0,True
+federal_2025,district,35041,party,Communist,226.0,226.0,0.0,True,225.99999999999994,-5.684341886080802e-14,True
+federal_2025,district,35041,party,Conservative,13745.0,13745.0,0.0,True,13744.999999999982,-1.8189894035458565e-11,True
+federal_2025,district,35041,party,Green Party,0.0,0.0,0.0,True,0.0,0.0,True
+federal_2025,district,35041,party,Independent,0.0,0.0,0.0,True,0.0,0.0,True
+federal_2025,district,35041,party,Liberal,21357.0,21357.0,0.0,True,21357.000000000022,2.1827872842550278e-11,True
+federal_2025,district,35041,party,Marijuana Party,0.0,0.0,0.0,True,0.0,0.0,True
+federal_2025,district,35041,party,Marxist-Leninist,0.0,0.0,0.0,True,0.0,0.0,True
+federal_2025,district,35041,party,NDP-New Democratic Party,2449.0,2449.0,0.0,True,2449.0000000000036,3.637978807091713e-12,True
+federal_2025,district,35041,party,No Affiliation,0.0,0.0,0.0,True,0.0,0.0,True
+federal_2025,district,35041,party,People's Party - PPC,621.0,621.0,0.0,True,620.9999999999993,-6.821210263296962e-13,True
+federal_2025,district,35092,party,Animal Protection Party,0.0,0.0,0.0,True,0.0,0.0,True
+federal_2025,district,35092,party,Canadian Future Party,0.0,0.0,0.0,True,0.0,0.0,True
+federal_2025,district,35092,party,Centrist,0.0,0.0,0.0,True,0.0,0.0,True
+federal_2025,district,35092,party,Communist,0.0,0.0,0.0,True,0.0,0.0,True
+federal_2025,district,35092,party,Conservative,21732.0,21732.0,0.0,True,21732.000000000047,4.729372449219227e-11,True
+federal_2025,district,35092,party,Green Party,0.0,0.0,0.0,True,0.0,0.0,True
+federal_2025,district,35092,party,Independent,0.0,0.0,0.0,True,0.0,0.0,True
+federal_2025,district,35092,party,Liberal,27552.0,27552.0,0.0,True,27552.00000000003,2.9103830456733704e-11,True
+federal_2025,district,35092,party,Marijuana Party,0.0,0.0,0.0,True,0.0,0.0,True
+federal_2025,district,35092,party,Marxist-Leninist,0.0,0.0,0.0,True,0.0,0.0,True
+federal_2025,district,35092,party,NDP-New Democratic Party,1449.0,1449.0,0.0,True,1448.9999999999989,-1.1368683772161603e-12,True
+federal_2025,district,35092,party,No Affiliation,0.0,0.0,0.0,True,0.0,0.0,True
+federal_2025,district,35092,party,People's Party - PPC,0.0,0.0,0.0,True,0.0,0.0,True
+federal_2025,district,35093,party,Animal Protection Party,0.0,0.0,0.0,True,0.0,0.0,True
+federal_2025,district,35093,party,Canadian Future Party,0.0,0.0,0.0,True,0.0,0.0,True
+federal_2025,district,35093,party,Centrist,0.0,0.0,0.0,True,0.0,0.0,True
+federal_2025,district,35093,party,Communist,0.0,0.0,0.0,True,0.0,0.0,True
+federal_2025,district,35093,party,Conservative,18307.0,18307.0,0.0,True,18307.00000000002,1.8189894035458565e-11,True
+federal_2025,district,35093,party,Green Party,0.0,0.0,0.0,True,0.0,0.0,True
+federal_2025,district,35093,party,Independent,0.0,0.0,0.0,True,0.0,0.0,True
+federal_2025,district,35093,party,Liberal,27557.0,27557.0,0.0,True,27556.999999999985,-1.4551915228366852e-11,True
+federal_2025,district,35093,party,Marijuana Party,0.0,0.0,0.0,True,0.0,0.0,True
+federal_2025,district,35093,party,Marxist-Leninist,0.0,0.0,0.0,True,0.0,0.0,True
+federal_2025,district,35093,party,NDP-New Democratic Party,1565.0,1565.0,0.0,True,1565.0000000000002,2.2737367544323206e-13,True
+federal_2025,district,35093,party,No Affiliation,0.0,0.0,0.0,True,0.0,0.0,True
+federal_2025,district,35093,party,People's Party - PPC,659.0,659.0,0.0,True,659.0000000000005,4.547473508864641e-13,True
+federal_2025,district,35094,party,Animal Protection Party,0.0,0.0,0.0,True,0.0,0.0,True
+federal_2025,district,35094,party,Canadian Future Party,0.0,0.0,0.0,True,0.0,0.0,True
+federal_2025,district,35094,party,Centrist,0.0,0.0,0.0,True,0.0,0.0,True
+federal_2025,district,35094,party,Communist,0.0,0.0,0.0,True,0.0,0.0,True
+federal_2025,district,35094,party,Conservative,17485.0,17485.0,0.0,True,17485.00000000003,2.9103830456733704e-11,True
+federal_2025,district,35094,party,Green Party,633.0,633.0,0.0,True,633.000000000001,1.0231815394945443e-12,True
+federal_2025,district,35094,party,Independent,0.0,0.0,0.0,True,0.0,0.0,True
+federal_2025,district,35094,party,Liberal,35295.0,35295.0,0.0,True,35294.99999999997,-2.9103830456733704e-11,True
+federal_2025,district,35094,party,Marijuana Party,0.0,0.0,0.0,True,0.0,0.0,True
+federal_2025,district,35094,party,Marxist-Leninist,0.0,0.0,0.0,True,0.0,0.0,True
+federal_2025,district,35094,party,NDP-New Democratic Party,1772.0,1772.0,0.0,True,1771.9999999999993,-6.821210263296962e-13,True
+federal_2025,district,35094,party,No Affiliation,0.0,0.0,0.0,True,0.0,0.0,True
+federal_2025,district,35094,party,People's Party - PPC,0.0,0.0,0.0,True,0.0,0.0,True
+federal_2025,district,35095,party,Animal Protection Party,0.0,0.0,0.0,True,0.0,0.0,True
+federal_2025,district,35095,party,Canadian Future Party,0.0,0.0,0.0,True,0.0,0.0,True
+federal_2025,district,35095,party,Centrist,0.0,0.0,0.0,True,0.0,0.0,True
+federal_2025,district,35095,party,Communist,0.0,0.0,0.0,True,0.0,0.0,True
+federal_2025,district,35095,party,Conservative,15487.0,15487.0,0.0,True,15486.99999999999,-9.094947017729282e-12,True
+federal_2025,district,35095,party,Green Party,0.0,0.0,0.0,True,0.0,0.0,True
+federal_2025,district,35095,party,Independent,0.0,0.0,0.0,True,0.0,0.0,True
+federal_2025,district,35095,party,Liberal,29418.0,29418.0,0.0,True,29417.99999999998,-1.8189894035458565e-11,True
+federal_2025,district,35095,party,Marijuana Party,0.0,0.0,0.0,True,0.0,0.0,True
+federal_2025,district,35095,party,Marxist-Leninist,0.0,0.0,0.0,True,0.0,0.0,True
+federal_2025,district,35095,party,NDP-New Democratic Party,1827.0,1827.0,0.0,True,1826.9999999999982,-1.8189894035458565e-12,True
+federal_2025,district,35095,party,No Affiliation,0.0,0.0,0.0,True,0.0,0.0,True
+federal_2025,district,35095,party,People's Party - PPC,0.0,0.0,0.0,True,0.0,0.0,True
+federal_2025,district,35096,party,Animal Protection Party,0.0,0.0,0.0,True,0.0,0.0,True
+federal_2025,district,35096,party,Canadian Future Party,0.0,0.0,0.0,True,0.0,0.0,True
+federal_2025,district,35096,party,Centrist,165.0,165.0,0.0,True,164.9999999999995,-5.115907697472721e-13,True
+federal_2025,district,35096,party,Communist,0.0,0.0,0.0,True,0.0,0.0,True
+federal_2025,district,35096,party,Conservative,16652.0,16652.0,0.0,True,16652.000000000004,3.637978807091713e-12,True
+federal_2025,district,35096,party,Green Party,754.0,754.0,0.0,True,754.0000000000002,2.2737367544323206e-13,True
+federal_2025,district,35096,party,Independent,0.0,0.0,0.0,True,0.0,0.0,True
+federal_2025,district,35096,party,Liberal,33495.0,33495.0,0.0,True,33495.00000000005,5.093170329928398e-11,True
+federal_2025,district,35096,party,Marijuana Party,0.0,0.0,0.0,True,0.0,0.0,True
+federal_2025,district,35096,party,Marxist-Leninist,113.0,113.0,0.0,True,112.9999999999997,-2.984279490192421e-13,True
+federal_2025,district,35096,party,NDP-New Democratic Party,2730.0,2730.0,0.0,True,2729.999999999997,-3.183231456205249e-12,True
+federal_2025,district,35096,party,No Affiliation,0.0,0.0,0.0,True,0.0,0.0,True
+federal_2025,district,35096,party,People's Party - PPC,567.0,567.0,0.0,True,566.9999999999999,-1.1368683772161603e-13,True
+federal_2025,district,35097,party,Animal Protection Party,0.0,0.0,0.0,True,0.0,0.0,True
+federal_2025,district,35097,party,Canadian Future Party,0.0,0.0,0.0,True,0.0,0.0,True
+federal_2025,district,35097,party,Centrist,150.0,150.0,0.0,True,149.99999999999972,-2.8421709430404007e-13,True
+federal_2025,district,35097,party,Communist,0.0,0.0,0.0,True,0.0,0.0,True
+federal_2025,district,35097,party,Conservative,14291.0,14291.0,0.0,True,14291.000000000007,7.275957614183426e-12,True
+federal_2025,district,35097,party,Green Party,499.0,499.0,0.0,True,498.99999999999903,-9.663381206337363e-13,True
+federal_2025,district,35097,party,Independent,181.0,181.0,0.0,True,180.99999999999957,-4.263256414560601e-13,True
+federal_2025,district,35097,party,Liberal,25281.0,25281.0,0.0,True,25281.00000000002,1.8189894035458565e-11,True
+federal_2025,district,35097,party,Marijuana Party,0.0,0.0,0.0,True,0.0,0.0,True
+federal_2025,district,35097,party,Marxist-Leninist,0.0,0.0,0.0,True,0.0,0.0,True
+federal_2025,district,35097,party,NDP-New Democratic Party,1466.0,1466.0,0.0,True,1465.9999999999993,-6.821210263296962e-13,True
+federal_2025,district,35097,party,No Affiliation,0.0,0.0,0.0,True,0.0,0.0,True
+federal_2025,district,35097,party,People's Party - PPC,0.0,0.0,0.0,True,0.0,0.0,True
+federal_2025,district,35100,party,Animal Protection Party,0.0,0.0,0.0,True,0.0,0.0,True
+federal_2025,district,35100,party,Canadian Future Party,0.0,0.0,0.0,True,0.0,0.0,True
+federal_2025,district,35100,party,Centrist,0.0,0.0,0.0,True,0.0,0.0,True
+federal_2025,district,35100,party,Communist,0.0,0.0,0.0,True,0.0,0.0,True
+federal_2025,district,35100,party,Conservative,16286.0,16286.0,0.0,True,16286.000000000007,7.275957614183426e-12,True
+federal_2025,district,35100,party,Green Party,448.0,448.0,0.0,True,447.99999999999994,-5.684341886080802e-14,True
+federal_2025,district,35100,party,Independent,39.0,39.0,0.0,True,39.00000000000008,7.815970093361102e-14,True
+federal_2025,district,35100,party,Liberal,31832.0,31832.0,0.0,True,31832.000000000007,7.275957614183426e-12,True
+federal_2025,district,35100,party,Marijuana Party,0.0,0.0,0.0,True,0.0,0.0,True
+federal_2025,district,35100,party,Marxist-Leninist,85.0,85.0,0.0,True,85.00000000000004,4.263256414560601e-14,True
+federal_2025,district,35100,party,NDP-New Democratic Party,4107.0,4107.0,0.0,True,4106.999999999996,-3.637978807091713e-12,True
+federal_2025,district,35100,party,No Affiliation,0.0,0.0,0.0,True,0.0,0.0,True
+federal_2025,district,35100,party,People's Party - PPC,193.0,193.0,0.0,True,193.00000000000023,2.2737367544323206e-13,True
+federal_2025,district,35105,party,Animal Protection Party,184.0,184.0,0.0,True,183.9999999999999,-1.1368683772161603e-13,True
+federal_2025,district,35105,party,Canadian Future Party,0.0,0.0,0.0,True,0.0,0.0,True
+federal_2025,district,35105,party,Centrist,0.0,0.0,0.0,True,0.0,0.0,True
+federal_2025,district,35105,party,Communist,137.0,137.0,0.0,True,137.0,0.0,True
+federal_2025,district,35105,party,Conservative,12662.0,12662.0,0.0,True,12661.999999999982,-1.8189894035458565e-11,True
+federal_2025,district,35105,party,Green Party,700.0,700.0,0.0,True,699.9999999999975,-2.5011104298755527e-12,True
+federal_2025,district,35105,party,Independent,0.0,0.0,0.0,True,0.0,0.0,True
+federal_2025,district,35105,party,Liberal,36439.0,36439.0,0.0,True,36438.999999999985,-1.4551915228366852e-11,True
+federal_2025,district,35105,party,Marijuana Party,96.0,96.0,0.0,True,95.99999999999997,-2.842170943040401e-14,True
+federal_2025,district,35105,party,Marxist-Leninist,92.0,92.0,0.0,True,92.00000000000013,1.2789769243681803e-13,True
+federal_2025,district,35105,party,NDP-New Democratic Party,15003.0,15003.0,0.0,True,15002.999999999993,-7.275957614183426e-12,True
+federal_2025,district,35105,party,No Affiliation,0.0,0.0,0.0,True,0.0,0.0,True
+federal_2025,district,35105,party,People's Party - PPC,0.0,0.0,0.0,True,0.0,0.0,True
+federal_2025,district,35109,party,Animal Protection Party,177.0,177.0,0.0,True,177.00000000000009,8.526512829121202e-14,True
+federal_2025,district,35109,party,Canadian Future Party,0.0,0.0,0.0,True,0.0,0.0,True
+federal_2025,district,35109,party,Centrist,0.0,0.0,0.0,True,0.0,0.0,True
+federal_2025,district,35109,party,Communist,0.0,0.0,0.0,True,0.0,0.0,True
+federal_2025,district,35109,party,Conservative,12321.0,12321.0,0.0,True,12320.999999999996,-3.637978807091713e-12,True
+federal_2025,district,35109,party,Green Party,664.0,664.0,0.0,True,664.0000000000009,9.094947017729282e-13,True
+federal_2025,district,35109,party,Independent,90.0,90.0,0.0,True,90.0,0.0,True
+federal_2025,district,35109,party,Liberal,37907.0,37907.0,0.0,True,37906.99999999994,-5.820766091346741e-11,True
+federal_2025,district,35109,party,Marijuana Party,0.0,0.0,0.0,True,0.0,0.0,True
+federal_2025,district,35109,party,Marxist-Leninist,170.0,170.0,0.0,True,170.0,0.0,True
+federal_2025,district,35109,party,NDP-New Democratic Party,7358.0,7358.0,0.0,True,7358.000000000001,9.094947017729282e-13,True
+federal_2025,district,35109,party,No Affiliation,0.0,0.0,0.0,True,0.0,0.0,True
+federal_2025,district,35109,party,People's Party - PPC,235.0,235.0,0.0,True,234.9999999999999,-1.1368683772161603e-13,True
+federal_2025,district,35110,party,Animal Protection Party,251.0,251.0,0.0,True,250.99999999999994,-5.684341886080802e-14,True
+federal_2025,district,35110,party,Canadian Future Party,0.0,0.0,0.0,True,0.0,0.0,True
+federal_2025,district,35110,party,Centrist,0.0,0.0,0.0,True,0.0,0.0,True
+federal_2025,district,35110,party,Communist,0.0,0.0,0.0,True,0.0,0.0,True
+federal_2025,district,35110,party,Conservative,11187.0,11187.0,0.0,True,11187.000000000016,1.6370904631912708e-11,True
+federal_2025,district,35110,party,Green Party,626.0,626.0,0.0,True,625.9999999999997,-3.410605131648481e-13,True
+federal_2025,district,35110,party,Independent,0.0,0.0,0.0,True,0.0,0.0,True
+federal_2025,district,35110,party,Liberal,39191.0,39191.0,0.0,True,39191.00000000001,7.275957614183426e-12,True
+federal_2025,district,35110,party,Marijuana Party,0.0,0.0,0.0,True,0.0,0.0,True
+federal_2025,district,35110,party,Marxist-Leninist,0.0,0.0,0.0,True,0.0,0.0,True
+federal_2025,district,35110,party,NDP-New Democratic Party,7626.0,7626.0,0.0,True,7626.000000000004,3.637978807091713e-12,True
+federal_2025,district,35110,party,No Affiliation,0.0,0.0,0.0,True,0.0,0.0,True
+federal_2025,district,35110,party,People's Party - PPC,0.0,0.0,0.0,True,0.0,0.0,True
+federal_2025,district,35111,party,Animal Protection Party,0.0,0.0,0.0,True,0.0,0.0,True
+federal_2025,district,35111,party,Canadian Future Party,58.0,58.0,0.0,True,57.99999999999999,-7.105427357601002e-15,True
+federal_2025,district,35111,party,Centrist,0.0,0.0,0.0,True,0.0,0.0,True
+federal_2025,district,35111,party,Communist,0.0,0.0,0.0,True,0.0,0.0,True
+federal_2025,district,35111,party,Conservative,23700.0,23700.0,0.0,True,23700.000000000047,4.729372449219227e-11,True
+federal_2025,district,35111,party,Green Party,552.0,552.0,0.0,True,551.9999999999994,-5.684341886080801e-13,True
+federal_2025,district,35111,party,Independent,0.0,0.0,0.0,True,0.0,0.0,True
+federal_2025,district,35111,party,Liberal,44313.0,44313.0,0.0,True,44312.999999999985,-1.4551915228366852e-11,True
+federal_2025,district,35111,party,Marijuana Party,0.0,0.0,0.0,True,0.0,0.0,True
+federal_2025,district,35111,party,Marxist-Leninist,133.0,133.0,0.0,True,132.99999999999994,-5.684341886080802e-14,True
+federal_2025,district,35111,party,NDP-New Democratic Party,2496.0,2496.0,0.0,True,2495.9999999999973,-2.7284841053187847e-12,True
+federal_2025,district,35111,party,No Affiliation,0.0,0.0,0.0,True,0.0,0.0,True
+federal_2025,district,35111,party,People's Party - PPC,329.0,329.0,0.0,True,328.9999999999991,-9.094947017729282e-13,True
+federal_2025,district,35112,party,Animal Protection Party,0.0,0.0,0.0,True,0.0,0.0,True
+federal_2025,district,35112,party,Canadian Future Party,0.0,0.0,0.0,True,0.0,0.0,True
+federal_2025,district,35112,party,Centrist,0.0,0.0,0.0,True,0.0,0.0,True
+federal_2025,district,35112,party,Communist,304.0,304.0,0.0,True,304.00000000000034,3.410605131648481e-13,True
+federal_2025,district,35112,party,Conservative,14624.0,14624.0,0.0,True,14624.000000000022,2.1827872842550278e-11,True
+federal_2025,district,35112,party,Green Party,1066.0,1066.0,0.0,True,1065.9999999999966,-3.410605131648481e-12,True
+federal_2025,district,35112,party,Independent,118.0,118.0,0.0,True,117.99999999999993,-7.105427357601002e-14,True
+federal_2025,district,35112,party,Liberal,39847.0,39847.0,0.0,True,39847.000000000095,9.458744898438454e-11,True
+federal_2025,district,35112,party,Marijuana Party,0.0,0.0,0.0,True,0.0,0.0,True
+federal_2025,district,35112,party,Marxist-Leninist,138.0,138.0,0.0,True,137.99999999999994,-5.684341886080802e-14,True
+federal_2025,district,35112,party,NDP-New Democratic Party,6168.0,6168.0,0.0,True,6167.9999999999945,-5.4569682106375694e-12,True
+federal_2025,district,35112,party,No Affiliation,0.0,0.0,0.0,True,0.0,0.0,True
+federal_2025,district,35112,party,People's Party - PPC,0.0,0.0,0.0,True,0.0,0.0,True
+federal_2025,district,35117,party,Animal Protection Party,0.0,0.0,0.0,True,0.0,0.0,True
+federal_2025,district,35117,party,Canadian Future Party,0.0,0.0,0.0,True,0.0,0.0,True
+federal_2025,district,35117,party,Centrist,0.0,0.0,0.0,True,0.0,0.0,True
+federal_2025,district,35117,party,Communist,0.0,0.0,0.0,True,0.0,0.0,True
+federal_2025,district,35117,party,Conservative,20977.0,20977.0,0.0,True,20976.99999999997,-2.9103830456733704e-11,True
+federal_2025,district,35117,party,Green Party,0.0,0.0,0.0,True,0.0,0.0,True
+federal_2025,district,35117,party,Independent,0.0,0.0,0.0,True,0.0,0.0,True
+federal_2025,district,35117,party,Liberal,25488.0,25488.0,0.0,True,25488.00000000003,2.9103830456733704e-11,True
+federal_2025,district,35117,party,Marijuana Party,0.0,0.0,0.0,True,0.0,0.0,True
+federal_2025,district,35117,party,Marxist-Leninist,0.0,0.0,0.0,True,0.0,0.0,True
+federal_2025,district,35117,party,NDP-New Democratic Party,1224.0,1224.0,0.0,True,1223.9999999999998,-2.2737367544323206e-13,True
+federal_2025,district,35117,party,No Affiliation,0.0,0.0,0.0,True,0.0,0.0,True
+federal_2025,district,35117,party,People's Party - PPC,0.0,0.0,0.0,True,0.0,0.0,True
+federal_2025,district,35120,party,Animal Protection Party,0.0,0.0,0.0,True,0.0,0.0,True
+federal_2025,district,35120,party,Canadian Future Party,0.0,0.0,0.0,True,0.0,0.0,True
+federal_2025,district,35120,party,Centrist,0.0,0.0,0.0,True,0.0,0.0,True
+federal_2025,district,35120,party,Communist,0.0,0.0,0.0,True,0.0,0.0,True
+federal_2025,district,35120,party,Conservative,26110.0,26110.0,0.0,True,26110.000000000015,1.4551915228366852e-11,True
+federal_2025,district,35120,party,Green Party,0.0,0.0,0.0,True,0.0,0.0,True
+federal_2025,district,35120,party,Independent,0.0,0.0,0.0,True,0.0,0.0,True
+federal_2025,district,35120,party,Liberal,20318.0,20318.0,0.0,True,20318.0,0.0,True
+federal_2025,district,35120,party,Marijuana Party,0.0,0.0,0.0,True,0.0,0.0,True
+federal_2025,district,35120,party,Marxist-Leninist,0.0,0.0,0.0,True,0.0,0.0,True
+federal_2025,district,35120,party,NDP-New Democratic Party,1191.0,1191.0,0.0,True,1191.000000000001,9.094947017729282e-13,True
+federal_2025,district,35120,party,No Affiliation,0.0,0.0,0.0,True,0.0,0.0,True
+federal_2025,district,35120,party,People's Party - PPC,0.0,0.0,0.0,True,0.0,0.0,True
+federal_2025,district,35122,party,Animal Protection Party,0.0,0.0,0.0,True,0.0,0.0,True
+federal_2025,district,35122,party,Canadian Future Party,0.0,0.0,0.0,True,0.0,0.0,True
+federal_2025,district,35122,party,Centrist,0.0,0.0,0.0,True,0.0,0.0,True
+federal_2025,district,35122,party,Communist,0.0,0.0,0.0,True,0.0,0.0,True
+federal_2025,district,35122,party,Conservative,17746.0,17746.0,0.0,True,17746.000000000007,7.275957614183426e-12,True
+federal_2025,district,35122,party,Green Party,0.0,0.0,0.0,True,0.0,0.0,True
+federal_2025,district,35122,party,Independent,0.0,0.0,0.0,True,0.0,0.0,True
+federal_2025,district,35122,party,Liberal,24663.0,24663.0,0.0,True,24663.000000000007,7.275957614183426e-12,True
+federal_2025,district,35122,party,Marijuana Party,0.0,0.0,0.0,True,0.0,0.0,True
+federal_2025,district,35122,party,Marxist-Leninist,0.0,0.0,0.0,True,0.0,0.0,True
+federal_2025,district,35122,party,NDP-New Democratic Party,2190.0,2190.0,0.0,True,2190.000000000003,3.183231456205249e-12,True
+federal_2025,district,35122,party,No Affiliation,0.0,0.0,0.0,True,0.0,0.0,True
+federal_2025,district,35122,party,People's Party - PPC,0.0,0.0,0.0,True,0.0,0.0,True
+federal_2025,global,ALL,party,Animal Protection Party,612.0,612.0,0.0,True,612.0000000000013,1.2505552149377763e-12,True
+federal_2025,global,ALL,party,Canadian Future Party,58.0,58.0,0.0,True,57.99999999999999,-7.105427357601002e-15,True
+federal_2025,global,ALL,party,Centrist,315.0,315.0,0.0,True,315.0000000000002,2.2737367544323206e-13,True
+federal_2025,global,ALL,party,Communist,1200.0,1200.0,0.0,True,1199.999999999997,-2.9558577807620168e-12,True
+federal_2025,global,ALL,party,Conservative,442838.0,442838.0,0.0,True,442838.0000000043,4.307366907596588e-09,True
+federal_2025,global,ALL,party,Green Party,9359.0,9359.0,0.0,True,9358.999999999987,-1.2732925824820995e-11,True
+federal_2025,global,ALL,party,Independent,1163.0,1163.0,0.0,True,1162.9999999999945,-5.4569682106375694e-12,True
+federal_2025,global,ALL,party,Liberal,763604.0,763604.0,0.0,True,763604.000000001,1.0477378964424133e-09,True
+federal_2025,global,ALL,party,Marijuana Party,96.0,96.0,0.0,True,95.99999999999997,-2.842170943040401e-14,True
+federal_2025,global,ALL,party,Marxist-Leninist,967.0,967.0,0.0,True,966.9999999999945,-5.4569682106375694e-12,True
+federal_2025,global,ALL,party,NDP-New Democratic Party,83299.0,83299.0,0.0,True,83298.9999999998,-2.0372681319713593e-10,True
+federal_2025,global,ALL,party,No Affiliation,260.0,260.0,0.0,True,259.99999999999926,-7.389644451905042e-13,True
+federal_2025,global,ALL,party,People's Party - PPC,4652.0,4652.0,0.0,True,4651.999999999993,-7.275957614183426e-12,True

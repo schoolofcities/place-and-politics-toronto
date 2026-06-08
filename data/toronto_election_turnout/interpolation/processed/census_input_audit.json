@@ -1,0 +1,8 @@
+{
+  "ancillary_weight_variable": "citizen_canadian_18over",
+  "da_count": 3743,
+  "suppressed_da_weight_rows": 16,
+  "suppressed_da_weight_treatment": "zero",
+  "target_ct_count": 585,
+  "target_universe": "CT polygons with contains_toronto_da = true"
+}

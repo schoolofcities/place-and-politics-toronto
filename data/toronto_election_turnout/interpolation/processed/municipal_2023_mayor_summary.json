@@ -1,0 +1,18 @@
+{
+  "all_primary_vote_validations_pass": true,
+  "ancillary_weight_variable": "citizen_canadian_18over",
+  "candidate_result_rows": 51412,
+  "citizen_18plus_rate_closer_to_published_than_official_row_rate": false,
+  "ct_result_rows": 585,
+  "district_crosswalk_rows": 919,
+  "election_id": "municipal_2023_mayor",
+  "excluded_or_unallocated_rows": 94,
+  "fully_allocated_no_geometry_rows": 100,
+  "interpolated_citizen_18plus_participation_rate": 0.38748933871989777,
+  "official_row_turnout_rate": 0.3721355640439144,
+  "poll_crosswalk_rows": 4072,
+  "primary_validation_failures": 0,
+  "target_ct_count": 585,
+  "vote_bearing_no_geometry_rows": 100,
+  "working_crs": "EPSG:3347"
+}
