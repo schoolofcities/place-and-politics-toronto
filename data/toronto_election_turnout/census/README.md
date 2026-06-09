@@ -25,14 +25,17 @@ census/
 - Toronto CT boundaries.
 - Toronto DA boundaries.
 
-The `raw/source_downloads/` folder keeps the raw StatCan REST GeoJSON pulls used
-to build those GeoPackages.
+The `raw/source_downloads/` folder keeps the raw StatCan REST GeoJSON pulls,
+official single-year-age tables, and annual population-estimate tables used by
+the census and temporal diagnostic scripts.
 
 ## Processed Census Profile
 
 `processed/profile_2021/` stores Toronto-only Census Profile extracts. The
-current extracted variable is characteristic `1525`, `Canadian citizens aged 18
-and over`, at DA and CT levels.
+primary extracted variable is characteristic `1525`, `Canadian citizens aged
+18 and over`, at DA and CT levels. It also contains separate all-resident
+`population_18plus` tables used for sensitivity and suppression diagnostics,
+not as the production interpolation weight.
 
 The DA table is the preferred ancillary population-weight input for
 poll-to-CT interpolation.

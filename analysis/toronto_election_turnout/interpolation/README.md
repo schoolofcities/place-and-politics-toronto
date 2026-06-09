@@ -3,6 +3,23 @@
 This module allocates Toronto election results from polling records to the 585
 2021 census tract polygons linked to Toronto dissemination areas.
 
+## Structure
+
+```text
+interpolation/
+  config.py
+  io_utils.py
+  spatial.py
+  workflow.py
+  run_interpolation.py
+  audit_geographic_temporal_coverage.py
+  audit_official_results.py
+  build_map_data.py
+  viewer/
+  README.md
+  MUNICIPAL_PARTY_AFFILIATION_AUDIT.md
+```
+
 ## Method
 
 The workflow implements the supplied population-weighted interpolation method:
@@ -92,6 +109,8 @@ npm run build:interpolation-map
 npm run start:interpolation
 ```
 
+Open `http://127.0.0.1:5180`.
+
 Outputs are written to:
 
 ```text
@@ -115,7 +134,15 @@ Each election receives:
 
 Combined files include:
 
+- `AUDIT_FINDINGS.md`
 - `census_input_audit.json`
+- `suppressed_da_audit.csv`
+- `interpolation_audit.csv`
+- `excluded_unallocated_report.csv`
+- `no_geometry_allocation_audit.csv`
+- `turnout_comparison.csv`
+- `validation_report.csv`
+- `validation_summary.json`
 - `geographic_coverage_audit.csv`
 - `temporal_population_proxy_audit.csv`
 - `geographic_temporal_audit_summary.json`
@@ -129,22 +156,28 @@ Map-ready files are written under:
 ```text
 data/toronto_election_turnout/interpolation/map/
 ```
-- `suppressed_da_audit.csv`
-- `interpolation_audit.csv`
-- `excluded_unallocated_report.csv`
-- `no_geometry_allocation_audit.csv`
-- `turnout_comparison.csv`
-- `validation_report.csv`
-- `validation_summary.json`
+
+- `municipal_2023_mayor_ct_map.geojson`
+- `provincial_2025_ct_map.geojson`
+- `federal_2025_ct_map.geojson`
+- `map_build_summary.json`
 
 Validation compares source and allocated totals globally and by district for
 total votes, electors, valid candidate votes, every party column, and every
 candidate represented in the sparse bridge. It also validates each individual
 vote-bearing source poll/reporting row after summing its CT allocations.
 
-The validation summary contains a map gate. A map should be built only when
-vote preservation, no-geometry allocation, vote-bearing exclusion, and
-participation-rate alignment checks all pass.
+`validation_summary.json` preserves the interpolation runner's original
+turnout-proximity diagnostic and therefore currently reports its older
+`map_gate_passed` value as false. Turnout proximity is not a vote-preservation
+test because the published rates may use different geographies and registered-
+elector denominators.
+
+The current map builder uses four blocking integrity gates: primary vote
+preservation, complete allocation of vote-bearing no-geometry records, no
+vote-bearing exclusions, and official party/candidate reconciliation.
+`map/map_build_summary.json` is the authoritative record for those gates and
+the generated map datasets.
 
 ## Geographic Coverage Decision
 

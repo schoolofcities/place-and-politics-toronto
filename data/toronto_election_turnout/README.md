@@ -22,13 +22,16 @@ data/toronto_election_turnout/
       candidate_details/
   census/
     raw/
+      source_downloads/
     processed/
       profile_2021/
+      geography_2021/
     reference/
       ada_2021/
       zack_taylor_ct2021/
   interpolation/
     processed/
+    map/
 ```
 
 ## Election Data
@@ -63,9 +66,12 @@ See `analysis/toronto_election_turnout/elections/docs/` for election QA notes.
 - Toronto CTs.
 - Toronto DAs.
 - Raw StatCan REST GeoJSON source downloads used to build those files.
+- Official single-year-age and annual population estimate tables used for
+  adult-population and temporal diagnostics.
 
 `census/processed/profile_2021/` stores extracted Toronto-only Census Profile
-attributes, currently `Canadian citizens aged 18 and over` at DA and CT levels.
+attributes for `Canadian citizens aged 18 and over`, plus separate all-resident
+age-18+ tables and suppression/reconciliation audits.
 
 `census/reference/ada_2021/` stores the ADA files provided for variable
 discovery and lower-resolution checks.
@@ -84,3 +90,6 @@ outputs from `analysis/toronto_election_turnout/interpolation/`. The default
 workflow uses DA-level `citizen_canadian_18over` as the population weight,
 treats suppressed DA values as zero, and writes separate poll-to-CT and
 district-to-CT crosswalks.
+
+`interpolation/map/` stores the three validated, compact CT GeoJSON datasets
+used by the interpolation viewer plus `map_build_summary.json`.

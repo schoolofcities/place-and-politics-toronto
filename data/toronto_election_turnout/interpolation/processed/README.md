@@ -16,8 +16,37 @@ Mapped polling divisions and geometryless district records both use DA
 diagnostic turnout plus `estimated_turnout_citizen_18plus` /
 `estimated_participation_citizen_18plus`.
 
-`validation_summary.json` records whether the Leaflet-map gate passed. No map
-is generated when any gate fails.
+## Election-Specific Outputs
+
+Each election prefix has:
+
+- `*_poll_to_ct_crosswalk.csv`
+- `*_district_to_ct_crosswalk.csv`
+- `*_ct_estimated_results.csv`
+- `*_ct_candidate_estimated_votes.csv`
+- `*_excluded_unallocated.csv`
+- `*_no_geometry_allocation_audit.csv`
+- `*_turnout_comparison.csv`
+- `*_audit.csv`
+- `*_validation.csv`
+- `*_summary.json`
+
+## Combined Outputs
+
+- `AUDIT_FINDINGS.md`
+- `census_input_audit.json`
+- `suppressed_da_audit.csv`
+- `interpolation_audit.csv`
+- `excluded_unallocated_report.csv`
+- `no_geometry_allocation_audit.csv`
+- `turnout_comparison.csv`
+- `validation_report.csv`
+- `validation_summary.json`
+
+`validation_summary.json` retains the interpolation runner's original
+turnout-proximity diagnostic. Its older `map_gate_passed` field can be false
+even when all vote-integrity checks pass, because contextual published turnout
+rates can use different geographies and denominators.
 
 Coverage and temporal diagnostic outputs are generated separately by:
 
@@ -47,3 +76,6 @@ Official election-result reconciliation outputs include:
 
 Validated map-ready GeoJSON is written to the adjacent `map/` directory by
 `analysis/toronto_election_turnout/interpolation/build_map_data.py`.
+`map/map_build_summary.json` is the authoritative map-build record. It requires
+primary vote preservation, complete no-geometry vote allocation, no
+vote-bearing exclusions, and official result reconciliation.

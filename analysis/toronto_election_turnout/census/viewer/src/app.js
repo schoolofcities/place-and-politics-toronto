@@ -183,6 +183,7 @@ async function drawOverlay() {
   if (!els.overlay.checked || state.level === "ada") return;
   const data = await load("ada");
   state.overlay = L.geoJSON(data, {
+    interactive: false,
     style: { color: "#151a18", weight: 2, opacity: 0.8, fillOpacity: 0 }
   }).addTo(map);
 }

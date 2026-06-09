@@ -3,9 +3,29 @@
 This folder mirrors the data split:
 
 - `elections/`: scripts, notes, and viewer for polling-division election turnout.
-- `census/`: scripts and notes for 2021 census inputs, reference CT files, and poll-to-CT interpolation readiness.
+- `census/`: scripts, notes, and viewer for 2021 census inputs, reference CT
+  files, and interpolation readiness.
 - `interpolation/`: population-weighted poll/district-to-CT allocation, audits,
-  and preservation validation.
+  preservation validation, and the CT election viewer.
+
+```text
+analysis/toronto_election_turnout/
+  elections/
+    scripts/
+    docs/
+    viewer/
+  census/
+    scripts/
+    docs/
+    viewer/
+  interpolation/
+    *.py
+    viewer/
+    README.md
+    MUNICIPAL_PARTY_AFFILIATION_AUDIT.md
+  package.json
+  requirements.txt
+```
 
 ## Python Setup
 
@@ -15,23 +35,69 @@ The election builders require Python 3 plus `pandas` and `openpyxl`:
 python -m pip install -r requirements.txt
 ```
 
-## Run the Election Map
+## Available Maps
 
 From this folder:
+
+### 1. Polling-Division Election Map
+
+Displays the original municipal, provincial, and federal election records at
+their available polling-division geography. This is not the interpolated CT
+map.
 
 ```bash
 npm start
 ```
 
-Open the printed local URL, usually:
+Open:
 
 ```text
-http://localhost:5173
+http://127.0.0.1:5173
 ```
 
-No package installation is required. The viewer uses a small local Node server
-and local Leaflet files. Map tiles come from OpenStreetMap, so the background
-map needs internet access.
+### 2. Census Geography Map
+
+Displays the 2021 census CT, DA, and related census geography/profile inputs
+used by the analysis.
+
+```bash
+npm run start:census
+```
+
+Open:
+
+```text
+http://127.0.0.1:5174
+```
+
+### 3. Interpolated Census-Tract Election Map
+
+This is the latest map. It displays the population-weighted municipal,
+provincial, and federal CT estimates, citizen-18+ participation, official
+turnout comparisons, party-share maps, and mayoral candidate-share maps.
+
+Rebuild its map-ready datasets when interpolation outputs change:
+
+```bash
+npm run build:interpolation-map
+```
+
+Run the viewer:
+
+```bash
+npm run start:interpolation
+```
+
+Open:
+
+```text
+http://127.0.0.1:5180
+```
+
+All three viewers can run at the same time because they use separate ports.
+No package installation is required. They use small local Node servers and
+local Leaflet files. Map tiles come from OpenStreetMap, so the background maps
+need internet access.
 
 ## Rebuild Election Outputs
 
@@ -64,14 +130,6 @@ Build the census geography crosswalk and viewer data:
 python census/scripts/build_census_geography_viewer_data.py
 ```
 
-Run the census geography map:
-
-```bash
-npm run start:census
-```
-
-Open `http://127.0.0.1:5174`.
-
 To convert the Zack Taylor Stata file:
 
 ```bash
@@ -93,6 +151,13 @@ Outputs go to:
 
 - `../../data/toronto_election_turnout/interpolation/processed/`
 
+After rebuilding interpolation outputs, regenerate the map-ready GeoJSON:
+
+```bash
+cd ..
+npm run build:interpolation-map
+```
+
 ## Notes
 
 Election QA notes live in:
@@ -102,3 +167,9 @@ Election QA notes live in:
 Census/interpolation notes live in:
 
 - `census/docs/`
+- `interpolation/README.md`
+- `interpolation/MUNICIPAL_PARTY_AFFILIATION_AUDIT.md`
+
+Generated audit findings and output dictionaries live under:
+
+- `../../data/toronto_election_turnout/interpolation/processed/`

@@ -259,6 +259,7 @@ function availableCandidates(features) {
 }
 
 function updatePartyOptions(features) {
+  els.metric.disabled = false;
   if (state.election === "municipal_2023_mayor") {
     const candidates = availableCandidates(features);
     els.distributionLabel.textContent = "Mayoral candidate";

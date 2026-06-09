@@ -52,8 +52,15 @@ cd analysis/toronto_election_turnout
 npm start
 ```
 
+Open `http://127.0.0.1:5173`.
+
 Rebuild all election data with:
 
 ```bash
-python elections/scripts/build_election_datasets.py
+npm run build:data
 ```
+
+Processed turnout geometry is written to
+`data/toronto_election_turnout/elections/processed/turnout/`; normalized
+candidate catalogs and sparse candidate-vote bridges are written to
+`data/toronto_election_turnout/elections/processed/candidate_details/`.

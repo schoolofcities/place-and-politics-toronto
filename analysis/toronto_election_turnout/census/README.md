@@ -9,6 +9,7 @@ poll-to-census-tract interpolation.
 census/
   scripts/
   docs/
+  viewer/
 ```
 
 ## Scripts
@@ -56,7 +57,11 @@ census/
 From `analysis/toronto_election_turnout/`:
 
 ```bash
+npm run build:census-map
 npm run start:census
 ```
 
 Open `http://127.0.0.1:5174`.
+
+The viewer reads the map-ready DA, CT, and ADA GeoJSON under
+`data/toronto_election_turnout/census/processed/geography_2021/`.
