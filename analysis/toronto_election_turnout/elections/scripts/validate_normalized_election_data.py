@@ -13,29 +13,31 @@ REPO_ROOT = Path(__file__).resolve().parents[4]
 PROCESSED = (
     REPO_ROOT / "data" / "toronto_election_turnout" / "elections" / "processed"
 )
-CANDIDATE_DETAILS = PROCESSED / "candidate_details"
-TURNOUT = PROCESSED / "turnout"
+METADATA = PROCESSED / "metadata"
 
 
 def main():
     with open(
-        CANDIDATE_DETAILS / "normalized_election_results_metadata.json",
+        METADATA / "normalized_election_results_metadata.json",
         encoding="utf-8",
     ) as f:
         metadata = json.load(f)
 
     for election_id, config in metadata.items():
+        election_root = PROCESSED / election_id
         polls = pd.read_csv(
-            TURNOUT / config["poll_summary_csv"],
+            election_root / "turnout" / config["poll_summary_csv"],
             dtype={"poll_id": str},
             low_memory=False,
         )
         candidates = pd.read_csv(
-            CANDIDATE_DETAILS / config["candidate_file"],
+            election_root / "candidate_details" / config["candidate_file"],
             dtype={"candidate_id": str},
         )
         votes = pd.read_csv(
-            CANDIDATE_DETAILS / config["poll_candidate_vote_file"],
+            election_root
+            / "candidate_details"
+            / config["poll_candidate_vote_file"],
             dtype={"poll_id": str, "candidate_id": str},
         )
         party_fields = list(config["party_columns"].values())

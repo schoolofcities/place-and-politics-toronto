@@ -1,20 +1,20 @@
 const datasets = {
   municipal: {
     label: "Municipal 2023 Mayor",
-    url: "/data/toronto_election_turnout/elections/processed/turnout/toronto_municipal_2023_mayor_turnout_subdivisions.geojson",
-    districtUrl: "/data/toronto_election_turnout/elections/processed/turnout/toronto_municipal_2023_mayor_turnout_subdivisions_districts.json",
+    url: "/data/toronto_election_turnout/elections/processed/municipal_2023_mayor/turnout/toronto_municipal_2023_mayor_turnout_subdivisions.geojson",
+    districtUrl: "/data/toronto_election_turnout/elections/processed/municipal_2023_mayor/turnout/toronto_municipal_2023_mayor_turnout_subdivisions_districts.json",
     districtLabel: "Ward"
   },
   provincial: {
     label: "Provincial 2025",
-    url: "/data/toronto_election_turnout/elections/processed/turnout/toronto_provincial_2025_turnout_poll_divisions.geojson",
-    districtUrl: "/data/toronto_election_turnout/elections/processed/turnout/toronto_provincial_2025_turnout_poll_divisions_districts.json",
+    url: "/data/toronto_election_turnout/elections/processed/provincial_2025/turnout/toronto_provincial_2025_turnout_poll_divisions.geojson",
+    districtUrl: "/data/toronto_election_turnout/elections/processed/provincial_2025/turnout/toronto_provincial_2025_turnout_poll_divisions_districts.json",
     districtLabel: "Riding"
   },
   federal: {
     label: "Federal 2025",
-    url: "/data/toronto_election_turnout/elections/processed/turnout/toronto_federal_2025_turnout_poll_divisions.geojson",
-    districtUrl: "/data/toronto_election_turnout/elections/processed/turnout/toronto_federal_2025_turnout_poll_divisions_districts.json",
+    url: "/data/toronto_election_turnout/elections/processed/federal_2025/turnout/toronto_federal_2025_turnout_poll_divisions.geojson",
+    districtUrl: "/data/toronto_election_turnout/elections/processed/federal_2025/turnout/toronto_federal_2025_turnout_poll_divisions_districts.json",
     districtLabel: "Riding"
   }
 };

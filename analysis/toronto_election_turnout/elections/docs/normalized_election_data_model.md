@@ -8,7 +8,7 @@ avoiding repeated geometry, elector counts, turnout, and source notes.
 
 Location:
 
-`data/toronto_election_turnout/elections/processed/turnout/`
+`data/toronto_election_turnout/elections/processed/<election>/turnout/`
 
 One row represents one election, district, polling division, and vote type.
 The election and year are encoded in the filename.
@@ -33,7 +33,7 @@ mapping and the CSV for tabular analysis.
 
 Location:
 
-`data/toronto_election_turnout/elections/processed/candidate_details/toronto_*_candidates.csv`
+`data/toronto_election_turnout/elections/processed/<election>/candidate_details/toronto_*_candidates.csv`
 
 One row represents one candidate in the election. It contains:
 
@@ -50,7 +50,7 @@ and their party is `Non-partisan`.
 
 Location:
 
-`data/toronto_election_turnout/elections/processed/candidate_details/toronto_*_poll_candidate_votes.csv`
+`data/toronto_election_turnout/elections/processed/<election>/candidate_details/toronto_*_poll_candidate_votes.csv`
 
 One row represents a nonzero candidate result in one poll:
 
@@ -84,7 +84,7 @@ The sum of all `party_*_votes` fields equals
 
 The exact full-party-name to column-name mapping is stored in:
 
-`data/toronto_election_turnout/elections/processed/candidate_details/normalized_election_results_metadata.json`
+`data/toronto_election_turnout/elections/processed/metadata/normalized_election_results_metadata.json`
 
 ## Rebuild
 

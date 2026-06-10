@@ -10,9 +10,13 @@ from pathlib import Path
 
 REPO_ROOT = Path(__file__).resolve().parents[4]
 DATA_ROOT = REPO_ROOT / "data" / "toronto_election_turnout" / "census"
-PROFILE = DATA_ROOT / "processed" / "profile_2021"
-GEOGRAPHY = DATA_ROOT / "processed" / "geography_2021"
-OUTPUT = GEOGRAPHY / "statcan_2021_toronto_da_ct_residual_diagnostics.csv"
+PROCESSED = DATA_ROOT / "processed"
+OUTPUT = (
+    PROCESSED
+    / "audits"
+    / "reconciliation"
+    / "statcan_2021_toronto_da_ct_residual_diagnostics.csv"
+)
 
 
 def read_rows(path: Path) -> list[dict[str, str]]:
@@ -26,15 +30,21 @@ def nullable_int(value: str | None) -> int | None:
 
 
 def main() -> None:
-    da_rows = read_rows(PROFILE / "statcan_2021_da_citizens_18plus.csv")
+    da_rows = read_rows(
+        PROCESSED / "da" / "statcan_2021_da_profile.csv"
+    )
     ct_rows = {
         row["geo_id"]: row
-        for row in read_rows(PROFILE / "statcan_2021_ct_citizens_18plus.csv")
+        for row in read_rows(
+            PROCESSED / "ct" / "statcan_2021_ct_profile.csv"
+        )
     }
     crosswalk = {
         row["da_id"]: row
         for row in read_rows(
-            GEOGRAPHY / "statcan_2021_toronto_da_ct_ada_crosswalk.csv"
+            PROCESSED
+            / "crosswalks"
+            / "statcan_2021_toronto_da_ct_ada_crosswalk.csv"
         )
     }
 
@@ -44,7 +54,7 @@ def main() -> None:
 
     output_rows = []
     for row in da_rows:
-        if row["value_status"] == "published":
+        if row["citizen_canadian_18over_status"] == "published":
             continue
 
         da_id = row["geo_id"]
@@ -56,12 +66,12 @@ def main() -> None:
             sibling
             for sibling in siblings
             if sibling["geo_id"] != da_id
-            and sibling["value_status"] == "published"
+            and sibling["citizen_canadian_18over_status"] == "published"
         ]
         suppressed_siblings = [
             sibling
             for sibling in siblings
-            if sibling["value_status"] != "published"
+            if sibling["citizen_canadian_18over_status"] != "published"
         ]
         sibling_sum = sum(
             nullable_int(sibling["citizen_canadian_18over"]) or 0
@@ -74,7 +84,7 @@ def main() -> None:
 
         if ct_row is None:
             status = "parent_ct_not_in_profile"
-        elif ct_row["value_status"] != "published":
+        elif ct_row["citizen_canadian_18over_status"] != "published":
             status = "parent_ct_suppressed"
         elif len(suppressed_siblings) != 1:
             status = "multiple_suppressed_das_in_ct"
@@ -89,10 +99,14 @@ def main() -> None:
                 "ct_id": ct_id,
                 "ada_id": link["ada_id"],
                 "official_da_value": "",
-                "official_da_value_status": row["value_status"],
+                "official_da_value_status": row[
+                    "citizen_canadian_18over_status"
+                ],
                 "ct_official_value": "" if ct_value is None else ct_value,
                 "ct_value_status": (
-                    ct_row["value_status"] if ct_row else "not_published"
+                    ct_row["citizen_canadian_18over_status"]
+                    if ct_row
+                    else "not_published"
                 ),
                 "ct_da_count": len(siblings),
                 "ct_suppressed_da_count": len(suppressed_siblings),
@@ -129,6 +143,7 @@ def main() -> None:
         "can_replace_official_null",
         "method_note",
     ]
+    OUTPUT.parent.mkdir(parents=True, exist_ok=True)
     with OUTPUT.open("w", newline="", encoding="utf-8") as f:
         writer = csv.DictWriter(f, fieldnames=fields)
         writer.writeheader()

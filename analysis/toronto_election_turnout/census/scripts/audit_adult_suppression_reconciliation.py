@@ -9,8 +9,8 @@ from pathlib import Path
 
 REPO_ROOT = Path(__file__).resolve().parents[4]
 DATA_ROOT = REPO_ROOT / "data" / "toronto_election_turnout" / "census"
-PROFILE = DATA_ROOT / "processed" / "profile_2021"
-GEOGRAPHY = DATA_ROOT / "processed" / "geography_2021"
+PROCESSED = DATA_ROOT / "processed"
+AUDITS = PROCESSED / "audits" / "reconciliation"
 
 
 def read_rows(path: Path) -> dict[str, dict[str, str]]:
@@ -40,26 +40,27 @@ def status_note(citizen_status: str, population_status: str) -> str:
 
 
 def main() -> None:
+    AUDITS.mkdir(parents=True, exist_ok=True)
     crosswalk = {}
     with (
-        GEOGRAPHY / "statcan_2021_toronto_da_ct_ada_crosswalk.csv"
+        PROCESSED
+        / "crosswalks"
+        / "statcan_2021_toronto_da_ct_ada_crosswalk.csv"
     ).open(newline="", encoding="utf-8-sig") as source:
         crosswalk = {row["da_id"]: row for row in csv.DictReader(source)}
 
     outputs = []
     for level in ("da", "ct"):
-        citizens = read_rows(
-            PROFILE / f"statcan_2021_{level}_citizens_18plus.csv"
-        )
-        population = read_rows(
-            PROFILE / f"statcan_2021_{level}_population_18plus.csv"
+        profiles = read_rows(
+            PROCESSED
+            / level
+            / f"statcan_2021_{level}_profile.csv"
         )
         rows = []
-        for geo_id in sorted(citizens):
-            citizen_row = citizens[geo_id]
-            population_row = population[geo_id]
-            citizen_status = citizen_row["value_status"]
-            population_status = population_row["value_status"]
+        for geo_id in sorted(profiles):
+            profile_row = profiles[geo_id]
+            citizen_status = profile_row["citizen_canadian_18over_status"]
+            population_status = profile_row["population_18plus_status"]
             if citizen_status == "published" and population_status == "published":
                 continue
             link = crosswalk.get(geo_id, {})
@@ -69,11 +70,15 @@ def main() -> None:
                     "geo_id": geo_id,
                     "ct_id": link.get("ct_id", geo_id if level == "ct" else ""),
                     "ada_id": link.get("ada_id", ""),
-                    "citizens_18plus": citizen_row["citizen_canadian_18over"],
+                    "citizens_18plus": profile_row[
+                        "citizen_canadian_18over"
+                    ],
                     "citizens_18plus_status": citizen_status,
-                    "population_18plus": population_row["population_18plus"],
+                    "population_18plus": profile_row["population_18plus"],
                     "population_18plus_status": population_status,
-                    "data_quality_flag": citizen_row["data_quality_flag"],
+                    "data_quality_flag": profile_row[
+                        "citizen_canadian_18over_data_quality_flag"
+                    ],
                     "interpretation": status_note(
                         citizen_status, population_status
                     ),
@@ -81,7 +86,7 @@ def main() -> None:
                 }
             )
         output = (
-            PROFILE
+            AUDITS
             / f"statcan_2021_{level}_adult_suppression_reconciliation.csv"
         )
         write_rows(output, rows)

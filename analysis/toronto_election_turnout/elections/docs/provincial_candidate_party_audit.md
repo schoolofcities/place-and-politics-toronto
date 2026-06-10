@@ -62,7 +62,7 @@ dataset because it can be regenerated from the two official source reports and
 the builder script. Verified full party names are stored once in the candidate
 catalog:
 
-`data/toronto_election_turnout/elections/processed/candidate_details/toronto_provincial_2025_candidates.csv`
+`data/toronto_election_turnout/elections/processed/provincial_2025/candidate_details/toronto_provincial_2025_candidates.csv`
 
 The poll summary stores aggregated `party_*_votes` columns, while the sparse
 poll-candidate bridge stores only `poll_id`, `candidate_id`, and nonzero vote

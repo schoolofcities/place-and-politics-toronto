@@ -1,15 +1,15 @@
 const sources = {
   da: {
     label: "Dissemination Areas",
-    url: "/data/toronto_election_turnout/census/processed/geography_2021/statcan_2021_toronto_da.geojson"
+    url: "/data/toronto_election_turnout/census/processed/da/statcan_2021_toronto_da.geojson"
   },
   ct: {
     label: "Census Tracts",
-    url: "/data/toronto_election_turnout/census/processed/geography_2021/statcan_2021_toronto_ct.geojson"
+    url: "/data/toronto_election_turnout/census/processed/ct/statcan_2021_toronto_ct.geojson"
   },
   ada: {
     label: "Aggregate Dissemination Areas",
-    url: "/data/toronto_election_turnout/census/processed/geography_2021/statcan_2021_toronto_ada.geojson"
+    url: "/data/toronto_election_turnout/census/processed/ada/statcan_2021_toronto_ada.geojson"
   }
 };
 

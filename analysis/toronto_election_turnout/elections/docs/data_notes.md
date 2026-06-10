@@ -10,7 +10,7 @@
 
 ## QA Summary
 
-See `data/toronto_election_turnout/elections/processed/turnout/qa_summary.json` for generated counts.
+See `data/toronto_election_turnout/elections/processed/metadata/qa_summary.json` for generated counts.
 
 Some official-result rows do not have polygon geometry in the map source, especially advance, mail-in, mobile, and combined/no-poll reporting categories. These rows are retained in the CSV and GeoJSON with blank/null geometry.
 
@@ -48,6 +48,11 @@ See `analysis/toronto_election_turnout/elections/docs/granularity_audit.md` for 
 
 Zack Taylor provided `tor_electoral_ct2021_pct.dta`, a Stata dataset of Toronto municipal election results from 1997 to 2023 apportioned to 2021 census tracts. The exact Stata file was not found as a checked file in this repository, but related census-tract outputs used by the Place and Politics site are present under `src/data/`.
 
-This reference dataset is not a replacement for the polling-division turnout files in `data/toronto_election_turnout/elections/processed/turnout/`. It is election-day-only for 2023 and excludes advance-poll votes, while this project retains advance, mail-in, and special reporting buckets where the official source supports them.
+This reference dataset is not a replacement for the polling-division turnout
+files under each
+`data/toronto_election_turnout/elections/processed/<election>/turnout/`
+folder. It is election-day-only for 2023 and excludes advance-poll votes,
+while this project retains advance, mail-in, and special reporting buckets
+where the official source supports them.
 
 See `analysis/toronto_election_turnout/census/docs/zack_taylor_ct_comparison.md` for the full comparison and official-source reconciliation.

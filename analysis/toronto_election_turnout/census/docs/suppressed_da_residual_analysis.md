@@ -86,7 +86,7 @@ https://www12.statcan.gc.ca/census-recensement/2021/dp-pd/dt-td/about.cfm
 The official DA values remain null. The residuals are retained only as
 diagnostics in:
 
-`data/toronto_election_turnout/census/processed/geography_2021/statcan_2021_toronto_da_ct_residual_diagnostics.csv`
+`data/toronto_election_turnout/census/processed/audits/reconciliation/statcan_2021_toronto_da_ct_residual_diagnostics.csv`
 
 They must not be interpreted as official values, used to overwrite the
 suppressed cells, or used as exact interpolation weights. A later modelling
@@ -99,5 +99,5 @@ it into the citizenship field would change the variable's meaning.
 
 The direct variable-by-variable reconciliation is stored in:
 
-- `data/toronto_election_turnout/census/processed/profile_2021/statcan_2021_da_adult_suppression_reconciliation.csv`
-- `data/toronto_election_turnout/census/processed/profile_2021/statcan_2021_ct_adult_suppression_reconciliation.csv`
+- `data/toronto_election_turnout/census/processed/audits/reconciliation/statcan_2021_da_adult_suppression_reconciliation.csv`
+- `data/toronto_election_turnout/census/processed/audits/reconciliation/statcan_2021_ct_adult_suppression_reconciliation.csv`

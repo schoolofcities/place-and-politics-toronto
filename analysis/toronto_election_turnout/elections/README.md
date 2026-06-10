@@ -20,14 +20,14 @@ elections/
 
 - `scripts/build_turnout_geojson.py`
   - Builds optimized turnout CSV/GeoJSON files from election sources.
-  - Writes to `data/toronto_election_turnout/elections/processed/turnout/`.
+  - Writes to each election's `processed/<election>/turnout/` folder.
 
 - `scripts/build_candidate_party_votes.py`
   - Adds `poll_id`, candidate-vote totals, and wide party totals to poll
     summaries.
   - Builds candidate catalogs and sparse poll-candidate vote bridges.
-  - Writes metadata and normalized tables to
-    `data/toronto_election_turnout/elections/processed/candidate_details/`.
+  - Writes normalized tables to each election's `candidate_details/` folder
+    and shared build metadata to `processed/metadata/`.
 
 - `scripts/validate_normalized_election_data.py`
   - Checks unique keys, bridge joins, and equality among candidate, party, and
@@ -60,7 +60,7 @@ Rebuild all election data with:
 npm run build:data
 ```
 
-Processed turnout geometry is written to
-`data/toronto_election_turnout/elections/processed/turnout/`; normalized
-candidate catalogs and sparse candidate-vote bridges are written to
-`data/toronto_election_turnout/elections/processed/candidate_details/`.
+Processed outputs are grouped by election under
+`data/toronto_election_turnout/elections/processed/`. Each election folder
+contains `turnout/` and `candidate_details/`; shared QA metadata is in
+`processed/metadata/`.

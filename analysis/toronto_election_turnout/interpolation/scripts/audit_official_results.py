@@ -10,15 +10,14 @@ from pathlib import Path
 
 import pandas as pd
 
-from config import OUTPUT_ROOT, REPO_ROOT
+from config import CONTEXT_AUDIT_ROOT, REPO_ROOT, VALIDATION_ROOT
 from io_utils import read_csv, write_csv, write_json
 
 
 ELECTION_ROOT = REPO_ROOT / "data" / "toronto_election_turnout" / "elections"
 RAW = ELECTION_ROOT / "raw"
-TURNOUT = ELECTION_ROOT / "processed" / "turnout"
-CANDIDATES = ELECTION_ROOT / "processed" / "candidate_details"
-METADATA = CANDIDATES / "normalized_election_results_metadata.json"
+PROCESSED = ELECTION_ROOT / "processed"
+METADATA = PROCESSED / "metadata" / "normalized_election_results_metadata.json"
 
 ELECTION_FILES = {
     "municipal_2023_mayor": {
@@ -239,7 +238,12 @@ def federal_official():
 
 
 def normalized_party(election_id, party_columns):
-    rows = read_csv(TURNOUT / ELECTION_FILES[election_id]["turnout"])
+    rows = read_csv(
+        PROCESSED
+        / election_id
+        / "turnout"
+        / ELECTION_FILES[election_id]["turnout"]
+    )
     output = defaultdict(float)
     reverse = {field: party for party, field in party_columns.items()}
     for row in rows:
@@ -251,12 +255,13 @@ def normalized_party(election_id, party_columns):
 
 def normalized_candidate(election_id):
     files = ELECTION_FILES[election_id]
+    candidates = PROCESSED / election_id / "candidate_details"
     catalog = {
         row["candidate_id"]: row
-        for row in read_csv(CANDIDATES / files["candidates"])
+        for row in read_csv(candidates / files["candidates"])
     }
     output = defaultdict(float)
-    for row in read_csv(CANDIDATES / files["bridge"]):
+    for row in read_csv(candidates / files["bridge"]):
         district = row["poll_id"].split("|", 3)[1]
         candidate_row = catalog[row["candidate_id"]]
         output[
@@ -268,7 +273,9 @@ def normalized_candidate(election_id):
 def interpolated_party(election_id, party_columns):
     field_to_party = {field: party for party, field in party_columns.items()}
     output = {}
-    validation = read_csv(OUTPUT_ROOT / f"{election_id}_validation.csv")
+    validation = read_csv(
+        VALIDATION_ROOT / f"{election_id}_validation.csv"
+    )
     for row in validation:
         if row["measure_type"] != "party":
             continue
@@ -365,7 +372,7 @@ def turnout_reference_rows():
     rows = []
     for election_id, references in TURNOUT_REFERENCES.items():
         comparison = read_csv(
-            OUTPUT_ROOT / f"{election_id}_turnout_comparison.csv"
+            CONTEXT_AUDIT_ROOT / f"{election_id}_turnout_comparison.csv"
         )[0]
         citizen_rate = number(
             comparison["interpolated_citizen_18plus_participation_rate"]
@@ -434,13 +441,16 @@ def main():
             )
         )
 
-    write_csv(OUTPUT_ROOT / "official_party_vote_reconciliation.csv", party_rows)
     write_csv(
-        OUTPUT_ROOT / "official_candidate_vote_reconciliation.csv",
+        VALIDATION_ROOT / "official_party_vote_reconciliation.csv",
+        party_rows,
+    )
+    write_csv(
+        VALIDATION_ROOT / "official_candidate_vote_reconciliation.csv",
         candidate_rows,
     )
     write_csv(
-        OUTPUT_ROOT / "turnout_reference_audit.csv",
+        CONTEXT_AUDIT_ROOT / "turnout_reference_audit.csv",
         turnout_reference_rows(),
     )
     failures = [
@@ -450,7 +460,7 @@ def main():
         or row["normalized_to_interpolated_match"] is False
     ]
     write_json(
-        OUTPUT_ROOT / "official_result_reconciliation_summary.json",
+        VALIDATION_ROOT / "official_result_reconciliation_summary.json",
         {
             "official_source_match": not failures,
             "failure_count": len(failures),

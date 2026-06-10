@@ -7,7 +7,13 @@ import json
 from collections import defaultdict
 from pathlib import Path
 
-from config import CT_PATH, ELECTIONS, OUTPUT_ROOT, REPO_ROOT
+from config import (
+    CT_PATH,
+    ELECTIONS,
+    OUTPUT_ROOT,
+    REPO_ROOT,
+    VALIDATION_ROOT,
+)
 from io_utils import read_csv, write_json
 
 
@@ -28,11 +34,13 @@ def number(value):
 
 def require_audit_pass():
     validation = json.loads(
-        (OUTPUT_ROOT / "validation_summary.json").read_text(encoding="utf-8")
+        (VALIDATION_ROOT / "validation_summary.json").read_text(
+            encoding="utf-8"
+        )
     )
     reconciliation = json.loads(
         (
-            OUTPUT_ROOT / "official_result_reconciliation_summary.json"
+            VALIDATION_ROOT / "official_result_reconciliation_summary.json"
         ).read_text(encoding="utf-8")
     )
     blockers = {
@@ -166,6 +174,14 @@ def build_election(config, geometries):
     return {"election_id": config.election_id, "feature_count": len(features)}
 
 
+def record_map_build(gates):
+    path = VALIDATION_ROOT / "validation_summary.json"
+    validation = json.loads(path.read_text(encoding="utf-8"))
+    validation["map_created"] = True
+    validation["map_gate_passed"] = all(gates.values())
+    write_json(path, validation)
+
+
 def main():
     gates = require_audit_pass()
     geometries = target_geometries()
@@ -181,6 +197,7 @@ def main():
             "ancillary_weight_variable": "citizen_canadian_18over",
         },
     )
+    record_map_build(gates)
 
 
 if __name__ == "__main__":

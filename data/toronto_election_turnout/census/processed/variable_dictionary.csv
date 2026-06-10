@@ -1,0 +1,5 @@
+column_name,statcan_characteristic_id,label,source_table,universe,method
+citizen_canadian_18over,1525,Canadian citizens aged 18 and over,2021 Census Profile,Canadian citizens,Official published count; 25% sample data.
+population_total,,Total population,98-10-0023-01 / 98-10-0024-01,Total population,Official 100% Census age-table count.
+population_under18,,Population under age 18,98-10-0023-01 / 98-10-0024-01,Total population,"Published age 0-14 plus single-year ages 15, 16, and 17."
+population_18plus,,Population aged 18 years and over,98-10-0023-01 / 98-10-0024-01,Total population,Total population minus population under age 18.

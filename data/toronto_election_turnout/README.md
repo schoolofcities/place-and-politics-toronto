@@ -18,19 +18,25 @@ data/toronto_election_turnout/
   elections/
     raw/
     processed/
-      turnout/
-      candidate_details/
+      municipal_2023_mayor/
+      provincial_2025/
+      federal_2025/
+      metadata/
   census/
     raw/
       source_downloads/
     processed/
-      profile_2021/
-      geography_2021/
+      da/
+      ct/
+      ada/
+      crosswalks/
+      audits/
     reference/
       ada_2021/
       zack_taylor_ct2021/
   interpolation/
     processed/
+      intermediate/
     map/
 ```
 
@@ -43,16 +49,10 @@ polling-division turnout datasets:
 - Elections Ontario 2025 Official Return CSV.
 - Elections Canada 2025 poll-by-poll files and election-atlas geometry downloads.
 
-`elections/processed/turnout/` stores the primary turnout map datasets:
-
-- Municipal 2023 mayoral by-election.
-- Ontario provincial 2025 election.
-- Federal 2025 election.
-
-`elections/processed/candidate_details/` stores normalized candidate catalogs, sparse
-poll-candidate vote tables, and metadata describing party-total columns. The
-poll summary files in `elections/processed/turnout/` are the GIS-ready master
-tables and include poll totals, geometry, and wide party vote totals.
+`elections/processed/` is grouped by election. Each election folder contains
+`turnout/` for the GIS-ready poll summaries and `candidate_details/` for the
+candidate catalog and sparse poll-candidate vote bridge. Shared QA and schema
+metadata is stored in `elections/processed/metadata/`.
 
 The processed election rows preserve official missingness. Counts are not
 estimated or assigned to polygons unless a source supports that relationship.
@@ -69,9 +69,11 @@ See `analysis/toronto_election_turnout/elections/docs/` for election QA notes.
 - Official single-year-age and annual population estimate tables used for
   adult-population and temporal diagnostics.
 
-`census/processed/profile_2021/` stores extracted Toronto-only Census Profile
-attributes for `Canadian citizens aged 18 and over`, plus separate all-resident
-age-18+ tables and suppression/reconciliation audits.
+`census/processed/` is grouped by geography. The `da/`, `ct/`, and `ada/`
+folders each keep geometry and a canonical wide profile table together.
+Current profile variables include
+`citizen_canadian_18over` and `population_18plus`; future profile variables can
+be added as columns without creating another set of geography files.
 
 `census/reference/ada_2021/` stores the ADA files provided for variable
 discovery and lower-resolution checks.
@@ -85,11 +87,11 @@ the Zack Taylor comparison, and the source PDF.
 
 ## Interpolation Data
 
-`interpolation/processed/` stores generated CT-level estimates and validation
-outputs from `analysis/toronto_election_turnout/interpolation/`. The default
-workflow uses DA-level `citizen_canadian_18over` as the population weight,
-treats suppressed DA values as zero, and writes separate poll-to-CT and
-district-to-CT crosswalks.
+`interpolation/processed/` stores final CT-level result and candidate tables.
+Its `intermediate/` subfolder stores crosswalks, exclusions, audits,
+validation reports, and summaries. The default workflow uses DA-level
+`citizen_canadian_18over` as the population weight, treats suppressed DA
+values as zero, and writes separate poll-to-CT and district-to-CT crosswalks.
 
 `interpolation/map/` stores the three validated, compact CT GeoJSON datasets
 used by the interpolation viewer plus `map_build_summary.json`.

@@ -84,11 +84,11 @@ universe.
 Available for party/candidate interpolation:
 
 - Poll summary files under
-  `data/toronto_election_turnout/elections/processed/turnout/` contain geometry,
-  total votes, electors, turnout, valid-candidate-vote totals, and wide party
-  totals.
+  `data/toronto_election_turnout/elections/processed/<election>/turnout/`
+  contain geometry, total votes, electors, turnout, valid-candidate-vote
+  totals, and wide party totals.
 - Candidate catalogs and sparse poll-candidate vote bridges are stored under
-  `data/toronto_election_turnout/elections/processed/candidate_details/`.
+  each election's `candidate_details/` folder.
 - Federal party labels come from Elections Canada. Municipal mayoral results
   are nonpartisan. Provincial full party names are joined from Elections
   Ontario's official candidate-summary and political-interest-code reports.

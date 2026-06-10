@@ -15,9 +15,13 @@ from pathlib import Path
 REPO_ROOT = Path(__file__).resolve().parents[4]
 DATA_ROOT = REPO_ROOT / "data" / "toronto_election_turnout" / "census"
 RAW = DATA_ROOT / "raw"
-PROFILE = DATA_ROOT / "processed" / "profile_2021"
 ADA_REFERENCE = DATA_ROOT / "reference" / "ada_2021"
-OUT = DATA_ROOT / "processed" / "geography_2021"
+OUT = DATA_ROOT / "processed"
+DA_OUT = OUT / "da"
+CT_OUT = OUT / "ct"
+ADA_OUT = OUT / "ada"
+CROSSWALK_OUT = OUT / "crosswalks"
+AUDIT_OUT = OUT / "audits" / "geography"
 
 
 def run(*args):
@@ -72,11 +76,14 @@ def main():
     if not shutil.which("ogr2ogr"):
         raise RuntimeError("GDAL ogr2ogr is required to build census geography files")
 
-    OUT.mkdir(parents=True, exist_ok=True)
-    da_profile = read_csv(PROFILE / "statcan_2021_da_citizens_18plus.csv", "geo_id")
-    ct_profile = read_csv(PROFILE / "statcan_2021_ct_citizens_18plus.csv", "geo_id")
-    da_population = read_csv(PROFILE / "statcan_2021_da_population_18plus.csv", "geo_id")
-    ct_population = read_csv(PROFILE / "statcan_2021_ct_population_18plus.csv", "geo_id")
+    for directory in (DA_OUT, CT_OUT, ADA_OUT, CROSSWALK_OUT, AUDIT_OUT):
+        directory.mkdir(parents=True, exist_ok=True)
+    da_profile = read_csv(
+        DA_OUT / "statcan_2021_da_profile.csv", "geo_id"
+    )
+    ct_profile = read_csv(
+        CT_OUT / "statcan_2021_ct_profile.csv", "geo_id"
+    )
 
     ada_profile = {}
     with (ADA_REFERENCE / "toronto_ada_2021_profile.csv").open(
@@ -153,7 +160,9 @@ def main():
             crosswalk_rows.append(
                 {"da_id": da_id, "ct_id": link["ct_id"], "ada_id": link["ada_id"]}
             )
-        with (OUT / "statcan_2021_toronto_da_ct_ada_crosswalk.csv").open(
+        with (
+            CROSSWALK_OUT / "statcan_2021_toronto_da_ct_ada_crosswalk.csv"
+        ).open(
             "w", newline="", encoding="utf-8"
         ) as f:
             writer = csv.DictWriter(f, fieldnames=["da_id", "ct_id", "ada_id"])
@@ -163,20 +172,32 @@ def main():
 
         suppressed_rows = []
         for da_id, profile_row in sorted(da_profile.items()):
-            if profile_row["value_status"] != "published":
+            if profile_row["citizen_canadian_18over_status"] != "published":
                 suppressed_rows.append(
                     {
                         "da_id": da_id,
                         "ct_id": da_links[da_id]["ct_id"],
                         "ada_id": da_links[da_id]["ada_id"],
-                        "data_quality_flag": profile_row["data_quality_flag"],
-                        "tnr_sf": profile_row["tnr_sf"],
-                        "tnr_lf": profile_row["tnr_lf"],
-                        "value_status": profile_row["value_status"],
-                        "source_note": profile_row["source_note"],
+                        "data_quality_flag": profile_row[
+                            "citizen_canadian_18over_data_quality_flag"
+                        ],
+                        "tnr_sf": profile_row[
+                            "citizen_canadian_18over_tnr_short_form"
+                        ],
+                        "tnr_lf": profile_row[
+                            "citizen_canadian_18over_tnr_long_form"
+                        ],
+                        "value_status": profile_row[
+                            "citizen_canadian_18over_status"
+                        ],
+                        "source_note": profile_row[
+                            "citizen_canadian_18over_source_note"
+                        ],
                     }
                 )
-        with (OUT / "statcan_2021_toronto_da_suppressed_values.csv").open(
+        with (
+            AUDIT_OUT / "statcan_2021_toronto_da_suppressed_values.csv"
+        ).open(
             "w", newline="", encoding="utf-8"
         ) as f:
             writer = csv.DictWriter(
@@ -224,7 +245,7 @@ def main():
             else:
                 aggregate["citizens"] += value
             population_value = nullable_number(
-                da_population[da_id]["population_18plus"], integer=True
+                profile_row["population_18plus"], integer=True
             )
             if population_value is None:
                 aggregate["population_18plus_missing_count"] += 1
@@ -237,7 +258,6 @@ def main():
             if da_id not in da_profile:
                 return False
             profile_row = da_profile[da_id]
-            population_row = da_population[da_id]
             p.update(
                 {
                     "geo_level": "DA",
@@ -247,18 +267,30 @@ def main():
                     "citizen_canadian_18over": nullable_number(
                         profile_row["citizen_canadian_18over"], integer=True
                     ),
-                    "rate_total": nullable_number(profile_row["rate_total"]),
-                    "data_quality_flag": profile_row["data_quality_flag"],
-                    "value_status": profile_row["value_status"],
-                    "source_note": profile_row["source_note"],
-                    "population_18plus": nullable_number(
-                        population_row["population_18plus"], integer=True
+                    "rate_total": nullable_number(
+                        profile_row["citizen_canadian_18over_rate"]
                     ),
-                    "population_18plus_value_status": population_row["value_status"],
-                    "population_18plus_source_symbol": population_row["source_symbol"],
+                    "data_quality_flag": profile_row[
+                        "citizen_canadian_18over_data_quality_flag"
+                    ],
+                    "value_status": profile_row[
+                        "citizen_canadian_18over_status"
+                    ],
+                    "source_note": profile_row[
+                        "citizen_canadian_18over_source_note"
+                    ],
+                    "population_18plus": nullable_number(
+                        profile_row["population_18plus"], integer=True
+                    ),
+                    "population_18plus_value_status": profile_row[
+                        "population_18plus_status"
+                    ],
+                    "population_18plus_source_symbol": profile_row[
+                        "population_18plus_source_symbol"
+                    ],
                     "population_18plus_source_note": (
                         "Official 100% Census age-table value."
-                        if population_row["value_status"] == "published"
+                        if profile_row["population_18plus_status"] == "published"
                         else "Suppressed by Statistics Canada to meet the "
                         "confidentiality requirements of the Statistics Act."
                     ),
@@ -272,7 +304,6 @@ def main():
             if ct_id not in ct_profile:
                 return False
             profile_row = ct_profile[ct_id]
-            population_row = ct_population[ct_id]
             linked_to_toronto_da = ct_id in linked_ct_ids
             profile_value = nullable_number(
                 profile_row["citizen_canadian_18over"], integer=True
@@ -287,15 +318,19 @@ def main():
                         profile_value if linked_to_toronto_da else None
                     ),
                     "profile_citizen_canadian_18over": profile_value,
-                    "rate_total": nullable_number(profile_row["rate_total"]),
-                    "data_quality_flag": profile_row["data_quality_flag"],
+                    "rate_total": nullable_number(
+                        profile_row["citizen_canadian_18over_rate"]
+                    ),
+                    "data_quality_flag": profile_row[
+                        "citizen_canadian_18over_data_quality_flag"
+                    ],
                     "value_status": (
-                        profile_row["value_status"]
+                        profile_row["citizen_canadian_18over_status"]
                         if linked_to_toronto_da
                         else "boundary_intersection_not_toronto_da_universe"
                     ),
                     "source_note": (
-                        profile_row["source_note"]
+                        profile_row["citizen_canadian_18over_source_note"]
                         if linked_to_toronto_da
                         else "CT geometry intersects the Toronto boundary, but no "
                         "verified Toronto DA maps to this CT. Its full-CT profile "
@@ -303,24 +338,26 @@ def main():
                     ),
                     "population_18plus": (
                         nullable_number(
-                            population_row["population_18plus"], integer=True
+                            profile_row["population_18plus"], integer=True
                         )
                         if linked_to_toronto_da
                         else None
                     ),
                     "profile_population_18plus": nullable_number(
-                        population_row["population_18plus"], integer=True
+                        profile_row["population_18plus"], integer=True
                     ),
                     "population_18plus_value_status": (
-                        population_row["value_status"]
+                        profile_row["population_18plus_status"]
                         if linked_to_toronto_da
                         else "boundary_intersection_not_toronto_da_universe"
                     ),
-                    "population_18plus_source_symbol": population_row["source_symbol"],
+                    "population_18plus_source_symbol": profile_row[
+                        "population_18plus_source_symbol"
+                    ],
                     "population_18plus_source_note": (
                         "Official 100% Census age-table value."
                         if linked_to_toronto_da
-                        and population_row["value_status"] == "published"
+                        and profile_row["population_18plus_status"] == "published"
                         else "CT is outside the comparable Toronto DA universe."
                         if not linked_to_toronto_da
                         else "Suppressed by Statistics Canada to meet the "
@@ -378,17 +415,17 @@ def main():
         outputs = [
             (
                 raw_da,
-                OUT / "statcan_2021_toronto_da.geojson",
+                DA_OUT / "statcan_2021_toronto_da.geojson",
                 update_da,
             ),
             (
                 raw_ct,
-                OUT / "statcan_2021_toronto_ct.geojson",
+                CT_OUT / "statcan_2021_toronto_ct.geojson",
                 update_ct,
             ),
             (
                 raw_ada,
-                OUT / "statcan_2021_toronto_ada.geojson",
+                ADA_OUT / "statcan_2021_toronto_ada.geojson",
                 update_ada,
             ),
         ]
@@ -400,6 +437,7 @@ def main():
                 feature for feature in geojson["features"] if updater(feature)
             ]
             output_counts[target.stem] = len(geojson["features"])
+            target.parent.mkdir(parents=True, exist_ok=True)
             with target.open("w", encoding="utf-8") as f:
                 json.dump(geojson, f, ensure_ascii=False, separators=(",", ":"))
 
@@ -412,16 +450,17 @@ def main():
         "boundary_only_ct_count": len(ct_profile) - len(linked_ct_ids),
         "ada_count": len(ada_profile),
         "da_suppressed_confidentiality_count": sum(
-            row["value_status"] == "suppressed_confidentiality"
+            row["citizen_canadian_18over_status"]
+            == "suppressed_confidentiality"
             for row in da_profile.values()
         ),
         "da_population_18plus_suppressed_count": sum(
-            row["value_status"] == "suppressed_confidentiality"
-            for row in da_population.values()
+            row["population_18plus_status"] == "suppressed_confidentiality"
+            for row in da_profile.values()
         ),
         "ct_population_18plus_suppressed_count": sum(
-            row["value_status"] == "suppressed_confidentiality"
-            for ct_id, row in ct_population.items()
+            row["population_18plus_status"] == "suppressed_confidentiality"
+            for ct_id, row in ct_profile.items()
             if ct_id in linked_ct_ids
         ),
         "da_to_ada_relationship": (
@@ -436,7 +475,7 @@ def main():
         / len(da_aggregates),
         "outputs": output_counts,
     }
-    with (OUT / "statcan_2021_toronto_geography_audit.json").open(
+    with (AUDIT_OUT / "statcan_2021_toronto_geography_audit.json").open(
         "w", encoding="utf-8"
     ) as f:
         json.dump(audit, f, indent=2)

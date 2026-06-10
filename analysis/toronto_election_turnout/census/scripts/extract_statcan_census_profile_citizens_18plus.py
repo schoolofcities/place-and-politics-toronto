@@ -21,7 +21,16 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[4]
 CENSUS_DIR = ROOT / "data" / "toronto_election_turnout" / "census" / "raw"
-OUTPUT_DIR = ROOT / "data" / "toronto_election_turnout" / "census" / "processed" / "profile_2021"
+PROCESSED_DIR = (
+    ROOT
+    / "data"
+    / "toronto_election_turnout"
+    / "census"
+    / "processed"
+)
+DA_OUTPUT_DIR = PROCESSED_DIR / "da" / "intermediate"
+CT_OUTPUT_DIR = PROCESSED_DIR / "ct" / "intermediate"
+AUDIT_DIR = PROCESSED_DIR / "audits" / "profile_extraction"
 
 DA_ZIP = Path("/private/tmp/statcan_da_ontario_ci.zip")
 CT_ZIP = Path("/private/tmp/statcan_ct_ci.zip")
@@ -148,9 +157,10 @@ def main() -> None:
     da_rows = extract(DA_ZIP, da_dguids, "DA")
     ct_rows = extract(CT_ZIP, ct_dguids, "CT")
 
-    OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
-    da_path = OUTPUT_DIR / "statcan_2021_da_citizens_18plus.csv"
-    ct_path = OUTPUT_DIR / "statcan_2021_ct_citizens_18plus.csv"
+    DA_OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
+    CT_OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
+    da_path = DA_OUTPUT_DIR / "statcan_2021_da_citizens_18plus.csv"
+    ct_path = CT_OUTPUT_DIR / "statcan_2021_ct_citizens_18plus.csv"
     write_csv(da_path, da_rows)
     write_csv(ct_path, ct_rows)
 
@@ -187,7 +197,8 @@ def main() -> None:
             "Blank values with a fourth data-quality-flag digit of 9 are explicitly suppressed by Statistics Canada for long-form confidentiality; they are not survey non-response or zero population.",
         ],
     }
-    (OUTPUT_DIR / "statcan_2021_citizens_18plus_extraction_metadata.json").write_text(
+    AUDIT_DIR.mkdir(parents=True, exist_ok=True)
+    (AUDIT_DIR / "statcan_2021_citizens_18plus_extraction_metadata.json").write_text(
         json.dumps(metadata, indent=2), encoding="utf-8"
     )
     print(json.dumps(metadata, indent=2))

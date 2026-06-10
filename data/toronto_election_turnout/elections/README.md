@@ -10,8 +10,16 @@ elections/
   raw/
     source_downloads/
   processed/
-    turnout/
-    candidate_details/
+    municipal_2023_mayor/
+      turnout/
+      candidate_details/
+    provincial_2025/
+      turnout/
+      candidate_details/
+    federal_2025/
+      turnout/
+      candidate_details/
+    metadata/
 ```
 
 ## Raw Sources
@@ -39,18 +47,14 @@ Files directly under `raw/` are source inputs used by the election builders:
 
 ## Processed Outputs
 
-`processed/turnout/` contains the optimized turnout CSV/GeoJSON files used by
-the map viewer. Election level and year are encoded in filenames, not repeated
-as columns.
+Each `processed/<election>/turnout/` folder contains optimized turnout
+CSV/GeoJSON files used by the map viewer. The matching
+`candidate_details/` folder contains normalized candidate catalogs and sparse
+poll-candidate vote tables. These join through `poll_id` and `candidate_id`.
 
-`processed/candidate_details/` contains normalized candidate catalogs and sparse
-poll-candidate vote tables. These join to the poll summary files through
-`poll_id`; candidate identity and party affiliation join through
-`candidate_id`.
-
-The poll summary CSV/GeoJSON files in `processed/turnout/` also contain wide
-party vote totals for convenient GIS and interpolation analysis. See
-`processed/candidate_details/README.md` for the data model and join rules.
+The poll summaries also contain wide party vote totals for convenient GIS and
+interpolation analysis. Shared QA and schema metadata is in
+`processed/metadata/`; see `processed/README.md` for file roles.
 
 ## Official Source Pages
 

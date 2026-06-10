@@ -7,17 +7,19 @@ This module allocates Toronto election results from polling records to the 585
 
 ```text
 interpolation/
-  config.py
-  io_utils.py
-  spatial.py
-  workflow.py
-  run_interpolation.py
-  audit_geographic_temporal_coverage.py
-  audit_official_results.py
-  build_map_data.py
+  scripts/
+    config.py
+    io_utils.py
+    spatial.py
+    workflow.py
+    run_interpolation.py
+    audit_geographic_temporal_coverage.py
+    audit_official_results.py
+    build_map_data.py
+  docs/
+    MUNICIPAL_PARTY_AFFILIATION_AUDIT.md
   viewer/
   README.md
-  MUNICIPAL_PARTY_AFFILIATION_AUDIT.md
 ```
 
 ## Method
@@ -82,23 +84,22 @@ source group.
 The script requires Python 3 with GDAL's `osgeo` bindings:
 
 ```bash
-cd analysis/toronto_election_turnout/interpolation
-python3 run_interpolation.py
+cd analysis/toronto_election_turnout
+python3 interpolation/scripts/run_interpolation.py
 ```
 
 Additional geographic and temporal coverage diagnostics can be regenerated
 with:
 
 ```bash
-cd analysis/toronto_election_turnout/interpolation
-python3 audit_geographic_temporal_coverage.py
+python3 interpolation/scripts/audit_geographic_temporal_coverage.py
 ```
 
 Official party, candidate, and turnout-reference reconciliation can be
 regenerated with the project data runtime:
 
 ```bash
-python3 audit_official_results.py
+python3 interpolation/scripts/audit_official_results.py
 ```
 
 After the audit gates pass, build and run the CT Leaflet map with:
@@ -119,37 +120,24 @@ data/toronto_election_turnout/interpolation/processed/
 
 ## Outputs
 
-Each election receives:
+Final analysis-ready files remain directly under `processed/`:
 
-- `*_poll_to_ct_crosswalk.csv`
-- `*_district_to_ct_crosswalk.csv`
 - `*_ct_estimated_results.csv`
 - `*_ct_candidate_estimated_votes.csv`
-- `*_excluded_unallocated.csv`
-- `*_no_geometry_allocation_audit.csv`
-- `*_turnout_comparison.csv`
-- `*_audit.csv`
-- `*_validation.csv`
-- `*_summary.json`
 
-Combined files include:
+Intermediate files follow the algorithm stages:
 
-- `AUDIT_FINDINGS.md`
-- `census_input_audit.json`
-- `suppressed_da_audit.csv`
-- `interpolation_audit.csv`
-- `excluded_unallocated_report.csv`
-- `no_geometry_allocation_audit.csv`
-- `turnout_comparison.csv`
-- `validation_report.csv`
-- `validation_summary.json`
-- `geographic_coverage_audit.csv`
-- `temporal_population_proxy_audit.csv`
-- `geographic_temporal_audit_summary.json`
-- `official_party_vote_reconciliation.csv`
-- `official_candidate_vote_reconciliation.csv`
-- `official_result_reconciliation_summary.json`
-- `turnout_reference_audit.csv`
+```text
+processed/intermediate/
+  01_input_audit/
+  02_spatial_crosswalks/
+  03_allocation_audit/
+  04_validation/
+  05_context_audit/
+```
+
+See `processed/intermediate/README.md` for the files and variables in each
+stage.
 
 Map-ready files are written under:
 
@@ -167,7 +155,8 @@ total votes, electors, valid candidate votes, every party column, and every
 candidate represented in the sparse bridge. It also validates each individual
 vote-bearing source poll/reporting row after summing its CT allocations.
 
-`validation_summary.json` preserves the interpolation runner's original
+`processed/intermediate/04_validation/validation_summary.json` preserves the
+interpolation runner's original
 turnout-proximity diagnostic and therefore currently reports its older
 `map_gate_passed` value as false. Turnout proximity is not a vote-preservation
 test because the published rates may use different geographies and registered-
@@ -265,5 +254,6 @@ Turnout-reference proximity is displayed with its geography and source status;
 it is not used as a substitute for vote-integrity validation.
 
 The municipal party-affiliation decision and official sources are documented
-in `MUNICIPAL_PARTY_AFFILIATION_AUDIT.md`. Historical federal/provincial party
-service is not converted into an official Toronto mayoral ballot affiliation.
+in `docs/MUNICIPAL_PARTY_AFFILIATION_AUDIT.md`. Historical
+federal/provincial party service is not converted into an official Toronto
+mayoral ballot affiliation.

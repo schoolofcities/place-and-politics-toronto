@@ -6,19 +6,22 @@ from dataclasses import dataclass
 from pathlib import Path
 
 
-REPO_ROOT = Path(__file__).resolve().parents[3]
+REPO_ROOT = Path(__file__).resolve().parents[4]
 ANALYSIS_ROOT = REPO_ROOT / "analysis" / "toronto_election_turnout"
 DATA_ROOT = REPO_ROOT / "data" / "toronto_election_turnout"
 
 CENSUS_ROOT = DATA_ROOT / "census" / "processed"
-CENSUS_GEOGRAPHY = CENSUS_ROOT / "geography_2021"
 ELECTION_ROOT = DATA_ROOT / "elections" / "processed"
-TURNOUT_ROOT = ELECTION_ROOT / "turnout"
-CANDIDATE_ROOT = ELECTION_ROOT / "candidate_details"
 OUTPUT_ROOT = DATA_ROOT / "interpolation" / "processed"
+INTERMEDIATE_ROOT = OUTPUT_ROOT / "intermediate"
+INPUT_AUDIT_ROOT = INTERMEDIATE_ROOT / "01_input_audit"
+CROSSWALK_ROOT = INTERMEDIATE_ROOT / "02_spatial_crosswalks"
+ALLOCATION_AUDIT_ROOT = INTERMEDIATE_ROOT / "03_allocation_audit"
+VALIDATION_ROOT = INTERMEDIATE_ROOT / "04_validation"
+CONTEXT_AUDIT_ROOT = INTERMEDIATE_ROOT / "05_context_audit"
 
-CT_PATH = CENSUS_GEOGRAPHY / "statcan_2021_toronto_ct.geojson"
-DA_PATH = CENSUS_GEOGRAPHY / "statcan_2021_toronto_da.geojson"
+CT_PATH = CENSUS_ROOT / "ct" / "statcan_2021_toronto_ct.geojson"
+DA_PATH = CENSUS_ROOT / "da" / "statcan_2021_toronto_da.geojson"
 ANCILLARY_WEIGHT_FIELD = "citizen_canadian_18over"
 WORKING_EPSG = 3347
 
@@ -49,11 +52,17 @@ class ElectionConfig:
 ELECTIONS = (
     ElectionConfig(
         election_id="municipal_2023_mayor",
-        poll_csv=TURNOUT_ROOT
+        poll_csv=ELECTION_ROOT
+        / "municipal_2023_mayor"
+        / "turnout"
         / "toronto_municipal_2023_mayor_turnout_subdivisions.csv",
-        candidate_csv=CANDIDATE_ROOT
+        candidate_csv=ELECTION_ROOT
+        / "municipal_2023_mayor"
+        / "candidate_details"
         / "toronto_municipal_2023_mayor_candidates.csv",
-        candidate_votes_csv=CANDIDATE_ROOT
+        candidate_votes_csv=ELECTION_ROOT
+        / "municipal_2023_mayor"
+        / "candidate_details"
         / "toronto_municipal_2023_mayor_poll_candidate_votes.csv",
         district_geojson=REPO_ROOT / "src" / "data" / "wards.geo.json",
         district_id_field="num",
@@ -65,11 +74,17 @@ ELECTIONS = (
     ),
     ElectionConfig(
         election_id="provincial_2025",
-        poll_csv=TURNOUT_ROOT
+        poll_csv=ELECTION_ROOT
+        / "provincial_2025"
+        / "turnout"
         / "toronto_provincial_2025_turnout_poll_divisions.csv",
-        candidate_csv=CANDIDATE_ROOT
+        candidate_csv=ELECTION_ROOT
+        / "provincial_2025"
+        / "candidate_details"
         / "toronto_provincial_2025_candidates.csv",
-        candidate_votes_csv=CANDIDATE_ROOT
+        candidate_votes_csv=ELECTION_ROOT
+        / "provincial_2025"
+        / "candidate_details"
         / "toronto_provincial_2025_poll_candidate_votes.csv",
         district_geojson=DATA_ROOT
         / "elections"
@@ -84,10 +99,17 @@ ELECTIONS = (
     ),
     ElectionConfig(
         election_id="federal_2025",
-        poll_csv=TURNOUT_ROOT
+        poll_csv=ELECTION_ROOT
+        / "federal_2025"
+        / "turnout"
         / "toronto_federal_2025_turnout_poll_divisions.csv",
-        candidate_csv=CANDIDATE_ROOT / "toronto_federal_2025_candidates.csv",
-        candidate_votes_csv=CANDIDATE_ROOT
+        candidate_csv=ELECTION_ROOT
+        / "federal_2025"
+        / "candidate_details"
+        / "toronto_federal_2025_candidates.csv",
+        candidate_votes_csv=ELECTION_ROOT
+        / "federal_2025"
+        / "candidate_details"
         / "toronto_federal_2025_poll_candidate_votes.csv",
         district_geojson=DATA_ROOT
         / "elections"

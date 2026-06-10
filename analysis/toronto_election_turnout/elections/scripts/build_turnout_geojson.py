@@ -11,7 +11,8 @@ import pandas as pd
 ANALYSIS_ROOT = Path(__file__).resolve().parents[2]
 REPO_ROOT = Path(__file__).resolve().parents[4]
 DATA_ROOT = REPO_ROOT / "data" / "toronto_election_turnout" / "elections"
-OUT = DATA_ROOT / "processed" / "turnout"
+PROCESSED = DATA_ROOT / "processed"
+METADATA_OUT = PROCESSED / "metadata"
 RAW = DATA_ROOT / "raw"
 SOURCE_DOWNLOADS = RAW / "source_downloads"
 
@@ -70,13 +71,13 @@ def load_geojson(path):
 
 
 def write_geojson(path, features):
-    OUT.mkdir(exist_ok=True)
+    path.parent.mkdir(parents=True, exist_ok=True)
     with open(path, "w", encoding="utf-8") as f:
         json.dump({"type": "FeatureCollection", "features": features}, f, ensure_ascii=False)
 
 
 def write_csv(path, features):
-    OUT.mkdir(exist_ok=True)
+    path.parent.mkdir(parents=True, exist_ok=True)
     fieldnames = [
         "electoral_district_number",
         "polling_division_number",
@@ -122,7 +123,7 @@ def district_rows(features):
 
 
 def write_district_lookup(path, rows):
-    OUT.mkdir(exist_ok=True)
+    path.parent.mkdir(parents=True, exist_ok=True)
     if path.suffix == ".json":
         with open(path, "w", encoding="utf-8") as f:
             json.dump(rows, f, ensure_ascii=False)
@@ -137,12 +138,13 @@ def write_district_lookup(path, rows):
 
 
 def write_dataset(stem, features):
+    output = turnout_output(stem)
     rows = district_rows(features)
     lean_features = optimized_features(features)
-    write_geojson(OUT / f"{stem}.geojson", lean_features)
-    write_csv(OUT / f"{stem}.csv", lean_features)
-    write_district_lookup(OUT / f"{stem}_districts.csv", rows)
-    write_district_lookup(OUT / f"{stem}_districts.json", rows)
+    write_geojson(output / f"{stem}.geojson", lean_features)
+    write_csv(output / f"{stem}.csv", lean_features)
+    write_district_lookup(output / f"{stem}_districts.csv", rows)
+    write_district_lookup(output / f"{stem}_districts.json", rows)
 
 
 def feature(properties, geometry):
@@ -734,10 +736,23 @@ def main():
         "provincial_2025": build_provincial(),
         "federal_2025": build_federal(),
     }
-    with open(OUT / "qa_summary.json", "w", encoding="utf-8") as f:
+    METADATA_OUT.mkdir(parents=True, exist_ok=True)
+    with open(METADATA_OUT / "qa_summary.json", "w", encoding="utf-8") as f:
         json.dump(summary, f, indent=2, ensure_ascii=False)
     print(json.dumps(summary, indent=2, ensure_ascii=False))
 
 
 if __name__ == "__main__":
     main()
+def election_id_for_stem(stem):
+    if "municipal_2023" in stem:
+        return "municipal_2023_mayor"
+    if "provincial_2025" in stem:
+        return "provincial_2025"
+    if "federal_2025" in stem:
+        return "federal_2025"
+    raise ValueError(f"Unknown election output stem: {stem}")
+
+
+def turnout_output(stem):
+    return PROCESSED / election_id_for_stem(stem) / "turnout"

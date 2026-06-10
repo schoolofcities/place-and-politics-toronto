@@ -19,6 +19,8 @@ Rebuild from `analysis/toronto_election_turnout/`:
 npm run build:interpolation-map
 ```
 
-The build is blocked unless vote preservation, no-geometry allocation,
-vote-bearing exclusion, and official party/candidate reconciliation checks
-pass. `map_build_summary.json` records the gate results and feature counts.
+The build reads final CT tables from `../processed/` and validation summaries
+from `../processed/intermediate/04_validation/`. It is blocked unless vote
+preservation, no-geometry allocation, vote-bearing exclusion, and official
+party/candidate reconciliation checks pass. `map_build_summary.json` records
+the gate results and feature counts.

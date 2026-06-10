@@ -17,7 +17,14 @@ census/
 - `scripts/extract_statcan_census_profile_citizens_18plus.py`
   - Extracts characteristic `1525`, `Canadian citizens aged 18 and over`, from
     official Statistics Canada Census Profile bulk CSV downloads.
-  - Writes to `data/toronto_election_turnout/census/processed/profile_2021/`.
+  - Writes reproducible narrow source extracts under
+    `processed/da/intermediate/` and `processed/ct/intermediate/`.
+
+- `scripts/build_census_profile_tables.py`
+  - Combines the variable-specific extracts into one canonical wide table per
+    geography: DA, CT, and ADA.
+  - Preserves variable-specific status and quality fields and writes a variable
+    dictionary beside the profile tables.
 
 - `scripts/convert_zack_taylor_stata.py`
   - Converts the Zack Taylor-provided CT-apportioned Stata dataset to CSV.
@@ -26,7 +33,8 @@ census/
 - `scripts/build_census_geography_viewer_data.py`
   - Builds the Toronto `DA -> CT -> ADA` crosswalk and map-ready GeoJSON.
   - Requires the GDAL `ogr2ogr` command.
-  - Writes to `data/toronto_election_turnout/census/processed/geography_2021/`.
+  - Writes geometry into the matching `processed/da/`, `ct/`, and `ada/`
+    folders.
 
 - `scripts/audit_suppressed_da_ct_residuals.py`
   - Calculates CT-minus-other-DA residual diagnostics for suppressed DAs.
@@ -34,6 +42,7 @@ census/
 
 - `scripts/extract_statcan_population_18plus.py`
   - Extracts all persons aged 18+ from official single-year-age 100% Census data.
+  - Writes narrow source extracts used by the wide profile-table builder.
 
 - `scripts/audit_census_adult_population.py`
   - Reconciles adult-population and adult-citizen totals across DA, CT, ADA,
@@ -63,5 +72,5 @@ npm run start:census
 
 Open `http://127.0.0.1:5174`.
 
-The viewer reads the map-ready DA, CT, and ADA GeoJSON under
-`data/toronto_election_turnout/census/processed/geography_2021/`.
+The viewer reads the map-ready GeoJSON under the `da/`, `ct/`, and `ada/`
+folders of `data/toronto_election_turnout/census/processed/`.

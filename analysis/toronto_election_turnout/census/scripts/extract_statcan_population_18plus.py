@@ -13,12 +13,15 @@ REPO_ROOT = Path(__file__).resolve().parents[4]
 DATA_ROOT = REPO_ROOT / "data" / "toronto_election_turnout" / "census"
 DA_SOURCE_ZIP = DATA_ROOT / "raw" / "source_downloads" / "statcan_2021_age_single_year_98100023-eng.zip"
 CT_SOURCE_ZIP = DATA_ROOT / "raw" / "source_downloads" / "statcan_2021_ct_age_single_year_98100024-eng.zip"
-PROFILE = DATA_ROOT / "processed" / "profile_2021"
-DA_SOURCE = PROFILE / "statcan_2021_da_citizens_18plus.csv"
-CT_SOURCE = PROFILE / "statcan_2021_ct_citizens_18plus.csv"
-DA_OUTPUT = PROFILE / "statcan_2021_da_population_18plus.csv"
-CT_OUTPUT = PROFILE / "statcan_2021_ct_population_18plus.csv"
-METADATA = PROFILE / "statcan_2021_population_18plus_extraction_metadata.json"
+PROCESSED = DATA_ROOT / "processed"
+DA_INTERMEDIATE = PROCESSED / "da" / "intermediate"
+CT_INTERMEDIATE = PROCESSED / "ct" / "intermediate"
+AUDITS = PROCESSED / "audits" / "profile_extraction"
+DA_SOURCE = DA_INTERMEDIATE / "statcan_2021_da_citizens_18plus.csv"
+CT_SOURCE = CT_INTERMEDIATE / "statcan_2021_ct_citizens_18plus.csv"
+DA_OUTPUT = DA_INTERMEDIATE / "statcan_2021_da_population_18plus.csv"
+CT_OUTPUT = CT_INTERMEDIATE / "statcan_2021_ct_population_18plus.csv"
+METADATA = AUDITS / "statcan_2021_population_18plus_extraction_metadata.json"
 TORONTO_CSD_DGUID = "2021A00053520005"
 
 
@@ -130,6 +133,9 @@ def write_rows(path: Path, rows: list[dict[str, object]]) -> None:
 
 
 def main() -> None:
+    DA_INTERMEDIATE.mkdir(parents=True, exist_ok=True)
+    CT_INTERMEDIATE.mkdir(parents=True, exist_ok=True)
+    AUDITS.mkdir(parents=True, exist_ok=True)
     da_rows = read_rows(DA_SOURCE)
     ct_rows = read_rows(CT_SOURCE)
     da_values = extract_values(

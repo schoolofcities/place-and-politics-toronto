@@ -7,8 +7,12 @@ from collections import defaultdict
 from osgeo import ogr
 
 from config import (
+    ALLOCATION_AUDIT_ROOT,
     ANCILLARY_WEIGHT_FIELD,
+    CONTEXT_AUDIT_ROOT,
+    CROSSWALK_ROOT,
     OUTPUT_ROOT,
+    VALIDATION_ROOT,
     WORKING_EPSG,
 )
 from io_utils import number, read_csv, write_csv, write_json
@@ -745,19 +749,37 @@ def run_election(config, cts, das):
         ]
     )
 
-    prefix = OUTPUT_ROOT / config.election_id
-    write_csv(prefix.with_name(prefix.name + "_poll_to_ct_crosswalk.csv"), poll_crosswalk)
+    final_prefix = OUTPUT_ROOT / config.election_id
+    crosswalk_prefix = CROSSWALK_ROOT / config.election_id
+    allocation_prefix = ALLOCATION_AUDIT_ROOT / config.election_id
+    validation_prefix = VALIDATION_ROOT / config.election_id
+    context_prefix = CONTEXT_AUDIT_ROOT / config.election_id
     write_csv(
-        prefix.with_name(prefix.name + "_district_to_ct_crosswalk.csv"),
+        crosswalk_prefix.with_name(
+            crosswalk_prefix.name + "_poll_to_ct_crosswalk.csv"
+        ),
+        poll_crosswalk,
+    )
+    write_csv(
+        crosswalk_prefix.with_name(
+            crosswalk_prefix.name + "_district_to_ct_crosswalk.csv"
+        ),
         district_crosswalk,
     )
-    write_csv(prefix.with_name(prefix.name + "_ct_estimated_results.csv"), ct_output)
     write_csv(
-        prefix.with_name(prefix.name + "_ct_candidate_estimated_votes.csv"),
+        final_prefix.with_name(final_prefix.name + "_ct_estimated_results.csv"),
+        ct_output,
+    )
+    write_csv(
+        final_prefix.with_name(
+            final_prefix.name + "_ct_candidate_estimated_votes.csv"
+        ),
         candidate_output,
     )
     write_csv(
-        prefix.with_name(prefix.name + "_excluded_unallocated.csv"),
+        allocation_prefix.with_name(
+            allocation_prefix.name + "_excluded_unallocated.csv"
+        ),
         exclusions,
         fieldnames=[
             "election_id",
@@ -770,12 +792,22 @@ def run_election(config, cts, das):
             "missing_votes_excluded_flag",
         ],
     )
-    write_csv(prefix.with_name(prefix.name + "_validation.csv"), validation)
     write_csv(
-        prefix.with_name(prefix.name + "_no_geometry_allocation_audit.csv"),
+        validation_prefix.with_name(
+            validation_prefix.name + "_validation.csv"
+        ),
+        validation,
+    )
+    write_csv(
+        allocation_prefix.with_name(
+            allocation_prefix.name + "_no_geometry_allocation_audit.csv"
+        ),
         no_geometry_audit,
     )
-    write_csv(prefix.with_name(prefix.name + "_audit.csv"), audit_rows)
+    write_csv(
+        allocation_prefix.with_name(allocation_prefix.name + "_audit.csv"),
+        audit_rows,
+    )
 
     failed_primary = [
         row
@@ -833,7 +865,9 @@ def run_election(config, cts, das):
         ),
     }
     write_csv(
-        prefix.with_name(prefix.name + "_turnout_comparison.csv"),
+        context_prefix.with_name(
+            context_prefix.name + "_turnout_comparison.csv"
+        ),
         [turnout_comparison],
     )
     summary = {
@@ -862,7 +896,10 @@ def run_election(config, cts, das):
             ]
         ),
     }
-    write_json(prefix.with_name(prefix.name + "_summary.json"), summary)
+    write_json(
+        validation_prefix.with_name(validation_prefix.name + "_summary.json"),
+        summary,
+    )
     return {
         "summary": summary,
         "audit": audit_rows,

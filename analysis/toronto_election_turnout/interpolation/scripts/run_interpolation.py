@@ -6,11 +6,16 @@ from __future__ import annotations
 import sys
 
 from config import (
+    ALLOCATION_AUDIT_ROOT,
     ANCILLARY_WEIGHT_FIELD,
+    CONTEXT_AUDIT_ROOT,
     CT_PATH,
     DA_PATH,
     ELECTIONS,
+    INPUT_AUDIT_ROOT,
+    INTERMEDIATE_ROOT,
     OUTPUT_ROOT,
+    VALIDATION_ROOT,
 )
 from io_utils import write_csv, write_json
 from spatial import load_census
@@ -19,11 +24,12 @@ from workflow import run_election
 
 def main():
     OUTPUT_ROOT.mkdir(parents=True, exist_ok=True)
+    INTERMEDIATE_ROOT.mkdir(parents=True, exist_ok=True)
     cts, das, suppressed_rows = load_census(CT_PATH, DA_PATH)
     if len(cts) != 585:
         raise ValueError(f"Expected 585 Toronto CT polygons, found {len(cts)}")
 
-    write_csv(OUTPUT_ROOT / "suppressed_da_audit.csv", suppressed_rows)
+    write_csv(INPUT_AUDIT_ROOT / "suppressed_da_audit.csv", suppressed_rows)
     census_audit = {
         "target_ct_count": len(cts),
         "da_count": len(das),
@@ -32,7 +38,7 @@ def main():
         "ancillary_weight_variable": ANCILLARY_WEIGHT_FIELD,
         "target_universe": "CT polygons with contains_toronto_da = true",
     }
-    write_json(OUTPUT_ROOT / "census_input_audit.json", census_audit)
+    write_json(INPUT_AUDIT_ROOT / "census_input_audit.json", census_audit)
 
     results = []
     for config in ELECTIONS:
@@ -62,17 +68,21 @@ def main():
     turnout_comparison = [
         result["turnout_comparison"] for result in results
     ]
-    write_csv(OUTPUT_ROOT / "interpolation_audit.csv", combined_audit)
-    write_csv(OUTPUT_ROOT / "validation_report.csv", combined_validation)
     write_csv(
-        OUTPUT_ROOT / "excluded_unallocated_report.csv", combined_exclusions
+        ALLOCATION_AUDIT_ROOT / "interpolation_audit.csv",
+        combined_audit,
+    )
+    write_csv(VALIDATION_ROOT / "validation_report.csv", combined_validation)
+    write_csv(
+        ALLOCATION_AUDIT_ROOT / "excluded_unallocated_report.csv",
+        combined_exclusions,
     )
     write_csv(
-        OUTPUT_ROOT / "no_geometry_allocation_audit.csv",
+        ALLOCATION_AUDIT_ROOT / "no_geometry_allocation_audit.csv",
         combined_no_geometry_audit,
     )
     write_csv(
-        OUTPUT_ROOT / "turnout_comparison.csv",
+        CONTEXT_AUDIT_ROOT / "turnout_comparison.csv",
         turnout_comparison,
     )
 
@@ -115,7 +125,7 @@ def main():
         "map_gate_passed": map_gate_passed,
         "map_created": False,
     }
-    write_json(OUTPUT_ROOT / "validation_summary.json", final_summary)
+    write_json(VALIDATION_ROOT / "validation_summary.json", final_summary)
     if primary_failures:
         print(
             f"Primary vote preservation failed in {len(primary_failures)} checks.",

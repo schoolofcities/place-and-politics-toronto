@@ -23,7 +23,7 @@ REPO_ROOT = Path(__file__).resolve().parents[4]
 DATA_ROOT = REPO_ROOT / "data" / "toronto_election_turnout" / "elections"
 RAW = DATA_ROOT / "raw"
 PROCESSED = DATA_ROOT / "processed"
-OUT = PROCESSED / "candidate_details"
+METADATA_OUT = PROCESSED / "metadata"
 
 FEDERAL_CODES = [
     35007, 35022, 35023, 35024, 35026, 35029, 35030, 35031, 35041, 35092,
@@ -53,7 +53,7 @@ def clean_text(value):
 
 
 def load_turnout_context(stem):
-    path = PROCESSED / "turnout" / f"{stem}.csv"
+    path = election_output(election_id_for_stem(stem), "turnout") / f"{stem}.csv"
     df = pd.read_csv(
         path,
         dtype={"electoral_district_number": str, "polling_division_number": str},
@@ -178,8 +178,9 @@ def poll_candidate_aggregates(election_id, rows):
 
 
 def enrich_poll_outputs(election_id, stem, candidate_rows):
-    csv_path = PROCESSED / "turnout" / f"{stem}.csv"
-    geojson_path = PROCESSED / "turnout" / f"{stem}.geojson"
+    turnout = election_output(election_id, "turnout")
+    csv_path = turnout / f"{stem}.csv"
+    geojson_path = turnout / f"{stem}.geojson"
     columns, aggregates = poll_candidate_aggregates(election_id, candidate_rows)
     party_fields = list(columns.values())
 
@@ -494,7 +495,7 @@ def federal_rows():
 
 
 def main():
-    OUT.mkdir(parents=True, exist_ok=True)
+    METADATA_OUT.mkdir(parents=True, exist_ok=True)
     configs = [
         {
             "election_id": "municipal_2023_mayor",
@@ -524,13 +525,16 @@ def main():
 
     metadata = {}
     for config in configs:
+        candidate_output = election_output(
+            config["election_id"], "candidate_details"
+        )
         candidate_rows, vote_rows = normalized_candidate_tables(
             config["election_id"],
             config["rows"],
             citywide_candidates=config["citywide_candidates"],
         )
         write_dict_rows(
-            OUT / config["candidate_file"],
+            candidate_output / config["candidate_file"],
             candidate_rows,
             [
                 "candidate_id",
@@ -541,7 +545,7 @@ def main():
             ],
         )
         write_dict_rows(
-            OUT / config["vote_file"],
+            candidate_output / config["vote_file"],
             vote_rows,
             ["poll_id", "candidate_id", "candidate_vote_count"],
         )
@@ -571,13 +575,32 @@ def main():
             f"{len(vote_rows):,} poll-candidate vote rows"
         )
 
-    obsolete = OUT / "toronto_federal_2025_poll_candidate_party_votes.csv"
+    obsolete = (
+        election_output("federal_2025", "candidate_details")
+        / "toronto_federal_2025_poll_candidate_party_votes.csv"
+    )
     if obsolete.exists():
         obsolete.unlink()
 
-    with open(OUT / "normalized_election_results_metadata.json", "w", encoding="utf-8") as f:
+    with open(
+        METADATA_OUT / "normalized_election_results_metadata.json",
+        "w",
+        encoding="utf-8",
+    ) as f:
         json.dump(metadata, f, ensure_ascii=False, indent=2)
 
 
 if __name__ == "__main__":
     main()
+def election_output(election_id, product):
+    return PROCESSED / election_id / product
+
+
+def election_id_for_stem(stem):
+    if stem.startswith("toronto_municipal"):
+        return "municipal_2023_mayor"
+    if stem.startswith("toronto_provincial"):
+        return "provincial_2025"
+    if stem.startswith("toronto_federal"):
+        return "federal_2025"
+    raise ValueError(f"Unknown election output stem: {stem}")

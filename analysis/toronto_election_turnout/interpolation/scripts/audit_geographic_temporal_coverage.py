@@ -11,7 +11,7 @@ from pathlib import Path
 
 from osgeo import ogr
 
-from config import ELECTIONS, OUTPUT_ROOT, REPO_ROOT
+from config import CONTEXT_AUDIT_ROOT, ELECTIONS, REPO_ROOT
 from io_utils import read_csv, write_csv, write_json
 from spatial import load_district_geometries, make_valid_polygonal
 
@@ -32,18 +32,21 @@ CURRENT_CT = (
     / "toronto_election_turnout"
     / "census"
     / "processed"
-    / "geography_2021"
+    / "ct"
     / "statcan_2021_toronto_ct.geojson"
 )
-CURRENT_DA = CURRENT_CT.with_name("statcan_2021_toronto_da.geojson")
+CURRENT_DA = (
+    CURRENT_CT.parent.parent / "da"
+    / "statcan_2021_toronto_da.geojson"
+)
 CT_PROFILE = (
     REPO_ROOT
     / "data"
     / "toronto_election_turnout"
     / "census"
     / "processed"
-    / "profile_2021"
-    / "statcan_2021_ct_citizens_18plus.csv"
+    / "ct"
+    / "statcan_2021_ct_profile.csv"
 )
 
 SOURCE_DOWNLOADS = (
@@ -256,10 +259,16 @@ def main():
 
     geographic_rows = geography_audit()
     temporal_rows = temporal_audit()
-    write_csv(OUTPUT_ROOT / "geographic_coverage_audit.csv", geographic_rows)
-    write_csv(OUTPUT_ROOT / "temporal_population_proxy_audit.csv", temporal_rows)
+    write_csv(
+        CONTEXT_AUDIT_ROOT / "geographic_coverage_audit.csv",
+        geographic_rows,
+    )
+    write_csv(
+        CONTEXT_AUDIT_ROOT / "temporal_population_proxy_audit.csv",
+        temporal_rows,
+    )
     write_json(
-        OUTPUT_ROOT / "geographic_temporal_audit_summary.json",
+        CONTEXT_AUDIT_ROOT / "geographic_temporal_audit_summary.json",
         {
             "geographic_coverage_complete": all(
                 row["missing_populated_component_count"] == 0

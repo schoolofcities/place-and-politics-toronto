@@ -10,8 +10,11 @@ census/
   raw/
     source_downloads/
   processed/
-    profile_2021/
-    geography_2021/
+    da/
+    ct/
+    ada/
+    crosswalks/
+    audits/
   reference/
     ada_2021/
     zack_taylor_ct2021/
@@ -31,17 +34,20 @@ the census and temporal diagnostic scripts.
 
 ## Processed Census Profile
 
-`processed/profile_2021/` stores Toronto-only Census Profile extracts. The
-primary extracted variable is characteristic `1525`, `Canadian citizens aged
-18 and over`, at DA and CT levels. It also contains separate all-resident
-`population_18plus` tables used for sensitivity and suppression diagnostics,
-not as the production interpolation weight.
+`processed/da/`, `processed/ct/`, and `processed/ada/` each store the
+geography's map-ready geometry and canonical wide profile table together. The
+current variables are
+`citizen_canadian_18over` and `population_18plus`, with variable-specific
+while reproducible DA and CT narrow source extracts remain in each geography's
+`intermediate/` folder.
 
-The DA table is the preferred ancillary population-weight input for
-poll-to-CT interpolation.
+The DA profile table's `citizen_canadian_18over` field is the production
+ancillary weight for poll-to-CT interpolation. `population_18plus` is retained
+for sensitivity and suppression diagnostics.
 
-`processed/geography_2021/` stores map-ready DA, CT, and ADA GeoJSON files plus
-the verified `DA -> CT -> ADA` crosswalk.
+`processed/crosswalks/` stores the verified `DA -> CT -> ADA` crosswalk.
+`processed/audits/` separates geography, profile-extraction, and
+reconciliation diagnostics by purpose.
 
 ## Reference Files
 

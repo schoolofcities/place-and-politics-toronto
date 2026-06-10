@@ -11,11 +11,12 @@ from pathlib import Path
 
 REPO_ROOT = Path(__file__).resolve().parents[4]
 DATA_ROOT = REPO_ROOT / "data" / "toronto_election_turnout" / "census"
-PROFILE = DATA_ROOT / "processed" / "profile_2021"
-GEOGRAPHY = DATA_ROOT / "processed" / "geography_2021"
+PROCESSED = DATA_ROOT / "processed"
 REFERENCE = DATA_ROOT / "reference" / "ada_2021"
-SUMMARY = PROFILE / "statcan_2021_adult_population_audit.json"
-ADA_OUTPUT = PROFILE / "statcan_2021_ada_citizens_18plus_reconciliation.csv"
+AUDITS = PROCESSED / "audits" / "reconciliation"
+EXTRACTION_AUDITS = PROCESSED / "audits" / "profile_extraction"
+SUMMARY = AUDITS / "statcan_2021_adult_population_audit.json"
+ADA_OUTPUT = AUDITS / "statcan_2021_ada_citizens_18plus_reconciliation.csv"
 OFFICIAL_CSD_CITIZENS_18PLUS = 1_870_055
 
 
@@ -30,10 +31,14 @@ def number(value: str | None) -> int | None:
 
 
 def main() -> None:
-    da_rows = read_rows(PROFILE / "statcan_2021_da_citizens_18plus.csv")
-    ct_rows = read_rows(PROFILE / "statcan_2021_ct_citizens_18plus.csv")
-    age_rows = read_rows(PROFILE / "statcan_2021_da_population_18plus.csv")
-    crosswalk = read_rows(GEOGRAPHY / "statcan_2021_toronto_da_ct_ada_crosswalk.csv")
+    da_rows = read_rows(PROCESSED / "da" / "statcan_2021_da_profile.csv")
+    ct_rows = read_rows(PROCESSED / "ct" / "statcan_2021_ct_profile.csv")
+    age_rows = da_rows
+    crosswalk = read_rows(
+        PROCESSED
+        / "crosswalks"
+        / "statcan_2021_toronto_da_ct_ada_crosswalk.csv"
+    )
     linked_ct_ids = {row["ct_id"] for row in crosswalk}
     linked_ct_rows = [row for row in ct_rows if row["geo_id"] in linked_ct_ids]
     ada_reference = {
@@ -83,7 +88,10 @@ def main() -> None:
         number(row["C1_COUNT_TOTAL"]) or 0 for row in ada_reference.values()
     )
     da_population_total = sum_field(age_rows, "population_18plus")
-    with (PROFILE / "statcan_2021_population_18plus_extraction_metadata.json").open(
+    with (
+        EXTRACTION_AUDITS
+        / "statcan_2021_population_18plus_extraction_metadata.json"
+    ).open(
         encoding="utf-8"
     ) as f:
         age_metadata = json.load(f)
@@ -97,7 +105,8 @@ def main() -> None:
         "population_18plus": {
             "da_row_count": len(age_rows),
             "da_missing_count": sum(
-                row["value_status"] != "published" for row in age_rows
+                row["population_18plus_status"] != "published"
+                for row in age_rows
             ),
             "da_sum": da_population_total,
             "official_toronto_csd": age_metadata["official_toronto_csd_population_18plus"],
@@ -107,7 +116,8 @@ def main() -> None:
             "official_toronto_csd": OFFICIAL_CSD_CITIZENS_18PLUS,
             "da_sum": da_citizen_total,
             "da_suppressed_count": sum(
-                row["value_status"] != "published" for row in da_rows
+                row["citizen_canadian_18over_status"] != "published"
+                for row in da_rows
             ),
             "da_difference": da_citizen_total - OFFICIAL_CSD_CITIZENS_18PLUS,
             "toronto_linked_ct_count": len(linked_ct_rows),
@@ -136,6 +146,7 @@ def main() -> None:
             ),
         },
     }
+    AUDITS.mkdir(parents=True, exist_ok=True)
     with SUMMARY.open("w", encoding="utf-8") as f:
         json.dump(summary, f, indent=2)
     print(json.dumps(summary, indent=2))

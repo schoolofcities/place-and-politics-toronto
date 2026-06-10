@@ -19,10 +19,10 @@ analysis/toronto_election_turnout/
     docs/
     viewer/
   interpolation/
-    *.py
+    scripts/
+    docs/
     viewer/
     README.md
-    MUNICIPAL_PARTY_AFFILIATION_AUDIT.md
   package.json
   requirements.txt
 ```
@@ -107,8 +107,10 @@ python elections/scripts/build_election_datasets.py
 
 Outputs go to:
 
-- `../../data/toronto_election_turnout/elections/processed/turnout/`
-- `../../data/toronto_election_turnout/elections/processed/candidate_details/`
+- `../../data/toronto_election_turnout/elections/processed/municipal_2023_mayor/`
+- `../../data/toronto_election_turnout/elections/processed/provincial_2025/`
+- `../../data/toronto_election_turnout/elections/processed/federal_2025/`
+- `../../data/toronto_election_turnout/elections/processed/metadata/`
 
 The wrapper first rebuilds turnout data, then adds poll IDs, party totals,
 candidate catalogs, and sparse poll-candidate vote bridges. The two component
@@ -118,11 +120,19 @@ scripts can still be run separately when debugging.
 
 ```bash
 python census/scripts/extract_statcan_census_profile_citizens_18plus.py
+python census/scripts/extract_statcan_population_18plus.py
+python census/scripts/build_census_profile_tables.py
 ```
 
 Outputs go to:
 
-- `../../data/toronto_election_turnout/census/processed/profile_2021/`
+- `../../data/toronto_election_turnout/census/processed/da/`
+- `../../data/toronto_election_turnout/census/processed/ct/`
+- `../../data/toronto_election_turnout/census/processed/ada/`
+
+The canonical outputs are one wide profile table per geography: DA, CT, and
+ADA. Variable-specific source extracts are retained under the DA and CT
+`intermediate/` folders.
 
 Build the census geography crosswalk and viewer data:
 
@@ -144,12 +154,15 @@ Build the poll-to-CT interpolation:
 
 ```bash
 cd interpolation
-python3 run_interpolation.py
+python3 scripts/run_interpolation.py
 ```
 
 Outputs go to:
 
 - `../../data/toronto_election_turnout/interpolation/processed/`
+- Final CT result and candidate tables stay directly in `processed/`.
+- Crosswalks, audits, exclusions, validation, and summaries go to
+  numbered stage folders under `processed/intermediate/`.
 
 After rebuilding interpolation outputs, regenerate the map-ready GeoJSON:
 
@@ -168,8 +181,9 @@ Census/interpolation notes live in:
 
 - `census/docs/`
 - `interpolation/README.md`
-- `interpolation/MUNICIPAL_PARTY_AFFILIATION_AUDIT.md`
+- `interpolation/docs/MUNICIPAL_PARTY_AFFILIATION_AUDIT.md`
 
 Generated audit findings and output dictionaries live under:
 
-- `../../data/toronto_election_turnout/interpolation/processed/`
+- `../../data/toronto_election_turnout/interpolation/processed/README.md`
+- `../../data/toronto_election_turnout/interpolation/processed/intermediate/README.md`

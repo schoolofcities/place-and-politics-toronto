@@ -47,7 +47,8 @@ All official geometry files use NAD83 / Statistics Canada Lambert, EPSG:3347.
 
 Extracted Toronto-only Census Profile outputs are stored in:
 
-`data/toronto_election_turnout/census/processed/profile_2021/`
+`data/toronto_election_turnout/census/processed/da/intermediate/` and
+`data/toronto_election_turnout/census/processed/ct/intermediate/`
 
 - `statcan_2021_da_citizens_18plus.csv`
   - 3,743 Toronto DA rows.
