@@ -1,24 +1,18 @@
 import maplibregl from 'maplibre-gl';
 
-import SubwayLines from '$data/subwayLines.geo.json';
-import SubwayStations from '$data/subwayStations.geo.json';
-
 /** @type {import('maplibre-gl').StyleSpecification} */
 const baseMapStyle = {
 	version: 8,
 	name: 'Toronto Election Base',
-	glyphs: 'https://demotiles.maplibre.org/font/{fontstack}/{range}.pbf',
+	glyphs: 'https://schoolofcities.github.io/fonts/fonts/{fontstack}/{range}.pbf',
 	sources: {
-		carto: {
-			type: 'raster',
+		osm: {
+			type: 'vector',
 			tiles: [
-				'https://a.basemaps.cartocdn.com/light_nolabels/{z}/{x}/{y}.png',
-				'https://b.basemaps.cartocdn.com/light_nolabels/{z}/{x}/{y}.png',
-				'https://c.basemaps.cartocdn.com/light_nolabels/{z}/{x}/{y}.png',
-				'https://d.basemaps.cartocdn.com/light_nolabels/{z}/{x}/{y}.png'
+				'https://vector.openstreetmap.org/shortbread_v1/{z}/{x}/{y}.mvt'
 			],
-			tileSize: 256,
-			attribution: '&copy; OpenStreetMap contributors &copy; CARTO'
+			maxzoom: 14,
+			attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
 		}
 	},
 	layers: [
@@ -30,78 +24,26 @@ const baseMapStyle = {
 			}
 		},
 		{
-			id: 'carto-base',
-			type: 'raster',
-			source: 'carto',
+			id: 'water',
+			type: 'fill',
+			source: 'osm',
+			'source-layer': 'water_polygons',
 			paint: {
-				'raster-opacity': 0.92,
-				'raster-saturation': -0.45,
-				'raster-contrast': 0.1,
-				'raster-brightness-min': 0.08,
-				'raster-brightness-max': 0.96
+				'fill-color': '#c8dce8'
+			}
+		},
+		{
+			id: 'ocean',
+			type: 'fill',
+			source: 'osm',
+			'source-layer': 'ocean',
+			paint: {
+				'fill-color': '#c8dce8'
 			}
 		}
 	]
 };
 
 export const createBaseMapStyle = () => structuredClone(baseMapStyle);
-
-/**
- * @param {import('maplibre-gl').Map} map
- */
-export const addTransitBaseLayers = (map) => {
-	map.addSource('SubwayLines', {
-		type: 'geojson',
-		data: SubwayLines
-	});
-
-	map.addSource('SubwayStations', {
-		type: 'geojson',
-		data: SubwayStations
-	});
-
-	map.addLayer({
-		id: 'SubwayLineCasing',
-		type: 'line',
-		source: 'SubwayLines',
-		layout: {
-			'line-cap': 'round',
-			'line-join': 'round'
-		},
-		paint: {
-			'line-color': 'rgba(255,255,255,0.9)',
-			'line-width': 6,
-			'line-opacity': 0.95
-		}
-	});
-
-	map.addLayer({
-		id: 'SubwayLine',
-		type: 'line',
-		source: 'SubwayLines',
-		layout: {
-			'line-cap': 'round',
-			'line-join': 'round'
-		},
-		paint: {
-			'line-color': '#767676',
-			'line-width': 2.2,
-			'line-opacity': 0.95
-		}
-	});
-
-	map.addLayer({
-		id: 'SubwayStationDots',
-		type: 'circle',
-		source: 'SubwayStations',
-		paint: {
-			'circle-radius': 1.8,
-			'circle-color': '#767676',
-			'circle-stroke-color': '#ffffff',
-			'circle-stroke-width': 0.8,
-			'circle-opacity': 0.95
-		}
-	});
-};
 
 export default maplibregl;

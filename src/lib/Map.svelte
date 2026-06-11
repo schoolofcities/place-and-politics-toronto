@@ -2,7 +2,7 @@
     
     import { onMount } from 'svelte';
     import 'maplibre-gl/dist/maplibre-gl.css';
-    import maplibregl, { addTransitBaseLayers, createBaseMapStyle } from "$lib/maplibre.js";
+    import maplibregl, { createBaseMapStyle } from "$lib/maplibre.js";
     
     import VotingSubDivisions from '$data/vsd.geo.json';
     import Wards from '$data/wards.geo.json';
@@ -75,8 +75,6 @@
         map.scrollZoom.disable();
 
         map.on('load', function() {
-            addTransitBaseLayers(map);
-
             map.addSource('VotingSubDivisions', {
                 'type': 'geojson',
                 'data': VotingSubDivisions
