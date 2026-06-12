@@ -24,3 +24,9 @@ from `../processed/intermediate/04_validation/`. It is blocked unless vote
 preservation, no-geometry allocation, vote-bearing exclusion, and official
 party/candidate reconciliation checks pass. `map_build_summary.json` records
 the gate results and feature counts.
+
+The GeoJSON retains fractional interpolated votes and electors. The Leaflet
+viewer rounds tract-level allocated vote and elector counts to the nearest
+whole number only in hover and popup details. Stored values, Toronto-wide
+totals, vote shares, and turnout calculations continue to use the unrounded
+estimates.

@@ -82,6 +82,11 @@ function formatNumber(value, digits = 0) {
   return Number(value).toLocaleString("en-CA", { maximumFractionDigits: digits });
 }
 
+function formatAllocatedCount(value) {
+  if (value === null || value === undefined || !Number.isFinite(Number(value))) return "No data";
+  return Math.round(Number(value)).toLocaleString("en-CA");
+}
+
 function formatPct(value) {
   if (value === null || value === undefined || !Number.isFinite(Number(value))) return "No data";
   return `${(Number(value) * 100).toFixed(1)}%`;
@@ -159,7 +164,7 @@ function partyRows(properties) {
     .sort((a, b) => Number(b[1]) - Number(a[1]))
     .map(([name, value]) => {
       const share = partyShare(properties, name);
-      return `<tr><th>${escapeHtml(readableParty(name))}</th><td>${formatPct(share)} · ${formatNumber(value, 1)} votes</td></tr>`;
+      return `<tr><th>${escapeHtml(readableParty(name))}</th><td>${formatPct(share)} · ${formatAllocatedCount(value)} votes</td></tr>`;
     })
     .join("");
 }
@@ -175,7 +180,7 @@ function candidateRows(properties) {
       return `
         <tr>
           <th>${escapeHtml(row.candidate_name)}${affiliation}</th>
-          <td>${formatPct(denominator > 0 ? row.estimated_votes / denominator : null)} · ${formatNumber(row.estimated_votes, 1)} votes</td>
+          <td>${formatPct(denominator > 0 ? row.estimated_votes / denominator : null)} · ${formatAllocatedCount(row.estimated_votes)} votes</td>
         </tr>`;
     })
     .join("");
@@ -192,8 +197,9 @@ function detailHtml(properties, compact = false) {
       <p class="popup-kicker">Census tract</p>
       <h3>${escapeHtml(properties.ct_id)}</h3>
       <table>
-        <tr><th>Total votes collected</th><td>${formatNumber(properties.estimated_total_votes, 1)}</td></tr>
-        <tr><th>Valid candidate votes</th><td>${formatNumber(properties.estimated_valid_candidate_votes, 1)}</td></tr>
+        <tr><th>Total votes collected</th><td>${formatAllocatedCount(properties.estimated_total_votes)}</td></tr>
+        <tr><th>Valid candidate votes</th><td>${formatAllocatedCount(properties.estimated_valid_candidate_votes)}</td></tr>
+        <tr><th>Allocated electors</th><td>${formatAllocatedCount(properties.estimated_electors)}</td></tr>
         <tr><th>Citizen population 18+</th><td>${formatNumber(properties.citizen_canadian_18over)}</td></tr>
         <tr><th>Turnout / citizen 18+</th><td>${formatPct(properties.estimated_participation_citizen_18plus)}</td></tr>
         <tr><th>Allocated-elector rate</th><td>${formatPct(properties.estimated_turnout)}</td></tr>
