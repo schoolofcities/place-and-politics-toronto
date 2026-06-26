@@ -1,0 +1,9 @@
+Variant,k,Silhouette,ARI vs base
+"Base (city-relative, k=5, PCA)",5,0.2535,1.000
+No turnout,5,0.2932,0.742
+No 'other' bucket,5,0.253,0.933
+Hellinger transform,5,0.2476,0.649
+CLR transform,5,0.3663,0.315
+k = 4,4,0.2524,—
+k = 6,6,0.2178,—
+UMAP clustering,5,0.4989,0.497
