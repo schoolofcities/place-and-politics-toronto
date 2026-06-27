@@ -6,4 +6,4 @@ Hellinger transform,5,0.2476,0.649
 CLR transform,5,0.3663,0.315
 k = 4,4,0.2524,—
 k = 6,6,0.2178,—
-UMAP clustering,5,0.4989,0.497
+UMAP clustering,5,0.4924,0.400
