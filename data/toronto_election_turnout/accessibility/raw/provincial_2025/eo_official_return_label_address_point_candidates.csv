@@ -1,0 +1,1468 @@
+electoral_district_number,official_return_label,candidate_rank,address_point_id,objectid,address_full,place_name,place_name_all,ward,ward_name,polling_location_lon,polling_location_lat,api_rank,label_to_place_token_score,label_to_address_token_score,query_status
+101,150 Dan Leckie Apts.,,,,,,,,,,,,,,no_candidates
+101,18 Yonge Street Condos,,,,,,,,,,,,,,no_candidates
+101,25 The Esplanade Condos,,,,,,,,,,,,,,no_candidates
+101,550 Wellington West Condos,,,,,,,,,,,,,,no_candidates
+101,Aqua On Queens Quay,,,,,,,,,,,,,,no_candidates
+101,Atlantis Aquarius,,,,,,,,,,,,,,no_candidates
+101,Atrium On Queen's Quay,,,,,,,,,,,,,,no_candidates
+101,Bliss Condos,,,,,,,,,,,,,,no_candidates
+101,CENTRES D'ACCUEIL HÉRITAGE,,,,,,,,,,,,,,no_candidates
+101,Canoe Landing Comm. Rec. Centre,,,,,,,,,,,,,,no_candidates
+101,Charlie Condos,,,,,,,,,,,,,,no_candidates
+101,Chestnut Residence & Conference Centre,,,,,,,,,,,,,,no_candidates
+101,Cinema Tower Condos,,,,,,,,,,,,,,no_candidates
+101,CitySphere Condos,,,,,,,,,,,,,,no_candidates
+101,College Boreal,,,,,,,,,,,,,,no_candidates
+101,Electra Lofts,,,,,,,,,,,,,,no_candidates
+101,Element Condos,,,,,,,,,,,,,,no_candidates
+101,Empire Plaza,,,,,,,,,,,,,,no_candidates
+101,Enercare Centre - Salon 108,,,,,,,,,,,,,,no_candidates
+101,Festival Tower,,,,,,,,,,,,,,no_candidates
+101,Fly Condos,,,,,,,,,,,,,,no_candidates
+101,Fuzion Condos,,,,,,,,,,,,,,no_candidates
+101,Garrison At Fort York,1,807841,975727,100 Garrison Rd,Fort York National Historic Site,Fort York National Historic Site,10,Spadina-Fort York,-79.40628139,43.63849275,0.35117453,0.4444,0.2857,candidate_returned
+101,Givins Shaw Junior Public School,,,,,,,,,,,,,,no_candidates
+101,Harbour Square Condos,,,,,,,,,,,,,,no_candidates
+101,Harbourfront Cold Beans,,,,,,,,,,,,,,no_candidates
+101,Harbourpoint II,,,,,,,,,,,,,,no_candidates
+101,Harbourpoint III,,,,,,,,,,,,,,no_candidates
+101,Harbourside Condos,,,,,,,,,,,,,,no_candidates
+101,Infinity I,,,,,,,,,,,,,,no_candidates
+101,John Gibson House,,,,,,,,,,,,,,no_candidates
+101,Liberty Tower,,,,,,,,,,,,,,no_candidates
+101,Ltd Condos,,,,,,,,,,,,,,no_candidates
+101,Luna Vista,,,,,,,,,,,,,,no_candidates
+101,M5V Condos,,,,,,,,,,,,,,no_candidates
+101,Malibu Harbourfront,,,,,,,,,,,,,,no_candidates
+101,Maple Leaf Square Condos,,,,,,,,,,,,,,no_candidates
+101,Market Wharf II,,,,,,,,,,,,,,no_candidates
+101,Maynard Nursing Home,,,,,,,,,,,,,,no_candidates
+101,Metro Hall,1,825934,583693,55 John St,Metro Hall,Metro Hall,10,Spadina-Fort York,-79.38893149,43.64615379,0.2537343,1.0000,0.0000,candidate_returned
+101,Minto 775 Condos,,,,,,,,,,,,,,no_candidates
+101,Motion Condos,,,,,,,,,,,,,,no_candidates
+101,N1 & N2,,,,,,,,,,,,,,no_candidates
+101,Neo & Montage Condos,,,,,,,,,,,,,,no_candidates
+101,Neptune 1 & 2,,,,,,,,,,,,,,no_candidates
+101,Ogden Junior Public School,1,853889,905255,33 Phoebe St,Ogden Junior Public School,Ogden Junior Public School,10,Spadina-Fort York,-79.39512686,43.65001362,0.47649637,1.0000,0.0000,candidate_returned
+101,Old York Tower,,,,,,,,,,,,,,no_candidates
+101,One City Hall Condos,,,,,,,,,,,,,,no_candidates
+101,One Yonge Community Recreation Centre,,,,,,,,,,,,,,no_candidates
+101,One York Quay Condos,,,,,,,,,,,,,,no_candidates
+101,Optima - CityPlace,,,,,,,,,,,,,,no_candidates
+101,Parade 1,,,,,,,,,,,,,,no_candidates
+101,Parade 2,,,,,,,,,,,,,,no_candidates
+101,Portland Place,1,8031926,717181,163 Portland St,Portland Place,Portland Place,10,Spadina-Fort York,-79.40090762,43.64726185,0.26820162,1.0000,0.4000,candidate_returned
+101,Pure Spirit Lofts,,,,,,,,,,,,,,no_candidates
+101,Quay West At Tip Top,,,,,,,,,,,,,,no_candidates
+101,Queen Elizabeth Theatre,,,,,,,,,,,,,,no_candidates
+101,Queens Harbour Condos,,,,,,,,,,,,,,no_candidates
+101,Radisson Blu Hotel,,,,,,,,,,,,,,no_candidates
+101,Residences Of The World Trade Centre,,,,,,,,,,,,,,no_candidates
+101,Scadding Court Community Centre,,,,,,,,,,,,,,no_candidates
+101,Shaw House,,,,,,,,,,,,,,no_candidates
+101,St. Andrew's Centre,,,,,,,,,,,,,,no_candidates
+101,St. George By The Grange,,,,,,,,,,,,,,no_candidates
+101,St. Mary Catholic School,,,,,,,,,,,,,,no_candidates
+101,Terra Bella,1,3132040,853696,24 Shaw St,Terra Bella,Terra Bella,10,Spadina-Fort York,-79.41608110,43.64232778,0.2537343,1.0000,0.0000,candidate_returned
+101,The Bridge Condos,,,,,,,,,,,,,,no_candidates
+101,The Hudson Condos,,,,,,,,,,,,,,no_candidates
+101,The Summit Condos,,,,,,,,,,,,,,no_candidates
+101,The Tower,1,392256,530414,125 Tower Dr,None,None,21,Scarborough Centre,-79.30091223,43.75134532,0.07642204,0.0000,0.5000,candidate_returned
+101,The Tower,2,392328,531586,204 Tower Dr,None,None,21,Scarborough Centre,-79.29929757,43.75442110,0.07642204,0.0000,0.5000,candidate_returned
+101,The Tower,3,392225,535031,72 Tower Dr,None,None,21,Scarborough Centre,-79.30034086,43.74838370,0.07642204,0.0000,0.5000,candidate_returned
+101,The Tower,4,392331,537186,229 Tower Dr,None,None,21,Scarborough Centre,-79.29768503,43.75433993,0.07642204,0.0000,0.5000,candidate_returned
+101,The Tower,5,392242,529423,106 Tower Dr,None,None,21,Scarborough Centre,-79.30108378,43.75017297,0.07642204,0.0000,0.5000,candidate_returned
+101,Three Hundred Front Street Condos,,,,,,,,,,,,,,no_candidates
+101,Tip Top Lofts,,,,,,,,,,,,,,no_candidates
+101,Toronto International Film Festival Inc.,,,,,,,,,,,,,,no_candidates
+101,Trinity Community Recreation Centre,,,,,,,,,,,,,,no_candidates
+101,University Plaza Condos,,,,,,,,,,,,,,no_candidates
+101,Vibe At Liberty Village Condos,,,,,,,,,,,,,,no_candidates
+101,Waterfront Neighbourhood Centre,,,,,,,,,,,,,,no_candidates
+101,West Harbour City II,,,,,,,,,,,,,,no_candidates
+101,Zip Condos,,,,,,,,,,,,,,no_candidates
+109,1-25 Cole Street,,,,,,,,,,,,,,no_candidates
+109,1001 Bay Street,,,,,,,,,,,,,,no_candidates
+109,120 Cornwall - Oak St Co-Op,,,,,,,,,,,,,,no_candidates
+109,140 Carlton Street,,,,,,,,,,,,,,no_candidates
+109,40 Homewood,1,822317,603362,40 Homewood Ave,None,None,13,Toronto Centre,-79.37553505,43.66422881,0.28371558,0.0000,0.8000,candidate_returned
+109,501 Adelaide St E,,,,,,,,,,,,,,no_candidates
+109,77 Carlton St,1,780234,544531,77 Carlton St,None,None,13,Toronto Centre,-79.37819687,43.66192437,0.43710664,0.0000,1.0000,candidate_returned
+109,80 Mill Street,,,,,,,,,,,,,,no_candidates
+109,Carlton On The Park Condos,,,,,,,,,,,,,,no_candidates
+109,Casa Condominium,,,,,,,,,,,,,,no_candidates
+109,Celebrity Place,,,,,,,,,,,,,,no_candidates
+109,Central Neighbourhood House,,,,,,,,,,,,,,no_candidates
+109,Century Plaza,,,,,,,,,,,,,,no_candidates
+109,Church Of St. Peter And St. Simon,,,,,,,,,,,,,,no_candidates
+109,City Park Co-Op - 31 Alexander,,,,,,,,,,,,,,no_candidates
+109,Collegeview Apartments,,,,,,,,,,,,,,no_candidates
+109,Diane Frankling Co-Operative Homes,,,,,,,,,,,,,,no_candidates
+109,Encore At The MET,,,,,,,,,,,,,,no_candidates
+109,Enoch Turner Schoolhouse,,,,,,,,,,,,,,no_candidates
+109,Five Condos,,,,,,,,,,,,,,no_candidates
+109,Fudger House,,,,,,,,,,,,,,no_candidates
+109,Gloucester Gate,,,,,,,,,,,,,,no_candidates
+109,Jarvis Collegiate,,,,,,,,,,,,,,no_candidates
+109,John Innes Community Centre,,,,,,,,,,,,,,no_candidates
+109,King's Court,1,828095,626174,230 King St E,King's Court,King's Court,13,Toronto Centre,-79.36808752,43.65153094,0.27234632,1.0000,0.2857,candidate_returned
+109,L'Esprit Condominiums,,,,,,,,,,,,,,no_candidates
+109,Little Trinity Church,,,,,,,,,,,,,,no_candidates
+109,Msgr Fraser College - Isabella Campus,,,,,,,,,,,,,,no_candidates
+109,Msgr Fraser College - St. Martin Campus,,,,,,,,,,,,,,no_candidates
+109,Murano North & South,,,,,,,,,,,,,,no_candidates
+109,New Times Square,,,,,,,,,,,,,,no_candidates
+109,Opera Place,1,7762624,956184,25 Breadalbane St,"Opera Place,Leaf Park","Opera Place,Leaf Park",13,Toronto Centre,-79.38557592,43.66346676,0.2506152,0.6667,0.0000,candidate_returned
+109,Our Lady Of Lourdes Catholic School,,,,,,,,,,,,,,no_candidates
+109,Performing Arts Lodge,,,,,,,,,,,,,,no_candidates
+109,Plaza One Hundred,,,,,,,,,,,,,,no_candidates
+109,Polo Club I,,,,,,,,,,,,,,no_candidates
+109,Polo Club II,,,,,,,,,,,,,,no_candidates
+109,Radiocity - North Tower,,,,,,,,,,,,,,no_candidates
+109,Regent Park Community Centre,,,,,,,,,,,,,,no_candidates
+109,Rose Avenue Jr. Public School,,,,,,,,,,,,,,no_candidates
+109,Sherbourne Place,,,,,,,,,,,,,,no_candidates
+109,Sprucecourt Public School,1,7640178,550633,70 Spruce St,Sprucecourt Public School,Sprucecourt Public School,13,Toronto Centre,-79.36382992,43.66448601,0.4146932,1.0000,0.0000,candidate_returned
+109,St. James Cathedral Centre,,,,,,,,,,,,,,no_candidates
+109,St. Lawrence Community Centre,,,,,,,,,,,,,,no_candidates
+109,TMU Intl. Living Learning Ctr.,,,,,,,,,,,,,,no_candidates
+109,Ted Rogers School of Management - TMU,,,,,,,,,,,,,,no_candidates
+109,The 500 Condos & Lofts,,,,,,,,,,,,,,no_candidates
+109,The 519,1,363239,529986,519 Midland Ave,None,None,20,Scarborough Southwest,-79.25032625,43.71721275,0.07642204,0.0000,0.5000,candidate_returned
+109,The 519,2,8791767,530410,519 Lansdowne Ave,None,None,09,Davenport,-79.44148733,43.65535704,0.07642204,0.0000,0.5000,candidate_returned
+109,The 519,3,18511,538648,519 Broadway Ave,None,None,15,Don Valley West,-79.36923747,43.71530038,0.07642204,0.0000,0.5000,candidate_returned
+109,The 519,4,30018722,547570,519 Grandview Way,None,None,18,Willowdale,-79.41040500,43.77531239,0.07642204,0.0000,0.5000,candidate_returned
+109,The 519,5,536489,529949,519 Bedford Park Ave,None,None,08,Eglinton-Lawrence,-79.42350863,43.72284730,0.07642204,0.0000,0.4000,candidate_returned
+109,The Allegro Condos,,,,,,,,,,,,,,no_candidates
+109,The Cosmopolitan Condos,,,,,,,,,,,,,,no_candidates
+109,The Ellington Condos,,,,,,,,,,,,,,no_candidates
+109,The Gallery Condos,,,,,,,,,,,,,,no_candidates
+109,The Lexington Condos,,,,,,,,,,,,,,no_candidates
+109,The Merchandise Building,,,,,,,,,,,,,,no_candidates
+109,The Metropole Condos,,,,,,,,,,,,,,no_candidates
+109,The Modern Condos,,,,,,,,,,,,,,no_candidates
+109,The Vu South Tower,,,,,,,,,,,,,,no_candidates
+109,U Of T - Student Family Housing,,,,,,,,,,,,,,no_candidates
+109,Verve Condominium,,,,,,,,,,,,,,no_candidates
+109,Wellesley Central Place,1,2625668,779454,160 Wellesley St E,Wellesley Central Place,Wellesley Central Place,13,Toronto Centre,-79.37547325,43.66700035,0.42484647,1.0000,0.2857,candidate_returned
+109,Wellesley Community Centre,,,,,,,,,,,,,,no_candidates
+109,YMCA Metro Central,1,7762640,867410,20 Grosvenor St,Metro Central YMCA,Metro Central YMCA,13,Toronto Centre,-79.38510280,43.66305445,0.4146932,1.0000,0.0000,candidate_returned
+109,École Élémentaire Gabrielle-Roy,,,,,,,,,,,,,,no_candidates
+110,Bethany Baptist Church,,,,,,,,,,,,,,no_candidates
+110,Blair Court,,,,,,,,,,,,,,no_candidates
+110,Broadview Manor,1,3841916,788343,80 Danforth Ave,Broadview Manor,Broadview Manor,14,Toronto-Danforth,-79.35975272,43.67632186,0.2537343,1.0000,0.0000,candidate_returned
+110,Bruce Junior Public School,,,,,,,,,,,,,,no_candidates
+110,Chartwell Avondale Retirement Residence,,,,,,,,,,,,,,no_candidates
+110,Cosburn Middle School,,,,,,,,,,,,,,no_candidates
+110,Danforth Music Hall,,,,,,,,,,,,,,no_candidates
+110,East York Community Centre,,,,,,,,,,,,,,no_candidates
+110,Eastview Neighbourhood Community Centre,,,,,,,,,,,,,,no_candidates
+110,Frances Beavis Manor,,,,,,,,,,,,,,no_candidates
+110,Frankland Community School,,,,,,,,,,,,,,no_candidates
+110,Green Meadow Apts - 110,,,,,,,,,,,,,,no_candidates
+110,Greenwood Towers,,,,,,,,,,,,,,no_candidates
+110,Helliwell Place Condos,,,,,,,,,,,,,,no_candidates
+110,Heritage Nursing Home,,,,,,,,,,,,,,no_candidates
+110,Holy Cross Catholic School,,,,,,,,,,,,,,no_candidates
+110,Jack Layton Seniors Housing,,,,,,,,,,,,,,no_candidates
+110,Jackman Avenue Junior Public School,,,,,,,,,,,,,,no_candidates
+110,Jimmie Simpson Recreation Centre,,,,,,,,,,,,,,no_candidates
+110,Matty Eckler Community Recreation Centre,,,,,,,,,,,,,,no_candidates
+110,Minto Skyy Condos,,,,,,,,,,,,,,no_candidates
+110,Monarch Park Collegiate Institute,,,,,,,,,,,,,,no_candidates
+110,Montcrest Apartments A,,,,,,,,,,,,,,no_candidates
+110,Montcrest Towers B,,,,,,,,,,,,,,no_candidates
+110,Morse Street Junior Public School,,,,,,,,,,,,,,no_candidates
+110,Nisbet Lodge,,,,,,,,,,,,,,no_candidates
+110,Queen Alexandra Middle School,,,,,,,,,,,,,,no_candidates
+110,Ralph Thornton Centre,,,,,,,,,,,,,,no_candidates
+110,Ray Mccleary Towers,,,,,,,,,,,,,,no_candidates
+110,Riverdale Collegiate Institute,,,,,,,,,,,,,,no_candidates
+110,Roden Public School,1,820061,863428,151 Hiawatha Rd,Roden Public School,Roden Public School,14,Toronto-Danforth,-79.32307647,43.67387327,0.4146932,1.0000,0.0000,candidate_returned
+110,S.H. Armstrong Community Centre,,,,,,,,,,,,,,no_candidates
+110,Sisters Of St. Joseph,,,,,,,,,,,,,,no_candidates
+110,St. Ann Church,,,,,,,,,,,,,,no_candidates
+110,St. Joseph's Senior Citizens Apts.,,,,,,,,,,,,,,no_candidates
+110,Westwood MS,,,,,,,,,,,,,,no_candidates
+110,Wilkinson Public School,1,7807349,739477,53 Donlands Ave,Wilkinson Junior Public School,Wilkinson Junior Public School,14,Toronto-Danforth,-79.33748324,43.68204163,0.41090953,0.8571,0.0000,candidate_returned
+110,Withrow Avenue Junior Public School,,,,,,,,,,,,,,no_candidates
+110,École Élémentaire la Mosaïque,,,,,,,,,,,,,,no_candidates
+111,88 Redpath Apts.,,,,,,,,,,,,,,no_candidates
+111,Balfour Square,,,,,,,,,,,,,,no_candidates
+111,Bradgate Arms,,,,,,,,,,,,,,no_candidates
+111,Calvin Presbyterian Church,1,792803,639842,26 Delisle Ave,Calvin Presbyterian Church,Calvin Presbyterian Church,12,Toronto-St. Paul's,-79.39596581,43.68928723,0.4146932,1.0000,0.0000,candidate_returned
+111,Castleview Wychwood Towers,,,,,,,,,,,,,,no_candidates
+111,Cedarvale Community School,,,,,,,,,,,,,,no_candidates
+111,Central Eglinton Community Centre,,,,,,,,,,,,,,no_candidates
+111,Christie Gardens,,,,,,,,,,,,,,no_candidates
+111,Christie Gardens Apartments,,,,,,,,,,,,,,no_candidates
+111,Church Of The Transfiguration,,,,,,,,,,,,,,no_candidates
+111,Cottingham Junior Public School,1,772190,920766,85 Birch Ave,Cottingham Junior Public School,Cottingham Junior Public School,12,Toronto-St. Paul's,-79.39560901,43.68037944,0.47649637,1.0000,0.0000,candidate_returned
+111,Doug Saunders Apartments,,,,,,,,,,,,,,no_candidates
+111,Eglinton Jr. Public School,,,,,,,,,,,,,,no_candidates
+111,Fairbank Memorial Community Centre,,,,,,,,,,,,,,no_candidates
+111,Forest Hill Jr. And Snr. P.S.,,,,,,,,,,,,,,no_candidates
+111,George Barker Manor,,,,,,,,,,,,,,no_candidates
+111,Glen Gardens,,,,,,,,,,,,,,no_candidates
+111,Grace Church On The Hill,1,7273403,898204,300 Lonsdale Rd,Grace Church On-The-Hill,Grace Church On-The-Hill,12,Toronto-St. Paul's,-79.40972908,43.68950695,0.39456677,1.0000,0.0000,candidate_returned
+111,Grace Church On The Hill,2,7273307,796682,304 Lonsdale Rd,Grace Church On-The-Hill,Grace Church On-The-Hill,12,Toronto-St. Paul's,-79.41062193,43.68931156,0.39456677,1.0000,0.0000,candidate_returned
+111,Granite Place I & II,,,,,,,,,,,,,,no_candidates
+111,Habayit Shelanu Senior Residences,,,,,,,,,,,,,,no_candidates
+111,Hellenic Home For The Aged,,,,,,,,,,,,,,no_candidates
+111,Hillcrest Community School,,,,,,,,,,,,,,no_candidates
+111,Hospital Worker's Housing Co-Operative,,,,,,,,,,,,,,no_candidates
+111,Humewood Community School,,,,,,,,,,,,,,no_candidates
+111,Isabel And Arthur meighen Manor,1,14236186,537912,155 Millwood Rd,Isabel and Arthur Meighen Manor,Isabel and Arthur Meighen Manor,12,Toronto-St. Paul's,-79.39253615,43.69998383,0.47380233,1.0000,0.0000,candidate_returned
+111,Janet Magee Manor,,,,,,,,,,,,,,no_candidates
+111,Montgomery Place,,,,,,,,,,,,,,no_candidates
+111,North Toronto Collegiate Institute,,,,,,,,,,,,,,no_candidates
+111,Oakwood Village Library & Arts Centre,,,,,,,,,,,,,,no_candidates
+111,Oriole Park Public School,,,,,,,,,,,,,,no_candidates
+111,Park Towers,1,14615113,788630,1 Water Tower Gt,None,None,25,Scarborough-Rouge Park,-79.19416721,43.80471108,0.088898905,0.0000,0.0000,candidate_returned
+111,"Quantum, The South Tower",,,,,,,,,,,,,,no_candidates
+111,St. Alphonsus Catholic School,,,,,,,,,,,,,,no_candidates
+111,St. Bruno / St. Raymond Catholic School,,,,,,,,,,,,,,no_candidates
+111,St. Hilda's Towers,,,,,,,,,,,,,,no_candidates
+111,St. John's Evangelical Luth. Latvian Ch.,,,,,,,,,,,,,,no_candidates
+111,St. Matthew's Bracondale House,,,,,,,,,,,,,,no_candidates
+111,St. Michael & All Angels Anglican Church,,,,,,,,,,,,,,no_candidates
+111,The Briton House,,,,,,,,,,,,,,no_candidates
+111,The Dunfield Retirement Residence,,,,,,,,,,,,,,no_candidates
+111,The York School,1,9344875,622446,100 Emmett Ave,York Humber High School,York Humber High School,05,York South-Weston,-79.50617745,43.68856919,0.33148542,0.6667,0.0000,candidate_returned
+111,The York School,2,7846533,549368,670 Cosburn Ave,East York Alternative Secondary School,East York Alternative Secondary School,19,Beaches-East York,-79.32529564,43.69499136,0.30024803,0.5714,0.0000,candidate_returned
+111,The York School,3,66887,871650,50 Leigh St,Harwood Public School,Harwood Public School,05,York South-Weston,-79.47841248,43.67618591,0.21568412,0.4000,0.0000,candidate_returned
+111,The York School,4,71840,589287,400 Rockcliffe Blvd,Rockcliffe Middle School,Rockcliffe Middle School,05,York South-Weston,-79.48889382,43.67386514,0.21568412,0.4000,0.0000,candidate_returned
+111,The York School,5,64913,916318,300 Kane Ave,Silverthorn Community School,Silverthorn Community School,05,York South-Weston,-79.46941511,43.68724942,0.21568412,0.4000,0.0000,candidate_returned
+111,Tichester Gardens,,,,,,,,,,,,,,no_candidates
+111,Timothy Eaton Memorial Church,,,,,,,,,,,,,,no_candidates
+111,Yorkminster Park Baptist Church,,,,,,,,,,,,,,no_candidates
+112,1166 Bay,1,8408351,608768,1166 Bay St,None,None,11,University-Rosedale,-79.38931571,43.66862009,0.28368706,0.0000,0.8000,candidate_returned
+112,18 Yorkville & The Villas,,,,,,,,,,,,,,no_candidates
+112,250 Davenport Road,,,,,,,,,,,,,,no_candidates
+112,360 On Bloor,1,30082473,1000153,360 Bloor St W,None,None,11,University-Rosedale,-79.40508231,43.66671955,0.28028935,0.0000,0.5714,candidate_returned
+112,360 On Bloor,2,8536387,712096,360 Bloor St E,None,None,11,University-Rosedale,-79.37812557,43.67248308,0.28016958,0.0000,0.5714,candidate_returned
+112,360 On Bloor,3,772785,878569,360 Bloor St W,None,None,11,University-Rosedale,-79.40511997,43.66677884,0.28016958,0.0000,0.5714,candidate_returned
+112,360 On Bloor,4,14211046,1037045,360A Bloor St W,None,None,11,University-Rosedale,-79.40518465,43.66664672,0.15630423,0.0000,0.2857,candidate_returned
+112,57 Charles At Bay,,,,,,,,,,,,,,no_candidates
+112,Annex Retirement Residence,,,,,,,,,,,,,,no_candidates
+112,Bellwoods Park House,,,,,,,,,,,,,,no_candidates
+112,Belmont House,,,,,,,,,,,,,,no_candidates
+112,Bloor Street Neighbourhood,,,,,,,,,,,,,,no_candidates
+112,Bob Abate Recreation Centre,,,,,,,,,,,,,,no_candidates
+112,Burano Condominium,,,,,,,,,,,,,,no_candidates
+112,Cecil Community Centre,,,,,,,,,,,,,,no_candidates
+112,Central Technical School,,,,,,,,,,,,,,no_candidates
+112,Church Of The Messiah,1,765454,543668,240 Avenue Rd,Church Of The Messiah,Church Of The Messiah,11,University-Rosedale,-79.39792161,43.67693383,0.24350019,1.0000,0.0000,candidate_returned
+112,Church Of The Redeemer,,,,,,,,,,,,,,no_candidates
+112,College Park Suites,,,,,,,,,,,,,,no_candidates
+112,College Street United Church,,,,,,,,,,,,,,no_candidates
+112,Conservatory Tower,,,,,,,,,,,,,,no_candidates
+112,Cumberland Terrace,,,,,,,,,,,,,,no_candidates
+112,Essex Junior & Senior Public School,1,30024677,613524,50 Essex St,Essex Junior and Senior School Public School,Essex Junior and Senior School Public School,11,University-Rosedale,-79.42236548,43.66823575,0.49815607,1.0000,0.2222,candidate_returned
+112,Harbord Collegiate Institute,,,,,,,,,,,,,,no_candidates
+112,Hart House-University Of Toronto,,,,,,,,,,,,,,no_candidates
+112,Hazelton Place,1,7979707,729785,111 Avenue Rd,Hazelton Place,Hazelton Place,11,University-Rosedale,-79.39547984,43.67319223,0.2537343,1.0000,0.0000,candidate_returned
+112,Horizon On Bay,,,,,,,,,,,,,,no_candidates
+112,Jesse Ketchum Public School,,,,,,,,,,,,,,no_candidates
+112,Kensington Apartments,,,,,,,,,,,,,,no_candidates
+112,Kensington Gardens-South,,,,,,,,,,,,,,no_candidates
+112,Kensington Manor,1,8104738,739857,34 Oxford St,Kensington Manor,Kensington Manor,11,University-Rosedale,-79.40179055,43.65689692,0.2537343,1.0000,0.0000,candidate_returned
+112,Knox Presbyterian Church,1,6332561,590711,4156 Sheppard Ave E,Knox Presbyterian Church,Knox Presbyterian Church,22,Scarborough-Agincourt,-79.28136453,43.78532097,0.4146932,1.0000,0.0000,candidate_returned
+112,Knox Presbyterian Church,2,870141,853725,630 Spadina Ave,Knox Presbyterian Church,Knox Presbyterian Church,11,University-Rosedale,-79.40239024,43.66254063,0.4146932,1.0000,0.0000,candidate_returned
+112,Leonardo Court,1,9879571,646849,72 Clinton St,Leonardo Court,Leonardo Court,11,University-Rosedale,-79.41495625,43.65568941,0.2537343,1.0000,0.0000,candidate_returned
+112,Lumiere Condominiums On Bay,,,,,,,,,,,,,,no_candidates
+112,Manulife Centre,,,,,,,,,,,,,,no_candidates
+112,Memphis Condominium,,,,,,,,,,,,,,no_candidates
+112,Minto Plaza,,,,,,,,,,,,,,no_candidates
+112,Mon Sheong Home For The Aged,,,,,,,,,,,,,,no_candidates
+112,Monsignor Fraser College,,,,,,,,,,,,,,no_candidates
+112,Montrose Junior Public School,,,,,,,,,,,,,,no_candidates
+112,Native Canadian Centre,,,,,,,,,,,,,,no_candidates
+112,O'Neill Centre,,,,,,,,,,,,,,no_candidates
+112,One Bloor Street East,,,,,,,,,,,,,,no_candidates
+112,One Park Lane,,,,,,,,,,,,,,no_candidates
+112,Our Lady Of Perpetual Help School,,,,,,,,,,,,,,no_candidates
+112,Pope Francis Catholic School,,,,,,,,,,,,,,no_candidates
+112,Ramsden Place,,,,,,,,,,,,,,no_candidates
+112,Renaissance Plaza,,,,,,,,,,,,,,no_candidates
+112,Residences On Bloor,,,,,,,,,,,,,,no_candidates
+112,Rosedale Glen,,,,,,,,,,,,,,no_candidates
+112,Rosedale Junior Public School,,,,,,,,,,,,,,no_candidates
+112,Rosedale Presbyterian Church,,,,,,,,,,,,,,no_candidates
+112,Rosedale United Church,,,,,,,,,,,,,,no_candidates
+112,Senator  David Croll Apartments,,,,,,,,,,,,,,no_candidates
+112,St. Alban's Boys & Girls Club,,,,,,,,,,,,,,no_candidates
+112,St. George Care Community,,,,,,,,,,,,,,no_candidates
+112,St. Joseph's College,,,,,,,,,,,,,,no_candidates
+112,St. Patrick`s Church,,,,,,,,,,,,,,no_candidates
+112,St. Paul's Bloor Street,,,,,,,,,,,,,,no_candidates
+112,St. Stephen's Church,1,574287,763959,3194 Weston Rd,St. Stephen's Presbyterian Church,St. Stephen's Presbyterian Church,07,Humber River-Black Creek,-79.53964367,43.73754629,0.40378124,0.8889,0.0000,candidate_returned
+112,Stone Church,1,790569,956122,45 Davenport Rd,Stone Church Pentecostal,Stone Church Pentecostal,11,University-Rosedale,-79.38982939,43.67272460,0.2526249,0.8000,0.0000,candidate_returned
+112,Stone Church,2,10736597,1021589,362 Bloor St W,The Living Stone Church,The Living Stone Church,11,University-Rosedale,-79.40578396,43.66651343,0.2506152,0.8000,0.0000,candidate_returned
+112,The Bellagio,,,,,,,,,,,,,,no_candidates
+112,The Liberties,,,,,,,,,,,,,,no_candidates
+112,The Penrose,,,,,,,,,,,,,,no_candidates
+112,The Residences Of College Park,,,,,,,,,,,,,,no_candidates
+112,The Uptown Residences,,,,,,,,,,,,,,no_candidates
+112,Thornwood I,1,877159,614608,22 Thornwood Rd,None,None,11,University-Rosedale,-79.38512059,43.68142112,0.07642204,0.0000,0.4000,candidate_returned
+112,Thornwood I,2,20363222,624369,20A Thornwood Rd,None,None,11,University-Rosedale,-79.38502886,43.68114712,0.07642204,0.0000,0.4000,candidate_returned
+112,Thornwood I,3,7949976,665068,5A Thornwood Rd,None,None,11,University-Rosedale,-79.38412541,43.68082756,0.07642204,0.0000,0.4000,candidate_returned
+112,Thornwood I,4,20363223,726665,20 Thornwood Rd,None,None,11,University-Rosedale,-79.38505447,43.68127217,0.07642204,0.0000,0.4000,candidate_returned
+112,Thornwood I,5,877156,589677,11 Thornwood Rd,None,None,11,University-Rosedale,-79.38502878,43.68192595,0.07642204,0.0000,0.4000,candidate_returned
+112,Thornwood II,,,,,,,,,,,,,,no_candidates
+112,École Élémentaire Pierre Elliot Trudeau,,,,,,,,,,,,,,no_candidates
+117,Aristo At Avonshire,,,,,,,,,,,,,,no_candidates
+117,Atrium,1,303578,581838,2 Atrium Lane,None,None,25,Scarborough-Rouge Park,-79.15074880,43.80130963,0.07642204,0.0000,0.5000,candidate_returned
+117,Atrium,2,303580,746348,4 Atrium Lane,None,None,25,Scarborough-Rouge Park,-79.15058748,43.80146194,0.07642204,0.0000,0.5000,candidate_returned
+117,Atrium,3,303579,879777,3 Atrium Lane,None,None,25,Scarborough-Rouge Park,-79.15002802,43.80118157,0.07642204,0.0000,0.5000,candidate_returned
+117,Atrium,4,303577,895761,1 Atrium Lane,None,None,25,Scarborough-Rouge Park,-79.15013023,43.80105103,0.07642204,0.0000,0.5000,candidate_returned
+117,Atrium II,,,,,,,,,,,,,,no_candidates
+117,Avondale Public School,,,,,,,,,,,,,,no_candidates
+117,Avondale Secondary Alternative School,,,,,,,,,,,,,,no_candidates
+117,Bayview Mansions,,,,,,,,,,,,,,no_candidates
+117,Bayview Mansions II,,,,,,,,,,,,,,no_candidates
+117,Beecroft Manor,,,,,,,,,,,,,,no_candidates
+117,Boulevard,1,14231683,541911,210 Copperfield Rd,Copperfield Rd Boulevard,Copperfield Rd Boulevard,25,Scarborough-Rouge Park,-79.16834437,43.76015673,0.0706241,0.5000,0.0000,candidate_returned
+117,Boulevard,2,30058951,571426,81 Regent Park Blvd,Regent Park Boulevard Park,Regent Park Boulevard Park,13,Toronto Centre,-79.36156862,43.66026592,0.0706241,0.5000,0.0000,candidate_returned
+117,Boulevard,3,30157702,601513,3 Austin Ter,Austin Terrace Boulevard Lands,Austin Terrace Boulevard Lands,12,Toronto-St. Paul's,-79.41098992,43.67821566,0.0706241,0.4000,0.0000,candidate_returned
+117,Boulevard,4,14199440,635616,1575 King St W,Beaty Boulevard Parkette,Beaty Boulevard Parkette,04,Parkdale-High Park,-79.44475260,43.63789207,0.0706241,0.5000,0.0000,candidate_returned
+117,Boulevard,5,6242368,787318,25 Brookmill Blvd,Brookmill Boulevard Junior Public School,Brookmill Boulevard Junior Public School,22,Scarborough-Agincourt,-79.31486801,43.80122038,0.0706241,0.3333,0.0000,candidate_returned
+117,Broadway One,,,,,,,,,,,,,,no_candidates
+117,Broadway Two,,,,,,,,,,,,,,no_candidates
+117,Cameron Public School,1,495911,656569,211 Cameron Ave,Cameron Public School,Cameron Public School,18,Willowdale,-79.42125155,43.75436070,0.42745325,1.0000,0.3333,candidate_returned
+117,Canterbury Place Retirement Residence,,,,,,,,,,,,,,no_candidates
+117,Carefree Lodge,,,,,,,,,,,,,,no_candidates
+117,Carrington Tower,,,,,,,,,,,,,,no_candidates
+117,Cheltenham Care Community,,,,,,,,,,,,,,no_candidates
+117,Churchill Public School,,,,,,,,,,,,,,no_candidates
+117,Cosmo 1 Residence- 35 Bales Avenue,,,,,,,,,,,,,,no_candidates
+117,Cosmo II- 31 Bales Avenue,,,,,,,,,,,,,,no_candidates
+117,Dynasty Tower,,,,,,,,,,,,,,no_candidates
+117,Earl Haig Secondary School,,,,,,,,,,,,,,no_candidates
+117,Eddington,,,,,,,,,,,,,,no_candidates
+117,Edithvale Community Centre,,,,,,,,,,,,,,no_candidates
+117,Empress Plaza I,,,,,,,,,,,,,,no_candidates
+117,Empress Plaza II,,,,,,,,,,,,,,no_candidates
+117,Finch Public School,1,9084973,936725,277 Finch Ave E,Finch Public School,Finch Public School,18,Willowdale,-79.39497420,43.78383308,0.4276857,1.0000,0.2857,candidate_returned
+117,Finch Public School,2,9246459,911520,80 Old Finch Ave,Heritage Park Public School,Heritage Park Public School,25,Scarborough-Rouge Park,-79.20772016,43.82135089,0.2702189,0.5714,0.2857,candidate_returned
+117,Fisherville Senior Public School,,,,,,,,,,,,,,no_candidates
+117,Goulding Park Community Centre,,,,,,,,,,,,,,no_candidates
+117,Grand Triomphe,,,,,,,,,,,,,,no_candidates
+117,Grand Triomphe 2,,,,,,,,,,,,,,no_candidates
+117,Grandview Northtown,,,,,,,,,,,,,,no_candidates
+117,Harrison,1,525261,856236,81 Harrison Rd,Harrison Public School,Harrison Public School,15,Don Valley West,-79.37730862,43.75736847,0.08170687,0.5000,0.5000,candidate_returned
+117,Harrison,2,525229,531069,26 Harrison Rd,None,None,15,Don Valley West,-79.37731652,43.75274002,0.07642204,0.0000,0.5000,candidate_returned
+117,Harrison,3,9950285,536995,68 Harrison Rd,None,None,15,Don Valley West,-79.37783279,43.75614367,0.07642204,0.0000,0.5000,candidate_returned
+117,Harrison,4,9950286,539155,69 Harrison Rd,None,None,15,Don Valley West,-79.37709579,43.75626703,0.07642204,0.0000,0.5000,candidate_returned
+117,Harrison,5,9950284,527094,67 Harrison Rd,None,None,15,Don Valley West,-79.37690010,43.75606644,0.07642204,0.0000,0.5000,candidate_returned
+117,Hollywood Plaza,,,,,,,,,,,,,,no_candidates
+117,Imperial I,,,,,,,,,,,,,,no_candidates
+117,Kempford Manor,,,,,,,,,,,,,,no_candidates
+117,Kingsdale,,,,,,,,,,,,,,no_candidates
+117,Lansing United Church,,,,,,,,,,,,,,no_candidates
+117,Lillian Public School,1,537109,654042,1059 Lillian St,Lillian Public School,Lillian Public School,18,Willowdale,-79.41039850,43.79782137,0.42745325,1.0000,0.3333,candidate_returned
+117,Luxe Condominiums,,,,,,,,,,,,,,no_candidates
+117,Majestic I,,,,,,,,,,,,,,no_candidates
+117,Majestic II,,,,,,,,,,,,,,no_candidates
+117,Manhattan Place,,,,,,,,,,,,,,no_candidates
+117,Mansions Of Avondale,,,,,,,,,,,,,,no_candidates
+117,Marquis At Northtown,,,,,,,,,,,,,,no_candidates
+117,Mckee Public School,1,13973429,667677,35 Church Ave,McKee Public School,McKee Public School,18,Willowdale,-79.41105625,43.77410786,0.4146932,1.0000,0.0000,candidate_returned
+117,Meridian Residences,,,,,,,,,,,,,,no_candidates
+117,Minto Gardens,,,,,,,,,,,,,,no_candidates
+117,Mona Lisa,,,,,,,,,,,,,,no_candidates
+117,Monaco,1,543537,607582,3 Monaco Crt,None,None,07,Humber River-Black Creek,-79.52776059,43.76474047,0.07642204,0.0000,0.5000,candidate_returned
+117,Monaco,2,543541,692673,7 Monaco Crt,None,None,07,Humber River-Black Creek,-79.52823022,43.76473163,0.07642204,0.0000,0.5000,candidate_returned
+117,Monaco,3,543542,693141,8 Monaco Crt,None,None,07,Humber River-Black Creek,-79.52839439,43.76487511,0.07642204,0.0000,0.5000,candidate_returned
+117,Monaco,4,543540,922736,6 Monaco Crt,None,None,07,Humber River-Black Creek,-79.52836867,43.76501858,0.07642204,0.0000,0.5000,candidate_returned
+117,Monaco,5,543539,925583,5 Monaco Crt,None,None,07,Humber River-Black Creek,-79.52798487,43.76470645,0.07642204,0.0000,0.5000,candidate_returned
+117,Monet,1,1019570,540158,14 Monet Ave,None,None,02,Etobicoke Centre,-79.57667961,43.64951117,0.07642204,0.0000,0.5000,candidate_returned
+117,Monet,2,1019573,602243,17 Monet Ave,None,None,02,Etobicoke Centre,-79.57619379,43.64972276,0.07642204,0.0000,0.5000,candidate_returned
+117,Monet,3,1019566,698024,9 Monet Ave,None,None,02,Etobicoke Centre,-79.57580402,43.64937972,0.07642204,0.0000,0.5000,candidate_returned
+117,Monet,4,1019574,711123,18 Monet Ave,None,None,02,Etobicoke Centre,-79.57638110,43.64969508,0.07642204,0.0000,0.5000,candidate_returned
+117,Monet,5,1019565,529795,8 Monet Ave,None,None,02,Etobicoke Centre,-79.57660822,43.64908353,0.07642204,0.0000,0.5000,candidate_returned
+117,Newtonbrook Secondary School,,,,,,,,,,,,,,no_candidates
+117,North York Central Library,,,,,,,,,,,,,,no_candidates
+117,One Kenton Place,,,,,,,,,,,,,,no_candidates
+117,Park Lane I,1,7684096,966286,60 Park Lane Crcl,Park Lane Public School,Park Lane Public School,15,Don Valley West,-79.36682006,43.72892362,0.37842557,0.5714,0.5714,candidate_returned
+117,Park Lane I,2,1023147,548689,7 Park Lane,None,None,03,Etobicoke-Lakeshore,-79.49278228,43.63263046,0.28321278,0.0000,0.6667,candidate_returned
+117,Park Lane I,3,1023151,614792,11 Park Lane,None,None,03,Etobicoke-Lakeshore,-79.49305521,43.63253371,0.28321278,0.0000,0.6667,candidate_returned
+117,Park Lane I,4,1023149,637721,9 Park Lane,None,None,03,Etobicoke-Lakeshore,-79.49292045,43.63259007,0.28321278,0.0000,0.6667,candidate_returned
+117,Park Lane I,5,1023145,644513,5 Park Lane,None,None,03,Etobicoke-Lakeshore,-79.49264140,43.63269506,0.28321278,0.0000,0.6667,candidate_returned
+117,Park Lane II,,,,,,,,,,,,,,no_candidates
+117,Park Palace,,,,,,,,,,,,,,no_candidates
+117,Parkside Northtown,,,,,,,,,,,,,,no_candidates
+117,Pavilion,,,,,,,,,,,,,,no_candidates
+117,Pavilion Del Sol,,,,,,,,,,,,,,no_candidates
+117,Pearl Condominiums,,,,,,,,,,,,,,no_candidates
+117,Peninsula Place,,,,,,,,,,,,,,no_candidates
+117,Pinnacle,,,,,,,,,,,,,,no_candidates
+117,Place Nouveau I,,,,,,,,,,,,,,no_candidates
+117,Place Nouveau II,,,,,,,,,,,,,,no_candidates
+117,Platinum Condominiums,,,,,,,,,,,,,,no_candidates
+117,Platinum XO,,,,,,,,,,,,,,no_candidates
+117,Princess Place 3 At 26 Olive Avenue,,,,,,,,,,,,,,no_candidates
+117,Pulse Condominiums,,,,,,,,,,,,,,no_candidates
+117,Residence Of Avondale,,,,,,,,,,,,,,no_candidates
+117,Residences Of Avonshire,,,,,,,,,,,,,,no_candidates
+117,Residences Of The Madison Centre,,,,,,,,,,,,,,no_candidates
+117,Rodeo Walk,,,,,,,,,,,,,,no_candidates
+117,Royal Pinnacle,,,,,,,,,,,,,,no_candidates
+117,Schwartz Reisman Senior Living,,,,,,,,,,,,,,no_candidates
+117,Skymark Centre At Avondale,,,,,,,,,,,,,,no_candidates
+117,Sommerset Way,1,13969456,615062,28 Sommerset Way,None,None,18,Willowdale,-79.41106062,43.77669634,0.2832591,0.0000,0.8000,candidate_returned
+117,Sommerset Way,2,14121200,682453,18 Sommerset Way,None,None,18,Willowdale,-79.41261915,43.77653579,0.2832591,0.0000,0.8000,candidate_returned
+117,Sonata,1,563547,543502,8 Sonata Cres,None,None,15,Don Valley West,-79.37035504,43.74544349,0.07642204,0.0000,0.5000,candidate_returned
+117,Sonata,2,563544,565331,5 Sonata Cres,None,None,15,Don Valley West,-79.37091568,43.74512987,0.07642204,0.0000,0.5000,candidate_returned
+117,Sonata,3,563543,602765,4 Sonata Cres,None,None,15,Don Valley West,-79.37028727,43.74505334,0.07642204,0.0000,0.5000,candidate_returned
+117,Sonata,4,563550,617324,11 Sonata Cres,None,None,15,Don Valley West,-79.37104651,43.74572157,0.07642204,0.0000,0.5000,candidate_returned
+117,Sonata,5,563552,527797,13 Sonata Cres,None,None,15,Don Valley West,-79.37109489,43.74592214,0.07642204,0.0000,0.5000,candidate_returned
+117,Spectrum I,1,14185385,711608,30 Harrison Garden Blvd,Spectrum,Spectrum,18,Willowdale,-79.40838031,43.75629257,0.0706241,0.6667,0.0000,candidate_returned
+117,Spectrum I,2,75474,735841,529 Vaughan Rd,Vaughan Road Academy,"Vaughan Road Academy, Spectrum Alternative Senior School",12,Toronto-St. Paul's,-79.43670283,43.69102170,0.057308756,0.2222,0.0000,candidate_returned
+117,Spectrum II,,,,,,,,,,,,,,no_candidates
+117,Spring Garden Church,1,20097443,844634,112 Spring Garden Ave,Spring Garden Baptist Church,Spring Garden Baptist Church,18,Willowdale,-79.40622788,43.76535132,0.45877174,0.8571,0.5714,candidate_returned
+117,St. Edward The Confessor Catholic Church,,,,,,,,,,,,,,no_candidates
+117,St. Elizabeth Of Hungary Parish,,,,,,,,,,,,,,no_candidates
+117,St. Joseph Morrow Park Catholic S.S.,,,,,,,,,,,,,,no_candidates
+117,Symphony Square,,,,,,,,,,,,,,no_candidates
+117,The Chicago,,,,,,,,,,,,,,no_candidates
+117,The Dalemount,1,8140745,538290,161 Dalemount Ave,None,None,08,Eglinton-Lawrence,-79.43455819,43.71558079,0.07642204,0.0000,0.5000,candidate_returned
+117,The Dalemount,2,8141133,550270,150 Dalemount Ave,None,None,08,Eglinton-Lawrence,-79.43562636,43.71551423,0.07642204,0.0000,0.5000,candidate_returned
+117,The Dalemount,3,8140740,569338,128 Dalemount Ave,None,None,08,Eglinton-Lawrence,-79.43425433,43.71456658,0.07642204,0.0000,0.5000,candidate_returned
+117,The Dalemount,4,505118,592045,60 Dalemount Ave,None,None,08,Eglinton-Lawrence,-79.43284174,43.71111577,0.07642204,0.0000,0.5000,candidate_returned
+117,The Dalemount,5,505119,530576,68 Dalemount Ave,None,None,08,Eglinton-Lawrence,-79.43303628,43.71157138,0.07642204,0.0000,0.5000,candidate_returned
+117,The Galleria,1,30147067,582630,135 Galleria Rd,None,None,09,Davenport,-79.44287749,43.66700090,0.07642204,0.0000,0.5000,candidate_returned
+117,The Galleria,2,30147085,595866,130 Galleria Rd,None,None,09,Davenport,-79.44248187,43.66730517,0.07642204,0.0000,0.5000,candidate_returned
+117,The Galleria,3,30147065,629744,70 Galleria Rd,None,None,09,Davenport,-79.44153529,43.66727223,0.07642204,0.0000,0.5000,candidate_returned
+117,The Galleria,4,30147049,632695,50 Galleria Rd,None,None,09,Davenport,-79.44054327,43.66730885,0.07642204,0.0000,0.5000,candidate_returned
+117,The Galleria,5,30147038,560102,10 Galleria Rd,None,None,09,Davenport,-79.43931036,43.66725189,0.07642204,0.0000,0.5000,candidate_returned
+117,Triomphe I And II,,,,,,,,,,,,,,no_candidates
+117,Turnberry Court Condominiums,,,,,,,,,,,,,,no_candidates
+117,Ultima North,,,,,,,,,,,,,,no_candidates
+117,Ultima South,,,,,,,,,,,,,,no_candidates
+117,Vogue Condominiums,,,,,,,,,,,,,,no_candidates
+117,Wellspring Worship Centre,,,,,,,,,,,,,,no_candidates
+117,Willowdale Manor,,,,,,,,,,,,,,no_candidates
+117,Yorkview Public School,1,579389,727010,130 Yorkview Dr,Yorkview Public School,Yorkview Public School,18,Willowdale,-79.43556643,43.77257361,0.42745328,1.0000,0.3333,candidate_returned
+117,É.S.C. Monsigneur-De-Charbonnel,,,,,,,,,,,,,,no_candidates
+120,Advent Forestview Retirement Residence,,,,,,,,,,,,,,no_candidates
+120,Advent Valleyview Residence,,,,,,,,,,,,,,no_candidates
+120,Antibes Community Centre,,,,,,,,,,,,,,no_candidates
+120,Aptus Treatment Centre,,,,,,,,,,,,,,no_candidates
+120,B'Nai Brith - Upper Canada Lodge,,,,,,,,,,,,,,no_candidates
+120,B'Nai Brith Canada Seniors Citizen Res.,,,,,,,,,,,,,,no_candidates
+120,Baroness Apartments,,,,,,,,,,,,,,no_candidates
+120,Bathville Towers,,,,,,,,,,,,,,no_candidates
+120,Beth Emeth Bais Yehuda Synagogue,,,,,,,,,,,,,,no_candidates
+120,Beverley Heights Middle School,,,,,,,,,,,,,,no_candidates
+120,Blaydon Public School,1,490361,869145,25 Blaydon Ave,Blaydon Public School,Blaydon Public School,06,York Centre,-79.48625614,43.73535722,0.42489222,1.0000,0.3333,candidate_returned
+120,Branson Towers,,,,,,,,,,,,,,no_candidates
+120,Calico Public School,1,495446,716118,35 Calico Dr,Calico Public School,Calico Public School,06,York Centre,-79.50359204,43.73790617,0.42489222,1.0000,0.3333,candidate_returned
+120,Canyon Towers,,,,,,,,,,,,,,no_candidates
+120,Champlain Apts.,,,,,,,,,,,,,,no_candidates
+120,Charles H. Best Middle School,,,,,,,,,,,,,,no_candidates
+120,Church Of The Resurrection,,,,,,,,,,,,,,no_candidates
+120,Concourse Apartments,,,,,,,,,,,,,,no_candidates
+120,Dehaviland Court,,,,,,,,,,,,,,no_candidates
+120,Downsview Acres,,,,,,,,,,,,,,no_candidates
+120,Downsview Long-Term Care Centre,,,,,,,,,,,,,,no_candidates
+120,Downsview Public School,1,10154479,935425,2829 Keele St,Downsview Public School,Downsview Public School,06,York Centre,-79.48243580,43.73111384,0.4146932,1.0000,0.0000,candidate_returned
+120,Dublin Hgts. Elementary & Middle School,,,,,,,,,,,,,,no_candidates
+120,El Presidente,,,,,,,,,,,,,,no_candidates
+120,Fairway Downs,,,,,,,,,,,,,,no_candidates
+120,Faywood Arts-Based Curriculum School,,,,,,,,,,,,,,no_candidates
+120,Gardenview Terrace,,,,,,,,,,,,,,no_candidates
+120,Havenbrook Apts.,,,,,,,,,,,,,,no_candidates
+120,Herbert H. Carnegie Centennial Centre,,,,,,,,,,,,,,no_candidates
+120,Highview Public School,1,2119836,723092,22 Highview Ave,Highview Public School,Highview Public School,06,York Centre,-79.49723027,43.72195105,0.42460376,1.0000,0.3333,candidate_returned
+120,Highview Public School,2,343964,987007,120 Highview Ave,Birch Cliff Heights Public School,Birch Cliff Heights Public School,20,Scarborough Southwest,-79.25981663,43.70174139,0.28745717,0.5000,0.3333,candidate_returned
+120,Irving W. Chapley Community Centre,,,,,,,,,,,,,,no_candidates
+120,Kensington Place Ret. Living,,,,,,,,,,,,,,no_candidates
+120,La Place Victoria,1,576353,709349,1154 Wilson Ave,La Place Victoria,La Place Victoria,06,York Centre,-79.48641859,43.72645803,0.4146932,1.0000,0.0000,candidate_returned
+120,Le Plateau II,,,,,,,,,,,,,,no_candidates
+120,Monaco Towers,,,,,,,,,,,,,,no_candidates
+120,Northview Heights Secondary School,,,,,,,,,,,,,,no_candidates
+120,Portrait Condos TSCC 2356,,,,,,,,,,,,,,no_candidates
+120,Primrose I MTCC 808,,,,,,,,,,,,,,no_candidates
+120,Primrose II MTCC 847,,,,,,,,,,,,,,no_candidates
+120,Rafaello Place,,,,,,,,,,,,,,no_candidates
+120,Rockford Public School,1,9212874,785964,60 Rockford Rd,Rockford Public School,Rockford Public School,06,York Centre,-79.45244141,43.78580052,0.42489222,1.0000,0.3333,candidate_returned
+120,Roding Park Place,,,,,,,,,,,,,,no_candidates
+120,Sheppard Place,1,487314,788304,4455 Bathurst St,Sheppard Place,Sheppard Place,06,York Centre,-79.43863796,43.75833886,0.2537343,1.0000,0.0000,candidate_returned
+120,Sheppard Place,2,14072506,546734,644 Sheppard Ave E,Bayview Village Place,Bayview Village Place,17,Don Valley North,-79.38311955,43.76966531,0.04205506,0.4000,0.3333,candidate_returned
+120,Sheppard Place,3,5635086,632800,866 Sheppard Ave W,Kensington Place Retirement Residence,Kensington Place Retirement Residence,06,York Centre,-79.45392821,43.75248684,0.032243457,0.3333,0.3333,candidate_returned
+120,Sheppard Public School,1,10133016,1038449,1430 Sheppard Ave W,Sheppard Public School,Sheppard Public School,06,York Centre,-79.48826066,43.74542436,0.42484647,1.0000,0.2857,candidate_returned
+120,Silver Springs,,,,,,,,,,,,,,no_candidates
+120,Somerset Apts.,,,,,,,,,,,,,,no_candidates
+120,St. Conrad Catholic School,,,,,,,,,,,,,,no_candidates
+120,St. Norbert Catholic Elementary School,,,,,,,,,,,,,,no_candidates
+120,St. Raphael Catholic School,,,,,,,,,,,,,,no_candidates
+120,Summit Heights Public School,,,,,,,,,,,,,,no_candidates
+120,The Hemisphere II MTCC 584,,,,,,,,,,,,,,no_candidates
+120,The Max Condos,,,,,,,,,,,,,,no_candidates
+120,The Savoy MTCC 815,,,,,,,,,,,,,,no_candidates
+120,Tumpane Public School,,,,,,,,,,,,,,no_candidates
+120,Valencia Towers I,,,,,,,,,,,,,,no_candidates
+120,Viewpoint Towers,,,,,,,,,,,,,,no_candidates
+120,West Don Apts.,,,,,,,,,,,,,,no_candidates
+120,William Lyon Mackenzie C.I.,,,,,,,,,,,,,,no_candidates
+120,York Condo Corp #74,,,,,,,,,,,,,,no_candidates
+122,720 Trethewey Dr,1,20063298,537701,720 Trethewey Dr,None,None,05,York South-Weston,-79.50094175,43.69796361,0.43706858,0.0000,1.0000,candidate_returned
+122,Amesbury Community Centre - Gym,,,,,,,,,,,,,,no_candidates
+122,Amesbury Heights Apts / Altair Apts,,,,,,,,,,,,,,no_candidates
+122,Amesbury Middle School,,,,,,,,,,,,,,no_candidates
+122,Artisan (Willow Glen) Apts.,,,,,,,,,,,,,,no_candidates
+122,Bala Community School,,,,,,,,,,,,,,no_candidates
+122,Bellevue Apartments,,,,,,,,,,,,,,no_candidates
+122,Brookhaven Public School,1,493354,938548,70 Brookhaven Dr,Brookhaven Public School,Brookhaven Public School,05,York South-Weston,-79.49569440,43.70250631,0.42078924,1.0000,0.3333,candidate_returned
+122,C.R. Marchant Middle School,,,,,,,,,,,,,,no_candidates
+122,Casa Abruzzo,1,10631344,951322,338 Falstaff Ave,Casa Abruzzo,Casa Abruzzo,05,York South-Weston,-79.48286094,43.72049820,0.2537343,1.0000,0.0000,candidate_returned
+122,Central King Seniors Residence,,,,,,,,,,,,,,no_candidates
+122,Cordella Jr. Public School,,,,,,,,,,,,,,no_candidates
+122,Dennis Community School (Rockcliffe),,,,,,,,,,,,,,no_candidates
+122,Frank Oke Secondary School,,,,,,,,,,,,,,no_candidates
+122,George Anderson Public School,,,,,,,,,,,,,,no_candidates
+122,George Syme Community School,,,,,,,,,,,,,,no_candidates
+122,Greenborough Community Church,,,,,,,,,,,,,,no_candidates
+122,Greenview Apts. (Ycc-241),,,,,,,,,,,,,,no_candidates
+122,H.J. Alexander Community School,,,,,,,,,,,,,,no_candidates
+122,Harold & Grace Baker Centre,,,,,,,,,,,,,,no_candidates
+122,Hickory Tree Co-Op,,,,,,,,,,,,,,no_candidates
+122,Humberview Housing Co-Op,,,,,,,,,,,,,,no_candidates
+122,Immaculate Conception Catholic School,,,,,,,,,,,,,,no_candidates
+122,Lambton Park Community School,,,,,,,,,,,,,,no_candidates
+122,Lambton Square,,,,,,,,,,,,,,no_candidates
+122,Maple Creek Apts.,,,,,,,,,,,,,,no_candidates
+122,Maple Leaf Drive Seniors Apts.,,,,,,,,,,,,,,no_candidates
+122,Maple Leaf Public School,,,,,,,,,,,,,,no_candidates
+122,Our Lady Of Victory Catholic School,,,,,,,,,,,,,,no_candidates
+122,Our Lady Of Victory Seniors Residence,,,,,,,,,,,,,,no_candidates
+122,Outlook Manor,1,69968,709899,55 Outlook Ave,Outlook Manor,Outlook Manor,05,York South-Weston,-79.49623713,43.67843826,0.2724261,1.0000,0.4000,candidate_returned
+122,Peace Community Church Of Jesus Christ,,,,,,,,,,,,,,no_candidates
+122,Pelmo Park Community Centre,,,,,,,,,,,,,,no_candidates
+122,Pelmo Park Public School,1,519066,547129,180 Gary Dr,Pelmo Park Public School,Pelmo Park Public School,05,York South-Weston,-79.51811616,43.71205673,0.47649637,1.0000,0.0000,candidate_returned
+122,Plaut Manor,1,4504120,953599,2480 Eglinton Ave W,Plaut Manor,Plaut Manor,05,York South-Weston,-79.46940805,43.69168989,0.2537343,1.0000,0.0000,candidate_returned
+122,Portage Trail Community School,,,,,,,,,,,,,,no_candidates
+122,River Ridge Apts.,,,,,,,,,,,,,,no_candidates
+122,Riverview Apts.,,,,,,,,,,,,,,no_candidates
+122,Roselands Jr. Public School,,,,,,,,,,,,,,no_candidates
+122,Silverthorn Jr Public School,,,,,,,,,,,,,,no_candidates
+122,Silverthorn Place,,,,,,,,,,,,,,no_candidates
+122,St. Bernard Catholic School,,,,,,,,,,,,,,no_candidates
+122,St. Fidelis Catholic School,,,,,,,,,,,,,,no_candidates
+122,St. Francis Xavier Catholic School,,,,,,,,,,,,,,no_candidates
+122,St. Matthew Catholic School,,,,,,,,,,,,,,no_candidates
+122,St. Oscar Romero Catholic S.S.,,,,,,,,,,,,,,no_candidates
+122,Trimbee Court,,,,,,,,,,,,,,no_candidates
+122,Valleyview Apts.,,,,,,,,,,,,,,no_candidates
+122,Villa Gaspar,,,,,,,,,,,,,,no_candidates
+122,West Park Long-Term Care Centre,,,,,,,,,,,,,,no_candidates
+122,Weston Branch Library,,,,,,,,,,,,,,no_candidates
+122,Weston Gardens Retirement Residence,,,,,,,,,,,,,,no_candidates
+122,Weston Memorial Jr. Public School,,,,,,,,,,,,,,no_candidates
+122,Weston Terrace Care Community,,,,,,,,,,,,,,no_candidates
+122,York Humber High School,1,9344875,622446,100 Emmett Ave,York Humber High School,York Humber High School,05,York South-Weston,-79.50617745,43.68856919,0.48942012,1.0000,0.0000,candidate_returned
+122,York Memorial Collegiate Institute,,,,,,,,,,,,,,no_candidates
+122,York Recreation Centre,,,,,,,,,,,,,,no_candidates
+122,École Élémentaire Mathieu-Da-Costa,,,,,,,,,,,,,,no_candidates
+19,Alexander Muir/Gladstone Jr. & Snr. P.S.,,,,,,,,,,,,,,no_candidates
+19,Bill McMurray Residence,,,,,,,,,,,,,,no_candidates
+19,Carleton Village Jr. and Snr. P.S.,,,,,,,,,,,,,,no_candidates
+19,Dovercourt Boys And Girls Club,,,,,,,,,,,,,,no_candidates
+19,Dovercourt Public School,1,6619920,766868,228 Bartlett Ave,Dovercourt Public School,Dovercourt Public School,09,Davenport,-79.43577895,43.66673561,0.4146932,1.0000,0.0000,candidate_returned
+19,Dupont Loft Residences,,,,,,,,,,,,,,no_candidates
+19,Ennerdale Baptist Church,,,,,,,,,,,,,,no_candidates
+19,F.H. Miller Junior Public School,,,,,,,,,,,,,,no_candidates
+19,Fairview Nursing Home,,,,,,,,,,,,,,no_candidates
+19,Fuse Condos,,,,,,,,,,,,,,no_candidates
+19,Joseph J. Piccininni Community Centre,,,,,,,,,,,,,,no_candidates
+19,Loretto College School,,,,,,,,,,,,,,no_candidates
+19,Mary McCormick Recreation Centre,,,,,,,,,,,,,,no_candidates
+19,New Horizons Tower,,,,,,,,,,,,,,no_candidates
+19,Oakwood Collegiate Institute,,,,,,,,,,,,,,no_candidates
+19,Ossington/Old Orchard Jr. Public School,,,,,,,,,,,,,,no_candidates
+19,Perth Avenue Housing Co-operative,,,,,,,,,,,,,,no_candidates
+19,Portuguese-Speaking Presbyterian Church,,,,,,,,,,,,,,no_candidates
+19,Rankin Apartments,,,,,,,,,,,,,,no_candidates
+19,Rawlinson Community School,,,,,,,,,,,,,,no_candidates
+19,Regal Road Junior Public School,1,9270479,937538,95 Regal Rd,Regal Road Junior Public School,Regal Road Junior Public School,09,Davenport,-79.44006329,43.67377517,0.49564138,1.0000,0.2500,candidate_returned
+19,Shirley Street Public School,1,10759447,555096,38 Shirley St,Shirley Street Junior Public School,Shirley Street Junior Public School,09,Davenport,-79.43672217,43.64852424,0.47730553,0.8889,0.2857,candidate_returned
+19,St. Anne's Place,,,,,,,,,,,,,,no_candidates
+19,St. Anthony Catholic School,,,,,,,,,,,,,,no_candidates
+19,St. Clare Catholic Elementary School,,,,,,,,,,,,,,no_candidates
+19,St. Clare's Multifaith Housing,,,,,,,,,,,,,,no_candidates
+19,St. Helen Catholic School,,,,,,,,,,,,,,no_candidates
+19,St. John Bosco Catholic School,,,,,,,,,,,,,,no_candidates
+19,St. Luigi Catholic School,,,,,,,,,,,,,,no_candidates
+19,St. Mary Catholic Academy,,,,,,,,,,,,,,no_candidates
+19,St. Mary Of The Angels Catholic School,,,,,,,,,,,,,,no_candidates
+19,St. Nicholas Of Bari Catholic School,,,,,,,,,,,,,,no_candidates
+19,St. Rita Catholic School,,,,,,,,,,,,,,no_candidates
+19,St. Sebastian Catholic School,,,,,,,,,,,,,,no_candidates
+19,Stella Maris Catholic School,,,,,,,,,,,,,,no_candidates
+19,Terra Nova,1,2695742,655423,1289 Dundas St W,Terra Nova,Terra Nova,09,Davenport,-79.42541610,43.64921282,0.2537343,1.0000,0.0000,candidate_returned
+19,The Salvation Army Bloor Central,,,,,,,,,,,,,,no_candidates
+19,Upside Down Condos 1,,,,,,,,,,,,,,no_candidates
+19,Upside Down Condos 2,,,,,,,,,,,,,,no_candidates
+19,Villa Las Flores,,,,,,,,,,,,,,no_candidates
+19,Wallace Emerson Community Centre,,,,,,,,,,,,,,no_candidates
+19,West Neighbourhood House,,,,,,,,,,,,,,no_candidates
+19,Westside Gallery Lofts (150/170 Sudbury),,,,,,,,,,,,,,no_candidates
+19,É.S.C. Saint-Frère-André,,,,,,,,,,,,,,no_candidates
+19,É.É. Charles-Sauriol,,,,,,,,,,,,,,no_candidates
+20,Bellair Gardens,,,,,,,,,,,,,,no_candidates
+20,Brookbanks Public Library,,,,,,,,,,,,,,no_candidates
+20,Cassandra Public School,1,497128,768000,45 Cassandra Blvd,Cassandra Public School,Cassandra Public School,16,Don Valley East,-79.32890148,43.74842501,0.42258117,1.0000,0.3333,candidate_returned
+20,Concorde Park,,,,,,,,,,,,,,no_candidates
+20,Delmanor Wynford,,,,,,,,,,,,,,no_candidates
+20,Dennis R. Timbrell Resource Centre,,,,,,,,,,,,,,no_candidates
+20,Don Mills Middle School,,,,,,,,,,,,,,no_candidates
+20,Donview Health And Wellness Academy,,,,,,,,,,,,,,no_candidates
+20,Donway Place,1,568395,608750,8 The Donway E,Donway Place,Donway Place,16,Don Valley East,-79.34045300,43.73471241,0.2680859,1.0000,0.4000,candidate_returned
+20,Duncan Mills Laborers Local 183,,,,,,,,,,,,,,no_candidates
+20,Flemingdon Community Centre,,,,,,,,,,,,,,no_candidates
+20,Fountain View Care Comm. (Building 2),,,,,,,,,,,,,,no_candidates
+20,George S. Henry Academy,,,,,,,,,,,,,,no_candidates
+20,Goldengate Apartments,,,,,,,,,,,,,,no_candidates
+20,Greenview Lodge,,,,,,,,,,,,,,no_candidates
+20,Highgate Condos (Mtcc 638),,,,,,,,,,,,,,no_candidates
+20,Latvian Canadian Cultural Centre,,,,,,,,,,,,,,no_candidates
+20,Linkway Village Rec. Centre,,,,,,,,,,,,,,no_candidates
+20,Milne Valley Middle School,,,,,,,,,,,,,,no_candidates
+20,Norman Ingram Public School,1,510159,606851,50 Duncairn Rd,Norman Ingram Public School,Norman Ingram Public School,16,Don Valley East,-79.34960615,43.73995245,0.47649637,1.0000,0.0000,candidate_returned
+20,Oasis Condos,,,,,,,,,,,,,,no_candidates
+20,Openg Local Non-Profit Housing,,,,,,,,,,,,,,no_candidates
+20,Overland Learning Centre,,,,,,,,,,,,,,no_candidates
+20,Ranchdale Public School,,,,,,,,,,,,,,no_candidates
+20,Rayoak Place,1,579044,1015321,1340 York Mills Rd,Rayoak Place Retirement Residence,Rayoak Place Retirement Residence,16,Don Valley East,-79.32017297,43.76311259,0.2506152,0.6667,0.0000,candidate_returned
+20,Rene Gordon Health And Wellness Academy,,,,,,,,,,,,,,no_candidates
+20,Sanderling Place,,,,,,,,,,,,,,no_candidates
+20,Sloane Public School,,,,,,,,,,,,,,no_candidates
+20,St. Catherine C.S.,,,,,,,,,,,,,,no_candidates
+20,St. Mark's Presbyterian Church,,,,,,,,,,,,,,no_candidates
+20,Sunrise Towers,,,,,,,,,,,,,,no_candidates
+20,The Accolade,,,,,,,,,,,,,,no_candidates
+20,The Citadel,1,320256,536737,106 Citadel Dr,None,None,21,Scarborough Centre,-79.25320593,43.74207605,0.07642204,0.0000,0.5000,candidate_returned
+20,The Citadel,2,320229,539811,65 Citadel Dr,None,None,21,Scarborough Centre,-79.25719122,43.74123750,0.07642204,0.0000,0.5000,candidate_returned
+20,The Citadel,3,320216,540112,50 Citadel Dr,None,None,21,Scarborough Centre,-79.25705835,43.74170318,0.07642204,0.0000,0.5000,candidate_returned
+20,The Citadel,4,320201,541464,35 Citadel Dr,None,None,21,Scarborough Centre,-79.25947141,43.74150649,0.07642204,0.0000,0.5000,candidate_returned
+20,The Citadel,5,320183,527083,10 Citadel Dr,None,None,21,Scarborough Centre,-79.25892316,43.74277005,0.07642204,0.0000,0.5000,candidate_returned
+20,The Donway Baptist Church,1,568402,602011,235 The Donway E,Baptist Church,Baptist Church,16,Don Valley East,-79.34234798,43.74069132,0.2793155,0.8000,0.3333,candidate_returned
+20,The Haven,1,8802121,527143,36 East Haven Dr,None,None,20,Scarborough Southwest,-79.25115054,43.70537758,0.07642204,0.0000,0.4000,candidate_returned
+20,The Haven,2,846442,527173,12 New Haven Dr,None,None,08,Eglinton-Lawrence,-79.41806733,43.70623568,0.07642204,0.0000,0.4000,candidate_returned
+20,The Haven,3,342757,528470,89 Haven Hill Sq,None,None,23,Scarborough North,-79.28923862,43.80895667,0.07642204,0.0000,0.4000,candidate_returned
+20,The Haven,4,2902842,529843,6 Sandy Haven Dr,None,None,22,Scarborough-Agincourt,-79.31734655,43.80749975,0.07642204,0.0000,0.4000,candidate_returned
+20,The Haven,5,342739,526377,62 Haven Hill Sq,None,None,23,Scarborough North,-79.28827375,43.80937511,0.07642204,0.0000,0.4000,candidate_returned
+20,The Palisades,,,,,,,,,,,,,,no_candidates
+20,The Pioneer Place,,,,,,,,,,,,,,no_candidates
+20,The Rosewood,1,1028876,641307,7 Rosewood Ave,None,None,03,Etobicoke-Lakeshore,-79.50854440,43.62571836,0.07642204,0.0000,0.5000,candidate_returned
+20,The Rosewood,2,1028887,665281,23 Rosewood Ave,None,None,03,Etobicoke-Lakeshore,-79.50997267,43.62540122,0.07642204,0.0000,0.5000,candidate_returned
+20,The Rosewood,3,1028880,699543,11 Rosewood Ave,None,None,03,Etobicoke-Lakeshore,-79.50890721,43.62562324,0.07642204,0.0000,0.5000,candidate_returned
+20,The Rosewood,4,1028874,715984,3 Rosewood Ave,None,None,03,Etobicoke-Lakeshore,-79.50810279,43.62582104,0.07642204,0.0000,0.5000,candidate_returned
+20,The Rosewood,5,1028886,541392,21 Rosewood Ave,None,None,03,Etobicoke-Lakeshore,-79.50981893,43.62544797,0.07642204,0.0000,0.5000,candidate_returned
+20,The Savoy,1,33916,566822,9 Savoy Ave,None,None,19,Beaches-East York,-79.31675133,43.69717074,0.07642204,0.0000,0.5000,candidate_returned
+20,The Savoy,2,33925,569278,18 Savoy Ave,None,None,19,Beaches-East York,-79.31655045,43.69755106,0.07642204,0.0000,0.5000,candidate_returned
+20,The Savoy,3,33923,572630,16 Savoy Ave,None,None,19,Beaches-East York,-79.31663676,43.69753066,0.07642204,0.0000,0.5000,candidate_returned
+20,The Savoy,4,33931,575387,24 Savoy Ave,None,None,19,Beaches-East York,-79.31620502,43.69767650,0.07642204,0.0000,0.5000,candidate_returned
+20,The Savoy,5,33920,560619,13 Savoy Ave,None,None,19,Beaches-East York,-79.31659236,43.69721267,0.07642204,0.0000,0.5000,candidate_returned
+20,Thompson House,,,,,,,,,,,,,,no_candidates
+20,Three Valleys Public School,1,568636,536447,76 Three Valleys Dr,Three Valleys Public School,Three Valleys Public School,16,Don Valley East,-79.33760440,43.75068066,0.4416676,1.0000,0.5000,candidate_returned
+20,Toronto Korean Presbyterian Church,1,8408601,576281,455 Huron St,Light Korean Presbyterian Church,Light Korean Presbyterian Church,11,University-Rosedale,-79.40143846,43.66775784,0.44402066,0.7500,0.0000,candidate_returned
+20,Victoria Park Collegiate Institute,,,,,,,,,,,,,,no_candidates
+20,Victoria Town Recreation Centre,,,,,,,,,,,,,,no_candidates
+20,Victoria Village Public Library,,,,,,,,,,,,,,no_candidates
+20,Victoria Village Public School,,,,,,,,,,,,,,no_candidates
+20,WYNFORD TOWER,1,577941,873581,35 Wynford Heights Cres,Wynford Tower,Wynford Tower,16,Don Valley East,-79.32622283,43.72631029,0.27163213,1.0000,0.3333,candidate_returned
+20,Wycliffe Mews,,,,,,,,,,,,,,no_candidates
+20,Wynford Central,,,,,,,,,,,,,,no_candidates
+20,Wynford North,1,577944,838475,65 Wynford Heights Cres,Wynford North,Wynford North,16,Don Valley East,-79.32413856,43.72830959,0.33949232,1.0000,0.3333,candidate_returned
+20,Wynford North,2,577942,867901,45 Wynford Heights Cres,Wynford South,Wynford South,16,Don Valley East,-79.32554877,43.72698161,0.18363534,0.5000,0.3333,candidate_returned
+20,Wynford North,3,577941,873581,35 Wynford Heights Cres,Wynford Tower,Wynford Tower,16,Don Valley East,-79.32622283,43.72631029,0.18363534,0.5000,0.3333,candidate_returned
+20,Wynford North,4,500809,933110,15 Club Golfway,Wynford Park Recreation Centre,Wynford Park Recreation Centre,16,Don Valley East,-79.32495645,43.71844116,0.09383868,0.3333,0.0000,candidate_returned
+20,Wynford North,5,3259844,610900,205 Wynford Dr,None,None,16,Don Valley East,-79.32623521,43.72374302,0.071809374,0.0000,0.4000,candidate_returned
+20,Wynford Place,,,,,,,,,,,,,,no_candidates
+20,Wynford Recreation Centre,,,,,,,,,,,,,,no_candidates
+20,Wynford South,1,577942,867901,45 Wynford Heights Cres,Wynford South,Wynford South,16,Don Valley East,-79.32554877,43.72698161,0.27163213,1.0000,0.3333,candidate_returned
+20,York Mills Heights,,,,,,,,,,,,,,no_candidates
+21,A.Y. Jackson Secondary School,,,,,,,,,,,,,,no_candidates
+21,Amica Bayview Gardens,,,,,,,,,,,,,,no_candidates
+21,Amica Bayview Village,,,,,,,,,,,,,,no_candidates
+21,Arc Condos,,,,,,,,,,,,,,no_candidates
+21,Bayview Middle School,,,,,,,,,,,,,,no_candidates
+21,Bayview Village Place At 644 Sheppard,,,,,,,,,,,,,,no_candidates
+21,Blessed Trinity Catholic School,,,,,,,,,,,,,,no_candidates
+21,Chartwell Gibson Ltc Residence,,,,,,,,,,,,,,no_candidates
+21,Chartwell Gibson Retirement Residences,,,,,,,,,,,,,,no_candidates
+21,Cherokee Public School,,,,,,,,,,,,,,no_candidates
+21,Cliffwood Manor Apartments,,,,,,,,,,,,,,no_candidates
+21,Cliffwood Public School,1,8649130,939592,140 Cliffwood Rd,Cliffwood Public School,Cliffwood Public School,17,Don Valley North,-79.36006860,43.80629209,0.42258117,1.0000,0.3333,candidate_returned
+21,Cresthaven Public School,1,504194,686007,46 Cresthaven Dr,Cresthaven Public School,Cresthaven Public School,17,Don Valley North,-79.36354025,43.79721914,0.42258117,1.0000,0.3333,candidate_returned
+21,Crestview Public School,1,560542,699579,101 Seneca Hill Dr,Crestview Public School,Crestview Public School,17,Don Valley North,-79.35984660,43.78843218,0.4146932,1.0000,0.0000,candidate_returned
+21,Cummer Park Community Centre,,,,,,,,,,,,,,no_candidates
+21,Dallington Public School,1,9963285,913508,18 Dallington Dr,Dallington Public School,Dallington Public School,17,Don Valley North,-79.35475535,43.77712812,0.42258117,1.0000,0.3333,candidate_returned
+21,Discovery Condos,,,,,,,,,,,,,,no_candidates
+21,Don Valley Middle School,,,,,,,,,,,,,,no_candidates
+21,Elkhorn Public School,1,4504013,549576,10 Elkhorn Dr,Elkhorn Public School,Elkhorn Public School,17,Don Valley North,-79.38006243,43.77121540,0.42258117,1.0000,0.3333,candidate_returned
+21,Empire Condos,,,,,,,,,,,,,,no_candidates
+21,Ernest Public School,1,498502,1036582,150 Cherokee Blvd,Ernest Public School,Ernest Public School,17,Don Valley North,-79.33738257,43.79141547,0.4146932,1.0000,0.0000,candidate_returned
+21,Ernest Public School,2,346660,675015,149 Huntsmill Blvd,Sir Ernest MacMillan Senior Public School,Sir Ernest MacMillan Senior Public School,22,Scarborough-Agincourt,-79.32863823,43.80663833,0.39880943,0.6667,0.0000,candidate_returned
+21,Extendicare Bayview,,,,,,,,,,,,,,no_candidates
+21,Forest Manor Public School,1,517448,562449,25 Forest Manor Rd,Forest Manor Public School,Forest Manor Public School,17,Don Valley North,-79.34306680,43.77104274,0.4881014,1.0000,0.5000,candidate_returned
+21,Harold Green Apartments,,,,,,,,,,,,,,no_candidates
+21,Highland Middle School,,,,,,,,,,,,,,no_candidates
+21,Highpoint Condos,,,,,,,,,,,,,,no_candidates
+21,Hillmount Public School,1,542014,705017,245 McNicoll Ave,Hillmount Public School,Hillmount Public School,17,Don Valley North,-79.35072651,43.79940759,0.4146932,1.0000,0.0000,candidate_returned
+21,Kingslake Public School,,,,,,,,,,,,,,no_candidates
+21,Legacy At Heron's Hill Condos,,,,,,,,,,,,,,no_candidates
+21,Lester B. Pearson Elementary School,,,,,,,,,,,,,,no_candidates
+21,Loblaws Bayview Village-Cooking School,,,,,,,,,,,,,,no_candidates
+21,Muirhead Public School,1,544255,751131,25 Muirhead Rd,Muirhead Public School,Muirhead Public School,17,Don Valley North,-79.33745018,43.77888402,0.42258117,1.0000,0.3333,candidate_returned
+21,North York Gen. Hosp. - Senior's Health,,,,,,,,,,,,,,no_candidates
+21,Ny Towers - The Chrysler Condos,,,,,,,,,,,,,,no_candidates
+21,Oriole Community Centre,,,,,,,,,,,,,,no_candidates
+21,Palace Gate Condos,,,,,,,,,,,,,,no_candidates
+21,Parkway Forest Community Centre,,,,,,,,,,,,,,no_candidates
+21,Pineway Public School,1,551399,884688,110 Pineway Blvd,"Pineway Public School,Pineway Park","Pineway Public School,Pineway Park",17,Don Valley North,-79.37451552,43.79641778,0.46427655,0.8571,0.3333,candidate_returned
+21,Pleasantview Community Centre,,,,,,,,,,,,,,no_candidates
+21,Rockefeller On Bayview Condos,,,,,,,,,,,,,,no_candidates
+21,Seneca Hill Public School,1,560551,726427,625 Seneca Hill Dr,Seneca Hill Public School,Seneca Hill Public School,17,Don Valley North,-79.35029699,43.79087042,0.4881014,1.0000,0.5000,candidate_returned
+21,Seneca Hill Public School,2,560542,699579,101 Seneca Hill Dr,Crestview Public School,Crestview Public School,17,Don Valley North,-79.35984660,43.78843218,0.39314857,0.5714,0.5000,candidate_returned
+21,Seneca Towers,,,,,,,,,,,,,,no_candidates
+21,Shaughnessy Public School,,,,,,,,,,,,,,no_candidates
+21,Skymark Shared Facilities,,,,,,,,,,,,,,no_candidates
+21,St. Gabriel Passionist Parish,,,,,,,,,,,,,,no_candidates
+21,St. Gabriel Terraces Condos,,,,,,,,,,,,,,no_candidates
+21,St. Gerald Separate School,,,,,,,,,,,,,,no_candidates
+21,St. Timothy's Catholic School,,,,,,,,,,,,,,no_candidates
+21,Steelesview Public School,1,9467757,659543,105 Bestview Dr,Steelesview Public School,Steelesview Public School,17,Don Valley North,-79.38563286,43.80266609,0.4146932,1.0000,0.0000,candidate_returned
+21,The Bayview Condos,,,,,,,,,,,,,,no_candidates
+21,The Excellence Condos,,,,,,,,,,,,,,no_candidates
+21,The Gates Of Bayview Apartments,,,,,,,,,,,,,,no_candidates
+21,Woodbine Middle School,,,,,,,,,,,,,,no_candidates
+21,Zenith Condos,,,,,,,,,,,,,,no_candidates
+22,1000 Mount Pleasant,1,845048,837875,1000 Mount Pleasant Rd,None,None,15,Don Valley West,-79.39232720,43.71327868,0.43426797,0.0000,0.8571,candidate_returned
+22,1000 Mount Pleasant,2,30035203,603842,1352 Mount Pleasant Rd,None,None,15,Don Valley West,-79.39627177,43.72319203,0.31262547,0.0000,0.5714,candidate_returned
+22,1000 Mount Pleasant,3,30141961,623125,717 Mount Pleasant Rd,None,None,15,Don Valley West,-79.38924656,43.70683168,0.31262547,0.0000,0.5714,candidate_returned
+22,1000 Mount Pleasant,4,30146220,667323,808 Mount Pleasant Rd,None,None,12,Toronto-St. Paul's,-79.39072717,43.70906720,0.31129193,0.0000,0.5714,candidate_returned
+22,900 Mount Pleasant,1,14675823,994352,900 Mount Pleasant Rd,None,None,15,Don Valley West,-79.39190512,43.71172699,0.43425655,0.0000,0.8571,candidate_returned
+22,Agricola Finnish Lutheran Church,1,2594838,728004,25 Old York Mills Rd,Agricola Finnish Lutheran Church,Agricola Finnish Lutheran Church,15,Don Valley West,-79.40431240,43.74340395,0.47649637,1.0000,0.0000,candidate_returned
+22,Banbury Community Centre,,,,,,,,,,,,,,no_candidates
+22,Bennington Heights Elementary School,,,,,,,,,,,,,,no_candidates
+22,Bessborough Drive E & M School,,,,,,,,,,,,,,no_candidates
+22,Blythwood Junior Public School,1,7754014,550771,2 Strathgowan Cres,Blythwood Junior Public School,Blythwood Junior Public School,15,Don Valley West,-79.38950571,43.71993149,0.47649637,1.0000,0.0000,candidate_returned
+22,Blythwood Junior Public School,2,2476346,863232,450 Blythwood Rd,Sunny View Junior and Senior Public School,Sunny View Junior and Senior Public School,15,Don Valley West,-79.38733761,43.71984376,0.40199652,0.5455,0.2857,candidate_returned
+22,Blythwood Road Baptist Church,,,,,,,,,,,,,,no_candidates
+22,Bob Rumball Canadian Centre For The Deaf,,,,,,,,,,,,,,no_candidates
+22,C.N.I.B.,,,,,,,,,,,,,,no_candidates
+22,C3 Toronto (Fmr. St. Leonard's Ang. Ch.),,,,,,,,,,,,,,no_candidates
+22,Denlow Public School,1,507023,862595,50 Denlow Blvd,Denlow Public School,Denlow Public School,15,Don Valley West,-79.36422773,43.74583949,0.42258117,1.0000,0.3333,candidate_returned
+22,Dunlace Public School,,,,,,,,,,,,,,no_candidates
+22,Fairmeadow Education Centre,,,,,,,,,,,,,,no_candidates
+22,Greek Community Of Toronto,,,,,,,,,,,,,,no_candidates
+22,Hillside At York Mills Ii,,,,,,,,,,,,,,no_candidates
+22,Jenner Jean-Marie Community Centre,,,,,,,,,,,,,,no_candidates
+22,John Fisher Jr. Public School,,,,,,,,,,,,,,no_candidates
+22,Lawrence Park Community Church,,,,,,,,,,,,,,no_candidates
+22,Leaside Memorial Community Gardens,,,,,,,,,,,,,,no_candidates
+22,Leaside Public Library,,,,,,,,,,,,,,no_candidates
+22,Leaside Retirement Residence,,,,,,,,,,,,,,no_candidates
+22,Leaside Towers - Party Room,,,,,,,,,,,,,,no_candidates
+22,Manor Road United Church,,,,,,,,,,,,,,no_candidates
+22,Maurice Cody Junior Public School,,,,,,,,,,,,,,no_candidates
+22,Mt. Pleasant Road Baptist Church,,,,,,,,,,,,,,no_candidates
+22,Northern Secondary School,,,,,,,,,,,,,,no_candidates
+22,Northlea Elementary And Middle School,,,,,,,,,,,,,,no_candidates
+22,Northlea United Church,,,,,,,,,,,,,,no_candidates
+22,Owen Public School,1,548301,625721,111 Owen Blvd,Owen Public School,Owen Public School,15,Don Valley West,-79.39251620,43.74905618,0.42258117,1.0000,0.3333,candidate_returned
+22,Scenic 1 & 2,,,,,,,,,,,,,,no_candidates
+22,St. Monica Catholic School,,,,,,,,,,,,,,no_candidates
+22,Sunnybrook Health Science Centre- K Wing,,,,,,,,,,,,,,no_candidates
+22,The Millwood - Retirement Residence,,,,,,,,,,,,,,no_candidates
+22,The Overlea,1,14678424,566149,17E Overlea Blvd,None,None,15,Don Valley West,-79.35071804,43.70382269,0.07642204,0.0000,0.5000,candidate_returned
+22,The Overlea,2,31106,582751,28 Overlea Blvd,None,None,15,Don Valley West,-79.35000459,43.70553205,0.07642204,0.0000,0.5000,candidate_returned
+22,The Overlea,3,31116,615610,80 Overlea Blvd,None,None,15,Don Valley West,-79.34005492,43.70877692,0.07642204,0.0000,0.5000,candidate_returned
+22,The Overlea,4,14678229,633682,17C Overlea Blvd,None,None,15,Don Valley West,-79.35082462,43.70373393,0.07642204,0.0000,0.5000,candidate_returned
+22,The Overlea,5,3259900,541921,26 Overlea Blvd,None,None,15,Don Valley West,-79.35056493,43.70511974,0.07642204,0.0000,0.5000,candidate_returned
+22,The Teddington Ret. Res. (Recep. Annex),,,,,,,,,,,,,,no_candidates
+22,Thorncliffe Park Public School,,,,,,,,,,,,,,no_candidates
+22,Toronto Botanical Garden,,,,,,,,,,,,,,no_candidates
+22,Toronto Finnish-Canadian Snrs. Ctr.,,,,,,,,,,,,,,no_candidates
+22,Trinity Presbyterian Church,,,,,,,,,,,,,,no_candidates
+22,Tscc 2587 - 160 Vanderhoof,,,,,,,,,,,,,,no_candidates
+22,Windfields Middle School,,,,,,,,,,,,,,no_candidates
+22,École Secondaire Étienne-Brûlé,,,,,,,,,,,,,,no_candidates
+25,3000 Dufferin - Foyer,,,,,,,,,,,,,,no_candidates
+25,50 Lotherton Pathway - YCC#46 Board Room,,,,,,,,,,,,,,no_candidates
+25,Allenby Public School,,,,,,,,,,,,,,no_candidates
+25,Amica On The Avenue,,,,,,,,,,,,,,no_candidates
+25,Anglican Church of St. Timothy,,,,,,,,,,,,,,no_candidates
+25,Armour Heights Community Centre,,,,,,,,,,,,,,no_candidates
+25,Armour Heights Presbyterian Church,,,,,,,,,,,,,,no_candidates
+25,Armour Heights Public School,,,,,,,,,,,,,,no_candidates
+25,BME Christ Church St. James,,,,,,,,,,,,,,no_candidates
+25,Bais Yaakov E.S.,,,,,,,,,,,,,,no_candidates
+25,Baycrest Hospital,,,,,,,,,,,,,,no_candidates
+25,Baycrest Jewish Home For The Aged,,,,,,,,,,,,,,no_candidates
+25,Baycrest Public School,1,487550,866634,145 Baycrest Ave,Baycrest Public School,Baycrest Public School,08,Eglinton-Lawrence,-79.44425151,43.72660578,0.42258117,1.0000,0.3333,candidate_returned
+25,Bedford Glen,,,,,,,,,,,,,,no_candidates
+25,Beth Torah Congregation,,,,,,,,,,,,,,no_candidates
+25,Bialik Hebrew Day School,,,,,,,,,,,,,,no_candidates
+25,Blessed Sacrament C.S.,,,,,,,,,,,,,,no_candidates
+25,Briar Hill Towers,,,,,,,,,,,,,,no_candidates
+25,Caboto Terrace,,,,,,,,,,,,,,no_candidates
+25,Casa Del Zotto,,,,,,,,,,,,,,no_candidates
+25,Columbus Centre,,,,,,,,,,,,,,no_candidates
+25,Crystal Towers - 8 Covington Party Room,,,,,,,,,,,,,,no_candidates
+25,Dorothy Klein Seniors Housing,,,,,,,,,,,,,,no_candidates
+25,Elmridge Apartments,,,,,,,,,,,,,,no_candidates
+25,Empress House,,,,,,,,,,,,,,no_candidates
+25,Flemington Public School,1,7062866,847646,10 Flemington Rd,Flemington Public School,Flemington Public School,08,Eglinton-Lawrence,-79.44445400,43.72008758,0.42258117,1.0000,0.3333,candidate_returned
+25,Forest Hill Collegiate Institute,,,,,,,,,,,,,,no_candidates
+25,Forest Hill Library - Meeting Room,,,,,,,,,,,,,,no_candidates
+25,Four Thousand Yonge - West Tower Lobby,,,,,,,,,,,,,,no_candidates
+25,Glen Long Community Centre,,,,,,,,,,,,,,no_candidates
+25,Glen Park Public School,1,14038150,903205,101 Englemount Ave,Glen Park Public School,Glen Park Public School,08,Eglinton-Lawrence,-79.43574733,43.71322382,0.47649637,1.0000,0.0000,candidate_returned
+25,Glenview Presbyterian Church,1,2767756,622380,1 Glenview Ave,Glenview Presbyterian Church,Glenview Presbyterian Church,08,Eglinton-Lawrence,-79.40182650,43.72013025,0.42258117,1.0000,0.3333,candidate_returned
+25,Glenview Senior Public School,1,862164,983843,401 Rosewell Ave,Glenview Senior Public School,Glenview Senior Public School,08,Eglinton-Lawrence,-79.40952470,43.71997644,0.47649637,1.0000,0.0000,candidate_returned
+25,Govenors Hill,,,,,,,,,,,,,,no_candidates
+25,John Wanless Public School,1,13503695,557329,245 Fairlawn Ave,John Wanless Junior Public School,John Wanless Junior Public School,08,Eglinton-Lawrence,-79.41205669,43.72886864,0.47341794,0.8889,0.0000,candidate_returned
+25,Lawrence Heights Community Room,,,,,,,,,,,,,,no_candidates
+25,Lawrence Park Collegiate Institute,,,,,,,,,,,,,,no_candidates
+25,Lawrence Park Condominiums,,,,,,,,,,,,,,no_candidates
+25,Ledbury Park Public School,,,,,,,,,,,,,,no_candidates
+25,Marshall McLuhan C.S.S.,,,,,,,,,,,,,,no_candidates
+25,Medhanie Alem Eritrean Orth. Tewahdo Ch.,,,,,,,,,,,,,,no_candidates
+25,Melrose Community Church,,,,,,,,,,,,,,no_candidates
+25,National Council Of Jewish Women,,,,,,,,,,,,,,no_candidates
+25,Neptune Towers,,,,,,,,,,,,,,no_candidates
+25,Northern District Library,,,,,,,,,,,,,,no_candidates
+25,Our Lady Of Assumption C.S.,,,,,,,,,,,,,,no_candidates
+25,Parkview Residential (500 Duplex Ave),,,,,,,,,,,,,,no_candidates
+25,Reuben Cipin Healthy Living Comm.,,,,,,,,,,,,,,no_candidates
+25,Revera Forest Hill Place,,,,,,,,,,,,,,no_candidates
+25,Shermount TSCC 1511,,,,,,,,,,,,,,no_candidates
+25,St. Clement's Anglican Church,,,,,,,,,,,,,,no_candidates
+25,St. Margaret Catholic School,,,,,,,,,,,,,,no_candidates
+25,Sts. Cosmas & Damian C.S.,,,,,,,,,,,,,,no_candidates
+25,Terraces Of Baycrest,,,,,,,,,,,,,,no_candidates
+25,The Allenway,,,,,,,,,,,,,,no_candidates
+25,The Ascot,1,764275,538165,158 Ascot Ave,None,None,09,Davenport,-79.45050187,43.67893146,0.07642204,0.0000,0.5000,candidate_returned
+25,The Ascot,2,10923782,540879,103 Ascot Ave,None,None,09,Davenport,-79.44776640,43.67911876,0.07642204,0.0000,0.5000,candidate_returned
+25,The Ascot,3,9780018,554211,10 Ascot Ave,None,None,09,Davenport,-79.44470862,43.68019670,0.07642204,0.0000,0.5000,candidate_returned
+25,The Ascot,4,764265,557786,147 Ascot Ave,None,None,09,Davenport,-79.44999436,43.67856607,0.07642204,0.0000,0.5000,candidate_returned
+25,The Ascot,5,9780020,531835,14 Ascot Ave,None,None,09,Davenport,-79.44484505,43.68017181,0.07642204,0.0000,0.5000,candidate_returned
+25,Treviso 1,,,,,,,,,,,,,,no_candidates
+25,Treviso 2,,,,,,,,,,,,,,no_candidates
+25,Treviso 3,,,,,,,,,,,,,,no_candidates
+25,Villa Colombo,1,14130851,711151,40 Playfair Ave,Villa Colombo Home for The Aged,Villa Colombo Home for The Aged,08,Eglinton-Lawrence,-79.45646821,43.71062498,0.24172795,0.5714,0.0000,candidate_returned
+25,West Preparatory Jr. P.S.,,,,,,,,,,,,,,no_candidates
+25,York Mills Place,,,,,,,,,,,,,,no_candidates
+25,Yorkdale Adult Learning Centre,,,,,,,,,,,,,,no_candidates
+25,Yorkdale Condo I,,,,,,,,,,,,,,no_candidates
+25,Yorkdale Condo II (120 Varna Drive),,,,,,,,,,,,,,no_candidates
+28,All Saints Catholic School,,,,,,,,,,,,,,no_candidates
+28,Bloordale United Church,,,,,,,,,,,,,,no_candidates
+28,Briarcrest Junior School,1,8344927,653567,60 Wellesworth Dr,Briarcrest Junior School,Briarcrest Junior School,02,Etobicoke Centre,-79.58007528,43.66646577,0.4146932,1.0000,0.0000,candidate_returned
+28,Burnham Glen Apartment,,,,,,,,,,,,,,no_candidates
+28,Burnham Glen Condo (Ycc #56),,,,,,,,,,,,,,no_candidates
+28,Burnhamthorpe C.I. - Adult Learning Ctr,,,,,,,,,,,,,,no_candidates
+28,Centennial Park Place,,,,,,,,,,,,,,no_candidates
+28,Chestnut Place,,,,,,,,,,,,,,no_candidates
+28,Del Manor Prince Edward,,,,,,,,,,,,,,no_candidates
+28,Eatonville Care Centre,,,,,,,,,,,,,,no_candidates
+28,Eatonville Junior School,,,,,,,,,,,,,,no_candidates
+28,Eatonville Library,,,,,,,,,,,,,,no_candidates
+28,Etobicoke Olympium,,,,,,,,,,,,,,no_candidates
+28,Father Serra Catholic School,,,,,,,,,,,,,,no_candidates
+28,Five Valhalla (Thunderbird),,,,,,,,,,,,,,no_candidates
+28,Fontenay Court,,,,,,,,,,,,,,no_candidates
+28,Humber Hill Towers,,,,,,,,,,,,,,no_candidates
+28,Humber Valley United Church,,,,,,,,,,,,,,no_candidates
+28,Humbervale Christian Outreach Foundation,,,,,,,,,,,,,,no_candidates
+28,Humberview Heights,,,,,,,,,,,,,,no_candidates
+28,Huntingwood Place - 120 Widdicombe Hill,,,,,,,,,,,,,,no_candidates
+28,Huntingwood Place - 63 Widdicombe Hill,,,,,,,,,,,,,,no_candidates
+28,Huntingwood Place - 73 Widdicombe Hill,,,,,,,,,,,,,,no_candidates
+28,John G. Althouse Middle School,,,,,,,,,,,,,,no_candidates
+28,Lincoln Towers,,,,,,,,,,,,,,no_candidates
+28,Millwood Junior School,,,,,,,,,,,,,,no_candidates
+28,Nativity Of Our Lord Church,,,,,,,,,,,,,,no_candidates
+28,Nine Valhalla (Triumph),,,,,,,,,,,,,,no_candidates
+28,One Valhalla,,,,,,,,,,,,,,no_candidates
+28,Parkland On Eglinton West,,,,,,,,,,,,,,no_candidates
+28,Princess Margaret Junior School,1,10513559,684105,65 Tromley Dr,Princess Margaret Junior School,Princess Margaret Junior School,02,Etobicoke Centre,-79.55905776,43.67122203,0.47649637,1.0000,0.0000,candidate_returned
+28,Richview Gardens,,,,,,,,,,,,,,no_candidates
+28,Richview Library,,,,,,,,,,,,,,no_candidates
+28,Richview Residence - Clement,,,,,,,,,,,,,,no_candidates
+28,Richview Residence - Kipling,,,,,,,,,,,,,,no_candidates
+28,Royal Gate Apartments,,,,,,,,,,,,,,no_candidates
+28,Royal York Gardens Apartments,,,,,,,,,,,,,,no_candidates
+28,Royal York Grand,,,,,,,,,,,,,,no_candidates
+28,Scarlett Heights Retirement Residence,,,,,,,,,,,,,,no_candidates
+28,Scarlett Manor,,,,,,,,,,,,,,no_candidates
+28,St. Andrew's Presbyterian Church,,,,,,,,,,,,,,no_candidates
+28,St. Demetrius Apartments,,,,,,,,,,,,,,no_candidates
+28,St. Eugene Catholic School,,,,,,,,,,,,,,no_candidates
+28,St. George's Junior School,,,,,,,,,,,,,,no_candidates
+28,St. Giles Kingsway Presbyterian Church,,,,,,,,,,,,,,no_candidates
+28,St. Gregory Catholic School,,,,,,,,,,,,,,no_candidates
+28,"St. Matthew's Anglican Church, Islington",,,,,,,,,,,,,,no_candidates
+28,St. Philip's Lutheran Church,,,,,,,,,,,,,,no_candidates
+28,Summit Royal,,,,,,,,,,,,,,no_candidates
+28,Sunset West,,,,,,,,,,,,,,no_candidates
+28,Sussex House,,,,,,,,,,,,,,no_candidates
+28,The Buckingham - 714 The West Mall,,,,,,,,,,,,,,no_candidates
+28,The Coach House,,,,,,,,,,,,,,no_candidates
+28,The Fountains Of Edenbridge,,,,,,,,,,,,,,no_candidates
+28,The Grange,,,,,,,,,,,,,,no_candidates
+28,The James Club,,,,,,,,,,,,,,no_candidates
+28,The Masters - 2,,,,,,,,,,,,,,no_candidates
+28,The Masters - 4,1,840742,625284,4 Mc Master Ave,None,None,12,Toronto-St. Paul's,-79.39914575,43.67906743,0.27532166,0.0000,0.3333,candidate_returned
+28,The Mikado,,,,,,,,,,,,,,no_candidates
+28,The Royal Rose Apartments,,,,,,,,,,,,,,no_candidates
+28,The Sovereign,,,,,,,,,,,,,,no_candidates
+28,The Village Of Humber Heights,,,,,,,,,,,,,,no_candidates
+28,Tiffany Place,,,,,,,,,,,,,,no_candidates
+28,Top Of The Humber,,,,,,,,,,,,,,no_candidates
+28,Transfiguration Of Our Lord Church,,,,,,,,,,,,,,no_candidates
+28,Ukrainian Canadian Care Centre,,,,,,,,,,,,,,no_candidates
+28,Wellesworth Junior School,1,1042829,984423,225 Wellesworth Dr,Wellesworth Junior School,Wellesworth Junior School,02,Etobicoke Centre,-79.57671875,43.65663735,0.42772952,1.0000,0.3333,candidate_returned
+28,Wellesworth Junior School,2,8344927,653567,60 Wellesworth Dr,Briarcrest Junior School,Briarcrest Junior School,02,Etobicoke Centre,-79.58007528,43.66646577,0.2989357,0.6667,0.3333,candidate_returned
+28,Wesburn Manor,1,14601299,646039,400 The West Mall,Wesburn Manor - Building Grounds,Wesburn Manor - Building Grounds,02,Etobicoke Centre,-79.56736684,43.64377390,0.2506152,0.6667,0.0000,candidate_returned
+28,Westmount Junior School,1,9847243,839820,95 Chapman Rd,Westmount Junior School,Westmount Junior School,02,Etobicoke Centre,-79.51965930,43.68909613,0.4146932,1.0000,0.0000,candidate_returned
+28,Westway Junior School,1,1024346,598872,25 Poynter Dr,Westway Junior School,Westway Junior School,02,Etobicoke Centre,-79.54899331,43.69082212,0.4146932,1.0000,0.0000,candidate_returned
+28,Westway Junior School,2,1037664,837325,315 The Westway,Dixon Grove Junior Middle School,Dixon Grove Junior Middle School,02,Etobicoke Centre,-79.55597769,43.68500659,0.27287045,0.5000,0.4000,candidate_returned
+28,Widdicombe Place,,,,,,,,,,,,,,no_candidates
+28,É.É.C Notre-Dame-De-Grâce,,,,,,,,,,,,,,no_candidates
+29,Alderwood United Church,,,,,,,,,,,,,,no_candidates
+29,Barclay Terrace,,,,,,,,,,,,,,no_candidates
+29,Beyond The Sea,,,,,,,,,,,,,,no_candidates
+29,Church Of The Resurrection,,,,,,,,,,,,,,no_candidates
+29,Church On The Queensway,1,1008792,887846,950 Islington Ave,Queensway Baptist Church,Queensway Baptist Church,03,Etobicoke-Lakeshore,-79.51665019,43.62727272,0.2508386,0.6667,0.0000,candidate_returned
+29,Cogir Senior Living,,,,,,,,,,,,,,no_candidates
+29,David Hornell Jr. School,,,,,,,,,,,,,,no_candidates
+29,Delmanor West Village,,,,,,,,,,,,,,no_candidates
+29,Eau du Soleil,,,,,,,,,,,,,,no_candidates
+29,Explorer At Waterview Condos,,,,,,,,,,,,,,no_candidates
+29,Fairfield Seniors' Centre,,,,,,,,,,,,,,no_candidates
+29,Ford Performance Centre,,,,,,,,,,,,,,no_candidates
+29,Grand Harbor,,,,,,,,,,,,,,no_candidates
+29,Grenadier Landing,,,,,,,,,,,,,,no_candidates
+29,Hearthstone By The Bay,,,,,,,,,,,,,,no_candidates
+29,Islington Manor,1,7042043,706670,41 Mabelle Ave,Islington Manor,Islington Manor,03,Etobicoke-Lakeshore,-79.52770948,43.64482940,0.2537343,1.0000,0.0000,candidate_returned
+29,Islington Manor,2,10985652,759857,2765 Islington Ave,Rowntree Manor,Rowntree Manor,01,Etobicoke North,-79.56727269,43.74373969,0.079883836,0.5000,0.4000,candidate_returned
+29,Islington United Church,,,,,,,,,,,,,,no_candidates
+29,Ivan Franko Home,,,,,,,,,,,,,,no_candidates
+29,James S. Bell Junior Middle School,,,,,,,,,,,,,,no_candidates
+29,Kingsway-Lambton United Church,,,,,,,,,,,,,,no_candidates
+29,Labdara Lithuanian Nursing Home,,,,,,,,,,,,,,no_candidates
+29,Lakeshore Lodge,,,,,,,,,,,,,,no_candidates
+29,Lambton-Kingsway Junior Middle School,,,,,,,,,,,,,,no_candidates
+29,Loggia Condos,,,,,,,,,,,,,,no_candidates
+29,Marina Del Rey,,,,,,,,,,,,,,no_candidates
+29,Memorial Pool And Health Club,,,,,,,,,,,,,,no_candidates
+29,Mimico Centennial Public Library,,,,,,,,,,,,,,no_candidates
+29,Mimico Creek Club,,,,,,,,,,,,,,no_candidates
+29,Montgomery Mills,,,,,,,,,,,,,,no_candidates
+29,Nautilus At Waterview Condos,,,,,,,,,,,,,,no_candidates
+29,Nevis Condominiums,,,,,,,,,,,,,,no_candidates
+29,New Toronto Seniors' Centre,,,,,,,,,,,,,,no_candidates
+29,Newport Beach Condos,,,,,,,,,,,,,,no_candidates
+29,One Sherway - Tower 2,,,,,,,,,,,,,,no_candidates
+29,One Sherway - Tower 4,,,,,,,,,,,,,,no_candidates
+29,Our Lady Of The Miraculous Medal,,,,,,,,,,,,,,no_candidates
+29,Ourland Community Centre,,,,,,,,,,,,,,no_candidates
+29,Palace Pier,,,,,,,,,,,,,,no_candidates
+29,Palace Place,,,,,,,,,,,,,,no_candidates
+29,Palais At Port Royal Place Condos,,,,,,,,,,,,,,no_candidates
+29,"Royal Canadian Legion, Br 643",,,,,,,,,,,,,,no_candidates
+29,Seventh Street Junior School,1,1031242,571021,101 Seventh St,Seventh Street Junior School,Seventh Street Junior School,03,Etobicoke-Lakeshore,-79.50419384,43.59992437,0.47952753,1.0000,0.2857,candidate_returned
+29,South Beach Condos & Lofts,,,,,,,,,,,,,,no_candidates
+29,St. Louis Catholic School,,,,,,,,,,,,,,no_candidates
+29,St. Mark Catholic School,,,,,,,,,,,,,,no_candidates
+29,The Assembly Hall,,,,,,,,,,,,,,no_candidates
+29,The Church of Atonement Senior Citizens,,,,,,,,,,,,,,no_candidates
+29,The Essex,1,30024677,613524,50 Essex St,Essex Junior and Senior School Public School,Essex Junior and Senior School Public School,11,University-Rosedale,-79.42236548,43.66823575,0.08170687,0.2857,0.5000,candidate_returned
+29,The Essex,2,8740425,547868,63 Essex St,None,None,11,University-Rosedale,-79.42274926,43.66767044,0.07642204,0.0000,0.5000,candidate_returned
+29,The Essex,3,8740422,555955,57 Essex St,None,None,11,University-Rosedale,-79.42247936,43.66773498,0.07642204,0.0000,0.5000,candidate_returned
+29,The Essex,4,802765,557842,147 Essex St,None,None,11,University-Rosedale,-79.42632820,43.66659384,0.07642204,0.0000,0.5000,candidate_returned
+29,The Essex,5,8740449,545149,107 Essex St,None,None,11,University-Rosedale,-79.42431266,43.66731649,0.07642204,0.0000,0.5000,candidate_returned
+29,The Kingsway On-The-Park,,,,,,,,,,,,,,no_candidates
+29,The Residences At Kings Gate,,,,,,,,,,,,,,no_candidates
+29,Voyager At Waterview,,,,,,,,,,,,,,no_candidates
+29,Waterford Towers,,,,,,,,,,,,,,no_candidates
+29,Westlake Village,,,,,,,,,,,,,,no_candidates
+30,Albion Heights School,,,,,,,,,,,,,,no_candidates
+30,Antonio Mazzotta - Seniors Building,,,,,,,,,,,,,,no_candidates
+30,Braeburn Jr. Public School,,,,,,,,,,,,,,no_candidates
+30,Deerwood Creek Community Care,,,,,,,,,,,,,,no_candidates
+30,Elmbank Community Centre,,,,,,,,,,,,,,no_candidates
+30,Elmlea Junior School,1,10010732,630462,50 Hadrian Dr,Elmlea Junior School,Elmlea Junior School,01,Etobicoke North,-79.54987020,43.71593862,0.4146932,1.0000,0.0000,candidate_returned
+30,Highway Terrace Apts,,,,,,,,,,,,,,no_candidates
+30,Humber Valley Terrace,,,,,,,,,,,,,,no_candidates
+30,Humberwood Community Centre,,,,,,,,,,,,,,no_candidates
+30,John D. Parker Jr. School,,,,,,,,,,,,,,no_candidates
+30,Kingsview Park,1,1011125,541016,46 Kingsview Blvd,Kingsview Park,Kingsview Park,01,Etobicoke North,-79.55414008,43.69849113,0.28433695,1.0000,0.4000,candidate_returned
+30,Kingsview Village School,,,,,,,,,,,,,,no_candidates
+30,Kipling Acres,,,,,,,,,,,,,,no_candidates
+30,Mansions Of The Humberwood,,,,,,,,,,,,,,no_candidates
+30,Martin Grove United Church,,,,,,,,,,,,,,no_candidates
+30,Monsignor John Corrigan Catholic School,,,,,,,,,,,,,,no_candidates
+30,Monsignor Percy Johnson Catholic S.S.,,,,,,,,,,,,,,no_candidates
+30,North Kipling Community Centre,,,,,,,,,,,,,,no_candidates
+30,Our Saviour Thistletown Lutheran Lodge,,,,,,,,,,,,,,no_candidates
+30,Parkfield Junior Public School,,,,,,,,,,,,,,no_candidates
+30,School Of Experiential Education,,,,,,,,,,,,,,no_candidates
+30,Smithfield Middle Public School,,,,,,,,,,,,,,no_candidates
+30,St. Andrew Catholic School,,,,,,,,,,,,,,no_candidates
+30,St. John Vianney Catholic School,,,,,,,,,,,,,,no_candidates
+30,Thistletown Collegiate Institute,,,,,,,,,,,,,,no_candidates
+30,Thistletown Community Centre,,,,,,,,,,,,,,no_candidates
+30,Westside,,,,,,,,,,,,,,no_candidates
+30,York Condominium Corporation,,,,,,,,,,,,,,no_candidates
+41,Ahmadiyya Abode Of Peace,,,,,,,,,,,,,,no_candidates
+41,Blacksmith Public School,1,490154,796649,45 Blacksmith Cres,Blacksmith Public School,Blacksmith Public School,07,Humber River-Black Creek,-79.52681069,43.77116396,0.41944268,1.0000,0.3333,candidate_returned
+41,Blessed Margherita C.S.,,,,,,,,,,,,,,no_candidates
+41,Chalkfarm Public School,1,10494536,729483,100 Chalkfarm Dr,Chalkfarm Public School,Chalkfarm Public School,07,Humber River-Black Creek,-79.51439274,43.72710643,0.41944268,1.0000,0.3333,candidate_returned
+41,Crosslinks Snr. Housing (7 & 11 Arleta),,,,,,,,,,,,,,no_candidates
+41,Daystrom Public School,1,505735,595398,25 Daystrom Dr,Daystrom Public School,Daystrom Public School,07,Humber River-Black Creek,-79.54696330,43.74794693,0.41944268,1.0000,0.3333,candidate_returned
+41,Derrydown Public School,1,507241,559135,120 Derrydown Rd,Derrydown Public School,Derrydown Public School,07,Humber River-Black Creek,-79.49371018,43.75868993,0.41944268,1.0000,0.3333,candidate_returned
+41,Domenico Di Luca Community Centre,,,,,,,,,,,,,,no_candidates
+41,Driftwood Community Recreation Centre,,,,,,,,,,,,,,no_candidates
+41,Driftwood Public School,1,509370,575638,265 Driftwood Ave,Driftwood Public School,Driftwood Public School,07,Humber River-Black Creek,-79.51500426,43.76297119,0.41944268,1.0000,0.3333,candidate_returned
+41,Elia Middle School,,,,,,,,,,,,,,no_candidates
+41,Emery C.I.,,,,,,,,,,,,,,no_candidates
+41,Firgrove Public School,,,,,,,,,,,,,,no_candidates
+41,Ghana Calvary Church Hall,,,,,,,,,,,,,,no_candidates
+41,Gosford Public School,1,11267530,914834,30 Gosford Blvd,Gosford Public School,Gosford Public School,07,Humber River-Black Creek,-79.52132419,43.76431848,0.41913033,1.0000,0.3333,candidate_returned
+41,Gracedale Public School,,,,,,,,,,,,,,no_candidates
+41,Gulfstream Public School,1,13967820,690774,20 Gulfstream Rd,Gulfstream Public School,Gulfstream Public School,07,Humber River-Black Creek,-79.54200980,43.73907798,0.41944268,1.0000,0.3333,candidate_returned
+41,Hawthorne Place Care Centre,,,,,,,,,,,,,,no_candidates
+41,Humber Summit Middle School,,,,,,,,,,,,,,no_candidates
+41,James Cardinal McGuigan C.S.,,,,,,,,,,,,,,no_candidates
+41,Lamberton Public School,1,534646,702459,33 Lamberton Blvd,Lamberton Public School,Lamberton Public School,07,Humber River-Black Creek,-79.50282449,43.75365430,0.41944268,1.0000,0.3333,candidate_returned
+41,Murray Ross Apartments,,,,,,,,,,,,,,no_candidates
+41,Nile Academy,,,,,,,,,,,,,,no_candidates
+41,Norfinch Care Community,,,,,,,,,,,,,,no_candidates
+41,Oakdale Community Centre,,,,,,,,,,,,,,no_candidates
+41,Sentinel Condos,,,,,,,,,,,,,,no_candidates
+41,Shoreham Public School,,,,,,,,,,,,,,no_candidates
+41,St. André C.S.,,,,,,,,,,,,,,no_candidates
+41,St. Augustine Catholic School,,,,,,,,,,,,,,no_candidates
+41,St. Basil-The-Great College School,,,,,,,,,,,,,,no_candidates
+41,St. Charles Garnier Catholic School,,,,,,,,,,,,,,no_candidates
+41,St. Francis de Sales Catholic School,,,,,,,,,,,,,,no_candidates
+41,St. Jane Frances Catholic School,,,,,,,,,,,,,,no_candidates
+41,St. Jude Catholic School,,,,,,,,,,,,,,no_candidates
+41,St. Roch Catholic School,,,,,,,,,,,,,,no_candidates
+41,St. Simon Catholic School,,,,,,,,,,,,,,no_candidates
+41,St. Wilfrid C.S.,,,,,,,,,,,,,,no_candidates
+41,Stanley Public School,1,20200382,789766,75 Stanley Rd,Stanley Public School,Stanley Public School,07,Humber River-Black Creek,-79.51782705,43.74183119,0.41944268,1.0000,0.3333,candidate_returned
+41,The Carlton - Condos,,,,,,,,,,,,,,no_candidates
+41,The McMaster - Condos,,,,,,,,,,,,,,no_candidates
+41,Topcliff Public School,1,7415223,597937,65 Topcliff Ave,Topcliff Public School,Topcliff Public School,07,Humber River-Black Creek,-79.51065889,43.75558510,0.41944268,1.0000,0.3333,candidate_returned
+41,Venerable John Merlini Catholic School,,,,,,,,,,,,,,no_candidates
+41,York U. - Second Student Centre,,,,,,,,,,,,,,no_candidates
+41,Yorkwoods Public School,,,,,,,,,,,,,,no_candidates
+7,Adam Beck Community Centre,,,,,,,,,,,,,,no_candidates
+7,Atrium At Kew Beach,,,,,,,,,,,,,,no_candidates
+7,Beach United Church,,,,,,,,,,,,,,no_candidates
+7,Beaches Recreation Centre,,,,,,,,,,,,,,no_candidates
+7,Canadian Macedonian Place,1,8594415,907810,850 O'Connor Dr,Canadian Macedonian Place,Canadian Macedonian Place,19,Beaches-East York,-79.31227669,43.70705217,0.4146932,1.0000,0.0000,candidate_returned
+7,Canadian Martyrs Catholic School,,,,,,,,,,,,,,no_candidates
+7,Cecilia Murphy Building,,,,,,,,,,,,,,no_candidates
+7,Crescent Town - Town Hall,,,,,,,,,,,,,,no_candidates
+7,D.A. Morrison Middle School,,,,,,,,,,,,,,no_candidates
+7,Danforth/Coxwell Library,,,,,,,,,,,,,,no_candidates
+7,East York Acres,,,,,,,,,,,,,,no_candidates
+7,Fairmount Park Community Centre,,,,,,,,,,,,,,no_candidates
+7,Faith Presbyterian Community Church,,,,,,,,,,,,,,no_candidates
+7,George Webster Elementary School,,,,,,,,,,,,,,no_candidates
+7,Glen Stewart Acres,,,,,,,,,,,,,,no_candidates
+7,Grant A.M.E. Church,,,,,,,,,,,,,,no_candidates
+7,Hope United Church,,,,,,,,,,,,,,no_candidates
+7,Kingston Road United Church,,,,,,,,,,,,,,no_candidates
+7,Main Square Community Recreation Centre,,,,,,,,,,,,,,no_candidates
+7,Main Street Terrace,,,,,,,,,,,,,,no_candidates
+7,Michael Garron Hospital,,,,,,,,,,,,,,no_candidates
+7,Norway Junior Public School,1,14198771,851894,390 Kingston Rd,Norway Junior Public School,Norway Junior Public School,19,Beaches-East York,-79.30621983,43.67637291,0.47649637,1.0000,0.0000,candidate_returned
+7,O'Connor Public School,1,8609165,532385,1665 O'Connor Dr,O'Connor Public School,O'Connor Public School,19,Beaches-East York,-79.30415214,43.71650732,0.4876009,1.0000,0.5000,candidate_returned
+7,Presteign Heights Elementary School,,,,,,,,,,,,,,no_candidates
+7,Secord Community Centre,,,,,,,,,,,,,,no_candidates
+7,Selwyn Elementary School,,,,,,,,,,,,,,no_candidates
+7,St. Aidan's In The Beach,,,,,,,,,,,,,,no_candidates
+7,St. Brigid Catholic School,,,,,,,,,,,,,,no_candidates
+7,St. Clair O'Connor Community,,,,,,,,,,,,,,no_candidates
+7,St. John Catholic School,,,,,,,,,,,,,,no_candidates
+7,St. John the Baptist Norway Anglican Ch.,,,,,,,,,,,,,,no_candidates
+7,Terry Fox Community Centre,,,,,,,,,,,,,,no_candidates
+7,Toronto Formosan Presbyterian Church,1,7792759,889460,31 Eastwood Rd,Toronto Formosan Presbyterian Church,Toronto Formosan Presbyterian Church,19,Beaches-East York,-79.31814057,43.67292425,0.48429453,1.0000,0.0000,candidate_returned
+7,Toronto United Mennonite Church,,,,,,,,,,,,,,no_candidates
+7,True Davidson Acres Home For The Aged,,,,,,,,,,,,,,no_candidates
+7,Victoria Park Public School,1,784384,900194,100 Close Ave,Queen Victoria Public School,Queen Victoria Public School,04,Parkdale-High Park,-79.43532070,43.63650949,0.424035,0.7500,0.0000,candidate_returned
+83,1 Ripley Ave,1,10906261,603896,1 Ripley Ave,None,None,04,Parkdale-High Park,-79.47418571,43.63680882,0.43706858,0.0000,1.0000,candidate_returned
+83,100 High Park Ave,1,7994469,595932,100 High Park Ave,None,None,04,Parkdale-High Park,-79.46738141,43.65655925,0.49305588,0.0000,1.0000,candidate_returned
+83,100 High Park Ave,2,8594380,810656,100 Howard Park Ave,None,None,04,Parkdale-High Park,-79.45250763,43.65146110,0.46501964,0.0000,0.7500,candidate_returned
+83,100 High Park Ave,3,7994501,584444,100 Quebec Ave,High Park Green,High Park Green,04,Parkdale-High Park,-79.46824012,43.65565772,0.44472453,0.5714,0.5714,candidate_returned
+83,100 High Park Ave,4,10663720,551258,100 Watson Ave,None,None,04,Parkdale-High Park,-79.49211105,43.66360157,0.3883119,0.0000,0.5714,candidate_returned
+83,100 High Park Ave,5,53847,648231,100 Brookside Ave,None,None,04,Parkdale-High Park,-79.49301575,43.66294905,0.3883119,0.0000,0.5714,candidate_returned
+83,111 Pacific Ave,,,,,,,,,,,,,,no_candidates
+83,20 Gothic Ave,1,814518,931628,20 Gothic Ave,None,None,04,Parkdale-High Park,-79.46794211,43.65364126,0.43706858,0.0000,1.0000,candidate_returned
+83,20 West Lodge Ave,,,,,,,,,,,,,,no_candidates
+83,22 Oakmount Rd,1,847600,808354,22 Oakmount Rd,None,None,04,Parkdale-High Park,-79.46354130,43.65516747,0.43706855,0.0000,1.0000,candidate_returned
+83,245 Dunn Ave,1,8168564,586259,245 Dunn Ave,None,None,04,Parkdale-High Park,-79.43377835,43.64021606,0.43706858,0.0000,1.0000,candidate_returned
+83,255 Glenlake Ave,,,,,,,,,,,,,,no_candidates
+83,299 Glenlake Ave,,,,,,,,,,,,,,no_candidates
+83,35 High Park Ave,1,7994471,985017,35 High Park Ave,None,None,04,Parkdale-High Park,-79.46528162,43.65471783,0.49305588,0.0000,1.0000,candidate_returned
+83,35 High Park Ave,2,54049,738051,35 Brumell Ave,None,None,04,Parkdale-High Park,-79.49058093,43.65859238,0.3883119,0.0000,0.5714,candidate_returned
+83,35 High Park Ave,3,9344540,538058,35 Jillson Ave,None,None,04,Parkdale-High Park,-79.48748012,43.66470046,0.3883119,0.0000,0.5714,candidate_returned
+83,35 High Park Ave,4,8106134,980178,35 Harshaw Ave,None,None,04,Parkdale-High Park,-79.48884154,43.65485301,0.3883119,0.0000,0.5714,candidate_returned
+83,35 High Park Ave,5,68549,822540,35 Montye Ave,None,None,04,Parkdale-High Park,-79.48739899,43.65922993,0.3883119,0.0000,0.5714,candidate_returned
+83,35 Ormskirk Ave,1,9445900,741814,35 Ormskirk Ave,None,None,04,Parkdale-High Park,-79.47489316,43.63918081,0.43706858,0.0000,1.0000,candidate_returned
+83,45 Oakmount Rd,1,14120373,629745,45 Oakmount Rd,None,None,04,Parkdale-High Park,-79.46251818,43.65615605,0.43705723,0.0000,1.0000,candidate_returned
+83,60 Mountview Ave,1,8004942,1015445,60 Mountview Ave,None,None,04,Parkdale-High Park,-79.46242262,43.65686946,0.43706858,0.0000,1.0000,candidate_returned
+83,60 Southport St,1,869831,975711,60 Southport St,None,None,04,Parkdale-High Park,-79.47383754,43.63878551,0.43706855,0.0000,1.0000,candidate_returned
+83,65 High Park Ave,1,7994466,811602,65 High Park Ave,None,None,04,Parkdale-High Park,-79.46542479,43.65594816,0.4930521,0.0000,1.0000,candidate_returned
+83,65 High Park Ave,2,10636279,550164,65 Raymond Ave,None,None,04,Parkdale-High Park,-79.49061710,43.65585310,0.3883119,0.0000,0.5714,candidate_returned
+83,65 High Park Ave,3,2991634,653784,65 Methuen Ave,None,None,04,Parkdale-High Park,-79.49049454,43.65521981,0.3883119,0.0000,0.5714,candidate_returned
+83,65 High Park Ave,4,54069,530712,65 Brumell Ave,None,None,04,Parkdale-High Park,-79.49080654,43.65911228,0.3883119,0.0000,0.5714,candidate_returned
+83,65 High Park Ave,5,53813,1024806,65 Brookside Ave,None,None,04,Parkdale-High Park,-79.49209335,43.66194137,0.3883119,0.0000,0.5714,candidate_returned
+83,66 Oakmount Rd,1,30159134,801718,66 Oakmount Rd,None,None,04,Parkdale-High Park,-79.46348257,43.65597442,0.43713745,0.0000,1.0000,candidate_returned
+83,66 Oakmount Rd,2,847605,615613,66 Oakmount Rd,None,None,04,Parkdale-High Park,-79.46353017,43.65610012,0.43706855,0.0000,1.0000,candidate_returned
+83,66 Pacific Ave,,,,,,,,,,,,,,no_candidates
+83,95 High Park Ave,1,7994468,668004,95 High Park Ave,None,None,04,Parkdale-High Park,-79.46615734,43.65678758,0.4930521,0.0000,1.0000,candidate_returned
+83,95 High Park Ave,2,10663716,718053,95 Watson Ave,None,None,04,Parkdale-High Park,-79.49157212,43.66356105,0.3883119,0.0000,0.5714,candidate_returned
+83,95 High Park Ave,3,53843,1017262,95 Brookside Ave,None,None,04,Parkdale-High Park,-79.49243059,43.66291785,0.3883119,0.0000,0.5714,candidate_returned
+83,95 High Park Ave,4,870821,742002,95 Springhurst Ave,None,None,04,Parkdale-High Park,-79.43111899,43.63367345,0.38825873,0.0000,0.5714,candidate_returned
+83,95 High Park Ave,5,825391,846535,95 Jameson Ave,None,None,04,Parkdale-High Park,-79.43490299,43.63539474,0.38825873,0.0000,0.5714,candidate_returned
+83,Annette Community Centre,,,,,,,,,,,,,,no_candidates
+83,Bonar Parkdale Place,,,,,,,,,,,,,,no_candidates
+83,Chartwell Grenadier Retirement Residence,,,,,,,,,,,,,,no_candidates
+83,Copernicus Lodge,,,,,,,,,,,,,,no_candidates
+83,Dr. Rita Cox - Kina Minagok P.S.,,,,,,,,,,,,,,no_candidates
+83,Elm Grove Living Centre,,,,,,,,,,,,,,no_candidates
+83,Garden Avenue Public School,,,,,,,,,,,,,,no_candidates
+83,High Park Green - 50 Quebec Ave,,,,,,,,,,,,,,no_candidates
+83,Holy Family Catholic School,,,,,,,,,,,,,,no_candidates
+83,Howard Public School,1,8594462,543259,30 Marmaduke St,Howard Junior Public School,Howard Junior Public School,04,Parkdale-High Park,-79.45227209,43.65042631,0.4109095,0.8571,0.0000,candidate_returned
+83,Humbercrest Public School,1,74152,737415,14 St Mark's Rd,Humbercrest Public School,Humbercrest Public School,04,Parkdale-High Park,-79.49105537,43.66045265,0.4146932,1.0000,0.0000,candidate_returned
+83,Indian Road Crescent Public School,1,824662,526886,285 Indian Road Cres,Indian Road Crescent Junior Public School,Indian Road Crescent Junior Public School,04,Parkdale-High Park,-79.46007790,43.66252873,0.49640247,0.9091,0.4444,candidate_returned
+83,James Culnan Catholic School,,,,,,,,,,,,,,no_candidates
+83,Keele Community Centre,,,,,,,,,,,,,,no_candidates
+83,King George Public School,,,,,,,,,,,,,,no_candidates
+83,Lakeside Long Term Care Centre,,,,,,,,,,,,,,no_candidates
+83,Livmore High Park - Clubhouse,,,,,,,,,,,,,,no_candidates
+83,Loyola Arrupe Corporation - 1709 Bloor,,,,,,,,,,,,,,no_candidates
+83,Masaryk-Cowan Community Centre,,,,,,,,,,,,,,no_candidates
+83,Norwood Nursing Home,,,,,,,,,,,,,,no_candidates
+83,Nxt Condominiums,,,,,,,,,,,,,,no_candidates
+83,Parkdale Public School,,,,,,,,,,,,,,no_candidates
+83,Parkdale United Church,,,,,,,,,,,,,,no_candidates
+83,Runnymede Healthcare Centre,,,,,,,,,,,,,,no_candidates
+83,Runnymede Public Library,,,,,,,,,,,,,,no_candidates
+83,Runnymede United Church,,,,,,,,,,,,,,no_candidates
+83,Springhurst Manor,1,8344725,1031813,1447 King St W,Springhurst Manor,Springhurst Manor,04,Parkdale-High Park,-79.43765550,43.63666508,0.2537343,1.0000,0.0000,candidate_returned
+83,St. Joan Of Arc Catholic Church,,,,,,,,,,,,,,no_candidates
+83,St. Pius X Catholic School,,,,,,,,,,,,,,no_candidates
+83,St. Vincent de Paul Catholic Church,,,,,,,,,,,,,,no_candidates
+83,St. Vincent de Paul Catholic School,,,,,,,,,,,,,,no_candidates
+83,Swansea Public School,1,7635396,990750,207 Windermere Ave,Swansea Junior and Senior Public School,Swansea Junior and Senior Public School,04,Parkdale-High Park,-79.47704275,43.64367929,0.39456677,0.6667,0.0000,candidate_returned
+83,Swansea Town Hall,1,831833,640716,95 Lavinia Ave,Swansea Town Hall,Swansea Town Hall,04,Parkdale-High Park,-79.47787844,43.64764979,0.4146932,1.0000,0.0000,candidate_returned
+83,Toronto Rehab - Bickle Centre,,,,,,,,,,,,,,no_candidates
+83,Vilnius Manor,1,9668074,939726,1700 Bloor St W,Vilnius Manor,Vilnius Manor,04,Parkdale-High Park,-79.45842283,43.65539563,0.2537343,1.0000,0.0000,candidate_returned
+83,Warren Park Public School,1,10663463,635007,135 Varsity Rd,Warren Park Junior Public School,Warren Park Junior Public School,04,Parkdale-High Park,-79.49943751,43.66284277,0.47686273,0.8889,0.0000,candidate_returned
+93,3275 Sheppard Ave East - Scarsdale,,,,,,,,,,,,,,no_candidates
+93,Agincourt District Library,,,,,,,,,,,,,,no_candidates
+93,Beverly Glen Jr. Public School,,,,,,,,,,,,,,no_candidates
+93,Bridletowne Condos,,,,,,,,,,,,,,no_candidates
+93,Bridlewood Jr. Public School,,,,,,,,,,,,,,no_candidates
+93,Bridlewood Place Recreation Centre,,,,,,,,,,,,,,no_candidates
+93,Brookmill Blvd. Jr. Public School,,,,,,,,,,,,,,no_candidates
+93,Dr. Norman Bethune C.I.,,,,,,,,,,,,,,no_candidates
+93,Epiphany Of Our Lord Catholic Academy,,,,,,,,,,,,,,no_candidates
+93,Fairglen Jr. Public School,,,,,,,,,,,,,,no_candidates
+93,Glenhurst Apartments,,,,,,,,,,,,,,no_candidates
+93,Gracepoint Baptist Church,,,,,,,,,,,,,,no_candidates
+93,Highland Heights Jr. Public School,,,,,,,,,,,,,,no_candidates
+93,Inglewood Heights Jr. Public School,,,,,,,,,,,,,,no_candidates
+93,Kennedy Public School,,,,,,,,,,,,,,no_candidates
+93,Knox Presbyterian Church - Agincourt,1,6332561,590711,4156 Sheppard Ave E,Knox Presbyterian Church,Knox Presbyterian Church,22,Scarborough-Agincourt,-79.28136453,43.78532097,0.43439135,0.8571,0.0000,candidate_returned
+93,L'Amoreaux Community Centre,,,,,,,,,,,,,,no_candidates
+93,Lynngate Jr. Public School,,,,,,,,,,,,,,no_candidates
+93,Lynnwood Heights Jr. Public School,,,,,,,,,,,,,,no_candidates
+93,Mary Ward LINC & ESL Ctr.,,,,,,,,,,,,,,no_candidates
+93,Mon Sheong Court,,,,,,,,,,,,,,no_candidates
+93,Royalcrest Condos,,,,,,,,,,,,,,no_candidates
+93,Shepherd Lodge/terrace,,,,,,,,,,,,,,no_candidates
+93,Shepherd Manor/gardens,,,,,,,,,,,,,,no_candidates
+93,Sheppard Victoria Park Apts.,,,,,,,,,,,,,,no_candidates
+93,Silver Springs Public School,,,,,,,,,,,,,,no_candidates
+93,Sir Ernest MacMillan Snr. Public School,,,,,,,,,,,,,,no_candidates
+93,Sky Garden Recreation Centre,,,,,,,,,,,,,,no_candidates
+93,Sky Park Recreation Centre,,,,,,,,,,,,,,no_candidates
+93,St. Henry Catholic School,,,,,,,,,,,,,,no_candidates
+93,St. Paul's L'Amoreaux Center - SPLC,,,,,,,,,,,,,,no_candidates
+93,St. Timothy's Anglican Church,,,,,,,,,,,,,,no_candidates
+93,Stephen Leacock Community Centre,,,,,,,,,,,,,,no_candidates
+93,Tam O'Shanter Towers,,,,,,,,,,,,,,no_candidates
+93,Tendercare Living Centre,,,,,,,,,,,,,,no_candidates
+93,The Greens At Tam O'Shanter,,,,,,,,,,,,,,no_candidates
+93,Timberbank Jr. Public School,,,,,,,,,,,,,,no_candidates
+93,Vradenburg Jr. Public School,,,,,,,,,,,,,,no_candidates
+93,Wishing Well Manor,,,,,,,,,,,,,,no_candidates
+94,123 Bellamy Towers,,,,,,,,,,,,,,no_candidates
+94,126 Bellamy Towers,,,,,,,,,,,,,,no_candidates
+94,15 Torrance Road,,,,,,,,,,,,,,no_candidates
+94,30 Antrim Crescent,,,,,,,,,,,,,,no_candidates
+94,360 Degrees At City Centre - Tscc 1765,,,,,,,,,,,,,,no_candidates
+94,7 Glamorgan Ave,1,2798987,609896,7 Glamorgan Ave,None,None,21,Scarborough Centre,-79.28445022,43.76775542,0.4371375,0.0000,1.0000,candidate_returned
+94,Aldebrain Towers,,,,,,,,,,,,,,no_candidates
+94,Bendale Acres,,,,,,,,,,,,,,no_candidates
+94,Bendale Public Library,,,,,,,,,,,,,,no_candidates
+94,Birkdale Community Centre,,,,,,,,,,,,,,no_candidates
+94,Brimley Acres Seniors Residence,,,,,,,,,,,,,,no_candidates
+94,Centro Condos,,,,,,,,,,,,,,no_candidates
+94,Charles Gordon Sr. Public School,,,,,,,,,,,,,,no_candidates
+94,Church Of Jesus Christ Of L.D.S.,,,,,,,,,,,,,,no_candidates
+94,Church Of St. Andrew,1,3800965,536489,2333-2347 Victoria Park Ave,Church of St. Andrew,Church of St. Andrew,21,Scarborough Centre,-79.31797458,43.76530515,0.4109095,1.0000,0.0000,candidate_returned
+94,David And Mary Thomson C.I.,,,,,,,,,,,,,,no_candidates
+94,Dorset Park Public School,1,309262,952684,28 Blaisdale Rd,Dorset Park Public School,Dorset Park Public School,21,Scarborough Centre,-79.27973506,43.75019109,0.47649637,1.0000,0.0000,candidate_returned
+94,Edgewood Public School,1,308915,679670,230 Birkdale Rd,Edgewood Public School,Edgewood Public School,21,Scarborough Centre,-79.26581203,43.76630546,0.4146932,1.0000,0.0000,candidate_returned
+94,Ellesmere Community Centre,,,,,,,,,,,,,,no_candidates
+94,Ellesmere-Statton Public School,,,,,,,,,,,,,,no_candidates
+94,Encore At Equinox - Tscc 2347,,,,,,,,,,,,,,no_candidates
+94,Eq1 Condos - 70 Town Centre - Tscc 2036,,,,,,,,,,,,,,no_candidates
+94,Eq2 Condos - 60 Town Centre - Tscc 2044,,,,,,,,,,,,,,no_candidates
+94,Equinox I - TSCC 1721,,,,,,,,,,,,,,no_candidates
+94,Equinox II - TSCC 1729,,,,,,,,,,,,,,no_candidates
+94,Fieldstone Commons Care Community,,,,,,,,,,,,,,no_candidates
+94,Forest Vista - Tscc 1479,,,,,,,,,,,,,,no_candidates
+94,George Peck Public School,,,,,,,,,,,,,,no_candidates
+94,Glamorgan Jr. Public School,,,,,,,,,,,,,,no_candidates
+94,Glen Ravine Jr. Public School,,,,,,,,,,,,,,no_candidates
+94,Grace Communities Corp. (Salvation Army),,,,,,,,,,,,,,no_candidates
+94,Hellenic Home Scarborough,,,,,,,,,,,,,,no_candidates
+94,Highbrook Learning Centre,,,,,,,,,,,,,,no_candidates
+94,Ionview Public School,1,347910,1042886,90 Ionview Rd,Ionview Public School,Ionview Public School,21,Scarborough Centre,-79.27431796,43.73745162,0.4277295,1.0000,0.3333,candidate_returned
+94,Jack Goodlad Community Centre,,,,,,,,,,,,,,no_candidates
+94,Jack Goodlad Sr. Citizens Res.,,,,,,,,,,,,,,no_candidates
+94,Kennedy Lodge Long-Term Care Home,,,,,,,,,,,,,,no_candidates
+94,Kennedy Place,,,,,,,,,,,,,,no_candidates
+94,Knob Hill Public School,1,384283,865501,25 Seminole Ave,Knob Hill Public School,Knob Hill Public School,21,Scarborough Centre,-79.24978503,43.74529228,0.47649637,1.0000,0.0000,candidate_returned
+94,Lutheran Church Of St. Matthew,,,,,,,,,,,,,,no_candidates
+94,Manhattan Park Jr. Public School,,,,,,,,,,,,,,no_candidates
+94,Maryvale Public School,,,,,,,,,,,,,,no_candidates
+94,McGregor Park Community Ctr.,,,,,,,,,,,,,,no_candidates
+94,Mccowan Place,1,393107,913517,121 Trudelle St,McCowan Place,McCowan Place,21,Scarborough Centre,-79.23806183,43.74035302,0.2537343,1.0000,0.0000,candidate_returned
+94,Mondeo Springs,,,,,,,,,,,,,,no_candidates
+94,Omni Condos,,,,,,,,,,,,,,no_candidates
+94,Parisienne,,,,,,,,,,,,,,no_candidates
+94,Precious Blood Catholic School,,,,,,,,,,,,,,no_candidates
+94,Rainbow Village,,,,,,,,,,,,,,no_candidates
+94,Rockcliffe Care Community,,,,,,,,,,,,,,no_candidates
+94,Scarborough Fair Condominium,,,,,,,,,,,,,,no_candidates
+94,St. Andrew Presbyterian Church,,,,,,,,,,,,,,no_candidates
+94,St. Andrews Public School,,,,,,,,,,,,,,no_candidates
+94,St. David's Village,,,,,,,,,,,,,,no_candidates
+94,St. Joan Of Arc C.A. (Fmr. Jean Vanier),,,,,,,,,,,,,,no_candidates
+94,St. Nicholas Catholic School,,,,,,,,,,,,,,no_candidates
+94,Sunrise Terrace,,,,,,,,,,,,,,no_candidates
+94,Terraview Learning Centre,,,,,,,,,,,,,,no_candidates
+94,Terraview-Willowfield Public School,1,370058,610103,95 Pachino Blvd,Terraview-Willowfield Public School,Terraview-Willowfield Public School,21,Scarborough Centre,-79.30857274,43.76378292,0.49471456,1.0000,0.0000,candidate_returned
+94,The Anglican Church Of St. Jude Wexford,,,,,,,,,,,,,,no_candidates
+94,The Birches - 100,1,772198,924646,100 Birch Ave,None,None,12,Toronto-St. Paul's,-79.39583637,43.68074529,0.283652,0.0000,0.4000,candidate_returned
+94,The Birches - 100,2,7683957,770888,100 Silver Birch Ave,None,None,19,Beaches-East York,-79.28577610,43.67377766,0.27533463,0.0000,0.3333,candidate_returned
+94,The Birches - 101,1,7683958,553769,101 Silver Birch Ave,None,None,19,Beaches-East York,-79.28522035,43.67387466,0.27533463,0.0000,0.3333,candidate_returned
+94,The Birches - 301,1,7642112,636411,301 Silver Birch Ave,None,None,19,Beaches-East York,-79.28771908,43.67982592,0.27533463,0.0000,0.3333,candidate_returned
+94,The Copenhagen,,,,,,,,,,,,,,no_candidates
+94,The Wexford Residence,,,,,,,,,,,,,,no_candidates
+94,Toronto Chinese Methodist Church,,,,,,,,,,,,,,no_candidates
+94,Wexford Collegiate Institute,,,,,,,,,,,,,,no_candidates
+94,Wilmar Heights Baptist Church,,,,,,,,,,,,,,no_candidates
+95,70 Mornelle Court Apts.,,,,,,,,,,,,,,no_candidates
+95,Altitude Condominiums Tscc 2272,,,,,,,,,,,,,,no_candidates
+95,Ann Marie Hill Co-Op,,,,,,,,,,,,,,no_candidates
+95,Bellmere Jr. Public School,,,,,,,,,,,,,,no_candidates
+95,Bendale Jr. Public School,,,,,,,,,,,,,,no_candidates
+95,Blue Danube Apartments,,,,,,,,,,,,,,no_candidates
+95,Cedar Drive Junior Public School,1,337054,1005837,21 Gatesview Ave,Cedar Drive Junior Public School,Cedar Drive Junior Public School,24,Scarborough-Guildwood,-79.21505094,43.74585281,0.4947146,1.0000,0.0000,candidate_returned
+95,Cedarbrae Public Library,,,,,,,,,,,,,,no_candidates
+95,Cedarbrook Community Centre,,,,,,,,,,,,,,no_candidates
+95,Cedarbrook Jr. Public School,,,,,,,,,,,,,,no_candidates
+95,Cedarbrook Lodge,,,,,,,,,,,,,,no_candidates
+95,Chartwell Guildwood Retirement Residence,,,,,,,,,,,,,,no_candidates
+95,"Church of the Holy Trinity, Guildwood",,,,,,,,,,,,,,no_candidates
+95,Churchill Heights Public School,,,,,,,,,,,,,,no_candidates
+95,"Consilium Club, Res. At The Consilium",,,,,,,,,,,,,,no_candidates
+95,Cornell Jr. Public School,,,,,,,,,,,,,,no_candidates
+95,Curran Hall Community Centre,,,,,,,,,,,,,,no_candidates
+95,Eastview Public School,1,395203,901044,20 Waldock St,Eastview Public School,Eastview Public School,24,Scarborough-Guildwood,-79.19128044,43.75896336,0.4146932,1.0000,0.0000,candidate_returned
+95,Elizabeth Simcoe Jr. Public School,,,,,,,,,,,,,,no_candidates
+95,Ellipse I - Tscc 1622,,,,,,,,,,,,,,no_candidates
+95,Extendicare Guildwood,,,,,,,,,,,,,,no_candidates
+95,Extendicare Scarborough,,,,,,,,,,,,,,no_candidates
+95,Galloway Road Public School,1,336737,730052,192 Galloway Rd,Galloway Road Public School,Galloway Road Public School,24,Scarborough-Guildwood,-79.19662230,43.76501730,0.47952747,1.0000,0.2857,candidate_returned
+95,Gates Of Guildwood 10,,,,,,,,,,,,,,no_candidates
+95,George B. Little Public School,,,,,,,,,,,,,,no_candidates
+95,George P. Mackie Junior Public School,,,,,,,,,,,,,,no_candidates
+95,Golf Road Jr. Public School,,,,,,,,,,,,,,no_candidates
+95,Heather Heights Jr. Public School,,,,,,,,,,,,,,no_candidates
+95,Henry Hudson Sr. Public School,,,,,,,,,,,,,,no_candidates
+95,Highcastle Public School,,,,,,,,,,,,,,no_candidates
+95,Hillsborough Court,,,,,,,,,,,,,,no_candidates
+95,Mapledale - Mtcc 831,,,,,,,,,,,,,,no_candidates
+95,May Tower I,,,,,,,,,,,,,,no_candidates
+95,May Tower II,,,,,,,,,,,,,,no_candidates
+95,Military Trail Public School,,,,,,,,,,,,,,no_candidates
+95,Momiji Health Care Society,,,,,,,,,,,,,,no_candidates
+95,North Bendale Jr. Public School,,,,,,,,,,,,,,no_candidates
+95,Prominence Point,,,,,,,,,,,,,,no_candidates
+95,Scarborough Bluffs United Church,,,,,,,,,,,,,,no_candidates
+95,Seven Oaks,,,,,,,,,,,,,,no_candidates
+95,Shoniker Place,,,,,,,,,,,,,,no_candidates
+95,Sir Wilfrid Laurier Collegiate Institute,,,,,,,,,,,,,,no_candidates
+95,St. Barbara Catholic School,,,,,,,,,,,,,,no_candidates
+95,St. John Paul II Catholic School,,,,,,,,,,,,,,no_candidates
+95,St. Margaret-In-The-Pines,,,,,,,,,,,,,,no_candidates
+95,St. Martin de Porres Catholic School,,,,,,,,,,,,,,no_candidates
+95,St. Rose Of Lima Catholic School,,,,,,,,,,,,,,no_candidates
+95,St. Stephen's Presbyterian Church,1,574287,763959,3194 Weston Rd,St. Stephen's Presbyterian Church,St. Stephen's Presbyterian Church,07,Humber River-Black Creek,-79.53964367,43.73754629,0.47341794,1.0000,0.0000,candidate_returned
+95,St. Thomas More Catholic School,,,,,,,,,,,,,,no_candidates
+95,The Skyscape,,,,,,,,,,,,,,no_candidates
+95,Tredway Woodsworth Public School,1,384158,989506,112 Sedgemount Dr,Tredway Woodsworth Public School,Tredway Woodsworth Public School,24,Scarborough-Guildwood,-79.23526594,43.76503322,0.47649637,1.0000,0.0000,candidate_returned
+95,Village Apts.,,,,,,,,,,,,,,no_candidates
+95,West Hill Collegiate Institute,,,,,,,,,,,,,,no_candidates
+95,Woburn Village Co-Operative Homes Inc.,,,,,,,,,,,,,,no_candidates
+96,Agincourt Recreation Centre,,,,,,,,,,,,,,no_candidates
+96,Agnes Macphail Public School,,,,,,,,,,,,,,no_candidates
+96,Alexmuir Jr. Public School,,,,,,,,,,,,,,no_candidates
+96,Anson S. Taylor Jr. Public School,,,,,,,,,,,,,,no_candidates
+96,Berner Trail Jr. Public School,,,,,,,,,,,,,,no_candidates
+96,Brimwood Blvd Jr. Public School,,,,,,,,,,,,,,no_candidates
+96,Brookside Public School,,,,,,,,,,,,,,no_candidates
+96,Burrows Hall Community Centre,,,,,,,,,,,,,,no_candidates
+96,Forest Manor 1580,1,7531003,577518,1580 Sandhurst Crcl,Forest Manor,Forest Manor,23,Scarborough North,-79.27126214,43.80767121,0.3144282,0.8000,0.3333,candidate_returned
+96,Forest Manor 1600,,,,,,,,,,,,,,no_candidates
+96,Henry Kelsey Senior Public School,,,,,,,,,,,,,,no_candidates
+96,Macklin Public School,1,347260,852844,136 Ingleton Blvd,Macklin Public School,Macklin Public School,23,Scarborough North,-79.26747004,43.82178846,0.4146932,1.0000,0.0000,candidate_returned
+96,Milliken Public School,1,375326,735177,130 Port Royal Trl,Milliken Public School,Milliken Public School,23,Scarborough North,-79.28849695,43.81658654,0.4146932,1.0000,0.0000,candidate_returned
+96,North Agincourt Jr. Public School,,,,,,,,,,,,,,no_candidates
+96,Optima Shared Facilities,,,,,,,,,,,,,,no_candidates
+96,Percy Williams Jr. Public School,,,,,,,,,,,,,,no_candidates
+96,Port Royal Public School,1,5024206,797955,408 Port Royal Trl,Port Royal Public School,Port Royal Public School,23,Scarborough North,-79.28996675,43.82463240,0.48953113,1.0000,0.5000,candidate_returned
+96,Port Royal Public School,2,375326,735177,130 Port Royal Trl,Milliken Public School,Milliken Public School,23,Scarborough North,-79.28849695,43.81658654,0.4059154,0.5714,0.5000,candidate_returned
+96,Prince Of Peace Catholic School,,,,,,,,,,,,,,no_candidates
+96,Ridgeford Apartments,,,,,,,,,,,,,,no_candidates
+96,St. Ignatius Of Loyola Catholic School,,,,,,,,,,,,,,no_candidates
+96,St. Marguerite Bourgeoys C.S.,,,,,,,,,,,,,,no_candidates
+96,St. René Goupil Catholic School,,,,,,,,,,,,,,no_candidates
+96,Sts. Peter And Paul Residence,,,,,,,,,,,,,,no_candidates
+96,The Ambassadors I,1,5303864,578818,9 Ambassador Pl,None,None,06,York Centre,-79.45217925,43.74564587,0.07642204,0.0000,0.0000,candidate_returned
+96,The Ambassadors I,2,5303874,594574,19 Ambassador Pl,None,None,06,York Centre,-79.45317749,43.74531815,0.07642204,0.0000,0.0000,candidate_returned
+96,The Ambassadors I,3,5303868,598385,13 Ambassador Pl,None,None,06,York Centre,-79.45259084,43.74553878,0.07642204,0.0000,0.0000,candidate_returned
+96,The Ambassadors I,4,5303869,621652,14 Ambassador Pl,None,None,06,York Centre,-79.45300472,43.74593244,0.07642204,0.0000,0.0000,candidate_returned
+96,The Ambassadors I,5,5303862,560796,7 Ambassador Pl,None,None,06,York Centre,-79.45193590,43.74568180,0.07642204,0.0000,0.0000,candidate_returned
+96,The Ambassadors II,,,,,,,,,,,,,,no_candidates
+96,The Ambassadors III,,,,,,,,,,,,,,no_candidates
+96,The Divine Infant Catholic School,,,,,,,,,,,,,,no_candidates
+96,The Gatsby,,,,,,,,,,,,,,no_candidates
+96,The Platinum East,,,,,,,,,,,,,,no_candidates
+96,The Windsor At Chartwell Shared Facility,,,,,,,,,,,,,,no_candidates
+96,Tom Longboat Junior Public School,1,324647,804516,37 Crow Trl,Tom Longboat Junior Public School,Tom Longboat Junior Public School,23,Scarborough North,-79.23162696,43.81044617,0.49471456,1.0000,0.0000,candidate_returned
+96,Wedgewood Grove,1,5002057,568040,30 Thunder Grv,Wedgewood Grove,Wedgewood Grove,23,Scarborough North,-79.26641699,43.80949287,0.2537343,1.0000,0.0000,candidate_returned
+96,White Haven Public School,1,3337385,624850,105 Invergordon Ave,White Haven Public School,White Haven Public School,23,Scarborough North,-79.24720582,43.78727210,0.47649637,1.0000,0.0000,candidate_returned
+96,Yee Hong Centre - Scarborough Finch,,,,,,,,,,,,,,no_candidates
+96,Yee Hong Centre - Scarborough Mcnicoll,,,,,,,,,,,,,,no_candidates
+96,Yee Hong Chinese Evergreen Manor,,,,,,,,,,,,,,no_candidates
+96,Yee Hong Garden Terrace - 100 Scottfield,,,,,,,,,,,,,,no_candidates
+96,Yee Hong Garden Terrace - 90 Scottfield,,,,,,,,,,,,,,no_candidates
+97,Alvin Curling Public School,,,,,,,,,,,,,,no_candidates
+97,Camargue II - 10 Dean Park Road,,,,,,,,,,,,,,no_candidates
+97,Camargue II - 20 Dean Park Road,,,,,,,,,,,,,,no_candidates
+97,Cardinal Léger Catholic School,,,,,,,,,,,,,,no_candidates
+97,Chief Dan George Public School,,,,,,,,,,,,,,no_candidates
+97,Eesti Kodu,1,369262,821273,50 Old Kingston Rd,Eesti Kodu,Eesti Kodu,25,Scarborough-Rouge Park,-79.18264537,43.77617355,0.2537343,1.0000,0.0000,candidate_returned
+97,Ehatare Nursing Home,,,,,,,,,,,,,,no_candidates
+97,Extendicare Rouge Valley,,,,,,,,,,,,,,no_candidates
+97,Glen Maple,,,,,,,,,,,,,,no_candidates
+97,Glen Rouge Community,,,,,,,,,,,,,,no_candidates
+97,Grace Presbyterian Church,1,9109602,885404,447 Port Union Rd,Grace Presbyterian Church,Grace Presbyterian Church,25,Scarborough-Rouge Park,-79.14106266,43.79506523,0.4146932,1.0000,0.0000,candidate_returned
+97,Grace Presbyterian Church,2,1027144,849779,588 Renforth Dr,Grace Presbyterian Church,Grace Presbyterian Church,02,Etobicoke Centre,-79.58110825,43.65337566,0.4146932,1.0000,0.0000,candidate_returned
+97,Grey Owl Junior Public School,1,398141,569984,150 Wickson Trl,Grey Owl Junior Public School,Grey Owl Junior Public School,25,Scarborough-Rouge Park,-79.21330033,43.80398929,0.4947146,1.0000,0.0000,candidate_returned
+97,Heron Park Community Centre,,,,,,,,,,,,,,no_candidates
+97,Highland Creek Public School,1,363876,973122,1410 Military Trl,Highland Creek Public School,Highland Creek Public School,25,Scarborough-Rouge Park,-79.17844630,43.78350090,0.47649637,1.0000,0.0000,candidate_returned
+97,Malvern Christian Assembly,,,,,,,,,,,,,,no_candidates
+97,Malvern Community Recreation Centre,,,,,,,,,,,,,,no_candidates
+97,Malvern Family Resource Centre,,,,,,,,,,,,,,no_candidates
+97,Mary Shadd Public School,,,,,,,,,,,,,,no_candidates
+97,Mayfair On The Green Shared Facilities,,,,,,,,,,,,,,no_candidates
+97,Meadowvale Public School,,,,,,,,,,,,,,no_candidates
+97,Morningside Estates,,,,,,,,,,,,,,no_candidates
+97,Neilson Hall Apartments,,,,,,,,,,,,,,no_candidates
+97,Park Vista-Silver Bell Grove,,,,,,,,,,,,,,no_candidates
+97,Platinum Rouge Condominiums,,,,,,,,,,,,,,no_candidates
+97,Port Union Community Centre,,,,,,,,,,,,,,no_candidates
+97,Robin Hood Apartments,,,,,,,,,,,,,,no_candidates
+97,Rouge Valley Public School,,,,,,,,,,,,,,no_candidates
+97,ST. DUNSTAN OF CANTERBURY,,,,,,,,,,,,,,no_candidates
+97,Scarborough Wood Apartments,,,,,,,,,,,,,,no_candidates
+97,Sir Oliver Mowat Collegiate Institute,,,,,,,,,,,,,,no_candidates
+97,St. Jean de Brebeuf Catholic School,,,,,,,,,,,,,,no_candidates
+97,Thomas L. Wells Public School,,,,,,,,,,,,,,no_candidates
+97,Tony Stacey Centre For Veterans Care,,,,,,,,,,,,,,no_candidates
+97,West Hill Public School,1,7017603,754487,299 Morningside Ave,West Hill Public School,West Hill Public School,25,Scarborough-Rouge Park,-79.18688444,43.77267961,0.47649637,1.0000,0.0000,candidate_returned
+97,West Hill Public School,2,859183,601705,70 Ridge Hill Dr,West Preparatory Junior Public School,West Preparatory Junior Public School,08,Eglinton-Lawrence,-79.43294406,43.70261619,0.41091505,0.6667,0.2500,candidate_returned
+97,West Rouge Community Centre,,,,,,,,,,,,,,no_candidates
+97,William G. Miller Public School,1,30032611,682296,60 Bennett Rd,None,William G Miller Junior Public School,25,Scarborough-Rouge Park,-79.16503401,43.76851356,0.39022002,0.9091,0.0000,candidate_returned
+98,Agecare Trilogy,,,,,,,,,,,,,,no_candidates
+98,Anson Park Public School,1,358063,624458,30 Macduff Cres,Anson Park Public School,Anson Park Public School,20,Scarborough Southwest,-79.24111542,43.72612892,0.47649637,1.0000,0.0000,candidate_returned
+98,Bic Fortune/Sterling Club Rec. Cen.,,,,,,,,,,,,,,no_candidates
+98,Birch Cliff Heights Public School,,,,,,,,,,,,,,no_candidates
+98,Birchmount Community Centre,,,,,,,,,,,,,,no_candidates
+98,Blantyre Public School,,,,,,,,,,,,,,no_candidates
+98,Bliss Carman Senior Public School,1,306063,658697,10 Bellamy Rd S,Bliss Carman Senior Public School,Bliss Carman Senior Public School,20,Scarborough Southwest,-79.22560188,43.73264896,0.49471456,1.0000,0.0000,candidate_returned
+98,Byng Towers,,,,,,,,,,,,,,no_candidates
+98,Cardinal Ambrozic Houses Of Providence,,,,,,,,,,,,,,no_candidates
+98,Chester Village,,,,,,,,,,,,,,no_candidates
+98,Chine Drive Public School,1,2904931,673051,51 Chine Dr,Chine Drive Public School,Chine Drive Public School,20,Scarborough Southwest,-79.24179689,43.70998259,0.4803855,1.0000,0.2857,candidate_returned
+98,Clairlea Public School,1,6511806,1045204,25 Rosalind Cres,Clairlea Public School,Clairlea Public School,20,Scarborough Southwest,-79.29623589,43.71647676,0.4146932,1.0000,0.0000,candidate_returned
+98,Cliffside Public School,,,,,,,,,,,,,,no_candidates
+98,Corvette Junior Public School,,,,,,,,,,,,,,no_candidates
+98,Courcelette Public School,,,,,,,,,,,,,,no_candidates
+98,Craiglee Nursing Home,,,,,,,,,,,,,,no_candidates
+98,Danforth Gardens Public School,,,,,,,,,,,,,,no_candidates
+98,Don Montgomery Comm. Rec. Ctr.,,,,,,,,,,,,,,no_candidates
+98,General Brock Public School,1,319504,921242,140 Chestnut Cres,General Brock Public School,General Brock Public School,20,Scarborough Southwest,-79.27459021,43.71850710,0.47649637,1.0000,0.0000,candidate_returned
+98,Grace Church Scarborough,1,9109602,885404,447 Port Union Rd,Grace Presbyterian Church,Grace Presbyterian Church,25,Scarborough-Rouge Park,-79.14106266,43.79506523,0.37622434,0.6667,0.0000,candidate_returned
+98,H.A. Halbert Junior Public School,,,,,,,,,,,,,,no_candidates
+98,Henley Gardens,,,,,,,,,,,,,,no_candidates
+98,Highway Gospel Church,1,363246,817810,530 Midland Ave,Highway Gospel Church,Highway Gospel Church,20,Scarborough Southwest,-79.25117394,43.71730217,0.4146932,1.0000,0.0000,candidate_returned
+98,Ina Grafton Gage Home,1,30353,675306,2 O'Connor Dr,Ina Grafton Gage Home,Ina Grafton Gage Home,14,Toronto-Danforth,-79.35597442,43.69249052,0.47649637,1.0000,0.0000,candidate_returned
+98,J.G. Workman Public School,,,,,,,,,,,,,,no_candidates
+98,John A. Leslie Public School,,,,,,,,,,,,,,no_candidates
+98,Konko Church,,,,,,,,,,,,,,no_candidates
+98,Mason Road Junior Public School,1,360667,801738,78 Mason Rd,Mason Road Junior Public School,Mason Road Junior Public School,20,Scarborough Southwest,-79.22565459,43.73905644,0.49564138,1.0000,0.2500,candidate_returned
+98,Mccowan Retirement Residence,,,,,,,,,,,,,,no_candidates
+98,Midland Gardens Care Community,,,,,,,,,,,,,,no_candidates
+98,Norman Cook Junior Public School,1,325679,812013,725 Danforth Rd,Norman Cook Junior Public School,Norman Cook Junior Public School,20,Scarborough Southwest,-79.25779512,43.71903913,0.4947146,1.0000,0.0000,candidate_returned
+98,Oakridge Community Recreation Centre,,,,,,,,,,,,,,no_candidates
+98,Oakridge Jr. P.S. -Enter Off Newport Ave,,,,,,,,,,,,,,no_candidates
+98,Our Lady Of Fatima Catholic School,,,,,,,,,,,,,,no_candidates
+98,Presentation Manor,,,,,,,,,,,,,,no_candidates
+98,Retirement Suites By The Lake,,,,,,,,,,,,,,no_candidates
+98,Robert Service Senior Public School,,,,,,,,,,,,,,no_candidates
+98,Satec At W.A Porter Collegiate Institute,,,,,,,,,,,,,,no_candidates
+98,Scarborough Retirement Residence,,,,,,,,,,,,,,no_candidates
+98,St. Agatha Catholic School,,,,,,,,,,,,,,no_candidates
+98,St. Boniface Catholic School,,,,,,,,,,,,,,no_candidates
+98,St. Georges Manor,,,,,,,,,,,,,,no_candidates
+98,St. Joachim Catholic School,,,,,,,,,,,,,,no_candidates
+98,St. John Henry Newman Catholic H.S.,,,,,,,,,,,,,,no_candidates
+98,St. Maria Goretti C.S.-Enter Off Kennedy,,,,,,,,,,,,,,no_candidates
+98,St. Paul's United Church,,,,,,,,,,,,,,no_candidates
+98,Taylor Creek Public School,1,395722,888162,644 Warden Ave,Taylor Creek Public School,Taylor Creek Public School,20,Scarborough Southwest,-79.27728774,43.70003776,0.47649637,1.0000,0.0000,candidate_returned
+98,Walter Perry Junior Public School,,,,,,,,,,,,,,no_candidates
+98,Walton Place,,,,,,,,,,,,,,no_candidates
+98,Warden Hilltop Community Centre,,,,,,,,,,,,,,no_candidates
+98,West Scarborough Neighbourhood C.C.,,,,,,,,,,,,,,no_candidates

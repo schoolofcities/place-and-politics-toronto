@@ -1,0 +1,2 @@
+election_id,source,coverage,location_label_status,coordinates_available_in_repo,addresses_available_in_repo,missing_records,confidence,notes
+municipal_2023_mayor,https://open.toronto.ca/dataset/elections-voting-locations/,mapped polling divisions only,location_name_available_address_missing,1,1,0,high,"Open Toronto Elections Voting Locations has 1,445 point records for the 2023 mayoral by-election. POINT_LONG_CODE matched all 1,445 mapped municipal polling-subdivision rows."

@@ -1,0 +1,7 @@
+election_id,model,term,estimate,std_error,t_stat,p_value_normal_approx
+municipal_2023_mayor,turnout_rate ~ distance_km + poll_area_km2 + district fixed effects,intercept,0.2587034390168412,0.016699391848591337,15.491788046081684,0.0
+municipal_2023_mayor,turnout_rate ~ distance_km + poll_area_km2 + district fixed effects,distance_km,-0.10993333073673095,0.017091944361018973,-6.431879744907913,1.260354043353118e-10
+municipal_2023_mayor,turnout_rate ~ distance_km + poll_area_km2 + district fixed effects,poll_area_km2,0.005743121536848993,0.005075049911379537,1.1316384345248451,0.2577864745343268
+provincial_2025_partial,turnout_rate ~ distance_km + poll_area_km2 + district fixed effects,intercept,0.40375332001397046,0.015221635308213207,26.524963437805887,0.0
+provincial_2025_partial,turnout_rate ~ distance_km + poll_area_km2 + district fixed effects,distance_km,-0.009598086861478372,0.003530309671496294,-2.718766271121564,0.006552589193671965
+provincial_2025_partial,turnout_rate ~ distance_km + poll_area_km2 + district fixed effects,poll_area_km2,-0.018713070515937687,0.0026490693771380187,-7.064016774130231,1.617594946878853e-12

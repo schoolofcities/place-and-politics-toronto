@@ -1,0 +1,9 @@
+election_id,figure,path
+municipal_2023_mayor,distance_turnout_scatter,../../../../data/toronto_election_turnout/accessibility/processed/turnout_distance_analysis/figures/municipal_2023_distance_turnout_scatter.svg
+municipal_2023_mayor,area_turnout_scatter,../../../../data/toronto_election_turnout/accessibility/processed/turnout_distance_analysis/figures/municipal_2023_area_turnout_scatter.svg
+municipal_2023_mayor,distance_histogram,../../../../data/toronto_election_turnout/accessibility/processed/turnout_distance_analysis/figures/municipal_2023_distance_histogram.svg
+municipal_2023_mayor,residual_fitted,../../../../data/toronto_election_turnout/accessibility/processed/turnout_distance_analysis/figures/municipal_2023_residual_fitted.svg
+provincial_2025_partial,distance_turnout_scatter,../../../../data/toronto_election_turnout/accessibility/processed/turnout_distance_analysis/figures/provincial_2025_distance_turnout_scatter.svg
+provincial_2025_partial,area_turnout_scatter,../../../../data/toronto_election_turnout/accessibility/processed/turnout_distance_analysis/figures/provincial_2025_area_turnout_scatter.svg
+provincial_2025_partial,distance_histogram,../../../../data/toronto_election_turnout/accessibility/processed/turnout_distance_analysis/figures/provincial_2025_distance_histogram.svg
+provincial_2025_partial,residual_fitted,../../../../data/toronto_election_turnout/accessibility/processed/turnout_distance_analysis/figures/provincial_2025_residual_fitted.svg

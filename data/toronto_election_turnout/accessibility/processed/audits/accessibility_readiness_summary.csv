@@ -1,0 +1,4 @@
+election_id,rows,target_mapped_rows,mapped_rows,rows_with_votes,rows_with_electors,candidate_location_labels,model_ready_distance_rows,area_turnout_pearson,area_turnout_spearman
+municipal_2023_mayor,1545,1445,1445,1451,1376,1445,1351,-0.17005563721348024,-0.2832864860276165
+provincial_2025,1532,1388,1388,1532,1406,1338,1180,-0.20912408627786055,-0.42559663791810737
+federal_2025,5069,4273,4273,4687,4682,0,0,-0.0684267124248496,-0.21384905471712526

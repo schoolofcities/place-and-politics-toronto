@@ -1,0 +1,3 @@
+election_id,model,n,r2,adjusted_r2,rmse,district_fixed_effects
+municipal_2023_mayor,turnout_rate ~ distance_km + poll_area_km2 + district fixed effects,1351,0.16086098493539314,0.14438242421660163,0.11177391144383823,24
+provincial_2025_partial,turnout_rate ~ distance_km + poll_area_km2 + district fixed effects,1180,0.17750240495583314,0.15895519119074353,0.0884109055182478,24

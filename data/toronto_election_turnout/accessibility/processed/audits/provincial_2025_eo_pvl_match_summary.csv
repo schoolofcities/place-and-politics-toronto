@@ -1,0 +1,2 @@
+election_id,mapped_poll_rows,eo_pvl_rows,exact_name_match_rows,fuzzy_candidate_review_required_rows,no_reliable_candidate_rows,accepted_as_complete_poll_to_station_source,notes
+provincial_2025,1388,1346,1145,53,190,0,"Elections Ontario proposed voting-location files provide names and addresses, but exact district/name matching does not cover all mapped 2025 polling rows. Fuzzy candidates are for manual review only and are not used as accepted station assignments."

@@ -1,0 +1,38 @@
+[
+  {
+    "area_turnout_pearson": -0.17005563721348024,
+    "area_turnout_spearman": -0.2832864860276165,
+    "candidate_location_labels": 1445,
+    "election_id": "municipal_2023_mayor",
+    "mapped_rows": 1445,
+    "model_ready_distance_rows": 1351,
+    "rows": 1545,
+    "rows_with_electors": 1376,
+    "rows_with_votes": 1451,
+    "target_mapped_rows": 1445
+  },
+  {
+    "area_turnout_pearson": -0.20912408627786055,
+    "area_turnout_spearman": -0.42559663791810737,
+    "candidate_location_labels": 1338,
+    "election_id": "provincial_2025",
+    "mapped_rows": 1388,
+    "model_ready_distance_rows": 1180,
+    "rows": 1532,
+    "rows_with_electors": 1406,
+    "rows_with_votes": 1532,
+    "target_mapped_rows": 1388
+  },
+  {
+    "area_turnout_pearson": -0.0684267124248496,
+    "area_turnout_spearman": -0.21384905471712526,
+    "candidate_location_labels": 0,
+    "election_id": "federal_2025",
+    "mapped_rows": 4273,
+    "model_ready_distance_rows": 0,
+    "rows": 5069,
+    "rows_with_electors": 4682,
+    "rows_with_votes": 4687,
+    "target_mapped_rows": 4273
+  }
+]

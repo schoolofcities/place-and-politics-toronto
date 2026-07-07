@@ -1,0 +1,2 @@
+election_id,source,coverage,location_label_status,coordinates_available_in_repo,addresses_available_in_repo,missing_records,confidence,notes
+federal_2025,https://www.elections.ca/,mapped polling divisions only,no_useful_polling_location_field,0,0,4273,low,"Processed polling_division_name mostly preserves the official Polling Division Name, which is commonly a generic label such as Toronto for ordinary polls. It should not be read as a polling station name or address."
