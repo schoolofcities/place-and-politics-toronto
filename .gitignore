@@ -45,4 +45,4 @@ pnpm-debug.log*
 .codex
 
 # Project-specific data
-data/clustering_neighbourhoods/explore
+data/clustering_neighbourhoods
