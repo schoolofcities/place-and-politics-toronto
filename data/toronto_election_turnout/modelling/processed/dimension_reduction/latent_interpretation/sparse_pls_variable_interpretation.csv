@@ -1,0 +1,28 @@
+variable,family,vip,sparse_pls_coefficient,selected_in_sparse_weights,nonzero_component_count,plain_variable
+block3_visible_minority_share,immigration_citizenship,2.216721941482396,-0.0959791886193132,True,3,visible minority share
+block1_bachelors_or_higher_25_64_share,household_class,1.9209766393897727,0.114023658373092,True,2,bachelors or higher 25-64 share
+block4_effective_mayoral_candidates_5pct,mayoral_competitiveness,1.86129428733839,-0.0176308286809354,True,3,effective mayoral candidates above 5 percent
+block1_average_household_size,household_class,1.731174629452268,-0.0378413002742523,True,3,average household size
+block3_non_citizen_share,immigration_citizenship,1.4441118320691135,-0.1278016030783073,True,3,non citizen share
+block4_mayoral_top_two_margin,mayoral_competitiveness,1.211381748114562,-0.0209300278550542,True,2,mayoral top two margin
+block3_recent_immigrant_share,immigration_citizenship,1.145841548312294,-0.0398445860995423,True,5,recent immigrant share
+block4_federal_margin,federal_competitiveness,0.9558206792449676,0.0715654404664793,True,3,federal margin
+block1_age_65_plus_share,age_structure,0.8772762549162361,0.1204495563873529,True,3,age 65 plus share
+block5_school_age_5_17_share,service_contact,0.822698300016853,0.1683537380815796,True,4,school age 5-17 share
+block1_age_18_34_share,age_structure,0.7533812782274139,-0.1564083482200421,True,2,age 18-34 share
+block5_no_car_household_share,transportation_access,0.7373800881824594,-0.0109904920680735,True,5,no car household share
+block1_low_income_lim_at_share,household_class,0.7207368367728397,-0.0585684452980163,True,3,low income share
+block4_provincial_margin,provincial_competitiveness,0.7190150812431709,0.0227672903530752,True,3,provincial margin
+block5_ksi_collision_events_2021_2025_per_1000,service_contact,0.7113302345136502,0.008426804198039,True,3,ksi collision events 2021-2025 per 1000
+block5_social_housing_share,service_contact,0.6887483098547867,-0.0080164741561226,True,2,social housing share
+block2_apartment_share,housing_form_density,0.5825930844936366,0.035592955242342,True,3,apartment share
+block2_condo_share,housing_form_density,0.5400747897342236,0.0281369142861828,True,3,condo share
+block5_shelter_access_1200m,service_access,0.5286775489223636,-0.0124875964851154,True,2,shelter access within 1200m
+block2_population_density_per_km2,housing_form_density,0.449465027038495,1.0974642700911302e-06,True,2,population density per km2
+block2_renter_share,housing_tenure,0.3358440088651915,-0.0072113760926132,True,3,renter share
+block5_community_centre_access_1200m,service_access,0.2877009495526336,-0.0237693697384977,True,3,community centre access within 1200m
+block5_development_applications_2021_2025_per_1000,service_contact,0.2719184606004491,-0.0007323048259013,True,2,development applications 2021-2025 per 1000
+block2_same_address_5yr_share,residential_stability,0.2471637869429434,0.0103992161875312,True,2,same address 5yr share
+block5_transit_commute_share_preferred,transportation_access,0.2229352452721066,0.0331919300512775,True,2,transit commute share preferred
+block5_requests_311_per_1000,service_contact,0.2125942850763495,-6.677487369048793e-07,True,2,requests 311 per 1000
+block5_library_access_1200m,service_access,0.2061271975147159,-0.0079864460484978,True,2,library access within 1200m
