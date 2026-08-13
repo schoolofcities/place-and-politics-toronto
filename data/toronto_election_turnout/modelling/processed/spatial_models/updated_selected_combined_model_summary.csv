@@ -1,0 +1,11 @@
+model_id,dependent_variable,n,num_predictors,ols_adjusted_r2,ols_aic,ols_residual_morans_i,ols_residual_morans_p_perm,spatial_lambda,spatial_lambda_p,spatial_aic,spatial_filtered_residual_morans_i,spatial_filtered_residual_morans_p_perm,delta_aic_spatial_minus_ols
+A_municipal_turnout__updated_full,outcome_municipal_participation_citizen_18plus,585,21,0.704788,-1683.06,0.181706,0.005,0.475588,2.22045e-16,-1736.02,-0.00863929,0.72,-52.9541
+B_provincial_turnout__updated_full,outcome_provincial_participation_citizen_18plus,585,21,0.431349,-1435.79,0.101281,0.005,0.297305,8.441e-06,-1452.06,-0.00188776,0.945,-16.274
+C_federal_turnout__updated_full,outcome_federal_participation_citizen_18plus,585,21,0.378974,-1297.73,0.175407,0.005,0.42356,1.65201e-13,-1342.32,-0.00479825,0.88,-44.5924
+D_federal_minus_municipal__updated_full,outcome_federal_minus_municipal_participation,585,21,0.297018,-1387.25,0.077757,0.005,0.217346,0.00110996,-1395.36,-0.00200497,0.92,-8.11606
+E_mean_turnout__updated_full,outcome_mean_participation_citizen_18plus,585,21,0.601777,-1713.86,0.209008,0.005,0.520271,0,-1782.14,-0.00298717,0.905,-68.2732
+A_municipal_turnout__updated_trimmed,outcome_municipal_participation_citizen_18plus,585,14,0.70238,-1685.08,0.197421,0.005,0.479484,0,-1743.43,-0.0102353,0.71,-58.3537
+B_provincial_turnout__updated_trimmed,outcome_provincial_participation_citizen_18plus,585,7,0.430087,-1448.12,0.116391,0.005,0.300246,1.60489e-06,-1467.35,-0.00304211,0.905,-19.2263
+C_federal_turnout__updated_trimmed,outcome_federal_participation_citizen_18plus,585,7,0.319029,-1257.45,0.172825,0.005,0.418864,4.63407e-13,-1300.68,-0.00319777,0.92,-43.2268
+D_federal_minus_municipal__updated_trimmed,outcome_federal_minus_municipal_participation,585,6,0.301011,-1405.2,0.086763,0.005,0.21261,0.000700866,-1414.21,-0.00340543,0.87,-9.01345
+E_mean_turnout__updated_trimmed,outcome_mean_participation_citizen_18plus,585,12,0.597606,-1716.49,0.228787,0.005,0.524793,0,-1792.75,-0.00514929,0.82,-76.2628

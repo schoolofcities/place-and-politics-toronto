@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="980" height="420" viewBox="0 0 980 420">
+<rect width="100%" height="100%" fill="white"/>
+<text x="24.0" y="30.0" font-family="Arial, sans-serif" font-size="18" font-weight="700" text-anchor="start" fill="#222">Adjusted R2 by dependent variable and predictor block</text>
+<text x="332.5" y="52.0" font-family="Arial, sans-serif" font-size="11" font-weight="700" text-anchor="middle" fill="#222">B1: Demographics</text>
+<text x="497.5" y="52.0" font-family="Arial, sans-serif" font-size="11" font-weight="700" text-anchor="middle" fill="#222">B2: Housing/stability</text>
+<text x="662.5" y="52.0" font-family="Arial, sans-serif" font-size="11" font-weight="700" text-anchor="middle" fill="#222">B3: Immigration/eligibility</text>
+<text x="827.5" y="52.0" font-family="Arial, sans-serif" font-size="11" font-weight="700" text-anchor="middle" fill="#222">B4: Competitiveness</text>
+<text x="24.0" y="102.0" font-family="Arial, sans-serif" font-size="13" font-weight="700" text-anchor="start" fill="#222">Municipal turnout</text>
+<rect x="250" y="70" width="159" height="46" rx="4" fill="rgb(57,153,115)" stroke="#d4d4d4"/>
+<text x="329.5" y="100.0" font-family="Arial, sans-serif" font-size="15" font-weight="700" text-anchor="middle" fill="#222">0.604</text>
+<rect x="415" y="70" width="159" height="46" rx="4" fill="rgb(179,214,198)" stroke="#d4d4d4"/>
+<text x="494.5" y="100.0" font-family="Arial, sans-serif" font-size="15" font-weight="700" text-anchor="middle" fill="#222">0.216</text>
+<rect x="580" y="70" width="159" height="46" rx="4" fill="rgb(74,161,126)" stroke="#d4d4d4"/>
+<text x="659.5" y="100.0" font-family="Arial, sans-serif" font-size="15" font-weight="700" text-anchor="middle" fill="#222">0.549</text>
+<rect x="745" y="70" width="159" height="46" rx="4" fill="rgb(124,186,161)" stroke="#d4d4d4"/>
+<text x="824.5" y="100.0" font-family="Arial, sans-serif" font-size="15" font-weight="700" text-anchor="middle" fill="#222">0.390</text>
+<text x="24.0" y="154.0" font-family="Arial, sans-serif" font-size="13" font-weight="700" text-anchor="start" fill="#222">Provincial turnout</text>
+<rect x="250" y="122" width="159" height="46" rx="4" fill="rgb(125,187,161)" stroke="#d4d4d4"/>
+<text x="329.5" y="152.0" font-family="Arial, sans-serif" font-size="15" font-weight="700" text-anchor="middle" fill="#222">0.386</text>
+<rect x="415" y="122" width="159" height="46" rx="4" fill="rgb(195,222,209)" stroke="#d4d4d4"/>
+<text x="494.5" y="152.0" font-family="Arial, sans-serif" font-size="15" font-weight="700" text-anchor="middle" fill="#222">0.163</text>
+<rect x="580" y="122" width="159" height="46" rx="4" fill="rgb(148,198,177)" stroke="#d4d4d4"/>
+<text x="659.5" y="152.0" font-family="Arial, sans-serif" font-size="15" font-weight="700" text-anchor="middle" fill="#222">0.314</text>
+<rect x="745" y="122" width="159" height="46" rx="4" fill="rgb(169,209,192)" stroke="#d4d4d4"/>
+<text x="824.5" y="152.0" font-family="Arial, sans-serif" font-size="15" font-weight="700" text-anchor="middle" fill="#222">0.246</text>
+<text x="24.0" y="206.0" font-family="Arial, sans-serif" font-size="13" font-weight="700" text-anchor="start" fill="#222">Federal turnout</text>
+<rect x="250" y="174" width="159" height="46" rx="4" fill="rgb(137,193,169)" stroke="#d4d4d4"/>
+<text x="329.5" y="204.0" font-family="Arial, sans-serif" font-size="15" font-weight="700" text-anchor="middle" fill="#222">0.349</text>
+<rect x="415" y="174" width="159" height="46" rx="4" fill="rgb(210,229,219)" stroke="#d4d4d4"/>
+<text x="494.5" y="204.0" font-family="Arial, sans-serif" font-size="15" font-weight="700" text-anchor="middle" fill="#222">0.118</text>
+<rect x="580" y="174" width="159" height="46" rx="4" fill="rgb(174,211,195)" stroke="#d4d4d4"/>
+<text x="659.5" y="204.0" font-family="Arial, sans-serif" font-size="15" font-weight="700" text-anchor="middle" fill="#222">0.230</text>
+<rect x="745" y="174" width="159" height="46" rx="4" fill="rgb(205,227,216)" stroke="#d4d4d4"/>
+<text x="824.5" y="204.0" font-family="Arial, sans-serif" font-size="15" font-weight="700" text-anchor="middle" fill="#222">0.133</text>
+<text x="24.0" y="258.0" font-family="Arial, sans-serif" font-size="13" font-weight="700" text-anchor="start" fill="#222">Federal - municipal gap</text>
+<rect x="250" y="226" width="159" height="46" rx="4" fill="rgb(201,225,213)" stroke="#d4d4d4"/>
+<text x="329.5" y="256.0" font-family="Arial, sans-serif" font-size="15" font-weight="700" text-anchor="middle" fill="#222">0.145</text>
+<rect x="415" y="226" width="159" height="46" rx="4" fill="rgb(185,217,202)" stroke="#d4d4d4"/>
+<text x="494.5" y="256.0" font-family="Arial, sans-serif" font-size="15" font-weight="700" text-anchor="middle" fill="#222">0.197</text>
+<rect x="580" y="226" width="159" height="46" rx="4" fill="rgb(162,205,186)" stroke="#d4d4d4"/>
+<text x="659.5" y="256.0" font-family="Arial, sans-serif" font-size="15" font-weight="700" text-anchor="middle" fill="#222">0.270</text>
+<rect x="745" y="226" width="159" height="46" rx="4" fill="rgb(212,230,221)" stroke="#d4d4d4"/>
+<text x="824.5" y="256.0" font-family="Arial, sans-serif" font-size="15" font-weight="700" text-anchor="middle" fill="#222">0.110</text>
+<text x="24.0" y="310.0" font-family="Arial, sans-serif" font-size="13" font-weight="700" text-anchor="start" fill="#222">Mean turnout</text>
+<rect x="250" y="278" width="159" height="46" rx="4" fill="rgb(73,161,126)" stroke="#d4d4d4"/>
+<text x="329.5" y="308.0" font-family="Arial, sans-serif" font-size="15" font-weight="700" text-anchor="middle" fill="#222">0.551</text>
+<rect x="415" y="278" width="159" height="46" rx="4" fill="rgb(190,219,206)" stroke="#d4d4d4"/>
+<text x="494.5" y="308.0" font-family="Arial, sans-serif" font-size="15" font-weight="700" text-anchor="middle" fill="#222">0.180</text>
+<rect x="580" y="278" width="159" height="46" rx="4" fill="rgb(112,180,152)" stroke="#d4d4d4"/>
+<text x="659.5" y="308.0" font-family="Arial, sans-serif" font-size="15" font-weight="700" text-anchor="middle" fill="#222">0.428</text>
+<rect x="745" y="278" width="159" height="46" rx="4" fill="rgb(147,198,177)" stroke="#d4d4d4"/>
+<text x="824.5" y="308.0" font-family="Arial, sans-serif" font-size="15" font-weight="700" text-anchor="middle" fill="#222">0.315</text>
+<text x="24.0" y="396.0" font-family="Arial, sans-serif" font-size="12" font-weight="400" text-anchor="start" fill="#222">Darker cells indicate stronger adjusted R2.</text>
+</svg>

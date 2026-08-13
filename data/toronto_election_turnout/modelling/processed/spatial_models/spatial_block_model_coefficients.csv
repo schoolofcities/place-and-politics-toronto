@@ -1,0 +1,471 @@
+model_id,model_type,term,coefficient,std_error,z_or_t,p_value,significance,standardized_beta
+01_A_municipal_turnout__block_1_demographic,OLS,intercept,1.10485,0.120172,9.19391,0,***,
+01_A_municipal_turnout__block_1_demographic,Spatial error,intercept,0.88072,0.131332,6.70605,1.99969e-11,***,
+01_A_municipal_turnout__block_1_demographic,OLS,block1_age_18_34_share,-0.76813,0.084877,-9.04992,0,***,-0.636627
+01_A_municipal_turnout__block_1_demographic,Spatial error,block1_age_18_34_share,-0.637048,0.0964245,-6.6067,3.92972e-11,***,
+01_A_municipal_turnout__block_1_demographic,OLS,block1_age_35_64_share,-0.265733,0.164816,-1.6123,0.106896,,-0.115436
+01_A_municipal_turnout__block_1_demographic,Spatial error,block1_age_35_64_share,-0.436844,0.167488,-2.60821,0.00910178,**,
+01_A_municipal_turnout__block_1_demographic,OLS,block1_age_65_plus_share,-0.0521791,0.172241,-0.302942,0.761934,,-0.0401581
+01_A_municipal_turnout__block_1_demographic,Spatial error,block1_age_65_plus_share,-0.349944,0.170897,-2.04769,0.0405899,*,
+01_A_municipal_turnout__block_1_demographic,OLS,block1_median_age,-0.00310184,0.00183372,-1.69156,0.0907307,.,-0.177055
+01_A_municipal_turnout__block_1_demographic,Spatial error,block1_median_age,0.0017827,0.00177773,1.00279,0.315961,,
+01_A_municipal_turnout__block_1_demographic,OLS,block1_average_household_size,-0.118102,0.0112464,-10.5014,0,***,-0.548734
+01_A_municipal_turnout__block_1_demographic,Spatial error,block1_average_household_size,-0.0820993,0.0128696,-6.37929,1.77906e-10,***,
+01_A_municipal_turnout__block_1_demographic,OLS,block1_bachelors_or_higher_25_64_share,0.201338,0.0244371,8.23902,2.22045e-16,***,0.33983
+01_A_municipal_turnout__block_1_demographic,Spatial error,block1_bachelors_or_higher_25_64_share,0.212787,0.0322939,6.58907,4.42575e-11,***,
+01_A_municipal_turnout__block_1_demographic,OLS,block1_low_income_lim_at_share,-0.453223,0.0754029,-6.01069,1.84739e-09,***,-0.260627
+01_A_municipal_turnout__block_1_demographic,Spatial error,block1_low_income_lim_at_share,-0.212481,0.0779919,-2.72439,0.00644199,**,
+01_A_municipal_turnout__block_1_demographic,OLS,block1_unemployment_rate_share,-0.177995,0.119663,-1.48747,0.13689,,-0.0636645
+01_A_municipal_turnout__block_1_demographic,Spatial error,block1_unemployment_rate_share,-0.323967,0.102864,-3.14947,0.00163568,**,
+02_A_municipal_turnout__block_2_housing_stability,OLS,intercept,4.22239,1.3797,3.06036,0.00221067,**,
+02_A_municipal_turnout__block_2_housing_stability,Spatial error,intercept,3.58045,0.886192,4.04027,5.33903e-05,***,
+02_A_municipal_turnout__block_2_housing_stability,OLS,block2_renter_share,-3.91386,1.3718,-2.85307,0.00432985,**,-8.12858
+02_A_municipal_turnout__block_2_housing_stability,Spatial error,block2_renter_share,-3.47478,0.874383,-3.97398,7.06825e-05,***,
+02_A_municipal_turnout__block_2_housing_stability,OLS,block2_owner_share,-3.42941,1.37166,-2.5002,0.0124125,*,-7.1156
+02_A_municipal_turnout__block_2_housing_stability,Spatial error,block2_owner_share,-3.30428,0.872904,-3.78539,0.000153466,***,
+02_A_municipal_turnout__block_2_housing_stability,OLS,block2_same_address_1yr_share,-0.398547,0.147057,-2.71016,0.00672513,**,-0.27908
+02_A_municipal_turnout__block_2_housing_stability,Spatial error,block2_same_address_1yr_share,0.0847217,0.108209,0.782942,0.433661,,
+02_A_municipal_turnout__block_2_housing_stability,OLS,block2_same_address_5yr_share,-0.0890034,0.0961449,-0.925722,0.354591,,-0.107601
+02_A_municipal_turnout__block_2_housing_stability,Spatial error,block2_same_address_5yr_share,-0.00571235,0.0647046,-0.0882835,0.929651,,
+02_A_municipal_turnout__block_2_housing_stability,OLS,block2_condo_share,-0.309653,0.0406577,-7.61608,2.62013e-14,***,-0.812578
+02_A_municipal_turnout__block_2_housing_stability,Spatial error,block2_condo_share,-0.00795036,0.0368414,-0.215799,0.829144,,
+02_A_municipal_turnout__block_2_housing_stability,OLS,block2_apartment_share,0.426873,0.0507684,8.40826,0,***,1.13874
+02_A_municipal_turnout__block_2_housing_stability,Spatial error,block2_apartment_share,0.140994,0.0379044,3.71973,0.000199437,***,
+02_A_municipal_turnout__block_2_housing_stability,OLS,block2_detached_share,0.100566,0.0536873,1.87318,0.0610433,.,0.251466
+02_A_municipal_turnout__block_2_housing_stability,Spatial error,block2_detached_share,0.0890111,0.0453386,1.96325,0.0496168,*,
+02_A_municipal_turnout__block_2_housing_stability,OLS,block2_semi_detached_share,0.115943,0.0759402,1.52677,0.126818,,0.115426
+02_A_municipal_turnout__block_2_housing_stability,Spatial error,block2_semi_detached_share,0.0545015,0.062961,0.865639,0.386688,,
+02_A_municipal_turnout__block_2_housing_stability,OLS,block2_population_density_per_km2,7.35374e-07,5.62895e-07,1.30641,0.191412,,0.0651579
+02_A_municipal_turnout__block_2_housing_stability,Spatial error,block2_population_density_per_km2,2.01521e-07,4.279e-07,0.470955,0.637673,,
+03_A_municipal_turnout__block_3_immigration_eligibility,OLS,intercept,1.05274,0.11725,8.97862,0,***,
+03_A_municipal_turnout__block_3_immigration_eligibility,Spatial error,intercept,0.9637,0.14217,6.77848,1.21443e-11,***,
+03_A_municipal_turnout__block_3_immigration_eligibility,OLS,block3_immigrant_share,-0.221001,0.0775123,-2.85117,0.00435584,**,-0.302277
+03_A_municipal_turnout__block_3_immigration_eligibility,Spatial error,block3_immigrant_share,-0.00855397,0.0768685,-0.111281,0.911394,,
+03_A_municipal_turnout__block_3_immigration_eligibility,OLS,block3_recent_immigrant_share,0.275363,0.187439,1.46908,0.141811,,0.107323
+03_A_municipal_turnout__block_3_immigration_eligibility,Spatial error,block3_recent_immigrant_share,0.170443,0.192487,0.885477,0.3759,,
+03_A_municipal_turnout__block_3_immigration_eligibility,OLS,block3_non_citizen_share,-0.194057,0.135399,-1.43323,0.151793,,-0.155877
+03_A_municipal_turnout__block_3_immigration_eligibility,Spatial error,block3_non_citizen_share,-0.182086,0.130834,-1.39173,0.164004,,
+03_A_municipal_turnout__block_3_immigration_eligibility,OLS,block3_citizen_adult_share,-0.00217122,0.077033,-0.0281855,0.977514,,-0.00195547
+03_A_municipal_turnout__block_3_immigration_eligibility,Spatial error,block3_citizen_adult_share,-0.0415738,0.0646405,-0.643154,0.520124,,
+03_A_municipal_turnout__block_3_immigration_eligibility,OLS,block3_visible_minority_share,-0.227176,0.0296293,-7.66727,1.75415e-14,***,-0.525493
+03_A_municipal_turnout__block_3_immigration_eligibility,Spatial error,block3_visible_minority_share,-0.2521,0.0345756,-7.29128,3.07088e-13,***,
+03_A_municipal_turnout__block_3_immigration_eligibility,OLS,block3_english_french_knowledge_share,-0.450852,0.0970016,-4.64788,3.35363e-06,***,-0.204321
+03_A_municipal_turnout__block_3_immigration_eligibility,Spatial error,block3_english_french_knowledge_share,-0.366026,0.128951,-2.83848,0.00453287,**,
+03_A_municipal_turnout__block_3_immigration_eligibility,OLS,block3_non_official_mother_tongue_share,0.0108028,0.0647435,0.166856,0.867484,,0.0153103
+03_A_municipal_turnout__block_3_immigration_eligibility,Spatial error,block3_non_official_mother_tongue_share,-0.0892801,0.0686082,-1.3013,0.193154,,
+04_A_municipal_turnout__block_4_competitiveness,OLS,intercept,1.08258,0.201961,5.36031,8.30784e-08,***,
+04_A_municipal_turnout__block_4_competitiveness,Spatial error,intercept,1.16525,0.187136,6.22671,4.76325e-10,***,
+04_A_municipal_turnout__block_4_competitiveness,OLS,block4_mayoral_top_two_margin,-0.251709,0.050509,-4.98344,6.24623e-07,***,-0.287904
+04_A_municipal_turnout__block_4_competitiveness,Spatial error,block4_mayoral_top_two_margin,-0.260481,0.0494881,-5.26351,1.41327e-07,***,
+04_A_municipal_turnout__block_4_competitiveness,OLS,block4_effective_mayoral_candidates_5pct,-0.092526,0.0209769,-4.41086,1.02962e-05,***,-0.638655
+04_A_municipal_turnout__block_4_competitiveness,Spatial error,block4_effective_mayoral_candidates_5pct,-0.0876615,0.0204359,-4.28958,1.79008e-05,***,
+04_A_municipal_turnout__block_4_competitiveness,OLS,block4_mayoral_vote_fragmentation,-0.30821,0.329661,-0.93493,0.349824,,-0.160638
+04_A_municipal_turnout__block_4_competitiveness,Spatial error,block4_mayoral_vote_fragmentation,-0.343033,0.290633,-1.18029,0.237883,,
+04_A_municipal_turnout__block_4_competitiveness,OLS,block4_federal_margin,0.023082,0.0428103,0.539168,0.589771,,0.0292703
+04_A_municipal_turnout__block_4_competitiveness,Spatial error,block4_federal_margin,-0.0628392,0.053258,-1.1799,0.238039,,
+04_A_municipal_turnout__block_4_competitiveness,OLS,block4_provincial_margin,0.0511501,0.0461075,1.10937,0.267272,,0.0601922
+04_A_municipal_turnout__block_4_competitiveness,Spatial error,block4_provincial_margin,0.0283759,0.0542221,0.523326,0.600747,,
+04_A_municipal_turnout__block_4_competitiveness,OLS,block4_effective_federal_parties_5pct,-0.0594502,0.0318105,-1.86889,0.0616387,.,-0.0853301
+04_A_municipal_turnout__block_4_competitiveness,Spatial error,block4_effective_federal_parties_5pct,-0.0847641,0.0391971,-2.16251,0.0305792,*,
+04_A_municipal_turnout__block_4_competitiveness,OLS,block4_effective_provincial_parties_5pct,0.0128147,0.0167875,0.763348,0.445256,,0.0413208
+04_A_municipal_turnout__block_4_competitiveness,Spatial error,block4_effective_provincial_parties_5pct,0.0131679,0.0202485,0.650313,0.51549,,
+05_A_municipal_turnout__block_5_municipal_services,OLS,intercept,0.176465,0.0118838,14.8492,0,***,
+05_A_municipal_turnout__block_5_municipal_services,Spatial error,intercept,0.232091,0.0117536,19.7464,0,***,
+05_A_municipal_turnout__block_5_municipal_services,OLS,block5_transit_commute_share_preferred,-0.259217,0.0698425,-3.71146,0.000206068,***,
+05_A_municipal_turnout__block_5_municipal_services,Spatial error,block5_transit_commute_share_preferred,-0.222152,0.0529681,-4.19407,2.73992e-05,***,
+05_A_municipal_turnout__block_5_municipal_services,OLS,block5_no_car_household_share,0.144464,0.0380439,3.79729,0.000146289,***,
+05_A_municipal_turnout__block_5_municipal_services,Spatial error,block5_no_car_household_share,-0.00649114,0.0338188,-0.191939,0.84779,,
+05_A_municipal_turnout__block_5_municipal_services,OLS,block5_social_housing_share,-0.163644,0.0273545,-5.98237,2.1992e-09,***,
+05_A_municipal_turnout__block_5_municipal_services,Spatial error,block5_social_housing_share,-0.0481246,0.0184678,-2.60586,0.00916428,**,
+05_A_municipal_turnout__block_5_municipal_services,OLS,block5_requests_311_per_1000,8.34102e-06,2.72289e-06,3.0633,0.0021891,**,
+05_A_municipal_turnout__block_5_municipal_services,Spatial error,block5_requests_311_per_1000,1.87253e-06,1.76398e-06,1.06153,0.288447,,
+05_A_municipal_turnout__block_5_municipal_services,OLS,block5_library_access_1200m,0.0215867,0.00995028,2.16945,0.0300482,*,
+05_A_municipal_turnout__block_5_municipal_services,Spatial error,block5_library_access_1200m,-0.014562,0.00702256,-2.0736,0.038116,*,
+05_A_municipal_turnout__block_5_municipal_services,OLS,block5_community_centre_access_1200m,0.0111602,0.0154626,0.721757,0.470444,,
+05_A_municipal_turnout__block_5_municipal_services,Spatial error,block5_community_centre_access_1200m,0.00612724,0.0101977,0.600846,0.547943,,
+05_A_municipal_turnout__block_5_municipal_services,OLS,block5_park_access_1200m,0.176465,0.0118838,14.8492,0,***,
+05_A_municipal_turnout__block_5_municipal_services,Spatial error,block5_park_access_1200m,0.232091,0.0117536,19.7464,0,***,
+05_A_municipal_turnout__block_5_municipal_services,OLS,block5_school_age_5_17_share,0.241137,0.12322,1.95697,0.0503511,.,
+05_A_municipal_turnout__block_5_municipal_services,Spatial error,block5_school_age_5_17_share,-0.245011,0.0977411,-2.50673,0.0121853,*,
+05_A_municipal_turnout__block_5_municipal_services,OLS,block5_ksi_collision_events_2021_2025_per_1000,0.00558377,0.0033173,1.68323,0.0923313,.,
+05_A_municipal_turnout__block_5_municipal_services,Spatial error,block5_ksi_collision_events_2021_2025_per_1000,0.00894429,0.00198112,4.51475,6.33904e-06,***,
+05_A_municipal_turnout__block_5_municipal_services,OLS,block5_development_applications_2021_2025_per_1000,-0.000892195,0.000687428,-1.29787,0.19433,,
+05_A_municipal_turnout__block_5_municipal_services,Spatial error,block5_development_applications_2021_2025_per_1000,-0.000768816,0.000461572,-1.66565,0.0957839,.,
+05_A_municipal_turnout__block_5_municipal_services,OLS,block5_shelter_access_1200m,0.0195809,0.0103014,1.90079,0.0573295,.,
+05_A_municipal_turnout__block_5_municipal_services,Spatial error,block5_shelter_access_1200m,0.000798535,0.00907034,0.088038,0.929846,,
+06_B_provincial_turnout__block_1_demographic,OLS,intercept,1.14781,0.132545,8.65976,0,***,
+06_B_provincial_turnout__block_1_demographic,Spatial error,intercept,1.10398,0.147856,7.46656,8.23785e-14,***,
+06_B_provincial_turnout__block_1_demographic,OLS,block1_age_18_34_share,-0.45417,0.0936161,-4.85141,1.22587e-06,***,-0.422902
+06_B_provincial_turnout__block_1_demographic,Spatial error,block1_age_18_34_share,-0.408758,0.106687,-3.83136,0.000127436,***,
+06_B_provincial_turnout__block_1_demographic,OLS,block1_age_35_64_share,-0.095575,0.181786,-0.525756,0.599058,,-0.0466457
+06_B_provincial_turnout__block_1_demographic,Spatial error,block1_age_35_64_share,-0.239738,0.194256,-1.23414,0.217153,,
+06_B_provincial_turnout__block_1_demographic,OLS,block1_age_65_plus_share,0.248617,0.189975,1.30868,0.190642,,0.21497
+06_B_provincial_turnout__block_1_demographic,Spatial error,block1_age_65_plus_share,0.0621566,0.199808,0.311082,0.755739,,
+06_B_provincial_turnout__block_1_demographic,OLS,block1_median_age,-0.00558988,0.00202252,-2.76381,0.00571302,**,-0.358477
+06_B_provincial_turnout__block_1_demographic,Spatial error,block1_median_age,-0.00286778,0.00210139,-1.36471,0.172345,,
+06_B_provincial_turnout__block_1_demographic,OLS,block1_average_household_size,-0.11866,0.0124043,-9.56606,0,***,-0.619412
+06_B_provincial_turnout__block_1_demographic,Spatial error,block1_average_household_size,-0.114966,0.0142579,-8.06335,6.66134e-16,***,
+06_B_provincial_turnout__block_1_demographic,OLS,block1_bachelors_or_higher_25_64_share,0.0653966,0.0269532,2.4263,0.0152536,*,0.124012
+06_B_provincial_turnout__block_1_demographic,Spatial error,block1_bachelors_or_higher_25_64_share,0.0619234,0.0328621,1.88434,0.0595191,.,
+06_B_provincial_turnout__block_1_demographic,OLS,block1_low_income_lim_at_share,-0.379941,0.0831665,-4.56844,4.91371e-06,***,-0.245468
+06_B_provincial_turnout__block_1_demographic,Spatial error,block1_low_income_lim_at_share,-0.303508,0.0893722,-3.396,0.000683778,***,
+06_B_provincial_turnout__block_1_demographic,OLS,block1_unemployment_rate_share,-0.141157,0.131983,-1.06951,0.284841,,-0.0567236
+06_B_provincial_turnout__block_1_demographic,Spatial error,block1_unemployment_rate_share,-0.202966,0.126151,-1.60891,0.107636,,
+07_B_provincial_turnout__block_2_housing_stability,OLS,intercept,5.69157,1.26583,4.49633,6.91368e-06,***,
+07_B_provincial_turnout__block_2_housing_stability,Spatial error,intercept,5.90988,1.02913,5.74261,9.32269e-09,***,
+07_B_provincial_turnout__block_2_housing_stability,OLS,block2_renter_share,-5.43119,1.25858,-4.31533,1.59365e-05,***,-12.6729
+07_B_provincial_turnout__block_2_housing_stability,Spatial error,block2_renter_share,-5.79408,1.01708,-5.69675,1.22109e-08,***,
+07_B_provincial_turnout__block_2_housing_stability,OLS,block2_owner_share,-5.07065,1.25845,-4.02929,5.59455e-05,***,-11.8202
+07_B_provincial_turnout__block_2_housing_stability,Spatial error,block2_owner_share,-5.64871,1.01548,-5.56261,2.65774e-08,***,
+07_B_provincial_turnout__block_2_housing_stability,OLS,block2_same_address_1yr_share,-0.141976,0.134919,-1.0523,0.292662,,-0.111695
+07_B_provincial_turnout__block_2_housing_stability,Spatial error,block2_same_address_1yr_share,0.175595,0.122302,1.43575,0.151073,,
+07_B_provincial_turnout__block_2_housing_stability,OLS,block2_same_address_5yr_share,-0.0793116,0.0882095,-0.899127,0.368585,,-0.107725
+07_B_provincial_turnout__block_2_housing_stability,Spatial error,block2_same_address_5yr_share,-0.00426907,0.0746638,-0.0571773,0.954404,,
+07_B_provincial_turnout__block_2_housing_stability,OLS,block2_condo_share,-0.194023,0.037302,-5.20141,1.97782e-07,***,-0.572025
+07_B_provincial_turnout__block_2_housing_stability,Spatial error,block2_condo_share,0.0077253,0.0406653,0.189973,0.84933,,
+07_B_provincial_turnout__block_2_housing_stability,OLS,block2_apartment_share,0.355517,0.0465782,7.6327,2.30926e-14,***,1.06551
+07_B_provincial_turnout__block_2_housing_stability,Spatial error,block2_apartment_share,0.170149,0.0430921,3.9485,7.86424e-05,***,
+07_B_provincial_turnout__block_2_housing_stability,OLS,block2_detached_share,0.0454999,0.0492562,0.923739,0.355622,,0.127823
+07_B_provincial_turnout__block_2_housing_stability,Spatial error,block2_detached_share,0.035711,0.0505753,0.706095,0.480129,,
+07_B_provincial_turnout__block_2_housing_stability,OLS,block2_semi_detached_share,0.106677,0.0696724,1.53112,0.12574,,0.119316
+07_B_provincial_turnout__block_2_housing_stability,Spatial error,block2_semi_detached_share,0.0904531,0.070586,1.28146,0.200033,,
+07_B_provincial_turnout__block_2_housing_stability,OLS,block2_population_density_per_km2,9.43962e-07,5.16436e-07,1.82784,0.0675738,.,0.093969
+07_B_provincial_turnout__block_2_housing_stability,Spatial error,block2_population_density_per_km2,7.71679e-07,4.81478e-07,1.60273,0.108994,,
+08_B_provincial_turnout__block_3_immigration_eligibility,OLS,intercept,1.13254,0.128672,8.80178,0,***,
+08_B_provincial_turnout__block_3_immigration_eligibility,Spatial error,intercept,0.988572,0.151233,6.53674,6.28746e-11,***,
+08_B_provincial_turnout__block_3_immigration_eligibility,OLS,block3_immigrant_share,0.010433,0.0850629,0.12265,0.902384,,0.0160321
+08_B_provincial_turnout__block_3_immigration_eligibility,Spatial error,block3_immigrant_share,0.216403,0.0889782,2.4321,0.0150117,*,
+08_B_provincial_turnout__block_3_immigration_eligibility,OLS,block3_recent_immigrant_share,-0.0072064,0.205698,-0.0350339,0.972053,,-0.00315558
+08_B_provincial_turnout__block_3_immigration_eligibility,Spatial error,block3_recent_immigrant_share,-0.196959,0.220627,-0.892723,0.372006,,
+08_B_provincial_turnout__block_3_immigration_eligibility,OLS,block3_non_citizen_share,-0.197625,0.148589,-1.33001,0.183514,,-0.178347
+08_B_provincial_turnout__block_3_immigration_eligibility,Spatial error,block3_non_citizen_share,-0.116305,0.152252,-0.763901,0.444926,,
+08_B_provincial_turnout__block_3_immigration_eligibility,OLS,block3_citizen_adult_share,-0.287978,0.0845369,-3.40654,0.000657923,***,-0.291392
+08_B_provincial_turnout__block_3_immigration_eligibility,Spatial error,block3_citizen_adult_share,-0.301269,0.0783122,-3.84703,0.000119559,***,
+08_B_provincial_turnout__block_3_immigration_eligibility,OLS,block3_visible_minority_share,-0.224592,0.0325155,-6.90721,4.94271e-12,***,-0.583673
+08_B_provincial_turnout__block_3_immigration_eligibility,Spatial error,block3_visible_minority_share,-0.267918,0.0376211,-7.12148,1.06781e-12,***,
+08_B_provincial_turnout__block_3_immigration_eligibility,OLS,block3_english_french_knowledge_share,-0.252447,0.106451,-2.3715,0.0177163,*,-0.128535
+08_B_provincial_turnout__block_3_immigration_eligibility,Spatial error,block3_english_french_knowledge_share,-0.136944,0.133932,-1.02249,0.306548,,
+08_B_provincial_turnout__block_3_immigration_eligibility,OLS,block3_non_official_mother_tongue_share,-0.0834542,0.0710502,-1.17458,0.240163,,-0.132882
+08_B_provincial_turnout__block_3_immigration_eligibility,Spatial error,block3_non_official_mother_tongue_share,-0.151099,0.0773152,-1.95432,0.0506634,.,
+09_B_provincial_turnout__block_4_competitiveness,OLS,intercept,0.715511,0.19978,3.58149,0.000341634,***,
+09_B_provincial_turnout__block_4_competitiveness,Spatial error,intercept,0.751886,0.208332,3.60908,0.000307286,***,
+09_B_provincial_turnout__block_4_competitiveness,OLS,block4_mayoral_top_two_margin,-0.11427,0.0499635,-2.28707,0.0221915,*,-0.146843
+09_B_provincial_turnout__block_4_competitiveness,Spatial error,block4_mayoral_top_two_margin,-0.14406,0.0544017,-2.64807,0.00809522,**,
+09_B_provincial_turnout__block_4_competitiveness,OLS,block4_effective_mayoral_candidates_5pct,-0.0757048,0.0207503,-3.64837,0.000263908,***,-0.58708
+09_B_provincial_turnout__block_4_competitiveness,Spatial error,block4_effective_mayoral_candidates_5pct,-0.0679589,0.0221791,-3.0641,0.00218326,**,
+09_B_provincial_turnout__block_4_competitiveness,OLS,block4_mayoral_vote_fragmentation,0.074751,0.3261,0.229227,0.818692,,0.0437713
+09_B_provincial_turnout__block_4_competitiveness,Spatial error,block4_mayoral_vote_fragmentation,-0.0138761,0.332609,-0.0417188,0.966723,,
+09_B_provincial_turnout__block_4_competitiveness,OLS,block4_federal_margin,0.0718815,0.0423479,1.6974,0.0896207,.,0.10241
+09_B_provincial_turnout__block_4_competitiveness,Spatial error,block4_federal_margin,0.0559706,0.0521293,1.07369,0.282962,,
+09_B_provincial_turnout__block_4_competitiveness,OLS,block4_provincial_margin,0.0313795,0.0456095,0.688003,0.491451,,0.0414869
+09_B_provincial_turnout__block_4_competitiveness,Spatial error,block4_provincial_margin,0.0456181,0.0553458,0.824236,0.409805,,
+09_B_provincial_turnout__block_4_competitiveness,OLS,block4_effective_federal_parties_5pct,-0.0134233,0.0314669,-0.426584,0.669682,,-0.0216461
+09_B_provincial_turnout__block_4_competitiveness,Spatial error,block4_effective_federal_parties_5pct,-0.00987483,0.0388464,-0.254202,0.799339,,
+09_B_provincial_turnout__block_4_competitiveness,OLS,block4_effective_provincial_parties_5pct,0.00604641,0.0166062,0.364106,0.715779,,0.0219043
+09_B_provincial_turnout__block_4_competitiveness,Spatial error,block4_effective_provincial_parties_5pct,0.00501038,0.0203789,0.245861,0.80579,,
+10_B_provincial_turnout__block_5_municipal_services,OLS,intercept,0.239,0.0107561,22.2199,0,***,
+10_B_provincial_turnout__block_5_municipal_services,Spatial error,intercept,0.268104,0.0113572,23.6064,0,***,
+10_B_provincial_turnout__block_5_municipal_services,OLS,block5_transit_commute_share_preferred,-0.176864,0.0632152,-2.7978,0.00514516,**,
+10_B_provincial_turnout__block_5_municipal_services,Spatial error,block5_transit_commute_share_preferred,-0.135797,0.0611635,-2.22024,0.0264026,*,
+10_B_provincial_turnout__block_5_municipal_services,OLS,block5_no_car_household_share,0.137881,0.034434,4.00421,6.22256e-05,***,
+10_B_provincial_turnout__block_5_municipal_services,Spatial error,block5_no_car_household_share,0.086804,0.0371504,2.33656,0.0194622,*,
+10_B_provincial_turnout__block_5_municipal_services,OLS,block5_social_housing_share,-0.0970729,0.0247588,-3.92074,8.82781e-05,***,
+10_B_provincial_turnout__block_5_municipal_services,Spatial error,block5_social_housing_share,-0.0531491,0.0218309,-2.43458,0.0149091,*,
+10_B_provincial_turnout__block_5_municipal_services,OLS,block5_requests_311_per_1000,4.09446e-06,2.46452e-06,1.66136,0.0966406,.,
+10_B_provincial_turnout__block_5_municipal_services,Spatial error,block5_requests_311_per_1000,2.27317e-06,2.08666e-06,1.08938,0.275985,,
+10_B_provincial_turnout__block_5_municipal_services,OLS,block5_library_access_1200m,0.0124024,0.00900611,1.37711,0.168479,,
+10_B_provincial_turnout__block_5_municipal_services,Spatial error,block5_library_access_1200m,-0.00178054,0.00820292,-0.217062,0.82816,,
+10_B_provincial_turnout__block_5_municipal_services,OLS,block5_community_centre_access_1200m,0.0054541,0.0139954,0.389707,0.696753,,
+10_B_provincial_turnout__block_5_municipal_services,Spatial error,block5_community_centre_access_1200m,0.00475911,0.0120903,0.393632,0.693853,,
+10_B_provincial_turnout__block_5_municipal_services,OLS,block5_park_access_1200m,0.239,0.0107561,22.2199,0,***,
+10_B_provincial_turnout__block_5_municipal_services,Spatial error,block5_park_access_1200m,0.268104,0.0113572,23.6064,0,***,
+10_B_provincial_turnout__block_5_municipal_services,OLS,block5_school_age_5_17_share,-0.106599,0.111527,-0.955807,0.33917,,
+10_B_provincial_turnout__block_5_municipal_services,Spatial error,block5_school_age_5_17_share,-0.465575,0.111402,-4.17922,2.92505e-05,***,
+10_B_provincial_turnout__block_5_municipal_services,OLS,block5_ksi_collision_events_2021_2025_per_1000,0.00291895,0.00300253,0.972163,0.330969,,
+10_B_provincial_turnout__block_5_municipal_services,Spatial error,block5_ksi_collision_events_2021_2025_per_1000,0.00407824,0.00239642,1.7018,0.0887922,.,
+10_B_provincial_turnout__block_5_municipal_services,OLS,block5_development_applications_2021_2025_per_1000,-0.000428695,0.000622199,-0.689,0.490823,,
+10_B_provincial_turnout__block_5_municipal_services,Spatial error,block5_development_applications_2021_2025_per_1000,-0.000888227,0.0005432,-1.63517,0.102013,,
+10_B_provincial_turnout__block_5_municipal_services,OLS,block5_shelter_access_1200m,0.010131,0.00932396,1.08656,0.277232,,
+10_B_provincial_turnout__block_5_municipal_services,Spatial error,block5_shelter_access_1200m,0.0024227,0.00995942,0.243258,0.807806,,
+11_C_federal_turnout__block_1_demographic,OLS,intercept,1.39047,0.146726,9.47661,0,***,
+11_C_federal_turnout__block_1_demographic,Spatial error,intercept,1.24744,0.163465,7.63122,2.33147e-14,***,
+11_C_federal_turnout__block_1_demographic,OLS,block1_age_18_34_share,-0.527546,0.103632,-5.09057,3.56994e-07,***,-0.456212
+11_C_federal_turnout__block_1_demographic,Spatial error,block1_age_18_34_share,-0.399235,0.117838,-3.388,0.000704053,***,
+11_C_federal_turnout__block_1_demographic,OLS,block1_age_35_64_share,-0.333685,0.201235,-1.65818,0.0972804,.,-0.151248
+11_C_federal_turnout__block_1_demographic,Spatial error,block1_age_35_64_share,-0.270021,0.215145,-1.25507,0.209455,,
+11_C_federal_turnout__block_1_demographic,OLS,block1_age_65_plus_share,-0.0208752,0.210301,-0.0992635,0.920929,,-0.0167634
+11_C_federal_turnout__block_1_demographic,Spatial error,block1_age_65_plus_share,-0.0293318,0.221412,-0.132476,0.894608,,
+11_C_federal_turnout__block_1_demographic,OLS,block1_median_age,-0.0030863,0.00223891,-1.37848,0.168055,,-0.183815
+11_C_federal_turnout__block_1_demographic,Spatial error,block1_median_age,-0.00181888,0.00232992,-0.780661,0.435002,,
+11_C_federal_turnout__block_1_demographic,OLS,block1_average_household_size,-0.108705,0.0137314,-7.91648,2.44249e-15,***,-0.526996
+11_C_federal_turnout__block_1_demographic,Spatial error,block1_average_household_size,-0.0997996,0.0157461,-6.33804,2.32709e-10,***,
+11_C_federal_turnout__block_1_demographic,OLS,block1_bachelors_or_higher_25_64_share,0.0959925,0.029837,3.21723,0.00129433,**,0.169055
+11_C_federal_turnout__block_1_demographic,Spatial error,block1_bachelors_or_higher_25_64_share,0.105905,0.0361601,2.92878,0.00340299,**,
+11_C_federal_turnout__block_1_demographic,OLS,block1_low_income_lim_at_share,-0.122889,0.0920645,-1.33482,0.181936,,-0.0737357
+11_C_federal_turnout__block_1_demographic,Spatial error,block1_low_income_lim_at_share,-0.0297541,0.0989248,-0.300775,0.763586,,
+11_C_federal_turnout__block_1_demographic,OLS,block1_unemployment_rate_share,-0.36166,0.146104,-2.47535,0.0133105,*,-0.134973
+11_C_federal_turnout__block_1_demographic,Spatial error,block1_unemployment_rate_share,-0.393583,0.140229,-2.80673,0.00500478,**,
+12_C_federal_turnout__block_2_housing_stability,OLS,intercept,3.90416,1.39932,2.79004,0.00527022,**,
+12_C_federal_turnout__block_2_housing_stability,Spatial error,intercept,4.50796,1.1433,3.94292,8.04941e-05,***,
+12_C_federal_turnout__block_2_housing_stability,OLS,block2_renter_share,-3.3782,1.39131,-2.42807,0.0151795,*,-7.32068
+12_C_federal_turnout__block_2_housing_stability,Spatial error,block2_renter_share,-4.00709,1.1303,-3.54517,0.00039236,***,
+12_C_federal_turnout__block_2_housing_stability,OLS,block2_owner_share,-3.17456,1.39116,-2.28194,0.0224928,*,-6.87276
+12_C_federal_turnout__block_2_housing_stability,Spatial error,block2_owner_share,-3.91813,1.12856,-3.4718,0.000516983,***,
+12_C_federal_turnout__block_2_housing_stability,OLS,block2_same_address_1yr_share,-0.138558,0.149148,-0.928997,0.352891,,-0.101237
+12_C_federal_turnout__block_2_housing_stability,Spatial error,block2_same_address_1yr_share,-0.0124427,0.135112,-0.0920917,0.926625,,
+12_C_federal_turnout__block_2_housing_stability,OLS,block2_same_address_5yr_share,-0.055501,0.0975123,-0.569169,0.569241,,-0.070011
+12_C_federal_turnout__block_2_housing_stability,Spatial error,block2_same_address_5yr_share,0.0129829,0.0828308,0.15674,0.87545,,
+12_C_federal_turnout__block_2_housing_stability,OLS,block2_condo_share,-0.0596223,0.041236,-1.44588,0.148211,,-0.163251
+12_C_federal_turnout__block_2_housing_stability,Spatial error,block2_condo_share,0.0575749,0.0446665,1.289,0.197399,,
+12_C_federal_turnout__block_2_housing_stability,OLS,block2_apartment_share,0.313587,0.0514904,6.0902,1.12773e-09,***,0.872847
+12_C_federal_turnout__block_2_housing_stability,Spatial error,block2_apartment_share,0.172368,0.0476486,3.61749,0.000297473,***,
+12_C_federal_turnout__block_2_housing_stability,OLS,block2_detached_share,0.131945,0.0544509,2.4232,0.0153845,*,0.344252
+12_C_federal_turnout__block_2_housing_stability,Spatial error,block2_detached_share,0.0816176,0.055688,1.46562,0.142751,,
+12_C_federal_turnout__block_2_housing_stability,OLS,block2_semi_detached_share,0.196672,0.0770202,2.55351,0.0106644,*,0.204295
+12_C_federal_turnout__block_2_housing_stability,Spatial error,block2_semi_detached_share,0.161101,0.0778005,2.07069,0.0383879,*,
+12_C_federal_turnout__block_2_housing_stability,OLS,block2_population_density_per_km2,2.38396e-07,5.70901e-07,0.417579,0.676255,,0.0220401
+12_C_federal_turnout__block_2_housing_stability,Spatial error,block2_population_density_per_km2,7.19117e-07,5.31579e-07,1.3528,0.176121,,
+13_C_federal_turnout__block_3_immigration_eligibility,OLS,intercept,1.2347,0.14682,8.40957,0,***,
+13_C_federal_turnout__block_3_immigration_eligibility,Spatial error,intercept,1.07603,0.174356,6.17147,6.7657e-10,***,
+13_C_federal_turnout__block_3_immigration_eligibility,OLS,block3_immigrant_share,-0.0436492,0.0970608,-0.44971,0.652919,,-0.0622935
+13_C_federal_turnout__block_3_immigration_eligibility,Spatial error,block3_immigrant_share,0.122207,0.100671,1.21392,0.224777,,
+13_C_federal_turnout__block_3_immigration_eligibility,OLS,block3_recent_immigrant_share,1.20078,0.234711,5.11599,3.12098e-07,***,0.488324
+13_C_federal_turnout__block_3_immigration_eligibility,Spatial error,block3_recent_immigrant_share,0.908168,0.250246,3.62911,0.000284404,***,
+13_C_federal_turnout__block_3_immigration_eligibility,OLS,block3_non_citizen_share,-0.721915,0.169546,-4.25792,2.0634e-05,***,-0.605055
+13_C_federal_turnout__block_3_immigration_eligibility,Spatial error,block3_non_citizen_share,-0.65839,0.172022,-3.82737,0.000129521,***,
+13_C_federal_turnout__block_3_immigration_eligibility,OLS,block3_citizen_adult_share,-0.305268,0.0964606,-3.16469,0.00155249,**,-0.286869
+13_C_federal_turnout__block_3_immigration_eligibility,Spatial error,block3_citizen_adult_share,-0.346073,0.0875803,-3.95149,7.76652e-05,***,
+13_C_federal_turnout__block_3_immigration_eligibility,OLS,block3_visible_minority_share,-0.210487,0.0371017,-5.67323,1.40133e-08,***,-0.508025
+13_C_federal_turnout__block_3_immigration_eligibility,Spatial error,block3_visible_minority_share,-0.219253,0.0431659,-5.0793,3.78821e-07,***,
+13_C_federal_turnout__block_3_immigration_eligibility,OLS,block3_english_french_knowledge_share,-0.142335,0.121465,-1.17182,0.241271,,-0.067305
+13_C_federal_turnout__block_3_immigration_eligibility,Spatial error,block3_english_french_knowledge_share,0.0205863,0.155363,0.132504,0.894585,,
+13_C_federal_turnout__block_3_immigration_eligibility,OLS,block3_non_official_mother_tongue_share,0.0577666,0.0810716,0.712538,0.476131,,0.0854242
+13_C_federal_turnout__block_3_immigration_eligibility,Spatial error,block3_non_official_mother_tongue_share,-0.00552896,0.0880005,-0.0628288,0.949903,,
+14_C_federal_turnout__block_4_competitiveness,OLS,intercept,0.848383,0.230697,3.67747,0.000235557,***,
+14_C_federal_turnout__block_4_competitiveness,Spatial error,intercept,0.986257,0.23817,4.14099,3.45817e-05,***,
+14_C_federal_turnout__block_4_competitiveness,OLS,block4_mayoral_top_two_margin,-0.145666,0.0576957,-2.52474,0.0115785,*,-0.173846
+14_C_federal_turnout__block_4_competitiveness,Spatial error,block4_mayoral_top_two_margin,-0.202854,0.0625051,-3.2454,0.00117285,**,
+14_C_federal_turnout__block_4_competitiveness,OLS,block4_effective_mayoral_candidates_5pct,-0.0933681,0.0239616,-3.89658,9.75617e-05,***,-0.672445
+14_C_federal_turnout__block_4_competitiveness,Spatial error,block4_effective_mayoral_candidates_5pct,-0.063193,0.0254993,-2.47823,0.0132036,*,
+14_C_federal_turnout__block_4_competitiveness,OLS,block4_mayoral_vote_fragmentation,0.426999,0.376566,1.13393,0.256825,,0.232212
+14_C_federal_turnout__block_4_competitiveness,Spatial error,block4_mayoral_vote_fragmentation,0.072492,0.37808,0.191737,0.847948,,
+14_C_federal_turnout__block_4_competitiveness,OLS,block4_federal_margin,0.0154452,0.0489016,0.315842,0.752122,,0.0204364
+14_C_federal_turnout__block_4_competitiveness,Spatial error,block4_federal_margin,0.0397405,0.0614797,0.6464,0.51802,,
+14_C_federal_turnout__block_4_competitiveness,OLS,block4_provincial_margin,0.0419059,0.0526679,0.795662,0.426229,,0.0514546
+14_C_federal_turnout__block_4_competitiveness,Spatial error,block4_provincial_margin,-0.0104699,0.0648195,-0.161523,0.871681,,
+14_C_federal_turnout__block_4_competitiveness,OLS,block4_effective_federal_parties_5pct,-0.0421202,0.0363366,-1.15917,0.246389,,-0.0630805
+14_C_federal_turnout__block_4_competitiveness,Spatial error,block4_effective_federal_parties_5pct,-0.0220001,0.0457779,-0.480583,0.630813,,
+14_C_federal_turnout__block_4_competitiveness,OLS,block4_effective_provincial_parties_5pct,0.000376247,0.0191761,0.0196206,0.984346,,0.00126587
+14_C_federal_turnout__block_4_competitiveness,Spatial error,block4_effective_provincial_parties_5pct,-0.00957755,0.0239397,-0.40007,0.689105,,
+15_C_federal_turnout__block_5_municipal_services,OLS,intercept,0.370728,0.0117,31.6862,0,***,
+15_C_federal_turnout__block_5_municipal_services,Spatial error,intercept,0.398343,0.0123109,32.3568,0,***,
+15_C_federal_turnout__block_5_municipal_services,OLS,block5_transit_commute_share_preferred,-0.0453604,0.0687621,-0.659671,0.509465,,
+15_C_federal_turnout__block_5_municipal_services,Spatial error,block5_transit_commute_share_preferred,-0.0620754,0.0657674,-0.943862,0.34524,,
+15_C_federal_turnout__block_5_municipal_services,OLS,block5_no_car_household_share,0.0869421,0.0374554,2.32122,0.0202752,*,
+15_C_federal_turnout__block_5_municipal_services,Spatial error,block5_no_car_household_share,0.0655065,0.040163,1.63102,0.102887,,
+15_C_federal_turnout__block_5_municipal_services,OLS,block5_social_housing_share,-0.0709909,0.0269313,-2.636,0.00838908,**,
+15_C_federal_turnout__block_5_municipal_services,Spatial error,block5_social_housing_share,-0.00408948,0.0234072,-0.17471,0.861307,,
+15_C_federal_turnout__block_5_municipal_services,OLS,block5_requests_311_per_1000,-9.33893e-07,2.68077e-06,-0.348368,0.727564,,
+15_C_federal_turnout__block_5_municipal_services,Spatial error,block5_requests_311_per_1000,-2.14637e-06,2.23645e-06,-0.959726,0.337193,,
+15_C_federal_turnout__block_5_municipal_services,OLS,block5_library_access_1200m,0.0148843,0.00979637,1.51937,0.12867,,
+15_C_federal_turnout__block_5_municipal_services,Spatial error,block5_library_access_1200m,-0.00293659,0.00880636,-0.333462,0.738785,,
+15_C_federal_turnout__block_5_municipal_services,OLS,block5_community_centre_access_1200m,-0.0293466,0.0152234,-1.92772,0.0538894,.,
+15_C_federal_turnout__block_5_municipal_services,Spatial error,block5_community_centre_access_1200m,-0.0317379,0.0129575,-2.44938,0.0143101,*,
+15_C_federal_turnout__block_5_municipal_services,OLS,block5_park_access_1200m,0.370728,0.0117,31.6862,0,***,
+15_C_federal_turnout__block_5_municipal_services,Spatial error,block5_park_access_1200m,0.398343,0.0123109,32.3568,0,***,
+15_C_federal_turnout__block_5_municipal_services,OLS,block5_school_age_5_17_share,-0.245823,0.121314,-2.02635,0.0427292,*,
+15_C_federal_turnout__block_5_municipal_services,Spatial error,block5_school_age_5_17_share,-0.546538,0.119948,-4.55646,5.20218e-06,***,
+15_C_federal_turnout__block_5_municipal_services,OLS,block5_ksi_collision_events_2021_2025_per_1000,0.010928,0.00326599,3.34599,0.0008199,***,
+15_C_federal_turnout__block_5_municipal_services,Spatial error,block5_ksi_collision_events_2021_2025_per_1000,0.013171,0.00256236,5.1402,2.7445e-07,***,
+15_C_federal_turnout__block_5_municipal_services,OLS,block5_development_applications_2021_2025_per_1000,-0.000362119,0.000676795,-0.535049,0.592616,,
+15_C_federal_turnout__block_5_municipal_services,Spatial error,block5_development_applications_2021_2025_per_1000,-0.00142713,0.000582572,-2.44971,0.014297,*,
+15_C_federal_turnout__block_5_municipal_services,OLS,block5_shelter_access_1200m,-0.00297221,0.0101421,-0.293057,0.769479,,
+15_C_federal_turnout__block_5_municipal_services,Spatial error,block5_shelter_access_1200m,-0.000334328,0.0107639,-0.0310601,0.975222,,
+16_D_federal_minus_municipal__block_1_demographic,OLS,intercept,0.284376,0.145784,1.95067,0.051096,.,
+16_D_federal_minus_municipal__block_1_demographic,Spatial error,intercept,0.251035,0.162276,1.54697,0.12187,,
+16_D_federal_minus_municipal__block_1_demographic,OLS,block1_age_18_34_share,0.240549,0.102967,2.33619,0.0194815,*,0.238922
+16_D_federal_minus_municipal__block_1_demographic,Spatial error,block1_age_18_34_share,0.314489,0.116996,2.68804,0.00718721,**,
+16_D_federal_minus_municipal__block_1_demographic,OLS,block1_age_35_64_share,-0.0675316,0.199943,-0.337754,0.735548,,-0.0351564
+16_D_federal_minus_municipal__block_1_demographic,Spatial error,block1_age_35_64_share,0.128824,0.213529,0.603308,0.546304,,
+16_D_federal_minus_municipal__block_1_demographic,OLS,block1_age_65_plus_share,0.0248693,0.20895,0.11902,0.905259,,0.0229373
+16_D_federal_minus_municipal__block_1_demographic,Spatial error,block1_age_65_plus_share,0.235004,0.219733,1.0695,0.284845,,
+16_D_federal_minus_municipal__block_1_demographic,OLS,block1_median_age,6.60162e-05,0.00222454,0.0296764,0.976325,,0.00451586
+16_D_federal_minus_municipal__block_1_demographic,Spatial error,block1_median_age,-0.00181689,0.00231208,-0.785824,0.431971,,
+16_D_federal_minus_municipal__block_1_demographic,OLS,block1_average_household_size,0.00947871,0.0136433,0.694754,0.487209,,0.0527782
+16_D_federal_minus_municipal__block_1_demographic,Spatial error,block1_average_household_size,-0.000398343,0.0156338,-0.0254796,0.979672,,
+16_D_federal_minus_municipal__block_1_demographic,OLS,block1_bachelors_or_higher_25_64_share,-0.105453,0.0296454,-3.55714,0.00037491,***,-0.213302
+16_D_federal_minus_municipal__block_1_demographic,Spatial error,block1_bachelors_or_higher_25_64_share,-0.103811,0.0359194,-2.89011,0.00385106,**,
+16_D_federal_minus_municipal__block_1_demographic,OLS,block1_low_income_lim_at_share,0.332003,0.0914733,3.6295,0.000283967,***,0.228798
+16_D_federal_minus_municipal__block_1_demographic,Spatial error,block1_low_income_lim_at_share,0.284953,0.0981894,2.90207,0.00370701,**,
+16_D_federal_minus_municipal__block_1_demographic,OLS,block1_unemployment_rate_share,-0.185462,0.145166,-1.27759,0.201395,,-0.0794964
+16_D_federal_minus_municipal__block_1_demographic,Spatial error,block1_unemployment_rate_share,-0.119995,0.139107,-0.86261,0.388352,,
+17_D_federal_minus_municipal__block_2_housing_stability,OLS,intercept,-0.322399,1.16305,-0.277201,0.781625,,
+17_D_federal_minus_municipal__block_2_housing_stability,Spatial error,intercept,0.257091,1.09823,0.234096,0.81491,,
+17_D_federal_minus_municipal__block_2_housing_stability,OLS,block2_renter_share,0.539334,1.15639,0.466394,0.640934,,1.34236
+17_D_federal_minus_municipal__block_2_housing_stability,Spatial error,block2_renter_share,0.0122224,1.08866,0.011227,0.991042,,
+17_D_federal_minus_municipal__block_2_housing_stability,OLS,block2_owner_share,0.257768,1.15627,0.222931,0.823589,,0.640948
+17_D_federal_minus_municipal__block_2_housing_stability,Spatial error,block2_owner_share,-0.194756,1.08755,-0.179077,0.857877,,
+17_D_federal_minus_municipal__block_2_housing_stability,OLS,block2_same_address_1yr_share,0.260327,0.123965,2.10001,0.0357282,*,0.218459
+17_D_federal_minus_municipal__block_2_housing_stability,Spatial error,block2_same_address_1yr_share,0.128526,0.123824,1.03797,0.299282,,
+17_D_federal_minus_municipal__block_2_housing_stability,OLS,block2_same_address_5yr_share,0.0336027,0.0810474,0.414605,0.678431,,0.0486839
+17_D_federal_minus_municipal__block_2_housing_stability,Spatial error,block2_same_address_5yr_share,0.0374207,0.0784595,0.476942,0.633403,,
+17_D_federal_minus_municipal__block_2_housing_stability,OLS,block2_condo_share,0.250615,0.0342733,7.31225,2.62679e-13,***,0.788133
+17_D_federal_minus_municipal__block_2_housing_stability,Spatial error,block2_condo_share,0.184735,0.0384408,4.80569,1.54217e-06,***,
+17_D_federal_minus_municipal__block_2_housing_stability,OLS,block2_apartment_share,-0.113191,0.0427963,-2.64487,0.00817217,**,-0.361857
+17_D_federal_minus_municipal__block_2_housing_stability,Spatial error,block2_apartment_share,-0.0553596,0.0436994,-1.26683,0.205217,,
+17_D_federal_minus_municipal__block_2_housing_stability,OLS,block2_detached_share,0.032232,0.0452569,0.7122,0.476341,,0.0965863
+17_D_federal_minus_municipal__block_2_housing_stability,Spatial error,block2_detached_share,0.022584,0.04907,0.460241,0.645343,,
+17_D_federal_minus_municipal__block_2_housing_stability,OLS,block2_semi_detached_share,0.0819687,0.0640154,1.28045,0.200386,,0.0977933
+17_D_federal_minus_municipal__block_2_housing_stability,Spatial error,block2_semi_detached_share,0.0917838,0.069069,1.32887,0.18389,,
+17_D_federal_minus_municipal__block_2_housing_stability,OLS,block2_population_density_per_km2,-4.96506e-07,4.74505e-07,-1.04637,0.295392,,-0.0527212
+17_D_federal_minus_municipal__block_2_housing_stability,Spatial error,block2_population_density_per_km2,-7.05065e-09,4.8388e-07,-0.0145711,0.988374,,
+18_D_federal_minus_municipal__block_3_immigration_eligibility,OLS,intercept,0.182245,0.124475,1.46411,0.143165,,
+18_D_federal_minus_municipal__block_3_immigration_eligibility,Spatial error,intercept,0.130214,0.137315,0.948287,0.342983,,
+18_D_federal_minus_municipal__block_3_immigration_eligibility,OLS,block3_immigrant_share,0.17611,0.0822885,2.14015,0.0323424,*,0.288666
+18_D_federal_minus_municipal__block_3_immigration_eligibility,Spatial error,block3_immigrant_share,0.172561,0.085463,2.01914,0.0434731,*,
+18_D_federal_minus_municipal__block_3_immigration_eligibility,OLS,block3_recent_immigrant_share,0.927059,0.198989,4.65886,3.1797e-06,***,0.433011
+18_D_federal_minus_municipal__block_3_immigration_eligibility,Spatial error,block3_recent_immigrant_share,0.812265,0.209974,3.86841,0.000109547,***,
+18_D_federal_minus_municipal__block_3_immigration_eligibility,OLS,block3_non_citizen_share,-0.528913,0.143742,-3.6796,0.000233605,***,-0.509142
+18_D_federal_minus_municipal__block_3_immigration_eligibility,Spatial error,block3_non_citizen_share,-0.502934,0.147092,-3.41917,0.000628127,***,
+18_D_federal_minus_municipal__block_3_immigration_eligibility,OLS,block3_citizen_adult_share,-0.303179,0.0817796,-3.70727,0.000209505,***,-0.327227
+18_D_federal_minus_municipal__block_3_immigration_eligibility,Spatial error,block3_citizen_adult_share,-0.308417,0.0785383,-3.92697,8.60243e-05,***,
+18_D_federal_minus_municipal__block_3_immigration_eligibility,OLS,block3_visible_minority_share,0.0169243,0.031455,0.538049,0.590543,,0.0469157
+18_D_federal_minus_municipal__block_3_immigration_eligibility,Spatial error,block3_visible_minority_share,0.0238096,0.0345799,0.688538,0.491114,,
+18_D_federal_minus_municipal__block_3_immigration_eligibility,OLS,block3_english_french_knowledge_share,0.308345,0.102979,2.99427,0.00275105,**,0.167463
+18_D_federal_minus_municipal__block_3_immigration_eligibility,Spatial error,block3_english_french_knowledge_share,0.362618,0.118792,3.05255,0.00226906,**,
+18_D_federal_minus_municipal__block_3_immigration_eligibility,OLS,block3_non_official_mother_tongue_share,0.0479714,0.0687328,0.697941,0.485214,,0.0814765
+18_D_federal_minus_municipal__block_3_immigration_eligibility,Spatial error,block3_non_official_mother_tongue_share,0.0632405,0.0729245,0.867205,0.38583,,
+19_D_federal_minus_municipal__block_4_competitiveness,OLS,intercept,-0.232731,0.203468,-1.14382,0.252697,,
+19_D_federal_minus_municipal__block_4_competitiveness,Spatial error,intercept,-0.150881,0.213205,-0.707679,0.479145,,
+19_D_federal_minus_municipal__block_4_competitiveness,OLS,block4_mayoral_top_two_margin,0.105989,0.0508858,2.08288,0.0372623,*,0.145282
+19_D_federal_minus_municipal__block_4_competitiveness,Spatial error,block4_mayoral_top_two_margin,0.06545,0.0554234,1.18091,0.237638,,
+19_D_federal_minus_municipal__block_4_competitiveness,OLS,block4_effective_mayoral_candidates_5pct,-0.000663481,0.0211333,-0.031395,0.974955,,-0.00548824
+19_D_federal_minus_municipal__block_4_competitiveness,Spatial error,block4_effective_mayoral_candidates_5pct,0.0180568,0.0226066,0.798741,0.424441,,
+19_D_federal_minus_municipal__block_4_competitiveness,OLS,block4_mayoral_vote_fragmentation,0.732361,0.33212,2.20511,0.0274461,*,0.457434
+19_D_federal_minus_municipal__block_4_competitiveness,Spatial error,block4_mayoral_vote_fragmentation,0.497769,0.341736,1.45659,0.14523,,
+19_D_federal_minus_municipal__block_4_competitiveness,OLS,block4_federal_margin,-0.00777027,0.0431296,-0.180161,0.857026,,-0.0118085
+19_D_federal_minus_municipal__block_4_competitiveness,Spatial error,block4_federal_margin,0.0364753,0.0521097,0.699972,0.483945,,
+19_D_federal_minus_municipal__block_4_competitiveness,OLS,block4_provincial_margin,-0.00933742,0.0464515,-0.201015,0.840687,,-0.0131681
+19_D_federal_minus_municipal__block_4_competitiveness,Spatial error,block4_provincial_margin,-0.0377523,0.0555551,-0.679546,0.496792,,
+19_D_federal_minus_municipal__block_4_competitiveness,OLS,block4_effective_federal_parties_5pct,0.0171771,0.0320478,0.535985,0.591969,,0.0295462
+19_D_federal_minus_municipal__block_4_competitiveness,Spatial error,block4_effective_federal_parties_5pct,0.0364412,0.0388334,0.938398,0.34804,,
+19_D_federal_minus_municipal__block_4_competitiveness,OLS,block4_effective_provincial_parties_5pct,-0.0123305,0.0169127,-0.729066,0.465962,,-0.0476477
+19_D_federal_minus_municipal__block_4_competitiveness,Spatial error,block4_effective_provincial_parties_5pct,-0.0209084,0.020413,-1.02427,0.305708,,
+20_D_federal_minus_municipal__block_5_municipal_services,OLS,intercept,0.194137,0.0100353,19.3454,0,***,
+20_D_federal_minus_municipal__block_5_municipal_services,Spatial error,intercept,0.180027,0.0109343,16.4643,0,***,
+20_D_federal_minus_municipal__block_5_municipal_services,OLS,block5_transit_commute_share_preferred,0.213625,0.0589788,3.62207,0.000292251,***,
+20_D_federal_minus_municipal__block_5_municipal_services,Spatial error,block5_transit_commute_share_preferred,0.190303,0.0612712,3.10591,0.00189693,**,
+20_D_federal_minus_municipal__block_5_municipal_services,OLS,block5_no_car_household_share,-0.0573258,0.0321263,-1.78439,0.0743608,.,
+20_D_federal_minus_municipal__block_5_municipal_services,Spatial error,block5_no_car_household_share,-0.00121372,0.0357908,-0.0339115,0.972948,,
+20_D_federal_minus_municipal__block_5_municipal_services,OLS,block5_social_housing_share,0.0925571,0.0230996,4.00687,6.15275e-05,***,
+20_D_federal_minus_municipal__block_5_municipal_services,Spatial error,block5_social_housing_share,0.0721425,0.0224092,3.21933,0.00128492,**,
+20_D_federal_minus_municipal__block_5_municipal_services,OLS,block5_requests_311_per_1000,-9.27474e-06,2.29935e-06,-4.03363,5.49213e-05,***,
+20_D_federal_minus_municipal__block_5_municipal_services,Spatial error,block5_requests_311_per_1000,-6.27298e-06,2.15361e-06,-2.91278,0.00358231,**,
+20_D_federal_minus_municipal__block_5_municipal_services,OLS,block5_library_access_1200m,-0.00675935,0.00840255,-0.80444,0.421143,,
+20_D_federal_minus_municipal__block_5_municipal_services,Spatial error,block5_library_access_1200m,0.00246135,0.008337,0.295232,0.767817,,
+20_D_federal_minus_municipal__block_5_municipal_services,OLS,block5_community_centre_access_1200m,-0.0405754,0.0130575,-3.10745,0.00188708,**,
+20_D_federal_minus_municipal__block_5_municipal_services,Spatial error,block5_community_centre_access_1200m,-0.0387316,0.0124622,-3.10791,0.00188413,**,
+20_D_federal_minus_municipal__block_5_municipal_services,OLS,block5_park_access_1200m,0.194137,0.0100353,19.3454,0,***,
+20_D_federal_minus_municipal__block_5_municipal_services,Spatial error,block5_park_access_1200m,0.180027,0.0109343,16.4643,0,***,
+20_D_federal_minus_municipal__block_5_municipal_services,OLS,block5_school_age_5_17_share,-0.484345,0.104053,-4.65478,3.24329e-06,***,
+20_D_federal_minus_municipal__block_5_municipal_services,Spatial error,block5_school_age_5_17_share,-0.388795,0.110498,-3.51858,0.000433864,***,
+20_D_federal_minus_municipal__block_5_municipal_services,OLS,block5_ksi_collision_events_2021_2025_per_1000,0.00533537,0.00280131,1.9046,0.0568323,.,
+20_D_federal_minus_municipal__block_5_municipal_services,Spatial error,block5_ksi_collision_events_2021_2025_per_1000,0.00492091,0.00251886,1.95363,0.0507451,.,
+20_D_federal_minus_municipal__block_5_municipal_services,OLS,block5_development_applications_2021_2025_per_1000,0.000521932,0.000580501,0.899105,0.368597,,
+20_D_federal_minus_municipal__block_5_municipal_services,Spatial error,block5_development_applications_2021_2025_per_1000,-0.00027125,0.000557299,-0.486723,0.626455,,
+20_D_federal_minus_municipal__block_5_municipal_services,OLS,block5_shelter_access_1200m,-0.0224212,0.0086991,-2.57741,0.00995426,**,
+20_D_federal_minus_municipal__block_5_municipal_services,Spatial error,block5_shelter_access_1200m,-0.0129599,0.00962484,-1.3465,0.17814,,
+21_E_mean_turnout__block_1_demographic,OLS,intercept,1.21543,0.107142,11.3441,0,***,
+21_E_mean_turnout__block_1_demographic,Spatial error,intercept,1.04422,0.119346,8.74955,0,***,
+21_E_mean_turnout__block_1_demographic,OLS,block1_age_18_34_share,-0.583253,0.0756741,-7.70742,1.28786e-14,***,-0.576417
+21_E_mean_turnout__block_1_demographic,Spatial error,block1_age_18_34_share,-0.445335,0.0871664,-5.10902,3.23839e-07,***,
+21_E_mean_turnout__block_1_demographic,OLS,block1_age_35_64_share,-0.232023,0.146946,-1.57897,0.114343,,-0.120187
+21_E_mean_turnout__block_1_demographic,Spatial error,block1_age_35_64_share,-0.308378,0.153491,-2.0091,0.0445265,*,
+21_E_mean_turnout__block_1_demographic,OLS,block1_age_65_plus_share,0.0640076,0.153566,0.41681,0.676817,,0.0587405
+21_E_mean_turnout__block_1_demographic,Spatial error,block1_age_65_plus_share,-0.1012,0.156951,-0.644785,0.519067,,
+21_E_mean_turnout__block_1_demographic,OLS,block1_median_age,-0.00396905,0.0016349,-2.42771,0.0151947,*,-0.270149
+21_E_mean_turnout__block_1_demographic,Spatial error,block1_median_age,-0.000677323,0.00163827,-0.413437,0.679286,,
+21_E_mean_turnout__block_1_demographic,OLS,block1_average_household_size,-0.115225,0.010027,-11.4915,0,***,-0.638379
+21_E_mean_turnout__block_1_demographic,Spatial error,block1_average_household_size,-0.0972278,0.0116466,-8.34817,0,***,
+21_E_mean_turnout__block_1_demographic,OLS,block1_bachelors_or_higher_25_64_share,0.121,0.0217875,5.55366,2.79745e-08,***,0.24353
+21_E_mean_turnout__block_1_demographic,Spatial error,block1_bachelors_or_higher_25_64_share,0.130551,0.0283703,4.60168,4.19106e-06,***,
+21_E_mean_turnout__block_1_demographic,OLS,block1_low_income_lim_at_share,-0.320107,0.0672272,-4.76157,1.92089e-06,***,-0.219499
+21_E_mean_turnout__block_1_demographic,Spatial error,block1_low_income_lim_at_share,-0.164302,0.0712043,-2.30748,0.0210283,*,
+21_E_mean_turnout__block_1_demographic,OLS,block1_unemployment_rate_share,-0.225405,0.106688,-2.11274,0.0346228,*,-0.0961352
+21_E_mean_turnout__block_1_demographic,Spatial error,block1_unemployment_rate_share,-0.306988,0.0956968,-3.20793,0.00133696,**,
+22_E_mean_turnout__block_2_housing_stability,OLS,intercept,4.6096,1.18134,3.90202,9.53948e-05,***,
+22_E_mean_turnout__block_2_housing_stability,Spatial error,intercept,4.6758,0.797208,5.86522,4.48526e-09,***,
+22_E_mean_turnout__block_2_housing_stability,OLS,block2_renter_share,-4.24422,1.17458,-3.61341,0.000302197,***,-10.5108
+22_E_mean_turnout__block_2_housing_stability,Spatial error,block2_renter_share,-4.44973,0.786755,-5.6558,1.55119e-08,***,
+22_E_mean_turnout__block_2_housing_stability,OLS,block2_owner_share,-3.89402,1.17445,-3.31561,0.000914421,***,-9.63431
+22_E_mean_turnout__block_2_housing_stability,Spatial error,block2_owner_share,-4.33504,0.785427,-5.51933,3.40285e-08,***,
+22_E_mean_turnout__block_2_housing_stability,OLS,block2_same_address_1yr_share,-0.226648,0.125914,-1.80003,0.0718565,.,-0.189248
+22_E_mean_turnout__block_2_housing_stability,Spatial error,block2_same_address_1yr_share,0.108151,0.097013,1.11481,0.264932,,
+22_E_mean_turnout__block_2_housing_stability,OLS,block2_same_address_5yr_share,-0.0746908,0.0823219,-0.907302,0.364247,,-0.107673
+22_E_mean_turnout__block_2_housing_stability,Spatial error,block2_same_address_5yr_share,0.0114977,0.0581624,0.197682,0.843294,,
+22_E_mean_turnout__block_2_housing_stability,OLS,block2_condo_share,-0.188265,0.0348123,-5.408,6.37339e-08,***,-0.5891
+22_E_mean_turnout__block_2_housing_stability,Spatial error,block2_condo_share,0.0383683,0.0329426,1.1647,0.24414,,
+22_E_mean_turnout__block_2_housing_stability,OLS,block2_apartment_share,0.365244,0.0434693,8.40235,0,***,1.16182
+22_E_mean_turnout__block_2_housing_stability,Spatial error,block2_apartment_share,0.145653,0.0340103,4.28262,1.84703e-05,***,
+22_E_mean_turnout__block_2_housing_stability,OLS,block2_detached_share,0.0919433,0.0459686,2.00013,0.0454858,*,0.274143
+22_E_mean_turnout__block_2_housing_stability,Spatial error,block2_detached_share,0.0704407,0.0405887,1.73548,0.0826564,.,
+22_E_mean_turnout__block_2_housing_stability,OLS,block2_semi_detached_share,0.138706,0.0650221,2.13322,0.0329067,*,0.164659
+22_E_mean_turnout__block_2_housing_stability,Spatial error,block2_semi_detached_share,0.101185,0.0564002,1.79405,0.0728055,.,
+22_E_mean_turnout__block_2_housing_stability,OLS,block2_population_density_per_km2,6.38842e-07,4.81966e-07,1.32549,0.185008,,0.0674966
+22_E_mean_turnout__block_2_housing_stability,Spatial error,block2_population_density_per_km2,5.79267e-07,3.83307e-07,1.51124,0.130728,,
+23_E_mean_turnout__block_3_immigration_eligibility,OLS,intercept,1.13974,0.11075,10.2911,0,***,
+23_E_mean_turnout__block_3_immigration_eligibility,Spatial error,intercept,0.93479,0.137148,6.81591,9.36673e-12,***,
+23_E_mean_turnout__block_3_immigration_eligibility,OLS,block3_immigrant_share,-0.0836802,0.0732152,-1.14293,0.253066,,-0.136478
+23_E_mean_turnout__block_3_immigration_eligibility,Spatial error,block3_immigrant_share,0.164534,0.0738316,2.2285,0.0258473,*,
+23_E_mean_turnout__block_3_immigration_eligibility,OLS,block3_recent_immigrant_share,0.488243,0.177048,2.75769,0.00582112,**,0.226911
+23_E_mean_turnout__block_3_immigration_eligibility,Spatial error,block3_recent_immigrant_share,0.221339,0.184962,1.19667,0.231435,,
+23_E_mean_turnout__block_3_immigration_eligibility,OLS,block3_non_citizen_share,-0.370299,0.127893,-2.89539,0.00378692,**,-0.354679
+23_E_mean_turnout__block_3_immigration_eligibility,Spatial error,block3_non_citizen_share,-0.305206,0.125636,-2.4293,0.0151281,*,
+23_E_mean_turnout__block_3_immigration_eligibility,OLS,block3_citizen_adult_share,-0.198402,0.0727624,-2.72671,0.006397,**,-0.21307
+23_E_mean_turnout__block_3_immigration_eligibility,Spatial error,block3_citizen_adult_share,-0.234832,0.0619646,-3.78978,0.000150779,***,
+23_E_mean_turnout__block_3_immigration_eligibility,OLS,block3_visible_minority_share,-0.220952,0.0279867,-7.89488,2.88658e-15,***,-0.609441
+23_E_mean_turnout__block_3_immigration_eligibility,Spatial error,block3_visible_minority_share,-0.247561,0.033314,-7.43115,1.07692e-13,***,
+23_E_mean_turnout__block_3_immigration_eligibility,OLS,block3_english_french_knowledge_share,-0.281732,0.091624,-3.07487,0.00210594,**,-0.152246
+23_E_mean_turnout__block_3_immigration_eligibility,Spatial error,block3_english_french_knowledge_share,-0.0981254,0.124523,-0.78801,0.430691,,
+23_E_mean_turnout__block_3_immigration_eligibility,OLS,block3_non_official_mother_tongue_share,-0.00582074,0.0611542,-0.0951814,0.924171,,-0.00983685
+23_E_mean_turnout__block_3_immigration_eligibility,Spatial error,block3_non_official_mother_tongue_share,-0.0894177,0.0659886,-1.35505,0.175402,,
+24_E_mean_turnout__block_4_competitiveness,OLS,intercept,0.88091,0.179398,4.91035,9.09118e-07,***,
+24_E_mean_turnout__block_4_competitiveness,Spatial error,intercept,0.968421,0.175954,5.50384,3.71616e-08,***,
+24_E_mean_turnout__block_4_competitiveness,OLS,block4_mayoral_top_two_margin,-0.170503,0.0448662,-3.80025,0.00014455,***,-0.232547
+24_E_mean_turnout__block_4_competitiveness,Spatial error,block4_mayoral_top_two_margin,-0.208417,0.0464719,-4.48479,7.29852e-06,***,
+24_E_mean_turnout__block_4_competitiveness,OLS,block4_effective_mayoral_candidates_5pct,-0.0873519,0.0186334,-4.68793,2.75981e-06,***,-0.71896
+24_E_mean_turnout__block_4_competitiveness,Spatial error,block4_effective_mayoral_candidates_5pct,-0.0680011,0.0190727,-3.56536,0.000363353,***,
+24_E_mean_turnout__block_4_competitiveness,OLS,block4_mayoral_vote_fragmentation,0.0669416,0.292831,0.228601,0.819179,,0.0416032
+24_E_mean_turnout__block_4_competitiveness,Spatial error,block4_mayoral_vote_fragmentation,-0.132221,0.27563,-0.479705,0.631437,,
+24_E_mean_turnout__block_4_competitiveness,OLS,block4_federal_margin,0.0369167,0.0380276,0.970787,0.331654,,0.0558223
+24_E_mean_turnout__block_4_competitiveness,Spatial error,block4_federal_margin,0.0114983,0.0483513,0.237807,0.81203,,
+24_E_mean_turnout__block_4_competitiveness,OLS,block4_provincial_margin,0.0415579,0.0409564,1.01469,0.310256,,0.0583146
+24_E_mean_turnout__block_4_competitiveness,Spatial error,block4_provincial_margin,0.0221696,0.0499707,0.443652,0.657294,,
+24_E_mean_turnout__block_4_competitiveness,OLS,block4_effective_federal_parties_5pct,-0.0382009,0.0282566,-1.35192,0.176399,,-0.0653811
+24_E_mean_turnout__block_4_competitiveness,Spatial error,block4_effective_federal_parties_5pct,-0.0342493,0.0358049,-0.956554,0.338792,,
+24_E_mean_turnout__block_4_competitiveness,OLS,block4_effective_provincial_parties_5pct,0.00632037,0.014912,0.423845,0.671679,,0.0243015
+24_E_mean_turnout__block_4_competitiveness,Spatial error,block4_effective_provincial_parties_5pct,0.00243169,0.0185823,0.13086,0.895886,,
+25_E_mean_turnout__block_5_municipal_services,OLS,intercept,0.262171,0.0100495,26.088,0,***,
+25_E_mean_turnout__block_5_municipal_services,Spatial error,intercept,0.302085,0.0100213,30.1442,0,***,
+25_E_mean_turnout__block_5_municipal_services,OLS,block5_transit_commute_share_preferred,-0.160283,0.0590621,-2.71381,0.00665153,**,
+25_E_mean_turnout__block_5_municipal_services,Spatial error,block5_transit_commute_share_preferred,-0.138871,0.0483529,-2.87204,0.00407831,**,
+25_E_mean_turnout__block_5_municipal_services,OLS,block5_no_car_household_share,0.122929,0.0321717,3.82102,0.000132902,***,
+25_E_mean_turnout__block_5_municipal_services,Spatial error,block5_no_car_household_share,0.0477604,0.030579,1.56187,0.118319,,
+25_E_mean_turnout__block_5_municipal_services,OLS,block5_social_housing_share,-0.110487,0.0231322,-4.77634,1.78518e-06,***,
+25_E_mean_turnout__block_5_municipal_services,Spatial error,block5_social_housing_share,-0.0316924,0.016928,-1.87219,0.06118,.,
+25_E_mean_turnout__block_5_municipal_services,OLS,block5_requests_311_per_1000,3.83371e-06,2.3026e-06,1.66495,0.0959228,.,
+25_E_mean_turnout__block_5_municipal_services,Spatial error,block5_requests_311_per_1000,5.94159e-07,1.61617e-06,0.367634,0.713146,,
+25_E_mean_turnout__block_5_municipal_services,OLS,block5_library_access_1200m,0.0163397,0.00841442,1.94187,0.0521531,.,
+25_E_mean_turnout__block_5_municipal_services,Spatial error,block5_library_access_1200m,-0.00726896,0.00642113,-1.13204,0.257619,,
+25_E_mean_turnout__block_5_municipal_services,OLS,block5_community_centre_access_1200m,-0.00418559,0.0130759,-0.320099,0.748893,,
+25_E_mean_turnout__block_5_municipal_services,Spatial error,block5_community_centre_access_1200m,-0.00703401,0.00935042,-0.752267,0.451891,,
+25_E_mean_turnout__block_5_municipal_services,OLS,block5_park_access_1200m,0.262171,0.0100495,26.088,0,***,
+25_E_mean_turnout__block_5_municipal_services,Spatial error,block5_park_access_1200m,0.302085,0.0100213,30.1442,0,***,
+25_E_mean_turnout__block_5_municipal_services,OLS,block5_school_age_5_17_share,-0.0393252,0.1042,-0.377401,0.705876,,
+25_E_mean_turnout__block_5_municipal_services,Spatial error,block5_school_age_5_17_share,-0.454227,0.0889825,-5.10468,3.31362e-07,***,
+25_E_mean_turnout__block_5_municipal_services,OLS,block5_ksi_collision_events_2021_2025_per_1000,0.00648441,0.00280527,2.31152,0.0208044,*,
+25_E_mean_turnout__block_5_municipal_services,Spatial error,block5_ksi_collision_events_2021_2025_per_1000,0.00886482,0.00182341,4.86168,1.16395e-06,***,
+25_E_mean_turnout__block_5_municipal_services,OLS,block5_development_applications_2021_2025_per_1000,-0.000554058,0.000581321,-0.953101,0.340539,,
+25_E_mean_turnout__block_5_municipal_services,Spatial error,block5_development_applications_2021_2025_per_1000,-0.00109027,0.000422526,-2.58037,0.00986946,**,
+25_E_mean_turnout__block_5_municipal_services,OLS,block5_shelter_access_1200m,0.00880075,0.00871139,1.01026,0.312372,,
+25_E_mean_turnout__block_5_municipal_services,Spatial error,block5_shelter_access_1200m,0.00116164,0.00819414,0.141765,0.887266,,

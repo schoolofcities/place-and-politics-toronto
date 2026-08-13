@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="980" height="560" viewBox="0 0 980 560">
+<rect width="100%" height="100%" fill="white"/>
+<text x="24.0" y="30.0" font-family="Arial, sans-serif" font-size="18" font-weight="700" text-anchor="start" fill="#222">Top predictors for mean turnout models</text>
+<line x1="500" y1="46" x2="500" y2="506" stroke="#555"/>
+<text x="24.0" y="84.0" font-family="Arial, sans-serif" font-size="12" font-weight="400" text-anchor="start" fill="#222">dem average household size</text>
+<rect x="484.5" y="64" width="15.5" height="22" rx="3" fill="#1f77b4"/>
+<text x="476.5" y="80.0" font-family="Arial, sans-serif" font-size="12" font-weight="700" text-anchor="end" fill="#222">-0.646</text>
+<text x="24.0" y="118.0" font-family="Arial, sans-serif" font-size="12" font-weight="400" text-anchor="start" fill="#222">dem share 18 34</text>
+<rect x="486.5" y="98" width="13.5" height="22" rx="3" fill="#1f77b4"/>
+<text x="478.5" y="114.0" font-family="Arial, sans-serif" font-size="12" font-weight="700" text-anchor="end" fill="#222">-0.566</text>
+<text x="24.0" y="152.0" font-family="Arial, sans-serif" font-size="12" font-weight="400" text-anchor="start" fill="#222">dem median age</text>
+<rect x="492.3" y="132" width="7.7" height="22" rx="3" fill="#1f77b4"/>
+<text x="484.3" y="148.0" font-family="Arial, sans-serif" font-size="12" font-weight="700" text-anchor="end" fill="#222">-0.323</text>
+<text x="24.0" y="186.0" font-family="Arial, sans-serif" font-size="12" font-weight="400" text-anchor="start" fill="#222">housing renter share</text>
+<rect x="245.0" y="166" width="255.0" height="22" rx="3" fill="#8c6d31"/>
+<text x="237.0" y="182.0" font-family="Arial, sans-serif" font-size="12" font-weight="700" text-anchor="end" fill="#222">-10.664</text>
+<text x="24.0" y="220.0" font-family="Arial, sans-serif" font-size="12" font-weight="400" text-anchor="start" fill="#222">housing owner share</text>
+<rect x="267.2" y="200" width="232.8" height="22" rx="3" fill="#8c6d31"/>
+<text x="259.2" y="216.0" font-family="Arial, sans-serif" font-size="12" font-weight="700" text-anchor="end" fill="#222">-9.734</text>
+<text x="24.0" y="254.0" font-family="Arial, sans-serif" font-size="12" font-weight="400" text-anchor="start" fill="#222">housing apartment share</text>
+<rect x="500.0" y="234" width="27.8" height="22" rx="3" fill="#8c6d31"/>
+<text x="535.8" y="250.0" font-family="Arial, sans-serif" font-size="12" font-weight="700" text-anchor="start" fill="#222">1.163</text>
+<text x="24.0" y="288.0" font-family="Arial, sans-serif" font-size="12" font-weight="400" text-anchor="start" fill="#222">racialized visible minority share</text>
+<rect x="485.4" y="268" width="14.6" height="22" rx="3" fill="#2ca02c"/>
+<text x="477.4" y="284.0" font-family="Arial, sans-serif" font-size="12" font-weight="700" text-anchor="end" fill="#222">-0.609</text>
+<text x="24.0" y="322.0" font-family="Arial, sans-serif" font-size="12" font-weight="400" text-anchor="start" fill="#222">immigration non citizen share</text>
+<rect x="491.5" y="302" width="8.5" height="22" rx="3" fill="#2ca02c"/>
+<text x="483.5" y="318.0" font-family="Arial, sans-serif" font-size="12" font-weight="700" text-anchor="end" fill="#222">-0.356</text>
+<text x="24.0" y="356.0" font-family="Arial, sans-serif" font-size="12" font-weight="400" text-anchor="start" fill="#222">immigration recent immigrant share</text>
+<rect x="500.0" y="336" width="5.4" height="22" rx="3" fill="#2ca02c"/>
+<text x="513.4" y="352.0" font-family="Arial, sans-serif" font-size="12" font-weight="700" text-anchor="start" fill="#222">0.228</text>
+<text x="24.0" y="390.0" font-family="Arial, sans-serif" font-size="12" font-weight="400" text-anchor="start" fill="#222">election effective mayoral candidates 5pct</text>
+<rect x="482.8" y="370" width="17.2" height="22" rx="3" fill="#9467bd"/>
+<text x="474.8" y="386.0" font-family="Arial, sans-serif" font-size="12" font-weight="700" text-anchor="end" fill="#222">-0.721</text>
+<text x="24.0" y="424.0" font-family="Arial, sans-serif" font-size="12" font-weight="400" text-anchor="start" fill="#222">election mayoral top two margin</text>
+<rect x="494.4" y="404" width="5.6" height="22" rx="3" fill="#9467bd"/>
+<text x="486.4" y="420.0" font-family="Arial, sans-serif" font-size="12" font-weight="700" text-anchor="end" fill="#222">-0.232</text>
+<text x="24.0" y="458.0" font-family="Arial, sans-serif" font-size="12" font-weight="400" text-anchor="start" fill="#222">election effective federal parties 5pct</text>
+<rect x="498.4" y="438" width="1.6" height="22" rx="3" fill="#9467bd"/>
+<text x="490.4" y="454.0" font-family="Arial, sans-serif" font-size="12" font-weight="700" text-anchor="end" fill="#222">-0.065</text>
+<text x="24.0" y="536.0" font-family="Arial, sans-serif" font-size="12" font-weight="400" text-anchor="start" fill="#222">Standardized betas. Negative values predict lower mean turnout.</text>
+</svg>

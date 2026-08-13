@@ -1,0 +1,11 @@
+variable,missing_count,imputed_count,median,note
+block2_structural_type_total_dwellings,0,0,1800,Median filled from non-missing CT rows in augmented modelling input.
+block2_apartment_duplex_count,0,0,60,Median filled from non-missing CT rows in augmented modelling input.
+block2_apartment_lt5_storeys_count,0,0,155,Median filled from non-missing CT rows in augmented modelling input.
+block2_apartment_5plus_storeys_count,0,0,520,Median filled from non-missing CT rows in augmented modelling input.
+block2_apartment_total_count,0,0,955,Median filled from non-missing CT rows in augmented modelling input.
+block2_apartments_per_km2,0,0,1216.666667,Median filled from non-missing CT rows in augmented modelling input.
+block2_condo_status_total_dwellings,2,2,1805,Median filled from non-missing CT rows in augmented modelling input.
+block2_condominium_dwellings_count,2,2,205,Median filled from non-missing CT rows in augmented modelling input.
+block2_condos_per_km2,2,2,233.3333333,Median filled from non-missing CT rows in augmented modelling input.
+block2_condo_share,0,0,0.1154529307,Median filled from non-missing CT rows in augmented modelling input.

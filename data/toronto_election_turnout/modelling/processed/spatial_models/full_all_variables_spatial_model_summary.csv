@@ -1,0 +1,6 @@
+model_id,dependent_variable,n,num_predictors,ols_adjusted_r2,ols_aic,ols_residual_morans_i,ols_residual_morans_p_perm,spatial_lambda,spatial_lambda_p,spatial_aic,spatial_filtered_residual_morans_i,spatial_filtered_residual_morans_p_perm,delta_aic_spatial_minus_ols,design_rank,design_columns_with_intercept,rank_deficiency,condition_number
+A_municipal_turnout__full_all_variables,outcome_municipal_participation_citizen_18plus,583,71,0.700053,-1620.42,0.15023,0.005,0.512091,0,-1669.58,-0.0256909,0.29,-49.1546,67,72,5,2.82918e+23
+B_provincial_turnout__full_all_variables,outcome_provincial_participation_citizen_18plus,583,71,0.397633,-1349.65,0.104844,0.005,0.34223,0,-1371.99,-0.0113086,0.59,-22.3329,67,72,5,2.82918e+23
+C_federal_turnout__full_all_variables,outcome_federal_participation_citizen_18plus,583,71,0.389929,-1256.03,0.1789,0.005,0.540034,0,-1316.71,-0.0102455,0.675,-60.6822,67,72,5,2.82918e+23
+D_federal_minus_municipal__full_all_variables,outcome_federal_minus_municipal_participation,583,71,0.300983,-1338.15,0.0432912,0.1,0.127551,0,-1339.16,0.010406,0.62,-1.00821,67,72,5,2.82918e+23
+E_mean_turnout__full_all_variables,outcome_mean_participation_citizen_18plus,583,71,0.592533,-1646.98,0.215922,0.005,0.573966,0,-1741.37,-0.000199419,1,-94.3943,67,72,5,2.82918e+23

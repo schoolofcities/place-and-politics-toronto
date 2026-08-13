@@ -1,0 +1,5 @@
+model_id,dependent_variable,n,num_predictors,ols_adjusted_r2,ols_aic,ols_residual_morans_i,ols_residual_morans_p_perm,spatial_lambda,spatial_lambda_p,spatial_aic,spatial_filtered_residual_morans_i,spatial_filtered_residual_morans_p_perm,delta_aic_spatial_minus_ols
+A_municipal_turnout__distance_poly_only,outcome_municipal_participation_citizen_18plus,585,2,0.0332169,-1007.67,0.593269,0.005,0.792679,0,-1404.13,-0.0566049,0.02,-396.459
+A_municipal_turnout__selected_plus_distance_poly,outcome_municipal_participation_citizen_18plus,585,16,0.714144,-1706.73,0.188585,0.005,0.476983,0,-1762.09,-0.00654787,0.77,-55.3578
+B_provincial_turnout__distance_poly_only,outcome_provincial_participation_citizen_18plus,585,2,0.0229493,-1137.73,0.368887,0.005,0.610541,0,-1292.4,-0.0385234,0.15,-154.67
+B_provincial_turnout__selected_plus_distance_poly,outcome_provincial_participation_citizen_18plus,585,9,0.44303,-1459.59,0.101655,0.005,0.276181,1.86132e-05,-1474.6,-0.00330418,0.895,-15.0029
