@@ -12,11 +12,13 @@ processed/
   ct/
     statcan_2021_toronto_ct.geojson
     statcan_2021_ct_profile.csv
+    statcan_2021_ct_census_variables_master.csv
     intermediate/
   ada/
     statcan_2021_toronto_ada.geojson
     statcan_2021_ada_profile.csv
   crosswalks/
+  metadata/
   audits/
     geography/
     profile_extraction/
@@ -69,6 +71,22 @@ DA -> CT -> ADA
 Suppressed values remain null in canonical profiles. Residual diagnostics do
 not replace official values.
 
+## CT Census Variable Master
+
+`ct/statcan_2021_ct_census_variables_master.csv` is the research-ready
+CT-level Census variable database for turnout modelling. It contains Blocks 1-3
+and Census-derived Block 5 variables, preserving raw counts and official rates
+alongside derived 0-1 shares.
+
+Its dictionary is stored at:
+
+```text
+metadata/statcan_2021_ct_census_variables_dictionary.csv
+```
+
+Its QA, missingness, and processing logs are stored under
+`audits/profile_extraction/`.
+
 ## Counts
 
 - DA: 3,743 rows/features.
@@ -86,3 +104,9 @@ npm run build:census-map
 
 This builds wide profiles, geography and crosswalk outputs, then rebuilds the
 ADA profile after the crosswalk is available.
+
+Build the CT Census variable master from the project root with:
+
+```bash
+python3 analysis/toronto_election_turnout/census/scripts/build_ct_census_variables.py
+```

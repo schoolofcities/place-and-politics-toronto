@@ -7,6 +7,10 @@ This folder mirrors the data split:
   files, and interpolation readiness.
 - `interpolation/`: population-weighted poll/district-to-CT allocation, audits,
   preservation validation, and the CT election viewer.
+- `accessibility/`: polling-location accessibility audits and turnout-distance
+  analysis.
+- `variables/`: reserved for future cross-source variable-engineering scripts.
+- `modelling/`: CT modelling dataset assembly, block models, and reports.
 
 ```text
 analysis/toronto_election_turnout/
@@ -23,6 +27,15 @@ analysis/toronto_election_turnout/
     docs/
     viewer/
     README.md
+  accessibility/
+    scripts/
+    docs/
+  variables/
+    scripts/
+    docs/
+  modelling/
+    scripts/
+    docs/
   package.json
   requirements.txt
 ```

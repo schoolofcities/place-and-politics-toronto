@@ -26,6 +26,14 @@ census/
   - Preserves variable-specific status and quality fields and writes a variable
     dictionary beside the profile tables.
 
+- `scripts/build_ct_census_variables.py`
+  - Builds the CT-level master Census variable database for Blocks 1-3 and
+    Census-derived Block 5 components from official StatCan CT Profile and
+    single-year age downloads.
+  - Preserves raw counts, adds derived shares, writes the data dictionary,
+    QA report, missing-variable report, processing log, and project variable
+    registry entries.
+
 - `scripts/convert_zack_taylor_stata.py`
   - Converts the Zack Taylor-provided CT-apportioned Stata dataset to CSV.
   - Writes to `data/toronto_election_turnout/census/reference/zack_taylor_ct2021/`.

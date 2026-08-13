@@ -1,11 +1,19 @@
 # Toronto Election Turnout Data
 
-This folder is split into three data batches:
+This folder is split into source and analysis-ready research modules:
 
 - `elections/`: municipal, provincial, and federal election source files and processed polling-division turnout outputs.
 - `census/`: 2021 census geography, Census Profile attributes, and census-tract reference/interpolation inputs.
 - `interpolation/`: generated poll/district-to-census-tract crosswalks,
   estimates, audits, exclusions, and validation reports.
+- `accessibility/`: polling-location source files, poll-to-location links,
+  distance metrics, turnout-distance analysis outputs, and accessibility QA.
+- `variables/`: reserved for future cross-source engineered modelling
+  variables that should not live inside a single upstream source module.
+- `modelling/`: CT-level modelling tables and model outputs built from
+  existing census, election, interpolation, and variable inputs.
+- `metadata/`: project-level registries, including the modelling variable
+  registry.
 
 This separation is intentional. Election files describe votes, electors, polling
 divisions, wards, and ridings. Census files describe DAs, CTs, CSD geography,
@@ -38,6 +46,18 @@ data/toronto_election_turnout/
     processed/
       intermediate/
     map/
+  accessibility/
+    raw/
+    processed/
+    map/
+  variables/
+    raw/
+    processed/
+    metadata/
+    documentation/
+  modelling/
+    processed/
+  metadata/
 ```
 
 ## Election Data
@@ -95,3 +115,17 @@ values as zero, and writes separate poll-to-CT and district-to-CT crosswalks.
 
 `interpolation/map/` stores the three validated, compact CT GeoJSON datasets
 used by the interpolation viewer plus `map_build_summary.json`.
+
+## Engineered Variables and Modelling
+
+`variables/` is the landing zone for future cross-source feature engineering,
+especially Blocks 1-5 variables that combine official source modules or require
+spatial aggregation before modelling. Keep immutable official source downloads
+inside the source module that owns them whenever possible.
+
+`modelling/` stores analysis-ready CT modelling products and model outputs. It
+should consume stable variables rather than becoming the default location for
+new raw source downloads.
+
+`metadata/variable_registry.csv` is the project-level variable inventory to
+update as new modelling variables are collected or engineered.

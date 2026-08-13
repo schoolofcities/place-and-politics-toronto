@@ -1,0 +1,41 @@
+
+
+output of travel time matrix should be a table with the following columns (this will be a really big table!)
+- origin TTS22ID
+- destination TTS22ID
+- travel distance by driving in KM between the origin TTS22ID and destination TTS22ID
+
+
+
+Query the TTS data to get the total number trips people make between TTS22 Zones
+ 
+Steps
+- Go to Trips table on TTS DMG website
+- Filter for just Car Driver, Taxi, and Uber trips
+- Do a cross-tabulation with the following 3 columns/variables
+- - TTS22ID of the household location (i.e. the home location)
+- - TTS22ID of the origin of the trip
+- - TTS22ID of the destination of the trip
+- make sure that the expansion factor is on
+ 
+Output table aftern cleaning up what you export should be a four column csv (again will likely be a pretty big table
+- - TTS22ID of the household location (i.e. the home location)
+- - TTS22ID of the origin of the trip
+- - TTS22ID of the destination of the trip
+- - Total trips (total number of trips taken by people who live in a specific TTS22 zone, between to/from specific TTS22 zones)
+e.g. one row of this table would say that there were 20 trips by car by people who live in TTS Zone 1001 that were taken from TTS Zone 1002 to Zone 1004
+
+
+
+
+Step 3: joining and summarizing the data
+
+A. Do a table join between these outputs, joining on the TTS origin and the TTS destination IDs
+
+B. Multiply the Trip Distance by the Number of Trips to get the trip distance for all trips combined
+
+C. Group by the household TTS22 Zone ID, summing the total from step B. The result will be the total distance all people who live in a TTS22 Zone travel by car
+
+D. Divide the total in C. by the number of households and persons in each zone, to get average rates of VKT per person and per household
+
+C. Make choropleth maps of each! (total VKT, average VKT per household, average VKT per person)
