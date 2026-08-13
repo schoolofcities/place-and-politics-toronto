@@ -1,0 +1,2 @@
+model,n,num_predictors,selected_components,train_r2,train_adjusted_r2,train_rmse,cv_r2,cv_rmse
+theory_cleaned_pls,585,27,5,0.6247814930877795,0.621541264185256,0.053246314131350565,0.5575506025167152,0.05782015193364986

@@ -1,0 +1,2 @@
+model,n,num_predictors,selected_components,train_r2,train_adjusted_r2,train_rmse,cv_r2,cv_rmse
+interaction_augmented_pls,585,38,1,0.5869359708664138,0.586227456236682,0.05586709804387012,0.5655860117219935,0.05729270470379824

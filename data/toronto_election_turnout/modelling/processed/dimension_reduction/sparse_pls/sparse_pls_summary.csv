@@ -1,0 +1,2 @@
+model,n,num_predictors,selected_components,keep_per_component,train_r2,train_rmse,cv_r2,cv_rmse
+sparse_pls_cleaned_predictors,585,27,5,15,0.6235932916594217,0.05333055483035694,0.5596909400224641,0.05768013064698817

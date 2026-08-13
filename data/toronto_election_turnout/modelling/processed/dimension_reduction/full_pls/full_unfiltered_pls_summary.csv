@@ -1,0 +1,2 @@
+model,n,num_predictors,selected_components,train_r2,train_adjusted_r2,train_rmse,cv_r2,cv_rmse
+full_unfiltered_pls,583,70,12,0.6931484105006589,0.6866883770375148,0.04823419854166956,0.5648016103339166,0.05744265673414162
