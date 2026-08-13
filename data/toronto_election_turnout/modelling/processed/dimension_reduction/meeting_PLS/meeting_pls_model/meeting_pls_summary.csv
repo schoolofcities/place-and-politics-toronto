@@ -1,0 +1,2 @@
+model,n,num_predictors,selected_components,train_r2,train_adjusted_r2,train_rmse,cv_r2,cv_rmse
+meeting_pls,585,14,2,0.5615495954616665,0.5600428930405725,0.057558260720621236,0.5336573961636406,0.05936083087594775

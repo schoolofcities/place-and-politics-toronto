@@ -1,0 +1,29 @@
+variable,loading,component,abs_loading,Variable,Family,vip,pls_coefficient,turnout_corr,direction,Component side,Rank
+block3_visible_minority_share,-0.5161451181688533,component_1,0.5161451181688533,visible minority share,Immigration and citizenship,1.8375873296565133,-0.08113516886407081,-0.6417173192966108,lower turnout,low side,1
+block3_immigrant_share,-0.5026715887668884,component_1,0.5026715887668884,immigrant share,Immigration and citizenship,1.6621139824847921,-0.09608741520770243,-0.5732675189236403,lower turnout,low side,2
+block1_bachelors_or_higher_25_64_share,0.4380046424428168,component_1,0.4380046424428168,bachelor or higher education share,"Education, income, and household",1.5858687521125452,0.09981471457055396,0.5538356786177911,higher turnout,high side,3
+block1_average_household_size,-0.3599770587646931,component_1,0.3599770587646931,average household size,"Education, income, and household",1.3980781816486234,-0.036256003649126886,-0.48536841407453857,lower turnout,low side,4
+block3_citizen_adult_share,0.3130242438109036,component_1,0.3130242438109036,citizen adult share,Immigration and citizenship,1.026600725421355,0.0863640417420477,0.3528999197578231,higher turnout,high side,5
+block1_low_income_lim_at_share,-0.2032260762434333,component_1,0.2032260762434333,low income share,"Education, income, and household",0.6241555997115629,-0.035931641504148085,-0.1990786833648018,lower turnout,low side,6
+block5_tts_no_car_household_share,0.1633136625653613,component_1,0.1633136625653613,TTS no car household share,Transportation,0.5178002080091784,0.018787563937703956,0.1740819175441996,higher turnout,high side,7
+block2_same_address_5yr_share,-0.1335799785637199,component_1,0.1335799785637199,same address five year share,Residential stability,0.40608734987856976,-0.0020847523152716673,-0.11971872935080834,lower turnout,low side,8
+block2_population_density_per_km2,0.0672635666340898,component_1,0.0672635666340898,population density,Urban form,0.30081955271623484,4.7643856048869954e-07,0.10150379616778125,higher turnout,high side,9
+block2_renter_share,-0.0368800225468402,component_1,0.0368800225468402,renter share,Tenure,0.28133096177213684,-0.023351073274314484,-0.08117445841443101,lower turnout,low side,10
+block1_age_65_plus_share,0.033930974401985,component_1,0.033930974401985,age 65 plus share,Age structure,0.8196310421093196,0.19634547701799018,0.18188878083463494,higher turnout,high side,11
+block2_apartment_share,0.0315281577470438,component_1,0.0315281577470438,apartment share,Urban form,0.3376780525929368,0.02269812198656034,0.08861319366260975,higher turnout,high side,12
+block2_condo_share,0.0314535961644425,component_1,0.0314535961644425,condo share,Urban form,0.3133375883033511,0.021283160228656593,0.08381671008093962,higher turnout,high side,13
+block1_age_18_34_share,-0.0112834973099919,component_1,0.0112834973099919,age 18 to 34 share,Age structure,0.6788982920650234,-0.15160710738068972,-0.1363918205210255,lower turnout,low side,14
+block1_age_65_plus_share,0.8118085343193032,component_2,0.8118085343193032,age 65 plus share,Age structure,0.8196310421093196,0.19634547701799018,0.18188878083463494,higher turnout,high side,1
+block1_age_18_34_share,-0.5283854662522492,component_2,0.5283854662522492,age 18 to 34 share,Age structure,0.6788982920650234,-0.15160710738068972,-0.1363918205210255,lower turnout,low side,2
+block3_immigrant_share,0.2510902752176261,component_2,0.2510902752176261,immigrant share,Immigration and citizenship,1.6621139824847921,-0.09608741520770243,-0.5732675189236403,lower turnout,high side,3
+block2_same_address_5yr_share,0.2502286755440059,component_2,0.2502286755440059,same address five year share,Residential stability,0.40608734987856976,-0.0020847523152716673,-0.11971872935080834,lower turnout,high side,4
+block5_tts_no_car_household_share,-0.2177333177605649,component_2,0.2177333177605649,TTS no car household share,Transportation,0.5178002080091784,0.018787563937703956,0.1740819175441996,higher turnout,low side,5
+block2_renter_share,-0.1917925397285388,component_2,0.1917925397285388,renter share,Tenure,0.28133096177213684,-0.023351073274314484,-0.08117445841443101,lower turnout,low side,6
+block1_low_income_lim_at_share,0.1288849635852499,component_2,0.1288849635852499,low income share,"Education, income, and household",0.6241555997115629,-0.035931641504148085,-0.1990786833648018,lower turnout,high side,7
+block2_population_density_per_km2,-0.1241318510974312,component_2,0.1241318510974312,population density,Urban form,0.30081955271623484,4.7643856048869954e-07,0.10150379616778125,higher turnout,low side,8
+block2_condo_share,0.1227796276643089,component_2,0.1227796276643089,condo share,Urban form,0.3133375883033511,0.021283160228656593,0.08381671008093962,higher turnout,high side,9
+block1_average_household_size,-0.0533465345682456,component_2,0.0533465345682456,average household size,"Education, income, and household",1.3980781816486234,-0.036256003649126886,-0.48536841407453857,lower turnout,low side,10
+block3_visible_minority_share,0.0450058868738957,component_2,0.0450058868738957,visible minority share,Immigration and citizenship,1.8375873296565133,-0.08113516886407081,-0.6417173192966108,lower turnout,high side,11
+block3_citizen_adult_share,0.0327806992835481,component_2,0.0327806992835481,citizen adult share,Immigration and citizenship,1.026600725421355,0.0863640417420477,0.3528999197578231,higher turnout,high side,12
+block2_apartment_share,0.0159786478958732,component_2,0.0159786478958732,apartment share,Urban form,0.3376780525929368,0.02269812198656034,0.08861319366260975,higher turnout,high side,13
+block1_bachelors_or_higher_25_64_share,-0.0099693046450401,component_2,0.0099693046450401,bachelor or higher education share,"Education, income, and household",1.5858687521125452,0.09981471457055396,0.5538356786177911,higher turnout,low side,14
