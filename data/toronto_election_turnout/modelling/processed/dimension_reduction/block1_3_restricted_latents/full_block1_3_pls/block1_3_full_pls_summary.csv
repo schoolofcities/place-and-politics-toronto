@@ -1,0 +1,2 @@
+model,n,num_predictors,selected_components,train_r2,train_adjusted_r2,train_rmse,cv_r2,cv_rmse
+block1_3_full_pls,585,33,10,0.6195549058920677,0.6129269425800828,0.05361587754681027,0.5278604309356645,0.05972863973012606
