@@ -46,3 +46,4 @@ pnpm-debug.log*
 
 # Project-specific data
 data/clustering_neighbourhoods
+data/campaign_finance
