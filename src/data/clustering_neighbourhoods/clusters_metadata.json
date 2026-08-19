@@ -1,0 +1,103 @@
+{
+ "project_title": "Toronto's Political Neighbourhoods",
+ "model_name": "8F 50/50 city-riding blend",
+ "methods_summary": "Five clusters of Toronto census tracts, built from block-weighted vote-share and turnout features across the 2023 mayoral, 2025 provincial, and 2025 federal elections. Each tract's features blend two signals 50/50: how it compares to the city overall, and how it compares to its own municipal ward / provincial riding / federal riding. PCA reduces the blended feature space to components explaining >=90% of variance, then k-means (k=5) clusters tracts in that space. Cluster IDs are re-sorted west-to-east; display order is separately fixed by a progressive<->conservative lean score.",
+ "k": 5,
+ "n_tracts": 585,
+ "cluster_order": [
+  "progressive-core",
+  "mobile-middle",
+  "civic-professionals",
+  "working-suburbanites",
+  "settled-conservatives"
+ ],
+ "clusters": [
+  {
+   "cluster_id": 1,
+   "display_order": 1,
+   "slug": "progressive-core",
+   "label": "Progressive Core",
+   "color": "#F5D76E"
+  },
+  {
+   "cluster_id": 4,
+   "display_order": 2,
+   "slug": "mobile-middle",
+   "label": "Mobile Middle",
+   "color": "#F2A233"
+  },
+  {
+   "cluster_id": 2,
+   "display_order": 3,
+   "slug": "civic-professionals",
+   "label": "Civic Professionals",
+   "color": "#E4362A"
+  },
+  {
+   "cluster_id": 3,
+   "display_order": 4,
+   "slug": "working-suburbanites",
+   "label": "Working Suburbanites",
+   "color": "#3E6FA8"
+  },
+  {
+   "cluster_id": 0,
+   "display_order": 5,
+   "slug": "settled-conservatives",
+   "label": "Settled Conservatives",
+   "color": "#472366"
+  }
+ ],
+ "variable_labels": {
+  "mun_turnout": "2023 mayoral turnout",
+  "mun_chow": "Chow (2023 mayoral)",
+  "mun_bailao": "Bail\u00e3o (2023 mayoral)",
+  "mun_saunders": "Saunders (2023 mayoral)",
+  "mun_furey": "Furey (2023 mayoral)",
+  "mun_matlow": "Matlow (2023 mayoral)",
+  "mun_other": "Other mayoral candidates",
+  "prov_turnout": "2025 provincial turnout",
+  "prov_pc": "Ontario PC (2025 provincial)",
+  "prov_ndp": "Ontario NDP (2025 provincial)",
+  "prov_liberal": "Ontario Liberal (2025 provincial)",
+  "prov_green": "Ontario Green (2025 provincial)",
+  "prov_other": "Other provincial parties",
+  "fed_turnout": "2025 federal turnout",
+  "fed_liberal": "Liberal (2025 federal)",
+  "fed_conservative": "Conservative (2025 federal)",
+  "fed_ndp": "NDP (2025 federal)",
+  "fed_green": "Green (2025 federal)",
+  "fed_other": "Other federal parties",
+  "population": "Total population",
+  "population_density": "Population density (per km\u00b2)",
+  "pct_age_65_over": "Age 65+",
+  "avg_age": "Average age",
+  "avg_household_size": "Average household size",
+  "income_median_approx": "Approx. median income",
+  "pct_renter": "Renter households",
+  "pct_shelter_burdened_30plus": "Spending 30%+ on shelter",
+  "pct_canadian_citizen": "Canadian citizens",
+  "pct_visible_minority": "Visible minority / racialized population",
+  "pct_migrant_5yr": "Migrants in the last 5 years",
+  "pct_bachelor_or_higher": "Bachelor's degree or higher",
+  "pct_commute_car": "Commute by car/truck/van",
+  "pct_commute_transit": "Commute by public transit",
+  "pct_commute_60plus_min": "Commute 60+ minutes"
+ },
+ "variable_units": {
+  "population": "people",
+  "population_density": "people / km\u00b2",
+  "avg_age": "years",
+  "avg_household_size": "people",
+  "income_median_approx": "CAD $"
+ },
+ "notes": [
+  "These are tract-level political profiles, not individual voter types.",
+  "income_median_approx is a population-weighted average of published tract medians, not a recomputed true cluster median.",
+  "Electoral 'actual' values (elections.*) are vote-weighted by valid votes / registered electors; electoral_deviation values are simple tract means, matching the feature space the clustering model was fit on.",
+  "Two tracts (5350006.00, 5350205.00) have suppressed 25%-sample-based census values; affected sums/averages simply exclude them.",
+  "estimated_turnout is an areal interpolation of two independently-estimated counts (votes, electors); one small-population tract (5350009.00) shows municipal turnout slightly over 100%, kept as published rather than clamped.",
+  "Frontend tract geometry is simplified (tolerance ~9m); full-resolution geometry is in data/clustering_neighbourhoods/processed_clusters/.",
+  "No official Toronto neighbourhood crosswalk is available for these tracts; geography breakdowns use wards and provincial/federal ridings instead."
+ ]
+}

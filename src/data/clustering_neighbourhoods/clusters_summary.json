@@ -1,0 +1,1367 @@
+[
+ {
+  "cluster_id": 1,
+  "display_order": 1,
+  "slug": "progressive-core",
+  "label": "Progressive Core",
+  "short_label": "Progressive Core",
+  "color": "#F5D76E",
+  "description": "Progressive Core: tracts leaning progressive, most distinguished by Ontario NDP (2025 provincial) (+30.1pp vs. city) with higher-than-average turnout.",
+  "political_signature": "Overperforms city average on Ontario NDP (2025 provincial) (+30.1pp), Chow (2023 mayoral) (+17.0pp); underperforms on Ontario PC (2025 provincial) (-19.0pp), Conservative (2025 federal) (-14.3pp). Turnout runs above the city average (+6.0pp avg. across the three elections).",
+  "demographic_signature": "Population density (per km\u00b2) above the city average (+4446.7); Commute by car/truck/van below the city average (-18.6); Canadian citizens above the city average (+5.1).",
+  "n_tracts": 92,
+  "tract_share": 0.157,
+  "population": 375280.0,
+  "population_share": 0.134,
+  "demographics": {
+   "population_density": 8642.703,
+   "pct_age_65_over": 14.781,
+   "avg_age": 41.021,
+   "avg_household_size": 2.096,
+   "income_median_approx": 43186.24,
+   "pct_renter": 57.176,
+   "pct_shelter_burdened_30plus": 32.963,
+   "pct_canadian_citizen": 87.784,
+   "pct_visible_minority": 37.939,
+   "pct_migrant_5yr": 15.656,
+   "pct_bachelor_or_higher": 46.921,
+   "pct_commute_car": 42.367,
+   "pct_commute_transit": 30.267,
+   "pct_commute_60plus_min": 10.046
+  },
+  "demographics_vs_toronto": {
+   "population_density": {
+    "value": 8642.703,
+    "diff_vs_toronto": 4446.672,
+    "rank_1_is_highest": 1,
+    "index_toronto_100": 205.973
+   },
+   "pct_age_65_over": {
+    "value": 14.781,
+    "diff_vs_toronto": -2.291,
+    "rank_1_is_highest": 4,
+    "index_toronto_100": 86.583
+   },
+   "avg_age": {
+    "value": 41.021,
+    "diff_vs_toronto": -0.457,
+    "rank_1_is_highest": 3,
+    "index_toronto_100": 98.899
+   },
+   "avg_household_size": {
+    "value": 2.096,
+    "diff_vs_toronto": -0.286,
+    "rank_1_is_highest": 4,
+    "index_toronto_100": 87.983
+   },
+   "income_median_approx": {
+    "value": 43186.24,
+    "diff_vs_toronto": 1305.306,
+    "rank_1_is_highest": 4,
+    "index_toronto_100": 103.117
+   },
+   "pct_renter": {
+    "value": 57.176,
+    "diff_vs_toronto": 9.114,
+    "rank_1_is_highest": 1,
+    "index_toronto_100": 118.963
+   },
+   "pct_shelter_burdened_30plus": {
+    "value": 32.963,
+    "diff_vs_toronto": 0.487,
+    "rank_1_is_highest": 2,
+    "index_toronto_100": 101.5
+   },
+   "pct_canadian_citizen": {
+    "value": 87.784,
+    "diff_vs_toronto": 5.067,
+    "rank_1_is_highest": 1,
+    "index_toronto_100": 106.126
+   },
+   "pct_visible_minority": {
+    "value": 37.939,
+    "diff_vs_toronto": -17.735,
+    "rank_1_is_highest": 4,
+    "index_toronto_100": 68.145
+   },
+   "pct_migrant_5yr": {
+    "value": 15.656,
+    "diff_vs_toronto": -1.135,
+    "rank_1_is_highest": 3,
+    "index_toronto_100": 93.24
+   },
+   "pct_bachelor_or_higher": {
+    "value": 46.921,
+    "diff_vs_toronto": 5.85,
+    "rank_1_is_highest": 3,
+    "index_toronto_100": 114.244
+   },
+   "pct_commute_car": {
+    "value": 42.367,
+    "diff_vs_toronto": -18.592,
+    "rank_1_is_highest": 5,
+    "index_toronto_100": 69.501
+   },
+   "pct_commute_transit": {
+    "value": 30.267,
+    "diff_vs_toronto": 4.031,
+    "rank_1_is_highest": 1,
+    "index_toronto_100": 115.363
+   },
+   "pct_commute_60plus_min": {
+    "value": 10.046,
+    "diff_vs_toronto": -2.416,
+    "rank_1_is_highest": 4,
+    "index_toronto_100": 80.61
+   }
+  },
+  "elections": {
+   "mayor_2023": {
+    "turnout": 43.4,
+    "chow": 53.8,
+    "bailao": 23.0,
+    "matlow": 5.6,
+    "saunders": 4.2,
+    "other": 10.4
+   },
+   "provincial_2025": {
+    "turnout": 48.0,
+    "pc": 15.1,
+    "ndp": 53.0,
+    "liberal": 27.4,
+    "green": 3.3,
+    "other": 1.2
+   },
+   "federal_2025": {
+    "turnout": 69.0,
+    "liberal": 62.3,
+    "conservative": 19.7,
+    "ndp": 15.9,
+    "green": 1.3,
+    "other": 0.8
+   }
+  },
+  "electoral_deviation": {
+   "vs_city": {
+    "overperforming": [
+     {
+      "variable": "prov_ndp",
+      "diff_pp": 30.1
+     },
+     {
+      "variable": "mun_chow",
+      "diff_pp": 17.0
+     },
+     {
+      "variable": "fed_ndp",
+      "diff_pp": 10.0
+     }
+    ],
+    "underperforming": [
+     {
+      "variable": "prov_pc",
+      "diff_pp": -19.0
+     },
+     {
+      "variable": "fed_conservative",
+      "diff_pp": -14.3
+     },
+     {
+      "variable": "prov_liberal",
+      "diff_pp": -11.3
+     }
+    ]
+   },
+   "vs_riding": {
+    "overperforming": [
+     {
+      "variable": "prov_ndp",
+      "diff_pp": 5.4
+     },
+     {
+      "variable": "mun_chow",
+      "diff_pp": 5.4
+     },
+     {
+      "variable": "fed_ndp",
+      "diff_pp": 2.4
+     }
+    ],
+    "underperforming": [
+     {
+      "variable": "mun_bailao",
+      "diff_pp": -4.1
+     },
+     {
+      "variable": "prov_pc",
+      "diff_pp": -3.2
+     },
+     {
+      "variable": "fed_conservative",
+      "diff_pp": -2.8
+     }
+    ]
+   }
+  },
+  "geography": {
+   "top_wards": [
+    {
+     "name": "Ward 14",
+     "pct_of_cluster_tracts": 20.7
+    },
+    {
+     "name": "Ward 4",
+     "pct_of_cluster_tracts": 19.6
+    },
+    {
+     "name": "Ward 9",
+     "pct_of_cluster_tracts": 17.4
+    },
+    {
+     "name": "Ward 11",
+     "pct_of_cluster_tracts": 14.1
+    },
+    {
+     "name": "Ward 10",
+     "pct_of_cluster_tracts": 8.7
+    }
+   ],
+   "top_ridings_provincial": [
+    {
+     "name": "Toronto\u2014Danforth",
+     "pct_of_cluster_tracts": 20.7
+    },
+    {
+     "name": "Parkdale\u2014High Park",
+     "pct_of_cluster_tracts": 19.6
+    },
+    {
+     "name": "Davenport",
+     "pct_of_cluster_tracts": 17.4
+    },
+    {
+     "name": "University\u2014Rosedale",
+     "pct_of_cluster_tracts": 14.1
+    },
+    {
+     "name": "Spadina\u2014Fort York",
+     "pct_of_cluster_tracts": 8.7
+    }
+   ],
+   "top_ridings_federal": [
+    {
+     "name": "Taiaiako\u2019n\u2014Parkdale\u2014High Park",
+     "pct_of_cluster_tracts": 20.7
+    },
+    {
+     "name": "Toronto\u2014Danforth",
+     "pct_of_cluster_tracts": 20.7
+    },
+    {
+     "name": "University\u2014Rosedale",
+     "pct_of_cluster_tracts": 18.5
+    },
+    {
+     "name": "Davenport",
+     "pct_of_cluster_tracts": 17.4
+    },
+    {
+     "name": "Toronto Centre",
+     "pct_of_cluster_tracts": 7.6
+    }
+   ]
+  }
+ },
+ {
+  "cluster_id": 4,
+  "display_order": 2,
+  "slug": "mobile-middle",
+  "label": "Mobile Middle",
+  "short_label": "Mobile Middle",
+  "color": "#F2A233",
+  "description": "Mobile Middle: tracts leaning progressive, most distinguished by Ontario NDP (2025 provincial) (+16.4pp vs. city) with average turnout.",
+  "political_signature": "Overperforms city average on Ontario NDP (2025 provincial) (+16.4pp), Chow (2023 mayoral) (+4.3pp); underperforms on Ontario PC (2025 provincial) (-10.0pp), Ontario Liberal (2025 provincial) (-7.0pp). Turnout runs above the city average (+1.4pp avg. across the three elections).",
+  "demographic_signature": "Migrants in the last 5 years above the city average (+7.3); Average household size below the city average (-0.4); Spending 30%+ on shelter above the city average (+3.7).",
+  "n_tracts": 94,
+  "tract_share": 0.161,
+  "population": 494740.0,
+  "population_share": 0.177,
+  "demographics": {
+   "population_density": 6171.47,
+   "pct_age_65_over": 13.774,
+   "avg_age": 39.882,
+   "avg_household_size": 1.995,
+   "income_median_approx": 48612.423,
+   "pct_renter": 54.052,
+   "pct_shelter_burdened_30plus": 36.185,
+   "pct_canadian_citizen": 81.338,
+   "pct_visible_minority": 48.555,
+   "pct_migrant_5yr": 24.112,
+   "pct_bachelor_or_higher": 51.178,
+   "pct_commute_car": 48.302,
+   "pct_commute_transit": 28.202,
+   "pct_commute_60plus_min": 10.568
+  },
+  "demographics_vs_toronto": {
+   "population_density": {
+    "value": 6171.47,
+    "diff_vs_toronto": 1975.439,
+    "rank_1_is_highest": 2,
+    "index_toronto_100": 147.079
+   },
+   "pct_age_65_over": {
+    "value": 13.774,
+    "diff_vs_toronto": -3.298,
+    "rank_1_is_highest": 5,
+    "index_toronto_100": 80.682
+   },
+   "avg_age": {
+    "value": 39.882,
+    "diff_vs_toronto": -1.595,
+    "rank_1_is_highest": 5,
+    "index_toronto_100": 96.154
+   },
+   "avg_household_size": {
+    "value": 1.995,
+    "diff_vs_toronto": -0.387,
+    "rank_1_is_highest": 5,
+    "index_toronto_100": 83.748
+   },
+   "income_median_approx": {
+    "value": 48612.423,
+    "diff_vs_toronto": 6731.489,
+    "rank_1_is_highest": 2,
+    "index_toronto_100": 116.073
+   },
+   "pct_renter": {
+    "value": 54.052,
+    "diff_vs_toronto": 5.99,
+    "rank_1_is_highest": 2,
+    "index_toronto_100": 112.462
+   },
+   "pct_shelter_burdened_30plus": {
+    "value": 36.185,
+    "diff_vs_toronto": 3.709,
+    "rank_1_is_highest": 1,
+    "index_toronto_100": 111.422
+   },
+   "pct_canadian_citizen": {
+    "value": 81.338,
+    "diff_vs_toronto": -1.378,
+    "rank_1_is_highest": 4,
+    "index_toronto_100": 98.334
+   },
+   "pct_visible_minority": {
+    "value": 48.555,
+    "diff_vs_toronto": -7.119,
+    "rank_1_is_highest": 2,
+    "index_toronto_100": 87.214
+   },
+   "pct_migrant_5yr": {
+    "value": 24.112,
+    "diff_vs_toronto": 7.321,
+    "rank_1_is_highest": 1,
+    "index_toronto_100": 143.597
+   },
+   "pct_bachelor_or_higher": {
+    "value": 51.178,
+    "diff_vs_toronto": 10.107,
+    "rank_1_is_highest": 2,
+    "index_toronto_100": 124.608
+   },
+   "pct_commute_car": {
+    "value": 48.302,
+    "diff_vs_toronto": -12.657,
+    "rank_1_is_highest": 4,
+    "index_toronto_100": 79.237
+   },
+   "pct_commute_transit": {
+    "value": 28.202,
+    "diff_vs_toronto": 1.966,
+    "rank_1_is_highest": 2,
+    "index_toronto_100": 107.493
+   },
+   "pct_commute_60plus_min": {
+    "value": 10.568,
+    "diff_vs_toronto": -1.894,
+    "rank_1_is_highest": 3,
+    "index_toronto_100": 84.803
+   }
+  },
+  "elections": {
+   "mayor_2023": {
+    "turnout": 38.0,
+    "chow": 42.9,
+    "bailao": 29.5,
+    "matlow": 5.0,
+    "saunders": 6.7,
+    "other": 11.3
+   },
+   "provincial_2025": {
+    "turnout": 43.7,
+    "pc": 23.3,
+    "ndp": 40.5,
+    "liberal": 32.2,
+    "green": 2.9,
+    "other": 1.0
+   },
+   "federal_2025": {
+    "turnout": 65.5,
+    "liberal": 61.1,
+    "conservative": 27.4,
+    "ndp": 9.6,
+    "green": 1.1,
+    "other": 0.8
+   }
+  },
+  "electoral_deviation": {
+   "vs_city": {
+    "overperforming": [
+     {
+      "variable": "prov_ndp",
+      "diff_pp": 16.4
+     },
+     {
+      "variable": "mun_chow",
+      "diff_pp": 4.3
+     },
+     {
+      "variable": "fed_ndp",
+      "diff_pp": 3.2
+     }
+    ],
+    "underperforming": [
+     {
+      "variable": "prov_pc",
+      "diff_pp": -10.0
+     },
+     {
+      "variable": "prov_liberal",
+      "diff_pp": -7.0
+     },
+     {
+      "variable": "fed_conservative",
+      "diff_pp": -6.8
+     }
+    ]
+   },
+   "vs_riding": {
+    "overperforming": [
+     {
+      "variable": "prov_pc",
+      "diff_pp": 2.7
+     },
+     {
+      "variable": "mun_bailao",
+      "diff_pp": 2.4
+     },
+     {
+      "variable": "fed_conservative",
+      "diff_pp": 2.4
+     }
+    ],
+    "underperforming": [
+     {
+      "variable": "prov_ndp",
+      "diff_pp": -4.3
+     },
+     {
+      "variable": "mun_chow",
+      "diff_pp": -4.3
+     },
+     {
+      "variable": "fed_ndp",
+      "diff_pp": -1.9
+     }
+    ]
+   }
+  },
+  "geography": {
+   "top_wards": [
+    {
+     "name": "Ward 20",
+     "pct_of_cluster_tracts": 18.1
+    },
+    {
+     "name": "Ward 10",
+     "pct_of_cluster_tracts": 14.9
+    },
+    {
+     "name": "Ward 13",
+     "pct_of_cluster_tracts": 12.8
+    },
+    {
+     "name": "Ward 4",
+     "pct_of_cluster_tracts": 10.6
+    },
+    {
+     "name": "Ward 11",
+     "pct_of_cluster_tracts": 10.6
+    }
+   ],
+   "top_ridings_provincial": [
+    {
+     "name": "Scarborough Southwest",
+     "pct_of_cluster_tracts": 18.1
+    },
+    {
+     "name": "Spadina\u2014Fort York",
+     "pct_of_cluster_tracts": 14.9
+    },
+    {
+     "name": "Toronto Centre",
+     "pct_of_cluster_tracts": 12.8
+    },
+    {
+     "name": "Parkdale\u2014High Park",
+     "pct_of_cluster_tracts": 10.6
+    },
+    {
+     "name": "University\u2014Rosedale",
+     "pct_of_cluster_tracts": 10.6
+    }
+   ],
+   "top_ridings_federal": [
+    {
+     "name": "Scarborough Southwest",
+     "pct_of_cluster_tracts": 18.1
+    },
+    {
+     "name": "Toronto Centre",
+     "pct_of_cluster_tracts": 13.8
+    },
+    {
+     "name": "Taiaiako\u2019n\u2014Parkdale\u2014High Park",
+     "pct_of_cluster_tracts": 12.8
+    },
+    {
+     "name": "Davenport",
+     "pct_of_cluster_tracts": 11.7
+    },
+    {
+     "name": "Spadina\u2014Harbourfront",
+     "pct_of_cluster_tracts": 11.7
+    }
+   ]
+  }
+ },
+ {
+  "cluster_id": 2,
+  "display_order": 3,
+  "slug": "civic-professionals",
+  "label": "Civic Professionals",
+  "short_label": "Civic Professionals",
+  "color": "#E4362A",
+  "description": "Civic Professionals: tracts leaning conservative, most distinguished by Ontario Liberal (2025 provincial) (+12.3pp vs. city) with higher-than-average turnout.",
+  "political_signature": "Overperforms city average on Ontario Liberal (2025 provincial) (+12.3pp), Matlow (2023 mayoral) (+5.0pp); underperforms on Ontario NDP (2025 provincial) (-8.3pp), Chow (2023 mayoral) (-4.7pp). Turnout runs above the city average (+7.1pp avg. across the three elections).",
+  "demographic_signature": "Approx. median income above the city average (+10874.9); Bachelor's degree or higher above the city average (+12.3); Commute 60+ minutes below the city average (-2.9).",
+  "n_tracts": 62,
+  "tract_share": 0.106,
+  "population": 298383.0,
+  "population_share": 0.107,
+  "demographics": {
+   "population_density": 5950.15,
+   "pct_age_65_over": 19.077,
+   "avg_age": 42.869,
+   "avg_household_size": 2.155,
+   "income_median_approx": 52755.801,
+   "pct_renter": 49.374,
+   "pct_shelter_burdened_30plus": 32.468,
+   "pct_canadian_citizen": 86.689,
+   "pct_visible_minority": 34.995,
+   "pct_migrant_5yr": 15.399,
+   "pct_bachelor_or_higher": 53.325,
+   "pct_commute_car": 57.351,
+   "pct_commute_transit": 27.099,
+   "pct_commute_60plus_min": 9.571
+  },
+  "demographics_vs_toronto": {
+   "population_density": {
+    "value": 5950.15,
+    "diff_vs_toronto": 1754.119,
+    "rank_1_is_highest": 3,
+    "index_toronto_100": 141.804
+   },
+   "pct_age_65_over": {
+    "value": 19.077,
+    "diff_vs_toronto": 2.005,
+    "rank_1_is_highest": 2,
+    "index_toronto_100": 111.744
+   },
+   "avg_age": {
+    "value": 42.869,
+    "diff_vs_toronto": 1.391,
+    "rank_1_is_highest": 2,
+    "index_toronto_100": 103.354
+   },
+   "avg_household_size": {
+    "value": 2.155,
+    "diff_vs_toronto": -0.227,
+    "rank_1_is_highest": 3,
+    "index_toronto_100": 90.482
+   },
+   "income_median_approx": {
+    "value": 52755.801,
+    "diff_vs_toronto": 10874.867,
+    "rank_1_is_highest": 1,
+    "index_toronto_100": 125.966
+   },
+   "pct_renter": {
+    "value": 49.374,
+    "diff_vs_toronto": 1.312,
+    "rank_1_is_highest": 3,
+    "index_toronto_100": 102.729
+   },
+   "pct_shelter_burdened_30plus": {
+    "value": 32.468,
+    "diff_vs_toronto": -0.008,
+    "rank_1_is_highest": 3,
+    "index_toronto_100": 99.977
+   },
+   "pct_canadian_citizen": {
+    "value": 86.689,
+    "diff_vs_toronto": 3.973,
+    "rank_1_is_highest": 2,
+    "index_toronto_100": 104.803
+   },
+   "pct_visible_minority": {
+    "value": 34.995,
+    "diff_vs_toronto": -20.678,
+    "rank_1_is_highest": 5,
+    "index_toronto_100": 62.858
+   },
+   "pct_migrant_5yr": {
+    "value": 15.399,
+    "diff_vs_toronto": -1.392,
+    "rank_1_is_highest": 4,
+    "index_toronto_100": 91.709
+   },
+   "pct_bachelor_or_higher": {
+    "value": 53.325,
+    "diff_vs_toronto": 12.254,
+    "rank_1_is_highest": 1,
+    "index_toronto_100": 129.835
+   },
+   "pct_commute_car": {
+    "value": 57.351,
+    "diff_vs_toronto": -3.608,
+    "rank_1_is_highest": 3,
+    "index_toronto_100": 94.082
+   },
+   "pct_commute_transit": {
+    "value": 27.099,
+    "diff_vs_toronto": 0.863,
+    "rank_1_is_highest": 4,
+    "index_toronto_100": 103.289
+   },
+   "pct_commute_60plus_min": {
+    "value": 9.571,
+    "diff_vs_toronto": -2.891,
+    "rank_1_is_highest": 5,
+    "index_toronto_100": 76.799
+   }
+  },
+  "elections": {
+   "mayor_2023": {
+    "turnout": 45.0,
+    "chow": 32.7,
+    "bailao": 35.9,
+    "matlow": 9.9,
+    "saunders": 7.3,
+    "other": 9.2
+   },
+   "provincial_2025": {
+    "turnout": 47.9,
+    "pc": 29.9,
+    "ndp": 15.3,
+    "liberal": 50.8,
+    "green": 3.0,
+    "other": 1.0
+   },
+   "federal_2025": {
+    "turnout": 72.6,
+    "liberal": 61.9,
+    "conservative": 33.1,
+    "ndp": 3.6,
+    "green": 0.9,
+    "other": 0.5
+   }
+  },
+  "electoral_deviation": {
+   "vs_city": {
+    "overperforming": [
+     {
+      "variable": "prov_liberal",
+      "diff_pp": 12.3
+     },
+     {
+      "variable": "mun_matlow",
+      "diff_pp": 5.0
+     },
+     {
+      "variable": "mun_bailao",
+      "diff_pp": 3.7
+     }
+    ],
+    "underperforming": [
+     {
+      "variable": "prov_ndp",
+      "diff_pp": -8.3
+     },
+     {
+      "variable": "mun_chow",
+      "diff_pp": -4.7
+     },
+     {
+      "variable": "prov_pc",
+      "diff_pp": -3.8
+     }
+    ]
+   },
+   "vs_riding": {
+    "overperforming": [
+     {
+      "variable": "prov_liberal",
+      "diff_pp": 3.9
+     },
+     {
+      "variable": "fed_liberal",
+      "diff_pp": 1.9
+     },
+     {
+      "variable": "mun_matlow",
+      "diff_pp": 1.7
+     }
+    ],
+    "underperforming": [
+     {
+      "variable": "prov_pc",
+      "diff_pp": -2.9
+     },
+     {
+      "variable": "fed_conservative",
+      "diff_pp": -1.5
+     },
+     {
+      "variable": "prov_ndp",
+      "diff_pp": -1.1
+     }
+    ]
+   }
+  },
+  "geography": {
+   "top_wards": [
+    {
+     "name": "Ward 12",
+     "pct_of_cluster_tracts": 21.0
+    },
+    {
+     "name": "Ward 15",
+     "pct_of_cluster_tracts": 16.1
+    },
+    {
+     "name": "Ward 19",
+     "pct_of_cluster_tracts": 14.5
+    },
+    {
+     "name": "Ward 8",
+     "pct_of_cluster_tracts": 12.9
+    },
+    {
+     "name": "Ward 3",
+     "pct_of_cluster_tracts": 8.1
+    }
+   ],
+   "top_ridings_provincial": [
+    {
+     "name": "Toronto\u2014St. Paul's",
+     "pct_of_cluster_tracts": 21.0
+    },
+    {
+     "name": "Don Valley West",
+     "pct_of_cluster_tracts": 16.1
+    },
+    {
+     "name": "Beaches\u2014East York",
+     "pct_of_cluster_tracts": 14.5
+    },
+    {
+     "name": "Eglinton\u2014Lawrence",
+     "pct_of_cluster_tracts": 12.9
+    },
+    {
+     "name": "Etobicoke\u2014Lakeshore",
+     "pct_of_cluster_tracts": 8.1
+    }
+   ],
+   "top_ridings_federal": [
+    {
+     "name": "Toronto\u2014St. Paul's",
+     "pct_of_cluster_tracts": 25.8
+    },
+    {
+     "name": "Don Valley West",
+     "pct_of_cluster_tracts": 17.7
+    },
+    {
+     "name": "Beaches\u2014East York",
+     "pct_of_cluster_tracts": 14.5
+    },
+    {
+     "name": "Eglinton\u2014Lawrence",
+     "pct_of_cluster_tracts": 12.9
+    },
+    {
+     "name": "Etobicoke\u2014Lakeshore",
+     "pct_of_cluster_tracts": 6.5
+    }
+   ]
+  }
+ },
+ {
+  "cluster_id": 3,
+  "display_order": 4,
+  "slug": "working-suburbanites",
+  "label": "Working Suburbanites",
+  "short_label": "Working Suburbanites",
+  "color": "#3E6FA8",
+  "description": "Working Suburbanites: tracts leaning conservative, most distinguished by Ontario NDP (2025 provincial) (-10.9pp vs. city) with lower-than-average turnout.",
+  "political_signature": "Overperforms city average on Ontario PC (2025 provincial) (+9.0pp), Other mayoral candidates (+5.5pp); underperforms on Ontario NDP (2025 provincial) (-10.9pp), Bail\u00e3o (2023 mayoral) (-4.1pp). Turnout runs below the city average (-5.9pp avg. across the three elections).",
+  "demographic_signature": "Visible minority / racialized population above the city average (+23.1); Commute 60+ minutes above the city average (+3.1); Bachelor's degree or higher below the city average (-11.2).",
+  "n_tracts": 197,
+  "tract_share": 0.337,
+  "population": 954683.0,
+  "population_share": 0.342,
+  "demographics": {
+   "population_density": 3581.439,
+   "pct_age_65_over": 16.718,
+   "avg_age": 40.698,
+   "avg_household_size": 2.725,
+   "income_median_approx": 33331.318,
+   "pct_renter": 47.356,
+   "pct_shelter_burdened_30plus": 32.357,
+   "pct_canadian_citizen": 78.137,
+   "pct_visible_minority": 78.811,
+   "pct_migrant_5yr": 16.321,
+   "pct_bachelor_or_higher": 29.887,
+   "pct_commute_car": 66.682,
+   "pct_commute_transit": 27.329,
+   "pct_commute_60plus_min": 15.572
+  },
+  "demographics_vs_toronto": {
+   "population_density": {
+    "value": 3581.439,
+    "diff_vs_toronto": -614.592,
+    "rank_1_is_highest": 4,
+    "index_toronto_100": 85.353
+   },
+   "pct_age_65_over": {
+    "value": 16.718,
+    "diff_vs_toronto": -0.354,
+    "rank_1_is_highest": 3,
+    "index_toronto_100": 97.924
+   },
+   "avg_age": {
+    "value": 40.698,
+    "diff_vs_toronto": -0.78,
+    "rank_1_is_highest": 4,
+    "index_toronto_100": 98.119
+   },
+   "avg_household_size": {
+    "value": 2.725,
+    "diff_vs_toronto": 0.343,
+    "rank_1_is_highest": 1,
+    "index_toronto_100": 114.414
+   },
+   "income_median_approx": {
+    "value": 33331.318,
+    "diff_vs_toronto": -8549.616,
+    "rank_1_is_highest": 5,
+    "index_toronto_100": 79.586
+   },
+   "pct_renter": {
+    "value": 47.356,
+    "diff_vs_toronto": -0.707,
+    "rank_1_is_highest": 4,
+    "index_toronto_100": 98.53
+   },
+   "pct_shelter_burdened_30plus": {
+    "value": 32.357,
+    "diff_vs_toronto": -0.119,
+    "rank_1_is_highest": 4,
+    "index_toronto_100": 99.633
+   },
+   "pct_canadian_citizen": {
+    "value": 78.137,
+    "diff_vs_toronto": -4.58,
+    "rank_1_is_highest": 5,
+    "index_toronto_100": 94.463
+   },
+   "pct_visible_minority": {
+    "value": 78.811,
+    "diff_vs_toronto": 23.137,
+    "rank_1_is_highest": 1,
+    "index_toronto_100": 141.558
+   },
+   "pct_migrant_5yr": {
+    "value": 16.321,
+    "diff_vs_toronto": -0.47,
+    "rank_1_is_highest": 2,
+    "index_toronto_100": 97.199
+   },
+   "pct_bachelor_or_higher": {
+    "value": 29.887,
+    "diff_vs_toronto": -11.184,
+    "rank_1_is_highest": 5,
+    "index_toronto_100": 72.769
+   },
+   "pct_commute_car": {
+    "value": 66.682,
+    "diff_vs_toronto": 5.723,
+    "rank_1_is_highest": 2,
+    "index_toronto_100": 109.388
+   },
+   "pct_commute_transit": {
+    "value": 27.329,
+    "diff_vs_toronto": 1.093,
+    "rank_1_is_highest": 3,
+    "index_toronto_100": 104.165
+   },
+   "pct_commute_60plus_min": {
+    "value": 15.572,
+    "diff_vs_toronto": 3.11,
+    "rank_1_is_highest": 1,
+    "index_toronto_100": 124.957
+   }
+  },
+  "elections": {
+   "mayor_2023": {
+    "turnout": 29.8,
+    "chow": 36.3,
+    "bailao": 28.8,
+    "matlow": 2.5,
+    "saunders": 11.0,
+    "other": 16.7
+   },
+   "provincial_2025": {
+    "turnout": 37.2,
+    "pc": 42.8,
+    "ndp": 12.1,
+    "liberal": 40.6,
+    "green": 2.4,
+    "other": 2.1
+   },
+   "federal_2025": {
+    "turnout": 60.4,
+    "liberal": 58.3,
+    "conservative": 36.7,
+    "ndp": 3.7,
+    "green": 0.4,
+    "other": 0.8
+   }
+  },
+  "electoral_deviation": {
+   "vs_city": {
+    "overperforming": [
+     {
+      "variable": "prov_pc",
+      "diff_pp": 9.0
+     },
+     {
+      "variable": "mun_other",
+      "diff_pp": 5.5
+     },
+     {
+      "variable": "fed_conservative",
+      "diff_pp": 2.9
+     }
+    ],
+    "underperforming": [
+     {
+      "variable": "prov_ndp",
+      "diff_pp": -10.9
+     },
+     {
+      "variable": "mun_bailao",
+      "diff_pp": -4.1
+     },
+     {
+      "variable": "fed_ndp",
+      "diff_pp": -2.5
+     }
+    ]
+   },
+   "vs_riding": {
+    "overperforming": [
+     {
+      "variable": "mun_chow",
+      "diff_pp": 3.0
+     },
+     {
+      "variable": "mun_other",
+      "diff_pp": 1.9
+     },
+     {
+      "variable": "fed_liberal",
+      "diff_pp": 1.0
+     }
+    ],
+    "underperforming": [
+     {
+      "variable": "mun_bailao",
+      "diff_pp": -4.2
+     },
+     {
+      "variable": "fed_conservative",
+      "diff_pp": -1.8
+     },
+     {
+      "variable": "prov_pc",
+      "diff_pp": -1.1
+     }
+    ]
+   }
+  },
+  "geography": {
+   "top_wards": [
+    {
+     "name": "Ward 23",
+     "pct_of_cluster_tracts": 10.7
+    },
+    {
+     "name": "Ward 7",
+     "pct_of_cluster_tracts": 10.2
+    },
+    {
+     "name": "Ward 22",
+     "pct_of_cluster_tracts": 9.1
+    },
+    {
+     "name": "Ward 24",
+     "pct_of_cluster_tracts": 8.6
+    },
+    {
+     "name": "Ward 21",
+     "pct_of_cluster_tracts": 8.1
+    }
+   ],
+   "top_ridings_provincial": [
+    {
+     "name": "Scarborough North",
+     "pct_of_cluster_tracts": 10.7
+    },
+    {
+     "name": "Humber River\u2014Black Creek",
+     "pct_of_cluster_tracts": 10.2
+    },
+    {
+     "name": "Scarborough\u2014Agincourt",
+     "pct_of_cluster_tracts": 9.1
+    },
+    {
+     "name": "Scarborough\u2014Guildwood",
+     "pct_of_cluster_tracts": 8.6
+    },
+    {
+     "name": "Scarborough Centre",
+     "pct_of_cluster_tracts": 8.1
+    }
+   ],
+   "top_ridings_federal": [
+    {
+     "name": "Scarborough North",
+     "pct_of_cluster_tracts": 12.7
+    },
+    {
+     "name": "Humber River\u2014Black Creek",
+     "pct_of_cluster_tracts": 10.2
+    },
+    {
+     "name": "Scarborough\u2014Agincourt",
+     "pct_of_cluster_tracts": 9.6
+    },
+    {
+     "name": "Scarborough\u2014Woburn",
+     "pct_of_cluster_tracts": 9.6
+    },
+    {
+     "name": "Willowdale",
+     "pct_of_cluster_tracts": 7.1
+    }
+   ]
+  }
+ },
+ {
+  "cluster_id": 0,
+  "display_order": 5,
+  "slug": "settled-conservatives",
+  "label": "Settled Conservatives",
+  "short_label": "Settled Conservatives",
+  "color": "#472366",
+  "description": "Settled Conservatives: tracts leaning conservative, most distinguished by Ontario NDP (2025 provincial) (-16.5pp vs. city) with average turnout.",
+  "political_signature": "Overperforms city average on Ontario PC (2025 provincial) (+12.9pp), Conservative (2025 federal) (+10.5pp); underperforms on Ontario NDP (2025 provincial) (-16.5pp), Chow (2023 mayoral) (-12.2pp). Turnout runs near the city average (+0.5pp avg. across the three elections).",
+  "demographic_signature": "Commute by public transit below the city average (-5.3); Renter households below the city average (-11.8); Average age above the city average (+1.9).",
+  "n_tracts": 140,
+  "tract_share": 0.239,
+  "population": 671270.0,
+  "population_share": 0.24,
+  "demographics": {
+   "population_density": 2974.78,
+   "pct_age_65_over": 20.396,
+   "avg_age": 43.4,
+   "avg_household_size": 2.604,
+   "income_median_approx": 43514.667,
+   "pct_renter": 36.305,
+   "pct_shelter_burdened_30plus": 28.786,
+   "pct_canadian_citizen": 85.672,
+   "pct_visible_minority": 46.997,
+   "pct_migrant_5yr": 13.326,
+   "pct_bachelor_or_higher": 40.35,
+   "pct_commute_car": 71.41,
+   "pct_commute_transit": 20.933,
+   "pct_commute_60plus_min": 11.342
+  },
+  "demographics_vs_toronto": {
+   "population_density": {
+    "value": 2974.78,
+    "diff_vs_toronto": -1221.251,
+    "rank_1_is_highest": 5,
+    "index_toronto_100": 70.895
+   },
+   "pct_age_65_over": {
+    "value": 20.396,
+    "diff_vs_toronto": 3.324,
+    "rank_1_is_highest": 1,
+    "index_toronto_100": 119.471
+   },
+   "avg_age": {
+    "value": 43.4,
+    "diff_vs_toronto": 1.922,
+    "rank_1_is_highest": 1,
+    "index_toronto_100": 104.635
+   },
+   "avg_household_size": {
+    "value": 2.604,
+    "diff_vs_toronto": 0.223,
+    "rank_1_is_highest": 2,
+    "index_toronto_100": 109.343
+   },
+   "income_median_approx": {
+    "value": 43514.667,
+    "diff_vs_toronto": 1633.733,
+    "rank_1_is_highest": 3,
+    "index_toronto_100": 103.901
+   },
+   "pct_renter": {
+    "value": 36.305,
+    "diff_vs_toronto": -11.757,
+    "rank_1_is_highest": 5,
+    "index_toronto_100": 75.538
+   },
+   "pct_shelter_burdened_30plus": {
+    "value": 28.786,
+    "diff_vs_toronto": -3.69,
+    "rank_1_is_highest": 5,
+    "index_toronto_100": 88.639
+   },
+   "pct_canadian_citizen": {
+    "value": 85.672,
+    "diff_vs_toronto": 2.955,
+    "rank_1_is_highest": 3,
+    "index_toronto_100": 103.573
+   },
+   "pct_visible_minority": {
+    "value": 46.997,
+    "diff_vs_toronto": -8.677,
+    "rank_1_is_highest": 3,
+    "index_toronto_100": 84.415
+   },
+   "pct_migrant_5yr": {
+    "value": 13.326,
+    "diff_vs_toronto": -3.466,
+    "rank_1_is_highest": 5,
+    "index_toronto_100": 79.361
+   },
+   "pct_bachelor_or_higher": {
+    "value": 40.35,
+    "diff_vs_toronto": -0.722,
+    "rank_1_is_highest": 4,
+    "index_toronto_100": 98.243
+   },
+   "pct_commute_car": {
+    "value": 71.41,
+    "diff_vs_toronto": 10.451,
+    "rank_1_is_highest": 1,
+    "index_toronto_100": 117.144
+   },
+   "pct_commute_transit": {
+    "value": 20.933,
+    "diff_vs_toronto": -5.303,
+    "rank_1_is_highest": 5,
+    "index_toronto_100": 79.787
+   },
+   "pct_commute_60plus_min": {
+    "value": 11.342,
+    "diff_vs_toronto": -1.121,
+    "rank_1_is_highest": 2,
+    "index_toronto_100": 91.007
+   }
+  },
+  "elections": {
+   "mayor_2023": {
+    "turnout": 38.4,
+    "chow": 24.8,
+    "bailao": 42.8,
+    "matlow": 3.9,
+    "saunders": 11.4,
+    "other": 10.4
+   },
+   "provincial_2025": {
+    "turnout": 43.0,
+    "pc": 47.3,
+    "ndp": 6.6,
+    "liberal": 41.4,
+    "green": 2.4,
+    "other": 2.4
+   },
+   "federal_2025": {
+    "turnout": 64.7,
+    "liberal": 52.1,
+    "conservative": 44.5,
+    "ndp": 2.5,
+    "green": 0.3,
+    "other": 0.6
+   }
+  },
+  "electoral_deviation": {
+   "vs_city": {
+    "overperforming": [
+     {
+      "variable": "prov_pc",
+      "diff_pp": 12.9
+     },
+     {
+      "variable": "fed_conservative",
+      "diff_pp": 10.5
+     },
+     {
+      "variable": "mun_bailao",
+      "diff_pp": 9.9
+     }
+    ],
+    "underperforming": [
+     {
+      "variable": "prov_ndp",
+      "diff_pp": -16.5
+     },
+     {
+      "variable": "mun_chow",
+      "diff_pp": -12.2
+     },
+     {
+      "variable": "fed_liberal",
+      "diff_pp": -6.1
+     }
+    ]
+   },
+   "vs_riding": {
+    "overperforming": [
+     {
+      "variable": "mun_bailao",
+      "diff_pp": 4.0
+     },
+     {
+      "variable": "prov_pc",
+      "diff_pp": 3.3
+     },
+     {
+      "variable": "fed_conservative",
+      "diff_pp": 2.7
+     }
+    ],
+    "underperforming": [
+     {
+      "variable": "mun_chow",
+      "diff_pp": -3.7
+     },
+     {
+      "variable": "fed_liberal",
+      "diff_pp": -2.3
+     },
+     {
+      "variable": "prov_liberal",
+      "diff_pp": -2.2
+     }
+    ]
+   }
+  },
+  "geography": {
+   "top_wards": [
+    {
+     "name": "Ward 2",
+     "pct_of_cluster_tracts": 17.1
+    },
+    {
+     "name": "Ward 3",
+     "pct_of_cluster_tracts": 12.1
+    },
+    {
+     "name": "Ward 6",
+     "pct_of_cluster_tracts": 9.3
+    },
+    {
+     "name": "Ward 15",
+     "pct_of_cluster_tracts": 7.1
+    },
+    {
+     "name": "Ward 8",
+     "pct_of_cluster_tracts": 7.1
+    }
+   ],
+   "top_ridings_provincial": [
+    {
+     "name": "Etobicoke Centre",
+     "pct_of_cluster_tracts": 17.1
+    },
+    {
+     "name": "Etobicoke\u2014Lakeshore",
+     "pct_of_cluster_tracts": 12.1
+    },
+    {
+     "name": "York Centre",
+     "pct_of_cluster_tracts": 9.3
+    },
+    {
+     "name": "Don Valley West",
+     "pct_of_cluster_tracts": 7.1
+    },
+    {
+     "name": "Eglinton\u2014Lawrence",
+     "pct_of_cluster_tracts": 7.1
+    }
+   ],
+   "top_ridings_federal": [
+    {
+     "name": "Etobicoke Centre",
+     "pct_of_cluster_tracts": 15.0
+    },
+    {
+     "name": "Etobicoke\u2014Lakeshore",
+     "pct_of_cluster_tracts": 11.4
+    },
+    {
+     "name": "York Centre",
+     "pct_of_cluster_tracts": 9.3
+    },
+    {
+     "name": "Don Valley North",
+     "pct_of_cluster_tracts": 7.9
+    },
+    {
+     "name": "Scarborough Centre\u2014Don Valley East",
+     "pct_of_cluster_tracts": 7.9
+    }
+   ]
+  }
+ }
+]
