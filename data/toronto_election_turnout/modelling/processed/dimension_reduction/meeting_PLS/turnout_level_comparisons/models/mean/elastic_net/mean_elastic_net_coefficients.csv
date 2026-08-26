@@ -1,0 +1,15 @@
+variable,scaled_coefficient,coefficient,selected
+block3_visible_minority_share,-0.26348490409498987,-0.09552590621767311,True
+block1_age_18_34_share,-0.26242224907714135,-0.265534352905803,True
+block1_average_household_size,-0.2295014656674493,-0.04142404649130539,True
+block2_renter_share,-0.2193638779624657,-0.08857805150437416,True
+block2_apartment_share,0.21477740770264972,0.06752031561163267,True
+block1_bachelors_or_higher_25_64_share,0.19862595035820999,0.09868937002764411,True
+block3_immigrant_share,-0.13695971552483135,-0.08397553657366098,True
+block2_population_density_per_km2,0.07554355278392645,7.150040283325717e-07,True
+block1_age_65_plus_share,0.053541907304862586,0.05834288887347831,True
+block5_tts_no_car_household_share,0.03985931508895292,0.020515401643976108,True
+block1_low_income_lim_at_share,0.0,0.0,False
+block2_same_address_5yr_share,0.0,0.0,False
+block2_condo_share,0.0,0.0,False
+block3_citizen_adult_share,0.0,0.0,False

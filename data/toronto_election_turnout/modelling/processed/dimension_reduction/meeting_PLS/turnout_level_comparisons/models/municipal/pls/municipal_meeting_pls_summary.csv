@@ -1,0 +1,2 @@
+model,n,num_predictors,selected_components,train_r2,train_adjusted_r2,train_rmse,cv_r2,cv_rmse
+municipal_meeting_pls,585,14,3,0.6554812953980409,0.6537023692124886,0.06083920300864589,0.6293255814670974,0.06310640217495979

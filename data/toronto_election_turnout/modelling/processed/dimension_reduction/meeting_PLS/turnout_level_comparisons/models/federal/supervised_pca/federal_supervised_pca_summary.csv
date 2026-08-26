@@ -1,0 +1,2 @@
+model,n,screen,screened_predictor_count,n_components,train_r2,cv_r2,cv_rmse,variables
+supervised_pca,585,top_8_corr,8,5,0.33332723711053236,0.3166134258078165,0.08212102422544137,block1_average_household_size; block1_bachelors_or_higher_25_64_share; block3_visible_minority_share; block3_immigrant_share; block2_condo_share; block2_same_address_5yr_share; block2_apartment_share; block5_tts_no_car_household_share

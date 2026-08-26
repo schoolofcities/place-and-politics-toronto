@@ -1,0 +1,15 @@
+domain,domain_label,variable,variable_label
+age_structure,Age structure,block1_age_18_34_share,age 18 to 34 share
+age_structure,Age structure,block1_age_65_plus_share,age 65 plus share
+education_income_household,"Education, income, and household",block1_average_household_size,average household size
+education_income_household,"Education, income, and household",block1_bachelors_or_higher_25_64_share,bachelor or higher education share
+education_income_household,"Education, income, and household",block1_low_income_lim_at_share,low income share
+tenure,Tenure,block2_renter_share,renter share
+residential_stability,Residential stability,block2_same_address_5yr_share,same address five year share
+urban_form,Urban form,block2_apartment_share,apartment share
+urban_form,Urban form,block2_condo_share,condo share
+urban_form,Urban form,block2_population_density_per_km2,population density
+immigration_citizenship,Immigration and citizenship,block3_citizen_adult_share,citizen adult share
+immigration_citizenship,Immigration and citizenship,block3_immigrant_share,immigrant share
+immigration_citizenship,Immigration and citizenship,block3_visible_minority_share,visible minority share
+transportation,Transportation,block5_tts_no_car_household_share,TTS no car household share

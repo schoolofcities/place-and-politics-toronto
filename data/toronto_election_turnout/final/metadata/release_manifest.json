@@ -1,0 +1,209 @@
+{
+  "release_name": "toronto_ct_turnout_final",
+  "canonical_ct_count": 585,
+  "ct_key": "ct_id",
+  "geometry_crs": "EPSG:4326",
+  "build_script": "analysis/toronto_election_turnout/final/build_final_datasets.py",
+  "files": [
+    {
+      "path": "README.md",
+      "sha256": "1c6dd91103ec8c044b32d5cad48746019ba0897ef4ac998348fcb73ed45d8129",
+      "bytes": 4325
+    },
+    {
+      "path": "geography/README.md",
+      "sha256": "54c6a636f12af14a8dce9217aa5c21cd7491f60c4b0c71c80d08db3ee64cb668",
+      "bytes": 1423
+    },
+    {
+      "path": "geography/toronto_ct_2021_geography.csv",
+      "sha256": "509d34962f80fea7809e4d1f980958db6c2662ca0314eee75464a32964827093",
+      "bytes": 42472
+    },
+    {
+      "path": "geography/toronto_ct_2021_geography.geojson",
+      "sha256": "8f442c4e01a77fa8aba7147cd6ce4b36138b345abaae3047e6795d06f723a4de",
+      "bytes": 1765981
+    },
+    {
+      "path": "meeting_pls/README.md",
+      "sha256": "dc74b3f7f98c617a86edb233cc6dc212ae3894bbd24e7ed786e9189399f6af6f",
+      "bytes": 2426
+    },
+    {
+      "path": "meeting_pls/toronto_ct_meeting_pls.csv",
+      "sha256": "12ae1d0a2a5fbe774dcc7f26266b9ed48313bd731c6530a1564e6b8c09db1ffa",
+      "bytes": 464557
+    },
+    {
+      "path": "meeting_pls/toronto_ct_meeting_pls.geojson",
+      "sha256": "7dd0fe4c9b5da98b2907db7393dd09a8eec7cae90b1d46a7c167312c444b757c",
+      "bytes": 3623030
+    },
+    {
+      "path": "meeting_pls/toronto_ct_meeting_pls.xlsx",
+      "sha256": "238313a18781a413d589d26e5c76757b0a62b385ce7d20b1cb439a78ae6a0af8",
+      "bytes": 326651
+    },
+    {
+      "path": "metadata/README.md",
+      "sha256": "0d8da3a2907c4062020d6fc650f9745979e492dee71e70ecba44b29b1bbdb42a",
+      "bytes": 2033
+    },
+    {
+      "path": "metadata/dataset_catalog.csv",
+      "sha256": "85851051f956b09b4c568032065930d7e385f2205358fdad8b0edeb0721d6931",
+      "bytes": 1858
+    },
+    {
+      "path": "metadata/qa_summary.csv",
+      "sha256": "2968598b8b825f726e963562abb577a7a3671bc341423129ed5c8ecc9a6c339f",
+      "bytes": 482
+    },
+    {
+      "path": "metadata/source_manifest.csv",
+      "sha256": "95fea49f0ad51ac9cdb49c9d714a10d11402866b4abcb8e0699ee394dc1bf38f",
+      "bytes": 12003
+    },
+    {
+      "path": "metadata/variable_dictionary.csv",
+      "sha256": "800e04c65e120c55541e555a70f0d37dc17d4686a8e999f943f3f68eeea6d344",
+      "bytes": 84860
+    },
+    {
+      "path": "model_definitions/README.md",
+      "sha256": "0d4291240f86f6d36dc4e510b2b0feb96c915024d1221eef5a2b4d5708561ddd",
+      "bytes": 2542
+    },
+    {
+      "path": "model_definitions/toronto_turnout_component_dictionary.csv",
+      "sha256": "4b300f711e06087c495e1c9ff99b8bc3e78104051b98e667c70dc8cb6c3c83ca",
+      "bytes": 17331
+    },
+    {
+      "path": "model_definitions/toronto_turnout_component_loadings.csv",
+      "sha256": "8e318df55b6d3cae4d28521fa291cd799119aba4989f86e9fcf517b481f2ad9f",
+      "bytes": 113807
+    },
+    {
+      "path": "model_definitions/toronto_turnout_model_coefficients.csv",
+      "sha256": "418eed4aa3fcfc93dc7ce022ff17141f8ae1fef0af880ea06939f3da59df537c",
+      "bytes": 18463
+    },
+    {
+      "path": "model_definitions/toronto_turnout_model_predictors.csv",
+      "sha256": "8f617977a808ee8944fa667cb4a6c2a4c98bbc41f29c01d697ecfab2a3d74e6b",
+      "bytes": 10202
+    },
+    {
+      "path": "model_definitions/toronto_turnout_model_summary.csv",
+      "sha256": "668e96126c3e113960ff6c0c137c2fee4ca68fcd5c8966f340089144931ea0bc",
+      "bytes": 3469
+    },
+    {
+      "path": "model_definitions/toronto_turnout_variable_importance.csv",
+      "sha256": "2833bbd02cf5a255a2f7faf246d5909759b7fdfb7f0b5bd72b1dc1f4539cefd9",
+      "bytes": 22485
+    },
+    {
+      "path": "modelled/README.md",
+      "sha256": "d0ee79ad4e8f716b1b105f14fef591fd14591ccddc85121f694e706bc4535e82",
+      "bytes": 2533
+    },
+    {
+      "path": "modelled/toronto_ct_latent_scores.csv",
+      "sha256": "52cee4d80bd8af302c1201620a10e77ba9f900ea7ab738c862ca5c43eabefb0c",
+      "bytes": 547584
+    },
+    {
+      "path": "modelled/toronto_ct_latent_scores.geojson",
+      "sha256": "74fa0b8d8f960ecde530bf4c79a8657cab12ef9946a121d6cb932757944fb6e5",
+      "bytes": 4313357
+    },
+    {
+      "path": "modelled/toronto_ct_turnout_model_results.csv",
+      "sha256": "44e9b2cf2bcdccaf91c35aba0f71934759c52867c8503c6dd59eb63a78c485c5",
+      "bytes": 553582
+    },
+    {
+      "path": "modelled/toronto_ct_turnout_model_results.geojson",
+      "sha256": "2f40e1f6742b2fd59dfe5960ec4daa5d23fa881cf0af5e3fd6e9001ab2254a4e",
+      "bytes": 4711779
+    },
+    {
+      "path": "observed/README.md",
+      "sha256": "b2900ba9b85c2d6693e9cd5d483f503681c344f7715163c940e13add7f8e3757",
+      "bytes": 3508
+    },
+    {
+      "path": "observed/toronto_ct_2021_observed_variables.csv",
+      "sha256": "da87a53556947fa0748231d1a688b3209ebb6e3afea437f4d5c9f7ce0b15ffa3",
+      "bytes": 702566
+    },
+    {
+      "path": "observed/toronto_ct_2021_observed_variables.geojson",
+      "sha256": "07fc4e592008580a81bde2e7216d5d3f5a41736c9f91c0d3b3cb8fa85c9d38b8",
+      "bytes": 4082332
+    },
+    {
+      "path": "observed/toronto_ct_candidate_results.csv",
+      "sha256": "b57b62b8c0c98ec7fdc0da362bba232e61f080ab32a7e4c9b3a4cfec0bf8f504",
+      "bytes": 9161023
+    },
+    {
+      "path": "observed/toronto_ct_election_results.csv",
+      "sha256": "8003e254f6f2ccab020310d59f59444f60d16b94c8cc986104226badc0053136",
+      "bytes": 622099
+    },
+    {
+      "path": "observed/toronto_ct_election_results.geojson",
+      "sha256": "f5ad1cce94689093719071b249739b88a0ab4a38291f154fc711e478bb0b1dd6",
+      "bytes": 4876155
+    },
+    {
+      "path": "robustness_checks/README.md",
+      "sha256": "9679dbf4411226496e711492a77e6ad3c4a054c5035bfcff9d481710db0b0277",
+      "bytes": 3376
+    },
+    {
+      "path": "robustness_checks/elastic_net_coefficients.csv",
+      "sha256": "e7067993c9203a7f942ea9bdcf0bea7c65448cc7bf1c1c5b377f9f98a8323379",
+      "bytes": 16614
+    },
+    {
+      "path": "robustness_checks/elastic_net_model_summary.csv",
+      "sha256": "80d1340d6f006a8156a8b7d9ad61a5d8354649c46c81257aa677b244fbc29e7b",
+      "bytes": 1215
+    },
+    {
+      "path": "robustness_checks/robustness_validation_summary.csv",
+      "sha256": "6272e19f199c0458c901e0861c6004c9af68fd7acafde00c76a2a764634d6213",
+      "bytes": 4333
+    },
+    {
+      "path": "robustness_checks/supervised_pca_loadings.csv",
+      "sha256": "c8231749885026a040819718cc95c7831129448fa1fec6e3ed934537545a5a0a",
+      "bytes": 92627
+    },
+    {
+      "path": "robustness_checks/supervised_pca_model_summary.csv",
+      "sha256": "0e33ac71a32a2d2d1c6bc627098038bc216dc0f47c427d5d256d66a1b56b6daa",
+      "bytes": 1337
+    },
+    {
+      "path": "robustness_checks/toronto_ct_meeting_robustness_spatial_cv.csv",
+      "sha256": "ea9f8abeab34e87a44d5cc4a70b3002a75b0e3763008432d5054290a70d05260",
+      "bytes": 202312
+    },
+    {
+      "path": "robustness_checks/toronto_ct_meeting_robustness_spatial_cv.geojson",
+      "sha256": "1c6473898014589fd4f6b019e5c9140d094c9202dfa5f087379b856eff428f32",
+      "bytes": 2545779
+    },
+    {
+      "path": "robustness_checks/toronto_ct_meeting_robustness_spatial_cv.xlsx",
+      "sha256": "bc89717192298fb853e4f8ee9d11b2c6bee29aede416eb863f6bfbcc7a92f082",
+      "bytes": 162942
+    }
+  ]
+}

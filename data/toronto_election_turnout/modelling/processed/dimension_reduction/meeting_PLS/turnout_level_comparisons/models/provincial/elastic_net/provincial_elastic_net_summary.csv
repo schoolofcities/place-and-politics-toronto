@@ -1,0 +1,2 @@
+model,n,alpha,l1_ratio,mean_selected_variables,cv_r2,cv_rmse
+elastic_net,585,0.03,0.0,14.0,0.3750448795711634,0.07293409923043709

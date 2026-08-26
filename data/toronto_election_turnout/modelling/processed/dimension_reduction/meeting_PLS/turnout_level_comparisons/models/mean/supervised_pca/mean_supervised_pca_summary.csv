@@ -1,0 +1,2 @@
+model,n,screen,screened_predictor_count,n_components,train_r2,cv_r2,cv_rmse,variables
+supervised_pca,585,top_12_corr,12,6,0.5547725047484141,0.5214012057269091,0.06013581824143003,block3_visible_minority_share; block3_immigrant_share; block1_bachelors_or_higher_25_64_share; block1_average_household_size; block3_citizen_adult_share; block1_low_income_lim_at_share; block1_age_65_plus_share; block5_tts_no_car_household_share; block1_age_18_34_share; block2_same_address_5yr_share; block2_population_density_per_km2; block2_apartment_share

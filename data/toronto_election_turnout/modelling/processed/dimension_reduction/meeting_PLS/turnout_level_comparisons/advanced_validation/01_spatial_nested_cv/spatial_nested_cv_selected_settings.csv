@@ -1,0 +1,61 @@
+outcome,method,outer_block,setting
+mean,pls,1,components=3
+mean,pls,2,components=1
+mean,pls,3,components=1
+mean,pls,4,components=1
+mean,pls,5,components=4
+mean,supervised_pca,1,threshold=0.0; components=4; predictors=14
+mean,supervised_pca,2,threshold=0.2; components=3; predictors=7
+mean,supervised_pca,3,threshold=0.1; components=3; predictors=10
+mean,supervised_pca,4,threshold=0.0; components=4; predictors=14
+mean,supervised_pca,5,threshold=0.2; components=2; predictors=6
+mean,elastic_net,1,alpha=0.2; l1_ratio=0.0; selected=14
+mean,elastic_net,2,alpha=0.2; l1_ratio=0.0; selected=14
+mean,elastic_net,3,alpha=0.03; l1_ratio=1.0; selected=7
+mean,elastic_net,4,alpha=0.2; l1_ratio=0.0; selected=14
+mean,elastic_net,5,alpha=0.1; l1_ratio=0.0; selected=14
+municipal,pls,1,components=2
+municipal,pls,2,components=4
+municipal,pls,3,components=1
+municipal,pls,4,components=2
+municipal,pls,5,components=4
+municipal,supervised_pca,1,threshold=0.0; components=4; predictors=14
+municipal,supervised_pca,2,threshold=0.1; components=2; predictors=10
+municipal,supervised_pca,3,threshold=0.1; components=3; predictors=9
+municipal,supervised_pca,4,threshold=0.0; components=4; predictors=14
+municipal,supervised_pca,5,threshold=0.2; components=4; predictors=8
+municipal,elastic_net,1,alpha=0.2; l1_ratio=0.0; selected=14
+municipal,elastic_net,2,alpha=0.03; l1_ratio=1.0; selected=7
+municipal,elastic_net,3,alpha=0.001; l1_ratio=0.0; selected=14
+municipal,elastic_net,4,alpha=0.2; l1_ratio=0.2; selected=9
+municipal,elastic_net,5,alpha=0.1; l1_ratio=0.0; selected=14
+provincial,pls,1,components=2
+provincial,pls,2,components=2
+provincial,pls,3,components=1
+provincial,pls,4,components=2
+provincial,pls,5,components=4
+provincial,supervised_pca,1,threshold=0.3; components=1; predictors=4
+provincial,supervised_pca,2,threshold=0.0; components=4; predictors=14
+provincial,supervised_pca,3,threshold=0.1; components=3; predictors=9
+provincial,supervised_pca,4,threshold=0.0; components=5; predictors=14
+provincial,supervised_pca,5,threshold=0.0; components=5; predictors=14
+provincial,elastic_net,1,alpha=0.2; l1_ratio=0.0; selected=14
+provincial,elastic_net,2,alpha=0.2; l1_ratio=0.0; selected=14
+provincial,elastic_net,3,alpha=0.2; l1_ratio=0.2; selected=8
+provincial,elastic_net,4,alpha=0.2; l1_ratio=0.0; selected=14
+provincial,elastic_net,5,alpha=0.1; l1_ratio=0.0; selected=14
+federal,pls,1,components=3
+federal,pls,2,components=3
+federal,pls,3,components=2
+federal,pls,4,components=2
+federal,pls,5,components=2
+federal,supervised_pca,1,threshold=0.0; components=4; predictors=14
+federal,supervised_pca,2,threshold=0.1; components=3; predictors=11
+federal,supervised_pca,3,threshold=0.3; components=4; predictors=4
+federal,supervised_pca,4,threshold=0.0; components=4; predictors=14
+federal,supervised_pca,5,threshold=0.2; components=4; predictors=4
+federal,elastic_net,1,alpha=0.2; l1_ratio=0.0; selected=14
+federal,elastic_net,2,alpha=0.2; l1_ratio=0.0; selected=14
+federal,elastic_net,3,alpha=0.03; l1_ratio=0.8; selected=8
+federal,elastic_net,4,alpha=0.2; l1_ratio=0.2; selected=6
+federal,elastic_net,5,alpha=0.1; l1_ratio=0.2; selected=8

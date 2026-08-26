@@ -1,0 +1,2 @@
+model,n,num_predictors,selected_components,train_r2,train_adjusted_r2,train_rmse,cv_r2,cv_rmse
+federal_meeting_pls,585,14,3,0.3494630488098245,0.34610399398440195,0.0801229850825218,0.31671857273019743,0.08211470634808496

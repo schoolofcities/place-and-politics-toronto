@@ -1,0 +1,4 @@
+level_component,matched_mean_component,loading_cosine,absolute_loading_cosine,sign_flipped_for_comparison
+component_1,component_1,0.9825334565405104,0.9825334565405104,False
+component_2,component_2,0.6747667062141162,0.6747667062141162,False
+component_3,component_1,-0.15996871503383409,0.15996871503383409,True

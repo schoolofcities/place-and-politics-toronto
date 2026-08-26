@@ -19,6 +19,13 @@ This separation is intentional. Election files describe votes, electors, polling
 divisions, wards, and ridings. Census files describe DAs, CTs, CSD geography,
 and population-like denominators used for later poll-to-CT interpolation.
 
+## Final Release
+
+The public, analysis-ready release is under `final/`. It contains focused
+one-row-per-CT observed-variable, election, latent-score, model-result, and
+meeting-PLS datasets; a long candidate-result table; canonical geometry; model
+definitions; and release QA. New users should begin with `final/README.md`.
+
 ## Folder Map
 
 ```text

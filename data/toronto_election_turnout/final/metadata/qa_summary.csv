@@ -1,0 +1,9 @@
+dataset,rows,columns,duplicate_primary_keys,missing_ct_id,unique_ct_count,status
+toronto_ct_2021_geography,585,9,0,0,585,pass
+toronto_ct_2021_observed_variables,585,90,0,0,585,pass
+toronto_ct_election_results,585,94,0,0,585,pass
+toronto_ct_candidate_results,62201,10,0,0,585,pass
+toronto_ct_latent_scores,585,72,0,0,585,pass
+toronto_ct_turnout_model_results,585,87,0,0,585,pass
+toronto_ct_meeting_pls,585,65,0,0,585,pass
+toronto_ct_meeting_robustness_spatial_cv,585,27,0,0,585,pass

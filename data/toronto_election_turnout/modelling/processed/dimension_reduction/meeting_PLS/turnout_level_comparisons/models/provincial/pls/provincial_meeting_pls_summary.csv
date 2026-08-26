@@ -1,0 +1,2 @@
+model,n,num_predictors,selected_components,train_r2,train_adjusted_r2,train_rmse,cv_r2,cv_rmse
+provincial_meeting_pls,585,14,3,0.40986559889376595,0.40681843331146184,0.0708731399743385,0.3706001649833399,0.07319299535266362

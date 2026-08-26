@@ -13,6 +13,8 @@
     "fetch:accessibility-provincial-label-geocodes": "python3 accessibility/scripts/fetch_provincial_return_label_geocodes.py",
     "analyze:accessibility": "python3 accessibility/scripts/analyze_turnout_distance.py",
     "build:modelling": "python3 modelling/scripts/build_ct_modelling_master.py",
+    "build:final": "python3 final/build_final_datasets.py",
+    "build:final:collect-robustness": "python3 final/build_final_datasets.py --collect-robustness-only",
     "model:blockwise": "python3 modelling/scripts/run_block_models.py",
     "report:blockwise": "python3 modelling/scripts/write_block_model_report.py",
     "start": "node elections/viewer/server.js",

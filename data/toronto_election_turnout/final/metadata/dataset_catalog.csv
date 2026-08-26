@@ -1,0 +1,9 @@
+dataset,grain,primary_key,purpose,csv,geojson
+toronto_ct_2021_geography,one row/feature per 2021 Toronto analytical census tract,ct_id,Canonical 585-CT identifiers and geometry,geography/toronto_ct_2021_geography.csv,geography/toronto_ct_2021_geography.geojson
+toronto_ct_2021_observed_variables,one row per CT,ct_id,Cleaned source-derived and engineered Blocks 1-5 variables and outcomes,observed/toronto_ct_2021_observed_variables.csv,observed/toronto_ct_2021_observed_variables.geojson
+toronto_ct_election_results,one row per CT with election-prefixed columns,ct_id,"Full CT-estimated municipal, provincial, and federal election results",observed/toronto_ct_election_results.csv,observed/toronto_ct_election_results.geojson
+toronto_ct_candidate_results,"one row per CT, election, and candidate",election_id + ct_id + candidate_id,"Candidate-level CT-estimated votes, shares, ranks, and winner flags",observed/toronto_ct_candidate_results.csv,
+toronto_ct_latent_scores,one row per CT,ct_id,Fitted PLS X-scores and percentiles for retained latent models,modelled/toronto_ct_latent_scores.csv,modelled/toronto_ct_latent_scores.geojson
+toronto_ct_turnout_model_results,one row per CT,ct_id,"Model fitted values, CV predictions, residuals, and inclusion flags",modelled/toronto_ct_turnout_model_results.csv,modelled/toronto_ct_turnout_model_results.geojson
+toronto_ct_meeting_pls,one row per CT,ct_id,"Self-contained Aniket handoff: meeting variables, outcomes, latent scores, predictions, and residuals",meeting_pls/toronto_ct_meeting_pls.csv,meeting_pls/toronto_ct_meeting_pls.geojson
+toronto_ct_meeting_robustness_spatial_cv,one row per CT,ct_id,Saved supervised-PCA and elastic-net spatial nested-CV predictions and residuals,robustness_checks/toronto_ct_meeting_robustness_spatial_cv.csv,robustness_checks/toronto_ct_meeting_robustness_spatial_cv.geojson
