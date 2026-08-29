@@ -1,0 +1,561 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="730.178945pt" height="501.39635pt" viewBox="0 0 730.178945 501.39635" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.10.0, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 501.39635 
+L 730.178945 501.39635 
+L 730.178945 0 
+L 0 0 
+z
+" style="fill: #fffefd"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 192.14 409.952687 
+L 716.3 409.952687 
+L 716.3 114.464687 
+L 192.14 114.464687 
+z
+" style="fill: #fffefd"/>
+   </g>
+   <g id="line2d_1">
+    <path d="M 454.22 409.952687 
+L 454.22 114.464687 
+" clip-path="url(#pa85fda643e)" style="fill: none; stroke: #191919; stroke-linecap: square"/>
+   </g>
+   <g id="matplotlib.axis_1">
+    <g id="xtick_1">
+     <g id="line2d_2">
+      <path d="M 192.14 409.952687 
+L 192.14 114.464687 
+" clip-path="url(#pa85fda643e)" style="fill: none; stroke: #d0d1c9; stroke-opacity: 0.7; stroke-width: 0.7; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_3">
+      <defs>
+       <path id="me908a0bb5c" d="M 0 0 
+L 0 3.5 
+" style="stroke: #727272; stroke-width: 0.8"/>
+      </defs>
+      <g>
+       <use xlink:href="#me908a0bb5c" x="192.14" y="409.952687" style="fill: #727272; stroke: #727272; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_1">
+      <text style="font-size: 9.5px; font-family: 'Open Sans'; text-anchor: middle; fill: #727272" x="192.14" y="424.171203" transform="rotate(-0 192.14 424.171203)">-0.8</text>
+     </g>
+    </g>
+    <g id="xtick_2">
+     <g id="line2d_4">
+      <path d="M 257.66 409.952687 
+L 257.66 114.464687 
+" clip-path="url(#pa85fda643e)" style="fill: none; stroke: #d0d1c9; stroke-opacity: 0.7; stroke-width: 0.7; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_5">
+      <g>
+       <use xlink:href="#me908a0bb5c" x="257.66" y="409.952687" style="fill: #727272; stroke: #727272; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_2">
+      <text style="font-size: 9.5px; font-family: 'Open Sans'; text-anchor: middle; fill: #727272" x="257.66" y="424.171203" transform="rotate(-0 257.66 424.171203)">-0.6</text>
+     </g>
+    </g>
+    <g id="xtick_3">
+     <g id="line2d_6">
+      <path d="M 323.18 409.952687 
+L 323.18 114.464687 
+" clip-path="url(#pa85fda643e)" style="fill: none; stroke: #d0d1c9; stroke-opacity: 0.7; stroke-width: 0.7; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_7">
+      <g>
+       <use xlink:href="#me908a0bb5c" x="323.18" y="409.952687" style="fill: #727272; stroke: #727272; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_3">
+      <text style="font-size: 9.5px; font-family: 'Open Sans'; text-anchor: middle; fill: #727272" x="323.18" y="424.171203" transform="rotate(-0 323.18 424.171203)">-0.4</text>
+     </g>
+    </g>
+    <g id="xtick_4">
+     <g id="line2d_8">
+      <path d="M 388.7 409.952687 
+L 388.7 114.464687 
+" clip-path="url(#pa85fda643e)" style="fill: none; stroke: #d0d1c9; stroke-opacity: 0.7; stroke-width: 0.7; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_9">
+      <g>
+       <use xlink:href="#me908a0bb5c" x="388.7" y="409.952687" style="fill: #727272; stroke: #727272; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_4">
+      <text style="font-size: 9.5px; font-family: 'Open Sans'; text-anchor: middle; fill: #727272" x="388.7" y="424.171203" transform="rotate(-0 388.7 424.171203)">-0.2</text>
+     </g>
+    </g>
+    <g id="xtick_5">
+     <g id="line2d_10">
+      <path d="M 454.22 409.952687 
+L 454.22 114.464687 
+" clip-path="url(#pa85fda643e)" style="fill: none; stroke: #d0d1c9; stroke-opacity: 0.7; stroke-width: 0.7; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_11">
+      <g>
+       <use xlink:href="#me908a0bb5c" x="454.22" y="409.952687" style="fill: #727272; stroke: #727272; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_5">
+      <text style="font-size: 9.5px; font-family: 'Open Sans'; text-anchor: middle; fill: #727272" x="454.22" y="424.171203" transform="rotate(-0 454.22 424.171203)">-0.0</text>
+     </g>
+    </g>
+    <g id="xtick_6">
+     <g id="line2d_12">
+      <path d="M 519.74 409.952687 
+L 519.74 114.464687 
+" clip-path="url(#pa85fda643e)" style="fill: none; stroke: #d0d1c9; stroke-opacity: 0.7; stroke-width: 0.7; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_13">
+      <g>
+       <use xlink:href="#me908a0bb5c" x="519.74" y="409.952687" style="fill: #727272; stroke: #727272; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_6">
+      <text style="font-size: 9.5px; font-family: 'Open Sans'; text-anchor: middle; fill: #727272" x="519.74" y="424.171203" transform="rotate(-0 519.74 424.171203)">0.2</text>
+     </g>
+    </g>
+    <g id="xtick_7">
+     <g id="line2d_14">
+      <path d="M 585.26 409.952687 
+L 585.26 114.464687 
+" clip-path="url(#pa85fda643e)" style="fill: none; stroke: #d0d1c9; stroke-opacity: 0.7; stroke-width: 0.7; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_15">
+      <g>
+       <use xlink:href="#me908a0bb5c" x="585.26" y="409.952687" style="fill: #727272; stroke: #727272; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_7">
+      <text style="font-size: 9.5px; font-family: 'Open Sans'; text-anchor: middle; fill: #727272" x="585.26" y="424.171203" transform="rotate(-0 585.26 424.171203)">0.4</text>
+     </g>
+    </g>
+    <g id="xtick_8">
+     <g id="line2d_16">
+      <path d="M 650.78 409.952687 
+L 650.78 114.464687 
+" clip-path="url(#pa85fda643e)" style="fill: none; stroke: #d0d1c9; stroke-opacity: 0.7; stroke-width: 0.7; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_17">
+      <g>
+       <use xlink:href="#me908a0bb5c" x="650.78" y="409.952687" style="fill: #727272; stroke: #727272; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_8">
+      <text style="font-size: 9.5px; font-family: 'Open Sans'; text-anchor: middle; fill: #727272" x="650.78" y="424.171203" transform="rotate(-0 650.78 424.171203)">0.6</text>
+     </g>
+    </g>
+    <g id="xtick_9">
+     <g id="line2d_18">
+      <path d="M 716.3 409.952687 
+L 716.3 114.464687 
+" clip-path="url(#pa85fda643e)" style="fill: none; stroke: #d0d1c9; stroke-opacity: 0.7; stroke-width: 0.7; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_19">
+      <g>
+       <use xlink:href="#me908a0bb5c" x="716.3" y="409.952687" style="fill: #727272; stroke: #727272; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_9">
+      <text style="font-size: 9.5px; font-family: 'Open Sans'; text-anchor: middle; fill: #727272" x="716.3" y="424.171203" transform="rotate(-0 716.3 424.171203)">0.8</text>
+     </g>
+    </g>
+    <g id="text_10">
+     <text style="font-size: 9.5px; font-family: 'Open Sans'; text-anchor: middle; fill: #191919" x="454.22" y="444.662297" transform="rotate(-0 454.22 444.662297)">Pearson correlation with citizen-age-18+ participation (r)</text>
+    </g>
+   </g>
+   <g id="matplotlib.axis_2"/>
+   <g id="LineCollection_1">
+    <path d="M 217.66368 141.107048 
+L 314.992752 141.107048 
+" clip-path="url(#pa85fda643e)" style="fill: none; stroke: #d0d1c9; stroke-width: 2.1"/>
+   </g>
+   <g id="LineCollection_2">
+    <path d="M 595.276253 189.547704 
+L 644.507996 189.547704 
+" clip-path="url(#pa85fda643e)" style="fill: none; stroke: #d0d1c9; stroke-width: 2.1"/>
+   </g>
+   <g id="LineCollection_3">
+    <path d="M 268.621414 237.98836 
+L 317.763222 237.98836 
+" clip-path="url(#pa85fda643e)" style="fill: none; stroke: #d0d1c9; stroke-width: 2.1"/>
+   </g>
+   <g id="LineCollection_4">
+    <path d="M 295.21297 286.429015 
+L 326.881057 286.429015 
+" clip-path="url(#pa85fda643e)" style="fill: none; stroke: #d0d1c9; stroke-width: 2.1"/>
+   </g>
+   <g id="LineCollection_5">
+    <path d="M 304.424404 334.869671 
+L 427.400576 334.869671 
+" clip-path="url(#pa85fda643e)" style="fill: none; stroke: #d0d1c9; stroke-width: 2.1"/>
+   </g>
+   <g id="LineCollection_6">
+    <path d="M 429.329377 383.310327 
+L 523.987762 383.310327 
+" clip-path="url(#pa85fda643e)" style="fill: none; stroke: #d0d1c9; stroke-width: 2.1"/>
+   </g>
+   <g id="patch_3">
+    <path d="M 192.14 409.952687 
+L 716.3 409.952687 
+" style="fill: none; stroke: #d0d1c9; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="PathCollection_1">
+    <defs>
+     <path id="ma145118da2" d="M -0 5.244044 
+L 5.244044 0 
+L 0 -5.244044 
+L -5.244044 -0 
+z
+" style="stroke: #fffefd; stroke-width: 0.7"/>
+    </defs>
+    <g clip-path="url(#pa85fda643e)">
+     <use xlink:href="#ma145118da2" x="243.992665" y="129.481291" style="fill: #1e3765; stroke: #fffefd; stroke-width: 0.7"/>
+    </g>
+   </g>
+   <g id="text_11">
+    <text style="font-size: 8.2px; font-family: 'Open Sans'; text-anchor: start; fill: #1e3765" x="249.889465" y="131.615853" transform="rotate(-0 249.889465 131.615853)">-0.64</text>
+   </g>
+   <g id="PathCollection_2">
+    <defs>
+     <path id="m415537493e" d="M 0 3.708099 
+C 0.983399 3.708099 1.926654 3.317391 2.622022 2.622022 
+C 3.317391 1.926654 3.708099 0.983399 3.708099 0 
+C 3.708099 -0.983399 3.317391 -1.926654 2.622022 -2.622022 
+C 1.926654 -3.317391 0.983399 -3.708099 0 -3.708099 
+C -0.983399 -3.708099 -1.926654 -3.317391 -2.622022 -2.622022 
+C -3.317391 -1.926654 -3.708099 -0.983399 -3.708099 0 
+C -3.708099 0.983399 -3.317391 1.926654 -2.622022 2.622022 
+C -1.926654 3.317391 -0.983399 3.708099 0 3.708099 
+z
+" style="stroke: #fffefd; stroke-width: 0.7"/>
+    </defs>
+    <g clip-path="url(#pa85fda643e)">
+     <use xlink:href="#m415537493e" x="217.66368" y="137.231796" style="fill: #007fa3; stroke: #fffefd; stroke-width: 0.7"/>
+    </g>
+   </g>
+   <g id="text_12">
+    <text style="font-size: 8.2px; font-family: 'Open Sans'; text-anchor: start; fill: #007fa3" x="223.56048" y="139.366358" transform="rotate(-0 223.56048 139.366358)">-0.72</text>
+   </g>
+   <g id="PathCollection_3">
+    <defs>
+     <path id="m6ceb6aa0c3" d="M -3.708099 3.708099 
+L 3.708099 3.708099 
+L 3.708099 -3.708099 
+L -3.708099 -3.708099 
+z
+" style="stroke: #fffefd; stroke-width: 0.7"/>
+    </defs>
+    <g clip-path="url(#pa85fda643e)">
+     <use xlink:href="#m6ceb6aa0c3" x="275.665743" y="144.982301" style="fill: #6d247a; stroke: #fffefd; stroke-width: 0.7"/>
+    </g>
+   </g>
+   <g id="text_13">
+    <text style="font-size: 8.2px; font-family: 'Open Sans'; text-anchor: start; fill: #6d247a" x="281.562543" y="147.116863" transform="rotate(-0 281.562543 147.116863)">-0.55</text>
+   </g>
+   <g id="PathCollection_4">
+    <defs>
+     <path id="ma6c8ca0b53" d="M 0 -3.708099 
+L -3.708099 3.708099 
+L 3.708099 3.708099 
+z
+" style="stroke: #fffefd; stroke-width: 0.7"/>
+    </defs>
+    <g clip-path="url(#pa85fda643e)">
+     <use xlink:href="#ma6c8ca0b53" x="314.992752" y="152.732806" style="fill: #dc4633; stroke: #fffefd; stroke-width: 0.7"/>
+    </g>
+   </g>
+   <g id="text_14">
+    <text style="font-size: 8.2px; font-family: 'Open Sans'; text-anchor: start; fill: #dc4633" x="320.889552" y="154.867368" transform="rotate(-0 320.889552 154.867368)">-0.42</text>
+   </g>
+   <g id="text_15">
+    <text style="font-size: 9.5px; font-family: 'Open Sans'; text-anchor: end; fill: #191919" x="183.95" y="143.572595" transform="rotate(-0 183.95 143.572595)">Visible minority share</text>
+   </g>
+   <g id="PathCollection_5">
+    <g clip-path="url(#pa85fda643e)">
+     <use xlink:href="#ma145118da2" x="635.656405" y="177.921947" style="fill: #1e3765; stroke: #fffefd; stroke-width: 0.7"/>
+    </g>
+   </g>
+   <g id="text_16">
+    <text style="font-size: 8.2px; font-family: 'Open Sans'; text-anchor: start; fill: #1e3765" x="641.553205" y="180.056509" transform="rotate(-0 641.553205 180.056509)">+0.55</text>
+   </g>
+   <g id="PathCollection_6">
+    <g clip-path="url(#pa85fda643e)">
+     <use xlink:href="#m415537493e" x="644.507996" y="185.672451" style="fill: #007fa3; stroke: #fffefd; stroke-width: 0.7"/>
+    </g>
+   </g>
+   <g id="text_17">
+    <text style="font-size: 8.2px; font-family: 'Open Sans'; text-anchor: start; fill: #007fa3" x="650.404796" y="187.807014" transform="rotate(-0 650.404796 187.807014)">+0.58</text>
+   </g>
+   <g id="PathCollection_7">
+    <g clip-path="url(#pa85fda643e)">
+     <use xlink:href="#m6ceb6aa0c3" x="595.276253" y="193.422956" style="fill: #6d247a; stroke: #fffefd; stroke-width: 0.7"/>
+    </g>
+   </g>
+   <g id="text_18">
+    <text style="font-size: 8.2px; font-family: 'Open Sans'; text-anchor: start; fill: #6d247a" x="601.173053" y="195.557519" transform="rotate(-0 601.173053 195.557519)">+0.43</text>
+   </g>
+   <g id="PathCollection_8">
+    <g clip-path="url(#pa85fda643e)">
+     <use xlink:href="#ma6c8ca0b53" x="600.968363" y="201.173461" style="fill: #dc4633; stroke: #fffefd; stroke-width: 0.7"/>
+    </g>
+   </g>
+   <g id="text_19">
+    <text style="font-size: 8.2px; font-family: 'Open Sans'; text-anchor: start; fill: #dc4633" x="606.865163" y="203.308024" transform="rotate(-0 606.865163 203.308024)">+0.45</text>
+   </g>
+   <g id="text_20">
+    <text style="font-size: 9.5px; font-family: 'Open Sans'; text-anchor: end; fill: #191919" x="183.95" y="192.015477" transform="rotate(-0 183.95 192.015477)">Bachelor's degree or higher, age 25–64</text>
+   </g>
+   <g id="PathCollection_9">
+    <g clip-path="url(#pa85fda643e)">
+     <use xlink:href="#ma145118da2" x="280.034066" y="226.362602" style="fill: #1e3765; stroke: #fffefd; stroke-width: 0.7"/>
+    </g>
+   </g>
+   <g id="text_21">
+    <text style="font-size: 8.2px; font-family: 'Open Sans'; text-anchor: start; fill: #1e3765" x="285.930866" y="228.497165" transform="rotate(-0 285.930866 228.497165)">-0.53</text>
+   </g>
+   <g id="PathCollection_10">
+    <g clip-path="url(#pa85fda643e)">
+     <use xlink:href="#m415537493e" x="268.621414" y="234.113107" style="fill: #007fa3; stroke: #fffefd; stroke-width: 0.7"/>
+    </g>
+   </g>
+   <g id="text_22">
+    <text style="font-size: 8.2px; font-family: 'Open Sans'; text-anchor: start; fill: #007fa3" x="274.518214" y="236.24767" transform="rotate(-0 274.518214 236.24767)">-0.57</text>
+   </g>
+   <g id="PathCollection_11">
+    <g clip-path="url(#pa85fda643e)">
+     <use xlink:href="#m6ceb6aa0c3" x="317.308147" y="241.863612" style="fill: #6d247a; stroke: #fffefd; stroke-width: 0.7"/>
+    </g>
+   </g>
+   <g id="text_23">
+    <text style="font-size: 8.2px; font-family: 'Open Sans'; text-anchor: start; fill: #6d247a" x="323.204947" y="243.998175" transform="rotate(-0 323.204947 243.998175)">-0.42</text>
+   </g>
+   <g id="PathCollection_12">
+    <g clip-path="url(#pa85fda643e)">
+     <use xlink:href="#ma6c8ca0b53" x="317.763222" y="249.614117" style="fill: #dc4633; stroke: #fffefd; stroke-width: 0.7"/>
+    </g>
+   </g>
+   <g id="text_24">
+    <text style="font-size: 8.2px; font-family: 'Open Sans'; text-anchor: start; fill: #dc4633" x="323.660022" y="251.74868" transform="rotate(-0 323.660022 251.74868)">-0.42</text>
+   </g>
+   <g id="text_25">
+    <text style="font-size: 9.5px; font-family: 'Open Sans'; text-anchor: end; fill: #191919" x="183.95" y="240.453907" transform="rotate(-0 183.95 240.453907)">Unemployment rate</text>
+   </g>
+   <g id="PathCollection_13">
+    <g clip-path="url(#pa85fda643e)">
+     <use xlink:href="#ma145118da2" x="295.21297" y="274.803258" style="fill: #1e3765; stroke: #fffefd; stroke-width: 0.7"/>
+    </g>
+   </g>
+   <g id="text_26">
+    <text style="font-size: 8.2px; font-family: 'Open Sans'; text-anchor: start; fill: #1e3765" x="301.10977" y="276.93782" transform="rotate(-0 301.10977 276.93782)">-0.49</text>
+   </g>
+   <g id="PathCollection_14">
+    <g clip-path="url(#pa85fda643e)">
+     <use xlink:href="#m415537493e" x="326.881057" y="282.553763" style="fill: #007fa3; stroke: #fffefd; stroke-width: 0.7"/>
+    </g>
+   </g>
+   <g id="text_27">
+    <text style="font-size: 8.2px; font-family: 'Open Sans'; text-anchor: start; fill: #007fa3" x="332.777857" y="284.688325" transform="rotate(-0 332.777857 284.688325)">-0.39</text>
+   </g>
+   <g id="PathCollection_15">
+    <g clip-path="url(#pa85fda643e)">
+     <use xlink:href="#m6ceb6aa0c3" x="306.246154" y="290.304268" style="fill: #6d247a; stroke: #fffefd; stroke-width: 0.7"/>
+    </g>
+   </g>
+   <g id="text_28">
+    <text style="font-size: 8.2px; font-family: 'Open Sans'; text-anchor: start; fill: #6d247a" x="312.142954" y="292.43883" transform="rotate(-0 312.142954 292.43883)">-0.45</text>
+   </g>
+   <g id="PathCollection_16">
+    <g clip-path="url(#pa85fda643e)">
+     <use xlink:href="#ma6c8ca0b53" x="307.096209" y="298.054773" style="fill: #dc4633; stroke: #fffefd; stroke-width: 0.7"/>
+    </g>
+   </g>
+   <g id="text_29">
+    <text style="font-size: 8.2px; font-family: 'Open Sans'; text-anchor: start; fill: #dc4633" x="312.993009" y="300.189335" transform="rotate(-0 312.993009 300.189335)">-0.45</text>
+   </g>
+   <g id="text_30">
+    <text style="font-size: 9.5px; font-family: 'Open Sans'; text-anchor: end; fill: #191919" x="183.95" y="288.896789" transform="rotate(-0 183.95 288.896789)">Average household size</text>
+   </g>
+   <g id="PathCollection_17">
+    <g clip-path="url(#pa85fda643e)">
+     <use xlink:href="#ma145118da2" x="350.37288" y="323.243914" style="fill: #1e3765; stroke: #fffefd; stroke-width: 0.7"/>
+    </g>
+   </g>
+   <g id="text_31">
+    <text style="font-size: 8.2px; font-family: 'Open Sans'; text-anchor: start; fill: #1e3765" x="356.26968" y="325.378476" transform="rotate(-0 356.26968 325.378476)">-0.32</text>
+   </g>
+   <g id="PathCollection_18">
+    <g clip-path="url(#pa85fda643e)">
+     <use xlink:href="#m415537493e" x="304.424404" y="330.994419" style="fill: #007fa3; stroke: #fffefd; stroke-width: 0.7"/>
+    </g>
+   </g>
+   <g id="text_32">
+    <text style="font-size: 8.2px; font-family: 'Open Sans'; text-anchor: start; fill: #007fa3" x="310.321204" y="333.128981" transform="rotate(-0 310.321204 333.128981)">-0.46</text>
+   </g>
+   <g id="PathCollection_19">
+    <g clip-path="url(#pa85fda643e)">
+     <use xlink:href="#m6ceb6aa0c3" x="357.853099" y="338.744924" style="fill: #6d247a; stroke: #fffefd; stroke-width: 0.7"/>
+    </g>
+   </g>
+   <g id="text_33">
+    <text style="font-size: 8.2px; font-family: 'Open Sans'; text-anchor: start; fill: #6d247a" x="363.749899" y="340.879486" transform="rotate(-0 363.749899 340.879486)">-0.29</text>
+   </g>
+   <g id="PathCollection_20">
+    <g clip-path="url(#pa85fda643e)">
+     <use xlink:href="#ma6c8ca0b53" x="427.400576" y="346.495428" style="fill: #dc4633; stroke: #fffefd; stroke-width: 0.7"/>
+    </g>
+   </g>
+   <g id="text_34">
+    <text style="font-size: 8.2px; font-family: 'Open Sans'; text-anchor: start; fill: #dc4633" x="433.297376" y="348.629991" transform="rotate(-0 433.297376 348.629991)">-0.08</text>
+   </g>
+   <g id="text_35">
+    <text style="font-size: 9.5px; font-family: 'Open Sans'; text-anchor: end; fill: #191919" x="183.95" y="337.337445" transform="rotate(-0 183.95 337.337445)">Recent immigrant share</text>
+   </g>
+   <g id="PathCollection_21">
+    <g clip-path="url(#pa85fda643e)">
+     <use xlink:href="#ma145118da2" x="481.679199" y="371.684569" style="fill: #1e3765; stroke: #fffefd; stroke-width: 0.7"/>
+    </g>
+   </g>
+   <g id="text_36">
+    <text style="font-size: 8.2px; font-family: 'Open Sans'; text-anchor: start; fill: #1e3765" x="487.575999" y="373.819132" transform="rotate(-0 487.575999 373.819132)">+0.08</text>
+   </g>
+   <g id="PathCollection_22">
+    <g clip-path="url(#pa85fda643e)">
+     <use xlink:href="#m415537493e" x="429.329377" y="379.435074" style="fill: #007fa3; stroke: #fffefd; stroke-width: 0.7"/>
+    </g>
+   </g>
+   <g id="text_37">
+    <text style="font-size: 8.2px; font-family: 'Open Sans'; text-anchor: start; fill: #007fa3" x="435.226177" y="381.569637" transform="rotate(-0 435.226177 381.569637)">-0.08</text>
+   </g>
+   <g id="PathCollection_23">
+    <g clip-path="url(#pa85fda643e)">
+     <use xlink:href="#m6ceb6aa0c3" x="484.677653" y="387.185579" style="fill: #6d247a; stroke: #fffefd; stroke-width: 0.7"/>
+    </g>
+   </g>
+   <g id="text_38">
+    <text style="font-size: 8.2px; font-family: 'Open Sans'; text-anchor: start; fill: #6d247a" x="490.574453" y="389.320142" transform="rotate(-0 490.574453 389.320142)">+0.09</text>
+   </g>
+   <g id="PathCollection_24">
+    <g clip-path="url(#pa85fda643e)">
+     <use xlink:href="#ma6c8ca0b53" x="523.987762" y="394.936084" style="fill: #dc4633; stroke: #fffefd; stroke-width: 0.7"/>
+    </g>
+   </g>
+   <g id="text_39">
+    <text style="font-size: 8.2px; font-family: 'Open Sans'; text-anchor: start; fill: #dc4633" x="529.884562" y="397.070647" transform="rotate(-0 529.884562 397.070647)">+0.21</text>
+   </g>
+   <g id="text_40">
+    <text style="font-size: 9.5px; font-family: 'Open Sans'; text-anchor: end; fill: #191919" x="183.95" y="385.783296" transform="rotate(-0 183.95 385.783296)">Condominium share</text>
+   </g>
+  </g>
+  <g id="line2d_20">
+   <defs>
+    <path id="maf851c333d" d="M -0 4.949747 
+L 4.949747 0 
+L 0 -4.949747 
+L -4.949747 -0 
+z
+" style="stroke: #1e3765; stroke-linejoin: miter"/>
+   </defs>
+   <g>
+    <use xlink:href="#maf851c333d" x="10.7" y="72.992687" style="fill: #1e3765; stroke: #1e3765; stroke-linejoin: miter"/>
+   </g>
+  </g>
+  <g id="line2d_21">
+   <defs>
+    <path id="md8a4e41022" d="M 0 3.5 
+C 0.928211 3.5 1.81853 3.131218 2.474874 2.474874 
+C 3.131218 1.81853 3.5 0.928211 3.5 0 
+C 3.5 -0.928211 3.131218 -1.81853 2.474874 -2.474874 
+C 1.81853 -3.131218 0.928211 -3.5 0 -3.5 
+C -0.928211 -3.5 -1.81853 -3.131218 -2.474874 -2.474874 
+C -3.131218 -1.81853 -3.5 -0.928211 -3.5 0 
+C -3.5 0.928211 -3.131218 1.81853 -2.474874 2.474874 
+C -1.81853 3.131218 -0.928211 3.5 0 3.5 
+z
+" style="stroke: #007fa3"/>
+   </defs>
+   <g>
+    <use xlink:href="#md8a4e41022" x="103.436" y="72.992687" style="fill: #007fa3; stroke: #007fa3"/>
+   </g>
+  </g>
+  <g id="line2d_22">
+   <defs>
+    <path id="m78562524a5" d="M -3.5 3.5 
+L 3.5 3.5 
+L 3.5 -3.5 
+L -3.5 -3.5 
+z
+" style="stroke: #6d247a; stroke-linejoin: miter"/>
+   </defs>
+   <g>
+    <use xlink:href="#m78562524a5" x="220.364" y="72.992687" style="fill: #6d247a; stroke: #6d247a; stroke-linejoin: miter"/>
+   </g>
+  </g>
+  <g id="line2d_23">
+   <defs>
+    <path id="mc7af8e04a2" d="M 0 -3.5 
+L -3.5 3.5 
+L 3.5 3.5 
+z
+" style="stroke: #dc4633; stroke-linejoin: miter"/>
+   </defs>
+   <g>
+    <use xlink:href="#mc7af8e04a2" x="333.26" y="72.992687" style="fill: #dc4633; stroke: #dc4633; stroke-linejoin: miter"/>
+   </g>
+  </g>
+  <g id="text_41">
+   <text style="font-size: 22px; font-family: 'TradeGothic LT Bold'; text-anchor: start; fill: #191919" x="10.7" y="23.744687" transform="rotate(-0 10.7 23.744687)">Participation correlates are strongest in the municipal election</text>
+  </g>
+  <g id="text_42">
+   <text style="font-size: 11px; font-family: 'Open Sans'; text-anchor: start; fill: #727272" x="10.7" y="48.109487" transform="rotate(-0 10.7 48.109487)">Across 583 census tracts, the same social gradients recur—but their strength depends on the election.</text>
+  </g>
+  <g id="text_43">
+   <text style="font-weight: 700; font-size: 10px; font-family: 'Open Sans'; text-anchor: start; fill: #1e3765" x="21.1832" y="75.584687" transform="rotate(-0 21.1832 75.584687)">Mean</text>
+  </g>
+  <g id="text_44">
+   <text style="font-weight: 700; font-size: 10px; font-family: 'Open Sans'; text-anchor: start; fill: #007fa3" x="113.9192" y="75.584687" transform="rotate(-0 113.9192 75.584687)">Municipal</text>
+  </g>
+  <g id="text_45">
+   <text style="font-weight: 700; font-size: 10px; font-family: 'Open Sans'; text-anchor: start; fill: #6d247a" x="230.8472" y="75.584687" transform="rotate(-0 230.8472 75.584687)">Provincial</text>
+  </g>
+  <g id="text_46">
+   <text style="font-weight: 700; font-size: 10px; font-family: 'Open Sans'; text-anchor: start; fill: #dc4633" x="343.7432" y="75.584687" transform="rotate(-0 343.7432 75.584687)">Federal</text>
+  </g>
+  <g id="text_47">
+   <text style="font-size: 9.2px; font-family: 'Open Sans'; text-anchor: start; fill: #191919" x="10.7" y="454.016687" transform="rotate(-0 10.7 454.016687)">Recent-immigrant share attenuates from municipal (−0.46) to federal (−0.08); condominium share changes sign (−0.08 to +0.21).</text>
+  </g>
+  <g id="text_48">
+   <text style="font-size: 8.3px; font-family: 'Open Sans'; text-anchor: start; fill: #727272" x="10.7" y="476.826287" transform="rotate(-0 10.7 476.826287)">Each estimate is a bivariate, ecological association—not an individual-level or causal effect. Pairwise n = 583 CTs.</text>
+  </g>
+  <g id="text_49">
+   <text style="font-size: 7.6px; font-family: 'Open Sans'; text-anchor: start; fill: #727272" x="10.7" y="492.378287" transform="rotate(-0 10.7 492.378287)">Source: final/observed/toronto_ct_2021_observed_variables.csv</text>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="pa85fda643e">
+   <rect x="192.14" y="114.464687" width="524.16" height="295.488"/>
+  </clipPath>
+ </defs>
+</svg>

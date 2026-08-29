@@ -7,8 +7,8 @@
   "files": [
     {
       "path": "README.md",
-      "sha256": "1c6dd91103ec8c044b32d5cad48746019ba0897ef4ac998348fcb73ed45d8129",
-      "bytes": 4325
+      "sha256": "566e006b90298abe04d50ba3bf045aead850e0f2ef7dbac03ea29e5174dfaafb",
+      "bytes": 4670
     },
     {
       "path": "geography/README.md",
@@ -204,6 +204,41 @@
       "path": "robustness_checks/toronto_ct_meeting_robustness_spatial_cv.xlsx",
       "sha256": "bc89717192298fb853e4f8ee9d11b2c6bee29aede416eb863f6bfbcc7a92f082",
       "bytes": 162942
+    },
+    {
+      "path": "visuals/README.md",
+      "sha256": "eb86aed50e1aadbe1db87ae4abd2dadf4b3a42450fe0d1a19fbb114161853b48",
+      "bytes": 2016
+    },
+    {
+      "path": "visuals/figure_01_cross_election_participation.svg",
+      "sha256": "95a3324827d739ad9b9773805642cda310dae28e8e12ed65f74cc015227b74ab",
+      "bytes": 5164536
+    },
+    {
+      "path": "visuals/figure_02_cross_election_instability.svg",
+      "sha256": "e84b7f02cee8660bc71d7d515a7ffd1e877eea1481ddfa5a104c1e2ed2d3b9cc",
+      "bytes": 5190190
+    },
+    {
+      "path": "visuals/figure_03_mean_pls_component_1.svg",
+      "sha256": "42094faa63c50bd4d01e4c0b37424943439446fb1e2d52f8573bfa4f561e3b28",
+      "bytes": 1742393
+    },
+    {
+      "path": "visuals/figure_04_singular_variables_across_elections.svg",
+      "sha256": "171fb5f5f944afb5c115a53e96a70e5a855d7a8d101504c6eda1e186e5ba42fb",
+      "bytes": 25513
+    },
+    {
+      "path": "visuals/figure_05_model_validation_comparison.svg",
+      "sha256": "a0b9c5e997cca7c3d54a531cb2ea0ccbf2df0908f335b3b0fd32420efda6eac7",
+      "bytes": 45764
+    },
+    {
+      "path": "visuals/figure_06_consensus_spatial_cv_residuals.svg",
+      "sha256": "ad46884c1b13bc8edfe3541738c4632ab89aae755668735e8e1f8c3917341bfa",
+      "bytes": 7318050
     }
   ]
 }

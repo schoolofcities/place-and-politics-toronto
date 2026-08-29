@@ -26,6 +26,7 @@ The release covers 585 analytical 2021 Toronto Census Tracts (CTs).
 | `meeting_pls/` | A compact 585-row handoff combining the 14 meeting variables, four outcomes, and meeting-PLS results | You want the simplest table for the meeting analysis |
 | `model_definitions/` | Model summaries, predictor membership, component loadings, coefficients, VIP, and component labels | You need to interpret or reproduce the PLS models |
 | `robustness_checks/` | Persisted supervised-PCA and Elastic Net spatial-CV results and definitions | You want method-dependence and geographic-generalization checks |
+| `visuals/` | Six selected, publication-ready maps and plots | You want the project’s main spatial and model findings at a glance |
 | `metadata/` | Dataset catalog, variable dictionary, QA results, and file manifests | You need exact definitions, lineage, or integrity checks |
 
 Each subfolder has its own README with file grains, keys, column families,
@@ -44,6 +45,7 @@ does not repeat those local data dictionaries.
 | Compare PLS predictions and residuals | `modelled/toronto_ct_turnout_model_results.csv` |
 | Work directly on the meeting analysis | `meeting_pls/toronto_ct_meeting_pls.csv` |
 | Map robustness residuals | `robustness_checks/toronto_ct_meeting_robustness_spatial_cv.geojson` |
+| Review the retained visual findings | `visuals/README.md` |
 | Look up one variable | `metadata/variable_dictionary.csv` |
 
 ## Joining and Mapping
@@ -78,6 +80,13 @@ fitting or predicting any model:
 
 ```bash
 npm run build:final:collect-robustness
+```
+
+To rebuild the six retained figures from the published data and saved model
+outputs, without fitting any model:
+
+```bash
+npm run build:visuals
 ```
 
 The release process does not alter raw or intermediate source data. File-level
