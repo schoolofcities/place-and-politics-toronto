@@ -8,11 +8,13 @@
 	// there's a final design to build to.
 	//
 	//   Intro: "there are 5 political groups in Toronto" + rotating map of all 5
-	//   SECTION 1: Progressive Core       — map, summary tables, double strip plot
-	//   SECTION 2: Mobile Middle          — map, summary tables, grouped-bar comparison
-	//   SECTION 3: Civic Professionals    — map, summary tables, income-vs-education scatter
-	//   SECTION 4: Working Suburbanites   — map, summary tables, dumbbell comparison
-	//   SECTION 5: Settled Conservatives  — map, summary tables, triple strip plot
+	//   One section per cluster: header -> map -> summary tables -> body copy -> graphic
+	//     Section 1: Progressive Core       — double strip plot
+	//     Section 2: Mobile Middle          — grouped-bar comparison
+	//     Section 3: Civic Professionals    — income-vs-education scatter
+	//     Section 4: Settled Conservatives  — triple strip plot
+	//     Section 5: Working Suburbanites   — dumbbell comparison
+	//   (display order per an earlier edit: Settled Conservatives 4th, Working Suburbanites 5th)
 
 	import { onMount, onDestroy } from "svelte";
 	import Top from "$lib/TopSofC.svelte";
@@ -142,6 +144,23 @@
 		}, 2500);
 	});
 	onDestroy(() => clearInterval(rotateTimer));
+
+	// Bottom-right map legend rows: all 5 groups (+ population share) for the rotating intro
+	// map, or just the one group for a section map — see $lib/ClusterMap.svelte.
+	const allClustersLegend = clusters.map((c) => ({
+		cluster_id: c.cluster_id,
+		label: c.label,
+		color: c.color,
+		pct: c.population_share * 100,
+	}));
+	const legendFor = (cluster) => allClustersLegend.filter((r) => r.cluster_id === cluster.cluster_id);
+
+	// TODO: replace with real per-section copy — placeholder text so the layout (map ->
+	// summary tables -> body copy -> graphic) can be reviewed before final copy exists.
+	const LOREM_IPSUM =
+		"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor " +
+		"incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud " +
+		"exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.";
 </script>
 
 <svelte:head>
@@ -171,8 +190,9 @@
 	<div class="title">
 		<h4>Place & Politics in Toronto</h4>
 		<div id="mini-line"></div>
-		<h1>Clustering Toronto's Neighbourhoods</h1>
-		<h3>Identify similar political neighbourhoods in Toronto using past election data and turnout, then clustering.</h3>
+		<h1>The Five Toronto's</h1>
+		<!-- TODO: replace with the real author name(s) and publish date. -->
+		<h3>[Author Name] <br />[Month Day, Year]</h3>
 		<div id="mini-line"></div>
 	</div>
 
@@ -182,26 +202,28 @@
 	</div>
 
 	<section class="intro-map">
-		<ClusterMap tracts={ctClusters} activeClusterId={rotatingClusterId} label={clusters[rotatingIndex]?.label ?? ""} />
-		<div class="legend">
-			{#each clusters as c}
-				<span class="swatch" class:active={c.cluster_id === rotatingClusterId} style="--c: {c.color}">{c.label}</span>
-			{/each}
-		</div>
+		<ClusterMap tracts={ctClusters} activeClusterId={rotatingClusterId} legend={allClustersLegend} />
 	</section>
+
+	<div class="text">
+		<p>{LOREM_IPSUM}</p>
+	</div>
 
 	{#each clusters as cluster, i}
 		{@const config = SECTION_CONFIG[cluster.slug]}
 		<section class="cluster-section">
-			<h2>SECTION {i + 1}: {cluster.label}</h2>
-			<p class="description">{cluster.description}</p>
+			<h2>Section {i + 1}: {cluster.label}</h2>
 
-			<ClusterMap tracts={ctClusters} activeClusterId={cluster.cluster_id} label={cluster.label} />
+			<ClusterMap tracts={ctClusters} activeClusterId={cluster.cluster_id} legend={legendFor(cluster)} />
 
 			<ClusterSummaryTable
 				socioeconomic={socioeconomicFor(cluster)}
 				voting={config.voting(cluster)}
 			/>
+
+			<div class="text">
+				<p>{LOREM_IPSUM}</p>
+			</div>
 
 			<div class="graphic">
 				{#if config.graphic === "strip"}
@@ -245,51 +267,26 @@
 <style>
 	.intro-map,
 	.cluster-section {
-		margin: auto;
+		margin: 0 auto 50px;
 		max-width: 850px;
 		width: calc(100% - 20px);
-		padding-bottom: 60px;
 	}
 	.cluster-section h2 {
 		font-family: "Source Serif Pro", serif;
 		text-align: center;
-	}
-	.description {
-		font-family: "Source Serif Pro", serif;
-		text-align: center;
-		max-width: 600px;
-		margin: 0 auto 20px;
-		color: #444;
-	}
-	.legend {
-		display: flex;
-		flex-wrap: wrap;
-		justify-content: center;
-		gap: 10px;
-		margin-top: 10px;
-	}
-	.swatch {
-		font-size: 13px;
-		padding: 4px 10px;
-		border-radius: 12px;
-		background: #eee;
-		border: 2px solid transparent;
-		font-family: "Source Serif Pro", serif;
-	}
-	.swatch::before {
-		content: "";
-		display: inline-block;
-		width: 10px;
-		height: 10px;
-		border-radius: 50%;
-		background: var(--c);
-		margin-right: 6px;
-	}
-	.swatch.active {
-		border-color: var(--c);
-		font-weight: bold;
+		margin-bottom: 16px;
 	}
 	.graphic {
-		margin-top: 20px;
+		margin-top: 24px;
+	}
+
+	@media (max-width: 600px) {
+		.intro-map,
+		.cluster-section {
+			margin-bottom: 36px;
+		}
+		.graphic {
+			margin-top: 18px;
+		}
 	}
 </style>

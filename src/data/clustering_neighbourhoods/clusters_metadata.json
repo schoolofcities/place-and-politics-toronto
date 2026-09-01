@@ -8,8 +8,8 @@
   "progressive-core",
   "mobile-middle",
   "civic-professionals",
-  "working-suburbanites",
-  "settled-conservatives"
+  "settled-conservatives",
+  "working-suburbanites"
  ],
  "clusters": [
   {
@@ -34,18 +34,18 @@
    "color": "#E4362A"
   },
   {
-   "cluster_id": 3,
-   "display_order": 4,
-   "slug": "working-suburbanites",
-   "label": "Working Suburbanites",
-   "color": "#3E6FA8"
-  },
-  {
    "cluster_id": 0,
-   "display_order": 5,
+   "display_order": 4,
    "slug": "settled-conservatives",
    "label": "Settled Conservatives",
    "color": "#472366"
+  },
+  {
+   "cluster_id": 3,
+   "display_order": 5,
+   "slug": "working-suburbanites",
+   "label": "Working Suburbanites",
+   "color": "#3E6FA8"
   }
  ],
  "variable_labels": {

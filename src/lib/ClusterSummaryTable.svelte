@@ -48,7 +48,7 @@
 <style>
 	.summary-tables {
 		font-family: "Source Serif Pro", serif;
-		margin: auto;
+		margin: 20px auto 0;
 		max-width: 600px;
 	}
 	.table-grid {
@@ -63,17 +63,36 @@
 		letter-spacing: 0.04em;
 		color: #666;
 	}
+	/* Each row reads like the map legend's rectangles — a bordered off-white bar per row —
+	   rather than one big background block behind the whole table. */
 	table {
 		width: 100%;
-		border-collapse: collapse;
+		border-collapse: separate;
+		border-spacing: 0 4px;
 		font-size: 15px;
 	}
 	td {
-		padding: 4px 0;
-		border-bottom: 1px solid #eee;
+		padding: 4px 10px;
+		background: #faf8f2;
+		border-top: 1px solid black;
+		border-bottom: 1px solid black;
+	}
+	.row-label {
+		border-left: 1px solid black;
 	}
 	.row-value {
+		border-right: 1px solid black;
 		text-align: right;
 		font-variant-numeric: tabular-nums;
+	}
+
+	@media (max-width: 480px) {
+		.table-grid {
+			grid-template-columns: 1fr;
+			gap: 14px;
+		}
+		table {
+			font-size: 14px;
+		}
 	}
 </style>
