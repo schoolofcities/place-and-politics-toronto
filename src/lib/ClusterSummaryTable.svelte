@@ -1,12 +1,19 @@
 <script>
 	// Generic two-table summary (socioeconomic / voting) for one cluster's section.
-	// Deliberately dumb: the page passes in already-resolved {label, value} rows so this
-	// component doesn't need to know about clusters_summary.json's shape. Swap for
-	// richer styling (vs.-Toronto deltas, sparklines, etc.) once the final design lands.
+	// Deliberately dumb: the page passes in already-resolved rows so this component doesn't
+	// need to know about clusters_summary.json's shape. Each row is { label, value, delta? } —
+	// `delta` (percentage points vs. the Toronto-wide figure) is optional; when present it's
+	// shown beside the value, green if the cluster is above the city average, red if below.
 
 	export let title = "";
-	export let socioeconomic = []; // [{ label, value }]
-	export let voting = []; // [{ label, value }]
+	export let socioeconomic = []; // [{ label, value, delta? }]
+	export let voting = []; // [{ label, value, delta? }]
+
+	function deltaText(delta) {
+		const rounded = Math.round(delta);
+		const arrow = rounded >= 0 ? "▲" : "▼"; // ▲ / ▼
+		return `(${arrow}${Math.abs(rounded)}%)`;
+	}
 </script>
 
 <div class="summary-tables">
@@ -22,7 +29,14 @@
 					{#each socioeconomic as row}
 						<tr>
 							<td class="row-label">{row.label}</td>
-							<td class="row-value">{row.value}</td>
+							<td class="row-value">
+								{row.value}
+								{#if row.delta !== undefined && row.delta !== null}
+									<span class="delta" class:positive={row.delta >= 0} class:negative={row.delta < 0}>
+										{deltaText(row.delta)}
+									</span>
+								{/if}
+							</td>
 						</tr>
 					{/each}
 				</tbody>
@@ -36,7 +50,14 @@
 					{#each voting as row}
 						<tr>
 							<td class="row-label">{row.label}</td>
-							<td class="row-value">{row.value}</td>
+							<td class="row-value">
+								{row.value}
+								{#if row.delta !== undefined && row.delta !== null}
+									<span class="delta" class:positive={row.delta >= 0} class:negative={row.delta < 0}>
+										{deltaText(row.delta)}
+									</span>
+								{/if}
+							</td>
 						</tr>
 					{/each}
 				</tbody>
@@ -64,11 +85,16 @@
 		color: #666;
 	}
 	/* Each row reads like the map legend's rectangles — a bordered off-white bar per row —
-	   rather than one big background block behind the whole table. */
+	   rather than one big background block behind the whole table. Sans-serif (Trade Gothic
+	   LT Light — see routes/styles.css) rather than the serif used for body copy, so the
+	   numbers read as data rather than prose. */
 	table {
 		width: 100%;
+		table-layout: fixed;
 		border-collapse: separate;
 		border-spacing: 0 4px;
+		font-family: TradeGothicLTLight, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+			Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 		font-size: 15px;
 	}
 	td {
@@ -76,14 +102,29 @@
 		background: #faf8f2;
 		border-top: 1px solid black;
 		border-bottom: 1px solid black;
+		overflow: hidden;
 	}
 	.row-label {
+		width: 58%;
 		border-left: 1px solid black;
 	}
 	.row-value {
+		width: 42%;
 		border-right: 1px solid black;
 		text-align: right;
+		white-space: nowrap;
 		font-variant-numeric: tabular-nums;
+		/* the blocky effect the numbers should carry more than the labels */
+		letter-spacing: 0.02em;
+	}
+	.delta {
+		font-variant-numeric: tabular-nums;
+	}
+	.delta.positive {
+		color: #1a7d3a;
+	}
+	.delta.negative {
+		color: #c0392b;
 	}
 
 	@media (max-width: 480px) {
@@ -92,7 +133,11 @@
 			gap: 14px;
 		}
 		table {
-			font-size: 14px;
+			font-size: 13px;
+		}
+		.row-label,
+		.row-value {
+			padding: 4px 6px;
 		}
 	}
 </style>

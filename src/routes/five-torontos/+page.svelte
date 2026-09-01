@@ -39,24 +39,41 @@
 	const pct = (v) => `${v.toFixed(0)}%`;
 	const dollars = (v) => `$${Math.round(v).toLocaleString()}`;
 
-	// Fixed socioeconomic vars shown in every section (per the outline).
+	// Fixed socioeconomic vars shown in every section (per the outline). `delta` is the
+	// cluster's percentage-point difference from the Toronto-wide figure, already computed
+	// in clusters_summary.json — shown in green/red beside the value (see
+	// $lib/ClusterSummaryTable.svelte).
 	const socioeconomicFor = (c) => [
-		{ label: "Renters", value: pct(c.demographics.pct_renter) },
-		{ label: "Visible minority", value: pct(c.demographics.pct_visible_minority) },
-		{ label: "Migrated in last 5 years", value: pct(c.demographics.pct_migrant_5yr) },
-		{ label: "Bachelor's degree+", value: pct(c.demographics.pct_bachelor_or_higher) },
-		{ label: "Commute by car", value: pct(c.demographics.pct_commute_car) },
+		{ label: "Renters", value: pct(c.demographics.pct_renter), delta: c.demographics_vs_toronto.pct_renter.diff_vs_toronto },
+		{ label: "Visible minority", value: pct(c.demographics.pct_visible_minority), delta: c.demographics_vs_toronto.pct_visible_minority.diff_vs_toronto },
+		{ label: "Moved in last 5 years", value: pct(c.demographics.pct_migrant_5yr), delta: c.demographics_vs_toronto.pct_migrant_5yr.diff_vs_toronto },
+		{ label: "Bachelor's degree+", value: pct(c.demographics.pct_bachelor_or_higher), delta: c.demographics_vs_toronto.pct_bachelor_or_higher.diff_vs_toronto },
+		{ label: "Commute by car", value: pct(c.demographics.pct_commute_car), delta: c.demographics_vs_toronto.pct_commute_car.diff_vs_toronto },
 	];
 
-	// Per-section config: which voting numbers to show, and which first-draft graphic to
-	// render. `graphic` is deliberately just a switch key — swap the component or props
-	// per section without restructuring the page once the final chart choices are made.
+	// Voting rows: cluster's actual vote share/turnout (vote-weighted, from elections.*)
+	// alongside its delta vs. the Toronto-wide vote-weighted figure in clusters_metadata.json.
+	const torontoElections = clustersMetadata.toronto_benchmark.elections;
+	function votingRowsFor(cluster, specs) {
+		return specs.map(({ label, election, field }) => {
+			const value = cluster.elections[election][field];
+			const torontoValue = torontoElections[election][field];
+			return { label, value: pct(value), delta: value - torontoValue };
+		});
+	}
+
+	// Per-section config: which 5 voting rows to show (per the story brief), and which
+	// first-draft graphic to render. `graphic` is deliberately just a switch key — swap the
+	// component or props per section without restructuring the page once the final chart
+	// choices are made.
 	const SECTION_CONFIG = {
 		"progressive-core": {
-			voting: (c) => [
-				{ label: "Municipal: Chow", value: pct(c.elections.mayor_2023.chow) },
-				{ label: "Provincial: NDP", value: pct(c.elections.provincial_2025.ndp) },
-				{ label: "Federal: NDP", value: pct(c.elections.federal_2025.ndp) },
+			votingSpecs: [
+				{ label: "Municipal: Chow", election: "mayor_2023", field: "chow" },
+				{ label: "Municipal turnout", election: "mayor_2023", field: "turnout" },
+				{ label: "Provincial: NDP", election: "provincial_2025", field: "ndp" },
+				{ label: "Provincial: PC", election: "provincial_2025", field: "pc" },
+				{ label: "Federal: NDP", election: "federal_2025", field: "ndp" },
 			],
 			graphic: "strip",
 			stripVars: [
@@ -65,34 +82,55 @@
 			],
 		},
 		"mobile-middle": {
-			voting: (c) => [
-				{ label: "Municipal: Chow", value: pct(c.elections.mayor_2023.chow) },
-				{ label: "Provincial: NDP", value: pct(c.elections.provincial_2025.ndp) },
-				{ label: "Federal: Liberal", value: pct(c.elections.federal_2025.liberal) },
+			votingSpecs: [
+				{ label: "Municipal: Chow", election: "mayor_2023", field: "chow" },
+				{ label: "Municipal turnout", election: "mayor_2023", field: "turnout" },
+				{ label: "Provincial: NDP", election: "provincial_2025", field: "ndp" },
+				{ label: "Provincial: PC", election: "provincial_2025", field: "pc" },
+				{ label: "Federal: Liberal", election: "federal_2025", field: "liberal" },
 			],
 			graphic: "bars",
 			// TODO: swap for a radar chart if that reads better than grouped bars once styled.
 			compareVars: [
-				{ key: "pct_migrant_5yr", label: "Migrated in last 5 years", format: pct },
+				{ key: "pct_migrant_5yr", label: "Moved in last 5 years", format: pct },
 				{ key: "pct_renter", label: "Renters", format: pct },
 				{ key: "pct_bachelor_or_higher", label: "Bachelor's degree+", format: pct },
 				{ key: "pct_commute_car", label: "Commute by car", format: pct },
 			],
 		},
 		"civic-professionals": {
-			voting: (c) => [
-				{ label: "Municipal: Matlow", value: pct(c.elections.mayor_2023.matlow) },
-				{ label: "Provincial: Liberal", value: pct(c.elections.provincial_2025.liberal) },
-				{ label: "Municipal turnout", value: pct(c.elections.mayor_2023.turnout) },
+			votingSpecs: [
+				{ label: "Municipal: Matlow", election: "mayor_2023", field: "matlow" },
+				{ label: "Municipal turnout", election: "mayor_2023", field: "turnout" },
+				{ label: "Provincial: Liberal", election: "provincial_2025", field: "liberal" },
+				{ label: "Federal: Liberal", election: "federal_2025", field: "liberal" },
+				{ label: "Federal turnout", election: "federal_2025", field: "turnout" },
 			],
 			graphic: "scatter",
 			scatter: { xKey: "income_median", yKey: "pct_bachelor_or_higher", xLabel: "Median income ($)", yLabel: "Bachelor's degree+ (%)" },
 		},
+		"settled-conservatives": {
+			votingSpecs: [
+				{ label: "Municipal: Bailão", election: "mayor_2023", field: "bailao" },
+				{ label: "Provincial: PC", election: "provincial_2025", field: "pc" },
+				{ label: "Provincial: NDP", election: "provincial_2025", field: "ndp" },
+				{ label: "Federal: Conservative", election: "federal_2025", field: "conservative" },
+				{ label: "Federal: Liberal", election: "federal_2025", field: "liberal" },
+			],
+			graphic: "strip",
+			stripVars: [
+				{ key: "pct_renter", label: "% renter (lower here = more homeowners)" },
+				{ key: "avg_age", label: "Average age" },
+				{ key: "pct_commute_car", label: "% commute by car" },
+			],
+		},
 		"working-suburbanites": {
-			voting: (c) => [
-				{ label: "Municipal: Other candidates", value: pct(c.elections.mayor_2023.other) },
-				{ label: "Provincial: PC", value: pct(c.elections.provincial_2025.pc) },
-				{ label: "Municipal turnout", value: pct(c.elections.mayor_2023.turnout) },
+			votingSpecs: [
+				{ label: "Municipal: Others", election: "mayor_2023", field: "other" },
+				{ label: "Municipal turnout", election: "mayor_2023", field: "turnout" },
+				{ label: "Provincial: NDP", election: "provincial_2025", field: "ndp" },
+				{ label: "Provincial: PC", election: "provincial_2025", field: "pc" },
+				{ label: "Federal: Conservative", election: "federal_2025", field: "conservative" },
 			],
 			graphic: "dumbbell",
 			// TODO: try ClusterCompareBars instead — outline leaves the chart type open.
@@ -100,19 +138,6 @@
 				{ key: "pct_visible_minority", label: "Visible minority", format: pct },
 				{ key: "income_median", label: "Median income", format: dollars },
 				{ key: "pct_bachelor_or_higher", label: "Bachelor's degree+", format: pct },
-			],
-		},
-		"settled-conservatives": {
-			voting: (c) => [
-				{ label: "Municipal: Bailão", value: pct(c.elections.mayor_2023.bailao) },
-				{ label: "Provincial: PC", value: pct(c.elections.provincial_2025.pc) },
-				{ label: "Federal: Conservative", value: pct(c.elections.federal_2025.conservative) },
-			],
-			graphic: "strip",
-			stripVars: [
-				{ key: "pct_renter", label: "% renter (lower here = more homeowners)" },
-				{ key: "avg_age", label: "Average age" },
-				{ key: "pct_commute_car", label: "% commute by car" },
 			],
 		},
 	};
@@ -218,7 +243,7 @@
 
 			<ClusterSummaryTable
 				socioeconomic={socioeconomicFor(cluster)}
-				voting={config.voting(cluster)}
+				voting={votingRowsFor(cluster, config.votingSpecs)}
 			/>
 
 			<div class="text">
