@@ -51,6 +51,7 @@
 	.axis-label {
 		font-size: 12px;
 		fill: rgb(56, 56, 56);
-		font-family: "Source Serif Pro", serif;
+		font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu,
+			Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 	}
 </style>

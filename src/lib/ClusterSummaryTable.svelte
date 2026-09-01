@@ -85,16 +85,16 @@
 		color: #666;
 	}
 	/* Each row reads like the map legend's rectangles — a bordered off-white bar per row —
-	   rather than one big background block behind the whole table. Sans-serif (Trade Gothic
-	   LT Light — see routes/styles.css) rather than the serif used for body copy, so the
-	   numbers read as data rather than prose. */
+	   rather than one big background block behind the whole table. Same sans-serif as the
+	   map legend labels (see $lib/ClusterMap.svelte) rather than the serif used for body
+	   copy, so the numbers read as data rather than prose. */
 	table {
 		width: 100%;
 		table-layout: fixed;
 		border-collapse: separate;
 		border-spacing: 0 4px;
-		font-family: TradeGothicLTLight, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
-			Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+		font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu,
+			Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 		font-size: 15px;
 	}
 	td {

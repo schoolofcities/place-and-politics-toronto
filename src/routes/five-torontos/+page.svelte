@@ -78,7 +78,7 @@
 			graphic: "strip",
 			stripVars: [
 				{ key: "pct_renter", label: "% renter" },
-				{ key: "pct_commute_car", label: "% commute by car (lower here)" },
+				{ key: "pct_commute_car", label: "% commute by car" },
 			],
 		},
 		"mobile-middle": {
@@ -119,8 +119,8 @@
 			],
 			graphic: "strip",
 			stripVars: [
-				{ key: "pct_renter", label: "% renter (lower here = more homeowners)" },
-				{ key: "avg_age", label: "Average age" },
+				{ key: "pct_renter", label: "% renter (lower = more homeowners)" },
+				{ key: "avg_age", label: "Average age", domain: [30, 60] },
 				{ key: "pct_commute_car", label: "% commute by car" },
 			],
 		},
