@@ -8,7 +8,7 @@
 	import { scaleLinear, extent } from "d3";
 
 	export let values = []; // ct_values.json records (or a pre-filtered subset)
-	export let variables = []; // [{ key, label, format?, domain?, tickStep? }] — domain: [min, max] to fix the axis range and drop out-of-range dots; tickStep: fixed spacing between tick labels (both optional, and only meaningful together)
+	export let variables = []; // [{ key, label, domain?, tickStep? }] — domain: [min, max] fixes the axis range and drops out-of-range dots; tickStep: fixed spacing between tick labels (both optional, and only meaningful together)
 	export let clusterId;
 	export let color = "#3d53fb";
 
@@ -23,12 +23,11 @@
 	$: innerWidth = divWidth - margin.left - margin.right;
 	$: height = variables.length * rowHeight + margin.top + margin.bottom;
 
-	// "% variables" (pct_* keys) always run the full 0–100 range with ticks every 20 — the
-	// range is fixed rather than data-driven so the axis reads the same across sections. A
-	// variable can also fix its own range explicitly via `domain` (e.g. average age, 30–60)
-	// rather than stretching to whatever outliers happen to be in the data; anything outside
-	// that range is dropped from the plot entirely rather than drawn off past the axis end.
-	// With neither, fall back to d3's own "nice" ticks off the actual data extent.
+	// "% variables" (pct_* keys) always run the full 0–100 range with ticks every 20, so the
+	// axis reads the same across sections. A variable can also fix its own range explicitly
+	// via `domain` (e.g. average age, 30–60) instead of stretching to whatever outliers are in
+	// the data — anything outside that range is dropped from the plot rather than drawn past
+	// the axis end. With neither, fall back to d3's own "nice" ticks off the real data extent.
 	const isPercent = (key) => key.startsWith("pct_");
 	$: scales = variables.map((v) =>
 		isPercent(v.key)

@@ -1,35 +1,30 @@
 <script>
-	// ── FIRST-DRAFT OUTLINE ──────────────────────────────────────────────────────────
-	// This route is a scaffold, not a finished story: it wires the real data
-	// (src/data/clustering_neighbourhoods/*, produced by
-	// analysis/clustering_neighbourhoods/process_ct_to_cluster.ipynb) into a page shaped
-	// like the outline below, using placeholder copy and first-pass chart components.
-	// Everything here — copy, chart choice, layout, colours — is expected to change once
-	// there's a final design to build to.
 	//
 	//   Intro: "there are 5 political groups in Toronto" + rotating map of all 5
 	//   One section per cluster: header -> map -> summary tables -> body copy -> graphic
 	//     Section 1: Progressive Core       — double strip plot
-	//     Section 2: Mobile Middle          — grouped-bar comparison
+	//     Section 2: Mobile Middle          — (no graphic)
 	//     Section 3: Civic Professionals    — income-vs-education scatter
 	//     Section 4: Settled Conservatives  — triple strip plot
 	//     Section 5: Working Suburbanites   — normalized triangle (visible minority / income / education)
-	//   (display order per an earlier edit: Settled Conservatives 4th, Working Suburbanites 5th)
+	//
+	// Per-section voting rows + graphic choice live in $lib/config/fiveTorontosSections.js —
+	// edit that file for section content, this one for page structure/layout.
 
 	import { onMount, onDestroy } from "svelte";
 	import Top from "$lib/TopSofC.svelte";
 	import "../styles.css";
 
-	import ClusterMap from "$lib/ClusterMap.svelte";
-	import ClusterSummaryTable from "$lib/ClusterSummaryTable.svelte";
-	import StripPlot from "$lib/StripPlot.svelte";
-	import ClusterCompareBars from "$lib/ClusterCompareBars.svelte";
-	import ScatterHighlight from "$lib/ScatterHighlight.svelte";
-	import TernaryProfilePlot from "$lib/profiles/TernaryProfilePlot.svelte";
-	// A radar/triangle alternative to the ternary above — kept here, commented out, in case it
-	// gets swapped back in later (see the commented markup near the bottom of the template).
-	// import RadarTriangle from "$lib/profiles/RadarTriangle.svelte";
+	import ClusterMap from "$lib/maps/ClusterMap.svelte";
+	import ClusterSummaryTable from "$lib/tables/ClusterSummaryTable.svelte";
+	import StripPlot from "$lib/charts/StripPlot.svelte";
+	import ScatterHighlight from "$lib/charts/ScatterHighlight.svelte";
+	import TernaryProfilePlot from "$lib/charts/TernaryProfilePlot.svelte";
+	// An alternative to the ternary plot for Working Suburbanites — kept ready to swap in (see
+	// the commented-out markup further down) without needing to rebuild it from scratch.
+	// import RadarTriangle from "$lib/charts/RadarTriangle.svelte";
 
+	import { SECTION_CONFIG } from "$lib/config/fiveTorontosSections.js";
 	import clustersSummary from "$data/clustering_neighbourhoods/clusters_summary.json";
 	import clustersMetadata from "$data/clustering_neighbourhoods/clusters_metadata.json";
 	import ctClusters from "$data/clustering_neighbourhoods/ct_clusters.geo.json";
@@ -41,10 +36,10 @@
 
 	const pct = (v) => `${v.toFixed(0)}%`;
 
-	// Fixed socioeconomic vars shown in every section (per the outline). `delta` is the
-	// cluster's percentage-point difference from the Toronto-wide figure, already computed
-	// in clusters_summary.json — shown in green/red beside the value (see
-	// $lib/ClusterSummaryTable.svelte).
+	// Fixed socioeconomic vars shown in every section. `delta` is the cluster's
+	// percentage-point difference from the Toronto-wide figure, already computed in
+	// clusters_summary.json — shown in green/red beside the value (see
+	// $lib/tables/ClusterSummaryTable.svelte).
 	const socioeconomicFor = (c) => [
 		{ label: "Renters", value: pct(c.demographics.pct_renter), delta: c.demographics_vs_toronto.pct_renter.diff_vs_toronto },
 		{ label: "Visible minority", value: pct(c.demographics.pct_visible_minority), delta: c.demographics_vs_toronto.pct_visible_minority.diff_vs_toronto },
@@ -64,106 +59,6 @@
 		});
 	}
 
-	// Per-section config: which 5 voting rows to show (per the story brief), and which
-	// first-draft graphic to render. `graphic` is deliberately just a switch key — swap the
-	// component or props per section without restructuring the page once the final chart
-	// choices are made.
-	const SECTION_CONFIG = {
-		"progressive-core": {
-			votingSpecs: [
-				{ label: "Municipal: Chow", election: "mayor_2023", field: "chow" },
-				{ label: "Municipal turnout", election: "mayor_2023", field: "turnout" },
-				{ label: "Provincial: NDP", election: "provincial_2025", field: "ndp" },
-				{ label: "Provincial: PC", election: "provincial_2025", field: "pc" },
-				{ label: "Federal: NDP", election: "federal_2025", field: "ndp" },
-			],
-			graphic: "strip",
-			stripVars: [
-				{ key: "pct_renter", label: "% renter" },
-				{ key: "pct_commute_car", label: "% commute by car" },
-			],
-		},
-		"mobile-middle": {
-			votingSpecs: [
-				{ label: "Municipal: Chow", election: "mayor_2023", field: "chow" },
-				{ label: "Municipal turnout", election: "mayor_2023", field: "turnout" },
-				{ label: "Provincial: NDP", election: "provincial_2025", field: "ndp" },
-				{ label: "Provincial: PC", election: "provincial_2025", field: "pc" },
-				{ label: "Federal: Liberal", election: "federal_2025", field: "liberal" },
-			],
-			// No graphic for this section (the grouped-bar comparison was removed on request).
-			graphic: null,
-		},
-		"civic-professionals": {
-			votingSpecs: [
-				{ label: "Municipal: Matlow", election: "mayor_2023", field: "matlow" },
-				{ label: "Municipal turnout", election: "mayor_2023", field: "turnout" },
-				{ label: "Provincial: Liberal", election: "provincial_2025", field: "liberal" },
-				{ label: "Federal: Liberal", election: "federal_2025", field: "liberal" },
-				{ label: "Federal turnout", election: "federal_2025", field: "turnout" },
-			],
-			graphic: "scatter",
-			scatter: {
-				xKey: "income_median",
-				yKey: "pct_bachelor_or_higher",
-				xLabel: "Median income ($)",
-				yLabel: "Bachelor's degree+ (%)",
-				xFormat: (v) => `$${Math.round(v / 1000)}k`,
-				yFormat: (v) => `${v.toFixed(0)}%`,
-			},
-		},
-		"settled-conservatives": {
-			votingSpecs: [
-				{ label: "Municipal: Bailão", election: "mayor_2023", field: "bailao" },
-				{ label: "Provincial: PC", election: "provincial_2025", field: "pc" },
-				{ label: "Provincial: NDP", election: "provincial_2025", field: "ndp" },
-				{ label: "Federal: Conservative", election: "federal_2025", field: "conservative" },
-				{ label: "Federal: Liberal", election: "federal_2025", field: "liberal" },
-			],
-			graphic: "strip",
-			stripVars: [
-				{ key: "pct_renter", label: "% renter (lower = more homeowners)" },
-				{ key: "avg_age", label: "Average age", domain: [30, 60], tickStep: 5 },
-				{ key: "pct_commute_car", label: "% commute by car" },
-			],
-		},
-		"working-suburbanites": {
-			votingSpecs: [
-				{ label: "Municipal: Others", election: "mayor_2023", field: "other" },
-				{ label: "Municipal turnout", election: "mayor_2023", field: "turnout" },
-				{ label: "Provincial: NDP", election: "provincial_2025", field: "ndp" },
-				{ label: "Provincial: PC", election: "provincial_2025", field: "pc" },
-				{ label: "Federal: Conservative", election: "federal_2025", field: "conservative" },
-			],
-			graphic: "ternary",
-			// [bottom-left, bottom-right, top] — see $lib/profiles/TernaryProfilePlot.svelte.
-			ternary: {
-				vars: [
-					{ key: "pct_visible_minority", label: "% Visible Minority" },
-					{ key: "income_median", label: "Median income" },
-					{ key: "pct_bachelor_or_higher", label: "% Bachelor's degree+" },
-				],
-			},
-		},
-	};
-
-	// Toronto-wide benchmark row, used by the bar/dumbbell comparison charts.
-	const torontoBenchmark = {};
-	for (const rec of clustersSummary) {
-		for (const [k, v] of Object.entries(rec.demographics_vs_toronto)) {
-			torontoBenchmark[k] = v.value - v.diff_vs_toronto; // back out the Toronto value once
-		}
-		break;
-	}
-	function compareRows(cluster, vars) {
-		return vars.map((v) => ({
-			label: v.label,
-			clusterValue: cluster.demographics[v.key] ?? ctValues.find((d) => d.cluster_id === cluster.cluster_id)?.[v.key],
-			torontoValue: torontoBenchmark[v.key],
-			format: v.format,
-		}));
-	}
-
 	// ── Rotating "all 5 groups" intro map ─────────────────────────────────────────────
 	let rotatingIndex = 0;
 	let rotateTimer;
@@ -176,7 +71,7 @@
 	onDestroy(() => clearInterval(rotateTimer));
 
 	// Bottom-right map legend rows: all 5 groups (+ population share) for the rotating intro
-	// map, or just the one group for a section map — see $lib/ClusterMap.svelte.
+	// map, or just the one group for a section map — see $lib/maps/ClusterMap.svelte.
 	const allClustersLegend = clusters.map((c) => ({
 		cluster_id: c.cluster_id,
 		label: c.label,
@@ -241,10 +136,12 @@
 
 	{#each clusters as cluster, i}
 		{@const config = SECTION_CONFIG[cluster.slug]}
+		{@const clusterId = cluster.cluster_id}
+		{@const color = cluster.color}
 		<section class="cluster-section">
 			<h2>Section {i + 1}: {cluster.label}</h2>
 
-			<ClusterMap tracts={ctClusters} activeClusterId={cluster.cluster_id} legend={legendFor(cluster)} />
+			<ClusterMap tracts={ctClusters} activeClusterId={clusterId} legend={legendFor(cluster)} />
 
 			<ClusterSummaryTable
 				socioeconomic={socioeconomicFor(cluster)}
@@ -259,29 +156,14 @@
 				<div class="float-wrap">
 					<div class="float-graphic">
 						{#if config.graphic === "scatter"}
-							<ScatterHighlight
-								values={ctValues}
-								xKey={config.scatter.xKey}
-								yKey={config.scatter.yKey}
-								xLabel={config.scatter.xLabel}
-								yLabel={config.scatter.yLabel}
-								xFormat={config.scatter.xFormat}
-								yFormat={config.scatter.yFormat}
-								clusterId={cluster.cluster_id}
-								color={cluster.color}
-							/>
+							<ScatterHighlight values={ctValues} {...config.scatter} {clusterId} {color} />
 						{:else if config.graphic === "ternary"}
-							<TernaryProfilePlot
-								values={ctValues}
-								vars={config.ternary.vars}
-								clusterId={cluster.cluster_id}
-								color={cluster.color}
-							/>
+							<TernaryProfilePlot values={ctValues} vars={config.ternaryVars} {clusterId} {color} />
 							<!-- Alternative graphic for this section — a radar/triangle hybrid instead of
 								 the normalized ternary above. Sized to fit this same half-page float-wrap
 								 layout; swap it in by uncommenting this and commenting out the
 								 TernaryProfilePlot above (and its import at the top of the script).
-							<RadarTriangle {clusters} activeClusterId={cluster.cluster_id} />
+							<RadarTriangle {clusters} activeClusterId={clusterId} />
 							-->
 						{/if}
 					</div>
@@ -293,19 +175,9 @@
 				<div class="text">
 					<p>{LOREM_IPSUM}</p>
 				</div>
-
-				{#if config.graphic}
+				{#if config.graphic === "strip"}
 					<div class="graphic">
-						{#if config.graphic === "strip"}
-							<StripPlot
-								values={ctValues}
-								variables={config.stripVars}
-								clusterId={cluster.cluster_id}
-								color={cluster.color}
-							/>
-						{:else if config.graphic === "bars"}
-							<ClusterCompareBars rows={compareRows(cluster, config.compareVars)} color={cluster.color} />
-						{/if}
+						<StripPlot values={ctValues} variables={config.stripVars} {clusterId} {color} />
 					</div>
 				{/if}
 			{/if}

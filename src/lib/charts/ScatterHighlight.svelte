@@ -1,8 +1,7 @@
 <script>
-	// Scatter plot over all 585 tracts, with the current cluster's dots highlighted.
-	// Built for Civic Professionals' "scatter plot of income vs. education, this group's
-	// dots highlighted", but xKey/yKey are generic so it can be reused for any pair of
-	// tract-level variables from ct_values.json.
+	// Scatter plot over all 585 tracts, with the current cluster's dots highlighted. Built
+	// for Civic Professionals' "income vs. education, this group's dots highlighted", but
+	// xKey/yKey are generic so it can be reused for any pair of tract-level variables.
 
 	import { scaleLinear, extent } from "d3";
 

@@ -1,11 +1,14 @@
 <script>
-	// OPTION 2 — triangle-as-radar hybrid, 3 spokes from a shared centre. Each spoke is scaled
-	// on its OWN absolute terms rather than a percentile rank among the 5 clusters: visible
-	// minority % runs its natural 0–100 range, bachelor's+ % runs 0–60 (no cluster is anywhere
-	// near 100% on this one, so a 0–100 axis wasted most of its length), and median income runs
-	// the actual (niced) range across the 5 clusters. All 5 clusters draw as outlines only, in
-	// their own colour — no fill — so overlapping shapes stay legible; Working Suburbanites (or
-	// whichever section is active) gets a noticeably thicker outline and draws on top.
+	// Alternative to TernaryProfilePlot.svelte for Working Suburbanites: a triangle-as-radar
+	// hybrid, 3 spokes from a shared centre, one per cluster-summary record (not per tract).
+	// Each spoke is scaled on its OWN absolute terms rather than a percentile rank among the
+	// 5 clusters: visible minority % runs its natural 0–100 range, bachelor's+ % runs 0–60 (no
+	// cluster is anywhere near 100% on this one, so a 0–100 axis would waste most of its
+	// length), and median income runs the actual (niced) range across the 5 clusters. All 5
+	// clusters draw as outlines only, in their own colour — no fill — so overlapping shapes
+	// stay legible; the active cluster gets a noticeably thicker outline and draws on top.
+	// Currently unused (see the commented-out import/markup in +page.svelte) — kept as a ready
+	// swap-in alternative to the ternary plot.
 
 	import { scaleLinear, extent } from "d3";
 
@@ -32,10 +35,8 @@
 	const MAX_R = 110;
 	const MIN_R = 55;
 
-	// Previously a fixed 380px SVG regardless of container width — if this graphic ends up in
-	// a narrower box than that (e.g. stacked next to another one), it would simply overflow
-	// it. Sizing off the measured container width, like the other charts on this page, avoids
-	// that.
+	// Sized off the measured container width (like the other charts on this page) rather than
+	// a fixed pixel size, so it never overflows a narrower box than expected.
 	let divWidth = 380;
 	$: R = Math.max(MIN_R, Math.min((divWidth - MARGIN * 2) / 2, MAX_R));
 	$: SIZE = R * 2 + MARGIN * 2;
@@ -47,10 +48,9 @@
 		const [min, max] = axis.domain;
 		return max === min ? 0.5 : (axis.get(cluster) - min) / (max - min);
 	}
-	// Takes R/cx/cy as explicit arguments (rather than closing over them) so every call site
-	// that needs to react to a resize passes the *current* R/cx/cy directly in its own `$:`
-	// statement — see the note in TernaryProfilePlot.svelte for why a closure over reactive
-	// vars isn't enough to make Svelte re-run a dependent statement on its own.
+	// Takes R/cx/cy as explicit arguments (rather than closing over them) so every reactive
+	// call site passes the *current* R/cx/cy directly in its own `$:` statement — see the note
+	// in TernaryProfilePlot.svelte for why a closure over reactive vars isn't reliable here.
 	function pointFor(R, cx, cy, angle, frac) {
 		const r = R * frac;
 		const a = toRad(angle);
@@ -61,8 +61,7 @@
 	}
 
 	// Tick value sits just past the spoke's tip; the axis name sits further out again — both
-	// placed along the spoke's own radial direction (rather than the tick's old fixed vertical
-	// nudge, which didn't give the diagonal spokes enough clearance and let the two overlap).
+	// placed along the spoke's own radial direction so they never overlap on a diagonal spoke.
 	$: axisEnds = axes.map((ax) => pointFor(R, cx, cy, ax.angle, 1));
 	$: tickPositions = axes.map((ax) => pointFor(R, cx, cy, ax.angle, 1.16));
 	$: labelPositions = axes.map((ax) => pointFor(R, cx, cy, ax.angle, 1.65));
@@ -80,10 +79,8 @@
 			{@const end = axisEnds[i]}
 			{@const tick = tickPositions[i]}
 			{@const labelPos = labelPositions[i]}
-			<!-- Anchor each label so it grows back INWARD, toward the centre, rather than
-				 further out past the spoke tip — anchoring it the other way round is what was
-				 pushing "Bachelor's degree+" and "Median income" past the edge of the SVG and
-				 getting them clipped by the container around it. -->
+			<!-- Anchor each label so it grows back INWARD, toward the centre, rather than further
+				 out past the spoke tip, so it can't overhang the SVG's own edge. -->
 			{@const anchor = Math.abs(end.x - cx) < 4 ? "middle" : end.x > cx ? "end" : "start"}
 			<line class="spoke" x1={cx} y1={cy} x2={end.x} y2={end.y} />
 			<text class="axis-tick" x={tick.x} y={tick.y} text-anchor={anchor}>{ax.format(ax.domain[1])}</text>

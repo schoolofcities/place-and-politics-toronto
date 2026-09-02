@@ -1,17 +1,22 @@
 <script>
-	// Generic two-table summary (socioeconomic / voting) for one cluster's section.
-	// Deliberately dumb: the page passes in already-resolved rows so this component doesn't
-	// need to know about clusters_summary.json's shape. Each row is { label, value, delta? } —
-	// `delta` (percentage points vs. the Toronto-wide figure) is optional; when present it's
-	// shown beside the value, green if the cluster is above the city average, red if below.
+	// Two-column summary (socioeconomic / voting) for one cluster's section. Deliberately
+	// dumb: the page passes in already-resolved rows so this component doesn't need to know
+	// about clusters_summary.json's shape. Each row is { label, value, delta? } — `delta`
+	// (percentage points vs. the Toronto-wide figure) is optional; when present it's shown
+	// beside the value, green if the cluster is above the city average, red if below.
 
 	export let title = "";
 	export let socioeconomic = []; // [{ label, value, delta? }]
 	export let voting = []; // [{ label, value, delta? }]
 
+	$: tables = [
+		{ heading: "Socioeconomic", rows: socioeconomic },
+		{ heading: "Voting", rows: voting },
+	];
+
 	function deltaText(delta) {
 		const rounded = Math.round(delta);
-		const arrow = rounded >= 0 ? "▲" : "▼"; // ▲ / ▼
+		const arrow = rounded >= 0 ? "▲" : "▼";
 		return `(${arrow}${Math.abs(rounded)}%)`;
 	}
 </script>
@@ -22,47 +27,28 @@
 	{/if}
 
 	<div class="table-grid">
-		<div class="table-block">
-			<h5>Socioeconomic</h5>
-			<table>
-				<tbody>
-					{#each socioeconomic as row}
-						<tr>
-							<td class="row-label">{row.label}</td>
-							<td class="row-value">
-								{row.value}
-								{#if row.delta !== undefined && row.delta !== null}
-									<span class="delta" class:positive={row.delta >= 0} class:negative={row.delta < 0}>
-										{deltaText(row.delta)}
-									</span>
-								{/if}
-							</td>
-						</tr>
-					{/each}
-				</tbody>
-			</table>
-		</div>
-
-		<div class="table-block">
-			<h5>Voting</h5>
-			<table>
-				<tbody>
-					{#each voting as row}
-						<tr>
-							<td class="row-label">{row.label}</td>
-							<td class="row-value">
-								{row.value}
-								{#if row.delta !== undefined && row.delta !== null}
-									<span class="delta" class:positive={row.delta >= 0} class:negative={row.delta < 0}>
-										{deltaText(row.delta)}
-									</span>
-								{/if}
-							</td>
-						</tr>
-					{/each}
-				</tbody>
-			</table>
-		</div>
+		{#each tables as { heading, rows }}
+			<div class="table-block">
+				<h5>{heading}</h5>
+				<table>
+					<tbody>
+						{#each rows as row}
+							<tr>
+								<td class="row-label">{row.label}</td>
+								<td class="row-value">
+									{row.value}
+									{#if row.delta !== undefined && row.delta !== null}
+										<span class="delta" class:positive={row.delta >= 0} class:negative={row.delta < 0}>
+											{deltaText(row.delta)}
+										</span>
+									{/if}
+								</td>
+							</tr>
+						{/each}
+					</tbody>
+				</table>
+			</div>
+		{/each}
 	</div>
 </div>
 
@@ -86,7 +72,7 @@
 	}
 	/* Each row reads like the map legend's rectangles — a bordered off-white bar per row —
 	   rather than one big background block behind the whole table. Same sans-serif as the
-	   map legend labels (see $lib/ClusterMap.svelte) rather than the serif used for body
+	   map legend labels (see $lib/maps/ClusterMap.svelte) rather than the serif used for body
 	   copy, so the numbers read as data rather than prose. */
 	table {
 		width: 100%;
@@ -114,8 +100,7 @@
 		text-align: right;
 		white-space: nowrap;
 		font-variant-numeric: tabular-nums;
-		/* the blocky effect the numbers should carry more than the labels */
-		letter-spacing: 0.02em;
+		letter-spacing: 0.02em; /* a touch of the "blocky" feel the numbers should carry */
 	}
 	.delta {
 		font-variant-numeric: tabular-nums;

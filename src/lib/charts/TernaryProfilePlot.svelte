@@ -1,21 +1,12 @@
 <script>
-	// OPTION 1 — normalized triangle, per census tract (not a true ternary: the 3 variables
-	// don't sum to anything meaningful on their own). Each of the 3 variables is min-max
-	// normalized across all 585 tracts to [0, 1], then the 3 normalized values are rescaled to
-	// proportions a, b, c with a>=0, b>=0, c>=0, a+b+c=1 — that's what actually places every
-	// dot inside the triangle (a barycentric combination of the 3 vertices always lands in
-	// their convex hull, i.e. inside the triangle, as long as a/b/c are non-negative and sum
-	// to 1). Every tract gets a dot; Working Suburbanites' own tracts are colored, the rest of
+	// Normalized triangle plot for Working Suburbanites: NOT a true ternary, since the 3
+	// variables (visible minority %, income, bachelor's+ %) don't sum to anything meaningful
+	// on their own. Each is min-max normalized across all 585 tracts to [0, 1], then the 3
+	// normalized values are rescaled to proportions a, b, c with a,b,c >= 0 and a+b+c = 1 —
+	// that's what places every dot inside the triangle (a barycentric combination of the 3
+	// vertices always lands in their convex hull as long as the weights are non-negative and
+	// sum to 1). Every tract gets a dot; the active cluster's tracts are coloured, the rest of
 	// the city is grey.
-	//
-	// NOTE ON A PRIOR BUG: the first cut of this component computed each dot's (x, y) in a
-	// plain helper function called from inside a `$:` block that only referenced `values` —
-	// Svelte only re-runs a reactive statement when the variables *textually present in that
-	// statement* change, so on the first resize (divWidth updating after mount) the triangle's
-	// own corners (A/B/C, driven by `side`) recomputed, but the dots — computed by a function
-	// that closed over the old A/B/C — did not, leaving dots positioned for a different-sized
-	// triangle than the one drawn. Fixed by inlining the whole computation into one reactive
-	// statement that references A, B, C and the normalization ranges directly.
 
 	import { extent } from "d3";
 
@@ -28,17 +19,13 @@
 	const MIN_SIDE = 110; // small enough that the triangle + margins still fit a narrow container
 	const LABEL_OFFSET = 16; // how far outside the triangle edge the slanted labels sit
 
-	// These only need to be just wide enough to hold the label overhang beyond the triangle's
-	// own bounding box (checked numerically — worst case is ~20px at MIN_SIDE, shrinking to
-	// ~0 as the triangle grows), not the much larger margins an earlier version used for a
-	// different label layout. Oversized margins were eating most of the available width,
-	// which is what was making the triangle look small inside its half of the section.
+	// Margins only need to hold the label overhang beyond the triangle's own bounding box
+	// (worst case ~20px, at MIN_SIDE — shrinking toward 0 as the triangle grows).
 	const margin = { top: 22, bottom: 30, left: 26, right: 26 };
 
-	// No upper cap on `side` — like ScatterHighlight, this should fill however much width its
-	// container (e.g. the float-graphic half of the section) actually gives it, not stop short
-	// at some fixed size. Only floored at MIN_SIDE so a narrow container doesn't force the
-	// triangle + margins to overflow it.
+	// No upper cap on `side`: like ScatterHighlight, this fills however much width its
+	// container (the float-graphic half of the section) actually gives it. Only floored at
+	// MIN_SIDE so a narrow container doesn't force the triangle + margins to overflow it.
 	let divWidth = 380;
 	$: side = Math.max(MIN_SIDE, divWidth - margin.left - margin.right);
 	$: triHeight = (side * Math.sqrt(3)) / 2;
@@ -52,8 +39,10 @@
 
 	$: ranges = vars.map((v) => extent(values, (d) => d[v.key]));
 
-	// Every dot's position, computed in one reactive statement (see the note above) so a
-	// resize always recomputes dots against the triangle's current corners.
+	// Every dot's (x, y) is computed in one reactive statement that references A/B/C and
+	// `ranges` directly, rather than via a helper function that merely closes over them —
+	// Svelte only re-runs a `$:` block when the variables *textually present in it* change, so
+	// a plain closure wouldn't reliably recompute dots when a resize changes A/B/C via `side`.
 	$: points = values.map((d) => {
 		const n = ranges.map(([min, max], i) => (max === min ? 0.5 : (d[vars[i].key] - min) / (max - min)));
 		const sum = n[0] + n[1] + n[2];
@@ -64,11 +53,11 @@
 	$: fgPoints = points.filter((p) => p.tract.cluster_id === clusterId);
 
 	// 3 slanted labels per side of the triangle, running parallel to that side: e.g. the left
-	// side (running from the bottom-left corner up to the top corner) is labeled with vars[0]
-	// — the variable name at the middle, "higher" shifted toward the bottom-left corner,
-	// "lower" shifted toward the top corner (the exact example given). Each vertex's variable
-	// "owns" the edge connecting it to the *previous* vertex in the A→B→C→A cycle, so each of
-	// the 3 variables gets exactly one edge, and each of the 3 edges gets exactly one label set:
+	// side (bottom-left corner up to the top corner) is labeled with vars[0] — the variable
+	// name at the middle, "higher" shifted toward the bottom-left corner, "lower" shifted
+	// toward the top corner. Each vertex's variable "owns" the edge connecting it to the
+	// *previous* vertex in the A→B→C→A cycle, so each of the 3 variables gets exactly one
+	// edge, and each of the 3 edges gets exactly one label set:
 	//   edge C→A ("left"):   vars[0], higher at A, lower at C
 	//   edge A→B ("bottom"): vars[1], higher at B, lower at A
 	//   edge B→C ("right"):  vars[2], higher at C, lower at B
@@ -83,11 +72,11 @@
 	}
 	// A label's rotation follows its edge's own angle (so it reads as "slanted" along that
 	// side), normalized to stay within ±90° so the text is never upside down. That
-	// normalization also flips which physical direction the *rendered* arrow glyphs point in
-	// (confirmed numerically: an unrotated "→", after this normalization, ends up pointing
-	// toward `higherVertex` on the bottom edge but toward `lowerVertex` on both slanted side
-	// edges) — so both the arrow character AND which side of the word it sits on have to
-	// swap together whenever normalization flipped the angle, not just the character alone.
+	// normalization also flips which physical direction the rendered arrow glyphs point in —
+	// an unrotated "→" ends up pointing toward `higherVertex` on the bottom edge but toward
+	// `lowerVertex` on both slanted side edges — so the whole "← lower"/"higher →" template
+	// (arrow character AND which side of the word it's on) swaps together whenever the angle
+	// had to be normalized, not just the arrow character alone.
 	function edgeLabel(lowerVertex, higherVertex, label) {
 		let angle = (Math.atan2(higherVertex.y - lowerVertex.y, higherVertex.x - lowerVertex.x) * 180) / Math.PI;
 		let flipped = false;
