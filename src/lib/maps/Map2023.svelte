@@ -2,9 +2,9 @@
     
     import { onMount } from 'svelte';
     import 'maplibre-gl/dist/maplibre-gl.css';
-    import maplibregl, { createBaseMapStyle } from "$lib/maplibre.js";
+    import maplibregl, { createBaseMapStyle } from "$lib/maps/maplibre.js";
     
-    import VotingSubDivisions from '$data/vsd.geo.json';
+    import VotingSubDivisions from '$data/vsd2023.geo.json';
     import Wards from '$data/wards.geo.json';
     import WardPts from '$data/wardsPts.geo.json';
     
@@ -21,23 +21,53 @@
     }
 
     const candidates = {
-        "tory": {
-            "name": "John Tory",
-            "column": "tory_john",
-            "breaks": [0.4, 0.5, 0.6, 0.7],
-            "colours": ["#deebfd", "#a7c9ff", "#77a5ff", "#507fff", "#3d53fb"]
+        "chow": {
+            "name": "Olivia Chow",
+            "column": "chow_olivia",
+            "breaks": [0.2, 0.3, 0.4, 0.5],
+            "colours": ["#fdf0ff", "#e0b7e7", "#c27dcf", "#a13cb5", "#83009c"]
         }, 
-        "penalosa": {
-            "name": "Gil Peñalosa",
-            "column": "penalosa_gil",
-            "breaks": [0.1, 0.2, 0.3, 0.4],
-            "colours": ["#defde0", "#b3e5b2", "#8acc84", "#62b354", "#369a1b"]
+        "bailao": {
+            "name": "Ana Bailão",
+            "column": "bailao_ana",
+            "breaks": [0.2, 0.3, 0.4, 0.5],
+            "colours": ["#fbffe0", "#e8f1a9", "#c5de75", "#94b956", "#68983b"]
+        },
+        "saunders": {
+            "name": "Mark Saunders",
+            "column": "saunders_mark",
+            "breaks": [0.05, 0.1, 0.15, 0.2],
+            "colours": ["#f0f1f6", "#bec2d4", "#888faf", "#515d8b", "#1f2e69"]
+        },
+        "furey": {
+            "name": "Anthony Furey",
+            "column": "furey_anthony",
+            "breaks": [0.05, 0.1, 0.15, 0.2],
+            "colours": ["#f8ffff", "#a7e3e7", "#62ccd3", "#0dafbb", "#117c83"]
+        },
+        "matlow": {
+            "name": "Josh Matlow",
+            "column": "matlow_josh",
+            "breaks": [0.05, 0.1, 0.15, 0.2],
+            "colours": ["#f8ffff", "#b8f2df", "#80e7c2", "#40daa1", "#00a182"]
+        },
+        "hunter": {
+            "name": "Mitzie Hunter",
+            "column": "hunter_mitzie",
+            "breaks": [0.05, 0.1, 0.15, 0.2],
+            "colours": ["#f8feff", "#a5d6ed", "#4facdb", "#0085ca", "#00689f"]
         },
         "brown": {
             "name": "Chloe Brown",
-            "column": "brown_chloe_marie",
+            "column": "brown_chloe",
             "breaks": [0.05, 0.1, 0.15, 0.2],
             "colours": ["#fddede", "#f0b7b6", "#e1908e", "#ce6967", "#b94141"]
+        },
+        "bradford": {
+            "name": "Brad Bradford",
+            "column": "bradford_brad",
+            "breaks": [0.05, 0.1, 0.15, 0.2],
+            "colours": ["#f8feff", "#b8d2dd", "#7caabd", "#3e809c", "#00567b"]
         },
         "margin": {
             "name": "Margin between first- and second-place finisher",
@@ -89,78 +119,33 @@
                 'data': WardPts
             });
             
-            if (candidate === "margin") {
-                map.addLayer({
+            map.addLayer({
                 'id': 'VotingSubDivisionsFill',
                 'type': 'fill',
                 'source': 'VotingSubDivisions',
                 'layout': {},
                 'paint': {
-                    'fill-color': [
-                        'step',
-                        ['get', candidates[candidate].column],
-                        candidates[candidate].colours[0],
-                        candidates[candidate].breaks[0],
-                        candidates[candidate].colours[1],
-                        candidates[candidate].breaks[1],
-                        candidates[candidate].colours[2],
-                        candidates[candidate].breaks[2],
-                        candidates[candidate].colours[3],
-                        candidates[candidate].breaks[3],
-                        candidates[candidate].colours[4]
-                    ], 
+                    'fill-color':  [
+                        'case',
+                        ['>=', ['/', ['get', candidates[candidate].column], ['get', 'total']], -1],
+                        [
+                            'step',
+                            ['/', ['get', candidates[candidate].column], ['get', 'total']],
+                            candidates[candidate].colours[0],
+                            candidates[candidate].breaks[0],
+                            candidates[candidate].colours[1],
+                            candidates[candidate].breaks[1],
+                            candidates[candidate].colours[2],
+                            candidates[candidate].breaks[2],
+                            candidates[candidate].colours[3],
+                            candidates[candidate].breaks[3],
+                            candidates[candidate].colours[4]
+                        ],
+                        "#fff"
+                ], 
                     'fill-opacity': layerOpacity
                     }
                 });
-            } else if (candidate === "race") {
-                map.addLayer({
-                'id': 'VotingSubDivisionsFill',
-                'type': 'fill',
-                'source': 'VotingSubDivisions',
-                'layout': {},
-                'paint': {
-                    'fill-color': [
-                        'match',
-                        ['get', 'contest'],
-                        'Tory-Penalosa',
-                        '#3d53fb',
-                        'Tory-Brown',
-                        '#c78bf4',
-                        'Penalosa-Tory',
-                        '#369a1b',
-                        'Penalosa-Brown',
-                        '#3bb2d0',
-                        'Brown-Penalosa',
-                        '#b94141',
-                        /* other */ '#ccc'
-                    ], 
-                    'fill-opacity': layerOpacity
-                    }
-                });
-            } else {
-                map.addLayer({
-                'id': 'VotingSubDivisionsFill',
-                'type': 'fill',
-                'source': 'VotingSubDivisions',
-                'layout': {},
-                'paint': {
-                    'fill-color': [
-                        'step',
-                        ['/', ['get', candidates[candidate].column], ['get', 'total']],
-                        candidates[candidate].colours[0],
-                        candidates[candidate].breaks[0],
-                        candidates[candidate].colours[1],
-                        candidates[candidate].breaks[1],
-                        candidates[candidate].colours[2],
-                        candidates[candidate].breaks[2],
-                        candidates[candidate].colours[3],
-                        candidates[candidate].breaks[3],
-                        candidates[candidate].colours[4]
-                    ], 
-                    'fill-opacity': layerOpacity
-                    }
-                });
-            }
 
             map.addLayer({
                 'id': 'VotingSubDivisionsLine',
@@ -235,26 +220,8 @@
         });
 
         map.on('mousemove', 'VotingSubDivisionsFill', (e) => {
-            if (candidate === "margin") {
-                message = "Ward: " + e.features[0].properties.ward + " --- Poll: " + e.features[0].properties.vsd + " --- Margin: " + Math.round(100 * e.features[0].properties[candidates[candidate].column]) + "%"
-            } else if (candidate === "race") {
-                let name = "1) Tory 2) Peñalosa"
-                if (e.features[0].properties.contest === "Tory-Brown") {
-                    name = "1) Tory 2) Brown"
-                }
-                if (e.features[0].properties.contest === "Penalosa-Brown") {
-                    name = "1) Peñalosa 2) Brown"
-                }
-                if (e.features[0].properties.contest === "Penalosa-Tory") {
-                    name = "1) Peñalosa 2) Tory"
-                }
-                if (e.features[0].properties.contest === "Brown-Penalosa") {
-                    name = "1) Brown 2) Peñalosa"
-                }
-                message = "Ward: " + e.features[0].properties.ward + " --- Poll: " + e.features[0].properties.vsd + " --- Top-two finishers: " + name
-            } else {
-                message = "Ward: " + e.features[0].properties.ward + " --- Poll: " + e.features[0].properties.vsd + " --- Total Votes: " + e.features[0].properties.total + " --- Votes for " + candidates[candidate].name + ": " + e.features[0].properties[candidates[candidate].column] +  " --- % for " + candidates[candidate].name + ": " + Math.round(100 * e.features[0].properties[candidates[candidate].column] / e.features[0].properties.total) + "%"  
-            }
+            
+            message = "Ward: " + e.features[0].properties.ward + " --- Poll: " + e.features[0].properties.vsd + " --- Total Votes: " + e.features[0].properties.total + " --- Votes for " + candidates[candidate].name + ": " + e.features[0].properties[candidates[candidate].column] +  " --- % for " + candidates[candidate].name + ": " + Math.round(100 * e.features[0].properties[candidates[candidate].column] / e.features[0].properties.total) + "%"  
                   
         });
 

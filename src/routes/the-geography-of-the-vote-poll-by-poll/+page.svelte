@@ -1,10 +1,10 @@
 <script>
 
-	import Top from "$lib/TopSofC.svelte";
-	import UnderConstruction from "$lib/UnderConstruction.svelte";
-	import Bar from "$lib/Bar.svelte";	
-	import Turnout from "$lib/Turnout.svelte";
-	import Map from "$lib/Map.svelte";	
+	import Top from "$lib/layout/TopSofC.svelte";
+	import UnderConstruction from "$lib/layout/UnderConstruction.svelte";
+	import Bar from "$lib/charts/Bar.svelte";	
+	import Turnout from "$lib/charts/Turnout.svelte";
+	import Map from "$lib/maps/Map.svelte";	
     import WebCard from "$assets/web-card-1.png";
 	import '../styles.css';
 

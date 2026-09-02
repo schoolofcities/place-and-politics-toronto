@@ -1,13 +1,13 @@
 <script>
 
-	import Top from "$lib/TopSofC.svelte";
+	import Top from "$lib/layout/TopSofC.svelte";
 	import '../styles.css';
 	import candidateLinks from "$data/candidate_links.json"
 	import candidateInfo from "$data/candidate_info.json";
 	import ctWithResults from "$data/ctWithResults.geo.json";
 
-	import MapMiniCor from "$lib/MapMiniCor.svelte";
-	import CorList from "$lib/CorList.svelte";
+	import MapMiniCor from "$lib/maps/MapMiniCor.svelte";
+	import CorList from "$lib/charts/CorList.svelte";
 	import Select from 'svelte-select';
 
 	import {candidateStore} from "$lib/stores/stores.js";

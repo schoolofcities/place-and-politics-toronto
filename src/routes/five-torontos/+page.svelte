@@ -12,7 +12,7 @@
 	// edit that file for section content, this one for page structure/layout.
 
 	import { onMount, onDestroy } from "svelte";
-	import Top from "$lib/TopSofC.svelte";
+	import Top from "$lib/layout/TopSofC.svelte";
 	import "../styles.css";
 
 	import ClusterMap from "$lib/maps/ClusterMap.svelte";

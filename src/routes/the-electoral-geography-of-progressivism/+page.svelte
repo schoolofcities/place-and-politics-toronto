@@ -1,8 +1,8 @@
 <script>
 
-	import Top from "$lib/TopSofC.svelte";
-	import UnderConstruction from "$lib/UnderConstruction.svelte";
-	import MapMini from "$lib/MapMini.svelte";
+	import Top from "$lib/layout/TopSofC.svelte";
+	import UnderConstruction from "$lib/layout/UnderConstruction.svelte";
+	import MapMini from "$lib/maps/MapMini.svelte";
     import WebCard from "$assets/web-card-2.png";
 	import '../styles.css';
 	import ctWithResults from "$data/ctWithResults.geo.json";

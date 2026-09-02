@@ -5,7 +5,7 @@
 	// legible "in the background" instead of disappearing. Used both for the rotating
 	// "all 5 groups" intro map (activeClusterId cycles, with a "show all" toggle) and for
 	// each section's single-cluster map (activeClusterId fixed, legend has just that one row).
-	// Adapted from the projection/path conventions in $lib/MapMini.svelte.
+	// Adapted from the projection/path conventions in $lib/maps/MapMini.svelte.
 
 	import { geoPath, geoMercator } from "d3";
 	import Wards from "$data/wards.geo.json";

@@ -1,6 +1,6 @@
 <script>
 
-	import Top from "$lib/TopSofC.svelte";	
+	import Top from "$lib/layout/TopSofC.svelte";
     import './styles.css';
 	import { base } from '$app/paths';
 	import logo from '$assets/top-logo.svg';

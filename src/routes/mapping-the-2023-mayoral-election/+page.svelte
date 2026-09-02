@@ -1,12 +1,12 @@
 <script>
 
-	import Top from "$lib/TopSofC.svelte";
-	import UnderConstruction from "$lib/UnderConstruction.svelte";
-	import MapMiniWard2023 from "$lib/MapMiniWard2023.svelte";
-	import BarVote from "$lib/BarVote2023.svelte";	
-	import Turnout from "$lib/Turnout.svelte";
-	import Map from "$lib/Map2023.svelte";
-	import MapMini from "$lib/MapMini.svelte";
+	import Top from "$lib/layout/TopSofC.svelte";
+	import UnderConstruction from "$lib/layout/UnderConstruction.svelte";
+	import MapMiniWard2023 from "$lib/maps/MapMiniWard2023.svelte";
+	import BarVote from "$lib/charts/BarVote2023.svelte";	
+	import Turnout from "$lib/charts/Turnout.svelte";
+	import Map from "$lib/maps/Map2023.svelte";
+	import MapMini from "$lib/maps/MapMini.svelte";
 	import '../styles.css';
 	import ctWithResults2023 from "$data/ctWithResults2023.geo.json";
 
