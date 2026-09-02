@@ -8,7 +8,7 @@
 	import { scaleLinear, extent } from "d3";
 
 	export let values = []; // ct_values.json records (or a pre-filtered subset)
-	export let variables = []; // [{ key, label, format?, domain? }] — domain: [min, max] to fix the axis range and drop out-of-range dots, optional
+	export let variables = []; // [{ key, label, format?, domain?, tickStep? }] — domain: [min, max] to fix the axis range and drop out-of-range dots; tickStep: fixed spacing between tick labels (both optional, and only meaningful together)
 	export let clusterId;
 	export let color = "#3d53fb";
 
@@ -37,9 +37,16 @@
 			? scaleLinear().domain(v.domain).range([0, innerWidth])
 			: scaleLinear().domain(extent(values, (d) => d[v.key])).range([0, innerWidth]).nice()
 	);
-	$: ticks = variables.map((v, i) =>
-		isPercent(v.key) ? [0, 20, 40, 60, 80, 100] : scales[i].ticks(v.domain ? 4 : 5)
-	);
+	$: ticks = variables.map((v, i) => {
+		if (isPercent(v.key)) return [0, 20, 40, 60, 80, 100];
+		if (v.domain && v.tickStep) {
+			const [min, max] = v.domain;
+			const out = [];
+			for (let t = min; t <= max; t += v.tickStep) out.push(t);
+			return out;
+		}
+		return scales[i].ticks(5);
+	});
 	$: valuesFor = variables.map((v) =>
 		v.domain ? values.filter((d) => d[v.key] >= v.domain[0] && d[v.key] <= v.domain[1]) : values
 	);

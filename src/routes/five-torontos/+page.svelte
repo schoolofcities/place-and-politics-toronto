@@ -89,14 +89,8 @@
 				{ label: "Provincial: PC", election: "provincial_2025", field: "pc" },
 				{ label: "Federal: Liberal", election: "federal_2025", field: "liberal" },
 			],
-			graphic: "bars",
-			// TODO: swap for a radar chart if that reads better than grouped bars once styled.
-			compareVars: [
-				{ key: "pct_migrant_5yr", label: "Moved in last 5 years", format: pct },
-				{ key: "pct_renter", label: "Renters", format: pct },
-				{ key: "pct_bachelor_or_higher", label: "Bachelor's degree+", format: pct },
-				{ key: "pct_commute_car", label: "Commute by car", format: pct },
-			],
+			// No graphic for this section (the grouped-bar comparison was removed on request).
+			graphic: null,
 		},
 		"civic-professionals": {
 			votingSpecs: [
@@ -107,7 +101,14 @@
 				{ label: "Federal turnout", election: "federal_2025", field: "turnout" },
 			],
 			graphic: "scatter",
-			scatter: { xKey: "income_median", yKey: "pct_bachelor_or_higher", xLabel: "Median income ($)", yLabel: "Bachelor's degree+ (%)" },
+			scatter: {
+				xKey: "income_median",
+				yKey: "pct_bachelor_or_higher",
+				xLabel: "Median income ($)",
+				yLabel: "Bachelor's degree+ (%)",
+				xFormat: (v) => `$${Math.round(v / 1000)}k`,
+				yFormat: (v) => `${v.toFixed(0)}%`,
+			},
 		},
 		"settled-conservatives": {
 			votingSpecs: [
@@ -120,7 +121,7 @@
 			graphic: "strip",
 			stripVars: [
 				{ key: "pct_renter", label: "% renter (lower = more homeowners)" },
-				{ key: "avg_age", label: "Average age", domain: [30, 60] },
+				{ key: "avg_age", label: "Average age", domain: [30, 60], tickStep: 5 },
 				{ key: "pct_commute_car", label: "% commute by car" },
 			],
 		},
@@ -246,34 +247,51 @@
 				voting={votingRowsFor(cluster, config.votingSpecs)}
 			/>
 
-			<div class="text">
-				<p>{LOREM_IPSUM}</p>
-			</div>
+			{#if config.graphic === "scatter"}
+				<!-- Smaller, left-aligned scatter with the body copy wrapping around its right
+					 side on desktop — the graphic has to come before the text in the markup for
+					 the float-wrap to work, so this section skips the shared text-then-graphic
+					 order below. -->
+				<div class="scatter-wrap">
+					<div class="scatter-graphic">
+						<ScatterHighlight
+							values={ctValues}
+							xKey={config.scatter.xKey}
+							yKey={config.scatter.yKey}
+							xLabel={config.scatter.xLabel}
+							yLabel={config.scatter.yLabel}
+							xFormat={config.scatter.xFormat}
+							yFormat={config.scatter.yFormat}
+							clusterId={cluster.cluster_id}
+							color={cluster.color}
+						/>
+					</div>
+					<div class="text scatter-text">
+						<p>{LOREM_IPSUM}</p>
+					</div>
+				</div>
+			{:else}
+				<div class="text">
+					<p>{LOREM_IPSUM}</p>
+				</div>
 
-			<div class="graphic">
-				{#if config.graphic === "strip"}
-					<StripPlot
-						values={ctValues}
-						variables={config.stripVars}
-						clusterId={cluster.cluster_id}
-						color={cluster.color}
-					/>
-				{:else if config.graphic === "bars"}
-					<ClusterCompareBars rows={compareRows(cluster, config.compareVars)} color={cluster.color} />
-				{:else if config.graphic === "dumbbell"}
-					<DumbbellChart rows={compareRows(cluster, config.compareVars)} color={cluster.color} />
-				{:else if config.graphic === "scatter"}
-					<ScatterHighlight
-						values={ctValues}
-						xKey={config.scatter.xKey}
-						yKey={config.scatter.yKey}
-						xLabel={config.scatter.xLabel}
-						yLabel={config.scatter.yLabel}
-						clusterId={cluster.cluster_id}
-						color={cluster.color}
-					/>
+				{#if config.graphic}
+					<div class="graphic">
+						{#if config.graphic === "strip"}
+							<StripPlot
+								values={ctValues}
+								variables={config.stripVars}
+								clusterId={cluster.cluster_id}
+								color={cluster.color}
+							/>
+						{:else if config.graphic === "bars"}
+							<ClusterCompareBars rows={compareRows(cluster, config.compareVars)} color={cluster.color} />
+						{:else if config.graphic === "dumbbell"}
+							<DumbbellChart rows={compareRows(cluster, config.compareVars)} color={cluster.color} />
+						{/if}
+					</div>
 				{/if}
-			</div>
+			{/if}
 		</section>
 	{/each}
 
@@ -305,6 +323,32 @@
 		margin-top: 24px;
 	}
 
+	/* Civic Professionals' scatter: a smaller, left-aligned chart with the body copy
+	   wrapping around its right side — a plain CSS float, so the graphic must precede the
+	   text in the markup (see the template above) for the wrap to happen. */
+	.scatter-wrap {
+		margin-top: 24px;
+	}
+	.scatter-wrap::after {
+		content: "";
+		display: table;
+		clear: both;
+	}
+	.scatter-graphic {
+		float: left;
+		width: 50%;
+		box-sizing: border-box;
+		padding-right: 20px;
+	}
+	.scatter-text {
+		/* override .text's own centering/max-width so it fills the space beside the float
+		   instead of trying to center itself across the whole row */
+		margin: 0;
+		max-width: none;
+		width: auto;
+		padding: 0;
+	}
+
 	@media (max-width: 600px) {
 		.intro-map,
 		.cluster-section {
@@ -312,6 +356,15 @@
 		}
 		.graphic {
 			margin-top: 18px;
+		}
+		.scatter-graphic {
+			float: none;
+			width: 100%;
+			padding-right: 0;
+			margin-bottom: 16px;
+		}
+		.scatter-text {
+			padding: 0 25px;
 		}
 	}
 </style>
