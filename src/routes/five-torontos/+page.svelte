@@ -13,7 +13,7 @@
 	//     Section 2: Mobile Middle          — grouped-bar comparison
 	//     Section 3: Civic Professionals    — income-vs-education scatter
 	//     Section 4: Settled Conservatives  — triple strip plot
-	//     Section 5: Working Suburbanites   — dumbbell comparison
+	//     Section 5: Working Suburbanites   — normalized triangle (visible minority / income / education)
 	//   (display order per an earlier edit: Settled Conservatives 4th, Working Suburbanites 5th)
 
 	import { onMount, onDestroy } from "svelte";
@@ -25,7 +25,10 @@
 	import StripPlot from "$lib/StripPlot.svelte";
 	import ClusterCompareBars from "$lib/ClusterCompareBars.svelte";
 	import ScatterHighlight from "$lib/ScatterHighlight.svelte";
-	import DumbbellChart from "$lib/DumbbellChart.svelte";
+	import TernaryProfilePlot from "$lib/profiles/TernaryProfilePlot.svelte";
+	// A radar/triangle alternative to the ternary above — kept here, commented out, in case it
+	// gets swapped back in later (see the commented markup near the bottom of the template).
+	// import RadarTriangle from "$lib/profiles/RadarTriangle.svelte";
 
 	import clustersSummary from "$data/clustering_neighbourhoods/clusters_summary.json";
 	import clustersMetadata from "$data/clustering_neighbourhoods/clusters_metadata.json";
@@ -37,7 +40,6 @@
 	const clusters = [...clustersSummary].sort((a, b) => a.display_order - b.display_order);
 
 	const pct = (v) => `${v.toFixed(0)}%`;
-	const dollars = (v) => `$${Math.round(v).toLocaleString()}`;
 
 	// Fixed socioeconomic vars shown in every section (per the outline). `delta` is the
 	// cluster's percentage-point difference from the Toronto-wide figure, already computed
@@ -133,13 +135,15 @@
 				{ label: "Provincial: PC", election: "provincial_2025", field: "pc" },
 				{ label: "Federal: Conservative", election: "federal_2025", field: "conservative" },
 			],
-			graphic: "dumbbell",
-			// TODO: try ClusterCompareBars instead — outline leaves the chart type open.
-			compareVars: [
-				{ key: "pct_visible_minority", label: "Visible minority", format: pct },
-				{ key: "income_median", label: "Median income", format: dollars },
-				{ key: "pct_bachelor_or_higher", label: "Bachelor's degree+", format: pct },
-			],
+			graphic: "ternary",
+			// [bottom-left, bottom-right, top] — see $lib/profiles/TernaryProfilePlot.svelte.
+			ternary: {
+				vars: [
+					{ key: "pct_visible_minority", label: "% Visible Minority" },
+					{ key: "income_median", label: "Median income" },
+					{ key: "pct_bachelor_or_higher", label: "% Bachelor's degree+" },
+				],
+			},
 		},
 	};
 
@@ -247,26 +251,41 @@
 				voting={votingRowsFor(cluster, config.votingSpecs)}
 			/>
 
-			{#if config.graphic === "scatter"}
-				<!-- Smaller, left-aligned scatter with the body copy wrapping around its right
+			{#if config.graphic === "scatter" || config.graphic === "ternary"}
+				<!-- Smaller, left-aligned graphic with the body copy wrapping around its right
 					 side on desktop — the graphic has to come before the text in the markup for
-					 the float-wrap to work, so this section skips the shared text-then-graphic
+					 the float-wrap to work, so these two graphics skip the shared text-then-graphic
 					 order below. -->
-				<div class="scatter-wrap">
-					<div class="scatter-graphic">
-						<ScatterHighlight
-							values={ctValues}
-							xKey={config.scatter.xKey}
-							yKey={config.scatter.yKey}
-							xLabel={config.scatter.xLabel}
-							yLabel={config.scatter.yLabel}
-							xFormat={config.scatter.xFormat}
-							yFormat={config.scatter.yFormat}
-							clusterId={cluster.cluster_id}
-							color={cluster.color}
-						/>
+				<div class="float-wrap">
+					<div class="float-graphic">
+						{#if config.graphic === "scatter"}
+							<ScatterHighlight
+								values={ctValues}
+								xKey={config.scatter.xKey}
+								yKey={config.scatter.yKey}
+								xLabel={config.scatter.xLabel}
+								yLabel={config.scatter.yLabel}
+								xFormat={config.scatter.xFormat}
+								yFormat={config.scatter.yFormat}
+								clusterId={cluster.cluster_id}
+								color={cluster.color}
+							/>
+						{:else if config.graphic === "ternary"}
+							<TernaryProfilePlot
+								values={ctValues}
+								vars={config.ternary.vars}
+								clusterId={cluster.cluster_id}
+								color={cluster.color}
+							/>
+							<!-- Alternative graphic for this section — a radar/triangle hybrid instead of
+								 the normalized ternary above. Sized to fit this same half-page float-wrap
+								 layout; swap it in by uncommenting this and commenting out the
+								 TernaryProfilePlot above (and its import at the top of the script).
+							<RadarTriangle {clusters} activeClusterId={cluster.cluster_id} />
+							-->
+						{/if}
 					</div>
-					<div class="text scatter-text">
+					<div class="text float-text">
 						<p>{LOREM_IPSUM}</p>
 					</div>
 				</div>
@@ -286,8 +305,6 @@
 							/>
 						{:else if config.graphic === "bars"}
 							<ClusterCompareBars rows={compareRows(cluster, config.compareVars)} color={cluster.color} />
-						{:else if config.graphic === "dumbbell"}
-							<DumbbellChart rows={compareRows(cluster, config.compareVars)} color={cluster.color} />
 						{/if}
 					</div>
 				{/if}
@@ -323,24 +340,25 @@
 		margin-top: 24px;
 	}
 
-	/* Civic Professionals' scatter: a smaller, left-aligned chart with the body copy
-	   wrapping around its right side — a plain CSS float, so the graphic must precede the
-	   text in the markup (see the template above) for the wrap to happen. */
-	.scatter-wrap {
+	/* Smaller, left-aligned graphic (Civic Professionals' scatter, Working Suburbanites'
+	   ternary plot) with the body copy wrapping around its right side — a plain CSS float,
+	   so the graphic must precede the text in the markup (see the template above) for the
+	   wrap to happen. */
+	.float-wrap {
 		margin-top: 24px;
 	}
-	.scatter-wrap::after {
+	.float-wrap::after {
 		content: "";
 		display: table;
 		clear: both;
 	}
-	.scatter-graphic {
+	.float-graphic {
 		float: left;
 		width: 50%;
 		box-sizing: border-box;
 		padding-right: 20px;
 	}
-	.scatter-text {
+	.float-text {
 		/* override .text's own centering/max-width so it fills the space beside the float
 		   instead of trying to center itself across the whole row */
 		margin: 0;
@@ -357,13 +375,13 @@
 		.graphic {
 			margin-top: 18px;
 		}
-		.scatter-graphic {
+		.float-graphic {
 			float: none;
 			width: 100%;
 			padding-right: 0;
 			margin-bottom: 16px;
 		}
-		.scatter-text {
+		.float-text {
 			padding: 0 25px;
 		}
 	}
