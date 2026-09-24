@@ -1,0 +1,15 @@
+variable,plain_name,family,turnout_corr,abs_turnout_corr,vip,pls_coefficient,direction
+block3_visible_minority_share,visible minority share,immigration_citizenship,-0.6417173171602051,0.6417173171602051,1.836704532157932,-0.08104446274750057,lower turnout
+block3_immigrant_share,immigrant share,immigration_citizenship,-0.5732675165503992,0.5732675165503992,1.6611653151493138,-0.09612806373511791,lower turnout
+block1_bachelors_or_higher_25_64_share,bachelor or higher education share,household_class,0.5538356788667096,0.5538356788667096,1.5851156320787876,0.09960481588642,higher turnout
+block1_average_household_size,average household size,household_class,-0.4853684117293248,0.4853684117293248,1.3966584247856502,-0.03593670008237007,lower turnout
+block3_citizen_adult_share,citizen adult share,immigration_citizenship,0.3528999184255127,0.3528999184255127,1.0253270383859818,0.08707575566544357,higher turnout
+block1_age_65_plus_share,age 65 plus share,age_structure,0.18188878052869448,0.18188878052869448,0.8192387774482222,0.19551108512367493,higher turnout
+block1_age_18_34_share,age 18 to 34 share,age_structure,-0.13639181937414036,0.13639181937414036,0.6808890239347044,-0.15146205589049488,lower turnout
+block1_low_income_lim_at_share,low income share,household_class,-0.1990786846879914,0.1990786846879914,0.6206637800894405,-0.03821468685194278,lower turnout
+block5_tts_no_car_household_share,TTS no car household share,transportation_access,0.18164025827316618,0.18164025827316618,0.5364388350478456,0.020776443729759595,higher turnout
+block2_same_address_5yr_share,same address five year share,residential_stability,-0.11971872932902937,0.11971872932902937,0.40814341124402137,-0.0016583566555022152,lower turnout
+block2_apartment_share,apartment share,housing_form_density,0.08861319464286167,0.08861319464286167,0.3319385793511266,0.02212097446189787,higher turnout
+block2_condo_share,condo share,housing_form_density,0.08381671202939854,0.08381671202939854,0.311449402826627,0.021042379088472164,higher turnout
+block2_population_density_per_km2,population density,housing_form_density,0.10150379571559781,0.10150379571559781,0.29915312933910315,4.645236153132875e-07,higher turnout
+block2_renter_share,renter share,housing_tenure,-0.08117445926296538,0.08117445926296538,0.2854726258238262,-0.023810837039552144,lower turnout
