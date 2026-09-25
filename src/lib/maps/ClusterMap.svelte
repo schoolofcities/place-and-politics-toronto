@@ -139,6 +139,11 @@
 		font-size: 10px;
 		text-align: center;
 		color: #333;
+		/* Row 1 can be taller than this header's own text when it also holds the "show all"
+		   button (the rotating intro map's multi-row legend) — align to the row's bottom edge
+		   so the header sits the same distance from the data row below it either way, rather
+		   than floating higher whenever row 1 grows past the text's natural height. */
+		align-self: end;
 	}
 	.legend-swatch {
 		width: 20px;

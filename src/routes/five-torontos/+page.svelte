@@ -110,10 +110,10 @@
 
 <main>
 	<div class="title">
-		<h4>Place & Politics in Toronto</h4>
+		<h4>Place & Politics in Toronto - Part 6</h4>
 		<div id="mini-line"></div>
 		<h1>The Five Toronto's</h1>
-		<h3>Aniket Kali <br />September 2026</h3>
+		<h3><a href="https://www.linkedin.com/in/aniket-kali-8a8b9921b/">Aniket Kali</a> <br />October 2026</h3>
 		<div id="mini-line"></div>
 	</div>
 
@@ -414,13 +414,22 @@
 			</p>
 		</div>
 	</section>
+
+	<div id="mini-line"></div>
+
+	<div class="info">
+		<p>
+			Thanks to Jeff Allen and Zack Taylor for reviewing the methods, research, and text
+			behind this piece, and to Felicity Heyworth for reviewing the text.
+		</p>
+	</div>
 </main>
 
 <style>
 	.intro-map,
 	.cluster-section,
 	.methods-section {
-		margin: 0 auto 50px;
+		margin: 0 auto 40px;
 		max-width: 850px;
 		width: calc(100% - 20px);
 	}
@@ -431,7 +440,7 @@
 		margin-bottom: 16px;
 	}
 	.graphic {
-		margin-top: 24px;
+		margin-top: 20px;
 	}
 
 	/* Contains the `.inline-graphic` float below so the section's own height (and anything
@@ -456,8 +465,8 @@
 	@media (min-width: 601px) {
 		.inline-graphic {
 			float: left;
-			width: 280px;
-			max-width: 45%;
+			width: 320px;
+			max-width: 50%;
 			margin: 4px 24px 16px 0;
 		}
 	}

@@ -20,7 +20,9 @@
 
 	let divWidth = 600;
 	$: innerWidth = divWidth - margin.left - margin.right;
-	$: height = 360 - margin.top - margin.bottom;
+	// Total SVG height tracks divWidth so the chart's bounding box is always square, matching
+	// the ternary plot it sits alongside in the same inline-graphic layout (see +page.svelte).
+	$: height = divWidth - margin.top - margin.bottom;
 
 	$: xScale = scaleLinear().domain(extent(values, (d) => d[xKey])).range([0, innerWidth]).nice();
 	$: yScale = scaleLinear().domain(extent(values, (d) => d[yKey])).range([height, 0]).nice();
