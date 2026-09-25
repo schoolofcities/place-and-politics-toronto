@@ -13,6 +13,7 @@
 	export let tracts; // ct_clusters.geo.json FeatureCollection
 	export let activeClusterId = null; // null = every cluster at full colour; a cluster_id = spotlight just that one
 	export let legend = []; // [{ cluster_id, label, color, pct }] — 5 rows for the intro map, 1 for a section map
+	export let label = "Map of Toronto's 585 census tracts, coloured by political cluster"; // accessible name for the map svg
 
 	const FULL_OPACITY = 1;
 	const FADE_OPACITY = 0.1; // faint, but still visible so the rest of the city stays legible
@@ -55,7 +56,7 @@
 </script>
 
 <div class="map-wrap" bind:offsetWidth={divWidth}>
-	<svg width={innerWidth} {height}>
+	<svg width={innerWidth} {height} role="img" aria-label={label}>
 		{#each features as feature}
 			<path class="ct" d={path(feature)} fill={feature.properties.cluster_color} fill-opacity={opacityFor(feature.properties)} />
 		{/each}
@@ -78,6 +79,7 @@
 					class:on={showAll}
 					style:grid-row="1"
 					style:grid-column="2"
+					aria-pressed={showAll}
 					on:click={() => (showAll = !showAll)}
 				>
 					Show all

@@ -97,10 +97,12 @@
 	<title>Place and Politics in Toronto</title>
 	<meta name="description" content="Clustering Toronto's neighbourhoods into five political groups" />
 	<meta name="author" content="School of Cities" />
+	<link rel="canonical" href="https://schoolofcities.github.io/place-and-politics-toronto/five-torontos" />
 	<meta property="og:title" content="Place and Politics in Toronto" />
 	<meta name="og:description" content="Clustering Toronto's neighbourhoods into five political groups" />
-	<meta property="og:type" content="website" />
+	<meta property="og:type" content="article" />
 	<meta property="og:url" content="https://schoolofcities.github.io/place-and-politics-toronto/five-torontos" />
+	<meta property="og:locale" content="en_CA" />
 </svelte:head>
 
 <!-- Page is still in development — comment out this one line to unlock it for launch. -->
@@ -139,7 +141,12 @@
 	</div>
 
 	<section class="intro-map">
-		<ClusterMap tracts={ctClusters} activeClusterId={rotatingClusterId} legend={allClustersLegend} />
+		<ClusterMap
+			tracts={ctClusters}
+			activeClusterId={rotatingClusterId}
+			legend={allClustersLegend}
+			label="Map of Toronto rotating through each of the five political clusters, showing which census tracts belong to the currently highlighted group"
+		/>
 	</section>
 
 	<div class="text">
@@ -160,7 +167,12 @@
 		<section class="cluster-section">
 			<h2>Section {i + 1}: {cluster.label}</h2>
 
-			<ClusterMap tracts={ctClusters} activeClusterId={clusterId} legend={legendFor(cluster)} />
+			<ClusterMap
+				tracts={ctClusters}
+				activeClusterId={clusterId}
+				legend={legendFor(cluster)}
+				label={`Map of Toronto highlighting the census tracts belonging to the ${cluster.label} cluster`}
+			/>
 
 			<ClusterSummaryTable
 				socioeconomic={socioeconomicFor(cluster)}

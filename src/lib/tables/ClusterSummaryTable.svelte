@@ -14,6 +14,11 @@
 		{ heading: "Voting", rows: voting },
 	];
 
+	// Each instance gets a unique id prefix (rather than a static string) so the heading/table
+	// aria-labelledby pairing below stays valid even with 5 of these on one page (one per
+	// cluster section) — duplicate ids are invalid HTML and break the association for AT users.
+	let uid = `cst-${Math.random().toString(36).slice(2, 9)}`;
+
 	function deltaText(delta) {
 		const rounded = Math.round(delta);
 		const arrow = rounded >= 0 ? "▲" : "▼";
@@ -23,14 +28,15 @@
 
 <div class="summary-tables">
 	{#if title}
-		<h4>{title}</h4>
+		<h3>{title}</h3>
 	{/if}
 
 	<div class="table-grid">
-		{#each tables as { heading, rows }}
+		{#each tables as { heading, rows }, i}
+			{@const headingId = `${uid}-${i}`}
 			<div class="table-block">
-				<h5>{heading}</h5>
-				<table>
+				<h3 id={headingId}>{heading}</h3>
+				<table aria-labelledby={headingId}>
 					<tbody>
 						{#each rows as row}
 							<tr>
@@ -63,9 +69,10 @@
 		grid-template-columns: repeat(2, 1fr);
 		gap: 20px;
 	}
-	.table-block h5 {
-		margin-bottom: 4px;
+	.table-block h3 {
+		margin: 0 0 4px;
 		font-size: 14px;
+		font-weight: normal;
 		text-transform: uppercase;
 		letter-spacing: 0.04em;
 		color: #666;

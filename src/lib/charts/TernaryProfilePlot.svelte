@@ -15,6 +15,10 @@
 	export let clusterId;
 	export let color = "#3d53fb";
 
+	$: ariaLabel = `Triangle plot comparing ${vars
+		.map((v) => v.label)
+		.join(", ")} across Toronto's 585 census tracts, with this cluster's tracts highlighted`;
+
 	const FADE_COLOR = "#d8d8d8";
 	const MIN_SIDE = 110; // small enough that the triangle + margins still fit a narrow container
 	const LABEL_OFFSET = 16; // how far outside the triangle edge the slanted labels sit
@@ -106,7 +110,7 @@
 </script>
 
 <div bind:offsetWidth={divWidth}>
-	<svg width={totalWidth} height={totalHeight}>
+	<svg width={totalWidth} height={totalHeight} role="img" aria-label={ariaLabel}>
 		<g transform={`translate(${margin.left},${margin.top})`}>
 			<path class="tri" d={`M${A.x},${A.y} L${B.x},${B.y} L${C.x},${C.y} Z`} />
 

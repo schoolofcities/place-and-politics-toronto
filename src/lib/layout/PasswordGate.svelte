@@ -26,6 +26,7 @@
 				type="password"
 				bind:value={entered}
 				placeholder="Enter password"
+				aria-label="Password"
 				on:keydown={(e) => e.key === "Enter" && checkPassword()}
 			/>
 			<button on:click={checkPassword}>Unlock</button>

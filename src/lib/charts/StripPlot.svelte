@@ -12,6 +12,10 @@
 	export let clusterId;
 	export let color = "#3d53fb";
 
+	$: ariaLabel = `Strip plot${variables.length > 1 ? "s" : ""} showing ${variables
+		.map((v) => v.label)
+		.join(" and ")} across Toronto's 585 census tracts, with this cluster's tracts highlighted`;
+
 	const FADE_COLOR = "#d8d8d8";
 	const DOT_R = 2.5;
 	const JITTER_SPACING = 6; // px between successive dots stacked at ~the same x
@@ -84,7 +88,7 @@
 </script>
 
 <div bind:offsetWidth={divWidth}>
-	<svg width={divWidth} {height}>
+	<svg width={divWidth} {height} role="img" aria-label={ariaLabel}>
 		<g transform={`translate(${margin.left},${margin.top})`}>
 			{#each variables as v, i}
 				{@const y = i * rowHeight}

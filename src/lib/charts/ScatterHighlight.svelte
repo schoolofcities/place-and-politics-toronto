@@ -15,6 +15,10 @@
 	export let clusterId;
 	export let color = "#3d53fb";
 
+	$: ariaLabel = `Scatter plot of ${yLabel || "the y variable"} versus ${
+		xLabel || "the x variable"
+	} across Toronto's 585 census tracts, with this cluster's tracts highlighted`;
+
 	const FADE_COLOR = "#d8d8d8";
 	const margin = { top: 10, bottom: 44, left: 56, right: 16 };
 
@@ -31,7 +35,7 @@
 </script>
 
 <div bind:offsetWidth={divWidth}>
-	<svg width={divWidth} height={height + margin.top + margin.bottom}>
+	<svg width={divWidth} height={height + margin.top + margin.bottom} role="img" aria-label={ariaLabel}>
 		<g transform={`translate(${margin.left},${margin.top})`}>
 			<line x1="0" x2={innerWidth} y1={height} y2={height} class="axis" />
 			<line x1="0" x2="0" y1="0" y2={height} class="axis" />
