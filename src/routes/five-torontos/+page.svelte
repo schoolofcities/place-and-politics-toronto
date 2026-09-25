@@ -418,11 +418,11 @@
 				For full details on the data, interpolation, model selection, sensitivity tests,
 				aggregation and limitations, see our complete
 				<a href="https://github.com/schoolofcities/place-and-politics-toronto/tree/main/analysis/clustering_neighbourhoods">Data and Methods</a>
-				and the three reproducible analysis notebooks:
-				<a href="https://github.com/schoolofcities/place-and-politics-toronto/blob/main/analysis/clustering_neighbourhoods/explore_neighbourhood_clusters.ipynb">model exploration</a>,
-				<a href="https://github.com/schoolofcities/place-and-politics-toronto/blob/main/analysis/clustering_neighbourhoods/explore_clusters_makeup.ipynb">cluster interpretation</a>,
+				and the reproducible analysis notebooks:
+				<a href="https://github.com/schoolofcities/place-and-politics-toronto/blob/main/analysis/clustering_neighbourhoods/02_model_exploration.ipynb">model exploration</a>,
+				<a href="https://github.com/schoolofcities/place-and-politics-toronto/blob/main/analysis/clustering_neighbourhoods/03_cluster_interpretation.ipynb">cluster interpretation</a>,
 				and
-				<a href="https://github.com/schoolofcities/place-and-politics-toronto/blob/main/analysis/clustering_neighbourhoods/process_ct_to_cluster.ipynb">final data processing</a>.
+				<a href="https://github.com/schoolofcities/place-and-politics-toronto/blob/main/analysis/clustering_neighbourhoods/04_process_ct_to_cluster.ipynb">final data processing</a>.
 			</p>
 		</div>
 	</section>
