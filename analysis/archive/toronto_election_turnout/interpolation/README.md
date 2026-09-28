@@ -115,7 +115,7 @@ Open `http://127.0.0.1:5180`.
 Outputs are written to:
 
 ```text
-data/toronto_election_turnout/interpolation/processed/
+analysis/toronto_election_turnout/data/interpolation/processed/
 ```
 
 ## Outputs
@@ -142,7 +142,7 @@ stage.
 Map-ready files are written under:
 
 ```text
-data/toronto_election_turnout/interpolation/map/
+analysis/toronto_election_turnout/data/interpolation/map/
 ```
 
 - `municipal_2023_mayor_ct_map.geojson`

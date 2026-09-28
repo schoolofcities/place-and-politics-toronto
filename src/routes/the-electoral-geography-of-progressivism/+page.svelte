@@ -1,10 +1,8 @@
 <script>
 
 	import Top from "$lib/layout/TopSofC.svelte";
-	import UnderConstruction from "$lib/layout/UnderConstruction.svelte";
 	import MapMini from "$lib/maps/MapMini.svelte";
     import WebCard from "$assets/web-card-2.png";
-	import '../styles.css';
 	import ctWithResults from "$data/ctWithResults.geo.json";
 
 	var coloursLeft = ["#defde0", "#a6e7bb", "#73d398", "#3cbd73", "#00a64b"];
@@ -19,25 +17,17 @@
 
 <svelte:head>
 
-	<link
-		href="https://fonts.googleapis.com/css2?family=Bitter&family=Playfair+Display&display=swap"
-		rel="stylesheet"
-	/>
-	<link
-		href="https://fonts.googleapis.com/css2?family=Roboto&family=Source+Serif+Pro&display=swap"
-		rel="stylesheet"
-	/>
 	<meta
 		name="viewport"
 		content="width=device-width, initial-scale=1, minimum-scale=1"
 	/>
 
     <title>Place and Politics in Toronto</title>
-    <meta name="description" content="The Electoral Geography of Progressivism in Toronto">
+    <meta name="description" content="The electoral geography of progressivism in Toronto">
     <meta name="author" content="Zack Taylor & Jeff Allen">
 
 	<meta property="og:title" content="Place and Politics in Toronto" />
-    <meta name="og:description" content="The Electoral Geography of Progressivism in Toronto" />
+    <meta name="og:description" content="The electoral geography of progressivism in Toronto" />
     <meta property="og:type" content="website" />
     <meta property="og:url" content="https://schoolofcities.github.io/place-and-politics-toronto/torontos-two-rights" />
     <meta property="og:image" content="https://raw.githubusercontent.com/schoolofcities/place-and-politics-toronto/main/src/assets/web-card-3.png" />
@@ -47,7 +37,7 @@
     <meta name="twitter:site" content="https://schoolofcities.github.io/place-and-politics-toronto/torontos-two-rights" />
     <meta name="twitter:creator" content="@JeffAllenMaps" />
     <meta name="twitter:title" content="Place and Politics in Toronto" />
-    <meta name="twitter:description" content="The Electoral Geography of Progressivism in Toronto" />
+    <meta name="twitter:description" content="The electoral geography of progressivism in Toronto" />
     <meta name="twitter:image" content="https://raw.githubusercontent.com/schoolofcities/place-and-politics-toronto/main/src/assets/web-card-3.png" />
 
 </svelte:head>
@@ -58,7 +48,6 @@
 
 <main>
 
-	<!-- <UnderConstruction/> -->
 	
 	<div class="title">
 
@@ -66,7 +55,7 @@
 
 		<div id="mini-line"></div>
 
-		<h1>The Electoral Geography of Progressivism in Toronto</h1>
+		<h1>The electoral geography of progressivism in Toronto</h1>
 		<h3><a href="https://politicalscience.uwo.ca/people/faculty/full-time_faculty/zack_taylor.html">Zack Taylor</a> & <a href="https://jamaps.github.io/">Jeff Allen</a> <br><br> November 30, 2022</h3>
 
 		<div id="mini-line"></div>

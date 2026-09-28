@@ -61,6 +61,6 @@ npm run build:data
 ```
 
 Processed outputs are grouped by election under
-`data/toronto_election_turnout/elections/processed/`. Each election folder
+`analysis/toronto_election_turnout/data/elections/processed/`. Each election folder
 contains `turnout/` and `candidate_details/`; shared QA metadata is in
 `processed/metadata/`.

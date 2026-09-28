@@ -23,8 +23,8 @@ import run_meeting_pls as meeting  # noqa: E402
 
 
 INPUT = wf.INPUT
-GEOMETRY = REPO_ROOT / "data/toronto_election_turnout/variables/processed/toronto_ct_blocks_1_5_modelling_master.geojson"
-BASE = REPO_ROOT / "data/toronto_election_turnout/modelling/processed/dimension_reduction/meeting_PLS/turnout_level_comparisons"
+GEOMETRY = REPO_ROOT / "analysis/toronto_election_turnout/data/variables/processed/toronto_ct_blocks_1_5_modelling_master.geojson"
+BASE = REPO_ROOT / "analysis/toronto_election_turnout/data/modelling/processed/dimension_reduction/meeting_PLS/turnout_level_comparisons"
 OUT = BASE / "advanced_validation"
 SPATIAL_ROOT = OUT / "01_spatial_nested_cv"
 BOOT_ROOT = OUT / "02_spatial_block_bootstrap"

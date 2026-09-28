@@ -15,7 +15,7 @@ from statistics import mean
 
 
 REPO_ROOT = Path(__file__).resolve().parents[4]
-DATA_ROOT = REPO_ROOT / "data" / "toronto_election_turnout" / "modelling"
+DATA_ROOT = REPO_ROOT / "analysis" / "toronto_election_turnout" / "data" / "modelling"
 PROCESSED_ROOT = DATA_ROOT / "processed"
 OUTPUT_ROOT = PROCESSED_ROOT / "models"
 ANALYSIS_ROOT = REPO_ROOT / "analysis" / "toronto_election_turnout" / "modelling"

@@ -4,11 +4,11 @@
 
 	let width;
 
-	let barWidth = 262;
+	let barWidth = 246;
 	$: if (width < 500) {
-		barWidth = 262
+		barWidth = 246
 	} else {
-		barWidth = 383
+		barWidth = 361
 	}
 
 </script>
@@ -34,13 +34,13 @@
 </div>
 
 <style>
+	/* scrolls away with the page rather than staying fixed at the top */
 	#bar {
-		position: fixed;
+		position: relative;
 		overflow: hidden;
-   		top: 0px;
 		height: 50px;
 		background-color: #fffefd;
-		margin-bottom: 20px;
+		margin-bottom: 0px;
 		border-bottom: 1px solid rgb(126, 126, 126);
 		width: 100%;
 		min-width: 200px;
@@ -69,6 +69,7 @@
 		text-decoration: underline;
 		color: black;
 		font-size: 15px;
+		line-height: 18.5px;
 	}
 
 	a {
@@ -80,8 +81,9 @@
 
 	img {
 		color: blue;
-		height: 50px;
+		height: 45px;
 		width: auto;
+		margin-top: 2px;
 	}
 	img:hover {
 		opacity: 0.5;

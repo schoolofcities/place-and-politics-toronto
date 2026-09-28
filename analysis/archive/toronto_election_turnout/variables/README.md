@@ -13,7 +13,7 @@ variables/
 
 Scripts in this module should read canonical source outputs from the existing
 research modules and write engineered feature tables under
-`data/toronto_election_turnout/variables/processed/`.
+`analysis/toronto_election_turnout/data/variables/processed/`.
 
 Do not download new official source data from this module when the source
 belongs more clearly to `census/`, `elections/`, or `accessibility/`.
@@ -36,7 +36,7 @@ outputs, and Task 2 raw non-Census sources, then writes the modelling-ready
 Blocks 1-5 CT database under:
 
 ```text
-data/toronto_election_turnout/variables/processed/
+analysis/toronto_election_turnout/data/variables/processed/
 ```
 
 The script also regenerates the variable dictionary, QA report, methodology

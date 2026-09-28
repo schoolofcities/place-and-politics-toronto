@@ -2,7 +2,7 @@ import fs from "node:fs/promises";
 import { SpreadsheetFile, Workbook } from "@oai/artifact-tool";
 
 const repoRoot = new URL("../../../", import.meta.url).pathname.replace(/\/$/, "");
-const releaseRoot = `${repoRoot}/data/toronto_election_turnout/final/robustness_checks`;
+const releaseRoot = `${repoRoot}/analysis/toronto_election_turnout/data/final/robustness_checks`;
 const resultCsv = await fs.readFile(`${releaseRoot}/toronto_ct_meeting_robustness_spatial_cv.csv`, "utf8");
 const validationCsv = await fs.readFile(`${releaseRoot}/robustness_validation_summary.csv`, "utf8");
 const pcaSummaryCsv = await fs.readFile(`${releaseRoot}/supervised_pca_model_summary.csv`, "utf8");

@@ -25,7 +25,7 @@ import pandas as pd
 
 
 REPO_ROOT = Path(__file__).resolve().parents[3]
-FINAL_ROOT = REPO_ROOT / "data/toronto_election_turnout/final"
+FINAL_ROOT = REPO_ROOT / "analysis/toronto_election_turnout/data/final"
 OUTPUT_DIR = FINAL_ROOT / "visuals"
 OBSERVED_FILE = FINAL_ROOT / "observed/toronto_ct_2021_observed_variables.csv"
 ROBUSTNESS_FILE = FINAL_ROOT / "robustness_checks/robustness_validation_summary.csv"

@@ -120,10 +120,10 @@ python elections/scripts/build_election_datasets.py
 
 Outputs go to:
 
-- `../../data/toronto_election_turnout/elections/processed/municipal_2023_mayor/`
-- `../../data/toronto_election_turnout/elections/processed/provincial_2025/`
-- `../../data/toronto_election_turnout/elections/processed/federal_2025/`
-- `../../data/toronto_election_turnout/elections/processed/metadata/`
+- `../../toronto_election_turnout/data/elections/processed/municipal_2023_mayor/`
+- `../../toronto_election_turnout/data/elections/processed/provincial_2025/`
+- `../../toronto_election_turnout/data/elections/processed/federal_2025/`
+- `../../toronto_election_turnout/data/elections/processed/metadata/`
 
 The wrapper first rebuilds turnout data, then adds poll IDs, party totals,
 candidate catalogs, and sparse poll-candidate vote bridges. The two component
@@ -139,9 +139,9 @@ python census/scripts/build_census_profile_tables.py
 
 Outputs go to:
 
-- `../../data/toronto_election_turnout/census/processed/da/`
-- `../../data/toronto_election_turnout/census/processed/ct/`
-- `../../data/toronto_election_turnout/census/processed/ada/`
+- `../../toronto_election_turnout/data/census/processed/da/`
+- `../../toronto_election_turnout/data/census/processed/ct/`
+- `../../toronto_election_turnout/data/census/processed/ada/`
 
 The canonical outputs are one wide profile table per geography: DA, CT, and
 ADA. Variable-specific source extracts are retained under the DA and CT
@@ -161,7 +161,7 @@ python census/scripts/convert_zack_taylor_stata.py /path/to/tor_electoral_ct2021
 
 Outputs go to:
 
-- `../../data/toronto_election_turnout/census/reference/zack_taylor_ct2021/`
+- `../../toronto_election_turnout/data/census/reference/zack_taylor_ct2021/`
 
 Build the poll-to-CT interpolation:
 
@@ -172,7 +172,7 @@ python3 scripts/run_interpolation.py
 
 Outputs go to:
 
-- `../../data/toronto_election_turnout/interpolation/processed/`
+- `../../toronto_election_turnout/data/interpolation/processed/`
 - Final CT result and candidate tables stay directly in `processed/`.
 - Crosswalks, audits, exclusions, validation, and summaries go to
   numbered stage folders under `processed/intermediate/`.
@@ -198,5 +198,5 @@ Census/interpolation notes live in:
 
 Generated audit findings and output dictionaries live under:
 
-- `../../data/toronto_election_turnout/interpolation/processed/README.md`
-- `../../data/toronto_election_turnout/interpolation/processed/intermediate/README.md`
+- `../../toronto_election_turnout/data/interpolation/processed/README.md`
+- `../../toronto_election_turnout/data/interpolation/processed/intermediate/README.md`

@@ -10,7 +10,7 @@ from pathlib import Path
 
 
 REPO_ROOT = Path(__file__).resolve().parents[4]
-CENSUS_ROOT = REPO_ROOT / "data" / "toronto_election_turnout" / "census"
+CENSUS_ROOT = REPO_ROOT / "analysis" / "toronto_election_turnout" / "data" / "census"
 PROCESSED_ROOT = CENSUS_ROOT / "processed"
 DA_ROOT = PROCESSED_ROOT / "da"
 CT_ROOT = PROCESSED_ROOT / "ct"

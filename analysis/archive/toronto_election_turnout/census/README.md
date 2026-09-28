@@ -36,7 +36,7 @@ census/
 
 - `scripts/convert_zack_taylor_stata.py`
   - Converts the Zack Taylor-provided CT-apportioned Stata dataset to CSV.
-  - Writes to `data/toronto_election_turnout/census/reference/zack_taylor_ct2021/`.
+  - Writes to `analysis/toronto_election_turnout/data/census/reference/zack_taylor_ct2021/`.
 
 - `scripts/build_census_geography_viewer_data.py`
   - Builds the Toronto `DA -> CT -> ADA` crosswalk and map-ready GeoJSON.
@@ -81,4 +81,4 @@ npm run start:census
 Open `http://127.0.0.1:5174`.
 
 The viewer reads the map-ready GeoJSON under the `da/`, `ct/`, and `ada/`
-folders of `data/toronto_election_turnout/census/processed/`.
+folders of `analysis/toronto_election_turnout/data/census/processed/`.

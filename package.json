@@ -20,6 +20,7 @@
 	},
 	"dependencies": {
 		"d3": "^7.9.0",
+		"hyparquet": "^1.31.2",
 		"maplibre-gl": "^5.24.0",
 		"svelte-select": "^5.8.3"
 	},

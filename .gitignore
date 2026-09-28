@@ -48,3 +48,6 @@ pnpm-debug.log*
 data/clustering_neighbourhoods
 data/campaign_finance
 data/postal_code_conversion
+# GeoPackage temp files (created while a .gpkg is open in QGIS)
+*.gpkg-shm
+*.gpkg-wal

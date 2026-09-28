@@ -18,7 +18,7 @@ import pandas as pd
 
 
 REPO_ROOT = Path(__file__).resolve().parents[3]
-DATA_ROOT = REPO_ROOT / "data/toronto_election_turnout"
+DATA_ROOT = REPO_ROOT / "analysis/toronto_election_turnout/data"
 ANALYSIS_ROOT = REPO_ROOT / "analysis/toronto_election_turnout"
 FINAL_ROOT = DATA_ROOT / "final"
 

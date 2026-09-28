@@ -20,7 +20,7 @@ from run_spatial_block_models import (
 
 
 REPO_ROOT = Path(__file__).resolve().parents[4]
-DATA_ROOT = REPO_ROOT / "data" / "toronto_election_turnout"
+DATA_ROOT = REPO_ROOT / "analysis" / "toronto_election_turnout" / "data"
 OUTPUT_ROOT = DATA_ROOT / "modelling" / "processed" / "spatial_models"
 INPUT = OUTPUT_ROOT / "toronto_ct_blocks_1_5_model_input_housing_augmented_median_imputed.csv"
 SUMMARY_OUTPUT = OUTPUT_ROOT / "polling_distance_polynomial_model_summary.csv"

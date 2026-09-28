@@ -1,0 +1,191 @@
+﻿variable,varname,group,keep
+agec_tot,Population by Age - Total,People,0
+agec0019_pct,% Age 0 - 19,People,1
+agec065p_pct,% Age 65+,People,1
+agec2029_pct,% Age 20 - 29,People,1
+agec3064_pct,% Age 30 - 64,People,0
+c_imstimmi0121,"% ch, Immigrant Pop. (2001-2021)",People,0
+c_imstnimm0121,"% ch, Canada-born Pop. (2001-2021)",People,0
+c_occ_manu0121,"% ch, Mfg. Occ. (2001-2021)",People,0
+c_occ_mgmt0121,"% ch, Mgmt. Occ.(2001-2021)",People,0
+c_rlgnmusl0121,"% ch, Muslim Pop. (2001-2021)",People,0
+c_rlgnnone0121,"% ch, Atheist Pop. (2001-2021)",People,0
+c_vminvisiblck0121,"% ch, Black Pop. (2001-2021)",People,0
+c_vminvisichin0121,"% ch, Chinese Pop.(2001-2021)",People,0
+c_vminvisisasi0121,"% ch, South Asian Pop. (2001-2021)",People,0
+dwoc_tot,Occupied Dwellings,Place,0
+dwpc_tot,Dwellings - Period of construction - Total,Place,0
+dwpc00001960_pct,% Housing Built < 1960,Place,1
+dwpc19611990_pct,% Housing Built 1961-90,Place,1
+dwpc19912021_pct,% Housing Built 1991-2021,Place,1
+dwptothr,Dwellings - Type - Other,Place,0
+dwtp_tot,Dwellings - Type - Total,Place,0
+dwtpapt__pct,% Apartments,Place,1
+dwtpapt0_pct,% Low-rise Apartments,Place,1
+dwtpapt5_pct,% High-rise Apartments,Place,1
+dwtpsdet_pct,% Detached Housing,Place,1
+edca_tot,Educational Attainment - Total,People,0
+edcahigh_pct,% High School or Less,People,1
+edcapostuniv_pct,% University degree,People,1
+ethm_tot,Ethnic Origin - Total,People,0
+ethmasiaeastfili_pct,% Filipino Origin,People,0
+ethmasiasoutsinh_pct,% Sinhala Origin,People,0
+ethmasiasoutsrla_pct,% Sri Lankan Origin,People,0
+ethmasiasouttami_pct,% Tamil Origin,People,1
+ethmcarijama_pct,% Jamaican Origin,People,1
+ethmeurobrit_tot_pct,% British Origin,People,1
+ethmeurosoutital_pct,% Italian Origin,People,1
+ethmeurosoutport_pct,% Portuguese Origin,People,1
+hhtn_tot,Dwellings - Tenure - Total,Place,0
+hhtnown__pct,% Own,Place,1
+hhtnrent_pct,% Rent,Place,1
+imst_tot,Immigrant Status - Total,People,0
+imstimmi_pct,% Immigrant,People,1
+imstnimm_pct,% Canada-Born,People,1
+imstnpr__pct,% Permanent Resident,People,0
+jwmd_tot,Commute - Total,Place,0
+jwmdauto_pct,% Car Commute,Place,1
+jwmdbike_pct,% Bike Commute,Place,1
+jwmdothr_pct,% Other Commute,Place,1
+jwmdtran_pct,% Transit Commute,Place,1
+jwmdwalk_pct,% Walk Commute,Place,1
+lfaainlfunem_pct,% Unemployed,People,1
+lnmt_tot,Mother Tongue - Total,People,0
+lnmt1resnoffnabodravtami_pct,% Tamil Mother Tongue,People,1
+lnmt1resoffien___pct,% English Mother Tongue,People,1
+mars_tot,Marital Status - Age 15 and Over - Total,People,0
+marsmaclcomm_pct,% Common Law,People,0
+marsmaclmarr_pct,% Married,People,1
+marsnmcldivo_pct,% Divorced,People,0
+marsnmclnevr_pct,% Never Married,People,1
+marsnmclsepa_pct,% Separated,People,0
+marsnmclwido_pct,% Widowed,People,1
+occ__tot,Occupation - Total,People,0
+occ_arts_pct,"% Arts, Rec., Sports Occ.",People,1
+occ_busi_pct,"% Business, Finance, Admin Occ.",People,1
+occ_educ_pct,"% Ed, Law, Social, Cmnty & Gov't Occ.",People,1
+occ_heal_pct,% Health Occ.,People,1
+occ_manu_pct,% Mfg. and Utilities Occ.,People,1
+occ_mgmt_pct,% Management Occ.,People,1
+occ_othr_pct,% Other Occ.,People,0
+occ_prim_pct,% Primary Occ.,People,1
+occ_serv_pct,% Sales and Service Occ.,People,1
+occ_nsci_pct,% Natural and Applied Sciences Occ.,People,0
+occ_trad_pct,"% Trades, Transport, Operators Occ.",People,1
+pctbailao_ana2023,A Bailao 2023,Periphery,1
+pctbrown_chloe_marie2022,C Brown 2022,Core,1
+pctchow_olivia2023,O Chow 2023,Core,1
+pctchow2014,O Chow 2014,Core,1
+pctford2010,R Ford 2010,Periphery,1
+pctford2014,D Ford 2014,Periphery,1
+pctfurey_anthony2023,A Furey 2023,Periphery,1
+pctgoldy2018,F Goldy 2018,Periphery,0
+pctgomberg2000,T Gomberg 2000,Core,1
+pcthall1997,B Hall 1997,Core,1
+pcthall2003,B Hall 2003,Core,1
+pctkeesmaat2018,J Keesmaat 2018,Core,1
+pctlastman1997,M Lastman 1997,Periphery,1
+pctlastman2000,M Lastman 2000,Periphery,1
+pctmatlow_josh2023,J Matlow 2023,Core,1
+pctmiller2003,D Miller 2003,Core,1
+pctmiller2006,D Miller 2006,Core,1
+pctnunziata2003,J Nunziata 2003,Periphery,1
+pctpantalone2010,J Pantalone 2010,Core,1
+pctpenalosa_gil2022,G Penalosa 2022,Core,1
+pctpitfield2006,J Pitfield 2006,Periphery,1
+pctsaunders_mark2023,M Saunders 2023,Periphery,1
+pctsmitherman2010,G Smitherman 2010,Core,1
+pcttory_john2022,J Tory 2022,Periphery,1
+pcttory2003,J Tory 2003,Periphery,1
+pcttory2014,J Tory 2014,Periphery,1
+pcttory2018,J Tory 2018,Periphery,1
+pmi_in_db_childcare,Childcare in neighbourhood,Place,0
+pmi_in_db_educpri,Elementary school in neighbourhood,Place,0
+pmi_in_db_educsec,High school in neighbourhood,Place,0
+pmi_in_db_emp,Jobs in neighbourhood,Place,0
+pmi_in_db_grocery,Grocery in neighbourhood,Place,0
+pmi_in_db_health,Health care in neighbourhood,Place,0
+pmi_in_db_lib,Library in neighbourhood,Place,0
+pmi_in_db_parks,Public transit in neighbourhood,Place,0
+pmi_in_db_pharma,Pharmacy in neighbourhood,Place,0
+pmi_in_db_transit,Parks in neighbourhood,Place,0
+pop__tot,Population - Total,People,0
+rlgn_tot,Religion - Total,People,0
+rlgnabor_pct,% Aboriginal Religion,People,0
+rlgnbudd_pct,% Buddhist,People,0
+rlgnchriangl_pct,% Anglican,People,1
+rlgnchribapt_pct,% Baptist,People,1
+rlgnchricath_tot_pct,% Catholic,People,1
+rlgnchriorth_tot_pct,% Orthodox,People,1
+rlgnchriothr_pct,% Other Christian,People,0
+rlgnchripent_pct,% Pentacostal,People,1
+rlgnchriunch_pct,% United Church,People,1
+rlgnhind_pct,% Hindu,People,1
+rlgnjewi_pct,% Jewish,People,1
+rlgnmusl_pct,% Muslim,People,1
+rlgnnone_pct,% Atheist,People,1
+rlgnothr_pct,% Other Religion,People,0
+rlgnsikh_pct,% Sikh,People,1
+s_bikescore,Bikescore,Place,0
+s_dist__nc,Further from City Hall,Position,0
+s_dist__nc_inv,Closer to City Hall,Position,1
+s_hcov__nc_avg,Higher Housing Values,Place,1
+s_hcov_avg__nc_inv,Lower Housing Values,Place,0
+s_hctv_avg__nc,Higher Rents,Place,1
+s_hctv_avg__nc_inv,Lower Rents,Place,0
+s_ihat_avg__nc,Higher Avg. Household Income,People,0
+s_ihat_avg__nc_inv,Lower Avg. Household Income,People,0
+s_ihat_med__nc,Higher Median Household Income,People,0
+s_ihat_med__nc_inv,Lower Median Household Income,People,0
+s_iit__avg__nc,Higher Avg. Individual Income,People,1
+s_iit__avg__nc_inv,Lower Avg. Individual Income,People,0
+s_iit__med__nc,Higher Median Individual Income,People,0
+s_iit__med__nc_inv,Lower Median Individual Income,People,0
+s_pmi_amenity_dense,Amenity-dense,Position,0
+s_pmi_prox_idx_childcare,Closer to childcare,Position,1
+s_pmi_prox_idx_educpri,Closer to elementary school,Position,0
+s_pmi_prox_idx_educsec,Closer to secondary school,Position,0
+s_pmi_prox_idx_emp,Closer to jobs,Position,1
+s_pmi_prox_idx_grocery,Closer to grocery,Position,1
+s_pmi_prox_idx_health,Closer to health care,Position,0
+s_pmi_prox_idx_lib,Closer to library,Position,0
+s_pmi_prox_idx_parks,Closer to public transit,Position,1
+s_pmi_prox_idx_pharma,Closer to pharmacy,Position,0
+s_pmi_prox_idx_transit,Closer to neighbourhood parks,Position,1
+s_pmi_amenity_dense_inv,Amenity-poor,Position,0
+s_pmi_prox_idx_childcare_inv,Far from childcare,Position,0
+s_pmi_prox_idx_educpri_inv,Far from elementary school,Position,0
+s_pmi_prox_idx_educsec_inv,Far from secondary school,Position,0
+s_pmi_prox_idx_emp_inv,Far from jobs,Position,0
+s_pmi_prox_idx_grocery_inv,Far from grocery,Position,0
+s_pmi_prox_idx_health_inv,Far from health care,Position,0
+s_pmi_prox_idx_lib_inv,Far from library,Position,0
+s_pmi_prox_idx_parks_inv,Far from public transit,Position,0
+s_pmi_prox_idx_pharma_inv,Far from pharmacy,Position,0
+s_pmi_prox_idx_transit_inv,Far from neighbourhood parks,Position,0
+s_popdsqkm__nc,Higher Population density,Place,0
+s_popdsqkm__nc_inv,Lower Population density,Place,1
+s_transitscore,Higher Transitscore,Place,0
+s_transitscore_inv,Lower Transitscore,Place,1
+s_walkscore,Higher Walkscore,Place,0
+s_walkscore_inv,Lower Walkscore,Place,1
+vmin_tot,Visible Minority - Total,People,0
+vminnvis_pct,% White,People,1
+vminvisi__ne_pct,% Other Visible Minority,People,0
+vminvisiarab_pct,% Arab,People,1
+vminvisiblck_pct,% Black,People,1
+vminvisichin_pct,% Chinese,People,1
+vminvisifili_pct,% Filipino,People,1
+vminvisijapn_pct,% Japanese,People,0
+vminvisikore_pct,% Korean,People,0
+vminvisilati_pct,% Latino,People,1
+vminvisimult_pct,% Multiple Visible Minority,People,0
+vminvisisasi_pct,% South Asian,People,1
+vminvisiseas_pct,% Southeast Asian,People,0
+vminvisi_pct,% Nonwhite,People,1
+PC1,Dim 1,,1
+PC2,Dim 2,,1
+PC3,Dim 3,,1
+PC19999,Dim 1,,1
+PC29999,Dim 2,,1
+PC39999,Dim 3,,1

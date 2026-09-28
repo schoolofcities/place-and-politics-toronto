@@ -24,7 +24,7 @@ from reportlab.platypus import (
 
 
 REPO_ROOT = Path(__file__).resolve().parents[3]
-REPORT_ROOT = REPO_ROOT / "data" / "toronto_election_turnout" / "modelling" / "processed" / "dimension_reduction" / "reports"
+REPORT_ROOT = REPO_ROOT / "analysis" / "toronto_election_turnout" / "data" / "modelling" / "processed" / "dimension_reduction" / "reports"
 OUTPUT = REPO_ROOT / "output" / "pdf" / "dimension_reduction_steps_report.pdf"
 
 REPORTS = [

@@ -19,7 +19,7 @@ import zipfile
 
 
 REPO_ROOT = Path(__file__).resolve().parents[4]
-DATA_ROOT = REPO_ROOT / "data" / "toronto_election_turnout"
+DATA_ROOT = REPO_ROOT / "analysis" / "toronto_election_turnout" / "data"
 VARIABLES_RAW = DATA_ROOT / "variables" / "raw"
 VARIABLES_METADATA = DATA_ROOT / "variables" / "metadata"
 VARIABLES_DOCS = DATA_ROOT / "variables" / "documentation"

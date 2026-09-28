@@ -16,7 +16,7 @@ from osgeo import ogr, osr
 ogr.UseExceptions()
 
 REPO_ROOT = Path(__file__).resolve().parents[4]
-DATA_ROOT = REPO_ROOT / "data" / "toronto_election_turnout"
+DATA_ROOT = REPO_ROOT / "analysis" / "toronto_election_turnout" / "data"
 ANALYSIS_ROOT = REPO_ROOT / "analysis" / "toronto_election_turnout"
 ELECTION_ROOT = DATA_ROOT / "elections" / "processed"
 OUTPUT_ROOT = DATA_ROOT / "accessibility"
@@ -866,7 +866,7 @@ def write_federal_2025_source_search_audit():
         {
             "election_id": "federal_2025",
             "source_name": "Local Elections Canada 2025 poll-by-poll CSV downloads",
-            "source_url": "data/toronto_election_turnout/elections/raw/source_downloads/federal_csv/",
+            "source_url": "analysis/toronto_election_turnout/data/elections/raw/source_downloads/federal_csv/",
             "official_source": "1",
             "coverage": "Toronto federal electoral districts collected in the repository",
             "contains_polling_place_address": "0",
