@@ -58,7 +58,7 @@
 
 	<div class="text">
 		<p>
-			Since amalgamation in 1997, Toronto has held nine mayoral elections. In earlier posts in this series we mapped where candidates found their support. This page puts those results side by side with the city's social geography: housing, income, commuting, education, occupation. Pick a census variable on the left and a candidate on the right, then hover over a tract to see its values on both maps.
+			Since amalgamation in 1997, Toronto has held nine mayoral elections. In earlier posts in this series we mapped where candidates found their support. This page puts those results side by side with the city's social geography: housing, income, commuting, education, occupation, etc. Pick a census variable on the left and a candidate on the right, then hover over a tract to see its values on both maps.
 		</p>
 	</div>
 
@@ -252,7 +252,7 @@
 		</p>
 		<ul>
 			<li><strong><em>Census:</em></strong> Statistics Canada censuses, 1996 to 2021, apportioned to 2021 census tracts using the <a href="https://doi.org/10.1111/cag.12467">Canadian Longitudinal Census Tract Database</a> (Allen and Taylor, 2018). Income, density and access measures are shown as standard deviations from the average tract.</li>
-			<li><strong><em>Proximity:</em></strong> Statistics Canada's Proximity Measures Database (2023), measured once and applied to every census year.</li>
+			<li><strong><em>Proximity:</em></strong> Statistics Canada's <a href="https://www150.statcan.gc.ca/n1/pub/17-26-0002/172600022023001-eng.htm">Proximity Measures Database</a>, 2021 data (released 2023), measured once and applied to every census year.</li>
 			<li><strong><em>Elections:</em></strong> poll-level mayoral results, 1997 to 2023. Only election-day votes are included, as advance votes can't be placed in a neighbourhood. Polls were split into dissemination blocks by population and summed to 2021 census tracts.</li>
 			<li><strong><em>Boundaries:</em></strong> census tracts from Statistics Canada; wards, former municipalities and neighbourhoods from the City of Toronto. Ward lines match the selected election (25 wards from 2018, 44 wards from 2000 to 2014, none for 1997). Basemap © <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors.</li>
 		</ul>
