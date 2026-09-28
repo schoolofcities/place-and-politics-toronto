@@ -2,8 +2,8 @@ import fs from "node:fs/promises";
 import { SpreadsheetFile, Workbook } from "@oai/artifact-tool";
 
 const repoRoot = new URL("../../../", import.meta.url).pathname.replace(/\/$/, "");
-const inputPath = `${repoRoot}/data/toronto_election_turnout/final/meeting_pls/toronto_ct_meeting_pls.csv`;
-const outputPath = `${repoRoot}/data/toronto_election_turnout/final/meeting_pls/toronto_ct_meeting_pls.xlsx`;
+const inputPath = `${repoRoot}/analysis/toronto_election_turnout/data/final/meeting_pls/toronto_ct_meeting_pls.csv`;
+const outputPath = `${repoRoot}/analysis/toronto_election_turnout/data/final/meeting_pls/toronto_ct_meeting_pls.xlsx`;
 const previewPath = "/private/tmp/toronto_ct_meeting_pls_preview.png";
 
 const csvText = await fs.readFile(inputPath, "utf8");

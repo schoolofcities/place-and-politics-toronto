@@ -15,10 +15,10 @@ import pandas as pd
 
 
 REPO_ROOT = Path(__file__).resolve().parents[5]
-DR_ROOT = REPO_ROOT / "data/toronto_election_turnout/modelling/processed/dimension_reduction"
+DR_ROOT = REPO_ROOT / "analysis/toronto_election_turnout/data/modelling/processed/dimension_reduction"
 INPUT = (
     REPO_ROOT
-    / "data/toronto_election_turnout/modelling/processed/spatial_models/"
+    / "analysis/toronto_election_turnout/data/modelling/processed/spatial_models/"
     / "toronto_ct_blocks_1_5_model_input_housing_augmented_median_imputed.csv"
 )
 OUT = DR_ROOT / "latent_interpretation"
@@ -1101,8 +1101,8 @@ def main() -> None:
     write_comparison_report(model_summary, composition, theme, interactions)
     step_summary = f"""# Latent Interpretation Step Summary
 
-1. Located existing outputs: found prior summaries, loadings, VIP tables, interaction screens, and PCA/sparse PLS comparison artifacts under `data/toronto_election_turnout/modelling/processed/dimension_reduction`.
-2. Created structure: wrote this analysis to `data/toronto_election_turnout/modelling/processed/dimension_reduction/latent_interpretation` and the script to `analysis/toronto_election_turnout/modelling/dimension_reduction/latent_interpretation`.
+1. Located existing outputs: found prior summaries, loadings, VIP tables, interaction screens, and PCA/sparse PLS comparison artifacts under `analysis/toronto_election_turnout/data/modelling/processed/dimension_reduction`.
+2. Created structure: wrote this analysis to `analysis/toronto_election_turnout/data/modelling/processed/dimension_reduction/latent_interpretation` and the script to `analysis/toronto_election_turnout/modelling/dimension_reduction/latent_interpretation`.
 3. Selected representatives: interaction-augmented PLS has the highest CV R2 ({model_summary.iloc[0]['cv_r2']:.3f}); theory-cleaned PLS is the main interpretation model because it is nearly as predictive and clearer; sparse PLS and supervised PCA are robustness/reference checks.
 4. Interpreted latent compositions: Component 1 of cleaned PLS is the main turnout-resource/newcomer-fragmentation axis; Components 2-5 capture age/stability, urban form, service need, and secondary housing/service bundles.
 5. Checked reference categories: high/low CT reference scores were generated from existing loadings and standardized existing predictors, not from newly trained models.

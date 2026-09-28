@@ -20,7 +20,7 @@ from datetime import datetime, timezone
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[4]
-CENSUS_DIR = ROOT / "data" / "toronto_election_turnout" / "census" / "raw"
+CENSUS_DIR = ROOT / "analysis" / "toronto_election_turnout" / "data" / "census" / "raw"
 PROCESSED_DIR = (
     ROOT
     / "data"

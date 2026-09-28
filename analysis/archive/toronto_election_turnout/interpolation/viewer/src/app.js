@@ -1,7 +1,7 @@
 const datasets = {
   municipal_2023_mayor: {
     label: "Municipal Mayor 2023",
-    url: "/data/toronto_election_turnout/interpolation/map/municipal_2023_mayor_ct_map.geojson",
+    url: "/analysis/toronto_election_turnout/data/interpolation/map/municipal_2023_mayor_ct_map.geojson",
     officialRate: 0.3721,
     officialLabel: "Toronto official-elector rate",
     contextRate: 0.385,
@@ -9,7 +9,7 @@ const datasets = {
   },
   provincial_2025: {
     label: "Provincial 2025",
-    url: "/data/toronto_election_turnout/interpolation/map/provincial_2025_ct_map.geojson",
+    url: "/analysis/toronto_election_turnout/data/interpolation/map/provincial_2025_ct_map.geojson",
     officialRate: 0.4260,
     officialLabel: "Selected Toronto ridings",
     contextRate: 0.4522,
@@ -17,7 +17,7 @@ const datasets = {
   },
   federal_2025: {
     label: "Federal 2025",
-    url: "/data/toronto_election_turnout/interpolation/map/federal_2025_ct_map.geojson",
+    url: "/analysis/toronto_election_turnout/data/interpolation/map/federal_2025_ct_map.geojson",
     officialRate: 0.6501,
     officialLabel: "Selected Toronto ridings",
     contextRate: 0.691,

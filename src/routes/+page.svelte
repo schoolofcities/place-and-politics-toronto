@@ -1,7 +1,6 @@
 <script>
 
 	import Top from "$lib/layout/TopSofC.svelte";
-    import './styles.css';
 	import { base } from '$app/paths';
 	import logo from '$assets/top-logo.svg';
 	import p1 from '$assets/p1.png';
@@ -14,14 +13,6 @@
 
 <svelte:head>
 
-	<link
-		href="https://fonts.googleapis.com/css2?family=Bitter&family=Playfair+Display&display=swap"
-		rel="stylesheet"
-	/>
-	<link
-		href="https://fonts.googleapis.com/css2?family=Roboto&family=Source+Serif+Pro&display=swap"
-		rel="stylesheet"
-	/>
 	<meta
 		name="viewport"
 		content="width=device-width, initial-scale=1, minimum-scale=1"
@@ -99,7 +90,7 @@
 				<div id="part">
 					<p>
 						<span class="date">Part 2 - November 25, 2022</span><br>
-						<u>Toronto's Two Rights</u>
+						<u>Toronto's two rights</u>
 					</p>
 				</div>
 			</div>
@@ -112,7 +103,7 @@
 				<div id="part">
 					<p>
 						<span class="date">Part 3 - November 30, 2022</span><br>
-						<u>The Electoral Geography of Progressivism in Toronto</u>
+						<u>The electoral geography of progressivism in Toronto</u>
 					</p>
 				</div>
 			</div>
@@ -125,7 +116,7 @@
 				<div id="part">
 					<p>
 						<span class="date">Part 4 - December 14, 2022</span><br>
-						<u>Which Candidates Are Most Alike?</u>
+						<u>Which candidates are most alike?</u>
 					</p>
 				</div>
 			</div>
@@ -138,7 +129,7 @@
 				<div id="part">
 					<p>
 						<span class="date">Part 5 - July 14, 2023</span><br>
-						<u>Mapping the 2023 Mayoral By-Election</u>
+						<u>Mapping the 2023 mayoral by-election</u>
 					</p>
 				</div>
 			</div>
@@ -163,7 +154,7 @@
 
 	.title {
 		margin-bottom: 50px;
-		margin-top: 50px;
+		margin-top: 0px;
 		max-width: 500px;
 	}
 	.title h3 {

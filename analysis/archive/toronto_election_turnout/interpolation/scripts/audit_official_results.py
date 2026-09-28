@@ -14,7 +14,7 @@ from config import CONTEXT_AUDIT_ROOT, REPO_ROOT, VALIDATION_ROOT
 from io_utils import read_csv, write_csv, write_json
 
 
-ELECTION_ROOT = REPO_ROOT / "data" / "toronto_election_turnout" / "elections"
+ELECTION_ROOT = REPO_ROOT / "analysis" / "toronto_election_turnout" / "data" / "elections"
 RAW = ELECTION_ROOT / "raw"
 PROCESSED = ELECTION_ROOT / "processed"
 METADATA = PROCESSED / "metadata" / "normalized_election_results_metadata.json"

@@ -6,7 +6,12 @@
 <script>
 
 import { geoPath, geoMercator, scaleThreshold } from "d3";
+import { onMount } from 'svelte';
 import Wards from "$data/wards.geo.json";
+
+// draw the map shapes only in the browser, so they aren't prerendered into the page HTML
+let mounted = false;
+onMount(() => { mounted = true; });
 
 // export var colours;
 export let candidate;
@@ -148,17 +153,19 @@ ct.map((item) => {
 
 		<text class="label" x="12" y="22">{candidates[candidate].name + " " + candidates[candidate].year + " (" + candidates[candidate].citywide + " of the vote citywide)"}</text>
 
-		{#each ct as data}
-			<path class="ct" d={path(data)} fill={data.properties["color_" + candidate]} />
-		{/each}
+		{#if mounted}
+			{#each ct as data}
+				<path class="ct" d={path(data)} fill={data.properties["color_" + candidate]} />
+			{/each}
 
-		{#each Wards.features as data}
-			<path class="wardwhite" d={path(data)} />
-		{/each}
+			{#each Wards.features as data}
+				<path class="wardwhite" d={path(data)} />
+			{/each}
 
-		{#each Wards.features as data}
-			<path class="ward" d={path(data)} />
-		{/each}
+			{#each Wards.features as data}
+				<path class="ward" d={path(data)} />
+			{/each}
+		{/if}
 
 		<text class="label" x="320" y="185">% of</text>
 		<text class="label" x="320" y="200">vote</text>

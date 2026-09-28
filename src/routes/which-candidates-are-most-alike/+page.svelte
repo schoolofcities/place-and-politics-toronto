@@ -1,16 +1,15 @@
 <script>
 
 	import Top from "$lib/layout/TopSofC.svelte";
-	import '../styles.css';
 	import candidateLinks from "$data/candidate_links.json"
 	import candidateInfo from "$data/candidate_info.json";
 	import ctWithResults from "$data/ctWithResults.geo.json";
 
-	import MapMiniCor from "$lib/maps/MapMiniCor.svelte";
-	import CorList from "$lib/charts/CorList.svelte";
+	import MapMiniCor from "./components/MapMiniCor.svelte";
+	import CorList from "./components/CorList.svelte";
 	import Select from 'svelte-select';
 
-	import {candidateStore} from "$lib/stores/stores.js";
+	import {candidateStore} from "./stores.js";
 	const candidatePhotos = import.meta.glob('../../assets/candidate-photos/*.png', {
 		eager: true,
 		import: 'default',
@@ -45,25 +44,17 @@
 
 <svelte:head>
 
-	<link
-		href="https://fonts.googleapis.com/css2?family=Bitter&family=Playfair+Display&display=swap"
-		rel="stylesheet"
-	/>
-	<link
-		href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&family=Source+Serif+Pro&display=swap"
-		rel="stylesheet"
-	/>
 	<meta
 		name="viewport"
 		content="width=device-width, initial-scale=1, minimum-scale=1"
 	/>
 
 	<title>Place and Politics in Toronto</title>
-    <meta name="description" content="Place and Politics in Toronto. Which Candidates Are Most Alike?">
+    <meta name="description" content="Place and Politics in Toronto. Which candidates are most alike?">
     <meta name="author" content="Zack Taylor & Jeff Allen">
 
 	<meta property="og:title" content="Place and Politics in Toronto" />
-    <meta name="og:description" content="Which Candidates Are Most Alike?" />
+    <meta name="og:description" content="Which candidates are most alike?" />
     <meta property="og:type" content="website" />
     <meta property="og:url" content="https://schoolofcities.github.io/place-and-politics-toronto/which-candidates-are-most-alike" />
     <meta property="og:image" content="https://raw.githubusercontent.com/schoolofcities/place-and-politics-toronto/main/src/assets/web-card-4.png" />
@@ -73,7 +64,7 @@
     <meta name="twitter:site" content="https://schoolofcities.github.io/place-and-politics-toronto/which-candidates-are-most-alike" />
     <meta name="twitter:creator" content="@JeffAllenMaps" />
     <meta name="twitter:title" content="Place and Politics in Toronto" />
-    <meta name="twitter:description" content="Which Candidates Are Most Alike?" />
+    <meta name="twitter:description" content="Which candidates are most alike?" />
     <meta name="twitter:image" content="https://raw.githubusercontent.com/schoolofcities/place-and-politics-toronto/main/src/assets/web-card-4.png" />
 
 </svelte:head>
@@ -84,7 +75,6 @@
 
 <main>
 
-	<!-- <UnderConstruction/> -->
 	
 	<div class="title">
 
@@ -92,7 +82,7 @@
 
 		<div id="mini-line"></div>
 
-		<h1>Which Candidates Are Most Alike?</h1>
+		<h1>Which candidates are most alike?</h1>
 		<h3><a href="https://politicalscience.uwo.ca/people/faculty/full-time_faculty/zack_taylor.html">Zack Taylor</a> & <a href="https://jamaps.github.io/">Jeff Allen</a> <br><br> December 14, 2022</h3>
 
 		<div id="mini-line"></div>
@@ -133,8 +123,9 @@
 		<Select 
 			items={candidates} 
 			value={$candidateStore}
-			isSearchable={false}
-			isClearable={false}
+			searchable={false}
+			clearable={false}
+			showChevron
 			on:select={candidateSelect}
 		>
 		</Select>
@@ -309,8 +300,9 @@
 
 	.candidate-title {
 		border-bottom: 1px solid #dedede;
-		font-family: 'Roboto', sans-serif;
-		font-weight: 900;
+		font-family: OpenSansBold, sans-serif;
+		font-weight: normal;
+		font-size: 18px;
 	}
 
 	.candidate-body-web {
@@ -378,29 +370,28 @@
 		margin-top: 30px;
 		margin-bottom: -20px;
 		z-index: 999;
-		width: 200px;
-		font-family: 'Roboto', sans-serif;
+		width: 180px;
+		font-family: OpenSans, sans-serif;
 		font-size: 14px;
+		--font-size: 14.5px;
+		--chevron-height: 36px;
 		opacity: 0.95;
 		border-right: 2px solid #08519c;
 		--padding: 0px 0px 0px 7px;
 		--border: 1px solid #c8c8c8;
-		--borderRadius: 0px;
+		--border-radius: 0px;
 		--height: 28px;
-		--borderFocusColor: #08519c;
-		--itemColor: black;
-		--itemHoverBG: #f6cfc3;
-		--itemIsActiveBG: #08519c;
-		--listBorderRadius: 0px;
-		--itemFirstBorderRadius: 0px;
-		--itemPadding: 0px 0px 0px 10px;
-		--itemMargin: 0px;
-		--inputColor: white;
-		--borderHoverColor: #9ba1a8;
-		--indicatorWidth: 20px;
-		--indicatorTop: 4px;
-		--indicatorColor: #08519c;
-		--indicatorRight: 3px;
+		--border-focused: 1px solid #08519c;
+		--item-color: black;
+		--item-hover-bg: #f6cfc3;
+		--item-is-active-bg: #08519c;
+		--list-border-radius: 0px;
+		--item-first-border-radius: 0px;
+		--item-padding: 0px 0px 0px 10px;
+		--input-color: white;
+		--border-hover: 1px solid #9ba1a8;
+		--chevron-width: 20px;
+		--chevron-color: #08519c;
 	}
 
 </style>

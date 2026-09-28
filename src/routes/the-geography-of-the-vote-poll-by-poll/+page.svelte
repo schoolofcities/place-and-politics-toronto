@@ -1,25 +1,15 @@
 <script>
 
 	import Top from "$lib/layout/TopSofC.svelte";
-	import UnderConstruction from "$lib/layout/UnderConstruction.svelte";
-	import Bar from "$lib/charts/Bar.svelte";	
-	import Turnout from "$lib/charts/Turnout.svelte";
-	import Map from "$lib/maps/Map.svelte";	
+	import Bar from "./components/Bar.svelte";	
+	import Turnout from "./components/Turnout2022.svelte";
+	import Map from "./components/Map.svelte";	
     import WebCard from "$assets/web-card-1.png";
-	import '../styles.css';
 
 </script>
 
 <svelte:head>
 
-	<link
-		href="https://fonts.googleapis.com/css2?family=Bitter&family=Playfair+Display&display=swap"
-		rel="stylesheet"
-	/>
-	<link
-		href="https://fonts.googleapis.com/css2?family=Roboto&family=Source+Serif+Pro&display=swap"
-		rel="stylesheet"
-	/>
 	<meta
 		name="viewport"
 		content="width=device-width, initial-scale=1, minimum-scale=1"
@@ -51,7 +41,6 @@
 
 <main>
 
-	<!-- <UnderConstruction/> -->
 	
 	<div class="title">
 

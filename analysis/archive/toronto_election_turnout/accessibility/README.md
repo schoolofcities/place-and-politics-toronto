@@ -4,7 +4,7 @@ This module audits whether polling station distance can be analyzed with the
 current original polling-division election datasets.
 
 The workflow uses the original election rows under
-`data/toronto_election_turnout/elections/processed/`, not the interpolated
+`analysis/toronto_election_turnout/data/elections/processed/`, not the interpolated
 Census Tract outputs. The canonical row key is `poll_id`.
 
 ## Current Status
@@ -21,7 +21,7 @@ found.
 
 For Provincial 2025, Elections Ontario's proposed voting-location CSV exports
 were downloaded for the Toronto electoral districts and stored under
-`data/toronto_election_turnout/accessibility/raw/provincial_2025/`. These files
+`analysis/toronto_election_turnout/data/accessibility/raw/provincial_2025/`. These files
 provide location names and street addresses, but they do not exactly cover all
 mapped 2025 polling rows by district and location name. The optional geocode
 script can resolve those proposed-location addresses through Open Toronto's
@@ -29,7 +29,7 @@ official Address Points API, but those address-derived points should remain
 flagged as provisional until the poll-to-location assignment is complete.
 
 For Federal 2025, the workflow records the official source search in
-`data/toronto_election_turnout/accessibility/processed/audits/federal_2025_polling_location_source_search_audit.csv`.
+`analysis/toronto_election_turnout/data/accessibility/processed/audits/federal_2025_polling_location_source_search_audit.csv`.
 The raw Elections Canada result CSVs and official geography files do not
 include polling-place building coordinates, so federal station-distance rows
 remain excluded until a true poll-to-building source is found.
@@ -39,7 +39,7 @@ remain excluded until a true poll-to-building source is found.
 Outputs are written to:
 
 ```text
-data/toronto_election_turnout/accessibility/
+analysis/toronto_election_turnout/data/accessibility/
   processed/
     polling_locations/
     poll_to_location_links/
@@ -86,10 +86,10 @@ npm run fetch:accessibility-provincial-geocodes
 
 That fetch script uses the already-downloaded Elections Ontario proposed voting
 location CSVs and the official Open Toronto Address Points bulk table at
-`data/toronto_election_turnout/accessibility/raw/open_toronto/address_points.csv`.
+`analysis/toronto_election_turnout/data/accessibility/raw/open_toronto/address_points.csv`.
 It parses proposed-location street addresses and matches locally by street
 number and street name. It writes a raw cache at
-`data/toronto_election_turnout/accessibility/raw/provincial_2025/eo_proposed_voting_locations_geocoded.csv`.
+`analysis/toronto_election_turnout/data/accessibility/raw/provincial_2025/eo_proposed_voting_locations_geocoded.csv`.
 
 To probe Open Toronto Address Points directly with the Provincial 2025 official
 return labels from `VotingPlaceAddressOrLocation`:
@@ -99,7 +99,7 @@ npm run fetch:accessibility-provincial-label-geocodes
 ```
 
 This writes candidate matches to
-`data/toronto_election_turnout/accessibility/raw/provincial_2025/eo_official_return_label_address_point_candidates.csv`.
+`analysis/toronto_election_turnout/data/accessibility/raw/provincial_2025/eo_official_return_label_address_point_candidates.csv`.
 These are candidate geocodes only. Strong matches can help triage missing
 provincial locations, but weak/no-candidate rows remain unresolved and should
 not be silently promoted to final station coordinates.

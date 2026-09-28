@@ -1,13 +1,11 @@
 <script>
 
 	import Top from "$lib/layout/TopSofC.svelte";
-	import UnderConstruction from "$lib/layout/UnderConstruction.svelte";
-	import MapMiniWard2023 from "$lib/maps/MapMiniWard2023.svelte";
-	import BarVote from "$lib/charts/BarVote2023.svelte";	
-	import Turnout from "$lib/charts/Turnout.svelte";
-	import Map from "$lib/maps/Map2023.svelte";
+	import MapMiniWard2023 from "./components/MapMiniWard2023.svelte";
+	import BarVote from "./components/BarVote2023.svelte";	
+	import Turnout from "./components/Turnout2023.svelte";
+	import Map from "./components/Map2023.svelte";
 	import MapMini from "$lib/maps/MapMini.svelte";
-	import '../styles.css';
 	import ctWithResults2023 from "$data/ctWithResults2023.geo.json";
 
 	var coloursChow = ["#fdf0ff", "#e0b7e7", "#c27dcf", "#a13cb5", "#83009c"];
@@ -17,25 +15,17 @@
 
 <svelte:head>
 
-	<link
-		href="https://fonts.googleapis.com/css2?family=Bitter&family=Playfair+Display&display=swap"
-		rel="stylesheet"
-	/>
-	<link
-		href="https://fonts.googleapis.com/css2?family=Roboto&family=Source+Serif+Pro&display=swap"
-		rel="stylesheet"
-	/>
 	<meta
 		name="viewport"
 		content="width=device-width, initial-scale=1, minimum-scale=1"
 	/>
 
     <title>Place and Politics in Toronto</title>
-    <meta name="description" content="Mapping the 2023 Toronto Mayoral By-Election">
+    <meta name="description" content="Mapping the 2023 Toronto mayoral by-election">
     <meta name="author" content="Zack Taylor & Jeff Allen">
 
     <meta property="og:title" content="Place and Politics in Toronto" />
-    <meta name="og:description" content="Mapping the 2023 Toronto Mayoral By-Election" />
+    <meta name="og:description" content="Mapping the 2023 Toronto mayoral by-election" />
     <meta property="og:type" content="website" />
     <meta property="og:url" content="https://schoolofcities.github.io/place-and-politics-toronto/the-geography-of-the-vote-poll-by-poll" />
     <meta property="og:image" content="https://raw.githubusercontent.com/schoolofcities/place-and-politics-toronto/main/src/assets/web-card-5.png" />
@@ -45,7 +35,7 @@
     <meta name="twitter:site" content="https://schoolofcities.github.io/place-and-politics-toronto/the-geography-of-the-vote-poll-by-poll" />
     <meta name="twitter:creator" content="@JeffAllenMaps" />
     <meta name="twitter:title" content="Place and Politics in Toronto" />
-    <meta name="twitter:description" content="Mapping the 2023 Toronto Mayoral By-Election" />
+    <meta name="twitter:description" content="Mapping the 2023 Toronto mayoral by-election" />
     <meta name="twitter:image" content="https://raw.githubusercontent.com/schoolofcities/place-and-politics-toronto/main/src/assets/web-card-5.png" />
 
 </svelte:head>
@@ -62,7 +52,7 @@
 
 		<div id="mini-line"></div>
 
-		<h1>Mapping the 2023 Mayoral By-Election</h1>
+		<h1>Mapping the 2023 mayoral by-election</h1>
 		<h3><a href="https://politicalscience.uwo.ca/people/faculty/full-time_faculty/zack_taylor.html">Zack Taylor</a> & <a href="https://jamaps.github.io/">Jeff Allen</a> <br><br> July 14, 2023</h3>
 
 		<div id="mini-line"></div>

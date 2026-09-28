@@ -54,6 +54,37 @@
 }
 
 
+/* same local files under the family name used in page and component styles */
+
+@font-face {
+	font-family: "Source Serif Pro";
+	src: url("fonts/SourceSerifPro-Regular.otf");
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "Source Serif Pro";
+	src: url("fonts/SourceSerifPro-It.otf");
+	font-weight: normal;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: "Source Serif Pro";
+	src: url("fonts/SourceSerifPro-Bold.otf");
+	font-weight: bold;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "Source Serif Pro";
+	src: url("fonts/SourceSerifPro-BoldIt.otf");
+	font-weight: bold;
+	font-style: italic;
+}
+
+
 /* Open Sans for smaller text, labels, and UI elements */
 
 @font-face {
@@ -80,7 +111,8 @@
 /* brand colours */
 
 :root {
-	font-family: OpenSans, sans-serif;
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+		Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 	--brandDarkBlue: #1E3765;
 	--brandMedBlue: #007FA3;
 	--brandLightBlue: #6FC7EA;
@@ -100,149 +132,186 @@
 	--brandGray70: #4d4d4d;
 	--brandGray80: #333333;
 	--brandGray90: #191919;
+	--linkHover: #3d53fb;
 }
 
 
-/* base page and text styling */
+
+/* site styles (from the former src/routes/styles.css) */
 
 body {
 	padding: 0px;
 	margin: 0px;
-	background-color: var(--brandWhite);
-	min-width: calc(100% - 100dvw + 360px);
-	width: 100%;
+	background-color: #fffefd;
 }
 
 main {
 	margin: 0 auto;
-	padding: 0px;
-	width: 100%;
-	min-width: calc(100% - 100dvw + 360px);
-	max-width: 100%;
+	width: calc(100% - 20px);
+	min-width: 320px;
+	max-width: 1300px;
 	position: relative;
+}
+
+.title {
+	margin: auto;
+	max-width: 600px;
+	width: calc(100% - 50px);
+	padding-left: 25px;
+	padding-right: 25px;
+	margin-top: 49px;
+	margin-bottom: 25px;
+	text-align: center;
+	font-family: "Source Serif Pro", serif;
+}
+.title h1 {
+	font-weight: normal;
+	font-size: 42px;
+}
+.title h3 {
+	font-weight: normal;
+	font-size: 18px;
+}
+.title h4 {
+	font-weight: normal;
+	font-size: 15px;
+}
+.title a {
+	color: black;
+}
+.title a:hover {
+	color: var(--linkHover);
+}
+
+#mini-line {
+	margin: auto;
+	width: 242px;
+	height: 1px;
+	background-color: black;
 }
 
 .text {
-	background-color: none;
-	max-width: 680px;
-	margin: 0 auto;
-	position: relative;
-	padding-left: 20px;
-	padding-right: 20px;
-	padding-top: 0px;
-}
-
-h1 {
-	font-family: TradeGothicBold;
-	font-weight: normal;
-	font-size: 40px;
-	color: var(--brandBlack);
-	text-decoration: none;
-	margin-bottom: 0px;
-	padding: 0px;
-}
-
-h2 {
+	font-family: "Source Serif Pro", serif;
+	font-size: 17px;
+	margin: auto;
+	max-width: 694px;
+	width: calc(100% - 50px);
+	padding: 25px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	line-height: 160%;
 	text-align: left;
-	font-family: TradeGothicBold;
-	font-weight: normal;
-	font-size: 30px;
-	margin-top: 30px;
-	margin-bottom: 0px;
-	color: var(--brandBlack);
 }
 
-h3 {
+.bar {
+	text-align: center;
+	height: 25px;
+}
+
+.bar-vote-total {
+	width: 100%;
+	text-align: center;
+	/* height: 25px; */
 	text-align: left;
-	font-family: TradeGothicBold;
-	font-weight: normal;
-	margin-top: 30px;
-	margin-bottom: 0px;
-	font-size: 25px;
-	color: var(--brandBlack);
+	text-decoration: underline;
 }
 
-h4 {
-	text-align: left;
-	font-family: TradeGothicBold;
-	font-weight: normal;
-	font-size: 20px;
-	color: var(--brandBlack);
-}
-
-p {
-	font-family: SourceSerif;
-	font-weight: normal;
-	color: var(--brandGray90);
-	text-align: left;
-	padding-top: 2px;
-	padding-bottom: 2px;
-	font-size: 18px;
-	line-height: 30px;
-	-webkit-font-smoothing: antialiased;
-	-moz-osx-font-smoothing: grayscale;
-	text-rendering: optimizeLegibility;
-}
-
-@media screen and (max-width: 600px) {
-	.text p {
-		font-size: 17px;
-		line-height: 26px;
-	}
-}
-
-b {
-	font-family: SourceSerifBold;
-	font-weight: normal;
-}
-
-strong {
-	font-family: SourceSerifBold;
-	font-weight: normal;
-}
-
-i {
-	font-family: SourceSerifItalic;
-	font-weight: normal;
-}
-
-em {
-	font-family: SourceSerifItalic;
-	font-weight: normal;
+.turnout {
+	margin-bottom: -20px;
 }
 
 a {
-	color: var(--brandBlack);
 	text-decoration: underline;
-	font-family: SourceSerif;
-	font-weight: normal;
+	color: black;
 }
-
 
 a:hover {
-	color: var(--brandMedGreen);
+	text-decoration: underline;
+	color: var(--linkHover);
 }
 
-ul {
-	margin-top: -10px;
-	margin-bottom: -10px;
-	margin-left: 0px;
-	list-style-type: circle;
-}
-
-li {
-	font-family: SourceSerif;
-	font-weight: normal;
-	color: var(--brandGray90);
+.info {
+	font-family: "Source Serif Pro", serif;
+	font-size: 15px;
+	margin: auto;
+	max-width: 494px;
+	width: calc(100% - 50px);
+	padding: 25px;
+	line-height: 160%;
 	text-align: left;
-	padding-top: 2px;
-	padding-bottom: 2px;
-	font-size: 17px;
-	line-height: 22px;
-	-webkit-font-smoothing: antialiased;
-	-moz-osx-font-smoothing: grayscale;
-	text-rendering: optimizeLegibility;
 }
+
+.mapGrid {
+	margin: auto;
+	padding-bottom: 42px;
+	max-width: 850px;
+	width: 100%;
+	display: grid;
+	gap: 4px 2px;
+	grid-template-columns: repeat(2, 1fr);
+}
+
+@media (max-width:842px) {
+	.mapGrid {
+		grid-template-columns: repeat(1, 1fr);
+		/* gap: 0px 0px; */
+		/* width: calc(100% - 40px); */
+	}
+}
+
+.mapGridWard {
+	margin: auto;
+	padding-bottom: 2px;
+	max-width: 700px;
+	width: 100%;
+	display: grid;
+	gap: 4px 2px;
+	grid-template-columns: repeat(2, 1fr);
+}
+
+@media (max-width:742px) {
+	.mapGridWard {
+		grid-template-columns: repeat(1, 1fr);
+		/* gap: 0px 0px; */
+		/* width: calc(100% - 40px); */
+	}
+}
+
+.mapSmall {
+	/* background-color: #3d53fb; */
+	/* z-index: -10; */
+	margin: auto;
+	padding: -10px;
+	max-width: 420px;
+	width: 420px;
+	margin: 0 auto;
+	/* border: solid 1px #f4f4f4; */
+}
+
+.mapSmallWard {
+	/* background-color: #3d53fb; */
+	/* z-index: -10; */
+	margin: auto;
+	padding: -10px;
+	max-width: 420px;
+	width: 350px;
+	margin: 0 auto;
+	/* border: solid 1px #f4f4f4; */
+}
+
+.mapMiniLarge {
+	/* background-color: #3d53fb; */
+	/* z-index: -10; */
+	margin: auto;
+	padding: -10px;
+	max-width: 420px;
+	width: 420px;
+	margin: 0 auto;
+	/* border: solid 1px #f4f4f4; */
+}
+
+
+/* brand components (.details, .callout, captions) */
 
 .details {
 	background-color: none;
@@ -375,7 +444,7 @@ li {
 	color: var(--brandGray80);
 }
 .caption-text a:hover  {
-	color: var(--brandMedGreen);
+	color: var(--linkHover);
 }
 
 .caption-source {
@@ -390,5 +459,7 @@ li {
 	color: var(--brandGray60);
 }
 .caption-source a:hover  {
-	color: var(--brandMedGreen);
+	color: var(--linkHover);
 }
+
+

@@ -25,7 +25,7 @@ from run_spatial_block_models import (
 
 
 REPO_ROOT = Path(__file__).resolve().parents[4]
-OUTPUT_ROOT = REPO_ROOT / "data" / "toronto_election_turnout" / "modelling" / "processed" / "spatial_models"
+OUTPUT_ROOT = REPO_ROOT / "analysis" / "toronto_election_turnout" / "data" / "modelling" / "processed" / "spatial_models"
 INPUT = OUTPUT_ROOT / "toronto_ct_blocks_1_5_model_input_housing_augmented_median_imputed.csv"
 SUMMARY_OUTPUT = OUTPUT_ROOT / "updated_block2_housing_model_summary.csv"
 COEFFICIENT_OUTPUT = OUTPUT_ROOT / "updated_block2_housing_model_coefficients.csv"

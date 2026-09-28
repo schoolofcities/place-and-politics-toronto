@@ -20,7 +20,7 @@ import pandas as pd
 
 
 REPO_ROOT = Path(__file__).resolve().parents[4]
-DATA_ROOT = REPO_ROOT / "data" / "toronto_election_turnout" / "elections"
+DATA_ROOT = REPO_ROOT / "analysis" / "toronto_election_turnout" / "data" / "elections"
 RAW = DATA_ROOT / "raw"
 PROCESSED = DATA_ROOT / "processed"
 METADATA_OUT = PROCESSED / "metadata"

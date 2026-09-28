@@ -1,7 +1,7 @@
 """Build CT-level 2021 Census variables for turnout modelling.
 
 This script uses only official Statistics Canada files already stored under
-data/toronto_election_turnout/census/raw/source_downloads.
+analysis/toronto_election_turnout/data/census/raw/source_downloads.
 """
 
 from __future__ import annotations
@@ -15,7 +15,7 @@ import zipfile
 
 
 REPO_ROOT = Path(__file__).resolve().parents[4]
-DATA_ROOT = REPO_ROOT / "data" / "toronto_election_turnout"
+DATA_ROOT = REPO_ROOT / "analysis" / "toronto_election_turnout" / "data"
 CENSUS_ROOT = DATA_ROOT / "census"
 PROCESSED_ROOT = CENSUS_ROOT / "processed"
 CT_GEOMETRY = PROCESSED_ROOT / "ct" / "statcan_2021_toronto_ct.geojson"

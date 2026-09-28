@@ -10,7 +10,7 @@ from pathlib import Path
 
 
 REPO_ROOT = Path(__file__).resolve().parents[4]
-DATA_ROOT = REPO_ROOT / "data" / "toronto_election_turnout" / "census"
+DATA_ROOT = REPO_ROOT / "analysis" / "toronto_election_turnout" / "data" / "census"
 DA_SOURCE_ZIP = DATA_ROOT / "raw" / "source_downloads" / "statcan_2021_age_single_year_98100023-eng.zip"
 CT_SOURCE_ZIP = DATA_ROOT / "raw" / "source_downloads" / "statcan_2021_ct_age_single_year_98100024-eng.zip"
 PROCESSED = DATA_ROOT / "processed"

@@ -10,7 +10,7 @@ import zipfile
 
 
 REPO_ROOT = Path(__file__).resolve().parents[4]
-DATA_ROOT = REPO_ROOT / "data" / "toronto_election_turnout"
+DATA_ROOT = REPO_ROOT / "analysis" / "toronto_election_turnout" / "data"
 CENSUS_ROOT = DATA_ROOT / "census"
 INTERP_ROOT = DATA_ROOT / "interpolation" / "processed"
 MODELLING_ROOT = DATA_ROOT / "modelling"

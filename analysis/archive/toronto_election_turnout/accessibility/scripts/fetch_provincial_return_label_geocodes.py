@@ -17,7 +17,7 @@ from urllib.request import urlopen
 
 
 REPO_ROOT = Path(__file__).resolve().parents[4]
-DATA_ROOT = REPO_ROOT / "data" / "toronto_election_turnout"
+DATA_ROOT = REPO_ROOT / "analysis" / "toronto_election_turnout" / "data"
 TURNOUT_CSV = (
     DATA_ROOT
     / "elections"

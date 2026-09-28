@@ -20,7 +20,7 @@ const baseMapStyle = {
 			id: 'background',
 			type: 'background',
 			paint: {
-				'background-color': '#f7f4ef'
+				'background-color': '#fff'
 			}
 		},
 		{
@@ -29,7 +29,7 @@ const baseMapStyle = {
 			source: 'osm',
 			'source-layer': 'water_polygons',
 			paint: {
-				'fill-color': '#c8dce8'
+				'fill-color': '#e6e4e0'
 			}
 		},
 		{
@@ -38,7 +38,7 @@ const baseMapStyle = {
 			source: 'osm',
 			'source-layer': 'ocean',
 			paint: {
-				'fill-color': '#c8dce8'
+				'fill-color': '#e6e4e0'
 			}
 		}
 	]

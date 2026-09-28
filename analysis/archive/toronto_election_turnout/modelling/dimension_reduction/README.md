@@ -11,7 +11,7 @@ Run from the repository root:
 The script writes outputs to:
 
 ```text
-data/toronto_election_turnout/modelling/processed/dimension_reduction/
+analysis/toronto_election_turnout/data/modelling/processed/dimension_reduction/
 ```
 
 Main reports:

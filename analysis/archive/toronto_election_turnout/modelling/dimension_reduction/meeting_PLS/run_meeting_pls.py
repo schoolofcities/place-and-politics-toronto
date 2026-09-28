@@ -17,7 +17,7 @@ sys.path.insert(0, str(SCRIPT_ROOT))
 import run_dimension_reduction_workflow as wf  # noqa: E402
 
 
-DR_ROOT = REPO_ROOT / "data/toronto_election_turnout/modelling/processed/dimension_reduction"
+DR_ROOT = REPO_ROOT / "analysis/toronto_election_turnout/data/modelling/processed/dimension_reduction"
 OUT = DR_ROOT / "meeting_PLS"
 MODEL_ROOT = OUT / "meeting_pls_model"
 TARGET = wf.TARGET

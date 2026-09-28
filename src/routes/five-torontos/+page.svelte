@@ -8,24 +8,23 @@
 	//     Section 4: Settled Conservatives  — triple strip plot
 	//     Section 5: Working Suburbanites   — normalized triangle (visible minority / income / education)
 	//
-	// Per-section voting rows + graphic choice live in $lib/config/fiveTorontosSections.js —
+	// Per-section voting rows + graphic choice live in ./sections.js —
 	// edit that file for section content, this one for page structure/layout.
 
 	import { onMount, onDestroy } from "svelte";
 	import Top from "$lib/layout/TopSofC.svelte";
 	import PasswordGate from "$lib/layout/PasswordGate.svelte";
-	import "../styles.css";
 
-	import ClusterMap from "$lib/maps/ClusterMap.svelte";
-	import ClusterSummaryTable from "$lib/tables/ClusterSummaryTable.svelte";
-	import StripPlot from "$lib/charts/StripPlot.svelte";
-	import ScatterHighlight from "$lib/charts/ScatterHighlight.svelte";
-	import TernaryProfilePlot from "$lib/charts/TernaryProfilePlot.svelte";
+	import ClusterMap from "./components/ClusterMap.svelte";
+	import ClusterSummaryTable from "./components/ClusterSummaryTable.svelte";
+	import StripPlot from "./components/StripPlot.svelte";
+	import ScatterHighlight from "./components/ScatterHighlight.svelte";
+	import TernaryProfilePlot from "./components/TernaryProfilePlot.svelte";
 	// An alternative to the ternary plot for Working Suburbanites — kept ready to swap in (see
 	// the commented-out markup further down) without needing to rebuild it from scratch.
-	// import RadarTriangle from "$lib/charts/RadarTriangle.svelte";
+	// import RadarTriangle from "./components/RadarTriangle.svelte";
 
-	import { SECTION_CONFIG } from "$lib/config/fiveTorontosSections.js";
+	import { SECTION_CONFIG } from "./sections.js";
 	import clustersSummary from "$data/clustering_neighbourhoods/clusters_summary.json";
 	import clustersMetadata from "$data/clustering_neighbourhoods/clusters_metadata.json";
 	import ctClusters from "$data/clustering_neighbourhoods/ct_clusters.geo.json";
@@ -40,7 +39,7 @@
 	// Fixed socioeconomic vars shown in every section. `delta` is the cluster's
 	// percentage-point difference from the Toronto-wide figure, already computed in
 	// clusters_summary.json — shown in green/red beside the value (see
-	// $lib/tables/ClusterSummaryTable.svelte).
+	// ./components/ClusterSummaryTable.svelte).
 	const socioeconomicFor = (c) => [
 		{ label: "Renters", value: pct(c.demographics.pct_renter), delta: c.demographics_vs_toronto.pct_renter.diff_vs_toronto },
 		{ label: "Visible minority", value: pct(c.demographics.pct_visible_minority), delta: c.demographics_vs_toronto.pct_visible_minority.diff_vs_toronto },
@@ -72,7 +71,7 @@
 	onDestroy(() => clearInterval(rotateTimer));
 
 	// Bottom-right map legend rows: all 5 groups (+ population share) for the rotating intro
-	// map, or just the one group for a section map — see $lib/maps/ClusterMap.svelte.
+	// map, or just the one group for a section map — see ./components/ClusterMap.svelte.
 	const allClustersLegend = clusters.map((c) => ({
 		cluster_id: c.cluster_id,
 		label: c.label,
@@ -83,14 +82,6 @@
 </script>
 
 <svelte:head>
-	<link
-		href="https://fonts.googleapis.com/css2?family=Bitter&family=Playfair+Display&display=swap"
-		rel="stylesheet"
-	/>
-	<link
-		href="https://fonts.googleapis.com/css2?family=Roboto&family=Source+Serif+Pro&display=swap"
-		rel="stylesheet"
-	/>
 	<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1" />
 
 	<!-- TODO: finalize title/description/social image once the story's copy is set. -->
@@ -114,7 +105,7 @@
 	<div class="title">
 		<h4>Place & Politics in Toronto - Part 6</h4>
 		<div id="mini-line"></div>
-		<h1>The Five Toronto's</h1>
+		<h1>The five Toronto's</h1>
 		<h3><a href="https://www.linkedin.com/in/aniket-kali-8a8b9921b/">Aniket Kali</a> <br />October 2026</h3>
 		<div id="mini-line"></div>
 	</div>

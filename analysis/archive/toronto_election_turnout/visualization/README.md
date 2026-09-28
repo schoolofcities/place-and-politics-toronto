@@ -1,7 +1,7 @@
 # Retained Visual Analysis
 
 This folder contains the two scripts that reproduce the six selected figures
-in `data/toronto_election_turnout/final/visuals/`. They read the published CT
+in `analysis/toronto_election_turnout/data/final/visuals/`. They read the published CT
 release and repository geometry/style assets; they do not fit, tune, or predict
 any model.
 

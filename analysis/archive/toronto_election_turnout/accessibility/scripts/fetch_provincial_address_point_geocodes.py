@@ -21,7 +21,7 @@ from urllib.request import urlopen
 
 
 REPO_ROOT = Path(__file__).resolve().parents[4]
-RAW_ROOT = REPO_ROOT / "data" / "toronto_election_turnout" / "accessibility" / "raw"
+RAW_ROOT = REPO_ROOT / "analysis" / "toronto_election_turnout" / "data" / "accessibility" / "raw"
 PVL_ROOT = RAW_ROOT / "provincial_2025" / "eo_proposed_voting_locations"
 OUTPUT_CSV = RAW_ROOT / "provincial_2025" / "eo_proposed_voting_locations_geocoded.csv"
 ADDRESS_POINTS_CSV = RAW_ROOT / "open_toronto" / "address_points.csv"

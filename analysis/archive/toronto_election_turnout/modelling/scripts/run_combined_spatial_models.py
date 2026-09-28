@@ -28,7 +28,7 @@ from run_spatial_block_models import (
 
 
 REPO_ROOT = Path(__file__).resolve().parents[4]
-OUTPUT_ROOT = REPO_ROOT / "data" / "toronto_election_turnout" / "modelling" / "processed" / "spatial_models"
+OUTPUT_ROOT = REPO_ROOT / "analysis" / "toronto_election_turnout" / "data" / "modelling" / "processed" / "spatial_models"
 COMBINED_SUMMARY_OUTPUT = OUTPUT_ROOT / "combined_spatial_model_summary.csv"
 COMBINED_COEFFICIENT_OUTPUT = OUTPUT_ROOT / "combined_spatial_model_coefficients.csv"
 RESIDUAL_OUTPUT = OUTPUT_ROOT / "combined_model_e_trimmed_residuals.csv"

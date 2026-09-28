@@ -21,7 +21,7 @@ import run_meeting_pls as meeting  # noqa: E402
 
 OUT = (
     REPO_ROOT
-    / "data/toronto_election_turnout/modelling/processed/dimension_reduction/meeting_PLS"
+    / "analysis/toronto_election_turnout/data/modelling/processed/dimension_reduction/meeting_PLS"
     / "turnout_level_comparisons"
 )
 MODEL_ROOT = OUT / "models"

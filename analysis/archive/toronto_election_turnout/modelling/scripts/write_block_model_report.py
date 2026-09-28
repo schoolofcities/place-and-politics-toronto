@@ -7,7 +7,7 @@ from pathlib import Path
 
 
 REPO_ROOT = Path(__file__).resolve().parents[4]
-DATA_ROOT = REPO_ROOT / "data" / "toronto_election_turnout" / "modelling"
+DATA_ROOT = REPO_ROOT / "analysis" / "toronto_election_turnout" / "data" / "modelling"
 MODEL_ROOT = DATA_ROOT / "processed" / "models"
 FIGURE_ROOT = MODEL_ROOT / "figures"
 REPORT_PATH = (
@@ -216,7 +216,7 @@ def write_report(summary: list[dict[str, str]], top_terms: list[dict[str, str]],
         "",
         "## Figure 1. Model Fit",
         "",
-        f"![Adjusted R2 heatmap](../../../../data/toronto_election_turnout/modelling/processed/models/figures/{figures[0].name})",
+        f"![Adjusted R2 heatmap](../../../../toronto_election_turnout/data/modelling/processed/models/figures/{figures[0].name})",
         "",
         "Adjusted R2 by outcome and block:",
         "",
@@ -230,7 +230,7 @@ def write_report(summary: list[dict[str, str]], top_terms: list[dict[str, str]],
         "",
         "## Figure 2. Best Block By Outcome",
         "",
-        f"![Best block bars](../../../../data/toronto_election_turnout/modelling/processed/models/figures/{figures[1].name})",
+        f"![Best block bars](../../../../toronto_election_turnout/data/modelling/processed/models/figures/{figures[1].name})",
         "",
         "The federal-minus-municipal gap is the exception. Its best block is not demographics;",
         "it is Block 3, immigration/citizenship/eligibility, with adjusted R2 of 0.270. That",
@@ -240,7 +240,7 @@ def write_report(summary: list[dict[str, str]], top_terms: list[dict[str, str]],
         "",
         "## Figure 3. Mean Turnout Predictors",
         "",
-        f"![Mean turnout top predictors](../../../../data/toronto_election_turnout/modelling/processed/models/figures/{figures[2].name})",
+        f"![Mean turnout top predictors](../../../../toronto_election_turnout/data/modelling/processed/models/figures/{figures[2].name})",
         "",
         "Across the mean-turnout models, the most consistent negative predictors are larger",
         "household size, young-adult share, visible-minority share, non-citizen share, and",

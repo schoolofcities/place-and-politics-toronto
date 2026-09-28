@@ -28,7 +28,7 @@ import pandas as pd
 
 SCRIPT_DIR = Path(__file__).resolve().parent
 REPO_ROOT = SCRIPT_DIR.parents[2]
-FINAL_ROOT = REPO_ROOT / "data" / "toronto_election_turnout" / "final"
+FINAL_ROOT = REPO_ROOT / "analysis" / "toronto_election_turnout" / "data" / "final"
 OUTPUT_DIR = FINAL_ROOT / "visuals"
 
 CT_GEOJSON = FINAL_ROOT / "geography" / "toronto_ct_2021_geography.geojson"
