@@ -501,7 +501,7 @@ export async function startMapper(root, { replaceHash }) {
   const GROUP_NAMES = {
     'Age & Family': 'Age and family',
     'Commuting': 'Commuting',
-    'Density, Location & Access': 'Location and access (2023)',
+    'Density, Location & Access': 'Location and access (2021)',
     'Education & Labour Force': 'Education and labour force',
     'Ethnic Origin': 'Ethnic origin',
     'Housing': 'Housing',
