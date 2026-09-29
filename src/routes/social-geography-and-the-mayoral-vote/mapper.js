@@ -25,29 +25,21 @@ const CENSUS_COLOURS = ['#e6f2ef', '#b3dbd2', '#6fbcae', '#2e8f80', '#0d534d']
 const VOTE_COLOURS = ['#e8ebf5', '#b9c3e3', '#8698cc', '#4f64ad', '#1e3765']
 const NA_COLOR = '#e6e6e1'
 
-// Bivariate map: tertiles of the census variable (x, green-teal) and the vote share
-// (y, pink-rose), meeting in indigo where both are high. BIVARIATE[x + 3 * y],
-// 0 = lowest third. Each cell is halfway between two palettes:
-//  - the vivid one in the School of Cities urban data storytelling guide
-//    (schoolofcities.github.io/urban-data-storytelling/urban-data-visualization/bivariate-choropleth-maps/)
-//  - a muted one matching the site's other maps, blended from four corner colours
-const BI_GUIDE = {
-  '0-0': '#f7fcf5', '1-0': '#a5e8cd', '2-0': '#40dba7',
-  '0-1': '#f78fb6', '1-1': '#a58fb6', '2-1': '#408fa7',
-  '0-2': '#f73593', '1-2': '#a53593', '2-2': '#403593',
-}
-const BI_MUTED_CORNERS = { low: '#f1efea', x: '#5f9e8f', y: '#b9738f', both: '#3e3f68' }
+// Bivariate map: tertiles of the census variable (x, teal-blue) and the vote share
+// (y, rust), meeting in dark aubergine where both are high. BIVARIATE[x + 3 * y],
+// 0 = lowest third. Cells are blended from four corner colours. Blue against orange
+// keeps the nine cells apart under red-green colour blindness (deuteranopia and
+// protanopia), which a green against pink palette does not.
+const BI_CORNERS = { low: '#f1efea', x: '#2f8a9e', y: '#c8643c', both: '#3a2e3a' }
 const BIVARIATE = (() => {
   const rgb = (c) => [1, 3, 5].map((i) => parseInt(c.slice(i, i + 2), 16))
   const hex = (v) => `#${v.map((c) => Math.round(c).toString(16).padStart(2, '0')).join('')}`
-  const [lo, hx, hy, hb] = ['low', 'x', 'y', 'both'].map((k) => rgb(BI_MUTED_CORNERS[k]))
+  const [lo, hx, hy, hb] = ['low', 'x', 'y', 'both'].map((k) => rgb(BI_CORNERS[k]))
   const out = []
   for (let j = 0; j < 3; j++) {
     for (let i = 0; i < 3; i++) {
       const u = i / 2, w = j / 2
-      const muted = lo.map((_, k) => lo[k] * (1 - u) * (1 - w) + hx[k] * u * (1 - w) + hy[k] * (1 - u) * w + hb[k] * u * w)
-      const vivid = rgb(BI_GUIDE[`${i}-${j}`])
-      out.push(hex(muted.map((c, k) => (c + vivid[k]) / 2)))
+      out.push(hex(lo.map((_, k) => lo[k] * (1 - u) * (1 - w) + hx[k] * u * (1 - w) + hy[k] * (1 - u) * w + hb[k] * u * w)))
     }
   }
   return out
@@ -71,7 +63,7 @@ const MAX_BOUNDS = (([[w, s], [e, n]]) => {
 const FILL_OPACITY = 0.81
 // Everything outside the city is faded by an "inverted polygon": a large box with
 // the city cut out of it, filled white at this opacity (like QGIS's inverted polygons)
-const OUTSIDE_FADE = 0.7
+const OUTSIDE_FADE = 0.8
 
 function outsideMask(city) {
   const box = [[-81, 42.5], [-77.5, 42.5], [-77.5, 45], [-81, 45], [-81, 42.5]]
@@ -82,7 +74,7 @@ function outsideMask(city) {
 
 // Street types drawn on the maps (Shortbread `streets` kinds); paths and service lanes are left out
 const STREET_KINDS = ['motorway', 'trunk', 'primary', 'secondary', 'tertiary', 'unclassified', 'residential', 'living_street']
-const WATER_COLOR = '#e8e7e3' // a little lighter than the site basemap's #e6e4e0
+const WATER_COLOR = '#d6d5d1' // a little darker than the site basemap's #e6e4e0
 
 // The site basemap, with lighter water for these maps only
 function baseStyle() {
@@ -343,7 +335,7 @@ function makeMap(container, tracts, bounds, wardData, city) {
         source: 'tracts',
         paint: { 'fill-color': NA_COLOR, 'fill-opacity': FILL_OPACITY },
       })
-      // Thin light grey streets from the basemap's OpenStreetMap tiles, drawn over the
+      // Thin mid grey streets from the basemap's OpenStreetMap tiles, drawn under the
       // tract colours; minor streets appear as you zoom in
       map.addLayer({
         id: 'streets',
@@ -353,12 +345,12 @@ function makeMap(container, tracts, bounds, wardData, city) {
         filter: ['in', ['get', 'kind'], ['literal', STREET_KINDS]],
         layout: { 'line-cap': 'round', 'line-join': 'round' },
         paint: {
-          'line-color': '#e8e8e8',
+          'line-color': '#6e6e6e',
           'line-width': ['interpolate', ['linear'], ['zoom'],
             10, ['match', ['get', 'kind'], ['motorway', 'trunk'], 0.8, ['primary', 'secondary'], 0.5, 0.25],
             15, ['match', ['get', 'kind'], ['motorway', 'trunk'], 2.4, ['primary', 'secondary'], 1.6, 0.9]],
         },
-      })
+      }, 'fill')
       map.addLayer({
         id: 'outside',
         type: 'fill',
@@ -702,6 +694,8 @@ export async function startMapper(root, { replaceHash }) {
 
     for (const [ct, val] of values) left.map.setFeatureState({ source: 'tracts', id: ct }, { v: val })
     left.map.setPaintProperty('fill', 'fill-color', colorExpression(breaks, colors))
+    left.map.getCanvas().setAttribute('aria-label',
+      `Map of ${v.label}${v.fixed_in_time ? '' : ` (${state.cyear} census)`} by census tract, shaded in quintiles`)
 
     const fmt = v.kind === 'z' ? (x) => `${x > 0 ? '+' : x < 0 ? '−' : ''}${Math.abs(x).toFixed(2)}` : (x) => fmtPct(x, 1)
     renderLegend($('legend-census'),
@@ -736,6 +730,8 @@ export async function startMapper(root, { replaceHash }) {
 
     for (const [ct, val] of values) right.map.setFeatureState({ source: 'tracts', id: ct }, { v: val })
     right.map.setPaintProperty('fill', 'fill-color', colorExpression(breaks, colors))
+    right.map.getCanvas().setAttribute('aria-label',
+      `Map of ${cand.label}'s ${state.eyear} vote share by census tract, shaded in quintiles`)
     renderLegend($('legend-election'), 'Vote share, quintiles of tracts',
       breaks, colors, (x) => fmtPct(x, 1), [...values.values()].some((x) => x == null))
 
@@ -887,7 +883,7 @@ export async function startMapper(root, { replaceHash }) {
     // standard-deviation variables get a second line under the axis title saying so
     const unitNote = v.kind === 'z' ? 'standard deviations from the tract mean' : null
     const m = { l: 56, r: 12, t: 10, b: unitNote ? 60 : 46 }
-    if (!pairs.length) return s('svg', { width: W, height: H })
+    if (!pairs.length) return s('svg', { width: W, height: H, role: 'img' })
     const xs = pairs.map((p) => p[0]), ys = pairs.map((p) => p[1])
     // Axes start at 0% rather than at the lowest tract; standard-deviation variables
     // go below zero, so theirs start at the data's minimum
@@ -970,8 +966,25 @@ export async function startMapper(root, { replaceHash }) {
       ` · ${fmtP(stat.p)} · ${stat.n} tracts${stat.p < 0.05 ? '' : ' · not significant'}`,
     ]))
     const size = Math.max(220, el.clientWidth)
-    el.replaceChildren(scatter(pairs, v, stat, size, size, biClasses))
+    const plot = scatter(pairs, v, stat, size, size, biClasses)
+    // what the plot shows, for screen readers
+    const censusYear = v.fixed_in_time ? '' : ` (${state.cyear} census)`
+    const rText = !stat ? 'not enough data for a correlation'
+      : `r = ${fmtR(stat.r)}, ${fmtP(stat.p)}, ${stat.n} tracts${stat.p < 0.05 ? '' : ', not significant'}`
+    plot.setAttribute('aria-label',
+      `Scatter plot of ${cand.label}'s ${state.eyear} vote share against ${v.label}${censusYear}, one dot per census tract: ${rText}`)
+    el.replaceChildren(plot)
     highlightDot(hovered)
+    announce(`Showing ${v.label}${censusYear} and ${cand.label}'s ${state.eyear} vote share: ${rText}`)
+  }
+
+  // Tell screen readers what's now shown, through a polite live region, when the
+  // selection changes. Not on the first draw, and not on redraws for a resize,
+  // where the text is unchanged.
+  let lastAnnounced = null
+  function announce(text) {
+    if (lastAnnounced !== null && text !== lastAnnounced) $('live-status').textContent = text
+    lastAnnounced = text
   }
 
   // Hovering the scatter picks the nearest dot within a few pixels
@@ -1013,18 +1026,25 @@ export async function startMapper(root, { replaceHash }) {
     const cells = [0, 1, 2].flatMap((j) => [0, 1, 2].map((i) =>
       s('rect', { x: X0 + i * C, y: Y0 + G - (j + 1) * C, width: C, height: C, fill: BIVARIATE[i + 3 * j], class: 'bi-cell' })))
     const censusYear = v.fixed_in_time ? '' : ` (${state.cyear})`
+    bi.map.getCanvas().setAttribute('aria-label',
+      `Map combining ${v.label}${v.fixed_in_time ? '' : ` (${state.cyear} census)`} and ${cand.label}'s ${state.eyear} vote share by census tract, each split into thirds`)
     $('legend-bi').replaceChildren(
-      s('svg', { width: X0 + G + 4, height: Y0 + G + 22, class: 'bi-key', role: 'img' },
+      s('svg', {
+        width: X0 + G + 4, height: Y0 + G + 22, class: 'bi-key', role: 'img',
+        'aria-label': `Colour key: ${v.label} in thirds from low to high, left to right, and ${cand.label}'s vote share in thirds from low to high, bottom to top`,
+      },
         ...cells,
         s('text', { x: 2, y: midY - 11, class: 'bi-lab' }, '↑'),
         s('text', { x: 2, y: midY + 3, class: 'bi-lab' }, 'Vote'),
         s('text', { x: 2, y: midY + 16, class: 'bi-lab' }, 'share'),
-        s('text', { x: X0, y: Y0 + G + 15, class: 'bi-lab' }, `${v.label} →`)),
+        s('text', { x: X0, y: Y0 + G + 15, class: 'bi-lab bi-x' }, `${v.label} →`)),
       h('p', { class: 'bi-text' },
         'Tracts split into thirds by ', h('strong', {}, `${v.label}${censusYear}`),
         ' and by ', h('strong', {}, `${cand.label}'s ${state.eyear} vote share`),
         '. Each dot in the scatter plot is a tract, on the same colours as the map.'),
     )
+    const key = $('legend-bi').querySelector('svg')
+    key.setAttribute('width', Math.ceil(Math.max(X0 + G + 4, X0 + key.querySelector('.bi-x').getComputedTextLength() + 4)))
   }
 
   function updateCorrelations() {
@@ -1039,20 +1059,32 @@ export async function startMapper(root, { replaceHash }) {
 
   // Every census variable's correlation with the selected vote share, grouped by
   // theme and coloured like the which-candidates-are-most-alike page (red-blue,
-  // blue positive); faded where p >= 0.05 or the variable wasn't in that census.
+  // blue positive); hatched where p >= 0.05 (variables not in that census are left out).
   // Clicking a variable maps it.
   // 'group': by theme, as in the data; 'r': one list from the highest r to the lowest
   let tableSort = 'group'
   // 'year': by election, newest first; 'r': one list from the highest r to the lowest
   let candSort = 'year'
 
-  // A coloured r (red-blue, as on the which-candidates-are-most-alike page), faded
-  // where p >= 0.05, in a row that runs `onPick` when clicked
-  const rCell = (st) => h('span', {
-    class: `ct-r${st.p < 0.05 ? '' : ' ns'}`,
-    style: { background: interpolateRdBu((st.r + 1) / 2), color: Math.abs(st.r) > 0.5 ? 'white' : 'black' },
-    title: `r = ${fmtR(st.r)}, ${fmtP(st.p)}, ${st.n} tracts`,
-  }, fmtR(st.r))
+  // A coloured r (red-blue, as on the which-candidates-are-most-alike page), hatched
+  // where p >= 0.05, in a row that runs `onPick` when clicked. The text is white
+  // beyond ±0.6, black otherwise (white is a little under 4.5:1 contrast between
+  // ±0.6 and ±0.7, a choice for looks). Non-significant cells are half way to white,
+  // with dark grey text and diagonal hatching (.ns in the page's styles); they're all
+  // near r = 0, so a fade alone barely shows. Strong correlations (|r| >= 0.5) are bold.
+  const rCell = (st) => {
+    const sig = st.p < 0.05
+    const [r, g, b] = interpolateRdBu((st.r + 1) / 2).match(/\d+/g).map(Number)
+    const bg = sig ? [r, g, b] : [r, g, b].map((c) => (c + 255) / 2)
+    // compared as shown, to two decimals, so every cell reading ±0.60 matches
+    const color = !sig ? '#595959' : Math.abs(st.r).toFixed(2) > 0.6 ? 'white' : 'black'
+    return h('span', {
+      class: `ct-r${sig ? '' : ' ns'}${Math.abs(st.r) >= 0.5 ? ' strong' : ''}`,
+      // the colour only, so the hatching's background-image isn't overridden
+      style: { backgroundColor: `rgb(${bg.map(Math.round).join(', ')})`, color },
+      title: `r = ${fmtR(st.r)}, ${fmtP(st.p)}, ${st.n} tracts`,
+    }, fmtR(st.r), sig ? null : h('span', { class: 'sr-only' }, ', not significant'))
+  }
   const tableRow = (label, st, selected, onPick) => {
     const row = h('div', { class: `ct-row${selected ? ' sel' : ''}`, role: 'button', tabindex: '0' }, label, rCell(st))
     row.addEventListener('click', onPick)
