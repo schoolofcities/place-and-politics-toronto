@@ -2,6 +2,7 @@
 
 	import { onMount } from 'svelte';
 	import { replaceState } from '$app/navigation';
+	import { base } from '$app/paths';
 	import 'maplibre-gl/dist/maplibre-gl.css';
 	import Top from "$lib/layout/TopSofC.svelte";
 	import { startMapper } from './mapper.js';
@@ -58,7 +59,7 @@
 
 	<div class="text">
 		<p>
-			Since amalgamation in 1997, Toronto has held nine mayoral elections. In earlier posts in this series we mapped where candidates found their support. This page puts those results side by side with the city's social geography: housing, income, commuting, education, occupation, etc. Pick a census variable on the left and a candidate on the right, then hover over a tract to see its values on both maps.
+			Since amalgamation, Toronto has held nine mayoral elections, beginning in 1997. In earlier posts in this series we mapped where candidates found their support. This page puts those results side by side with the city's social geography: housing, income, commuting, education, occupation, etc. Pick a census variable on the left and a candidate on the right, then hover over a tract to see its values on both maps.
 		</p>
 	</div>
 
@@ -122,7 +123,7 @@
 
 		<div class="text">
 			<p>
-				Below, the two maps are combined into one, and each census tract is plotted by its vote share and the characteristic you picked. A word of caution: these are correlations between places, not people. If a candidate did well in tracts with many renters, it does not mean that renters voted for that candidate. And many characteristics are correlated with one another. Tracts with more renters also tend to have more apartments, lower incomes, and more transit commuters, so a correlation of any one of them with vote share may really reflect the others, or something else entirely. Overall, these patterns show where a candidate's support was concentrated, explaining why takes more than a correlation.
+				Below, the two maps are combined into one, and each census tract is plotted by its vote share and the characteristic you picked. A word of caution: these are correlations between places, not people. If a candidate did well in tracts with many renters, it does not mean that renters voted for that candidate. And many characteristics are correlated with one another. Tracts with more renters also tend to have more apartments, lower incomes, and more transit commuters, so a correlation of any one of them with vote share may really reflect the others, or something else entirely. Overall, these patterns show where a candidate's support was concentrated – explaining why takes more than a correlation and is beyond the scope of this project.
 			</p>
 		</div>
 
@@ -180,7 +181,7 @@
 
 		<div class="text">
 			<p>
-				Even so, some patterns stand out. A handful of characteristics, such as housing type, income, how people commute, and distance from downtown, tend to line up with support for many candidates, and these patterns have been remarkably consistent since amalgamation. The two tables below rank and compare across a slate of categories. The first shows how every census variable relates to the selected candidate's vote share; the second compares the candidate's map with every other candidate's since 1997. Click any row to update the maps above.
+				Even so, some patterns stand out. A handful of characteristics – such as housing type, income, how people commute, and distance from downtown – tend to line up with support for many candidates, and these patterns have recurred since amalgamation, as we showed in earlier posts on <a href="{base}/torontos-two-rights">Toronto's two rights</a> and <a href="{base}/the-electoral-geography-of-progressivism">the electoral geography of progressivism</a>. The two tables below rank and compare across a slate of categories. The first shows how every census variable relates to the selected candidate's vote share; the second compares the candidate's map with every other candidate's map since 1997. Click any row to update the maps above.
 			</p>
 		</div>
 
@@ -239,7 +240,7 @@
 					</div>
 				</div>
 				<p class="corr-key">
-					Pearson <i>r</i> between the two candidates' vote shares across census tracts: <span class="swatch-pos">blue</span> where their support was strong in the same neighbourhoods, <span class="swatch-neg">red</span> where one was strong where the other was weak. Hatched values are not statistically significant (p ≥ 0.05). Tracts are not people: a correlation here describes places, not voters.
+					Pearson <i>r</i> between the two candidates' vote shares across census tracts: <span class="swatch-pos">blue</span> where their support was strong in the same neighbourhoods, <span class="swatch-neg">red</span> where one was strong and the other was weak. Hatched values are not statistically significant (p ≥ 0.05). Tracts are not people: a correlation here describes places, not voters.
 				</p>
 				<div id="cand-table" class="corr-table"></div>
 			</div>
@@ -253,10 +254,10 @@
 			All data are for Toronto's 585 census tracts, on 2021 boundaries. Census characteristics and election results were each apportioned from their original geographies to these tracts, so that every census and every election since amalgamation can be compared on the same map. Correlations are Pearson coefficients across tracts, calculated in the browser for whatever is selected; values with p ≥ 0.05 are shown hatched. This page is adapted from the <a href="https://github.com/zacktayloruwo/toronto-elections-mapper">Toronto elections mapper</a> built by Zack Taylor.
 		</p>
 		<ul>
-			<li><strong><em>Census:</em></strong> Statistics Canada censuses, 1996 to 2021, apportioned to 2021 census tracts using the <a href="https://doi.org/10.1111/cag.12467">Canadian Longitudinal Census Tract Database</a> (Allen and Taylor, 2018). For 2011, data come from both the 2011 Census and the voluntary National Household Survey, which replaced the long-form census that year. Income, density and access measures are shown as standard deviations from the average tract.</li>
+			<li><strong><em>Census:</em></strong> Statistics Canada censuses, 1996 to 2021, apportioned to 2021 census tracts using the <a href="https://doi.org/10.1111/cag.12467">Canadian Longitudinal Census Tract Database</a> (Allen and Taylor, 2018). For 2011, data come from both the 2011 Census and the voluntary National Household Survey, which replaced the long-form census that year. Income, density, and access measures are shown as standard deviations from the average tract.</li>
 			<li><strong><em>Proximity:</em></strong> Statistics Canada's <a href="https://www150.statcan.gc.ca/n1/pub/17-26-0002/172600022023001-eng.htm">Proximity Measures Database</a>, 2021 data (released 2023), measured once and applied to every census year.</li>
 			<li><strong><em>Elections:</em></strong> poll-level mayoral results, 1997 to 2023. Only election-day votes are included, as advance votes can't be placed in a neighbourhood. Polls were split into dissemination blocks by population and summed to 2021 census tracts.</li>
-			<li><strong><em>Boundaries:</em></strong> census tracts from Statistics Canada; wards, former municipalities and neighbourhoods from the City of Toronto. Ward lines match the selected election (25 wards from 2018, 44 wards from 2000 to 2014, none for 1997). Basemap © <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors.</li>
+			<li><strong><em>Boundaries:</em></strong> census tracts from Statistics Canada; wards, former municipalities, and neighbourhoods from the City of Toronto. Ward lines match the selected election (25 wards from 2018, 44 wards from 2000 to 2014, none for 1997). Basemap © <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors.</li>
 		</ul>
 	</div>
 

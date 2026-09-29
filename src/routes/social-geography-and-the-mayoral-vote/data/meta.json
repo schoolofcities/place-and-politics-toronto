@@ -423,7 +423,7 @@
     },
     {
       "id": "lfaainlfunem_pct",
-      "label": "% Unemployed",
+      "label": "% Unemployed (of pop. 15+)",
       "group": "Education & Labour Force",
       "kind": "pct",
       "curated": true,
@@ -1067,7 +1067,7 @@
     },
     {
       "id": "rlgnnone_pct",
-      "label": "% Atheist",
+      "label": "% No Religion",
       "group": "Religion",
       "kind": "pct",
       "curated": true,
@@ -1207,7 +1207,7 @@
     },
     {
       "id": "rlgnchripent_pct",
-      "label": "% Pentacostal",
+      "label": "% Pentecostal",
       "group": "Religion",
       "kind": "pct",
       "curated": true,

@@ -8,8 +8,7 @@
 	import p3 from '$assets/p3.png';
 	import p4 from '$assets/p4.png';
 	import p5 from '$assets/p5.png';
-	// Part 6 is unlisted until its final review; uncomment this and its card below to list it
-	// import p6 from '$assets/p6.png';
+	import p6 from '$assets/p6.png';
 
 </script>
 
@@ -136,7 +135,6 @@
 				</div>
 			</div>
 		</a>
-		<!-- Part 6, unlisted until its final review:
 		<a href="{base}/social-geography-and-the-mayoral-vote">
 			<div class="item">
 				<div class="number" style="background-image: url({p6});">
@@ -149,7 +147,6 @@
 				</div>
 			</div>
 		</a>
-		-->
 
 	</div>
 	
