@@ -1,6 +1,7 @@
 <script>
 
 	import Top from "$lib/layout/TopSofC.svelte";
+	import StructuredData from "$lib/layout/StructuredData.svelte";
 	import MapMini from "$lib/maps/MapMini.svelte";
     import WebCard from "$assets/web-card-2.png";
 	import ctWithResults from "$data/ctWithResults.geo.json";
@@ -20,25 +21,30 @@
 		content="width=device-width, initial-scale=1, minimum-scale=1"
 	/>
 
-    <title>Place and Politics in Toronto</title>
-    <meta name="description" content="Toronto's two rights: Mapping Toryland and Ford Nation">
+    <title>Toronto's two rights | Place & Politics in Toronto</title>
+    <meta name="description" content="Maps of support for Toronto's centre-right and right-leaning mayoral candidates since 2003, revealing two distinct kinds of conservative neighbourhoods.">
     <meta name="author" content="Zack Taylor & Jeff Allen">
 
-	<meta property="og:title" content="Place and Politics in Toronto" />
-    <meta name="og:description" content="Toronto's two rights: Mapping Toryland and Ford Nation" />
-    <meta property="og:type" content="website" />
+	<meta property="og:title" content="Toronto's two rights | Place & Politics in Toronto" />
+	<meta property="og:site_name" content="Place & Politics in Toronto" />
+    <meta property="og:description" content="Maps of support for Toronto's centre-right and right-leaning mayoral candidates since 2003, revealing two distinct kinds of conservative neighbourhoods." />
+    <meta property="og:type" content="article" />
+    <meta property="article:published_time" content="2022-11-25" />
+    <meta property="article:author" content="https://zacktaylorwestern.wordpress.com/" />
+    <meta property="article:author" content="https://jamaps.github.io/" />
     <meta property="og:url" content="https://schoolofcities.github.io/place-and-politics-toronto/torontos-two-rights" />
     <meta property="og:image" content="https://raw.githubusercontent.com/schoolofcities/place-and-politics-toronto/main/src/assets/web-card-2.png" />
     <meta property="og:locale" content="en_CA">
 
     <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:site" content="https://schoolofcities.github.io/place-and-politics-toronto/torontos-two-rights" />
-    <meta name="twitter:creator" content="@JeffAllenMaps" />
-    <meta name="twitter:title" content="Place and Politics in Toronto" />
-    <meta name="twitter:description" content="Toronto's two rights: Mapping Toryland and Ford Nation" />
+    <meta name="twitter:site" content="https://www.schoolofcities.utoronto.ca/" />
+    <meta name="twitter:title" content="Toronto's two rights | Place & Politics in Toronto" />
+    <meta name="twitter:description" content="Maps of support for Toronto's centre-right and right-leaning mayoral candidates since 2003, revealing two distinct kinds of conservative neighbourhoods." />
     <meta name="twitter:image" content="https://raw.githubusercontent.com/schoolofcities/place-and-politics-toronto/main/src/assets/web-card-2.png" />
 
 </svelte:head>
+
+<StructuredData slug="torontos-two-rights" description="Maps of support for Toronto's centre-right and right-leaning mayoral candidates since 2003, revealing two distinct kinds of conservative neighbourhoods." />
 
 
 

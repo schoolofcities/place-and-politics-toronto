@@ -1,6 +1,7 @@
 <script>
 
 	import Top from "$lib/layout/TopSofC.svelte";
+	import StructuredData from "$lib/layout/StructuredData.svelte";
 	import { base } from '$app/paths';
 	import logo from '$assets/top-logo.svg';
 	import p1 from '$assets/p1.png';
@@ -19,25 +20,27 @@
 		content="width=device-width, initial-scale=1, minimum-scale=1"
 	/>
 
-    <title>Place and Politics in Toronto</title>
-    <meta name="description" content="Place and Politics in Toronto">
+    <title>Place & Politics in Toronto</title>
+    <meta name="description" content="A blog series mapping where Toronto's mayoral candidates found their support, from amalgamation in 1997 to the 2023 by-election.">
     <meta name="author" content="Zack Taylor & Jeff Allen">
 
-    <meta property="og:title" content="Place and Politics in Toronto" />
-    <meta name="og:description" content="A blog series mapping City of Toronto election results " />
+    <meta property="og:title" content="Place & Politics in Toronto" />
+    <meta property="og:site_name" content="Place & Politics in Toronto" />
+    <meta property="og:description" content="A blog series mapping where Toronto's mayoral candidates found their support, from amalgamation in 1997 to the 2023 by-election." />
     <meta property="og:type" content="website" />
     <meta property="og:url" content="https://schoolofcities.github.io/place-and-politics-toronto/" />
     <meta property="og:image" content="https://raw.githubusercontent.com/schoolofcities/place-and-politics-toronto/main/src/assets/web-card-1.png" />
     <meta property="og:locale" content="en_CA">
 
     <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:site" content="https://schoolofcities.github.io/place-and-politics-toronto/" />
-    <meta name="twitter:creator" content="@JeffAllenMaps" />
-    <meta name="twitter:title" content="Place and Politics in Toronto" />
-    <meta name="twitter:description" content="A blog series mapping City of Toronto election results" />
+    <meta name="twitter:site" content="https://www.schoolofcities.utoronto.ca/" />
+    <meta name="twitter:title" content="Place & Politics in Toronto" />
+    <meta name="twitter:description" content="A blog series mapping where Toronto's mayoral candidates found their support, from amalgamation in 1997 to the 2023 by-election." />
     <meta name="twitter:image" content="https://raw.githubusercontent.com/schoolofcities/place-and-politics-toronto/main/src/assets/web-card-1.png" />
 
 </svelte:head>
+
+<StructuredData description="A blog series mapping where Toronto's mayoral candidates found their support, from amalgamation in 1997 to the 2023 by-election." />
 
 
 

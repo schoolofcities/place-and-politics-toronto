@@ -1,6 +1,7 @@
 <script>
 
 	import Top from "$lib/layout/TopSofC.svelte";
+	import StructuredData from "$lib/layout/StructuredData.svelte";
 	import candidateLinks from "$data/candidate_links.json"
 	import candidateInfo from "$data/candidate_info.json";
 	import ctWithResults from "$data/ctWithResults.geo.json";
@@ -49,25 +50,30 @@
 		content="width=device-width, initial-scale=1, minimum-scale=1"
 	/>
 
-	<title>Place and Politics in Toronto</title>
-    <meta name="description" content="Place and Politics in Toronto. Which candidates are most alike?">
+	<title>Which candidates are most alike? | Place & Politics in Toronto</title>
+    <meta name="description" content="An interactive tool comparing the geography of support for Toronto mayoral candidates from 1997 to 2022, ranking which candidates are most and least alike.">
     <meta name="author" content="Zack Taylor & Jeff Allen">
 
-	<meta property="og:title" content="Place and Politics in Toronto" />
-    <meta name="og:description" content="Which candidates are most alike?" />
-    <meta property="og:type" content="website" />
+	<meta property="og:title" content="Which candidates are most alike? | Place & Politics in Toronto" />
+	<meta property="og:site_name" content="Place & Politics in Toronto" />
+    <meta property="og:description" content="An interactive tool comparing the geography of support for Toronto mayoral candidates from 1997 to 2022, ranking which candidates are most and least alike." />
+    <meta property="og:type" content="article" />
+    <meta property="article:published_time" content="2022-12-14" />
+    <meta property="article:author" content="https://zacktaylorwestern.wordpress.com/" />
+    <meta property="article:author" content="https://jamaps.github.io/" />
     <meta property="og:url" content="https://schoolofcities.github.io/place-and-politics-toronto/which-candidates-are-most-alike" />
     <meta property="og:image" content="https://raw.githubusercontent.com/schoolofcities/place-and-politics-toronto/main/src/assets/web-card-4.png" />
     <meta property="og:locale" content="en_CA">
 
     <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:site" content="https://schoolofcities.github.io/place-and-politics-toronto/which-candidates-are-most-alike" />
-    <meta name="twitter:creator" content="@JeffAllenMaps" />
-    <meta name="twitter:title" content="Place and Politics in Toronto" />
-    <meta name="twitter:description" content="Which candidates are most alike?" />
+    <meta name="twitter:site" content="https://www.schoolofcities.utoronto.ca/" />
+    <meta name="twitter:title" content="Which candidates are most alike? | Place & Politics in Toronto" />
+    <meta name="twitter:description" content="An interactive tool comparing the geography of support for Toronto mayoral candidates from 1997 to 2022, ranking which candidates are most and least alike." />
     <meta name="twitter:image" content="https://raw.githubusercontent.com/schoolofcities/place-and-politics-toronto/main/src/assets/web-card-4.png" />
 
 </svelte:head>
+
+<StructuredData slug="which-candidates-are-most-alike" description="An interactive tool comparing the geography of support for Toronto mayoral candidates from 1997 to 2022, ranking which candidates are most and least alike." />
 
 
 

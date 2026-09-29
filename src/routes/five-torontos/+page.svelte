@@ -90,7 +90,7 @@
 	<meta name="author" content="School of Cities" />
 	<link rel="canonical" href="https://schoolofcities.github.io/place-and-politics-toronto/five-torontos" />
 	<meta property="og:title" content="Place and Politics in Toronto" />
-	<meta name="og:description" content="Clustering Toronto's neighbourhoods into five political groups" />
+	<meta property="og:description" content="Clustering Toronto's neighbourhoods into five political groups" />
 	<meta property="og:type" content="article" />
 	<meta property="og:url" content="https://schoolofcities.github.io/place-and-politics-toronto/five-torontos" />
 	<meta property="og:locale" content="en_CA" />
