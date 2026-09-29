@@ -53,7 +53,7 @@
 		<div id="mini-line"></div>
 
 		<h1>Mapping the 2023 mayoral by-election</h1>
-		<h3><a href="https://politicalscience.uwo.ca/people/faculty/full-time_faculty/zack_taylor.html">Zack Taylor</a> & <a href="https://jamaps.github.io/">Jeff Allen</a> <br><br> July 14, 2023</h3>
+		<h3><a href="https://zacktaylorwestern.wordpress.com/">Zack Taylor</a> & <a href="https://jamaps.github.io/">Jeff Allen</a> <br><br> July 14, 2023</h3>
 
 		<div id="mini-line"></div>
 

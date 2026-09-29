@@ -54,7 +54,7 @@
 		<div id="mini-line"></div>
 
 		<h1>Toronto's two rights</h1>
-		<h3><a href="https://politicalscience.uwo.ca/people/faculty/full-time_faculty/zack_taylor.html">Zack Taylor</a> & <a href="https://jamaps.github.io/">Jeff Allen</a> <br><br> November 25, 2022</h3>
+		<h3><a href="https://zacktaylorwestern.wordpress.com/">Zack Taylor</a> & <a href="https://jamaps.github.io/">Jeff Allen</a> <br><br> November 25, 2022</h3>
 
 		<div id="mini-line"></div>
 
