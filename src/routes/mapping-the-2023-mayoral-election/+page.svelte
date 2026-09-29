@@ -1,6 +1,7 @@
 <script>
 
 	import Top from "$lib/layout/TopSofC.svelte";
+	import StructuredData from "$lib/layout/StructuredData.svelte";
 	import MapMiniWard2023 from "./components/MapMiniWard2023.svelte";
 	import BarVote from "./components/BarVote2023.svelte";	
 	import Turnout from "./components/Turnout2023.svelte";
@@ -20,25 +21,30 @@
 		content="width=device-width, initial-scale=1, minimum-scale=1"
 	/>
 
-    <title>Place and Politics in Toronto</title>
-    <meta name="description" content="Mapping the 2023 Toronto mayoral by-election">
+    <title>Mapping the 2023 mayoral by-election | Place & Politics in Toronto</title>
+    <meta name="description" content="Maps of the 2023 Toronto mayoral by-election, showing the distinct geographies of support for Olivia Chow, Ana Bailão and the other major candidates.">
     <meta name="author" content="Zack Taylor & Jeff Allen">
 
-    <meta property="og:title" content="Place and Politics in Toronto" />
-    <meta name="og:description" content="Mapping the 2023 Toronto mayoral by-election" />
-    <meta property="og:type" content="website" />
-    <meta property="og:url" content="https://schoolofcities.github.io/place-and-politics-toronto/the-geography-of-the-vote-poll-by-poll" />
+    <meta property="og:title" content="Mapping the 2023 mayoral by-election | Place & Politics in Toronto" />
+    <meta property="og:site_name" content="Place & Politics in Toronto" />
+    <meta property="og:description" content="Maps of the 2023 Toronto mayoral by-election, showing the distinct geographies of support for Olivia Chow, Ana Bailão and the other major candidates." />
+    <meta property="og:type" content="article" />
+    <meta property="article:published_time" content="2023-07-14" />
+    <meta property="article:author" content="https://zacktaylorwestern.wordpress.com/" />
+    <meta property="article:author" content="https://jamaps.github.io/" />
+    <meta property="og:url" content="https://schoolofcities.github.io/place-and-politics-toronto/mapping-the-2023-mayoral-election" />
     <meta property="og:image" content="https://raw.githubusercontent.com/schoolofcities/place-and-politics-toronto/main/src/assets/web-card-5.png" />
     <meta property="og:locale" content="en_CA">
 
     <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:site" content="https://schoolofcities.github.io/place-and-politics-toronto/the-geography-of-the-vote-poll-by-poll" />
-    <meta name="twitter:creator" content="@JeffAllenMaps" />
-    <meta name="twitter:title" content="Place and Politics in Toronto" />
-    <meta name="twitter:description" content="Mapping the 2023 Toronto mayoral by-election" />
+    <meta name="twitter:site" content="https://www.schoolofcities.utoronto.ca/" />
+    <meta name="twitter:title" content="Mapping the 2023 mayoral by-election | Place & Politics in Toronto" />
+    <meta name="twitter:description" content="Maps of the 2023 Toronto mayoral by-election, showing the distinct geographies of support for Olivia Chow, Ana Bailão and the other major candidates." />
     <meta name="twitter:image" content="https://raw.githubusercontent.com/schoolofcities/place-and-politics-toronto/main/src/assets/web-card-5.png" />
 
 </svelte:head>
+
+<StructuredData slug="mapping-the-2023-mayoral-election" description="Maps of the 2023 Toronto mayoral by-election, showing the distinct geographies of support for Olivia Chow, Ana Bailão and the other major candidates." />
 
 
 

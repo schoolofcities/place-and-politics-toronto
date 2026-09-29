@@ -1,6 +1,7 @@
 <script>
 
 	import { onMount } from 'svelte';
+	import StructuredData from "$lib/layout/StructuredData.svelte";
 	import { replaceState } from '$app/navigation';
 	import { base } from '$app/paths';
 	import 'maplibre-gl/dist/maplibre-gl.css';
@@ -28,17 +29,29 @@
 		content="width=device-width, initial-scale=1, minimum-scale=1"
 	/>
 
-	<title>Social geography and the mayoral vote</title>
+	<title>Social geography and the mayoral vote | Place & Politics in Toronto</title>
 	<meta name="description" content="Side-by-side maps of Toronto census-tract social geography and mayoral election results, with the correlations between them.">
 	<meta name="author" content="Zack Taylor & Jeff Allen">
 
-	<meta property="og:title" content="Social geography and the mayoral vote" />
-	<meta name="og:description" content="Side-by-side maps of Toronto census-tract social geography and mayoral election results" />
-	<meta property="og:type" content="website" />
+	<meta property="og:title" content="Social geography and the mayoral vote | Place & Politics in Toronto" />
+	<meta property="og:site_name" content="Place & Politics in Toronto" />
+	<meta property="og:description" content="Side-by-side maps of Toronto census-tract social geography and mayoral election results, with the correlations between them." />
+	<meta property="og:type" content="article" />
+	<meta property="article:published_time" content="2026-09-29" />
+	<meta property="article:author" content="https://zacktaylorwestern.wordpress.com/" />
+	<meta property="article:author" content="https://jamaps.github.io/" />
 	<meta property="og:url" content="https://schoolofcities.github.io/place-and-politics-toronto/social-geography-and-the-mayoral-vote" />
+	<meta property="og:image" content="https://raw.githubusercontent.com/schoolofcities/place-and-politics-toronto/main/src/assets/web-card-6.png" />
 	<meta property="og:locale" content="en_CA">
+	<meta name="twitter:card" content="summary_large_image" />
+	<meta name="twitter:site" content="https://www.schoolofcities.utoronto.ca/" />
+	<meta name="twitter:title" content="Social geography and the mayoral vote | Place & Politics in Toronto" />
+	<meta name="twitter:description" content="Side-by-side maps of Toronto census-tract social geography and mayoral election results, with the correlations between them." />
+	<meta name="twitter:image" content="https://raw.githubusercontent.com/schoolofcities/place-and-politics-toronto/main/src/assets/web-card-6.png" />
 
 </svelte:head>
+
+<StructuredData slug="social-geography-and-the-mayoral-vote" description="Side-by-side maps of Toronto census-tract social geography and mayoral election results, with the correlations between them." />
 
 <Top/>
 

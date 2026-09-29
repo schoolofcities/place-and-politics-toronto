@@ -1,6 +1,7 @@
 <script>
 
 	import Top from "$lib/layout/TopSofC.svelte";
+	import StructuredData from "$lib/layout/StructuredData.svelte";
 	import Bar from "./components/Bar.svelte";	
 	import Turnout from "./components/Turnout2022.svelte";
 	import Map from "./components/Map.svelte";	
@@ -15,25 +16,30 @@
 		content="width=device-width, initial-scale=1, minimum-scale=1"
 	/>
 
-    <title>Place and Politics in Toronto</title>
-    <meta name="description" content="Mapping the 2022 Toronto Election.">
+    <title>The geography of the vote, poll by poll | Place & Politics in Toronto</title>
+    <meta name="description" content="Poll-by-poll maps of the 2022 Toronto mayoral election, showing where John Tory, Gil Peñalosa and Chloe Brown found their support, and where turnout fell.">
     <meta name="author" content="Zack Taylor & Jeff Allen">
 
-    <meta property="og:title" content="Place and Politics in Toronto" />
-    <meta name="og:description" content="Mapping the 2022 Toronto Election" />
-    <meta property="og:type" content="website" />
+    <meta property="og:title" content="The geography of the vote, poll by poll | Place & Politics in Toronto" />
+    <meta property="og:site_name" content="Place & Politics in Toronto" />
+    <meta property="og:description" content="Poll-by-poll maps of the 2022 Toronto mayoral election, showing where John Tory, Gil Peñalosa and Chloe Brown found their support, and where turnout fell." />
+    <meta property="og:type" content="article" />
+    <meta property="article:published_time" content="2022-11-02" />
+    <meta property="article:author" content="https://zacktaylorwestern.wordpress.com/" />
+    <meta property="article:author" content="https://jamaps.github.io/" />
     <meta property="og:url" content="https://schoolofcities.github.io/place-and-politics-toronto/the-geography-of-the-vote-poll-by-poll" />
     <meta property="og:image" content="https://raw.githubusercontent.com/schoolofcities/place-and-politics-toronto/main/src/assets/web-card-1.png" />
     <meta property="og:locale" content="en_CA">
 
     <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:site" content="https://schoolofcities.github.io/place-and-politics-toronto/the-geography-of-the-vote-poll-by-poll" />
-    <meta name="twitter:creator" content="@JeffAllenMaps" />
-    <meta name="twitter:title" content="Place and Politics in Toronto" />
-    <meta name="twitter:description" content="Mapping the 2022 Toronto Election" />
+    <meta name="twitter:site" content="https://www.schoolofcities.utoronto.ca/" />
+    <meta name="twitter:title" content="The geography of the vote, poll by poll | Place & Politics in Toronto" />
+    <meta name="twitter:description" content="Poll-by-poll maps of the 2022 Toronto mayoral election, showing where John Tory, Gil Peñalosa and Chloe Brown found their support, and where turnout fell." />
     <meta name="twitter:image" content="https://raw.githubusercontent.com/schoolofcities/place-and-politics-toronto/main/src/assets/web-card-1.png" />
 
 </svelte:head>
+
+<StructuredData slug="the-geography-of-the-vote-poll-by-poll" description="Poll-by-poll maps of the 2022 Toronto mayoral election, showing where John Tory, Gil Peñalosa and Chloe Brown found their support, and where turnout fell." />
 
 
 
