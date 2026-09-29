@@ -1,0 +1,1 @@
+import{p as r}from"./C8737J_l.js";import{s as t}from"./CEn-PbCA.js";const e={get error(){return r.error},get route(){return r.route},get status(){return r.status},get url(){return r.url}};t.updated.check;const u=e;export{u as p};

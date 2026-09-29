@@ -45,12 +45,12 @@
 
 	<div class="title">
 
-		<h4>Place & Politics in Toronto</h4>
+		<h4>Place & Politics in Toronto - Part 6</h4>
 
 		<div id="mini-line"></div>
 
 		<h1>Social geography and the mayoral vote</h1>
-		<h3><a href="https://politicalscience.uwo.ca/people/faculty/full-time_faculty/zack_taylor.html">Zack Taylor</a> & <a href="https://jamaps.github.io/">Jeff Allen</a></h3>
+		<h3><a href="https://politicalscience.uwo.ca/people/faculty/full-time_faculty/zack_taylor.html">Zack Taylor</a> & <a href="https://jamaps.github.io/">Jeff Allen</a> <br><br> September 29, 2026</h3>
 
 		<div id="mini-line"></div>
 
@@ -168,6 +168,8 @@
 			<div class="scatter-col">
 				<p class="note" id="scatter-stat"></p>
 				<div class="scatter-wrap" id="scatter-big"></div>
+				<!-- announces the new selection to screen readers (filled by mapper.js) -->
+				<p class="sr-only" id="live-status" aria-live="polite"></p>
 				<p class="scatter-foot">
 					r = Pearson correlation across census tracts, with the least-squares trend line. Tracts are not people: a correlation here describes places, not voters.
 				</p>
@@ -210,7 +212,7 @@
 					</div>
 				</div>
 				<p class="corr-key">
-					Pearson <i>r</i> across census tracts: <span class="swatch-pos">blue</span> where the vote share is higher in tracts with more of that characteristic, <span class="swatch-neg">red</span> where it's lower. Faded values aren't statistically significant (p ≥ 0.05).
+					Pearson <i>r</i> across census tracts: <span class="swatch-pos">blue</span> where the vote share is higher in tracts with more of that characteristic, <span class="swatch-neg">red</span> where it's lower. Hatched values are not statistically significant (p ≥ 0.05). Tracts are not people: a correlation here describes places, not voters.
 				</p>
 				<div id="corr-table" class="corr-table"></div>
 			</div>
@@ -237,7 +239,7 @@
 					</div>
 				</div>
 				<p class="corr-key">
-					Pearson <i>r</i> between the two candidates' vote shares across census tracts: <span class="swatch-pos">blue</span> where their support was strong in the same neighbourhoods, <span class="swatch-neg">red</span> where one was strong where the other was weak. Faded values aren't statistically significant (p ≥ 0.05).
+					Pearson <i>r</i> between the two candidates' vote shares across census tracts: <span class="swatch-pos">blue</span> where their support was strong in the same neighbourhoods, <span class="swatch-neg">red</span> where one was strong where the other was weak. Hatched values are not statistically significant (p ≥ 0.05). Tracts are not people: a correlation here describes places, not voters.
 				</p>
 				<div id="cand-table" class="corr-table"></div>
 			</div>
@@ -248,10 +250,10 @@
 	<div class="info">
 		<p class="info-title"><strong>Data and methods</strong></p>
 		<p>
-			All data are for Toronto's 585 census tracts, on 2021 boundaries. Census characteristics and election results were each apportioned from their original geographies to these tracts, so that every census and every election since amalgamation can be compared on the same map. Correlations are Pearson coefficients across tracts, calculated in the browser for whatever is selected; values with p ≥ 0.05 are shown faded. This page is adapted from the <a href="https://github.com/zacktayloruwo/toronto-elections-mapper">Toronto elections mapper</a> built by Zack Taylor.
+			All data are for Toronto's 585 census tracts, on 2021 boundaries. Census characteristics and election results were each apportioned from their original geographies to these tracts, so that every census and every election since amalgamation can be compared on the same map. Correlations are Pearson coefficients across tracts, calculated in the browser for whatever is selected; values with p ≥ 0.05 are shown hatched. This page is adapted from the <a href="https://github.com/zacktayloruwo/toronto-elections-mapper">Toronto elections mapper</a> built by Zack Taylor.
 		</p>
 		<ul>
-			<li><strong><em>Census:</em></strong> Statistics Canada censuses, 1996 to 2021, apportioned to 2021 census tracts using the <a href="https://doi.org/10.1111/cag.12467">Canadian Longitudinal Census Tract Database</a> (Allen and Taylor, 2018). Income, density and access measures are shown as standard deviations from the average tract.</li>
+			<li><strong><em>Census:</em></strong> Statistics Canada censuses, 1996 to 2021, apportioned to 2021 census tracts using the <a href="https://doi.org/10.1111/cag.12467">Canadian Longitudinal Census Tract Database</a> (Allen and Taylor, 2018). For 2011, data come from both the 2011 Census and the voluntary National Household Survey, which replaced the long-form census that year. Income, density and access measures are shown as standard deviations from the average tract.</li>
 			<li><strong><em>Proximity:</em></strong> Statistics Canada's <a href="https://www150.statcan.gc.ca/n1/pub/17-26-0002/172600022023001-eng.htm">Proximity Measures Database</a>, 2021 data (released 2023), measured once and applied to every census year.</li>
 			<li><strong><em>Elections:</em></strong> poll-level mayoral results, 1997 to 2023. Only election-day votes are included, as advance votes can't be placed in a neighbourhood. Polls were split into dissemination blocks by population and summed to 2021 census tracts.</li>
 			<li><strong><em>Boundaries:</em></strong> census tracts from Statistics Canada; wards, former municipalities and neighbourhoods from the City of Toronto. Ward lines match the selected election (25 wards from 2018, 44 wards from 2000 to 2014, none for 1997). Basemap © <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors.</li>
@@ -293,11 +295,12 @@
 		gap: 16px;
 	}
 
-	/* each panel's header and map share rows with the other panel's, so the two
-	   maps line up even when one header wraps onto more lines */
+	/* Each panel's heading, dropdowns, stat line, legend and map share rows with the
+	   other panel's (the header's parts become rows of the panel grid), so they line
+	   up even when one panel has an extra line, like the candidate radios */
 	.panel {
 		display: grid;
-		grid-row: span 2;
+		grid-row: span 5;
 		grid-template-rows: subgrid;
 		grid-template-columns: minmax(0, 1fr);
 		row-gap: 0;
@@ -307,7 +310,26 @@
 	}
 
 	.panel-head {
-		padding: 10px 2px 8px;
+		display: contents;
+	}
+
+	.panel-head > :global(*) {
+		padding-left: 2px;
+		padding-right: 2px;
+	}
+
+	.panel-head > h2 {
+		padding-top: 10px;
+	}
+
+	/* dropdowns sit at the top of their row; extra lines (the radios) go below */
+	.panel-head > .controls {
+		align-items: flex-start;
+		align-content: flex-start;
+	}
+
+	.panel-head > .legend {
+		margin-bottom: 8px;
 	}
 
 	h2 {
@@ -414,13 +436,14 @@
 	.pair-controls .controls { align-items: flex-start; }
 	.pair-controls .cand-scope { flex-basis: 100%; }
 	.pair-controls { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: 16px; border-top: 1px solid grey; padding: 12px 2px 0; }
-	.legend-bi { display: flex; align-items: center; gap: 16px; padding: 12px 2px 12px; margin-top: 0; }
+	/* key beside the text, or above it when there isn't room (phones) */
+	.legend-bi { display: flex; flex-wrap: wrap; align-items: center; gap: 10px 16px; padding: 12px 2px 12px; margin-top: 0; }
 	.legend-bi :global(.bi-key) { display: block; overflow: visible; flex: none; }
 	.legend-bi :global(.bi-text) { margin: 0; font-size: 13px; line-height: 1.5; color: var(--brandGray80); max-width: 560px; }
 	.legend-bi :global(.bi-text strong) { color: black; }
 	/* Sized from the page width W: each map above is (W - 16px) / 2 wide, so this
 	   section is that plus a gap plus a scatter half as wide, centred */
-	.pair-section { width: calc(0.75 * (100% - 16px) + 20px); margin: 0 auto; }
+	.pair-section { width: calc(0.75 * (100% - 16px) + 20px); margin: 0 auto; padding-bottom: 16px; border-bottom: 1px solid grey; }
 	.pair { display: grid; grid-template-columns: minmax(0, 2fr) minmax(0, 1fr); gap: 20px; align-items: start; }
 	.scatter-col .note { margin: 0 0 6px; text-align: center; }
 	.scatter-foot { margin: 6px 0 0; font-size: 11px; line-height: 1.45; color: var(--muted); }
@@ -498,7 +521,11 @@
 	.corr-table :global(.ct-row.sel .ct-label) { font-family: OpenSansBold, sans-serif; }
 	.corr-table :global(.ct-label) { color: var(--brandGray90); }
 	.corr-table :global(.ct-r) { flex: none; width: 46px; text-align: center; font-size: 11px; font-variant-numeric: tabular-nums; padding: 1px 0; }
-	.corr-table :global(.ct-r.ns) { opacity: 0.3; }
+	.corr-table :global(.ct-r.strong) { font-family: OpenSansBold, sans-serif; }
+	/* not statistically significant: fine diagonal hatching behind the number */
+	.corr-table :global(.ct-r.ns) { background-image: repeating-linear-gradient(-45deg, rgba(0, 0, 0, 0.14) 0 1px, transparent 1px 4px); }
+	/* read by screen readers, not shown */
+	:global(.sr-only) { position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; border: 0; }
 	.corr-votes { flex: 1 1 100%; border-top: 1px solid var(--line); padding-top: 16px; }
 	.corr :global(.corr-stat) { margin: 2px 0 0; font-size: 12px; color: var(--muted); }
 
