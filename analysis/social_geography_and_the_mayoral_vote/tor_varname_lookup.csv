@@ -49,7 +49,7 @@ jwmdbike_pct,% Bike Commute,Place,1
 jwmdothr_pct,% Other Commute,Place,1
 jwmdtran_pct,% Transit Commute,Place,1
 jwmdwalk_pct,% Walk Commute,Place,1
-lfaainlfunem_pct,% Unemployed,People,1
+lfaainlfunem_pct,% Unemployed (of pop. 15+),People,1
 lnmt_tot,Mother Tongue - Total,People,0
 lnmt1resnoffnabodravtami_pct,% Tamil Mother Tongue,People,1
 lnmt1resoffien___pct,% English Mother Tongue,People,1
@@ -118,12 +118,12 @@ rlgnchribapt_pct,% Baptist,People,1
 rlgnchricath_tot_pct,% Catholic,People,1
 rlgnchriorth_tot_pct,% Orthodox,People,1
 rlgnchriothr_pct,% Other Christian,People,0
-rlgnchripent_pct,% Pentacostal,People,1
+rlgnchripent_pct,% Pentecostal,People,1
 rlgnchriunch_pct,% United Church,People,1
 rlgnhind_pct,% Hindu,People,1
 rlgnjewi_pct,% Jewish,People,1
 rlgnmusl_pct,% Muslim,People,1
-rlgnnone_pct,% Atheist,People,1
+rlgnnone_pct,% No Religion,People,1
 rlgnothr_pct,% Other Religion,People,0
 rlgnsikh_pct,% Sikh,People,1
 s_bikescore,Bikescore,Place,0

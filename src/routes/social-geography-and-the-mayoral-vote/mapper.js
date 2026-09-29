@@ -570,6 +570,10 @@ export async function startMapper(root, { replaceHash }) {
     for (const r of root.querySelectorAll('.cand-scope input')) r.checked = (r.value === '1') === state.eall
   }
 
+  // Proximity measures are 2021 data shown beside every census and election, so
+  // their names say so in the dropdowns and the correlation table
+  const listLabel = (v) => (v.id.startsWith('s_pmi_') ? `${v.label} (2021)` : v.label)
+
   function fillVarSelect() {
     const groups = new Map()
     for (const v of meta.variables) {
@@ -578,8 +582,8 @@ export async function startMapper(root, { replaceHash }) {
     }
     // variables without a category (population density) sit above the groups
     selVar.replaceChildren(...[...groups].flatMap(([g, vs]) => g
-      ? [h('optgroup', { label: g }, ...vs.map((v) => new Option(v.label, v.id)))]
-      : vs.map((v) => new Option(v.label, v.id))))
+      ? [h('optgroup', { label: g }, ...vs.map((v) => new Option(listLabel(v), v.id)))]
+      : vs.map((v) => new Option(listLabel(v), v.id))))
     selVar.value = state.cvar
   }
 
@@ -825,7 +829,7 @@ export async function startMapper(root, { replaceHash }) {
       fmtValue(current.election.get(ct), 'pct'),
       votes == null ? null : `${fmtCount(votes)} / ${fmtCount(den?.cast)}`,  // beside the value
       den?.eligible == null ? null
-        : `Turnout ${fmtPct(den.cast / den.eligible, 0)} of ${fmtCount(den.eligible)} eligible`)
+        : `Election-day turnout ${fmtPct(den.cast / den.eligible, 0)} of ${fmtCount(den.eligible)} eligible`)
     // the bivariate map's box shows both values, a size down from the other maps' boxes
     $('readout-bi').replaceChildren(
       ...tractLines(ct),
@@ -1108,8 +1112,8 @@ export async function startMapper(root, { replaceHash }) {
     // one row: the variable (with its theme underneath when sorted by r) and its coloured r
     const rowFor = ({ x, st }, showGroup) => tableRow(
       showGroup && x.group
-        ? h('span', { class: 'ct-label' }, x.label, h('span', { class: 'ct-cat' }, x.group))
-        : h('span', { class: 'ct-label' }, x.label),
+        ? h('span', { class: 'ct-label' }, listLabel(x), h('span', { class: 'ct-cat' }, x.group))
+        : h('span', { class: 'ct-label' }, listLabel(x)),
       st, x.id === state.cvar, () => pick(x.id))
 
     // Variables without data for this census year (religion is only asked every ten
