@@ -14,10 +14,10 @@ import censusUrl from './data/census.parquet?url'
 import electionsUrl from './data/elections.parquet?url'
 import turnoutUrl from './data/turnout.parquet?url'
 // The 44 wards used for the 2000-2014 elections, and each tract's ward among them
-// (built by analysis/social_geography_and_the_mayoral_vote/build_wards_2000_2014.py)
+// (see analysis/social_geography_and_the_mayoral_vote/README.md)
 import wards2000Url from './data/wards-2000-2014.geojson?url'
 import tractWards2000Url from './data/tract-wards-2000-2014.json?url'
-// The city's outline, dissolved from the current wards (build_city_boundary.py)
+// The city's outline, dissolved from the current wards
 import cityUrl from './data/city-boundary.geojson?url'
 
 // Quintile palettes, light to dark, ending in brand dark green and dark blue

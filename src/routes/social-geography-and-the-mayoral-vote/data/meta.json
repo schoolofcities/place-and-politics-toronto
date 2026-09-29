@@ -1593,26 +1593,26 @@
         {
           "id": "miller",
           "label": "David Miller",
-          "city_share": 0.4835,
-          "city_votes": 314247
+          "city_share": 0.433,
+          "city_votes": 281425
         },
         {
           "id": "tory",
           "label": "John Tory",
-          "city_share": 0.3326,
-          "city_votes": 216185
+          "city_share": 0.3823,
+          "city_votes": 248434
         },
         {
           "id": "hall",
           "label": "Barbara Hall",
-          "city_share": 0.1032,
-          "city_votes": 67091
+          "city_share": 0.0895,
+          "city_votes": 58168
         },
         {
           "id": "nunziata",
           "label": "John Nunziata",
-          "city_share": 0.0384,
-          "city_votes": 24945
+          "city_share": 0.0522,
+          "city_votes": 33919
         }
       ]
     },
