@@ -6,7 +6,7 @@
 	//     Section 2: Mobile Middle          — (no graphic)
 	//     Section 3: Civic Professionals    — income-vs-education scatter
 	//     Section 4: Settled Conservatives  — triple strip plot
-	//     Section 5: Working Suburbanites   — normalized triangle (visible minority / income / education)
+	//     Section 5: Working Suburbanites   — triple strip plot (visible minority / income / education)
 	//
 	// Per-section voting rows + graphic choice live in ./sections.js —
 	// edit that file for section content, this one for page structure/layout.
@@ -19,10 +19,6 @@
 	import ClusterSummaryTable from "./components/ClusterSummaryTable.svelte";
 	import StripPlot from "./components/StripPlot.svelte";
 	import ScatterHighlight from "./components/ScatterHighlight.svelte";
-	import TernaryProfilePlot from "./components/TernaryProfilePlot.svelte";
-	// An alternative to the ternary plot for Working Suburbanites — kept ready to swap in (see
-	// the commented-out markup further down) without needing to rebuild it from scratch.
-	// import RadarTriangle from "./components/RadarTriangle.svelte";
 
 	import { SECTION_CONFIG } from "./sections.js";
 	import clustersSummary from "$data/clustering_neighbourhoods/clusters_summary.json";
@@ -38,7 +34,7 @@
 
 	// Fixed socioeconomic vars shown in every section. `delta` is the cluster's
 	// percentage-point difference from the Toronto-wide figure, already computed in
-	// clusters_summary.json — shown in green/red beside the value (see
+	// clusters_summary.json — shown as a signed "pts" figure beside the value (see
 	// ./components/ClusterSummaryTable.svelte).
 	const socioeconomicFor = (c) => [
 		{ label: "Renters", value: pct(c.demographics.pct_renter), delta: c.demographics_vs_toronto.pct_renter.diff_vs_toronto },
@@ -316,15 +312,6 @@
 						lowest approximate income and university attainment, the highest visible
 						minority share, some of the largest households, and the longest commutes.
 					</p>
-					<div class="inline-graphic">
-						<TernaryProfilePlot values={ctValues} vars={config.ternaryVars} {clusterId} {color} />
-						<!-- Alternative graphic for this section — a radar/triangle hybrid instead of
-							 the normalized ternary above. Sized to fit this same inline layout; swap it
-							 in by uncommenting this and commenting out the TernaryProfilePlot above (and
-							 its import at the top of the script).
-						<RadarTriangle {clusters} activeClusterId={clusterId} />
-						-->
-					</div>
 					<p>
 						Their voting patterns are less straightforward than those of the Settled
 						Conservatives beside them. Ontario PC support is relatively high, but the
@@ -356,10 +343,10 @@
 				{/if}
 			</div>
 
-			<!-- Progressive Core / Settled Conservatives get a full-width strip plot underneath
-				 the body copy. Civic Professionals' scatter and Working Suburbanites' ternary
-				 plot are instead placed inline, between that section's two paragraphs above
-				 (see `.inline-graphic`), so the second paragraph wraps around them. -->
+			<!-- Progressive Core / Settled Conservatives / Working Suburbanites get a full-width
+				 strip plot underneath the body copy. Civic Professionals' scatter is instead
+				 placed inline, between that section's two paragraphs above (see
+				 `.inline-graphic`), so the second paragraph wraps around it. -->
 			{#if config.graphic === "strip"}
 				<div class="graphic">
 					<StripPlot values={ctValues} variables={config.stripVars} {clusterId} {color} />

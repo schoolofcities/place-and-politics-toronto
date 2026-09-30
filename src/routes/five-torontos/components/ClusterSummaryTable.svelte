@@ -3,7 +3,8 @@
 	// dumb: the page passes in already-resolved rows so this component doesn't need to know
 	// about clusters_summary.json's shape. Each row is { label, value, delta? } — `delta`
 	// (percentage points vs. the Toronto-wide figure) is optional; when present it's shown
-	// beside the value, green if the cluster is above the city average, red if below.
+	// beside the value as a signed "pts" figure. Above/below the city average isn't good or
+	// bad, so it's rendered in one neutral colour rather than green/red.
 
 	export let title = "";
 	export let socioeconomic = []; // [{ label, value, delta? }]
@@ -21,8 +22,9 @@
 
 	function deltaText(delta) {
 		const rounded = Math.round(delta);
-		const arrow = rounded >= 0 ? "▲" : "▼";
-		return `(${arrow}${Math.abs(rounded)}%)`;
+		if (rounded === 0) return "(0 pts)";
+		const sign = rounded > 0 ? "+" : "−";
+		return `(${sign}${Math.abs(rounded)} pts)`;
 	}
 </script>
 
@@ -44,9 +46,7 @@
 								<td class="row-value">
 									{row.value}
 									{#if row.delta !== undefined && row.delta !== null}
-										<span class="delta" class:positive={row.delta >= 0} class:negative={row.delta < 0}>
-											{deltaText(row.delta)}
-										</span>
+										<span class="delta">{deltaText(row.delta)}</span>
 									{/if}
 								</td>
 							</tr>
@@ -111,12 +111,7 @@
 	}
 	.delta {
 		font-variant-numeric: tabular-nums;
-	}
-	.delta.positive {
-		color: #1a7d3a;
-	}
-	.delta.negative {
-		color: #c0392b;
+		color: #666;
 	}
 
 	@media (max-width: 480px) {

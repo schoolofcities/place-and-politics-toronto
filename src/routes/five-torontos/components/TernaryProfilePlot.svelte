@@ -1,12 +1,13 @@
 <script>
-	// Normalized triangle plot for Working Suburbanites: NOT a true ternary, since the 3
-	// variables (visible minority %, income, bachelor's+ %) don't sum to anything meaningful
-	// on their own. Each is min-max normalized across all 585 tracts to [0, 1], then the 3
-	// normalized values are rescaled to proportions a, b, c with a,b,c >= 0 and a+b+c = 1 —
-	// that's what places every dot inside the triangle (a barycentric combination of the 3
-	// vertices always lands in their convex hull as long as the weights are non-negative and
-	// sum to 1). Every tract gets a dot; the active cluster's tracts are coloured, the rest of
-	// the city is grey.
+	// Normalized triangle plot, originally built for Working Suburbanites (that section now
+	// uses a triple StripPlot instead — see +page.svelte). Kept as a ready swap-in alternative,
+	// alongside RadarTriangle.svelte. NOT a true ternary, since the 3 variables (visible
+	// minority %, income, bachelor's+ %) don't sum to anything meaningful on their own. Each is
+	// min-max normalized across all 585 tracts to [0, 1], then the 3 normalized values are
+	// rescaled to proportions a, b, c with a,b,c >= 0 and a+b+c = 1 — that's what places every
+	// dot inside the triangle (a barycentric combination of the 3 vertices always lands in
+	// their convex hull as long as the weights are non-negative and sum to 1). Every tract gets
+	// a dot; the active cluster's tracts are coloured, the rest of the city is grey.
 
 	import { extent } from "d3";
 

@@ -70,12 +70,11 @@ export const SECTION_CONFIG = {
 			{ label: "Provincial: PC", election: "provincial_2025", field: "pc" },
 			{ label: "Federal: Conservative", election: "federal_2025", field: "conservative" },
 		],
-		graphic: "ternary",
-		// [bottom-left, bottom-right, top] — see ./components/TernaryProfilePlot.svelte.
-		ternaryVars: [
-			{ key: "pct_visible_minority", label: "% Visible Minority" },
-			{ key: "income_median", label: "Median income" },
-			{ key: "pct_bachelor_or_higher", label: "% Bachelor's degree+" },
+		graphic: "strip",
+		stripVars: [
+			{ key: "pct_visible_minority", label: "% visible minority" },
+			{ key: "income_median", label: "Median income", domain: [20000, 90000], tickStep: 20000, format: (v) => `$${Math.round(v / 1000)}k` },
+			{ key: "pct_bachelor_or_higher", label: "% bachelor's degree+" },
 		],
 	},
 };

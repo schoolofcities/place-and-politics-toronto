@@ -7,13 +7,17 @@
 	// length), and median income runs the actual (niced) range across the 5 clusters. All 5
 	// clusters draw as outlines only, in their own colour — no fill — so overlapping shapes
 	// stay legible; the active cluster gets a noticeably thicker outline and draws on top.
-	// Currently unused (see the commented-out import/markup in +page.svelte) — kept as a ready
-	// swap-in alternative to the ternary plot.
+	// Currently unused — the Working Suburbanites section uses a triple StripPlot instead (see
+	// +page.svelte). Kept as a ready swap-in alternative, alongside TernaryProfilePlot.svelte.
 
 	import { scaleLinear, extent } from "d3";
 
 	export let clusters = []; // all 5 cluster summary records
 	export let activeClusterId;
+
+	$: ariaLabel = `Radar chart comparing ${AXES.map((ax) => ax.label.toLowerCase()).join(
+		", "
+	)} across Toronto's five political clusters, with this cluster's shape highlighted`;
 
 	const AXES = [
 		{ label: "Visible minority", angle: -90, get: (c) => c.demographics.pct_visible_minority, domain: [0, 100], format: (v) => `${v.toFixed(0)}%` },
@@ -74,7 +78,7 @@
 </script>
 
 <div bind:offsetWidth={divWidth}>
-	<svg width={SIZE} height={SIZE}>
+	<svg width={SIZE} height={SIZE} role="img" aria-label={ariaLabel}>
 		{#each axes as ax, i}
 			{@const end = axisEnds[i]}
 			{@const tick = tickPositions[i]}

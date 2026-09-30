@@ -5,10 +5,10 @@
 	// "double strip plot" in the Progressive Core section; 3 gives the "triple strip plot"
 	// in the Settled Conservatives section — same component either way.
 
-	import { scaleLinear, extent } from "d3";
+	import { scaleLinear, extent, median } from "d3";
 
 	export let values = []; // ct_values.json records (or a pre-filtered subset)
-	export let variables = []; // [{ key, label, domain?, tickStep? }] — domain: [min, max] fixes the axis range and drops out-of-range dots; tickStep: fixed spacing between tick labels (both optional, and only meaningful together)
+	export let variables = []; // [{ key, label, domain?, tickStep?, format? }] — domain: [min, max] fixes the axis range and drops out-of-range dots; tickStep: fixed spacing between tick labels (both optional, and only meaningful together); format: (value) => string, applied to tick labels and the median label alike (defaults to the raw number for ticks, one decimal place for the median)
 	export let clusterId;
 	export let color = "#3d53fb";
 
@@ -54,6 +54,12 @@
 		v.domain ? values.filter((d) => d[v.key] >= v.domain[0] && d[v.key] <= v.domain[1]) : values
 	);
 
+	// Citywide median for each row -- always computed over every tract the row actually plots
+	// (valuesFor), not just this section's cluster, so it reads as a fixed reference line.
+	$: medians = variables.map((v, i) => median(valuesFor[i], (d) => d[v.key]));
+	$: tickFormat = variables.map((v) => v.format ?? ((t) => t));
+	$: medianFormat = variables.map((v) => v.format ?? ((t) => t.toFixed(1)));
+
 	// Rather than every dot sitting dead-on the axis line, spread dots that land at (nearly)
 	// the same x a little above/below it — not a true collision-avoiding beeswarm, just enough
 	// vertical stagger that a dense cluster of tracts at one value reads as "many dots here"
@@ -96,6 +102,14 @@
 				<text class="row-title" x="0" y={y - 6}>{v.label}</text>
 				<line class="axis" x1="0" x2={innerWidth} y1={y + 20} y2={y + 20} />
 
+				<!-- citywide median: a dotted reference line, longer than the tick marks, with a
+					 small label sitting in the clear band above the strip (between the row title
+					 and the dots) so it never collides with either. Drawn before the dots so a
+					 dense stack of dots at the same value reads on top of it, not the reverse. -->
+				{@const medX = scales[i](medians[i])}
+				<line class="median" x1={medX} x2={medX} y1={y + 8} y2={y + 32} />
+				<text class="median-label" x={medX} y={y + 3}>Median: {medianFormat[i](medians[i])}</text>
+
 				<!-- background: every tract in the city -->
 				{#each rows[i].bg as p}
 					<circle cx={p.cx} cy={y + 20 + p.cy} r={DOT_R} fill={FADE_COLOR} />
@@ -109,7 +123,7 @@
 					 cluster of dots never sits on top of a tick label -->
 				{#each ticks[i] as t}
 					<line class="tick" x1={scale(t)} x2={scale(t)} y1={y + 17} y2={y + 23} />
-					<text class="tick-label" x={scale(t)} y={y + 48}>{t}</text>
+					<text class="tick-label" x={scale(t)} y={y + 48}>{tickFormat[i](t)}</text>
 				{/each}
 			{/each}
 		</g>
@@ -134,6 +148,18 @@
 	.tick-label {
 		font-size: 10px;
 		fill: black;
+		text-anchor: middle;
+		font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu,
+			Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+	}
+	.median {
+		stroke: #666;
+		stroke-width: 1px;
+		stroke-dasharray: 2, 2;
+	}
+	.median-label {
+		font-size: 9px;
+		fill: #666;
 		text-anchor: middle;
 		font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu,
 			Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
