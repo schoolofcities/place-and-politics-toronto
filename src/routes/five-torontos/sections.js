@@ -3,15 +3,17 @@
 // This is the one place to edit if a section's voting rows or graphic need to change —
 // nothing here depends on the page's own logic, so it's safe to tweak without touching
 // +page.svelte. `graphic` is a plain switch key; `graphic: null` means no graphic at all
-// (see the template in +page.svelte for how each value maps to a component).
+// (see the template in +page.svelte for how each value maps to a component). Voting specs are
+// just an (election, field) pair — their display label is the shared, single-line abbreviation
+// in ClusterSummaryTable.svelte's VOTING_LABELS, not defined per section.
 export const SECTION_CONFIG = {
 	"progressive-core": {
 		votingSpecs: [
-			{ label: "Municipal: Chow", election: "mayor_2023", field: "chow" },
-			{ label: "Municipal turnout", election: "mayor_2023", field: "turnout" },
-			{ label: "Provincial: NDP", election: "provincial_2025", field: "ndp" },
-			{ label: "Provincial: PC", election: "provincial_2025", field: "pc" },
-			{ label: "Federal: NDP", election: "federal_2025", field: "ndp" },
+			{ election: "mayor_2023", field: "chow" },
+			{ election: "mayor_2023", field: "turnout" },
+			{ election: "provincial_2025", field: "ndp" },
+			{ election: "provincial_2025", field: "pc" },
+			{ election: "federal_2025", field: "ndp" },
 		],
 		graphic: "strip",
 		stripVars: [
@@ -21,21 +23,21 @@ export const SECTION_CONFIG = {
 	},
 	"soft-left-belt": {
 		votingSpecs: [
-			{ label: "Municipal: Chow", election: "mayor_2023", field: "chow" },
-			{ label: "Municipal turnout", election: "mayor_2023", field: "turnout" },
-			{ label: "Provincial: NDP", election: "provincial_2025", field: "ndp" },
-			{ label: "Provincial: PC", election: "provincial_2025", field: "pc" },
-			{ label: "Federal: Liberal", election: "federal_2025", field: "liberal" },
+			{ election: "mayor_2023", field: "chow" },
+			{ election: "mayor_2023", field: "turnout" },
+			{ election: "provincial_2025", field: "ndp" },
+			{ election: "provincial_2025", field: "pc" },
+			{ election: "federal_2025", field: "liberal" },
 		],
 		graphic: null, // no graphic for this section
 	},
 	"civic-liberals": {
 		votingSpecs: [
-			{ label: "Municipal: Matlow", election: "mayor_2023", field: "matlow" },
-			{ label: "Municipal turnout", election: "mayor_2023", field: "turnout" },
-			{ label: "Provincial: Liberal", election: "provincial_2025", field: "liberal" },
-			{ label: "Federal: Liberal", election: "federal_2025", field: "liberal" },
-			{ label: "Federal turnout", election: "federal_2025", field: "turnout" },
+			{ election: "mayor_2023", field: "matlow" },
+			{ election: "mayor_2023", field: "turnout" },
+			{ election: "provincial_2025", field: "liberal" },
+			{ election: "federal_2025", field: "liberal" },
+			{ election: "federal_2025", field: "turnout" },
 		],
 		graphic: "scatter",
 		scatter: {
@@ -49,11 +51,11 @@ export const SECTION_CONFIG = {
 	},
 	"suburban-conservatives": {
 		votingSpecs: [
-			{ label: "Municipal: Bailão", election: "mayor_2023", field: "bailao" },
-			{ label: "Provincial: PC", election: "provincial_2025", field: "pc" },
-			{ label: "Provincial: NDP", election: "provincial_2025", field: "ndp" },
-			{ label: "Federal: Conservative", election: "federal_2025", field: "conservative" },
-			{ label: "Federal: Liberal", election: "federal_2025", field: "liberal" },
+			{ election: "mayor_2023", field: "bailao" },
+			{ election: "provincial_2025", field: "pc" },
+			{ election: "provincial_2025", field: "ndp" },
+			{ election: "federal_2025", field: "conservative" },
+			{ election: "federal_2025", field: "liberal" },
 		],
 		graphic: "strip",
 		stripVars: [
@@ -64,11 +66,11 @@ export const SECTION_CONFIG = {
 	},
 	"low-turnout-suburbanites": {
 		votingSpecs: [
-			{ label: "Municipal: Others", election: "mayor_2023", field: "other" },
-			{ label: "Municipal turnout", election: "mayor_2023", field: "turnout" },
-			{ label: "Provincial: NDP", election: "provincial_2025", field: "ndp" },
-			{ label: "Provincial: PC", election: "provincial_2025", field: "pc" },
-			{ label: "Federal: Conservative", election: "federal_2025", field: "conservative" },
+			{ election: "mayor_2023", field: "other" },
+			{ election: "mayor_2023", field: "turnout" },
+			{ election: "provincial_2025", field: "ndp" },
+			{ election: "provincial_2025", field: "pc" },
+			{ election: "federal_2025", field: "conservative" },
 		],
 		graphic: "strip",
 		stripVars: [

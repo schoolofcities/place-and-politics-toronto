@@ -30,30 +30,12 @@
 	// but sort defensively rather than assume the file's row order never changes.
 	const clusters = [...clustersSummary].sort((a, b) => a.display_order - b.display_order);
 
-	const pct = (v) => `${v.toFixed(0)}%`;
-
-	// Fixed socioeconomic vars shown in every section. `delta` is the cluster's
-	// percentage-point difference from the Toronto-wide figure, already computed in
-	// clusters_summary.json — shown as a signed "pts" figure beside the value (see
-	// ./components/ClusterSummaryTable.svelte).
-	const socioeconomicFor = (c) => [
-		{ label: "Renters", value: pct(c.demographics.pct_renter), delta: c.demographics_vs_toronto.pct_renter.diff_vs_toronto },
-		{ label: "Visible minority", value: pct(c.demographics.pct_visible_minority), delta: c.demographics_vs_toronto.pct_visible_minority.diff_vs_toronto },
-		{ label: "Moved in last 5 years", value: pct(c.demographics.pct_migrant_5yr), delta: c.demographics_vs_toronto.pct_migrant_5yr.diff_vs_toronto },
-		{ label: "Bachelor's degree+", value: pct(c.demographics.pct_bachelor_or_higher), delta: c.demographics_vs_toronto.pct_bachelor_or_higher.diff_vs_toronto },
-		{ label: "Commute by car", value: pct(c.demographics.pct_commute_car), delta: c.demographics_vs_toronto.pct_commute_car.diff_vs_toronto },
-	];
-
-	// Voting rows: cluster's actual vote share/turnout (vote-weighted, from elections.*)
-	// alongside its delta vs. the Toronto-wide vote-weighted figure in clusters_metadata.json.
+	// Voting rows: cluster's actual vote share/turnout (vote-weighted, from elections.*).
+	// Default comparison is against the Toronto-wide vote-weighted figure below — a reader can
+	// swap that to any other cluster from the "Compare to" bar in ClusterSummaryTable.svelte,
+	// which owns the rest of this logic (curated-vs-full variable lists, formatting, etc. — see
+	// ./components/clusterVariables.js).
 	const torontoElections = clustersMetadata.toronto_benchmark.elections;
-	function votingRowsFor(cluster, specs) {
-		return specs.map(({ label, election, field }) => {
-			const value = cluster.elections[election][field];
-			const torontoValue = torontoElections[election][field];
-			return { label, value: pct(value), delta: value - torontoValue };
-		});
-	}
 
 	// ── Rotating "all 5 groups" intro map ─────────────────────────────────────────────
 	let rotatingIndex = 0;
@@ -101,7 +83,7 @@
 	<div class="title">
 		<h4>Place & Politics in Toronto - Part 6</h4>
 		<div id="mini-line"></div>
-		<h1>The five Toronto's</h1>
+		<h1>The Five Toronto's</h1>
 		<h3><a href="https://www.linkedin.com/in/aniket-kali-8a8b9921b/">Aniket Kali</a> <br />October 2026</h3>
 		<div id="mini-line"></div>
 	</div>
@@ -162,8 +144,10 @@
 			/>
 
 			<ClusterSummaryTable
-				socioeconomic={socioeconomicFor(cluster)}
-				voting={votingRowsFor(cluster, config.votingSpecs)}
+				{cluster}
+				{clusters}
+				{torontoElections}
+				votingSpecs={config.votingSpecs}
 			/>
 
 			<div class="text">
