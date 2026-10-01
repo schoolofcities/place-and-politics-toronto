@@ -2,11 +2,11 @@
 	//
 	//   Intro: "there are 5 political groups in Toronto" + rotating map of all 5
 	//   One section per cluster: header -> map -> summary tables -> body copy -> graphic
-	//     Section 1: Progressive Core       — double strip plot
-	//     Section 2: Mobile Middle          — (no graphic)
-	//     Section 3: Civic Professionals    — income-vs-education scatter
-	//     Section 4: Settled Conservatives  — triple strip plot
-	//     Section 5: Working Suburbanites   — triple strip plot (visible minority / income / education)
+	//     Section 1: Progressive Core          — double strip plot
+	//     Section 2: Soft-Left Belt            — (no graphic)
+	//     Section 3: Civic Liberals            — income-vs-education scatter
+	//     Section 4: Suburban Conservatives    — triple strip plot
+	//     Section 5: Low-turnout Suburbanites  — triple strip plot (visible minority / income / education)
 	//
 	// Per-section voting rows + graphic choice live in ./sections.js —
 	// edit that file for section content, this one for page structure/layout.
@@ -203,10 +203,10 @@
 						to urban form and transportation. The people have changed, but some of that
 						political culture has persisted beyond its earlier inhabitants.
 					</p>
-				{:else if cluster.slug === "mobile-middle"}
+				{:else if cluster.slug === "soft-left-belt"}
 					<p>
 						If the Progressive Core represents the city's strongest and most consistent
-						concentration of progressive votes, the Mobile Middle forms a softer and more
+						concentration of progressive votes, the Soft-Left Belt forms a softer and more
 						geographically scattered edge around it. It also gives more votes to progressive
 						candidates and parties and fewer to Conservatives than Toronto overall, but the
 						differences are less pronounced. What distinguishes the group demographically is
@@ -232,7 +232,7 @@
 						neighbourhoods with quite different histories than as evidence of a shared
 						political identity or attachment.
 					</p>
-				{:else if cluster.slug === "civic-professionals"}
+				{:else if cluster.slug === "civic-liberals"}
 					<p>
 						It is in neighbourhoods like The Beaches, Leaside, and Midtown where
 						participation is highest. These are also amongst the city's most educated and
@@ -268,9 +268,9 @@
 						participatory, liberal-leaning, and less strongly aligned with the NDP than the
 						Progressive Core.
 					</p>
-				{:else if cluster.slug === "settled-conservatives"}
+				{:else if cluster.slug === "suburban-conservatives"}
 					<p>
-						Spanning much of Toronto's established inner suburbs, the Settled Conservatives
+						Spanning much of Toronto's established inner suburbs, the Suburban Conservatives
 						are a product of the region's
 						<a href="https://www.toronto.ca/explore-enjoy/history-art-culture/online-exhibits/web-exhibits/web-exhibits-community-neighbourhoods/your-home-our-city/your-home-our-city-suburban-growth/">postwar promise</a>:
 						detached housing, homeownership, and greater automobile use. Today, they are the
@@ -279,7 +279,7 @@
 						clear. These neighbourhoods give the highest shares to the Ontario PCs and
 						federal Conservatives, the lowest or near-lowest shares to the NDP, and favoured
 						Ana Bailão over Olivia Chow in the 2023 mayoral election. Participation, unlike
-						in the Working Suburbanites, remains close to the city average.
+						in the Low-turnout Suburbanites, remains close to the city average.
 					</p>
 					<p>
 						That pattern fits a much longer political divide between Toronto's older core
@@ -296,12 +296,12 @@
 						suburbs voted heavily for Ford while the old City of Toronto went strongly for
 						George Smitherman. Related research finds that Toronto's broader
 						progressive-core/conservative-suburban cleavage is closely associated with
-						housing form and transportation patterns. The geography of the Settled
+						housing form and transportation patterns. The geography of the Suburban
 						Conservatives closely overlaps with that longer-running suburban political
 						divide, even as the suburbs themselves have changed considerably since they
 						were first built.
 					</p>
-				{:else if cluster.slug === "working-suburbanites"}
+				{:else if cluster.slug === "low-turnout-suburbanites"}
 					<p>
 						It is easy to look at the maps and conclude that much of the inner suburbs is
 						simply made up of working-class conservatives, but the data complicates that
@@ -313,7 +313,7 @@
 						minority share, some of the largest households, and the longest commutes.
 					</p>
 					<p>
-						Their voting patterns are less straightforward than those of the Settled
+						Their voting patterns are less straightforward than those of the Suburban
 						Conservatives beside them. Ontario PC support is relatively high, but the
 						federal Liberals still receive a clear majority, while Chow leads the mayoral
 						vote. Previous work has documented a longer-term rise in Conservative support
@@ -343,9 +343,9 @@
 				{/if}
 			</div>
 
-			<!-- Progressive Core / Settled Conservatives / Working Suburbanites get a full-width
-				 strip plot underneath the body copy. Civic Professionals' scatter is instead
-				 placed inline, between that section's two paragraphs above (see
+			<!-- Progressive Core / Suburban Conservatives / Low-turnout Suburbanites get a
+				 full-width strip plot underneath the body copy. Civic Liberals' scatter is
+				 instead placed inline, between that section's two paragraphs above (see
 				 `.inline-graphic`), so the second paragraph wraps around it. -->
 			{#if config.graphic === "strip"}
 				<div class="graphic">
@@ -388,8 +388,8 @@
 				migration, racialization, education, commuting and other characteristics to
 				understand the places within them. These demographics did not determine the
 				groups and should not be read as explaining how any individual voted. The names –
-				Progressive Core, Mobile Middle, Civic Professionals, Settled Conservatives and
-				Working Suburbanites – are similarly descriptive shorthand applied after the
+				Progressive Core, Soft-Left Belt, Civic Liberals, Suburban Conservatives and
+				Low-turnout Suburbanites – are similarly descriptive shorthand applied after the
 				analysis.
 			</p>
 			<p>
@@ -441,12 +441,11 @@
 		clear: both;
 	}
 
-	/* Civic Professionals' scatter plot and Working Suburbanites' ternary plot sit between
-	   that section's two paragraphs, floated so the second paragraph wraps around them and
-	   continues full-width once it reads past the bottom of the graphic — rather than a hard
-	   break to a separate block below. Stacked full-width on mobile instead (see the media
-	   query below): a narrow column doesn't leave enough room beside a floated graphic for
-	   wrapped text to read well. */
+	/* Civic Liberals' scatter plot sits between that section's two paragraphs, floated so the
+	   second paragraph wraps around it and continues full-width once it reads past the bottom
+	   of the graphic — rather than a hard break to a separate block below. Stacked full-width
+	   on mobile instead (see the media query below): a narrow column doesn't leave enough room
+	   beside a floated graphic for wrapped text to read well. */
 	.inline-graphic {
 		max-width: 380px;
 		margin: 16px auto;

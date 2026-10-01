@@ -3,7 +3,8 @@
 	// 585 census tracts gets a dot on it, and the current cluster's tracts are highlighted
 	// in its colour against the rest of the city in grey. Passing 2 variables gives the
 	// "double strip plot" in the Progressive Core section; 3 gives the "triple strip plot"
-	// in the Settled Conservatives section — same component either way.
+	// used in the Suburban Conservatives and Low-turnout Suburbanites sections — same
+	// component either way.
 
 	import { scaleLinear, extent, median } from "d3";
 

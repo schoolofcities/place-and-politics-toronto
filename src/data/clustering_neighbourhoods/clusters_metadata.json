@@ -34,10 +34,10 @@
  },
  "cluster_order": [
   "progressive-core",
-  "mobile-middle",
-  "civic-professionals",
-  "settled-conservatives",
-  "working-suburbanites"
+  "soft-left-belt",
+  "civic-liberals",
+  "suburban-conservatives",
+  "low-turnout-suburbanites"
  ],
  "clusters": [
   {
@@ -45,35 +45,35 @@
    "display_order": 1,
    "slug": "progressive-core",
    "label": "Progressive Core",
-   "color": "#F5D76E"
+   "color": "#B89222"
   },
   {
    "cluster_id": 4,
    "display_order": 2,
-   "slug": "mobile-middle",
-   "label": "Mobile Middle",
-   "color": "#F2A233"
+   "slug": "soft-left-belt",
+   "label": "Soft-Left Belt",
+   "color": "#D17B4A"
   },
   {
    "cluster_id": 2,
    "display_order": 3,
-   "slug": "civic-professionals",
-   "label": "Civic Professionals",
-   "color": "#E4362A"
+   "slug": "civic-liberals",
+   "label": "Civic Liberals",
+   "color": "#A94F46"
   },
   {
    "cluster_id": 0,
    "display_order": 4,
-   "slug": "settled-conservatives",
-   "label": "Settled Conservatives",
-   "color": "#472366"
+   "slug": "suburban-conservatives",
+   "label": "Suburban Conservatives",
+   "color": "#66509A"
   },
   {
    "cluster_id": 3,
    "display_order": 5,
-   "slug": "working-suburbanites",
-   "label": "Working Suburbanites",
-   "color": "#3E6FA8"
+   "slug": "low-turnout-suburbanites",
+   "label": "Low-turnout Suburbanites",
+   "color": "#2E7D70"
   }
  ],
  "variable_labels": {

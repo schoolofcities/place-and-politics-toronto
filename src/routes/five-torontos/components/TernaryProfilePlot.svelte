@@ -1,5 +1,5 @@
 <script>
-	// Normalized triangle plot, originally built for Working Suburbanites (that section now
+	// Normalized triangle plot, originally built for Low-turnout Suburbanites (that section now
 	// uses a triple StripPlot instead — see +page.svelte). Kept as a ready swap-in alternative,
 	// alongside RadarTriangle.svelte. NOT a true ternary, since the 3 variables (visible
 	// minority %, income, bachelor's+ %) don't sum to anything meaningful on their own. Each is

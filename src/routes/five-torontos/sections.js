@@ -19,7 +19,7 @@ export const SECTION_CONFIG = {
 			{ key: "pct_commute_car", label: "% commute by car" },
 		],
 	},
-	"mobile-middle": {
+	"soft-left-belt": {
 		votingSpecs: [
 			{ label: "Municipal: Chow", election: "mayor_2023", field: "chow" },
 			{ label: "Municipal turnout", election: "mayor_2023", field: "turnout" },
@@ -29,7 +29,7 @@ export const SECTION_CONFIG = {
 		],
 		graphic: null, // no graphic for this section
 	},
-	"civic-professionals": {
+	"civic-liberals": {
 		votingSpecs: [
 			{ label: "Municipal: Matlow", election: "mayor_2023", field: "matlow" },
 			{ label: "Municipal turnout", election: "mayor_2023", field: "turnout" },
@@ -47,7 +47,7 @@ export const SECTION_CONFIG = {
 			yFormat: (v) => `${v.toFixed(0)}%`,
 		},
 	},
-	"settled-conservatives": {
+	"suburban-conservatives": {
 		votingSpecs: [
 			{ label: "Municipal: Bailão", election: "mayor_2023", field: "bailao" },
 			{ label: "Provincial: PC", election: "provincial_2025", field: "pc" },
@@ -62,7 +62,7 @@ export const SECTION_CONFIG = {
 			{ key: "pct_commute_car", label: "% commute by car" },
 		],
 	},
-	"working-suburbanites": {
+	"low-turnout-suburbanites": {
 		votingSpecs: [
 			{ label: "Municipal: Others", election: "mayor_2023", field: "other" },
 			{ label: "Municipal turnout", election: "mayor_2023", field: "turnout" },

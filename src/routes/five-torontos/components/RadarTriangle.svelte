@@ -1,5 +1,5 @@
 <script>
-	// Alternative to TernaryProfilePlot.svelte for Working Suburbanites: a triangle-as-radar
+	// Alternative to TernaryProfilePlot.svelte for Low-turnout Suburbanites: a triangle-as-radar
 	// hybrid, 3 spokes from a shared centre, one per cluster-summary record (not per tract).
 	// Each spoke is scaled on its OWN absolute terms rather than a percentile rank among the
 	// 5 clusters: visible minority % runs its natural 0–100 range, bachelor's+ % runs 0–60 (no
@@ -7,7 +7,7 @@
 	// length), and median income runs the actual (niced) range across the 5 clusters. All 5
 	// clusters draw as outlines only, in their own colour — no fill — so overlapping shapes
 	// stay legible; the active cluster gets a noticeably thicker outline and draws on top.
-	// Currently unused — the Working Suburbanites section uses a triple StripPlot instead (see
+	// Currently unused — the Low-turnout Suburbanites section uses a triple StripPlot instead (see
 	// +page.svelte). Kept as a ready swap-in alternative, alongside TernaryProfilePlot.svelte.
 
 	import { scaleLinear, extent } from "d3";
