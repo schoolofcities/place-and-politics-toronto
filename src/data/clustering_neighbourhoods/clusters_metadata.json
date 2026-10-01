@@ -45,21 +45,21 @@
    "display_order": 1,
    "slug": "progressive-core",
    "label": "Progressive Core",
-   "color": "#B89222"
+   "color": "#D2AD2D"
   },
   {
    "cluster_id": 4,
    "display_order": 2,
    "slug": "soft-left-belt",
    "label": "Soft-Left Belt",
-   "color": "#D17B4A"
+   "color": "#B97845"
   },
   {
    "cluster_id": 2,
    "display_order": 3,
    "slug": "civic-liberals",
    "label": "Civic Liberals",
-   "color": "#A94F46"
+   "color": "#9B584F"
   },
   {
    "cluster_id": 0,
@@ -73,7 +73,7 @@
    "display_order": 5,
    "slug": "low-turnout-suburbanites",
    "label": "Low-turnout Suburbanites",
-   "color": "#2E7D70"
+   "color": "#5F8FA3"
   }
  ],
  "variable_labels": {

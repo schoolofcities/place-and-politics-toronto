@@ -81,7 +81,7 @@
 
 <main>
 	<div class="title">
-		<h4>Place & Politics in Toronto - Part 6</h4>
+		<h4>Place & Politics in Toronto - Part 7</h4>
 		<div id="mini-line"></div>
 		<h1>The Five Toronto's</h1>
 		<h3><a href="https://www.linkedin.com/in/aniket-kali-8a8b9921b/">Aniket Kali</a> <br />October 2026</h3>
