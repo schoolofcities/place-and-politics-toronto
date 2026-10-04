@@ -745,7 +745,7 @@ export async function startMapper(root, { replaceHash }) {
     updateCorrelationsLater()
     $('election-note').replaceChildren(
       'Citywide share, election day: ', h('strong', {}, fmtPct(cand.city_share)),
-      ` (${fmtCount(cand.city_votes)} of ${fmtCount(e.city_votes_cast)} votes)`,
+      ` (${fmtCount(cand.city_votes)} of ${fmtCount(e.city_votes_cast)} votes mapped)`,
     )
     writeHash()
     syncMirrors()
