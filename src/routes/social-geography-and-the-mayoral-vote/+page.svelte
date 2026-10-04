@@ -102,6 +102,10 @@
 				</div>
 			</section>
 
+			<p class="panels-foot panels-foot-census">
+				Census data from 1996 to 2016 were apportioned to 2021 census tracts using the <a href="https://doi.org/10.1111/cag.12467">Canadian Longitudinal Census Tract Database</a>, to compare with 2021 data and election results on a consistent set of boundaries.
+			</p>
+
 			<section class="panel" aria-labelledby="election-heading">
 				<div class="panel-head">
 					<h2 id="election-heading">Mayoral election results</h2>
@@ -127,6 +131,10 @@
 					<div class="readout" id="readout-election" hidden></div>
 				</div>
 			</section>
+
+			<p class="panels-foot">
+				Maps only show votes cast at polls on election day. They do not include advance or mail-in votes, which are not reported by poll and cannot be mapped at this level of geography. In 2023, for example, Ana Bailão had more votes on election day but Olivia Chow won overall due to more advance and mail-in votes.
+			</p>
 
 			<div class="loading" id="loading" class:error={failed}>
 				{failed ? `Could not load the maps: ${failed}` : 'Loading data…'}
@@ -267,9 +275,9 @@
 			All data are for Toronto's 585 census tracts, on 2021 boundaries. Census characteristics and election results were each apportioned from their original geographies to these tracts, so that every census and every election since amalgamation can be compared on the same map. Correlations are Pearson coefficients across tracts, calculated in the browser for whatever is selected; values with p ≥ 0.05 are shown hatched. This page is adapted from the <a href="https://github.com/zacktayloruwo/toronto-elections-mapper">Toronto elections mapper</a> built by Zack Taylor.
 		</p>
 		<ul>
-			<li><strong><em>Census:</em></strong> Statistics Canada censuses, 1996 to 2021, apportioned to 2021 census tracts using the <a href="https://doi.org/10.1111/cag.12467">Canadian Longitudinal Census Tract Database</a> (Allen and Taylor, 2018). For 2011, data come from both the 2011 Census and the voluntary National Household Survey, which replaced the long-form census that year. Income, density, and access measures are shown as standard deviations from the average tract.</li>
+			<li><strong><em>Census:</em></strong> Statistics Canada censuses, 1996 to 2021. Data from 1996 to 2016 were apportioned to 2021 census tracts using the <a href="https://doi.org/10.1111/cag.12467">Canadian Longitudinal Census Tract Database</a> (Allen and Taylor, 2018). For 2011, data come from both the 2011 Census and the voluntary National Household Survey, which replaced the long-form census that year. Income, density, and access measures are shown as standard deviations from the average tract.</li>
 			<li><strong><em>Proximity:</em></strong> Statistics Canada's <a href="https://www150.statcan.gc.ca/n1/pub/17-26-0002/172600022023001-eng.htm">Proximity Measures Database</a>, 2021 data (released 2023), measured once and applied to every census year.</li>
-			<li><strong><em>Elections:</em></strong> poll-level mayoral results, 1997 to 2023. Only election-day votes are included, as advance votes can't be placed in a neighbourhood. Polls were split into dissemination blocks by population and summed to 2021 census tracts.</li>
+			<li><strong><em>Elections:</em></strong> poll-level mayoral results, 1997 to 2023. Only election-day votes are included, as advance and mail-in votes can't be placed in a neighbourhood. In 2023, for example, Ana Bailão had more votes on election day but Olivia Chow won overall due to more advance and mail-in votes. Polls were split into dissemination blocks by population and summed to 2021 census tracts.</li>
 			<li><strong><em>Boundaries:</em></strong> census tracts from Statistics Canada; wards, former municipalities, and neighbourhoods from the City of Toronto. Ward lines match the selected election (25 wards from 2018, 44 wards from 2000 to 2014, none for 1997). Basemap © <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors.</li>
 		</ul>
 	</div>
@@ -394,6 +402,11 @@
 	}
 
 	.note :global(strong) { color: black; font-size: 14px; }
+
+	/* each sits in its panel's column, under its map (the row is set so the panels still auto-place side by side) */
+	.panels-foot { grid-row: 6; grid-column: 2; margin: -8px 0 0; padding: 0 2px; font-size: 11px; line-height: 1.45; color: var(--muted); }
+	.panels-foot-census { grid-column: 1; }
+	.panels-foot a { color: inherit; }
 
 	/* the rotated city is wide and short, so the map is too */
 	/* a grid item with an aspect ratio sizes its width from its height unless told to fill the column */
@@ -554,6 +567,7 @@
 
 	@media (max-width: 900px) {
 		.panels, .pair, .pair-controls { grid-template-columns: minmax(0, 1fr); }
+		.panels-foot { grid-row: auto; grid-column: 1; }
 		.pair-section { width: 100%; }
 		.map-wrap { aspect-ratio: 4 / 3; }
 		.corr-block + .corr-block { border-left: none; padding-left: 0; }
