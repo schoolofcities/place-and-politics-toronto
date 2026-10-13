@@ -1,0 +1,802 @@
+{
+ "n_tracts": 585,
+ "no_data_tracts": {
+  "5350006.00": "median-filled upstream (placeholder values, not observations)",
+  "5350205.00": "median-filled upstream (placeholder values, not observations)",
+  "5350376.06": "Very small population (428 residents) with implausible turnout: mean 98%, federal 114%."
+ },
+ "turnout_fields": {
+  "mean": "mean_turnout",
+  "municipal": "municipal_turnout",
+  "provincial": "provincial_turnout",
+  "federal": "federal_turnout"
+ },
+ "turnout_definition": "votes cast / Canadian citizens aged 18+ in the tract; mean_turnout = average of the municipal (2023 mayoral), provincial (2025) and federal (2025) rates",
+ "turnout_over_100pct": [
+  "5350003.00",
+  "5350263.02",
+  "5350263.04"
+ ],
+ "model": {
+  "n": 585,
+  "n_predictors": 70,
+  "n_components": 4,
+  "cv_r2": 0.586
+ },
+ "component_1": {
+  "turnout_corr": 0.7214,
+  "turnout_corr_model": 0.6889,
+  "score_min": -8.649,
+  "score_max": 8.419,
+  "mean_turnout_score_above_0": 0.5766,
+  "mean_turnout_score_below_0": 0.4713,
+  "n_score_above_0": 279,
+  "n_score_below_0": 303,
+  "cross_outcome_cosine": {
+   "mean": 1.0,
+   "municipal": 0.9871,
+   "provincial": 0.9971,
+   "federal": 0.9887
+  }
+ },
+ "explorer_groups": [
+  {
+   "family": "education",
+   "label": "Education"
+  },
+  {
+   "family": "occupation",
+   "label": "Occupation"
+  },
+  {
+   "family": "labour_market",
+   "label": "Employment"
+  },
+  {
+   "family": "income_class",
+   "label": "Income"
+  },
+  {
+   "family": "age_life_stage",
+   "label": "Age"
+  },
+  {
+   "family": "household_family",
+   "label": "Households and families"
+  },
+  {
+   "family": "immigration_citizenship",
+   "label": "Immigration and citizenship"
+  },
+  {
+   "family": "culture_language",
+   "label": "Culture and language"
+  },
+  {
+   "family": "housing_form",
+   "label": "Housing type and age"
+  },
+  {
+   "family": "housing_tenure_stability",
+   "label": "Tenure and mobility"
+  },
+  {
+   "family": "housing_affordability_need",
+   "label": "Housing affordability and need"
+  },
+  {
+   "family": "transportation",
+   "label": "Commuting and travel"
+  },
+  {
+   "family": "urban_form",
+   "label": "Location and density"
+  },
+  {
+   "family": "accessibility",
+   "label": "Access to services"
+  }
+ ],
+ "explorer_variables": [
+  {
+   "field": "block1_occ_education_law_social_gov_share",
+   "label": "Education, law, social and government jobs",
+   "format": "percent",
+   "group": "occupation",
+   "n": 582,
+   "corr_mean_turnout": 0.7004,
+   "plain_name": "education, law, and social/government services occupation share",
+   "vip": 1.674
+  },
+  {
+   "field": "block3_visible_minority_share",
+   "label": "Visible minority residents",
+   "format": "percent",
+   "group": "culture_language",
+   "n": 582,
+   "corr_mean_turnout": -0.6757,
+   "plain_name": "visible minority share",
+   "vip": 1.539
+  },
+  {
+   "field": "block5_census_work_from_home_share",
+   "label": "Work from home",
+   "format": "percent",
+   "group": "transportation",
+   "n": 582,
+   "corr_mean_turnout": 0.6582,
+   "plain_name": "work from home share",
+   "vip": 1.444
+  },
+  {
+   "field": "block1_multigenerational_household_share",
+   "label": "Multigenerational households",
+   "format": "percent",
+   "group": "household_family",
+   "n": 582,
+   "corr_mean_turnout": -0.5716,
+   "plain_name": "multigenerational household share",
+   "vip": 1.424
+  },
+  {
+   "field": "block1_occ_trades_transport_share",
+   "label": "Trades and transport jobs",
+   "format": "percent",
+   "group": "occupation",
+   "n": 582,
+   "corr_mean_turnout": -0.5741,
+   "plain_name": "trades and transport occupation share",
+   "vip": 1.415
+  },
+  {
+   "field": "block1_occ_sales_service_share",
+   "label": "Sales and service jobs",
+   "format": "percent",
+   "group": "occupation",
+   "n": 582,
+   "corr_mean_turnout": -0.5632,
+   "plain_name": "sales and service occupation share",
+   "vip": 1.367
+  },
+  {
+   "field": "block3_immigrant_share",
+   "label": "Immigrants",
+   "format": "percent",
+   "group": "immigration_citizenship",
+   "n": 582,
+   "corr_mean_turnout": -0.6255,
+   "plain_name": "immigrant share",
+   "vip": 1.363
+  },
+  {
+   "field": "block1_occ_arts_recreation_sport_share",
+   "label": "Arts, recreation and sport jobs",
+   "format": "percent",
+   "group": "occupation",
+   "n": 582,
+   "corr_mean_turnout": 0.5996,
+   "plain_name": "arts, recreation, and sport occupation share",
+   "vip": 1.362
+  },
+  {
+   "field": "block3_first_generation_share",
+   "label": "First-generation Canadians",
+   "format": "percent",
+   "group": "immigration_citizenship",
+   "n": 582,
+   "corr_mean_turnout": -0.6109,
+   "plain_name": "first-generation Canadian share",
+   "vip": 1.361
+  },
+  {
+   "field": "block1_average_household_size",
+   "label": "Average household size",
+   "format": "number1",
+   "group": "household_family",
+   "n": 582,
+   "corr_mean_turnout": -0.4783,
+   "plain_name": "average household size",
+   "vip": 1.312
+  },
+  {
+   "field": "block1_bachelors_or_higher_25_64_share",
+   "label": "Bachelor's degree or higher (ages 25\u201364)",
+   "format": "percent",
+   "group": "education",
+   "n": 582,
+   "corr_mean_turnout": 0.5808,
+   "plain_name": "bachelor's degree or higher (25-64) share",
+   "vip": 1.301
+  },
+  {
+   "field": "block1_high_school_or_less_share",
+   "label": "High school or less",
+   "format": "percent",
+   "group": "education",
+   "n": 582,
+   "corr_mean_turnout": -0.6047,
+   "plain_name": "high school or less share",
+   "vip": 1.296
+  },
+  {
+   "field": "block5_census_long_commute_60min_share",
+   "label": "Commute of 60+ minutes",
+   "format": "percent",
+   "group": "transportation",
+   "n": 582,
+   "corr_mean_turnout": -0.563,
+   "plain_name": "long commute (60+ minutes) share",
+   "vip": 1.285
+  },
+  {
+   "field": "block1_unemployment_rate_share",
+   "label": "Unemployment rate",
+   "format": "percent",
+   "group": "labour_market",
+   "n": 582,
+   "corr_mean_turnout": -0.5162,
+   "plain_name": "unemployment rate",
+   "vip": 1.261
+  },
+  {
+   "field": "block1_age_18_29_share",
+   "label": "Aged 18\u201329",
+   "format": "percent",
+   "group": "age_life_stage",
+   "n": 582,
+   "corr_mean_turnout": -0.2704,
+   "plain_name": "age 18-29 share",
+   "vip": 1.256
+  },
+  {
+   "field": "block1_self_employment_share",
+   "label": "Self-employed",
+   "format": "percent",
+   "group": "labour_market",
+   "n": 582,
+   "corr_mean_turnout": 0.4278,
+   "plain_name": "self-employment share",
+   "vip": 1.235
+  },
+  {
+   "field": "block5_tts_trips_per_person",
+   "label": "Trips per person per day",
+   "format": "number2",
+   "group": "transportation",
+   "n": 582,
+   "corr_mean_turnout": 0.567,
+   "plain_name": "TTS trips per person",
+   "vip": 1.219
+  },
+  {
+   "field": "block1_one_parent_family_share",
+   "label": "One-parent families",
+   "format": "percent",
+   "group": "household_family",
+   "n": 582,
+   "corr_mean_turnout": -0.5107,
+   "plain_name": "one-parent family share",
+   "vip": 1.197
+  },
+  {
+   "field": "block5_distance_city_hall_km",
+   "label": "Distance from City Hall",
+   "format": "km",
+   "group": "urban_form",
+   "n": 582,
+   "corr_mean_turnout": -0.5245,
+   "plain_name": "distance to city hall (km)",
+   "vip": 1.195
+  },
+  {
+   "field": "block1_occ_management_share",
+   "label": "Management jobs",
+   "format": "percent",
+   "group": "occupation",
+   "n": 582,
+   "corr_mean_turnout": 0.4772,
+   "plain_name": "management occupation share",
+   "vip": 1.193
+  },
+  {
+   "field": "block1_one_person_household_share",
+   "label": "One-person households",
+   "format": "percent",
+   "group": "household_family",
+   "n": 582,
+   "corr_mean_turnout": 0.3771,
+   "plain_name": "one-person household share",
+   "vip": 1.146
+  },
+  {
+   "field": "block3_non_citizen_share",
+   "label": "Non-citizens",
+   "format": "percent",
+   "group": "immigration_citizenship",
+   "n": 582,
+   "corr_mean_turnout": -0.4236,
+   "plain_name": "non-citizen share",
+   "vip": 1.138
+  },
+  {
+   "field": "block1_occ_manufacturing_share",
+   "label": "Manufacturing jobs",
+   "format": "percent",
+   "group": "occupation",
+   "n": 582,
+   "corr_mean_turnout": -0.6413,
+   "plain_name": "manufacturing occupation share",
+   "vip": 1.129
+  },
+  {
+   "field": "block1_never_married_share",
+   "label": "Never married",
+   "format": "percent",
+   "group": "household_family",
+   "n": 582,
+   "corr_mean_turnout": -0.2273,
+   "plain_name": "never-married share",
+   "vip": 1.121
+  },
+  {
+   "field": "block2_dwelling_vintage_1961_1990_share",
+   "label": "Homes built 1961\u20131990",
+   "format": "percent",
+   "group": "housing_form",
+   "n": 582,
+   "corr_mean_turnout": -0.4637,
+   "plain_name": "dwellings built 1961-1990 share",
+   "vip": 1.108
+  },
+  {
+   "field": "block1_occ_business_finance_admin_share",
+   "label": "Business, finance and admin jobs",
+   "format": "percent",
+   "group": "occupation",
+   "n": 582,
+   "corr_mean_turnout": 0.4585,
+   "plain_name": "business, finance, and administration occupation share",
+   "vip": 1.103
+  },
+  {
+   "field": "block1_age_65_plus_share",
+   "label": "Aged 65+",
+   "format": "percent",
+   "group": "age_life_stage",
+   "n": 582,
+   "corr_mean_turnout": 0.1325,
+   "plain_name": "age 65+ share",
+   "vip": 1.087
+  },
+  {
+   "field": "block3_no_religion_share",
+   "label": "No religious affiliation",
+   "format": "percent",
+   "group": "culture_language",
+   "n": 582,
+   "corr_mean_turnout": 0.4415,
+   "plain_name": "no religious affiliation share",
+   "vip": 1.073
+  },
+  {
+   "field": "block1_employment_rate_share",
+   "label": "Employment rate",
+   "format": "percent",
+   "group": "labour_market",
+   "n": 582,
+   "corr_mean_turnout": 0.4658,
+   "plain_name": "employment rate",
+   "vip": 1.059
+  },
+  {
+   "field": "block3_non_official_language_at_home_share",
+   "label": "Non-official language at home",
+   "format": "percent",
+   "group": "culture_language",
+   "n": 582,
+   "corr_mean_turnout": -0.5171,
+   "plain_name": "non-official language at home share",
+   "vip": 1.022
+  },
+  {
+   "field": "block1_college_or_trades_25_64_share",
+   "label": "College or trades credential (ages 25\u201364)",
+   "format": "percent",
+   "group": "education",
+   "n": 582,
+   "corr_mean_turnout": -0.385,
+   "plain_name": "college or trades credential (25-64) share",
+   "vip": 1.001
+  },
+  {
+   "field": "block2_dwelling_vintage_pre1960_share",
+   "label": "Homes built before 1960",
+   "format": "percent",
+   "group": "housing_form",
+   "n": 582,
+   "corr_mean_turnout": 0.4047,
+   "plain_name": "dwellings built before 1960 share",
+   "vip": 0.969
+  },
+  {
+   "field": "block5_tts_walk_or_bike_trip_share",
+   "label": "Trips made on foot or by bike",
+   "format": "percent",
+   "group": "transportation",
+   "n": 582,
+   "corr_mean_turnout": 0.3975,
+   "plain_name": "TTS walk or bike trip share",
+   "vip": 0.96
+  },
+  {
+   "field": "block1_not_in_labour_force_share",
+   "label": "Not in the labour force",
+   "format": "percent",
+   "group": "labour_market",
+   "n": 582,
+   "corr_mean_turnout": -0.3935,
+   "plain_name": "not in labour force share",
+   "vip": 0.958
+  },
+  {
+   "field": "block1_median_household_income",
+   "label": "Median household income",
+   "format": "currency",
+   "group": "income_class",
+   "n": 582,
+   "corr_mean_turnout": 0.2903,
+   "plain_name": "median household income",
+   "vip": 0.958
+  },
+  {
+   "field": "block2_core_housing_need_share",
+   "label": "In core housing need",
+   "format": "percent",
+   "group": "housing_affordability_need",
+   "n": 582,
+   "corr_mean_turnout": -0.2924,
+   "plain_name": "core housing need share",
+   "vip": 0.955
+  },
+  {
+   "field": "block5_jobs_proximity_index",
+   "label": "Jobs proximity",
+   "format": "index",
+   "group": "accessibility",
+   "n": 582,
+   "corr_mean_turnout": 0.3205,
+   "plain_name": "jobs proximity index",
+   "vip": 0.925
+  },
+  {
+   "field": "block3_recent_immigrant_share",
+   "label": "Recent immigrants",
+   "format": "percent",
+   "group": "immigration_citizenship",
+   "n": 582,
+   "corr_mean_turnout": -0.3104,
+   "plain_name": "recent immigrant share",
+   "vip": 0.902
+  },
+  {
+   "field": "block5_childcare_proximity_index",
+   "label": "Childcare proximity",
+   "format": "index",
+   "group": "accessibility",
+   "n": 582,
+   "corr_mean_turnout": 0.3856,
+   "plain_name": "childcare proximity index",
+   "vip": 0.889
+  },
+  {
+   "field": "block2_apartment_share",
+   "label": "Apartments",
+   "format": "percent",
+   "group": "housing_form",
+   "n": 582,
+   "corr_mean_turnout": 0.0782,
+   "plain_name": "apartment share",
+   "vip": 0.853
+  },
+  {
+   "field": "block5_tts_auto_trip_share",
+   "label": "Trips made by car",
+   "format": "percent",
+   "group": "transportation",
+   "n": 582,
+   "corr_mean_turnout": -0.336,
+   "plain_name": "TTS auto trip share",
+   "vip": 0.834
+  },
+  {
+   "field": "block1_married_or_common_law_share",
+   "label": "Married or common-law",
+   "format": "percent",
+   "group": "household_family",
+   "n": 582,
+   "corr_mean_turnout": 0.2778,
+   "plain_name": "married or common-law share",
+   "vip": 0.827
+  },
+  {
+   "field": "block1_low_income_lim_at_share",
+   "label": "Low income (LIM-AT)",
+   "format": "percent",
+   "group": "income_class",
+   "n": 582,
+   "corr_mean_turnout": -0.2606,
+   "plain_name": "low income (LIM-AT) share",
+   "vip": 0.797
+  },
+  {
+   "field": "block5_tts_vehicles_per_household",
+   "label": "Vehicles per household",
+   "format": "number2",
+   "group": "transportation",
+   "n": 582,
+   "corr_mean_turnout": -0.2022,
+   "plain_name": "TTS vehicles per household",
+   "vip": 0.789
+  },
+  {
+   "field": "block2_high_rise_apartment_share",
+   "label": "High-rise apartments",
+   "format": "percent",
+   "group": "housing_form",
+   "n": 582,
+   "corr_mean_turnout": -0.046,
+   "plain_name": "high-rise apartment share",
+   "vip": 0.786
+  },
+  {
+   "field": "block5_parks_proximity_index",
+   "label": "Park proximity",
+   "format": "index",
+   "group": "accessibility",
+   "n": 580,
+   "corr_mean_turnout": 0.2014,
+   "plain_name": "park proximity index",
+   "vip": 0.785
+  },
+  {
+   "field": "block5_health_care_proximity_index",
+   "label": "Health care proximity",
+   "format": "index",
+   "group": "accessibility",
+   "n": 582,
+   "corr_mean_turnout": 0.1999,
+   "plain_name": "health care proximity index",
+   "vip": 0.756
+  },
+  {
+   "field": "block2_population_density_per_km2",
+   "label": "Population density",
+   "format": "density",
+   "group": "urban_form",
+   "n": 582,
+   "corr_mean_turnout": 0.1124,
+   "plain_name": "population density (per km\u00b2)",
+   "vip": 0.75
+  },
+  {
+   "field": "block2_recent_mover_share",
+   "label": "Moved in the past year",
+   "format": "percent",
+   "group": "housing_tenure_stability",
+   "n": 582,
+   "corr_mean_turnout": 0.1623,
+   "plain_name": "recent mover (past year) share",
+   "vip": 0.736
+  },
+  {
+   "field": "block2_detached_share",
+   "label": "Detached houses",
+   "format": "percent",
+   "group": "housing_form",
+   "n": 582,
+   "corr_mean_turnout": -0.038,
+   "plain_name": "detached house share",
+   "vip": 0.735
+  },
+  {
+   "field": "block3_neither_english_nor_french_share",
+   "label": "Knows neither English nor French",
+   "format": "percent",
+   "group": "culture_language",
+   "n": 582,
+   "corr_mean_turnout": -0.3713,
+   "plain_name": "neither English nor French share",
+   "vip": 0.715
+  },
+  {
+   "field": "block5_tts_no_car_household_share",
+   "label": "Households with no car",
+   "format": "percent",
+   "group": "transportation",
+   "n": 582,
+   "corr_mean_turnout": 0.1887,
+   "plain_name": "TTS no-car household share",
+   "vip": 0.673
+  },
+  {
+   "field": "block1_temporary_worker_share",
+   "label": "Temporary workers",
+   "format": "percent",
+   "group": "labour_market",
+   "n": 582,
+   "corr_mean_turnout": -0.1561,
+   "plain_name": "temporary worker share",
+   "vip": 0.668
+  },
+  {
+   "field": "block2_same_address_5yr_share",
+   "label": "Same address 5 years ago",
+   "format": "percent",
+   "group": "housing_tenure_stability",
+   "n": 582,
+   "corr_mean_turnout": -0.1199,
+   "plain_name": "same address 5 years ago share",
+   "vip": 0.664
+  },
+  {
+   "field": "block5_transit_proximity_index",
+   "label": "Transit proximity",
+   "format": "index",
+   "group": "accessibility",
+   "n": 580,
+   "corr_mean_turnout": 0.1926,
+   "plain_name": "transit proximity index",
+   "vip": 0.664
+  },
+  {
+   "field": "block2_condo_share",
+   "label": "Condominiums",
+   "format": "percent",
+   "group": "housing_form",
+   "n": 582,
+   "corr_mean_turnout": 0.0611,
+   "plain_name": "condo share",
+   "vip": 0.648
+  },
+  {
+   "field": "block5_school_age_5_17_share",
+   "label": "Aged 5\u201317",
+   "format": "percent",
+   "group": "age_life_stage",
+   "n": 582,
+   "corr_mean_turnout": -0.1756,
+   "plain_name": "school-age (5-17) share",
+   "vip": 0.634
+  },
+  {
+   "field": "block5_grocery_proximity_index",
+   "label": "Grocery proximity",
+   "format": "index",
+   "group": "accessibility",
+   "n": 567,
+   "corr_mean_turnout": 0.1551,
+   "plain_name": "grocery proximity index",
+   "vip": 0.627
+  },
+  {
+   "field": "block2_renter_share",
+   "label": "Renter households",
+   "format": "percent",
+   "group": "housing_tenure_stability",
+   "n": 582,
+   "corr_mean_turnout": -0.0715,
+   "plain_name": "renter share",
+   "vip": 0.617
+  },
+  {
+   "field": "block5_tts_avg_trip_distance_km",
+   "label": "Average trip distance",
+   "format": "km",
+   "group": "transportation",
+   "n": 582,
+   "corr_mean_turnout": -0.2069,
+   "plain_name": "TTS average trip distance (km)",
+   "vip": 0.599
+  },
+  {
+   "field": "block2_dwelling_major_repairs_needed_share",
+   "label": "Homes needing major repairs",
+   "format": "percent",
+   "group": "housing_affordability_need",
+   "n": 582,
+   "corr_mean_turnout": -0.1652,
+   "plain_name": "dwelling needs major repairs share",
+   "vip": 0.599
+  },
+  {
+   "field": "block5_library_proximity_index",
+   "label": "Library proximity",
+   "format": "index",
+   "group": "accessibility",
+   "n": 503,
+   "corr_mean_turnout": 0.2245,
+   "plain_name": "library proximity index",
+   "vip": 0.588
+  },
+  {
+   "field": "block1_age_30_64_share",
+   "label": "Aged 30\u201364",
+   "format": "percent",
+   "group": "age_life_stage",
+   "n": 582,
+   "corr_mean_turnout": 0.2808,
+   "plain_name": "age 30-64 share",
+   "vip": 0.584
+  },
+  {
+   "field": "block2_shelter_cost_burden_30plus_share",
+   "label": "Spending 30%+ of income on housing",
+   "format": "percent",
+   "group": "housing_affordability_need",
+   "n": 582,
+   "corr_mean_turnout": -0.0053,
+   "plain_name": "shelter cost burden (30%+) share",
+   "vip": 0.583
+  },
+  {
+   "field": "block1_occ_natural_applied_sciences_share",
+   "label": "Natural and applied sciences jobs",
+   "format": "percent",
+   "group": "occupation",
+   "n": 582,
+   "corr_mean_turnout": 0.1619,
+   "plain_name": "natural and applied sciences occupation share",
+   "vip": 0.553
+  },
+  {
+   "field": "block5_secondary_school_proximity_index",
+   "label": "Secondary school proximity",
+   "format": "index",
+   "group": "accessibility",
+   "n": 483,
+   "corr_mean_turnout": 0.1666,
+   "plain_name": "secondary school proximity index",
+   "vip": 0.534
+  },
+  {
+   "field": "block3_second_generation_share",
+   "label": "Second-generation Canadians",
+   "format": "percent",
+   "group": "immigration_citizenship",
+   "n": 582,
+   "corr_mean_turnout": 0.1167,
+   "plain_name": "second-generation Canadian share",
+   "vip": 0.523
+  },
+  {
+   "field": "block5_social_housing_share",
+   "label": "Tenant households in subsidized housing",
+   "format": "percent",
+   "group": "housing_affordability_need",
+   "n": 582,
+   "corr_mean_turnout": -0.1882,
+   "plain_name": "social housing share",
+   "vip": 0.516
+  },
+  {
+   "field": "block5_elementary_school_proximity_index",
+   "label": "Elementary school proximity",
+   "format": "index",
+   "group": "accessibility",
+   "n": 579,
+   "corr_mean_turnout": 0.1657,
+   "plain_name": "elementary school proximity index",
+   "vip": 0.453
+  },
+  {
+   "field": "block5_tts_transit_trip_share",
+   "label": "Trips made by transit",
+   "format": "percent",
+   "group": "transportation",
+   "n": 582,
+   "corr_mean_turnout": 0.0218,
+   "plain_name": "TTS transit trip share",
+   "vip": 0.367
+  }
+ ]
+}

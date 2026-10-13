@@ -1,0 +1,285 @@
+{
+ "min_vip": 1.0,
+ "n_variables_in_model": 70,
+ "variables": [
+  {
+   "variable": "block5_census_work_from_home_share",
+   "label": "Work from home",
+   "plain_name": "work from home share",
+   "family": "transportation",
+   "loading": 0.2132,
+   "vip": 1.444,
+   "turnout_corr": 0.617
+  },
+  {
+   "variable": "block1_bachelors_or_higher_25_64_share",
+   "label": "Bachelor's degree or higher (ages 25\u201364)",
+   "plain_name": "bachelor's degree or higher (25-64) share",
+   "family": "education",
+   "loading": 0.1945,
+   "vip": 1.301,
+   "turnout_corr": 0.554
+  },
+  {
+   "variable": "block1_occ_education_law_social_gov_share",
+   "label": "Education, law, social and government jobs",
+   "plain_name": "education, law, and social/government services occupation share",
+   "family": "occupation",
+   "loading": 0.1775,
+   "vip": 1.674,
+   "turnout_corr": 0.653
+  },
+  {
+   "variable": "block1_occ_arts_recreation_sport_share",
+   "label": "Arts, recreation and sport jobs",
+   "plain_name": "arts, recreation, and sport occupation share",
+   "family": "occupation",
+   "loading": 0.1756,
+   "vip": 1.362,
+   "turnout_corr": 0.572
+  },
+  {
+   "variable": "block1_employment_rate_share",
+   "label": "Employment rate",
+   "plain_name": "employment rate",
+   "family": "labour_market",
+   "loading": 0.1692,
+   "vip": 1.059,
+   "turnout_corr": 0.389
+  },
+  {
+   "variable": "block5_tts_trips_per_person",
+   "label": "Trips per person per day",
+   "plain_name": "TTS trips per person",
+   "family": "transportation",
+   "loading": 0.1652,
+   "vip": 1.219,
+   "turnout_corr": 0.519
+  },
+  {
+   "variable": "block1_occ_business_finance_admin_share",
+   "label": "Business, finance and admin jobs",
+   "plain_name": "business, finance, and administration occupation share",
+   "family": "occupation",
+   "loading": 0.1632,
+   "vip": 1.103,
+   "turnout_corr": 0.405
+  },
+  {
+   "variable": "block1_occ_management_share",
+   "label": "Management jobs",
+   "plain_name": "management occupation share",
+   "family": "occupation",
+   "loading": 0.1569,
+   "vip": 1.193,
+   "turnout_corr": 0.457
+  },
+  {
+   "variable": "block3_no_religion_share",
+   "label": "No religious affiliation",
+   "plain_name": "no religious affiliation share",
+   "family": "culture_language",
+   "loading": 0.1556,
+   "vip": 1.073,
+   "turnout_corr": 0.442
+  },
+  {
+   "variable": "block1_self_employment_share",
+   "label": "Self-employed",
+   "plain_name": "self-employment share",
+   "family": "labour_market",
+   "loading": 0.1355,
+   "vip": 1.235,
+   "turnout_corr": 0.391
+  },
+  {
+   "variable": "block1_one_person_household_share",
+   "label": "One-person households",
+   "plain_name": "one-person household share",
+   "family": "household_family",
+   "loading": 0.1197,
+   "vip": 1.146,
+   "turnout_corr": 0.39
+  },
+  {
+   "variable": "block1_never_married_share",
+   "label": "Never married",
+   "plain_name": "never-married share",
+   "family": "household_family",
+   "loading": -0.0008,
+   "vip": 1.121,
+   "turnout_corr": -0.252
+  },
+  {
+   "variable": "block1_age_18_29_share",
+   "label": "Aged 18\u201329",
+   "plain_name": "age 18-29 share",
+   "family": "age_life_stage",
+   "loading": -0.0057,
+   "vip": 1.256,
+   "turnout_corr": -0.285
+  },
+  {
+   "variable": "block1_age_65_plus_share",
+   "label": "Aged 65+",
+   "plain_name": "age 65+ share",
+   "family": "age_life_stage",
+   "loading": -0.0164,
+   "vip": 1.087,
+   "turnout_corr": 0.182
+  },
+  {
+   "variable": "block3_non_citizen_share",
+   "label": "Non-citizens",
+   "plain_name": "non-citizen share",
+   "family": "immigration_citizenship",
+   "loading": -0.0913,
+   "vip": 1.138,
+   "turnout_corr": -0.417
+  },
+  {
+   "variable": "block1_average_household_size",
+   "label": "Average household size",
+   "plain_name": "average household size",
+   "family": "household_family",
+   "loading": -0.146,
+   "vip": 1.312,
+   "turnout_corr": -0.485
+  },
+  {
+   "variable": "block3_non_official_language_at_home_share",
+   "label": "Non-official language at home",
+   "plain_name": "non-official language at home share",
+   "family": "culture_language",
+   "loading": -0.1484,
+   "vip": 1.022,
+   "turnout_corr": -0.423
+  },
+  {
+   "variable": "block1_college_or_trades_25_64_share",
+   "label": "College or trades credential (ages 25\u201364)",
+   "plain_name": "college or trades credential (25-64) share",
+   "family": "education",
+   "loading": -0.1517,
+   "vip": 1.001,
+   "turnout_corr": -0.405
+  },
+  {
+   "variable": "block1_unemployment_rate_share",
+   "label": "Unemployment rate",
+   "plain_name": "unemployment rate",
+   "family": "labour_market",
+   "loading": -0.1571,
+   "vip": 1.261,
+   "turnout_corr": -0.532
+  },
+  {
+   "variable": "block2_dwelling_vintage_1961_1990_share",
+   "label": "Homes built 1961\u20131990",
+   "plain_name": "dwellings built 1961-1990 share",
+   "family": "housing_form",
+   "loading": -0.1572,
+   "vip": 1.108,
+   "turnout_corr": -0.465
+  },
+  {
+   "variable": "block1_one_parent_family_share",
+   "label": "One-parent families",
+   "plain_name": "one-parent family share",
+   "family": "household_family",
+   "loading": -0.1666,
+   "vip": 1.197,
+   "turnout_corr": -0.501
+  },
+  {
+   "variable": "block1_multigenerational_household_share",
+   "label": "Multigenerational households",
+   "plain_name": "multigenerational household share",
+   "family": "household_family",
+   "loading": -0.1672,
+   "vip": 1.424,
+   "turnout_corr": -0.568
+  },
+  {
+   "variable": "block3_first_generation_share",
+   "label": "First-generation Canadians",
+   "plain_name": "first-generation Canadian share",
+   "family": "immigration_citizenship",
+   "loading": -0.1706,
+   "vip": 1.361,
+   "turnout_corr": -0.568
+  },
+  {
+   "variable": "block1_occ_manufacturing_share",
+   "label": "Manufacturing jobs",
+   "plain_name": "manufacturing occupation share",
+   "family": "occupation",
+   "loading": -0.1731,
+   "vip": 1.129,
+   "turnout_corr": -0.463
+  },
+  {
+   "variable": "block5_census_long_commute_60min_share",
+   "label": "Commute of 60+ minutes",
+   "plain_name": "long commute (60+ minutes) share",
+   "family": "transportation",
+   "loading": -0.1748,
+   "vip": 1.285,
+   "turnout_corr": -0.55
+  },
+  {
+   "variable": "block1_occ_sales_service_share",
+   "label": "Sales and service jobs",
+   "plain_name": "sales and service occupation share",
+   "family": "occupation",
+   "loading": -0.1755,
+   "vip": 1.367,
+   "turnout_corr": -0.581
+  },
+  {
+   "variable": "block5_distance_city_hall_km",
+   "label": "Distance from City Hall",
+   "plain_name": "distance to city hall (km)",
+   "family": "urban_form",
+   "loading": -0.1759,
+   "vip": 1.195,
+   "turnout_corr": -0.498
+  },
+  {
+   "variable": "block1_occ_trades_transport_share",
+   "label": "Trades and transport jobs",
+   "plain_name": "trades and transport occupation share",
+   "family": "occupation",
+   "loading": -0.1796,
+   "vip": 1.415,
+   "turnout_corr": -0.577
+  },
+  {
+   "variable": "block3_visible_minority_share",
+   "label": "Visible minority residents",
+   "plain_name": "visible minority share",
+   "family": "culture_language",
+   "loading": -0.1809,
+   "vip": 1.539,
+   "turnout_corr": -0.642
+  },
+  {
+   "variable": "block3_immigrant_share",
+   "label": "Immigrants",
+   "plain_name": "immigrant share",
+   "family": "immigration_citizenship",
+   "loading": -0.1876,
+   "vip": 1.363,
+   "turnout_corr": -0.573
+  },
+  {
+   "variable": "block1_high_school_or_less_share",
+   "label": "High school or less",
+   "plain_name": "high school or less share",
+   "family": "education",
+   "loading": -0.1894,
+   "vip": 1.296,
+   "turnout_corr": -0.551
+  }
+ ]
+}
