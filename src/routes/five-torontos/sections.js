@@ -24,19 +24,19 @@ export const SECTION_CONFIG = {
 	"soft-left-belt": {
 		votingSpecs: [
 			{ election: "mayor_2023", field: "chow" },
+			{ election: "mayor_2023", field: "matlow" },
 			{ election: "mayor_2023", field: "turnout" },
 			{ election: "provincial_2025", field: "ndp" },
-			{ election: "provincial_2025", field: "pc" },
-			{ election: "federal_2025", field: "liberal" },
+			{ election: "federal_2025", field: "conservative" },
 		],
 		graphic: null, // no graphic for this section
 	},
 	"civic-liberals": {
 		votingSpecs: [
-			{ election: "mayor_2023", field: "matlow" },
-			{ election: "mayor_2023", field: "turnout" },
+			{ election: "mayor_2023", field: "bailao" },
 			{ election: "provincial_2025", field: "liberal" },
-			{ election: "federal_2025", field: "liberal" },
+			{ election: "provincial_2025", field: "ndp" },
+			{ election: "federal_2025", field: "conservative" },
 			{ election: "federal_2025", field: "turnout" },
 		],
 		graphic: "scatter",
@@ -66,11 +66,11 @@ export const SECTION_CONFIG = {
 	},
 	"low-turnout-suburbanites": {
 		votingSpecs: [
-			{ election: "mayor_2023", field: "other" },
+			{ election: "mayor_2023", field: "chow" },
 			{ election: "mayor_2023", field: "turnout" },
-			{ election: "provincial_2025", field: "ndp" },
+			{ election: "mayor_2023", field: "other" },
 			{ election: "provincial_2025", field: "pc" },
-			{ election: "federal_2025", field: "conservative" },
+			{ election: "federal_2025", field: "liberal" },
 		],
 		graphic: "strip",
 		stripVars: [

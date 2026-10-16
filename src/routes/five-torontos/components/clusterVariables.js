@@ -58,50 +58,59 @@ export function socioeconomicLabel(key) {
 	return SOCIOECONOMIC_LABELS[key] ?? key;
 }
 
-// Every (election, field) pair with an actual vote-weighted value, excluding each election's
-// "other" minor-party/candidate catch-all — not a meaningful single variable to compare
-// cluster-to-cluster. 15 total: turnout + every named candidate/party on each ballot.
+// Every (election, field) pair with an actual vote-weighted value: turnout + every named
+// candidate/party on each ballot + each election's "other" minor-party/candidate catch-all.
+// 18 total, ordered municipal -> provincial -> federal (ELECTION_ORDER below).
 export const ALL_VOTING_SPECS = [
 	{ election: "mayor_2023", field: "turnout" },
 	{ election: "mayor_2023", field: "chow" },
 	{ election: "mayor_2023", field: "bailao" },
 	{ election: "mayor_2023", field: "saunders" },
 	{ election: "mayor_2023", field: "matlow" },
+	{ election: "mayor_2023", field: "other" },
 	{ election: "provincial_2025", field: "turnout" },
 	{ election: "provincial_2025", field: "pc" },
 	{ election: "provincial_2025", field: "ndp" },
 	{ election: "provincial_2025", field: "liberal" },
 	{ election: "provincial_2025", field: "green" },
+	{ election: "provincial_2025", field: "other" },
 	{ election: "federal_2025", field: "turnout" },
 	{ election: "federal_2025", field: "liberal" },
 	{ election: "federal_2025", field: "conservative" },
 	{ election: "federal_2025", field: "ndp" },
 	{ election: "federal_2025", field: "green" },
+	{ election: "federal_2025", field: "other" },
 ];
 
+// Election level order for any list of voting measures: municipal, provincial, federal.
+const ELECTION_ORDER = ["mayor_2023", "provincial_2025", "federal_2025"];
+
+// Stable sort by election level only, so a section's own order within an election is kept.
+export function sortByElectionLevel(specs) {
+	return [...specs].sort((a, b) => ELECTION_ORDER.indexOf(a.election) - ELECTION_ORDER.indexOf(b.election));
+}
+
 // Abbreviated "Mun./Prov./Fed." prefixes so a candidate surname never has to share a line with
-// the full "Municipal"/"Provincial"/"Federal" word. Covers each election's "other" catch-all
-// too, since a couple of sections' curated 5 reference it even though it's excluded above from
-// the full browsable catalog (not a meaningful variable to compare cluster-to-cluster on its own).
+// the full "Municipal"/"Provincial"/"Federal" word.
 const VOTING_LABELS = {
 	"mayor_2023.turnout": "Mun. turnout",
-	"mayor_2023.chow": "Mun: Chow",
-	"mayor_2023.bailao": "Mun: Bailão",
-	"mayor_2023.saunders": "Mun: Saunders",
-	"mayor_2023.matlow": "Mun: Matlow",
-	"mayor_2023.other": "Mun: Others",
+	"mayor_2023.chow": "Mun. Chow",
+	"mayor_2023.bailao": "Mun. Bailão",
+	"mayor_2023.saunders": "Mun. Saunders",
+	"mayor_2023.matlow": "Mun. Matlow",
+	"mayor_2023.other": "Mun. Other",
 	"provincial_2025.turnout": "Prov. turnout",
-	"provincial_2025.pc": "Prov: PC",
-	"provincial_2025.ndp": "Prov: NDP",
-	"provincial_2025.liberal": "Prov: Liberal",
-	"provincial_2025.green": "Prov: Green",
-	"provincial_2025.other": "Prov: Others",
+	"provincial_2025.pc": "Prov. PC",
+	"provincial_2025.ndp": "Prov. NDP",
+	"provincial_2025.liberal": "Prov. Liberal",
+	"provincial_2025.green": "Prov. Green",
+	"provincial_2025.other": "Prov. Other",
 	"federal_2025.turnout": "Fed. turnout",
-	"federal_2025.liberal": "Fed: Liberal",
-	"federal_2025.conservative": "Fed: Conservative",
-	"federal_2025.ndp": "Fed: NDP",
-	"federal_2025.green": "Fed: Green",
-	"federal_2025.other": "Fed: Others",
+	"federal_2025.liberal": "Fed. Liberal",
+	"federal_2025.conservative": "Fed. Conservative",
+	"federal_2025.ndp": "Fed. NDP",
+	"federal_2025.green": "Fed. Green",
+	"federal_2025.other": "Fed. Other",
 };
 
 export function votingVarKey({ election, field }) {

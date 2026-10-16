@@ -27,6 +27,7 @@
 		votingVarKey,
 		votingVarLabel,
 		votingSpecsEqual,
+		sortByElectionLevel,
 		formatSocioeconomicValue,
 		formatSocioeconomicDelta,
 		formatVotingValue,
@@ -99,7 +100,7 @@
 	$: socioRowsExpanded = ALL_SOCIOECONOMIC_KEYS.slice(socioScroll, socioScroll + WINDOW).map((key) =>
 		socioRow(key, compareCluster)
 	);
-	$: votingRowsCollapsed = votingSpecs.map((s) => votingRow(s, compareCluster));
+	$: votingRowsCollapsed = sortByElectionLevel(votingSpecs).map((s) => votingRow(s, compareCluster));
 	$: votingRowsExpanded = ALL_VOTING_SPECS.slice(votingScroll, votingScroll + WINDOW).map((spec) =>
 		votingRow(spec, compareCluster)
 	);
