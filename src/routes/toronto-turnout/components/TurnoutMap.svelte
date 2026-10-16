@@ -5,8 +5,8 @@
 
 	import TractMap from './TractMap.svelte';
 	import MapLegend from './MapLegend.svelte';
-	import { tracts, city } from '../data.js';
-	import { TURNOUT_VIEWS, TURNOUT_BREAKS, TURNOUT_COLOURS, NA_COLOUR } from '../config.js';
+	import { tracts, city, boundaries } from '../data.js';
+	import { TURNOUT_VIEWS, TURNOUT_BREAKS, TURNOUT_COLOURS, NA_COLOUR, HATCH_COLOUR } from '../config.js';
 	import { fmtTurnout, fmtPct } from '../format.js';
 
 	export let initialView = 'mean';
@@ -32,14 +32,16 @@
 		breaks={TURNOUT_BREAKS}
 		format={(v) => fmtPct(v)}
 		naColor={NA_COLOUR}
+		hatchColor={HATCH_COLOUR}
 		title="Turnout: votes cast as a share of citizens aged 18+"
-		label="Turnout colour scale, from under 30 percent in the lightest blue to 80 percent and over in the darkest blue"
+		label="Turnout colour scale, from under 35 percent in the palest blue to 80 percent and over in the darkest blue"
 	/>
 
 	<TractMap
 		{tracts}
 		{city}
 		valueKey={view.field}
+		boundaries={boundaries[view.boundary]}
 		breaks={TURNOUT_BREAKS}
 		colors={TURNOUT_COLOURS}
 		label={`Map of turnout by census tract in Toronto: ${view.label}. Hover or tap a tract for its turnout in each election.`}
@@ -57,7 +59,7 @@
 	</TractMap>
 
 	<figcaption class="map-note">
-		Turnout is votes cast divided by Canadian citizens aged 18+ in each 2021 census tract. Poll results were apportioned to tracts, so a few small tracts come out above 100%. Basemap © <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors.
+		Turnout is votes cast divided by Canadian citizens aged 18+ in each 2021 census tract. Poll results were apportioned to tracts, so a few small tracts come out above 100%. Dark lines show {view.boundaryLabel}. Basemap © <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors.
 	</figcaption>
 </figure>
 

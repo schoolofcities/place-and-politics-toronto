@@ -14,6 +14,7 @@
 	export let rightColor = null;
 	export let showNoData = true;
 	export let naColor = '#e6e6e1';
+	export let hatchColor = '#c4c4bc';
 	export let label = ''; // accessible description of the whole legend
 	export let maxWidth = '420px'; // any CSS width; the diverging scale uses '100%' so its two captions have room
 </script>
@@ -44,7 +45,7 @@
 			{/if}
 		</div>
 		{#if showNoData}
-			<div class="legend-na"><span class="swatch-na" style:--na={naColor}></span>No data</div>
+			<div class="legend-na"><span class="swatch-na" style:--na={naColor} style:--hatch={hatchColor}></span>No data</div>
 		{/if}
 	</div>
 </div>
@@ -129,6 +130,7 @@
 		width: 12px;
 		height: 10px;
 		border: 1px solid rgba(0, 0, 0, 0.15);
-		background: var(--na);
+		/* the same diagonal hatching the map draws over tracts with no data */
+		background: repeating-linear-gradient(45deg, var(--hatch) 0 1.5px, var(--na) 1.5px 4px);
 	}
 </style>

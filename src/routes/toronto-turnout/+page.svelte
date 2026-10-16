@@ -6,7 +6,7 @@
 	//     2. Map the turnout geography              — prose only
 	//     3. What sits underneath the turnout map?  — Component 1 map, then its ingredient chart
 	//     4. What might make participation easier?  — prose only
-	//     5. Explore the ingredients                — variable vs. mean-turnout explorer
+	//     5. Explore the ingredients                — one characteristic vs. turnout: linked map + scatterplot
 	//     6. Methods and limitations                — shell for the future methods write-up
 	//
 	// Graphics live in ./components; palettes, breaks and labels in ./config.js; data shaping in
@@ -47,7 +47,7 @@
 		<div id="mini-line"></div>
 		<h1>One city, uneven participation</h1>
 		<p class="subtitle">Examining differences in turnout across recent elections in Toronto</p>
-		<h3><a href="https://www.linkedin.com/in/aniket-kali-8a8b9921b/">Aniket Kali</a> <br />October 2026</h3>
+		<h3><a href="https://www.linkedin.com/in/aniket-kali-8a8b9921b/">Aniket Kali</a>, Kevin Yang <br />October 2026</h3>
 		<div id="mini-line"></div>
 	</div>
 

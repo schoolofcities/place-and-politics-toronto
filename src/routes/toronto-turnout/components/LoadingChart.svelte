@@ -41,7 +41,7 @@
 		else open(row, event);
 	}
 	const describe = (d) =>
-		`${d.label}: strength of association with ${d.loading >= 0 ? 'higher' : 'lower'} turnout ${fmtLoading(d.loading)}`;
+		`${d.label}: association strength with ${d.loading >= 0 ? 'higher' : 'lower'} turnout ${fmtLoading(d.loading)}, on a unitless scale where 0 is no association`;
 
 	$: activeRow = rows.find((d) => d.variable === active);
 </script>
@@ -96,17 +96,21 @@
 			<span style:left="{50 + (t / AXIS_MAX) * 50}%">{t === 0 ? '0' : fmtLoading(t)}</span>
 		{/each}
 	</div>
-	<div class="axis-title" aria-hidden="true">Strength of association with turnout</div>
+	<div class="axis-title" aria-hidden="true">
+		<b>Association strength</b>
+		<span>a unitless score: 0 means no link, and the longer the bar, the stronger the link</span>
+	</div>
 
 	{#if activeRow}
 		<div class="tip" id="loading-tip" role="tooltip" style={tipStyle}>
 			<div class="tip-name">{activeRow.plain_name}</div>
-			<div class="tip-row"><span>Strength of association with turnout</span><b>{fmtLoading(activeRow.loading)}</b></div>
+			<div class="tip-row"><span>Association strength</span><b>{fmtLoading(activeRow.loading)}</b></div>
+			<div class="tip-unit">Unitless score; 0 = no association with turnout</div>
 		</div>
 	{/if}
 
 	<figcaption class="note">
-		Each bar shows how strongly a neighbourhood characteristic is tied to the main pattern behind Toronto's turnout differences (the map above). Bars pointing right are characteristics more common where turnout tends to be higher; bars pointing left, where it tends to be lower. Shown are the {rows.length} of {ingredientMeta.nModelVariables} characteristics that matter most to the model. For reference, tracts on the higher-turnout side of the pattern average {fmtPct(c1.mean_turnout_score_above_0)} turnout, and those on the lower side {fmtPct(c1.mean_turnout_score_below_0)}. These are associations between places, not evidence that any one characteristic changes whether people vote.
+		Each bar shows how strongly a neighbourhood characteristic is tied to the main pattern behind Toronto's turnout differences (the map above), as a unitless score where 0 means no association. Bars pointing right are characteristics more common where turnout tends to be higher; bars pointing left, where it tends to be lower. Shown are the {rows.length} of {ingredientMeta.nModelVariables} characteristics that matter most to the model. For reference, tracts on the higher-turnout side of the pattern average {fmtPct(c1.mean_turnout_score_above_0)} turnout, and those on the lower side {fmtPct(c1.mean_turnout_score_below_0)}. These are associations between places, not evidence that any one characteristic changes whether people vote.
 	</figcaption>
 </figure>
 
@@ -236,9 +240,20 @@
 		white-space: nowrap;
 	}
 	.axis-title {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		gap: 1px;
 		text-align: center;
 		font-size: 11px;
+		line-height: 1.35;
 		color: var(--brandGray60);
+	}
+	.axis-title b {
+		font-family: OpenSansBold, sans-serif;
+		font-weight: normal;
+		font-size: 12px;
+		color: var(--brandGray80);
 	}
 
 	.tip {
@@ -260,6 +275,11 @@
 		justify-content: space-between;
 		gap: 12px;
 		font-variant-numeric: tabular-nums;
+	}
+	.tip-unit {
+		margin-top: 3px;
+		font-size: 11px;
+		color: var(--brandGray60);
 	}
 	.tip-row span {
 		color: var(--brandGray70);

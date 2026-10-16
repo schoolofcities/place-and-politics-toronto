@@ -6,8 +6,17 @@ import tracts from '$data/toronto-turnout/ct.geo.json';
 import city from '$data/toronto-turnout/city.geo.json';
 import meta from '$data/toronto-turnout/meta.json';
 import loadings from '$data/toronto-turnout/component_1_loadings.json';
+import boundaryData from '$data/toronto-turnout/boundaries.geo.json';
 
 export { tracts, city, meta };
+
+/**
+ * Internal ward / riding lines as one FeatureCollection per level ("municipal" = the 2023 wards,
+ * "provincial" and "federal" = the 2025 ridings).
+ */
+export const boundaries = Object.fromEntries(
+	boundaryData.features.map((f) => [f.properties.level, { type: 'FeatureCollection', features: [f] }])
+);
 
 /** One flat record per tract, for the charts. */
 export const tractRows = tracts.features.map((f) => f.properties);
