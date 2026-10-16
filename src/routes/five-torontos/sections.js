@@ -29,16 +29,6 @@ export const SECTION_CONFIG = {
 			{ election: "provincial_2025", field: "ndp" },
 			{ election: "federal_2025", field: "conservative" },
 		],
-		graphic: null, // no graphic for this section
-	},
-	"civic-liberals": {
-		votingSpecs: [
-			{ election: "mayor_2023", field: "bailao" },
-			{ election: "provincial_2025", field: "liberal" },
-			{ election: "provincial_2025", field: "ndp" },
-			{ election: "federal_2025", field: "conservative" },
-			{ election: "federal_2025", field: "turnout" },
-		],
 		graphic: "scatter",
 		scatter: {
 			xKey: "income_median",
@@ -48,6 +38,16 @@ export const SECTION_CONFIG = {
 			xFormat: (v) => `$${Math.round(v / 1000)}k`,
 			yFormat: (v) => `${v.toFixed(0)}%`,
 		},
+	},
+	"civic-liberals": {
+		votingSpecs: [
+			{ election: "mayor_2023", field: "bailao" },
+			{ election: "provincial_2025", field: "liberal" },
+			{ election: "provincial_2025", field: "ndp" },
+			{ election: "federal_2025", field: "conservative" },
+			{ election: "federal_2025", field: "turnout" },
+		],
+		graphic: null, // no graphic for this section
 	},
 	"suburban-conservatives": {
 		votingSpecs: [

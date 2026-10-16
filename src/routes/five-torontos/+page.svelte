@@ -3,8 +3,8 @@
 	//   Intro: "there are 5 political groups in Toronto" + rotating map of all 5
 	//   One section per cluster: header -> map -> summary tables -> body copy -> graphic
 	//     Section 1: Progressive Core          — double strip plot
-	//     Section 2: Soft-Left Belt            — (no graphic)
-	//     Section 3: Civic Liberals            — income-vs-education scatter
+	//     Section 2: Soft-Left Belt            — income-vs-education scatter
+	//     Section 3: Civic Liberals            — (no graphic)
 	//     Section 4: Suburban Conservatives    — triple strip plot
 	//     Section 5: Low-turnout Suburbanites  — triple strip plot (visible minority / income / education)
 	//
@@ -208,6 +208,9 @@
 						progressive voting, and a greater willingness to support Liberal or moderate
 						alternatives than in the Core.
 					</p>
+					<div class="inline-graphic">
+						<ScatterHighlight values={ctValues} {...config.scatter} {clusterId} {color} />
+					</div>
 					<p>
 						That difference is visible across elections. Chow and the provincial NDP both
 						outperform their Toronto-wide results here, but by much smaller margins than in
@@ -238,9 +241,6 @@
 						turnout is high, Liberal support is strong, and there is much less warmth toward
 						the NDP and other progressive candidates.
 					</p>
-					<div class="inline-graphic">
-						<ScatterHighlight values={ctValues} {...config.scatter} {clusterId} {color} />
-					</div>
 					<p>
 						That pattern is clearest provincially, where the Liberals receive just over half
 						the vote and the NDP falls to only 8 per cent. Ana Bailão also leads Olivia Chow
@@ -345,8 +345,8 @@
 			</div>
 
 			<!-- Progressive Core / Suburban Conservatives / Low-turnout Suburbanites get a
-				 full-width strip plot underneath the body copy. Civic Liberals' scatter is
-				 instead placed inline, between that section's two paragraphs above (see
+				 full-width strip plot underneath the body copy. Soft-Left Belt's scatter is
+				 instead placed inline, between that section's first two paragraphs above (see
 				 `.inline-graphic`), so the second paragraph wraps around it. -->
 			{#if config.graphic === "strip"}
 				<div class="graphic">
@@ -463,7 +463,7 @@
 		clear: both;
 	}
 
-	/* Civic Liberals' scatter plot sits between that section's two paragraphs, floated so the
+	/* Soft-Left Belt's scatter plot sits after that section's first paragraph, floated so the
 	   second paragraph wraps around it and continues full-width once it reads past the bottom
 	   of the graphic — rather than a hard break to a separate block below. Stacked full-width
 	   on mobile instead (see the media query below): a narrow column doesn't leave enough room
