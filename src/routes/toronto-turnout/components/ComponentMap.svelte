@@ -4,8 +4,9 @@
 	// distinguishable from each other and from the (blue, sequential) turnout map.
 
 	import TractMap from './TractMap.svelte';
+	import FigureTitle from './FigureTitle.svelte';
 	import MapLegend from './MapLegend.svelte';
-	import { tracts, city, meta, boundaries } from '../data.js';
+	import { tracts, meta } from '../data.js';
 	import {
 		COMPONENT_BREAKS,
 		COMPONENT_COLOURS,
@@ -21,6 +22,8 @@
 </script>
 
 <figure class="component-map">
+	<FigureTitle title="Component 1 score, by census tract" subtitle="The main pattern linking neighbourhood characteristics to turnout" />
+
 	<MapLegend
 		colors={COMPONENT_COLOURS}
 		breaks={COMPONENT_BREAKS}
@@ -38,9 +41,7 @@
 
 	<TractMap
 		{tracts}
-		{city}
 		valueKey="component_1"
-		boundaries={boundaries.municipal}
 		breaks={COMPONENT_BREAKS}
 		colors={COMPONENT_COLOURS}
 		label="Map of Component 1 scores by census tract in Toronto. Hover or tap a tract for its score and mean turnout."
@@ -56,7 +57,7 @@
 	</TractMap>
 
 	<figcaption class="map-note">
-		Component 1 is the main pattern found by Partial Least Squares (PLS) regression when relating 70 neighbourhood characteristics to turnout. Across tracts, higher scores go with higher mean turnout (r = {fmtR(r)}), which describes places, not individual voters. Dark lines show city ward boundaries. Side labels are provisional. Basemap © <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors.
+		Component 1 is the main pattern found by Partial Least Squares (PLS) regression when relating 70 neighbourhood characteristics to turnout. Across tracts, higher scores go with higher mean turnout (r = {fmtR(r)}), which describes places, not individual voters. Side labels are provisional.
 	</figcaption>
 </figure>
 
@@ -73,8 +74,5 @@
 		font-size: 11px;
 		line-height: 1.45;
 		color: var(--brandGray60);
-	}
-	.map-note a {
-		color: inherit;
 	}
 </style>

@@ -9,6 +9,7 @@
 	// Wording: a "loading" is how strongly a variable moves with the Component 1 score, and that score
 	// moves with turnout, so the chart calls it the strength of association with turnout.
 
+	import FigureTitle from './FigureTitle.svelte';
 	import { ingredientRows, ingredientMeta, meta } from '../data.js';
 	import { COMPONENT_LOW_COLOUR, COMPONENT_HIGH_COLOUR } from '../config.js';
 	import { fmtLoading, fmtPct } from '../format.js';
@@ -47,6 +48,8 @@
 </script>
 
 <figure class="loading-chart" bind:this={figure}>
+	<FigureTitle title="What Component 1 is made of" subtitle="Neighbourhood characteristics ranked by their association with turnout" />
+
 	<div class="heads" aria-hidden="true">
 		<div class="head head-low"><i style:background={COMPONENT_LOW_COLOUR}></i>Associated with lower turnout</div>
 		<div class="head head-high">Associated with higher turnout<i style:background={COMPONENT_HIGH_COLOUR}></i></div>

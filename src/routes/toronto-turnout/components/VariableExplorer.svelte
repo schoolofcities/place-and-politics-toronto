@@ -7,8 +7,9 @@
 
 	import ExplorerScatter from './ExplorerScatter.svelte';
 	import TractMap from './TractMap.svelte';
+	import FigureTitle from './FigureTitle.svelte';
 	import MapLegend from './MapLegend.svelte';
-	import { tracts, city, meta, boundaries, tractRows, explorerVariables, explorerGroups } from '../data.js';
+	import { tracts, meta, tractRows, explorerVariables, explorerGroups } from '../data.js';
 	import { CENSUS_COLOURS, NA_COLOUR, HATCH_COLOUR } from '../config.js';
 	import { variableFormat, fmtR, fmtTurnout } from '../format.js';
 	import { linearFit, quantileBreaks, spread } from '../stats.js';
@@ -35,6 +36,8 @@
 </script>
 
 <div class="explorer">
+	<FigureTitle title="Neighbourhood characteristics and turnout" subtitle="Pick a characteristic to map it by census tract and compare it with mean turnout" />
+
 	<div class="controls">
 		<label class="field">
 			<span>Neighbourhood characteristic</span>
@@ -64,9 +67,7 @@
 			/>
 			<TractMap
 				{tracts}
-				{city}
 				valueKey={field}
-				boundaries={boundaries.municipal}
 				{breaks}
 				{colors}
 				{activeId}
@@ -98,7 +99,7 @@
 	<p class="sr-only" aria-live="polite">{announce}</p>
 
 	<p class="foot">
-		r = Pearson correlation across census tracts, with the least-squares trend line. Tracts are not people: a correlation here describes places, not voters, and many of these characteristics move together. {nNoData} tracts with no reliable data at all are left out, and so is any tract missing the selected characteristic (hatched on the map). Dark lines show city ward boundaries. Basemap © <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors.
+		r = Pearson correlation across census tracts, with the least-squares trend line. Tracts are not people: a correlation here describes places, not voters, and many of these characteristics move together. {nNoData} tracts with no reliable data at all are left out, and so is any tract missing the selected characteristic (hatched on the map).
 	</p>
 </div>
 
@@ -165,9 +166,6 @@
 		font-size: 11px;
 		line-height: 1.45;
 		color: var(--brandGray60);
-	}
-	.foot a {
-		color: inherit;
 	}
 	.sr-only {
 		position: absolute;

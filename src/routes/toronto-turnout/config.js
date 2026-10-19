@@ -11,16 +11,15 @@ import { piecewise, interpolateRgb, quantize, schemeRdYlBu } from 'd3';
 // stretched to its own range. Five classes, on a ramp through the site's brand blues (pale tint ->
 // --brandLightBlue -> --brandMedBlue -> --brandDarkBlue) so neighbouring classes differ in both
 // lightness and hue and stay distinguishable on the map.
-const TURNOUT_RAMP = ['#eef2f8', '#6FC7EA', '#007FA3', '#1E3765'];
+const TURNOUT_RAMP = ['#e3ebf5', '#6FC7EA', '#007FA3', '#1E3765'];
 export const TURNOUT_BREAKS = [0.35, 0.5, 0.65, 0.8];
 export const TURNOUT_COLOURS = quantize(piecewise(interpolateRgb, TURNOUT_RAMP), TURNOUT_BREAKS.length + 1);
 
-// `boundary` is the ward/riding set drawn over the map in that view (see boundaries.geo.json)
 export const TURNOUT_VIEWS = [
-	{ key: 'mean', field: 'mean_turnout', label: 'Mean turnout', note: 'Average of the three election rates', boundary: 'municipal', boundaryLabel: 'city ward boundaries' },
-	{ key: 'municipal', field: 'municipal_turnout', label: '2023 mayoral', note: '2023 mayoral by-election', boundary: 'municipal', boundaryLabel: 'city ward boundaries' },
-	{ key: 'provincial', field: 'provincial_turnout', label: '2025 provincial', note: '2025 Ontario general election', boundary: 'provincial', boundaryLabel: 'provincial riding boundaries' },
-	{ key: 'federal', field: 'federal_turnout', label: '2025 federal', note: '2025 federal general election', boundary: 'federal', boundaryLabel: 'federal riding boundaries' }
+	{ key: 'mean', field: 'mean_turnout', label: 'Mean turnout', subtitle: 'Average of the 2023 mayoral, 2025 provincial and 2025 federal election rates' },
+	{ key: 'municipal', field: 'municipal_turnout', label: '2023 mayoral', subtitle: '2023 mayoral by-election' },
+	{ key: 'provincial', field: 'provincial_turnout', label: '2025 provincial', subtitle: '2025 Ontario general election' },
+	{ key: 'federal', field: 'federal_turnout', label: '2025 federal', subtitle: '2025 federal general election' }
 ];
 
 // ---- Component 1 (diverging, centred on zero) --------------------------------------

@@ -5,7 +5,7 @@
 	//     2. What sits underneath the turnout map?  — Component 1 map, then its ingredient chart
 	//     3. Making electoral participation easier  — prose only
 	//     4. Explore the ingredients                — one characteristic vs. turnout: linked map + scatterplot
-	//     5. Data and Methods                       — prose
+	//     5. Data and methods                       — small .info block, as on the other posts
 	//
 	// Graphics live in ./components; palettes, breaks and labels in ./config.js; data shaping in
 	// ./data.js. All data comes from analysis/toronto_election_turnout/09_final_synthesis.ipynb.
@@ -44,7 +44,7 @@
 		<h4>Place & Politics in Toronto - Part 8</h4>
 		<div id="mini-line"></div>
 		<h1>One city, uneven participation</h1>
-		<h3><a href="https://www.linkedin.com/in/aniket-kali-8a8b9921b/">Aniket Kali</a>, Kevin Yang <br />October 2026</h3>
+		<h3><a href="https://www.linkedin.com/in/aniket-kali-8a8b9921b/" target="_blank" rel="noopener noreferrer">Aniket Kali</a>, Kevin Yang <br><br> October 2026</h3>
 		<div id="mini-line"></div>
 	</div>
 
@@ -68,8 +68,8 @@
 	</section>
 
 	<!-- 2. What sits underneath -->
-	<section class="story-section" aria-labelledby="underneath-heading">
-		<h2 id="underneath-heading" class="sub">What sits underneath the turnout map?</h2>
+	<section class="story-section titled" aria-labelledby="underneath-heading">
+		<h2 id="underneath-heading">What sits underneath the turnout map?</h2>
 		<div class="text">
 			<p>
 				We cannot say exactly why particular people decided to vote or not to vote, especially from
@@ -116,7 +116,7 @@
 			<p>
 				Existing Canadian research also gives us reason to resist treating immigration or
 				racialization as simple explanations for electoral participation.
-				<a href="https://onlinelibrary.wiley.com/doi/full/10.1111/imig.13150">A 2023 study by Stephen White</a>
+				<a href="https://onlinelibrary.wiley.com/doi/full/10.1111/imig.13150" target="_blank" rel="noopener noreferrer">A 2023 study by Stephen White</a>
 				using Canadian election studies spanning 45 years found that an apparent relationship between
 				immigrants' length of residence and turnout largely disappeared once the historical period in
 				which different cohorts arrived was taken into account. In other words, even seemingly
@@ -125,11 +125,11 @@
 			</p>
 			<p>
 				Likewise,
-				<a href="https://www.cogitatiopress.com/politicsandgovernance/article/view/9377">recent Canadian research on racialized voters</a>
+				<a href="https://www.cogitatiopress.com/politicsandgovernance/article/view/9377" target="_blank" rel="noopener noreferrer">recent Canadian research on racialized voters</a>
 				finds differences in turnout between several racialized groups and white Canadians, but also
 				finds that socioeconomic circumstances and political engagement explain part of those gaps,
 				while a substantial portion remains unexplained. Other work by Statistics Canada
-				<a href="https://www150.statcan.gc.ca/n1/daily-quotidien/220517/dq220517c-eng.htm">cautions us to note</a>
+				<a href="https://www150.statcan.gc.ca/n1/daily-quotidien/220517/dq220517c-eng.htm" target="_blank" rel="noopener noreferrer">cautions us to note</a>
 				that many racialized Canadians still participate in politics beyond the ballot box: by
 				engaging with news, going to meetings or demonstrations, signing a petition, or wearing signs
 				in support of a cause.
@@ -162,8 +162,8 @@
 	</section>
 
 	<!-- 3. Making participation easier -->
-	<section class="story-section" aria-labelledby="easier-heading">
-		<h2 id="easier-heading" class="sub">Making electoral participation easier</h2>
+	<section class="story-section titled" aria-labelledby="easier-heading">
+		<h2 id="easier-heading">Making electoral participation easier</h2>
 		<div class="text">
 			<p>
 				None of this tells us that a particular policy would increase turnout. It does suggest a
@@ -172,17 +172,17 @@
 			</p>
 			<p>
 				Time and convenience are part of that picture. In an
-				<a href="https://www.elections.ca/content.aspx?dir=rec%2Feval%2Fpes2025%2Frve&amp;document=p1&amp;lang=e&amp;section=res">Elections Canada survey following the 2025 federal election</a>,
+				<a href="https://www.elections.ca/content.aspx?dir=rec%2Feval%2Fpes2025%2Frve&amp;document=p1&amp;lang=e&amp;section=res" target="_blank" rel="noopener noreferrer">Elections Canada survey following the 2025 federal election</a>,
 				34% of voters said they chose their voting method because the date and time worked with their
 				schedule, while 28% cited having a nearby voting location. Among non-voters, 24% cited
 				electoral-process reasons and 23% everyday-life or health reasons.
 			</p>
 			<p>
 				Access matters too.
-				<a href="https://www.cambridge.org/core/journals/canadian-journal-of-political-science-revue-canadienne-de-science-politique/article/i-came-i-saw-i-voted-distance-to-polling-locations-and-voter-turnout-in-ontario-canada/84EB73738B9DE67B869A013432566C02">Observational research using Ontario polling locations</a>
+				<a href="https://www.cambridge.org/core/journals/canadian-journal-of-political-science-revue-canadienne-de-science-politique/article/i-came-i-saw-i-voted-distance-to-polling-locations-and-voter-turnout-in-ontario-canada/84EB73738B9DE67B869A013432566C02" target="_blank" rel="noopener noreferrer">Observational research using Ontario polling locations</a>
 				found that greater distance or travel time to the polls was generally associated with lower
 				turnout. And in the 2025 federal election,
-				<a href="https://elections.ca/content.aspx?dir=rec%2Feval%2Fpes2025%2Fevt&amp;document=p7&amp;lang=e&amp;section=res">44.2% of ballots were cast through advance or other alternative voting methods</a>,
+				<a href="https://elections.ca/content.aspx?dir=rec%2Feval%2Fpes2025%2Fevt&amp;document=p7&amp;lang=e&amp;section=res" target="_blank" rel="noopener noreferrer">44.2% of ballots were cast through advance or other alternative voting methods</a>,
 				showing how widely voters already use more flexible options.
 			</p>
 			<p>
@@ -195,8 +195,8 @@
 	</section>
 
 	<!-- 4. Explorer -->
-	<section class="story-section" aria-labelledby="explore-heading">
-		<h2 id="explore-heading" class="sub">Explore the ingredients</h2>
+	<section class="story-section titled" aria-labelledby="explore-heading">
+		<h2 id="explore-heading">Explore the ingredients</h2>
 		<div class="text">
 			<p>
 				Our component analysis provides a useful summary of how different variables work together, but
@@ -215,56 +215,41 @@
 		</div>
 	</section>
 
-	<!-- 5. Data and methods -->
-	<div id="mini-line"></div>
-	<section class="story-section methods-section" aria-labelledby="methods-heading">
-		<h2 id="methods-heading">Data and Methods</h2>
-		<div class="text">
-			<p>
-				This analysis combines electoral results from Toronto's 2023 mayoral election, the 2025
-				Ontario provincial election, and the 2025 federal election with Census, Transportation
-				Tomorrow Survey, and neighbourhood-accessibility data.
-			</p>
-			<p>
-				Election results are originally reported using different polling geographies at each level of
-				government. To compare them consistently, we use population-weighted spatial interpolation to
-				estimate results for Toronto's 585 census tracts. Turnout is calculated as votes cast relative
-				to the estimated number of Canadian citizens aged 18 and older in each census tract, which
-				allows for a standardized comparison across all tracts and elections.
-			</p>
-			<p>
-				We then assemble 70 neighbourhood measures covering age and household structure, education,
-				income and employment, occupation, housing, immigration and citizenship, language,
-				transportation, urban form and access to services. Many of these characteristics overlap
-				substantially. We therefore use Partial Least Squares regression, which summarizes them into a
-				smaller number of components chosen specifically for their relationship with turnout.
-				Cross-validation selects a four-component model, although most of the turnout relationship is
-				concentrated in the first component described above.
-			</p>
-			<p>
-				We tested whether that result depends heavily on particular modelling choices. The main
-				component remains very similar when municipal, provincial and federal turnout are modelled
-				separately, when the predictor set is substantially reduced, and when transportation variables
-				are removed. We also compare PLS with Principal Component Regression, supervised PCA and
-				Elastic Net, and use spatial cross-validation and repeated bootstrap samples to test how well
-				the findings hold when geography or the observed sample changes.
-			</p>
-			<p>
-				These tests support the stability of the main pattern, but they do not turn it into a causal
-				explanation. Election results are spatially estimated, the population denominator comes from
-				the 2021 Census while the elections occurred between 2023 and 2025, and neighbourhood-level
-				relationships cannot identify the behaviour of individual residents. The components themselves
-				are continuous statistical summaries of overlapping characteristics, not fixed types of
-				neighbourhood or people.
-			</p>
-			<p>
-				A more detailed
-				<a href="https://github.com/schoolofcities/place-and-politics-toronto/tree/main/analysis/toronto_election_turnout">technical write-up</a>
-				describes the interpolation, variables, model selection, validation and sensitivity tests in
-				full.
-			</p>
-		</div>
-	</section>
+	<!-- 5. Data and methods, in the small .info style used on the other posts -->
+	<div class="info" id="data-and-methods">
+		<p class="info-title"><strong>Data and methods</strong></p>
+		<p>This analysis combines electoral results from Toronto's 2023 mayoral election, the 2025
+			Ontario provincial election, and the 2025 federal election with Census, Transportation
+			Tomorrow Survey, and neighbourhood-accessibility data.</p>
+		<p>Election results are originally reported using different polling geographies at each level of
+			government. To compare them consistently, we use population-weighted spatial interpolation to
+			estimate results for Toronto's 585 census tracts. Turnout is calculated as votes cast relative
+			to the estimated number of Canadian citizens aged 18 and older in each census tract, which
+			allows for a standardized comparison across all tracts and elections.</p>
+		<p>We then assemble 70 neighbourhood measures covering age and household structure, education,
+			income and employment, occupation, housing, immigration and citizenship, language,
+			transportation, urban form and access to services. Many of these characteristics overlap
+			substantially. We therefore use Partial Least Squares regression, which summarizes them into a
+			smaller number of components chosen specifically for their relationship with turnout.
+			Cross-validation selects a four-component model, although most of the turnout relationship is
+			concentrated in the first component described above.</p>
+		<p>We tested whether that result depends heavily on particular modelling choices. The main
+			component remains very similar when municipal, provincial and federal turnout are modelled
+			separately, when the predictor set is substantially reduced, and when transportation variables
+			are removed. We also compare PLS with Principal Component Regression, supervised PCA and
+			Elastic Net, and use spatial cross-validation and repeated bootstrap samples to test how well
+			the findings hold when geography or the observed sample changes.</p>
+		<p>These tests support the stability of the main pattern, but they do not turn it into a causal
+			explanation. Election results are spatially estimated, the population denominator comes from
+			the 2021 Census while the elections occurred between 2023 and 2025, and neighbourhood-level
+			relationships cannot identify the behaviour of individual residents. The components themselves
+			are continuous statistical summaries of overlapping characteristics, not fixed types of
+			neighbourhood or people.</p>
+		<p>A more detailed
+			<a href="https://github.com/schoolofcities/place-and-politics-toronto/tree/main/analysis/toronto_election_turnout" target="_blank" rel="noopener noreferrer">technical write-up</a>
+			describes the interpolation, variables, model selection, validation and sensitivity tests in
+			full.</p>
+	</div>
 
 	<div id="mini-line"></div>
 
@@ -275,28 +260,18 @@
 
 <style>
 	.story-section {
-		margin: 0 auto 28px;
+		margin: 0 auto 60px;
 		width: 100%;
 	}
-	/* the story's own sections get a quiet left-aligned subheading; "Data and Methods" keeps the
-	   larger centred heading (under a rule) as the one major break */
-	.story-section h2.sub {
-		font-family: "Source Serif Pro", serif;
-		font-size: 22px;
-		font-weight: bold;
-		text-align: left;
-		margin: 0 auto 4px;
-		max-width: 694px;
-		width: calc(100% - 50px);
-		padding: 0 25px;
-		box-sizing: content-box;
+	/* space above each titled section, in place of a rule */
+	.story-section.titled {
+		padding-top: 20px;
 	}
-	.methods-section {
-		margin-top: 36px;
-	}
+	/* centred serif 20px, as the section headings on five-torontos */
 	.story-section h2 {
 		font-family: "Source Serif Pro", serif;
-		font-weight: normal;
+		font-size: 20px;
+		font-weight: bold;
 		text-align: center;
 		margin: 0 auto 16px;
 		max-width: 694px;
@@ -317,28 +292,16 @@
 		max-width: 1000px;
 	}
 
+	.info-title {
+		font-size: 17px;
+	}
+
 	@media (max-width: 600px) {
 		.story-section {
-			margin-bottom: 24px;
+			margin-bottom: 48px;
 		}
-		/* the story's own sections get a quiet left-aligned subheading; "Data and Methods" keeps the
-	   larger centred heading (under a rule) as the one major break */
-	.story-section h2.sub {
-		font-family: "Source Serif Pro", serif;
-		font-size: 22px;
-		font-weight: bold;
-		text-align: left;
-		margin: 0 auto 4px;
-		max-width: 694px;
-		width: calc(100% - 50px);
-		padding: 0 25px;
-		box-sizing: content-box;
-	}
-	.methods-section {
-		margin-top: 36px;
-	}
-	.story-section h2 {
-			font-size: 24px;
+		.story-section.titled {
+			padding-top: 12px;
 		}
 		.graphic {
 			margin: 16px auto;

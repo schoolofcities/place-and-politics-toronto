@@ -1,94 +1,101 @@
 <script>
-	// Choropleth of Toronto's 585 census tracts on the site's MapLibre basemap, rotated like
-	// the other maps. Generic: the parent says which tract property to colour (`valueKey`)
-	// and with which classes; this component owns the camera, hover/tap behaviour and the
-	// readout box, whose contents the parent supplies through the default slot:
+	// Static choropleth of Toronto's 585 census tracts (SVG, rotated like the site's other maps),
+	// in the style of the five-torontos maps: a two-layer grey background of the former
+	// municipalities, white tract outlines, and a "Reference layers" control that adds former
+	// municipality, ward / provincial riding or 2025 federal riding boundaries (with names).
+	//
+	// Generic: the parent says which tract property to colour (`valueKey`) and with which classes.
+	// Tracts with no value get a diagonal hatch. Hover (or tap) a tract to open the readout, whose
+	// contents the parent supplies through the default slot:
 	//
 	//   <TractMap ... let:props> ...markup for one tract's properties... </TractMap>
 	//
-	// Hover (or tap) a tract to open the readout; `activeId` lets a sibling chart highlight
-	// a tract on the map, and a `hover` event reports the tract under the pointer back.
+	// `activeId` lets a sibling chart highlight a tract here, and a `hover` event reports the
+	// tract under the pointer back.
 
+	import { geoPath, geoMercator } from 'd3';
 	import { onMount, createEventDispatcher } from 'svelte';
-	import 'maplibre-gl/dist/maplibre-gl.css';
-	import maplibregl, { createBaseMapStyle } from '$lib/maps/maplibre.js';
-	import { BEARING, MAX_BOUNDS, outlinePoints, rotatedFit } from '$lib/maps/tractCamera.js';
+	// Reference layers are shared with the five-torontos story (Toronto only, digital boundary
+	// files that extend into the lake; label_lon/label_lat is a point inside each area's land).
+	import Wards from '../../five-torontos/data/wards.geo.json';
+	import Feds2025 from '../../five-torontos/data/fed_2025.geo.json';
+	import FormerMunicipalities from '../../five-torontos/data/former_municipalities.geo.json';
 	import { NA_COLOUR, HATCH_COLOUR, HOVER_COLOUR } from '../config.js';
 
 	export let tracts; // FeatureCollection, features carry a `ct` property
-	export let city; // FeatureCollection: the city outline
 	export let valueKey; // tract property that decides the fill
 	export let breaks = []; // class boundaries, ascending
 	export let colors = []; // breaks.length + 1 colours
-	export let boundaries = null; // FeatureCollection of ward / riding lines drawn over the tracts
-	export let fillOpacity = 0.92; // high enough that neighbouring classes stay distinct
 	export let activeId = null; // tract highlighted from outside (e.g. a hovered scatter dot)
 	export let label = 'Map of Toronto census tracts';
 
 	const dispatch = createEventDispatcher();
+	// unique per map (several maps share the page): the hatch pattern's id and the control's label id
+	const uid = `tract-map-${Math.random().toString(36).slice(2, 9)}`;
 
-	const FIT_PADDING = 12;
-	const EMPTY = { type: 'FeatureCollection', features: [] };
-	const OUTSIDE_FADE = 0.8; // white veil over everything outside the city
-	const WATER_COLOUR = '#d6d5d1'; // a little darker than the site basemap's, as on the mapper
-	// Street kinds drawn faintly under the tract colours (Shortbread `streets` layer)
-	const STREET_KINDS = ['motorway', 'trunk', 'primary', 'secondary', 'tertiary', 'unclassified', 'residential', 'living_street'];
+	// draw the map shapes only in the browser, so they aren't prerendered into the page HTML
+	let mounted = false;
+	let touchOnly = false;
+	onMount(() => {
+		mounted = true;
+		touchOnly = window.matchMedia('(hover: none)').matches;
+	});
 
-	let container;
-	let map;
-	let ready = false;
+	// which boundaries to draw over the tracts; each map has its own control (bottom left)
+	const BOUNDARY_OPTIONS = [
+		// the 25 wards are also the 2025 provincial ridings (Ontario's Toronto ridings share their boundaries)
+		// labelMinWidth: the narrowest map (px) at which that layer's names don't overlap; narrower, lines only
+		{ key: 'former', label: 'Former municipalities', layer: FormerMunicipalities, labelMinWidth: 400 },
+		{ key: 'wards', label: '2023 wards and 2025 provincial ridings', layer: Wards, labelMinWidth: 800 },
+		{ key: 'fed2025', label: '2025 federal ridings', layer: Feds2025, labelMinWidth: 820 }
+	];
+	// former municipalities shown by default; clicking the chosen option again turns boundaries off
+	let boundaryKey = 'former';
+	$: boundaryOption = BOUNDARY_OPTIONS.find((o) => o.key === boundaryKey) ?? null;
+	$: boundaries = boundaryOption?.layer ?? null;
+
+	// a boundary name split into lines: after each hyphen or dash (kept at the end of its line),
+	// otherwise at its last space if longer than 13 characters; short names stay on one line
+	function labelLines(name) {
+		const parts = name.split(/(?<=[-–—])/);
+		if (parts.length > 1) return parts;
+		const sp = name.lastIndexOf(' ');
+		if (name.length > 13 && sp !== -1) return [name.slice(0, sp), name.slice(sp + 1)];
+		return [name];
+	}
+
+	const MAP_ANGLE = -17; // same tilt used elsewhere on the site so Toronto reads as level
+	const PAD = 10;
+	const PAD_BOTTOM = 20;
+
+	let divWidth = 420;
+	$: width = divWidth;
+	$: height = width / (width < 600 ? 1.3 : 1.6); // a taller map on phones, where tracts are tapped
+
+	// Fit the projection to the tracts on every resize so Toronto stays centred with even margins.
+	$: projection = geoMercator()
+		.angle(MAP_ANGLE)
+		.fitExtent(
+			[
+				[PAD, PAD],
+				[width - PAD, height - PAD_BOTTOM]
+			],
+			tracts
+		);
+	$: path = geoPath(projection);
+	$: shapes = tracts.features.map((f) => ({ ct: f.properties.ct, props: f.properties, d: path(f) }));
+	$: pathById = new Map(shapes.map((s) => [s.ct, s.d]));
+
+	// step(value) -> class colour (a value on a break goes up a class); null when there is no number
+	$: colorOf = (v) => {
+		if (typeof v !== 'number') return null;
+		let i = 0;
+		while (i < breaks.length && v >= breaks[i]) i++;
+		return colors[i];
+	};
+
 	let hovered = null; // ct id under the pointer
 	let hoveredProps = null;
-	let touchOnly = false;
-
-	// step(value) -> class colour; tracts without a number get the "no data" colour
-	function fillExpression(key, stops, palette) {
-		const value = ['get', key];
-		const step = ['step', value, palette[0]];
-		stops.forEach((b, i) => step.push(b, palette[i + 1]));
-		return ['case', ['==', ['typeof', value], 'number'], step, NA_COLOUR];
-	}
-
-	// The site's blue-on-white basemap, with a slightly darker water colour
-	function baseStyle() {
-		const style = createBaseMapStyle();
-		for (const layer of style.layers) {
-			if (layer.id === 'water' || layer.id === 'ocean') layer.paint['fill-color'] = WATER_COLOUR;
-		}
-		return style;
-	}
-
-	// A big box with the city cut out of it: filled white, it fades the world outside Toronto
-	function outsideMask(outline) {
-		const box = [[-81, 42.5], [-77.5, 42.5], [-77.5, 45], [-81, 45], [-81, 42.5]];
-		const holes = outline.features.flatMap((f) =>
-			f.geometry.type === 'Polygon' ? [f.geometry.coordinates[0]] : f.geometry.coordinates.map((poly) => poly[0])
-		);
-		return { type: 'Feature', properties: {}, geometry: { type: 'Polygon', coordinates: [box, ...holes] } };
-	}
-
-	// Diagonal hatching for tracts with no data: unmistakable next to any palette colour, and the
-	// same look as the legend's "no data" swatch. Drawn as a small RGBA tile (2x pixel ratio).
-	function hatchImage() {
-		const size = 10;
-		const [bg, stripe] = [NA_COLOUR, HATCH_COLOUR].map((c) => [1, 3, 5].map((i) => parseInt(c.slice(i, i + 2), 16)));
-		const data = new Uint8Array(size * size * 4);
-		for (let y = 0; y < size; y++) {
-			for (let x = 0; x < size; x++) {
-				const [r, g, b] = (x - y + size) % size < 4 ? stripe : bg;
-				data.set([r, g, b, 255], (y * size + x) * 4);
-			}
-		}
-		return { width: size, height: size, data };
-	}
-
-	let shown = null; // tract currently outlined
-	function outline(id) {
-		if (shown !== null) map.setFeatureState({ source: 'tracts', id: shown }, { hover: false });
-		if (id != null) map.setFeatureState({ source: 'tracts', id }, { hover: true });
-		shown = id;
-	}
-
 	function setHovered(props) {
 		const ct = props?.ct ?? null;
 		if (ct === hovered) return;
@@ -96,153 +103,169 @@
 		hoveredProps = props ?? null;
 		dispatch('hover', ct);
 	}
+	$: highlightD = pathById.get(hovered ?? activeId) ?? null;
 
-	$: if (ready) {
-		map.setPaintProperty('fill', 'fill-color', fillExpression(valueKey, breaks, colors));
-		map.setFilter('nodata', ['!=', ['typeof', ['get', valueKey]], 'number']);
+	// a tap anywhere that isn't a tract closes the readout
+	function onSvgClick(event) {
+		if (!event.target.classList?.contains('tract')) setHovered(null);
 	}
-	$: if (ready) map.getSource('boundaries').setData(boundaries ?? EMPTY);
-	$: if (ready) map.setPaintProperty('fill', 'fill-opacity', fillOpacity);
-	$: if (ready) outline(hovered ?? activeId);
-
-	onMount(() => {
-		touchOnly = window.matchMedia('(hover: none)').matches;
-
-		const points = outlinePoints(tracts);
-		map = new maplibregl.Map({
-			container,
-			style: baseStyle(),
-			bounds: [[-79.64, 43.58], [-79.11, 43.86]],
-			fitBoundsOptions: { padding: FIT_PADDING, bearing: BEARING },
-			bearing: BEARING,
-			maxBounds: MAX_BOUNDS,
-			dragRotate: false,
-			pitchWithRotate: false,
-			touchPitch: false,
-			attributionControl: false // credited in the note under the map instead
-		});
-		// A fixed view of the whole city: no zooming or panning, so the map never captures the
-		// page's scroll gestures. Hover and tap still work.
-		map.scrollZoom.disable();
-		map.boxZoom.disable();
-		map.doubleClickZoom.disable();
-		map.touchZoomRotate.disable();
-		map.dragPan.disable();
-		map.keyboard.disable();
-
-		// The whole city, fitted once rotated, refitted on resize.
-		const cityCamera = () => {
-			const el = map.getContainer();
-			return el.clientWidth && el.clientHeight ? rotatedFit(points, el.clientWidth, el.clientHeight, FIT_PADDING) : null;
-		};
-		const fit = () => {
-			const cam = cityCamera();
-			if (cam) map.jumpTo({ center: cam.center, zoom: cam.zoom, bearing: BEARING });
-		};
-		let queued = false;
-		map.on('resize', () => {
-			if (queued) return;
-			queued = true;
-			requestAnimationFrame(() => {
-				queued = false;
-				fit();
-			});
-		});
-
-		map.on('load', () => {
-			fit();
-			map.addSource('tracts', { type: 'geojson', data: tracts, promoteId: 'ct' });
-			map.addSource('city', { type: 'geojson', data: city });
-			map.addSource('outside', { type: 'geojson', data: outsideMask(city) });
-			map.addSource('boundaries', { type: 'geojson', data: boundaries ?? EMPTY });
-			map.addImage('nodata-hatch', hatchImage(), { pixelRatio: 2 });
-
-			map.addLayer({
-				id: 'fill',
-				type: 'fill',
-				source: 'tracts',
-				paint: { 'fill-color': fillExpression(valueKey, breaks, colors), 'fill-opacity': fillOpacity }
-			});
-			map.addLayer({
-				id: 'nodata',
-				type: 'fill',
-				source: 'tracts',
-				filter: ['!=', ['typeof', ['get', valueKey]], 'number'],
-				paint: { 'fill-pattern': 'nodata-hatch' }
-			});
-			// thin mid-grey streets from the basemap tiles, under the tract colours
-			map.addLayer(
-				{
-					id: 'streets',
-					type: 'line',
-					source: 'osm',
-					'source-layer': 'streets',
-					filter: ['in', ['get', 'kind'], ['literal', STREET_KINDS]],
-					layout: { 'line-cap': 'round', 'line-join': 'round' },
-					paint: {
-						'line-color': '#6e6e6e',
-						'line-width': [
-							'interpolate', ['linear'], ['zoom'],
-							10, ['match', ['get', 'kind'], ['motorway', 'trunk'], 0.8, ['primary', 'secondary'], 0.5, 0.25],
-							15, ['match', ['get', 'kind'], ['motorway', 'trunk'], 2.4, ['primary', 'secondary'], 1.6, 0.9]
-						]
-					}
-				},
-				'fill'
-			);
-			map.addLayer({ id: 'outside', type: 'fill', source: 'outside', paint: { 'fill-color': '#ffffff', 'fill-opacity': OUTSIDE_FADE } });
-			map.addLayer({ id: 'outline', type: 'line', source: 'tracts', paint: { 'line-color': '#ffffff', 'line-width': 0.5, 'line-opacity': 0.9 } });
-			// ward / riding lines: dark over a white casing, as on the social-geography maps
-			map.addLayer({ id: 'boundaries-white', type: 'line', source: 'boundaries', paint: { 'line-color': '#ffffff', 'line-width': 2.5, 'line-opacity': 0.85 } });
-			map.addLayer({ id: 'boundaries-black', type: 'line', source: 'boundaries', paint: { 'line-color': '#000000', 'line-width': 0.9 } });
-			map.addLayer({ id: 'city-white', type: 'line', source: 'city', paint: { 'line-color': '#ffffff', 'line-width': 4.5 } });
-			map.addLayer({ id: 'city-black', type: 'line', source: 'city', paint: { 'line-color': '#000000', 'line-width': 1.5 } });
-			const on = ['boolean', ['feature-state', 'hover'], false];
-			map.addLayer({ id: 'hover-casing', type: 'line', source: 'tracts', paint: { 'line-color': '#000000', 'line-width': ['case', on, 5, 0] } });
-			map.addLayer({ id: 'hover', type: 'line', source: 'tracts', paint: { 'line-color': HOVER_COLOUR, 'line-width': ['case', on, 3, 0] } });
-
-			ready = true;
-		});
-
-		// Mouse: hover. Touch: tap (a tap on empty map closes the readout).
-		const propsAt = (point) => map.queryRenderedFeatures(point, { layers: ['fill'] })[0]?.properties ?? null;
-		map.on('mousemove', 'fill', (e) => {
-			map.getCanvas().style.cursor = 'crosshair'; // the target pointer used on the site's other maps
-			setHovered(e.features[0].properties);
-		});
-		map.on('mouseleave', 'fill', () => {
-			map.getCanvas().style.cursor = '';
-			setHovered(null);
-		});
-		map.on('click', (e) => setHovered(propsAt(e.point)));
-
-		return () => map.remove();
-	});
 </script>
 
-<div class="map-wrap">
-	<div class="map" bind:this={container} role="group" aria-label={label}></div>
+<div class="map-wrap" bind:offsetWidth={divWidth}>
+	<!-- the map is a pointer-hover/tap explorer; its tracts are not individually focusable (the values
+		 are also reachable through the linked chart on the explorer, and the colour classes are in the legend) -->
+	<!-- svelte-ignore a11y_no_noninteractive_element_interactions -->
+	<svg {width} {height} role="group" aria-label={label} on:click={onSvgClick} on:keydown={() => {}}>
+		{#if mounted}
+			<defs>
+				<!-- diagonal hatching for tracts with no data: unmistakable next to any palette colour -->
+				<pattern id="{uid}-hatch" width="5" height="5" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+					<rect width="5" height="5" fill={NA_COLOUR} />
+					<line x1="0" y1="0" x2="0" y2="5" stroke={HATCH_COLOUR} stroke-width="2" />
+				</pattern>
+			</defs>
+
+			<!-- background, behind everything, in two layers of the former municipalities (which
+				 extend into the lake): first a 6px 20% grey outline, then on top the light grey fill
+				 with a 1px outline of the same grey, leaving just a grey edge around the city -->
+			{#each FormerMunicipalities.features as feature}
+				<path class="background-edge" d={path(feature)} />
+			{/each}
+			{#each FormerMunicipalities.features as feature}
+				<path class="background" d={path(feature)} />
+			{/each}
+
+			<!-- the tracts -->
+			<g role="presentation" on:mouseleave={() => setHovered(null)}>
+				{#each shapes as s (s.ct)}
+					<!-- svelte-ignore a11y_click_events_have_key_events, a11y_no_static_element_interactions -->
+					<path
+						class="tract"
+						d={s.d}
+						fill={colorOf(s.props[valueKey]) ?? `url(#${uid}-hatch)`}
+						on:mouseenter={() => setHovered(s.props)}
+						on:click={() => setHovered(s.props)}
+					/>
+				{/each}
+			</g>
+
+			{#if boundaries}
+				<!-- white casing drawn first, under the black boundary line, so the boundaries
+					 stand out against the tract colours -->
+				{#each boundaries.features as feature}
+					<path class="ward-casing" d={path(feature)} />
+				{/each}
+				{#each boundaries.features as feature}
+					<path class="ward" d={path(feature)} />
+				{/each}
+			{/if}
+
+			<!-- the highlighted tract (hovered here, or hovered in a linked chart) -->
+			{#if highlightD}
+				<path class="highlight-casing" d={highlightD} />
+				<path class="highlight" d={highlightD} stroke={HOVER_COLOUR} />
+			{/if}
+
+			{#if boundaries && width >= boundaryOption.labelMinWidth}
+				<!-- names at the centre of each area's land, with a white halo so they read over colours and lines -->
+				{#each boundaries.features as feature}
+					{@const [cx, cy] = projection([feature.properties.label_lon, feature.properties.label_lat])}
+					{@const lines = labelLines(feature.properties.name)}
+					<text class="ward-label" x={cx} y={cy - ((lines.length - 1) * 11) / 2}>
+						{#each lines as line, j}
+							<tspan x={cx} dy={j === 0 ? '0.35em' : 11}>{line}</tspan>
+						{/each}
+					</text>
+				{/each}
+			{/if}
+		{/if}
+	</svg>
+
+	<!-- reference-layer control, in the empty corner below the Etobicoke shoreline (below the map on narrow screens) -->
+	{#if mounted}
+		<div class="boundary-control" role="group" aria-labelledby="{uid}-layers">
+			<p class="boundary-title" id="{uid}-layers">Reference layers</p>
+			{#each BOUNDARY_OPTIONS as option (option.key)}
+				<button
+					type="button"
+					class:on={boundaryKey === option.key}
+					aria-pressed={boundaryKey === option.key}
+					on:click={() => (boundaryKey = boundaryKey === option.key ? null : option.key)}
+				>
+					{option.label}
+				</button>
+			{/each}
+		</div>
+	{/if}
+
 	{#if hoveredProps}
 		<div class="readout" aria-live="polite"><slot props={hoveredProps} /></div>
-	{:else}
+	{:else if mounted}
 		<div class="hint" aria-hidden="true">{touchOnly ? 'Tap' : 'Hover over'} a tract for values</div>
 	{/if}
 </div>
 
 <style>
-	/* the rotated city is wide and short, so the map is too */
 	.map-wrap {
 		position: relative;
-		width: 100%;
-		aspect-ratio: 1.59;
-		min-height: 320px;
-		border: 1px solid #dcdcdc;
-		box-sizing: border-box;
 	}
-	.map {
-		position: absolute;
-		inset: 0;
+	svg {
+		display: block;
 	}
+	.background-edge {
+		fill: none;
+		stroke: #cccccc; /* 20% grey */
+		stroke-width: 6px;
+		stroke-linejoin: round;
+	}
+	.background {
+		fill: #eeeeee;
+		stroke: #eeeeee;
+		stroke-width: 1px;
+	}
+	.tract {
+		stroke: white;
+		stroke-width: 0.6px;
+		cursor: crosshair; /* the target pointer used on the site's other maps */
+	}
+	.ward-casing {
+		stroke: white;
+		stroke-width: 3px;
+		fill: none;
+		pointer-events: none;
+	}
+	.ward {
+		stroke: black;
+		stroke-width: 1px;
+		fill: none;
+		pointer-events: none;
+	}
+	.highlight-casing,
+	.highlight {
+		fill: none;
+		pointer-events: none;
+		stroke-linejoin: round;
+	}
+	.highlight-casing {
+		stroke: black;
+		stroke-width: 5px;
+	}
+	.highlight {
+		stroke-width: 3px;
+	}
+	.ward-label {
+		font-family: OpenSans, sans-serif;
+		font-size: 10px;
+		fill: var(--brandGray90);
+		text-anchor: middle;
+		paint-order: stroke;
+		stroke: white;
+		stroke-opacity: 0.84; /* the white halo only; the text stays solid */
+		stroke-width: 3px;
+		stroke-linejoin: round;
+		pointer-events: none;
+	}
+
 	.readout,
 	.hint {
 		position: absolute;
@@ -263,7 +286,7 @@
 	}
 	.hint {
 		left: 10px;
-		bottom: 8px;
+		top: 6px;
 		font-size: 11px;
 		color: var(--brandGray60);
 		text-shadow: 0 0 3px #fff, 0 0 3px #fff, 0 0 3px #fff;
@@ -300,9 +323,55 @@
 		font-size: 11px;
 	}
 
-	@media (max-width: 900px) {
-		.map-wrap {
-			aspect-ratio: 4 / 3;
+	/* reference-layer control: white buttons stacked vertically, 2px apart (the chosen one at full
+	   strength, the others faded), as on the five-torontos maps */
+	.boundary-control {
+		position: absolute;
+		left: 10px;
+		bottom: 4px;
+		display: flex;
+		flex-direction: column;
+		align-items: stretch;
+		gap: 2px;
+	}
+	/* 20px tall: 14px line + 2px padding top and bottom + 1px border top and bottom */
+	.boundary-control button {
+		font-family: OpenSans, sans-serif;
+		font-size: 11px;
+		line-height: 14px;
+		color: var(--brandGray90);
+		background: white;
+		border: 1px solid #c8c8c8;
+		padding: 2px 7px;
+		text-align: left;
+		cursor: pointer;
+	}
+	.boundary-title {
+		margin: 0 0 1px;
+		font-family: OpenSans, sans-serif;
+		font-size: 11px;
+		line-height: 14px;
+		color: var(--brandGray70);
+	}
+	.boundary-control button:hover {
+		border-color: #9ba1a8;
+	}
+	.boundary-control button:not(.on) {
+		opacity: 0.5;
+	}
+	.boundary-control button.on {
+		color: var(--brandBlack);
+	}
+	.boundary-control button:focus-visible {
+		outline: 2px solid var(--linkHover);
+		outline-offset: 1px;
+	}
+
+	@media (max-width: 600px) {
+		.boundary-control {
+			position: static;
+			width: max-content;
+			margin: 8px auto 0;
 		}
 	}
 </style>

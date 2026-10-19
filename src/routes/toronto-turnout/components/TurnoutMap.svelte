@@ -4,8 +4,9 @@
 	// (see TURNOUT_BREAKS in ../config.js), so flipping between them is a like-for-like comparison.
 
 	import TractMap from './TractMap.svelte';
+	import FigureTitle from './FigureTitle.svelte';
 	import MapLegend from './MapLegend.svelte';
-	import { tracts, city, boundaries } from '../data.js';
+	import { tracts } from '../data.js';
 	import { TURNOUT_VIEWS, TURNOUT_BREAKS, TURNOUT_COLOURS, NA_COLOUR, HATCH_COLOUR } from '../config.js';
 	import { fmtTurnout, fmtPct } from '../format.js';
 
@@ -16,6 +17,8 @@
 </script>
 
 <figure class="turnout-map">
+	<FigureTitle title="Voter turnout in Toronto, by census tract" subtitle={view.subtitle} />
+
 	<div class="controls">
 		<div class="seg" role="group" aria-label="Turnout measure shown on the map">
 			{#each TURNOUT_VIEWS as v}
@@ -24,7 +27,6 @@
 				</button>
 			{/each}
 		</div>
-		<p class="view-note">{view.note}</p>
 	</div>
 
 	<MapLegend
@@ -39,9 +41,7 @@
 
 	<TractMap
 		{tracts}
-		{city}
 		valueKey={view.field}
-		boundaries={boundaries[view.boundary]}
 		breaks={TURNOUT_BREAKS}
 		colors={TURNOUT_COLOURS}
 		label={`Map of turnout by census tract in Toronto: ${view.label}. Hover or tap a tract for its turnout in each election.`}
@@ -59,7 +59,7 @@
 	</TractMap>
 
 	<figcaption class="map-note">
-		Turnout is votes cast divided by Canadian citizens aged 18+ in each 2021 census tract. Poll results were apportioned to tracts, so a few small tracts come out above 100%. Dark lines show {view.boundaryLabel}. Basemap © <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors.
+			Turnout is votes cast divided by Canadian citizens aged 18+ in each 2021 census tract. Poll results were apportioned to tracts, so a few small tracts come out above 100%.
 	</figcaption>
 </figure>
 
@@ -74,11 +74,6 @@
 		align-items: center;
 		gap: 6px 14px;
 		margin-bottom: 10px;
-	}
-	.view-note {
-		margin: 0;
-		font-size: 12px;
-		color: var(--brandGray60);
 	}
 
 	/* the site's segmented toggle (as on the social-geography page); each button keeps its own
@@ -123,9 +118,6 @@
 		font-size: 11px;
 		line-height: 1.45;
 		color: var(--brandGray60);
-	}
-	.map-note a {
-		color: inherit;
 	}
 
 	@media (max-width: 600px) {
