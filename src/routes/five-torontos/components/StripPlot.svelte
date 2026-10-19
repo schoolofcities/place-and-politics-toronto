@@ -1,7 +1,8 @@
 <script>
 	// Generic 1-N variable strip plot: each row is one variable's axis, every one of the
 	// 585 census tracts gets a dot on it, and the current cluster's tracts are highlighted
-	// in its colour against the rest of the city in grey. Passing 2 variables gives the
+	// in its colour against the rest of the city in grey, with dotted lines at the citywide
+	// and cluster medians. Passing 2 variables gives the
 	// "double strip plot" in the Progressive Core section; 3 gives the "triple strip plot"
 	// used in the Suburban Conservatives and Low-turnout Suburbanites sections — same
 	// component either way.
@@ -11,22 +12,26 @@
 	export let values = []; // ct_values.json records (or a pre-filtered subset)
 	export let variables = []; // [{ key, label, domain?, tickStep?, format? }] — domain: [min, max] fixes the axis range and drops out-of-range dots; tickStep: fixed spacing between tick labels (both optional, and only meaningful together); format: (value) => string, applied to tick labels and the median label alike (defaults to the raw number for ticks, one decimal place for the median)
 	export let clusterId;
+	export let clusterLabel = ""; // e.g. "Progressive Core", for its median label
 	export let color = "#3d53fb";
 
 	$: ariaLabel = `Strip plot${variables.length > 1 ? "s" : ""} showing ${variables
 		.map((v) => v.label)
 		.join(" and ")} across Toronto's 585 census tracts, with this cluster's tracts highlighted`;
 
-	const FADE_COLOR = "#d8d8d8";
+	const FADE_COLOR = "#c4c4c4";
 	const DOT_R = 2.5;
 	const JITTER_SPACING = 6; // px between successive dots stacked at ~the same x
 	const MAX_JITTER = 12; // cap how far dots spread from the line, so they never reach the tick labels
-	const rowHeight = 80;
-	const margin = { top: 24, bottom: 22, left: 16, right: 16 };
+	const rowHeight = 159; // includes the gap between rows
+	const ROW_BOTTOM = 80; // how far a row's content reaches below its top (to the Toronto median label)
+	const margin = { top: 57, bottom: 4, left: 16, right: 16 };
 
 	let divWidth = 600;
 	$: innerWidth = divWidth - margin.left - margin.right;
-	$: height = variables.length * rowHeight + margin.top + margin.bottom;
+	// ends just below the last row's content, rather than leaving a full row's height (which
+	// includes the between-row gap) below it
+	$: height = margin.top + (variables.length - 1) * rowHeight + ROW_BOTTOM + margin.bottom;
 
 	// "% variables" (pct_* keys) always run the full 0–100 range with ticks every 20, so the
 	// axis reads the same across sections. A variable can also fix its own range explicitly
@@ -58,8 +63,15 @@
 	// Citywide median for each row -- always computed over every tract the row actually plots
 	// (valuesFor), not just this section's cluster, so it reads as a fixed reference line.
 	$: medians = variables.map((v, i) => median(valuesFor[i], (d) => d[v.key]));
-	$: tickFormat = variables.map((v) => v.format ?? ((t) => t));
-	$: medianFormat = variables.map((v) => v.format ?? ((t) => t.toFixed(1)));
+	// This cluster's median for each row, over its own plotted tracts.
+	$: clusterMedians = variables.map((v, i) =>
+		median(valuesFor[i].filter((d) => d.cluster_id === clusterId), (d) => d[v.key])
+	);
+	// % variables get a "%" on their tick and median labels
+	$: tickFormat = variables.map((v) => v.format ?? (isPercent(v.key) ? (t) => `${t}%` : (t) => t));
+	$: medianFormat = variables.map(
+		(v) => v.format ?? (isPercent(v.key) ? (t) => `${t.toFixed(1)}%` : (t) => t.toFixed(1))
+	);
 
 	// Rather than every dot sitting dead-on the axis line, spread dots that land at (nearly)
 	// the same x a little above/below it — not a true collision-avoiding beeswarm, just enough
@@ -100,16 +112,32 @@
 			{#each variables as v, i}
 				{@const y = i * rowHeight}
 				{@const scale = scales[i]}
-				<text class="row-title" x="0" y={y - 6}>{v.label}</text>
+				<text class="row-title" x="0" y={y - 39}>{v.label}</text>
 				<line class="axis" x1="0" x2={innerWidth} y1={y + 20} y2={y + 20} />
 
-				<!-- citywide median: a dotted reference line, longer than the tick marks, with a
-					 small label sitting in the clear band above the strip (between the row title
-					 and the dots) so it never collides with either. Drawn before the dots so a
-					 dense stack of dots at the same value reads on top of it, not the reverse. -->
+				<!-- ticks drawn first, behind the dots; their labels sit below the jitter band,
+					 well clear of the dots -->
+				{#each ticks[i] as t}
+					<line class="tick" x1={scale(t)} x2={scale(t)} y1={y + 17} y2={y + 23} />
+					<text class="tick-label" x={scale(t)} y={y + 48}>{tickFormat[i](t)}</text>
+				{/each}
+
+				<!-- medians: dotted reference lines (Toronto in grey, this cluster in its colour),
+					 longer than the tick marks, each labelled just above its top end, between the row
+					 title and the line. The lines themselves are drawn after the dots, on top, each over a
+					 white casing so it stands out against them (see below). -->
 				{@const medX = scales[i](medians[i])}
-				<line class="median" x1={medX} x2={medX} y1={y + 8} y2={y + 32} />
-				<text class="median-label" x={medX} y={y + 3}>Median: {medianFormat[i](medians[i])}</text>
+				{@const cMedX = scales[i](clusterMedians[i])}
+				<!-- both centred on their lines, each over two lines (name, then "median: value"):
+					 the cluster's label above the strip, Toronto's below it (under the tick numbers) -->
+				<text class="median-label" text-anchor="middle">
+					<tspan x={medX} y={y + 63}>City of Toronto</tspan>
+					<tspan x={medX} y={y + 76}>median: {medianFormat[i](medians[i])}</tspan>
+				</text>
+				<text class="median-label cluster-median-label" text-anchor="middle">
+					<tspan x={cMedX} y={y - 23}>{clusterLabel}</tspan>
+					<tspan x={cMedX} y={y - 10}>median: {medianFormat[i](clusterMedians[i])}</tspan>
+				</text>
 
 				<!-- background: every tract in the city -->
 				{#each rows[i].bg as p}
@@ -120,12 +148,12 @@
 					<circle cx={p.cx} cy={y + 20 + p.cy} r={DOT_R + 1} fill={color} fill-opacity="0.85" />
 				{/each}
 
-				<!-- ticks drawn after the dots (and well clear of the jitter band) so a dense
-					 cluster of dots never sits on top of a tick label -->
-				{#each ticks[i] as t}
-					<line class="tick" x1={scale(t)} x2={scale(t)} y1={y + 17} y2={y + 23} />
-					<text class="tick-label" x={scale(t)} y={y + 48}>{tickFormat[i](t)}</text>
-				{/each}
+				<!-- median lines on top of the dots: a solid white casing, then the dashed line -->
+				<!-- Toronto's line runs down toward its label below; the cluster's up toward its label above -->
+				<line class="median-casing" x1={medX} x2={medX} y1={y + 2} y2={y + 52} />
+				<line class="median-casing" x1={cMedX} x2={cMedX} y1={y - 7} y2={y + 34} />
+				<line class="median" x1={medX} x2={medX} y1={y + 2} y2={y + 52} />
+				<line class="median" x1={cMedX} x2={cMedX} y1={y - 7} y2={y + 34} style:stroke={color} />
 			{/each}
 		</g>
 	</svg>
@@ -135,8 +163,7 @@
 	.row-title {
 		font-size: 13px;
 		fill: black;
-		font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu,
-			Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+		font-family: OpenSansBold, sans-serif;
 	}
 	.axis {
 		stroke: black;
@@ -147,22 +174,27 @@
 		stroke-width: 1px;
 	}
 	.tick-label {
-		font-size: 10px;
+		font-size: 11px;
 		fill: black;
 		text-anchor: middle;
-		font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu,
-			Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+		font-family: OpenSans, sans-serif;
+	}
+	.median-casing {
+		stroke: white;
+		stroke-width: 4.5px;
 	}
 	.median {
-		stroke: #666;
-		stroke-width: 1px;
-		stroke-dasharray: 2, 2;
+		stroke: var(--brandGray70);
+		stroke-width: 1.5px;
+		stroke-dasharray: 3, 2;
 	}
 	.median-label {
-		font-size: 9px;
-		fill: #666;
-		text-anchor: middle;
-		font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu,
-			Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+		font-size: 11px;
+		fill: var(--brandGray70);
+		font-family: OpenSans, sans-serif;
 	}
+	.cluster-median-label {
+		fill: black;
+	}
+
 </style>
