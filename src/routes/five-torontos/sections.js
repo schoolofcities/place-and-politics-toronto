@@ -4,8 +4,8 @@
 // nothing here depends on the page's own logic, so it's safe to tweak without touching
 // +page.svelte. `graphic` is a plain switch key; `graphic: null` means no graphic at all
 // (see the template in +page.svelte for how each value maps to a component). Voting specs are
-// just an (election, field) pair — their display label is the shared, single-line abbreviation
-// in ClusterSummaryTable.svelte's VOTING_LABELS, not defined per section.
+// just an (election, field) pair — their display label comes from clusters_metadata.json's
+// `variable_labels`, not defined per section.
 export const SECTION_CONFIG = {
 	"progressive-core": {
 		votingSpecs: [
@@ -29,15 +29,11 @@ export const SECTION_CONFIG = {
 			{ election: "provincial_2025", field: "ndp" },
 			{ election: "federal_2025", field: "conservative" },
 		],
-		graphic: "scatter",
-		scatter: {
-			xKey: "income_median",
-			yKey: "pct_bachelor_or_higher",
-			xLabel: "Median income ($)",
-			yLabel: "Bachelor's degree+ (%)",
-			xFormat: (v) => `$${Math.round(v / 1000)}k`,
-			yFormat: (v) => `${v.toFixed(0)}%`,
-		},
+		graphic: "strip",
+		stripVars: [
+			{ key: "income_median", label: "Median income", domain: [20000, 90000], tickStep: 20000, format: (v) => `$${Math.round(v / 1000)}k` },
+			{ key: "pct_bachelor_or_higher", label: "% bachelor's degree+" },
+		],
 	},
 	"civic-liberals": {
 		votingSpecs: [
@@ -59,7 +55,7 @@ export const SECTION_CONFIG = {
 		],
 		graphic: "strip",
 		stripVars: [
-			{ key: "pct_renter", label: "% renter (lower = more homeowners)" },
+			{ key: "pct_renter", label: "% renter" },
 			{ key: "avg_age", label: "Average age", domain: [30, 60], tickStep: 5 },
 			{ key: "pct_commute_car", label: "% commute by car" },
 		],
