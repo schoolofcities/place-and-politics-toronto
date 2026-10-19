@@ -56,7 +56,7 @@
 	</TractMap>
 
 	<figcaption class="map-note">
-		Component 1 is the main pattern a statistical model found when relating 70 neighbourhood characteristics to turnout. Across tracts, higher scores go with higher mean turnout (r = {fmtR(r)}), which describes places, not individual voters. Dark lines show city ward boundaries. Side labels are provisional. Basemap © <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors.
+		Component 1 is the main pattern found by Partial Least Squares (PLS) regression when relating 70 neighbourhood characteristics to turnout. Across tracts, higher scores go with higher mean turnout (r = {fmtR(r)}), which describes places, not individual voters. Dark lines show city ward boundaries. Side labels are provisional. Basemap © <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors.
 	</figcaption>
 </figure>
 
