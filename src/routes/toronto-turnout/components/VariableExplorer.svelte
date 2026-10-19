@@ -8,8 +8,8 @@
 	import ExplorerScatter from './ExplorerScatter.svelte';
 	import TractMap from './TractMap.svelte';
 	import MapLegend from './MapLegend.svelte';
-	import { tracts, city, meta, tractRows, explorerVariables, explorerGroups } from '../data.js';
-	import { CENSUS_COLOURS, NA_COLOUR } from '../config.js';
+	import { tracts, city, meta, boundaries, tractRows, explorerVariables, explorerGroups } from '../data.js';
+	import { CENSUS_COLOURS, NA_COLOUR, HATCH_COLOUR } from '../config.js';
 	import { variableFormat, fmtR, fmtTurnout } from '../format.js';
 	import { linearFit, quantileBreaks, spread } from '../stats.js';
 
@@ -58,13 +58,15 @@
 				{breaks}
 				format={fmt.axis}
 				naColor={NA_COLOUR}
+				hatchColor={HATCH_COLOUR}
 				title="{variable.label}, by fifths of tracts"
-				label="Map colour scale for {variable.label}, in fifths of tracts, from lowest in light teal to highest in dark teal"
+				label="Map colour scale for {variable.label}, in fifths of tracts, from lowest in pale green to highest in dark green"
 			/>
 			<TractMap
 				{tracts}
 				{city}
 				valueKey={field}
+				boundaries={boundaries.municipal}
 				{breaks}
 				{colors}
 				{activeId}
@@ -96,7 +98,7 @@
 	<p class="sr-only" aria-live="polite">{announce}</p>
 
 	<p class="foot">
-		r = Pearson correlation across census tracts, with the least-squares trend line. Tracts are not people: a correlation here describes places, not voters, and many of these characteristics move together. {nNoData} tracts with no reliable data at all are left out, and so is any tract missing the selected characteristic (grey on the map). Basemap © <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors.
+		r = Pearson correlation across census tracts, with the least-squares trend line. Tracts are not people: a correlation here describes places, not voters, and many of these characteristics move together. {nNoData} tracts with no reliable data at all are left out, and so is any tract missing the selected characteristic (hatched on the map). Dark lines show city ward boundaries. Basemap © <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors.
 	</p>
 </div>
 

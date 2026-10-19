@@ -13,20 +13,22 @@
 	import 'maplibre-gl/dist/maplibre-gl.css';
 	import maplibregl, { createBaseMapStyle } from '$lib/maps/maplibre.js';
 	import { BEARING, MAX_BOUNDS, outlinePoints, rotatedFit } from '$lib/maps/tractCamera.js';
-	import { NA_COLOUR, HOVER_COLOUR } from '../config.js';
+	import { NA_COLOUR, HATCH_COLOUR, HOVER_COLOUR } from '../config.js';
 
 	export let tracts; // FeatureCollection, features carry a `ct` property
 	export let city; // FeatureCollection: the city outline
 	export let valueKey; // tract property that decides the fill
 	export let breaks = []; // class boundaries, ascending
 	export let colors = []; // breaks.length + 1 colours
+	export let boundaries = null; // FeatureCollection of ward / riding lines drawn over the tracts
+	export let fillOpacity = 0.92; // high enough that neighbouring classes stay distinct
 	export let activeId = null; // tract highlighted from outside (e.g. a hovered scatter dot)
 	export let label = 'Map of Toronto census tracts';
 
 	const dispatch = createEventDispatcher();
 
 	const FIT_PADDING = 12;
-	const FILL_OPACITY = 0.81;
+	const EMPTY = { type: 'FeatureCollection', features: [] };
 	const OUTSIDE_FADE = 0.8; // white veil over everything outside the city
 	const WATER_COLOUR = '#d6d5d1'; // a little darker than the site basemap's, as on the mapper
 	// Street kinds drawn faintly under the tract colours (Shortbread `streets` layer)
@@ -65,6 +67,21 @@
 		return { type: 'Feature', properties: {}, geometry: { type: 'Polygon', coordinates: [box, ...holes] } };
 	}
 
+	// Diagonal hatching for tracts with no data: unmistakable next to any palette colour, and the
+	// same look as the legend's "no data" swatch. Drawn as a small RGBA tile (2x pixel ratio).
+	function hatchImage() {
+		const size = 10;
+		const [bg, stripe] = [NA_COLOUR, HATCH_COLOUR].map((c) => [1, 3, 5].map((i) => parseInt(c.slice(i, i + 2), 16)));
+		const data = new Uint8Array(size * size * 4);
+		for (let y = 0; y < size; y++) {
+			for (let x = 0; x < size; x++) {
+				const [r, g, b] = (x - y + size) % size < 4 ? stripe : bg;
+				data.set([r, g, b, 255], (y * size + x) * 4);
+			}
+		}
+		return { width: size, height: size, data };
+	}
+
 	let shown = null; // tract currently outlined
 	function outline(id) {
 		if (shown !== null) map.setFeatureState({ source: 'tracts', id: shown }, { hover: false });
@@ -80,7 +97,12 @@
 		dispatch('hover', ct);
 	}
 
-	$: if (ready) map.setPaintProperty('fill', 'fill-color', fillExpression(valueKey, breaks, colors));
+	$: if (ready) {
+		map.setPaintProperty('fill', 'fill-color', fillExpression(valueKey, breaks, colors));
+		map.setFilter('nodata', ['!=', ['typeof', ['get', valueKey]], 'number']);
+	}
+	$: if (ready) map.getSource('boundaries').setData(boundaries ?? EMPTY);
+	$: if (ready) map.setPaintProperty('fill', 'fill-opacity', fillOpacity);
 	$: if (ready) outline(hovered ?? activeId);
 
 	onMount(() => {
@@ -132,12 +154,21 @@
 			map.addSource('tracts', { type: 'geojson', data: tracts, promoteId: 'ct' });
 			map.addSource('city', { type: 'geojson', data: city });
 			map.addSource('outside', { type: 'geojson', data: outsideMask(city) });
+			map.addSource('boundaries', { type: 'geojson', data: boundaries ?? EMPTY });
+			map.addImage('nodata-hatch', hatchImage(), { pixelRatio: 2 });
 
 			map.addLayer({
 				id: 'fill',
 				type: 'fill',
 				source: 'tracts',
-				paint: { 'fill-color': fillExpression(valueKey, breaks, colors), 'fill-opacity': FILL_OPACITY }
+				paint: { 'fill-color': fillExpression(valueKey, breaks, colors), 'fill-opacity': fillOpacity }
+			});
+			map.addLayer({
+				id: 'nodata',
+				type: 'fill',
+				source: 'tracts',
+				filter: ['!=', ['typeof', ['get', valueKey]], 'number'],
+				paint: { 'fill-pattern': 'nodata-hatch' }
 			});
 			// thin mid-grey streets from the basemap tiles, under the tract colours
 			map.addLayer(
@@ -161,6 +192,9 @@
 			);
 			map.addLayer({ id: 'outside', type: 'fill', source: 'outside', paint: { 'fill-color': '#ffffff', 'fill-opacity': OUTSIDE_FADE } });
 			map.addLayer({ id: 'outline', type: 'line', source: 'tracts', paint: { 'line-color': '#ffffff', 'line-width': 0.5, 'line-opacity': 0.9 } });
+			// ward / riding lines: dark over a white casing, as on the social-geography maps
+			map.addLayer({ id: 'boundaries-white', type: 'line', source: 'boundaries', paint: { 'line-color': '#ffffff', 'line-width': 2.5, 'line-opacity': 0.85 } });
+			map.addLayer({ id: 'boundaries-black', type: 'line', source: 'boundaries', paint: { 'line-color': '#000000', 'line-width': 0.9 } });
 			map.addLayer({ id: 'city-white', type: 'line', source: 'city', paint: { 'line-color': '#ffffff', 'line-width': 4.5 } });
 			map.addLayer({ id: 'city-black', type: 'line', source: 'city', paint: { 'line-color': '#000000', 'line-width': 1.5 } });
 			const on = ['boolean', ['feature-state', 'hover'], false];

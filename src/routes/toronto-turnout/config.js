@@ -3,44 +3,34 @@
 // loadings) comes from $data/toronto-turnout, written by
 // analysis/toronto_election_turnout/09_final_synthesis.ipynb (section 10).
 
-import { piecewise, interpolateRgb, quantize, color } from 'd3';
+import { piecewise, interpolateRgb, quantize, schemeRdYlBu } from 'd3';
 
 // ---- Turnout (sequential) ---------------------------------------------------------
 // The four views share one set of fixed classes so switching between them is a like-for-like
 // comparison: federal turnout is visibly higher than municipal, rather than each map being
-// stretched to its own range. Palette: the site's blue "vote" ramp (see
-// routes/social-geography-and-the-mayoral-vote/mapper.js), sampled at 7 classes.
-const VOTE_COLOURS = ['#e8ebf5', '#b9c3e3', '#8698cc', '#4f64ad', '#1e3765'];
-export const TURNOUT_BREAKS = [0.3, 0.4, 0.5, 0.6, 0.7, 0.8];
-export const TURNOUT_COLOURS = quantize(piecewise(interpolateRgb, VOTE_COLOURS), TURNOUT_BREAKS.length + 1);
+// stretched to its own range. Five classes, on a ramp through the site's brand blues (pale tint ->
+// --brandLightBlue -> --brandMedBlue -> --brandDarkBlue) so neighbouring classes differ in both
+// lightness and hue and stay distinguishable on the map.
+const TURNOUT_RAMP = ['#eef2f8', '#6FC7EA', '#007FA3', '#1E3765'];
+export const TURNOUT_BREAKS = [0.35, 0.5, 0.65, 0.8];
+export const TURNOUT_COLOURS = quantize(piecewise(interpolateRgb, TURNOUT_RAMP), TURNOUT_BREAKS.length + 1);
 
+// `boundary` is the ward/riding set drawn over the map in that view (see boundaries.geo.json)
 export const TURNOUT_VIEWS = [
-	{ key: 'mean', field: 'mean_turnout', label: 'Mean turnout', short: 'Mean', note: 'Average of the three election rates' },
-	{ key: 'municipal', field: 'municipal_turnout', label: '2023 mayoral', short: '2023 mayoral', note: '2023 mayoral by-election' },
-	{ key: 'provincial', field: 'provincial_turnout', label: '2025 provincial', short: '2025 provincial', note: '2025 Ontario general election' },
-	{ key: 'federal', field: 'federal_turnout', label: '2025 federal', short: '2025 federal', note: '2025 federal general election' }
+	{ key: 'mean', field: 'mean_turnout', label: 'Mean turnout', note: 'Average of the three election rates', boundary: 'municipal', boundaryLabel: 'city ward boundaries' },
+	{ key: 'municipal', field: 'municipal_turnout', label: '2023 mayoral', note: '2023 mayoral by-election', boundary: 'municipal', boundaryLabel: 'city ward boundaries' },
+	{ key: 'provincial', field: 'provincial_turnout', label: '2025 provincial', note: '2025 Ontario general election', boundary: 'provincial', boundaryLabel: 'provincial riding boundaries' },
+	{ key: 'federal', field: 'federal_turnout', label: '2025 federal', note: '2025 federal general election', boundary: 'federal', boundaryLabel: 'federal riding boundaries' }
 ];
 
 // ---- Component 1 (diverging, centred on zero) --------------------------------------
-// Rust against teal: the site's colour-blind-safe pair from the bivariate map in
-// routes/social-geography-and-the-mayoral-vote/mapper.js, with a pale neutral at zero.
-// Deliberately a different hue family from the blue turnout ramp.
-const RUST = '#c8643c';
-const TEAL = '#2f8a9e';
-const NEUTRAL = '#f1efea';
+// ColorBrewer's red -> yellow -> blue, 7 classes: a pale-yellow middle that cannot be mistaken
+// for the hatched "no data" fill, and ends that are clearly different from the blue sequential
+// turnout ramp. Low scores are red, high scores blue.
 export const COMPONENT_BREAKS = [-6, -3, -1, 1, 3, 6];
-export const COMPONENT_COLOURS = quantize(
-	piecewise(interpolateRgb, [
-		color(RUST).darker(0.7).formatHex(),
-		RUST,
-		NEUTRAL,
-		TEAL,
-		color(TEAL).darker(0.7).formatHex()
-	]),
-	COMPONENT_BREAKS.length + 1
-);
-export const COMPONENT_LOW_COLOUR = RUST;
-export const COMPONENT_HIGH_COLOUR = TEAL;
+export const COMPONENT_COLOURS = schemeRdYlBu[COMPONENT_BREAKS.length + 1];
+export const COMPONENT_LOW_COLOUR = COMPONENT_COLOURS[0];
+export const COMPONENT_HIGH_COLOUR = COMPONENT_COLOURS[COMPONENT_COLOURS.length - 1];
 
 // Provisional interface labels for the two ends of Component 1, from the loadings in
 // 09_final_synthesis.ipynb (section 4). Editorial wording can change here in one place.
@@ -59,5 +49,6 @@ export const COMPONENT_SIDES = {
 export const CENSUS_COLOURS = ['#e6f2ef', '#b3dbd2', '#6fbcae', '#2e8f80', '#0d534d'];
 
 // ---- Shared ------------------------------------------------------------------------
-export const NA_COLOUR = '#e6e6e1';
+export const NA_COLOUR = '#e6e6e1'; // under the hatching; also the legend's "no data" base
+export const HATCH_COLOUR = '#c4c4bc'; // the hatch stripes on tracts with no data
 export const HOVER_COLOUR = '#F1C500'; // --brandYellow
