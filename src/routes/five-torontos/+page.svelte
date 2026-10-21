@@ -1,12 +1,17 @@
 <script>
 	//
+	// The Five Torontos (Place & Politics in Toronto, Part 7). See ./README.md for how the page,
+	// its data and its components fit together.
+	//
 	//   Intro: "there are 5 political groups in Toronto" + rotating map of all 5
-	//   One section per cluster: header -> map -> summary tables -> body copy -> graphic
-	//     Section 1: Progressive Core          — double strip plot
+	//   One section per cluster: header -> map + voting chart + election tables -> body copy
+	//   -> strip plot -> census table
+	//     Section 1: Progressive Core          — double strip plot (% renter / % commute by car)
 	//     Section 2: Soft-Left Belt            — double strip plot (income / education)
 	//     Section 3: Civic Liberals            — (no graphic)
-	//     Section 4: Suburban Conservatives    — triple strip plot
+	//     Section 4: Suburban Conservatives    — triple strip plot (% renter / average age / % commute by car)
 	//     Section 5: Low-turnout Suburbanites  — triple strip plot (visible minority / income / education)
+	//   Then the all-cluster comparison tables and the data & methods note.
 	//
 	// Per-section voting rows + graphic choice live in ./sections.js —
 	// edit that file for section content, this one for page structure/layout.
@@ -59,8 +64,6 @@
 	});
 	onDestroy(() => clearInterval(rotateTimer));
 
-	// Bottom-right map legend rows: all 5 groups (+ population share) for the rotating intro
-	// map, or just the one group for a section map — see ./components/ClusterMap.svelte.
 	// "On this page" menu: the page's eight sections, each cluster with its colour dot
 	const navItems = [
 		{ id: "introduction", label: "Introduction" },
@@ -69,6 +72,8 @@
 		{ id: "data-and-methods", label: "Data and methods" },
 	];
 
+	// Bottom-right map legend rows: all 5 groups (+ population share) for the rotating intro
+	// map, or just the one group for a section map — see ./components/ClusterMap.svelte.
 	const allClustersLegend = clusters.map((c) => ({
 		cluster_id: c.cluster_id,
 		label: c.label,

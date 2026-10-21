@@ -1,5 +1,5 @@
-// Per-section config for the /five-torontos story: which 5 voting rows to show (per the
-// story brief) and which graphic to render, keyed by cluster slug (clusters_summary.json).
+// Per-section config for the /five-torontos story: which voting rows to show in each section's
+// chart and which graphic to render, keyed by cluster slug (clusters_summary.json).
 // This is the one place to edit if a section's voting rows or graphic need to change —
 // nothing here depends on the page's own logic, so it's safe to tweak without touching
 // +page.svelte. `graphic` is a plain switch key; `graphic: null` means no graphic at all
