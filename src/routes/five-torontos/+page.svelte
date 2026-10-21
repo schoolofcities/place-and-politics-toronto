@@ -104,25 +104,37 @@
 	</div>
 
 	<div class="text">
-		<p>
-			People's experiences of Toronto can vary dramatically from one neighbourhood to the
-			next. Areas separated by just a few subway stops can differ sharply in income, housing,
-			access to transit and services, and even life expectancy –
-			<a href="https://thelocal.to/life-expectancy-varies-by-almost-12-years-across-toronto-neighbourhoods/" target="_blank" rel="noopener noreferrer">which varies by almost 12 years</a>
-			across the city. Those divides carry over into politics. Some parts of Toronto vote
-			consistently, turn out in large numbers, and show a clear political orientation;
-			elsewhere, voting is more divided or participation is much lower.
-		</p>
-		<p>
-			Those differences matter beyond who wins an election. Neighbourhoods with similar
-			numbers of eligible voters can contribute very different numbers of votes, while
-			governments make decisions about the transit people rely on, the homes they can
-			afford, the services available nearby, and how public money is spent. Using voting and
-			turnout patterns from Toronto's three most recent elections, we identify five broad
-			political geographies – five different Torontos that participate and vote in distinct
-			ways. Census data is then used to describe the kinds of places those clusters
-			represent; it does not determine which cluster a neighbourhood belongs to.
-		</p>
+			<p>
+				People's experiences of Toronto can vary dramatically from one neighbourhood to the
+				next. Areas separated by just a few subway stops can differ sharply in
+				<a href="https://schoolofcities.github.io/neighbourhood-income-toronto-2020/" target="_blank" rel="noopener noreferrer">income</a>,
+				<a href="https://thelocal.to/life-expectancy-varies-by-almost-12-years-across-toronto-neighbourhoods/" target="_blank" rel="noopener noreferrer">life expectancy</a>,
+				<a href="https://thepointer.com/article/2026-10-19/peel-s-and-other-gta-transit-systems-failing-immigrant-communities" target="_blank" rel="noopener noreferrer">access to transit</a>
+				and
+				<a href="https://schoolofcities.github.io/access-to-outdoor-rinks-toronto/" target="_blank" rel="noopener noreferrer">services</a>,
+				and
+				<a href="https://newsinteractives.cbc.ca/features/2024/rentals-affordability-crisis/" target="_blank" rel="noopener noreferrer">housing</a>
+				– where rents can vary by over $1000 per month. Other posts in this occasional
+				series,
+				<a href="https://schoolofcities.github.io/place-and-politics-toronto/" target="_blank" rel="noopener noreferrer">Place and Politics in Toronto</a>,
+				show that some parts of Toronto vote consistently, turn out in large numbers, and
+				display a clear political orientation; elsewhere, voting is more divided or turnout
+				is lower.
+			</p>
+			<p>
+				Those differences matter beyond who wins elections. Neighbourhoods with similar
+				numbers of eligible voters can contribute very different numbers of votes, while
+				governments make decisions about the transit people rely on, the homes they can
+				afford, the services available nearby, and how public money is spent.
+			</p>
+			<p>
+				Using voting and turnout patterns from Toronto's three most recent elections (2023
+				mayoral by-election, 2025 provincial election, and 2025 federal election), we used a
+				clustering algorithm to identify five broad political geographies – five different
+				Torontos that participate and vote in distinct ways. We then used census data to
+				describe the kinds of places those clusters represent; it does not determine which
+				cluster a neighbourhood belongs to.
+			</p>
 	</div>
 
 	<section class="intro-map">
@@ -138,14 +150,14 @@
 	</section>
 
 	<div class="text intro-end">
-		<p>
-			The five clusters run broadly from Toronto's most consistently progressive
-			neighbourhoods toward its more conservative ones, but they are not simply five stops
-			along a left-right line. Participation matters separately from partisan preference, and
-			similar voting patterns sometimes appear in neighbourhoods with very different
-			histories, housing, and demographics. What emerges is not a map of five kinds of
-			voters, but five recurring combinations of politics and place.
-		</p>
+			<p>
+				The five clusters run broadly from Toronto's most consistently progressive
+				neighbourhoods toward its more conservative ones, but they are not simply five stops
+				along a left-right line. Voter turnout matters separately from partisan preference,
+				and similar voting patterns sometimes appear in neighbourhoods with very different
+				histories, housing, and demographics. What emerges is not a map of five kinds of
+				voters, but five recurring combinations of politics and place.
+			</p>
 	</div>
 
 	{#each clusters as cluster, i}
@@ -203,24 +215,22 @@
 				{#if cluster.slug === "progressive-core"}
 					<p>
 						Rooted in the twin hearts of Toronto's West End and East End, this is the city's
-						clearest concentration of progressive voting. These neighbourhoods give the NDP
-						much higher shares than Toronto overall, even in historically difficult elections
-						for the party, while giving considerably less support to Conservatives across
-						levels of government. Olivia Chow – a former NDP MP and city councillor – also
-						performed particularly strongly here in the formally non-partisan 2023 mayoral
-						race. Participation is high too: turnout sits above the city average across all
-						three elections.
+						clearest concentration of progressive voting. These neighbourhoods have given the
+						NDP much higher shares than Toronto overall, even in historically difficult
+						elections for the party, while giving considerably less support to Conservatives
+						across levels of government. Olivia Chow – a former city councillor and NDP MP –
+						also performed particularly strongly here in the non-partisan 2023 mayoral
+						by-election. Voter turnout is above the city average across all three elections.
 					</p>
 					<p>
-						The geography is as recognizable as the politics. This is Toronto's densest
-						cluster, with the highest renter share, the lowest reliance on cars for
-						commuting, and relatively high university attainment. Much of it is made up of
-						older, established central-city neighbourhoods rather than the newer high-rise
-						districts that appear more prominently in the Soft-Left Belt. That combination
-						of educated, renter-heavy urban neighbourhoods and progressive voting is
-						consistent with a
+						This is Toronto's densest cluster, with the highest renter share, the lowest
+						reliance on cars for commuting, and relatively high university attainment. Much of
+						it is made up of older, established central-city neighbourhoods. It has fewer
+						newer high-rise districts that appear more prominently in the Soft-Left Belt
+						cluster. This combination of educated, renter-heavy urban neighbourhoods and
+						progressive voting is consistent with a
 						<a href="https://wid.world/news-article/changing-political-cleavages-in-21-western-democracies/" target="_blank" rel="noopener noreferrer">broader shift documented across many Western democracies</a>,
-						including
+						including in
 						<a href="https://www.mattpolacko.com/_files/ugd/2876d8_177a7fd90b264b8d9cf1d2973c75b727.pdf" target="_blank" rel="noopener noreferrer">research</a>
 						<a href="https://thetyee.ca/Culture/2021/06/15/Thomas-Piketty-New-Data-Tells-About-Canadian-Left/" target="_blank" rel="noopener noreferrer">on Canada</a>,
 						in which the electoral base of the left has increasingly moved toward highly
@@ -234,49 +244,45 @@
 						voting, the Soft-Left Belt is what that politics looks like once it spreads into
 						a more varied urban landscape. It stretches through newer condo districts and
 						rental-heavy parts of the central city, established neighbourhoods farther west
-						and east, and pockets of Scarborough. These places do not share one built form
-						or one history. What they share is electoral: high participation, broadly
-						progressive voting, and a greater willingness to support Liberal or moderate
-						alternatives than in the Core.
+						and east, and pockets of southwest Scarborough. These places do not share one
+						built form or one history. What they share is electoral: higher voter turnout,
+						broadly progressive voting, and a greater willingness to support Liberal or
+						moderate alternatives than in the Progressive Core.
 					</p>
 					<p>
 						That difference is visible across elections. Chow and the provincial NDP both
 						outperform their Toronto-wide results here, but by much smaller margins than in
-						the Progressive Core; Josh Matlow also performs best in this cluster. At the same
-						time, the Soft-Left Belt has the highest university attainment and approximate
-						income of the five clusters, while also having the highest shelter-cost burden,
-						the largest recent-migrant share, and relatively high renting. That combination
-						fits parts of Toronto's changing central-city geography, where growth has
-						increasingly taken the form of
+						the Progressive Core. Josh Matlow also performs best in this cluster. At the same
+						time, the Soft-Left Belt has the highest university attainment and income of the
+						five clusters, while also having the highest prevalence of households spending 30%
+						more on housing costs and the largest recent-migrant share. That combination fits
+						parts of Toronto's changing central-city geography, where growth has increasingly
+						taken the form of
 						<a href="https://www.toronto.ca/city-government/data-research-maps/research-reports/planning-development/housing-occupancy-trends/" target="_blank" rel="noopener noreferrer">mid- and high-rise apartments</a>
 						and a large rented-condominium market; in 2021,
 						<a href="https://www150.statcan.gc.ca/n1/daily-quotidien/220921/mc-b003-eng.htm" target="_blank" rel="noopener noreferrer">more than half of downtown condominiums were rented</a>.
 					</p>
 					<p>
-						The result is a political belt rather than a single neighbourhood type. Some
-						parts are products of recent condo growth; others are older and more
-						established. They converge not because they look the same, but because they
-						arrive at a similar political balance: left of Toronto overall, highly
-						participatory, but less consistently aligned with the progressive left than the
-						neighbourhoods at the city's core.
+						The result is a political belt rather than a single neighbourhood type. They
+						converge because they have similar political characteristics: above average voter
+						turnout, left of Toronto overall, but less consistently aligned with the
+						progressive left than central neighbourhoods.
 					</p>
 				{:else if cluster.slug === "civic-liberals"}
 					<p>
-						The Civic Liberals are even harder to pin to one part of Toronto. They appear in
-						parts of Midtown and Leaside, stretches of the Yonge corridor through
-						Willowdale, pieces of The Beaches, Etobicoke-Lakeshore, and Scarborough along
-						the lake. What connects them is not geography so much as political style:
-						turnout is high, Liberal support is strong, and there is much less warmth toward
-						the NDP and other progressive candidates.
+						Civic Liberal neighbourhoods are even harder to pin to one part of Toronto. They
+						appear in parts of Midtown and Leaside, stretches of the Yonge corridor through
+						Willowdale, pieces of The Beaches, Etobicoke-Lakeshore, and Scarborough along the
+						lake.
 					</p>
 					<p>
-						That pattern is clearest provincially, where the Liberals receive just over half
-						the vote and the NDP falls to only 8 per cent. Ana Bailão also leads Olivia Chow
-						in the mayoral race, while federally the Liberals remain ahead but Conservatives
-						perform considerably better than in either of the first two clusters. These
-						neighbourhoods are generally relatively affluent and highly educated, but the
-						sharper dividing line is political: compared with the Soft-Left Belt, they are
-						much more willing to move toward centrist and centre-right alternatives.
+						This cluster has the highest turnout across all three elections, Liberal support
+						is strong, and there is much less warmth toward the NDP and progressive mayoral
+						candidates. This pattern is clearest provincially, where the Liberals receive just
+						over half the vote and the NDP falls to only 8 per cent. Ana Bailão also leads
+						Olivia Chow in the mayoral race, while federally the Liberals remain ahead but
+						Conservatives perform considerably better than in either of the first two more
+						progressive clusters.
 					</p>
 					<p>
 						There is some historical precedent for that kind of Toronto politics. The city's
@@ -284,25 +290,24 @@
 						runs through parts of this cluster, especially along the Yonge corridor, where
 						incomes have
 						<a href="https://www.utoronto.ca/news/gap-between-rich-and-poor-widening-says-u-t-david-hulchanski" target="_blank" rel="noopener noreferrer">risen sharply over time</a>.
-						Toronto has long contained prosperous, high-participation districts that sit
+						Toronto has long contained prosperous, high voter turnout districts that sit
 						outside both the city's strongest progressive neighbourhoods and its most
 						conservative suburbs. The Civic Liberals are a modern version of that middle
-						ground: scattered across the map, but tied together by a politics that is
-						engaged, Liberal-leaning, and notably less progressive than the clusters to
-						their left.
+						ground: scattered across the map, but tied together by a politics that is engaged,
+						higher income and higher education, Liberal-leaning, and notably less progressive
+						than the clusters to their left.
 					</p>
 				{:else if cluster.slug === "suburban-conservatives"}
 					<p>
-						Spanning much of Toronto's established inner suburbs, the Suburban Conservatives
-						overlap strongly with neighbourhoods built during the region's
+						Spanning much of Toronto's inner suburbs, the Suburban Conservatives overlap
+						strongly with neighbourhoods built during the region's
 						<a href="https://www.toronto.ca/explore-enjoy/history-art-culture/online-exhibits/web-exhibits/web-exhibits-community-neighbourhoods/your-home-our-city/your-home-our-city-suburban-growth/" target="_blank" rel="noopener noreferrer">postwar suburban expansion</a>:
 						lower-density housing, high rates of homeownership, and greater automobile use.
-						Today, they are the oldest and least renter-heavy of the five clusters, while
-						driving more and taking transit less than anyone else. Their electoral pattern
-						is just as clear: these neighbourhoods give the highest shares to the Ontario
-						PCs and federal Conservatives, the lowest or near-lowest shares to the NDP, and
-						favoured Ana Bailão over Olivia Chow in 2023. The federal Liberals still
-						narrowly lead the Conservatives here, but this is where conservative parties and
+						Today, they are the oldest of the five clusters as well. Their electoral pattern
+						is just as clear: these neighbourhoods give the highest shares to the Ontario PCs
+						and federal Conservatives, the lowest or near-lowest shares to the NDP, and
+						favoured Ana Bailão over Olivia Chow in 2023. The federal Liberals narrowly led
+						the Conservatives here in 2025, but this is where conservative parties and
 						candidates perform most strongly overall.
 					</p>
 					<p>
@@ -313,61 +318,52 @@
 						and
 						<a href="https://www.toronto.ca/explore-enjoy/history-art-culture/online-exhibits/web-exhibits/web-exhibits-local-government/albert-campbells-dream-a-new-scarborough-civic-centre/scarborough-before-the-civic-centre/" target="_blank" rel="noopener noreferrer">Scarborough</a>
 						all grew rapidly through the postwar period before amalgamation in 1998, much of
-						it around private homes and automobile travel. Political geographer Zack Taylor
-						has documented an enduring city-suburb divide in Toronto voting that
+						it around private homes and automobile travel. Zack Taylor has documented an
+						enduring city-suburb divide in Toronto voting that
 						<a href="https://www.thestar.com/news/gta/toronto-s-political-divide-is-real-but-it-can-change-especially-in-the-suburbs/article_a903777f-15aa-54d3-a000-dc726b9e3a38.html" target="_blank" rel="noopener noreferrer">predates Rob Ford's conservatism</a>;
 						in 2010, for example, the former Metropolitan Toronto suburbs voted heavily for
-						Ford while the old City of Toronto went strongly for George Smitherman.
+						Ford while the old City of Toronto went strongly for George Smitherman, as we
+						described in a
+						<a href="https://schoolofcities.github.io/place-and-politics-toronto/torontos-two-rights" target="_blank" rel="noopener noreferrer">previous entry</a>
+						in this series.
 					</p>
 					<p>
 						But today's suburban politics no longer follow that older divide neatly. Much of
 						Scarborough, despite sharing the same postwar and car-oriented built form, falls
-						instead into the Low-turnout Suburbanites. The Suburban Conservatives are older,
-						less renter-heavy, less racially diverse, and higher-income than those
-						neighbouring suburban areas. The result is a geography that still closely
-						resembles Toronto's older conservative suburban divide, but also shows how much
-						the suburbs themselves have changed since they were first built.
+						instead into the Low-turnout Suburbanites.
 					</p>
 				{:else if cluster.slug === "low-turnout-suburbanites"}
 					<p>
 						It is easy to look at Toronto's electoral maps and treat much of the inner
-						suburbs as one conservative bloc, but this cluster complicates that picture.
-						More than anything else, what distinguishes these neighbourhoods is low
-						participation. Turnout is lower than in every other cluster across the
-						municipal, provincial, and federal elections, even though Low-turnout
-						Suburbanites are Toronto's largest group, containing almost one-third of the
-						city's population. These neighbourhoods also have the lowest approximate income
-						and university attainment, the highest racialized share, some of the largest
-						households, and the longest commutes.
+						suburbs as one conservative bloc, but this cluster complicates that picture. More
+						than anything else, what distinguishes these neighbourhoods is low voter turnout.
+						Turnout is lower than in every other cluster across the municipal, provincial, and
+						federal elections, even though Low-turnout Suburbanites are Toronto's largest
+						group, containing almost one-third of the city's population. These neighbourhoods
+						also have the lowest income and university attainment, the highest racialized
+						share, some of the largest households, most people with commutes over an hour.
 					</p>
 					<p>
-						Their voting is more unsettled than that of the Suburban Conservatives beside
-						them. Ontario PC support is relatively high, but Chow leads the mayoral vote and
-						the federal Liberals receive a clear majority. Previous School of Cities work has
-						documented a longer-term rise in Conservative support in
+						Their voting is less ideologically fixed than that of the Suburban Conservatives
+						beside them. Ontario PC support is relatively high, but Chow led the mayoral vote
+						and the federal Liberals received a clear majority. Previous School of Cities work
+						has documented a longer-term rise in Conservative support in
 						<a href="https://schoolofcities.github.io/gta-immigration/political-shifts" target="_blank" rel="noopener noreferrer">immigrant- and minority-heavy GTA ridings</a>,
 						particularly at the provincial level, pointing toward
 						<a href="https://schoolofcities.github.io/gta-immigration/rightward-minorities" target="_blank" rel="noopener noreferrer">disillusionment with an incomplete multiculturalism</a>.
-						What emerges here is not a simple march to the right, but a more unsettled
-						politics in which different parties can succeed at different levels of
-						government.
 					</p>
 					<p>
-						That political complexity sits on top of a broader geography of inequality.
+						This political complexity sits on top of a broader geography of inequality.
 						Research on Toronto's inner suburbs has
 						<a href="https://www.utsc.utoronto.ca/sociology/getting-heart-issues-matter-inner-suburbs" target="_blank" rel="noopener noreferrer">documented</a>
 						lower incomes, weaker access to mass transit and city services, and longstanding
 						underinvestment compared with more affluent parts of the city.
 						<a href="https://www.thestar.com/news/gta/we-are-fighting-a-big-machine-gentrification-is-pulling-apart-toronto-s-communities-how-do/article_98d623ff-56a0-5fff-a73e-3964086febfc.html" target="_blank" rel="noopener noreferrer">Other reporting</a>
 						has traced how rising housing costs and gentrification have pushed lower-income
-						and immigrant households outward from parts of the core, while surveys through
-						the
+						and immigrant households outward from parts of the core, while surveys through the
 						<a href="https://community-voices.report/wp-content/uploads/2022/02/Feb-15-Community-Voices.pdf" target="_blank" rel="noopener noreferrer">Community Voices project</a>
 						found that residents placed particular importance on reliable transportation,
-						neighbourhood services, affordable housing, and safety. That makes the group's
-						consistently low turnout important in its own right: many of the neighbourhoods
-						facing some of Toronto's largest material and service disparities are also
-						contributing fewer votes relative to their adult-citizen populations.
+						neighbourhood services, affordable housing, and safety.
 					</p>
 				{/if}
 			</div>
@@ -381,15 +377,15 @@
 						But this is not simply a recent realignment. Many of these same areas were
 						centres of
 						<a href="https://www.yiddishbookcenter.org/language-literature-culture/wexler-oral-history-project-films-features-news/features/jewish-5" target="_blank" rel="noopener noreferrer">immigrant labour organization</a>,
-						left-wing politics, and later neighbourhood-based urban reform, including
-						<a href="https://activehistory.ca/blog/2015/12/10/how-did-1970s-reform-change-toronto/" target="_blank" rel="noopener noreferrer">the fight against the Spadina Expressway</a>.
+						left-wing politics, and later neighbourhood-based urban reform, including the
+						<a href="https://activehistory.ca/blog/2015/12/10/how-did-1970s-reform-change-toronto/" target="_blank" rel="noopener noreferrer">fight against the Spadina Expressway</a>.
 						Toronto's reform movement was politically heterogeneous, but many of its fights
 						over expressways, redevelopment, neighbourhood preservation, and local planning
 						took place in and around the old urban core. Research on Toronto's political
 						geography finds that neighbourhood-level patterns
 						<a href="https://academic.daniels.utoronto.ca/urbangenome/2018/09/22/political-order-of-the-city/" target="_blank" rel="noopener noreferrer">can persist across elections</a>,
-						even as the people living within them change. The electorate has shifted, but
-						the
+						even as the people living within them change. The electorate has shifted, but as
+						a previous post in this series shows, the
 						<a href="https://schoolofcities.github.io/place-and-politics-toronto/the-electoral-geography-of-progressivism" target="_blank" rel="noopener noreferrer">geography of progressive voting</a>
 						has proved remarkably durable.
 					</p>
@@ -421,13 +417,13 @@
 			beginning from conventional partisan or demographic categories.
 		</p>
 		<p>
-			We analyzed all 585 Toronto census tracts using results from three
-			recent elections: the 2023 mayoral race, the 2025 Ontario election, and the 2025
-			federal election. Because voting polls and census tracts do not share the same
-			boundaries, poll-level votes were first interpolated to census tracts using the
-			distribution of Canadian citizens aged 18 and over. Turnout is measured as votes cast
-			relative to that adult-citizen population, while party and candidate support is
-			calculated from valid votes cast.
+			We analyzed all 585 Toronto census tracts using results from three recent elections:
+			the 2023 mayoral by-election, the 2025 Ontario election, and the 2025 federal election.
+			Because voting polls and census tracts do not share the same boundaries, poll-level
+			votes were first interpolated to census tracts using the distribution of Canadian
+			citizens aged 18 and over. Turnout is measured as votes cast relative to that
+			adult-citizen population, while party and candidate support is calculated from valid
+			votes cast.
 		</p>
 		<p>
 			We grouped neighbourhoods using their voting and turnout alone – not their
@@ -456,11 +452,10 @@
 		<p>
 			After creating the clusters, we joined the 2021 Census data on age, income, housing,
 			migration, racialization, education, commuting, and other characteristics to understand
-			the places within them. These demographics did not determine the groups
-			and should not be read as explaining how any individual voted. The names –
-			Progressive Core, Soft-Left Belt, Civic Liberals, Suburban Conservatives, and
-			Low-turnout Suburbanites – are similarly descriptive shorthand applied after
-			the analysis.
+			the places within them. These demographics describe places and should not be read as
+			explaining how any individual voted. The names – Progressive Core, Soft-Left Belt,
+			Civic Liberals, Suburban Conservatives, and Low-turnout Suburbanites – are descriptive
+			shorthand applied after the analysis.
 		</p>
 		<p>
 			For full details on the data, interpolation, model selection, sensitivity tests,
@@ -478,8 +473,8 @@
 
 	<div class="info">
 		<p>
-			Thanks to Jeff Allen and Zack Taylor for reviewing the methods, research, and text
-			behind this piece, and to Felicity Heyworth for reviewing the text.
+			Thanks to Zack Taylor for reviewing the methods, research, and text behind this
+			piece. Jeff Allen helped to review the text and design the graphics.
 		</p>
 	</div>
 </main>
