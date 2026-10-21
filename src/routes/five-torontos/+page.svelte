@@ -1,6 +1,6 @@
 <script>
 	//
-	// The Five Torontos (Place & Politics in Toronto, Part 7). See ./README.md for how the page,
+	// The five Torontos (Place & Politics in Toronto, Part 7). See ./README.md for how the page,
 	// its data and its components fit together.
 	//
 	//   Intro: "there are 5 political groups in Toronto" + rotating map of all 5
@@ -36,7 +36,7 @@
 	import ctValues from "./data/ct_values.json";
 
 	// page metadata (the canonical link and JSON-LD come from <StructuredData>)
-	const TITLE = "The Five Torontos | Place & Politics in Toronto";
+	const TITLE = "The five Torontos | Place & Politics in Toronto";
 	const DESCRIPTION =
 		"Clustering Toronto's 585 census tracts by how they voted and turned out in the 2023 mayoral by-election and the 2025 provincial and federal elections reveals five distinct political geographies.";
 	const CARD = "https://raw.githubusercontent.com/schoolofcities/place-and-politics-toronto/main/src/assets/web-card-7.png";
@@ -93,7 +93,7 @@
 	<meta property="og:site_name" content="Place & Politics in Toronto" />
 	<meta property="og:description" content={DESCRIPTION} />
 	<meta property="og:type" content="article" />
-	<meta property="article:published_time" content="2026-10-23" />
+	<meta property="article:published_time" content="2026-10-22" />
 	<meta property="article:author" content="https://www.linkedin.com/in/aniket-kali-8a8b9921b/" />
 	<meta property="og:url" content="https://schoolofcities.github.io/place-and-politics-toronto/five-torontos" />
 	<meta property="og:image" content={CARD} />
@@ -116,8 +116,8 @@
 	<div class="title" id="introduction">
 		<h4>Place & Politics in Toronto - Part 7</h4>
 		<div id="mini-line"></div>
-		<h1>The Five Torontos</h1>
-		<h3><a href="https://www.linkedin.com/in/aniket-kali-8a8b9921b/" target="_blank" rel="noopener noreferrer">Aniket Kali</a> <br><br> October 23, 2026</h3>
+		<h1>The five Torontos</h1>
+		<h3><a href="https://www.linkedin.com/in/aniket-kali-8a8b9921b/" target="_blank" rel="noopener noreferrer">Aniket Kali</a> <br><br> October 22, 2026</h3>
 		<div id="mini-line"></div>
 	</div>
 

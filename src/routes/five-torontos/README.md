@@ -1,6 +1,6 @@
-# The Five Torontos (Part 7)
+# The five Torontos (Part 7)
 
-Front end for [The Five Torontos](https://schoolofcities.github.io/place-and-politics-toronto/five-torontos): Toronto's 585 census tracts clustered into five political geographies from their voting and turnout in the 2023 mayoral by-election and the 2025 provincial and federal elections. The full methods are in [`analysis/clustering_neighbourhoods/DATA_AND_METHODS.md`](../../../analysis/clustering_neighbourhoods/DATA_AND_METHODS.md); this page links to them from its own "Data and methods" note.
+Front end for [The five Torontos](https://schoolofcities.github.io/place-and-politics-toronto/five-torontos): Toronto's 585 census tracts clustered into five political geographies from their voting and turnout in the 2023 mayoral by-election and the 2025 provincial and federal elections. The full methods are in [`analysis/clustering_neighbourhoods/DATA_AND_METHODS.md`](../../../analysis/clustering_neighbourhoods/DATA_AND_METHODS.md); this page links to them from its own "Data and methods" note.
 
 SvelteKit ignores this file (it has no `+` prefix), so it is safe to keep here.
 

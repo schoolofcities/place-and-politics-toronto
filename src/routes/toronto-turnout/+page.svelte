@@ -44,7 +44,7 @@
 		<h4>Place & Politics in Toronto - Part 8</h4>
 		<div id="mini-line"></div>
 		<h1>One city, uneven participation</h1>
-		<h3><a href="https://www.linkedin.com/in/aniket-kali-8a8b9921b/" target="_blank" rel="noopener noreferrer">Aniket Kali</a>, <a href="https://kaiwenyangut.github.io" target="_blank" rel="noopener noreferrer">Kaiwen Yang</a> <br><br> October 2026</h3>
+		<h3><a href="https://www.linkedin.com/in/aniket-kali-8a8b9921b/" target="_blank" rel="noopener noreferrer">Aniket Kali</a> & <a href="https://kaiwenyangut.github.io" target="_blank" rel="noopener noreferrer">Kaiwen Yang</a> <br><br> October 2026</h3>
 		<div id="mini-line"></div>
 	</div>
 

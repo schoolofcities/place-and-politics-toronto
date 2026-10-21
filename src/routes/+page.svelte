@@ -23,7 +23,7 @@
 
     <title>Place & Politics in Toronto</title>
     <meta name="description" content="A blog series mapping Toronto's election results and the city's social geography, from amalgamation in 1997 to the 2025 federal election.">
-    <meta name="author" content="Zack Taylor, Jeff Allen & Aniket Kali">
+    <meta name="author" content="Zack Taylor, Jeff Allen, and Aniket Kali">
 
     <meta property="og:title" content="Place & Politics in Toronto" />
     <meta property="og:site_name" content="Place & Politics in Toronto" />
@@ -64,7 +64,7 @@
 			A blog series mapping City of Toronto
 			election results 
 			<br><br>
-			<a href="https://zacktaylorwestern.wordpress.com/">Zack Taylor</a>, <a href="https://jamaps.github.io/">Jeff Allen</a> & <a href="https://www.linkedin.com/in/aniket-kali-8a8b9921b/">Aniket Kali</a>
+			<a href="https://zacktaylorwestern.wordpress.com/">Zack Taylor</a>, <a href="https://jamaps.github.io/">Jeff Allen</a>, and <a href="https://www.linkedin.com/in/aniket-kali-8a8b9921b/">Aniket Kali</a>
 		</h3>
 		<br>
 
@@ -158,8 +158,8 @@
 				</div>
 				<div id="part">
 					<p>
-						<span class="date">Part 7 - October 23, 2026</span><br>
-						<u>The Five Torontos</u>
+						<span class="date">Part 7 - October 22, 2026</span><br>
+						<u>The five Torontos</u>
 					</p>
 				</div>
 			</div>
