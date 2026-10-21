@@ -23,9 +23,9 @@
 	// table (at the end of the section).
 	export let part = "elections";
 
-	// show/hide state; a unique id ties the toggle to the panel it controls
+	// show/hide state; an id (the same on the server and in the browser) ties the toggle to the panel it controls
 	let open = false;
-	const panelId = `${part}-${Math.random().toString(36).slice(2, 9)}`;
+	const panelId = `${part}-${cluster.slug}`;
 	const TOGGLE_MS = 280;
 	const TOGGLE_LABELS = {
 		elections: { show: "Show all election results used in the cluster analysis", hide: "Hide election results" },
@@ -74,7 +74,7 @@
 	// one row per election: the cluster's turnout vs Toronto's
 	$: turnoutTable = {
 		key: "turnout",
-		heading: "Voter\nturnout",
+		heading: "Turnout\n(% of citizens 18+)",
 		rows: ELECTIONS.map((election) => ({
 			key: `${election.key}.turnout`,
 			label: election.heading.replace("\n", " "),

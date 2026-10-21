@@ -10,6 +10,7 @@
 	import p4 from '$assets/p4.png';
 	import p5 from '$assets/p5.png';
 	import p6 from '$assets/p6.png';
+	import p7 from '$assets/p7.png';
 
 </script>
 
@@ -21,12 +22,12 @@
 	/>
 
     <title>Place & Politics in Toronto</title>
-    <meta name="description" content="A blog series mapping where Toronto's mayoral candidates found their support, from amalgamation in 1997 to the 2023 by-election.">
-    <meta name="author" content="Zack Taylor & Jeff Allen">
+    <meta name="description" content="A blog series mapping Toronto's election results and the city's social geography, from amalgamation in 1997 to the 2025 federal election.">
+    <meta name="author" content="Zack Taylor, Jeff Allen & Aniket Kali">
 
     <meta property="og:title" content="Place & Politics in Toronto" />
     <meta property="og:site_name" content="Place & Politics in Toronto" />
-    <meta property="og:description" content="A blog series mapping where Toronto's mayoral candidates found their support, from amalgamation in 1997 to the 2023 by-election." />
+    <meta property="og:description" content="A blog series mapping Toronto's election results and the city's social geography, from amalgamation in 1997 to the 2025 federal election." />
     <meta property="og:type" content="website" />
     <meta property="og:url" content="https://schoolofcities.github.io/place-and-politics-toronto/" />
     <meta property="og:image" content="https://raw.githubusercontent.com/schoolofcities/place-and-politics-toronto/main/src/assets/web-card-1.png" />
@@ -35,12 +36,12 @@
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:site" content="https://www.schoolofcities.utoronto.ca/" />
     <meta name="twitter:title" content="Place & Politics in Toronto" />
-    <meta name="twitter:description" content="A blog series mapping where Toronto's mayoral candidates found their support, from amalgamation in 1997 to the 2023 by-election." />
+    <meta name="twitter:description" content="A blog series mapping Toronto's election results and the city's social geography, from amalgamation in 1997 to the 2025 federal election." />
     <meta name="twitter:image" content="https://raw.githubusercontent.com/schoolofcities/place-and-politics-toronto/main/src/assets/web-card-1.png" />
 
 </svelte:head>
 
-<StructuredData description="A blog series mapping where Toronto's mayoral candidates found their support, from amalgamation in 1997 to the 2023 by-election." />
+<StructuredData description="A blog series mapping Toronto's election results and the city's social geography, from amalgamation in 1997 to the 2025 federal election." />
 
 
 
@@ -63,7 +64,7 @@
 			A blog series mapping City of Toronto
 			election results 
 			<br><br>
-			<a href="https://zacktaylorwestern.wordpress.com/">Zack Taylor</a> & <a href="https://jamaps.github.io/">Jeff Allen</a>
+			<a href="https://zacktaylorwestern.wordpress.com/">Zack Taylor</a>, <a href="https://jamaps.github.io/">Jeff Allen</a> & <a href="https://www.linkedin.com/in/aniket-kali-8a8b9921b/">Aniket Kali</a>
 		</h3>
 		<br>
 
@@ -151,6 +152,19 @@
 			</div>
 		</a>
 
+		<a href="{base}/five-torontos">
+			<div class="item">
+				<div class="number" style="background-image: url({p7});">
+				</div>
+				<div id="part">
+					<p>
+						<span class="date">Part 7 - October 23, 2026</span><br>
+						<u>The Five Torontos</u>
+					</p>
+				</div>
+			</div>
+		</a>
+
 	</div>
 	
 	<br><br>
@@ -206,6 +220,8 @@
 		border: solid 1px #4b4b4b;
 		border-radius: 28px;
 		float: left;
+		background-size: cover;
+		background-position: center;
 	}
 
 	@media (max-width:527px) {

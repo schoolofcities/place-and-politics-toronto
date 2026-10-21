@@ -117,15 +117,16 @@
   },
   "elections": {
    "mayor_2023": {
-    "turnout": 45.3,
+    "turnout": 44.9,
     "chow": 52.7,
     "bailao": 23.1,
     "matlow": 5.6,
     "saunders": 4.6,
+    "furey": 3.2,
     "other": 10.8
    },
    "provincial_2025": {
-    "turnout": 53.9,
+    "turnout": 53.7,
     "pc": 15.9,
     "ndp": 51.1,
     "liberal": 28.6,
@@ -133,7 +134,7 @@
     "other": 1.2
    },
    "federal_2025": {
-    "turnout": 73.6,
+    "turnout": 73.4,
     "liberal": 62.4,
     "conservative": 20.9,
     "ndp": 14.5,
@@ -281,7 +282,7 @@
   "color": "#B97845",
   "description": "Soft-Left Belt: tracts leaning progressive, most distinguished by Ontario NDP (2025 provincial) (+13.1pp vs. city) with higher-than-average turnout.",
   "political_signature": "Overperforms city average on Ontario NDP (2025 provincial) (+13.1pp), Matlow (2023 mayoral) (+3.3pp); underperforms on Ontario PC (2025 provincial) (-9.5pp), Conservative (2025 federal) (-5.5pp). Turnout runs above the city average (+5.5pp avg. across the three elections).",
-  "demographic_signature": "Migrants in the last 5 years above the city average (+5.9); Approx. median income above the city average (+11233.7); Bachelor's degree or higher above the city average (+14.4).",
+  "demographic_signature": "Migrants in the last 5 years above the city average (+5.9); Median pre-tax individual income above the city average (+11233.7); Bachelor's degree or higher above the city average (+14.4).",
   "n_tracts": 85,
   "tract_share": 0.145,
   "population": 415371.0,
@@ -390,15 +391,16 @@
   },
   "elections": {
    "mayor_2023": {
-    "turnout": 44.9,
+    "turnout": 44.4,
     "chow": 39.8,
     "bailao": 31.5,
     "matlow": 8.3,
     "saunders": 6.2,
+    "furey": 4.5,
     "other": 9.7
    },
    "provincial_2025": {
-    "turnout": 51.6,
+    "turnout": 51.2,
     "pc": 23.9,
     "ndp": 36.7,
     "liberal": 35.7,
@@ -406,7 +408,7 @@
     "other": 0.9
    },
    "federal_2025": {
-    "turnout": 75.9,
+    "turnout": 75.6,
     "liberal": 61.5,
     "conservative": 28.3,
     "ndp": 8.6,
@@ -663,15 +665,16 @@
   },
   "elections": {
    "mayor_2023": {
-    "turnout": 45.1,
+    "turnout": 44.6,
     "chow": 31.4,
     "bailao": 37.4,
     "matlow": 5.5,
     "saunders": 9.3,
+    "furey": 5.7,
     "other": 10.7
    },
    "provincial_2025": {
-    "turnout": 54.7,
+    "turnout": 54.1,
     "pc": 36.6,
     "ndp": 8.0,
     "liberal": 50.7,
@@ -679,7 +682,7 @@
     "other": 1.7
    },
    "federal_2025": {
-    "turnout": 79.7,
+    "turnout": 79.2,
     "liberal": 58.9,
     "conservative": 36.9,
     "ndp": 3.0,
@@ -936,15 +939,16 @@
   },
   "elections": {
    "mayor_2023": {
-    "turnout": 38.6,
+    "turnout": 38.3,
     "chow": 24.6,
     "bailao": 43.0,
     "matlow": 3.6,
     "saunders": 11.6,
+    "furey": 6.7,
     "other": 10.6
    },
    "provincial_2025": {
-    "turnout": 46.4,
+    "turnout": 45.8,
     "pc": 47.8,
     "ndp": 6.6,
     "liberal": 40.6,
@@ -952,7 +956,7 @@
     "other": 2.5
    },
    "federal_2025": {
-    "turnout": 69.1,
+    "turnout": 68.7,
     "liberal": 51.4,
     "conservative": 45.1,
     "ndp": 2.7,
@@ -1209,15 +1213,16 @@
   },
   "elections": {
    "mayor_2023": {
-    "turnout": 29.7,
+    "turnout": 29.5,
     "chow": 36.7,
     "bailao": 28.3,
     "matlow": 2.4,
     "saunders": 10.9,
+    "furey": 4.7,
     "other": 17.0
    },
    "provincial_2025": {
-    "turnout": 40.7,
+    "turnout": 40.2,
     "pc": 42.4,
     "ndp": 14.8,
     "liberal": 38.6,
@@ -1225,7 +1230,7 @@
     "other": 1.8
    },
    "federal_2025": {
-    "turnout": 63.5,
+    "turnout": 63.2,
     "liberal": 58.9,
     "conservative": 35.7,
     "ndp": 4.0,

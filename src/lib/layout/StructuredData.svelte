@@ -11,10 +11,13 @@
 	const CARDS = 'https://raw.githubusercontent.com/schoolofcities/place-and-politics-toronto/main/src/assets';
 	const SERIES = 'Place & Politics in Toronto';
 
-	const authors = [
-		{ '@type': 'Person', name: 'Zack Taylor', url: 'https://zacktaylorwestern.wordpress.com/' },
-		{ '@type': 'Person', name: 'Jeff Allen', url: 'https://jamaps.github.io/' },
-	];
+	const people = {
+		zack: { '@type': 'Person', name: 'Zack Taylor', url: 'https://zacktaylorwestern.wordpress.com/' },
+		jeff: { '@type': 'Person', name: 'Jeff Allen', url: 'https://jamaps.github.io/' },
+		aniket: { '@type': 'Person', name: 'Aniket Kali', url: 'https://www.linkedin.com/in/aniket-kali-8a8b9921b/' },
+	};
+	const DEFAULT_AUTHORS = ['zack', 'jeff'];
+	const authorsOf = (post) => (post.authors ?? DEFAULT_AUTHORS).map((key) => people[key]);
 	const publisher = {
 		'@type': 'Organization',
 		name: 'School of Cities, University of Toronto',
@@ -47,7 +50,7 @@
 			description,
 			image: `${CARDS}/web-card-${post.part}.png`,
 			inLanguage: 'en-CA',
-			author: authors,
+			author: authorsOf(post),
 			publisher,
 			isPartOf: { '@type': 'CreativeWorkSeries', name: SERIES, url: `${SITE}/` },
 		}
@@ -58,7 +61,7 @@
 			url: `${SITE}/`,
 			description,
 			inLanguage: 'en-CA',
-			author: authors,
+			author: Object.values(people),
 			publisher,
 			hasPart: posts.map(article),
 		};

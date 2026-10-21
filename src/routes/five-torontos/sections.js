@@ -31,7 +31,7 @@ export const SECTION_CONFIG = {
 		],
 		graphic: "strip",
 		stripVars: [
-			{ key: "income_median", label: "Median income", domain: [20000, 90000], tickStep: 20000, format: (v) => `$${Math.round(v / 1000)}k` },
+			{ key: "income_median", label: "Median pre-tax individual income", domain: [20000, 90000], tickStep: 20000, format: (v) => `$${Math.round(v / 1000)}k` },
 			{ key: "pct_bachelor_or_higher", label: "% bachelor's degree+" },
 		],
 	},
@@ -71,7 +71,7 @@ export const SECTION_CONFIG = {
 		graphic: "strip",
 		stripVars: [
 			{ key: "pct_visible_minority", label: "% visible minority" },
-			{ key: "income_median", label: "Median income", domain: [20000, 90000], tickStep: 20000, format: (v) => `$${Math.round(v / 1000)}k` },
+			{ key: "income_median", label: "Median pre-tax individual income", domain: [20000, 90000], tickStep: 20000, format: (v) => `$${Math.round(v / 1000)}k` },
 			{ key: "pct_bachelor_or_higher", label: "% bachelor's degree+" },
 		],
 	},

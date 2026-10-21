@@ -22,7 +22,7 @@
 	const AXES = [
 		{ label: "Visible minority", angle: -90, get: (c) => c.demographics.pct_visible_minority, domain: [0, 100], format: (v) => `${v.toFixed(0)}%` },
 		{ label: "Bachelor's degree+", angle: 30, get: (c) => c.demographics.pct_bachelor_or_higher, domain: [0, 60], format: (v) => `${v.toFixed(0)}%` },
-		{ label: "Median income", angle: 150, get: null, domain: null, format: (v) => `$${Math.round(v / 1000)}k` },
+		{ label: "Median pre-tax individual income", angle: 150, get: null, domain: null, format: (v) => `$${Math.round(v / 1000)}k` },
 	];
 
 	// Income doesn't have a natural 0–100 scale like the two % variables, so its axis runs the

@@ -7,15 +7,16 @@
  "toronto_benchmark": {
   "elections": {
    "mayor_2023": {
-    "turnout": 39.3,
+    "turnout": 38.7,
     "chow": 37.2,
     "bailao": 32.5,
     "matlow": 4.9,
     "saunders": 8.6,
+    "furey": 5.0,
     "other": 11.9
    },
    "provincial_2025": {
-    "turnout": 48.3,
+    "turnout": 47.6,
     "pc": 34.0,
     "ndp": 23.3,
     "liberal": 38.4,
@@ -23,7 +24,7 @@
     "other": 1.7
    },
    "federal_2025": {
-    "turnout": 71.0,
+    "turnout": 70.5,
     "liberal": 58.4,
     "conservative": 33.8,
     "ndp": 6.4,
@@ -77,20 +78,20 @@
   }
  ],
  "variable_labels": {
-  "mun_turnout": "2023 mayoral turnout",
+  "mun_turnout": "2023 mayoral turnout (citizens 18+)",
   "mun_chow": "Chow (2023 mayoral)",
   "mun_bailao": "Bail\u00e3o (2023 mayoral)",
   "mun_saunders": "Saunders (2023 mayoral)",
   "mun_furey": "Furey (2023 mayoral)",
   "mun_matlow": "Matlow (2023 mayoral)",
   "mun_other": "Other mayoral candidates",
-  "prov_turnout": "2025 provincial turnout",
+  "prov_turnout": "2025 provincial turnout (citizens 18+)",
   "prov_pc": "Ontario PC (2025 provincial)",
   "prov_ndp": "Ontario NDP (2025 provincial)",
   "prov_liberal": "Ontario Liberal (2025 provincial)",
   "prov_green": "Ontario Green (2025 provincial)",
   "prov_other": "Other provincial parties",
-  "fed_turnout": "2025 federal turnout",
+  "fed_turnout": "2025 federal turnout (citizens 18+)",
   "fed_liberal": "Liberal (2025 federal)",
   "fed_conservative": "Conservative (2025 federal)",
   "fed_ndp": "NDP (2025 federal)",
@@ -101,7 +102,7 @@
   "pct_age_65_over": "Age 65+",
   "avg_age": "Average age",
   "avg_household_size": "Average household size",
-  "income_median_approx": "Approx. median income",
+  "income_median_approx": "Median pre-tax individual income",
   "pct_renter": "Renter households",
   "pct_shelter_burdened_30plus": "Spending 30%+ on shelter",
   "pct_canadian_citizen": "Canadian citizens",
@@ -121,10 +122,10 @@
  },
  "notes": [
   "These are tract-level political profiles, not individual voter types.",
-  "income_median_approx is a population-weighted average of published tract medians, not a recomputed true cluster median.",
-  "Electoral 'actual' values (elections.*) are vote-weighted by valid votes / registered electors; electoral_deviation values are simple tract means, matching the feature space the clustering model was fit on.",
+  "income_median_approx (shown as 'Median pre-tax individual income') is the 2021 Census median total (pre-tax) income in 2020 among income recipients aged 15 and over, averaged across a cluster's tracts weighted by population; it is not a recomputed true cluster median.",
+  "Electoral 'actual' values (elections.*) are aggregated across each cluster's tracts: vote shares are weighted by valid votes cast, and turnout is total votes cast / Canadian citizens aged 18+ (not registered electors); electoral_deviation values are simple tract means, matching the feature space the clustering model was fit on.",
   "Two tracts (5350006.00, 5350205.00) have suppressed 25%-sample-based census values; affected sums/averages simply exclude them.",
-  "estimated_turnout is an areal interpolation of two independently-estimated counts (votes, electors); one small-population tract (5350009.00) shows municipal turnout slightly over 100%, kept as published rather than clamped.",
+  "Tract turnout is an areal interpolation of two independently-estimated counts (votes cast, Canadian citizens aged 18+); four small-population tracts (5350003.00, 5350263.02, 5350263.04, 5350376.06) show federal turnout slightly over 100%, kept as published rather than clamped.",
   "Frontend tract geometry is simplified (tolerance ~9m); full-resolution geometry is in data/clustering_neighbourhoods/processed_clusters/.",
   "No official Toronto neighbourhood crosswalk is available for these tracts; geography breakdowns use wards and provincial/federal ridings instead."
  ]

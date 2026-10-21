@@ -13,7 +13,7 @@
 
 	import { onMount, onDestroy } from "svelte";
 	import Top from "$lib/layout/TopSofC.svelte";
-	import PasswordGate from "$lib/layout/PasswordGate.svelte";
+	import StructuredData from "$lib/layout/StructuredData.svelte";
 
 	import ClusterMap from "./components/ClusterMap.svelte";
 	import ClusterSummaryTable from "./components/ClusterSummaryTable.svelte";
@@ -29,6 +29,12 @@
 	import clusterAreas from "./data/clusters_dissolved.geo.json"; // census tracts dissolved by cluster
 	import ctClusters from "./data/ct_clusters.geo.json"; // tract outlines, drawn under the clusters
 	import ctValues from "./data/ct_values.json";
+
+	// page metadata (the canonical link and JSON-LD come from <StructuredData>)
+	const TITLE = "The Five Torontos | Place & Politics in Toronto";
+	const DESCRIPTION =
+		"Clustering Toronto's 585 census tracts by how they voted and turned out in the 2023 mayoral by-election and the 2025 provincial and federal elections reveals five distinct political geographies.";
+	const CARD = "https://raw.githubusercontent.com/schoolofcities/place-and-politics-toronto/main/src/assets/web-card-7.png";
 
 	// clusters_summary.json is already sorted progressive -> conservative (display_order 1-5),
 	// but sort defensively rather than assume the file's row order never changes.
@@ -74,20 +80,28 @@
 <svelte:head>
 	<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1" />
 
-	<!-- TODO: finalize title/description/social image once the story's copy is set. -->
-	<title>Place and Politics in Toronto</title>
-	<meta name="description" content="Clustering Toronto's neighbourhoods into five political groups" />
-	<meta name="author" content="School of Cities" />
-	<link rel="canonical" href="https://schoolofcities.github.io/place-and-politics-toronto/five-torontos" />
-	<meta property="og:title" content="Place and Politics in Toronto" />
-	<meta property="og:description" content="Clustering Toronto's neighbourhoods into five political groups" />
+	<title>{TITLE}</title>
+	<meta name="description" content={DESCRIPTION} />
+	<meta name="author" content="Aniket Kali" />
+
+	<meta property="og:title" content={TITLE} />
+	<meta property="og:site_name" content="Place & Politics in Toronto" />
+	<meta property="og:description" content={DESCRIPTION} />
 	<meta property="og:type" content="article" />
+	<meta property="article:published_time" content="2026-10-23" />
+	<meta property="article:author" content="https://www.linkedin.com/in/aniket-kali-8a8b9921b/" />
 	<meta property="og:url" content="https://schoolofcities.github.io/place-and-politics-toronto/five-torontos" />
+	<meta property="og:image" content={CARD} />
 	<meta property="og:locale" content="en_CA" />
+
+	<meta name="twitter:card" content="summary_large_image" />
+	<meta name="twitter:site" content="https://www.schoolofcities.utoronto.ca/" />
+	<meta name="twitter:title" content={TITLE} />
+	<meta name="twitter:description" content={DESCRIPTION} />
+	<meta name="twitter:image" content={CARD} />
 </svelte:head>
 
-<!-- Page is still in development — comment out this one line to unlock it for launch. -->
-<PasswordGate />
+<StructuredData slug="five-torontos" description={DESCRIPTION} />
 
 <Top />
 
@@ -98,8 +112,7 @@
 		<h4>Place & Politics in Toronto - Part 7</h4>
 		<div id="mini-line"></div>
 		<h1>The Five Torontos</h1>
-		<p class="subtitle">Clustering neighbourhoods based on voting patterns</p>
-		<h3><a href="https://www.linkedin.com/in/aniket-kali-8a8b9921b/" target="_blank" rel="noopener noreferrer">Aniket Kali</a> <br><br> October 2026</h3>
+		<h3><a href="https://www.linkedin.com/in/aniket-kali-8a8b9921b/" target="_blank" rel="noopener noreferrer">Aniket Kali</a> <br><br> October 23, 2026</h3>
 		<div id="mini-line"></div>
 	</div>
 
@@ -276,13 +289,14 @@
 						lake.
 					</p>
 					<p>
-						This cluster has the highest turnout across all three elections, Liberal support
-						is strong, and there is much less warmth toward the NDP and progressive mayoral
-						candidates. This pattern is clearest provincially, where the Liberals receive just
-						over half the vote and the NDP falls to only 8 per cent. Ana Bailão also leads
-						Olivia Chow in the mayoral race, while federally the Liberals remain ahead but
-						Conservatives perform considerably better than in either of the first two more
-						progressive clusters.
+						This cluster has the highest turnout in the provincial and federal elections, and
+						among the highest in the mayoral by-election. Liberal support is strong, and there
+						is much less warmth toward the NDP and progressive mayoral candidates. This
+						pattern is clearest provincially, where the Liberals receive just over half the
+						vote and the NDP falls to only 8 per cent. Ana Bailão also leads Olivia Chow in
+						the mayoral race, while federally the Liberals remain ahead but Conservatives
+						perform considerably better than in either of the first two more progressive
+						clusters.
 					</p>
 					<p>
 						There is some historical precedent for that kind of Toronto politics. The city's
@@ -422,8 +436,8 @@
 			Because voting polls and census tracts do not share the same boundaries, poll-level
 			votes were first interpolated to census tracts using the distribution of Canadian
 			citizens aged 18 and over. Turnout is measured as votes cast relative to that
-			adult-citizen population, while party and candidate support is calculated from valid
-			votes cast.
+			adult-citizen population (Canadian citizens aged 18+), not registered electors, while
+			party and candidate support is calculated from valid votes cast.
 		</p>
 		<p>
 			We grouped neighbourhoods using their voting and turnout alone – not their
@@ -460,7 +474,7 @@
 		<p>
 			For full details on the data, interpolation, model selection, sensitivity tests,
 			aggregation, and limitations, see our complete
-			<a href="https://github.com/schoolofcities/place-and-politics-toronto/tree/main/analysis/clustering_neighbourhoods" target="_blank" rel="noopener noreferrer">Data and Methods</a>
+			<a href="https://github.com/schoolofcities/place-and-politics-toronto/blob/main/analysis/clustering_neighbourhoods/DATA_AND_METHODS.md" target="_blank" rel="noopener noreferrer">Data and Methods</a>
 			and the reproducible analysis notebooks:
 			<a href="https://github.com/schoolofcities/place-and-politics-toronto/blob/main/analysis/clustering_neighbourhoods/02_model_exploration.ipynb" target="_blank" rel="noopener noreferrer">model exploration</a>,
 			<a href="https://github.com/schoolofcities/place-and-politics-toronto/blob/main/analysis/clustering_neighbourhoods/03_cluster_interpretation.ipynb" target="_blank" rel="noopener noreferrer">cluster interpretation</a>,

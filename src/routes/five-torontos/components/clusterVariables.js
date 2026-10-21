@@ -38,6 +38,7 @@ export const ELECTIONS = [
 			{ field: "chow", label: "Olivia Chow" },
 			{ field: "bailao", label: "Ana Bailão" },
 			{ field: "saunders", label: "Mark Saunders" },
+			{ field: "furey", label: "Anthony Furey" },
 			{ field: "matlow", label: "Josh Matlow" },
 			{ field: "other", label: "Other candidates" },
 		],

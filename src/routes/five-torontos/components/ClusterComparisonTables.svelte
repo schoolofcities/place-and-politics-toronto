@@ -58,7 +58,7 @@
 			})),
 		})),
 		{
-			heading: "Voter turnout",
+			heading: "Turnout (% of citizens 18+)",
 			rows: ELECTIONS.map((election) => ({
 				key: `${election.key}.turnout`,
 				label: election.heading.replace("\n", " "),
