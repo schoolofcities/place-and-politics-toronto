@@ -35,7 +35,7 @@
 </svelte:head>
 
 <!-- Page is still in development — comment out this one line to unlock it for launch. -->
-<PasswordGate />
+<!-- <PasswordGate /> -->
 
 <Top />
 

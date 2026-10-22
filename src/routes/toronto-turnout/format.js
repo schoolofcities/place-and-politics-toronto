@@ -63,3 +63,6 @@ export function variableFormat(format) {
 			return { axis: (v) => fmtPct(v, 0), value: (v) => fmtPct(v, 1) };
 	}
 }
+
+/** A correlation's p-value, as on the social-geography page: "p < 0.001" or "p = 0.034". */
+export const fmtP = (p) => (p < 0.001 ? 'p < 0.001' : `p = ${p.toFixed(3)}`);

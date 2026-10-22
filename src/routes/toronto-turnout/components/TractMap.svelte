@@ -28,6 +28,9 @@
 	export let colors = []; // breaks.length + 1 colours
 	export let activeId = null; // tract highlighted from outside (e.g. a hovered scatter dot)
 	export let label = 'Map of Toronto census tracts';
+	// false: no hover/tap hint over the map's top-left corner (for a map that shows it elsewhere)
+	export let showHint = true;
+	export let showReadout = true; // false: no details box over the map (a chart shows it elsewhere)
 
 	const dispatch = createEventDispatcher();
 	// unique per map (several maps share the page): the hatch pattern's id and the control's label id
@@ -70,7 +73,15 @@
 
 	let divWidth = 420;
 	$: width = divWidth;
-	$: height = width / (width < 600 ? 1.3 : 1.6); // a taller map on phones, where tracts are tapped
+	// Phones: exactly as tall as Toronto's (tilted) outline needs at this width, plus padding, so
+	// there's no blank band above and below it (a fixed taller ratio left gaps, as the city is
+	// fitted to the width). Wider screens keep the 1.6:1 frame.
+	$: fittedHeight = (() => {
+		const fit = geoMercator().angle(MAP_ANGLE).fitWidth(width - 2 * PAD, tracts);
+		const [[, y0], [, y1]] = geoPath(fit).bounds(tracts);
+		return Math.ceil(y1 - y0) + PAD + PAD_BOTTOM;
+	})();
+	$: height = width < 600 ? fittedHeight : width / 1.6;
 
 	// Fit the projection to the tracts on every resize so Toronto stays centred with even margins.
 	$: projection = geoMercator()
@@ -181,7 +192,7 @@
 		{/if}
 	</svg>
 
-	<!-- reference-layer control, in the empty corner below the Etobicoke shoreline (below the map on narrow screens) -->
+	<!-- reference-layer control, in the bottom-right corner (below the map on narrow screens) -->
 	{#if mounted}
 		<div class="boundary-control" role="group" aria-labelledby="{uid}-layers">
 			<p class="boundary-title" id="{uid}-layers">Reference layers</p>
@@ -198,9 +209,9 @@
 		</div>
 	{/if}
 
-	{#if hoveredProps}
+	{#if hoveredProps && showReadout}
 		<div class="readout" aria-live="polite"><slot props={hoveredProps} /></div>
-	{:else if mounted}
+	{:else if mounted && showHint}
 		<div class="hint" aria-hidden="true">{touchOnly ? 'Tap' : 'Hover over'} a tract for values</div>
 	{/if}
 </div>
@@ -273,9 +284,11 @@
 		font-family: OpenSans, sans-serif;
 		pointer-events: none;
 	}
+	/* bottom right, stacked just above the reference-layer buttons (whose block is ~85px tall:
+	   title + three 20px buttons, from 59px up), so it never covers them */
 	.readout {
 		right: 10px;
-		bottom: 10px;
+		bottom: 152px;
 		min-width: 160px;
 		max-width: min(250px, calc(100% - 20px));
 		background: rgba(255, 255, 255, 0.94);
@@ -325,10 +338,11 @@
 
 	/* reference-layer control: white buttons stacked vertically, 2px apart (the chosen one at full
 	   strength, the others faded), as on the five-torontos maps */
+	/* bottom right, with the hover readout stacked above it */
 	.boundary-control {
 		position: absolute;
-		left: 10px;
-		bottom: 4px;
+		right: 10px;
+		bottom: 59px;
 		display: flex;
 		flex-direction: column;
 		align-items: stretch;
@@ -372,6 +386,10 @@
 			position: static;
 			width: max-content;
 			margin: 8px auto 0;
+		}
+		/* the buttons sit below the map here, so the readout can drop to the corner */
+		.readout {
+			bottom: 10px;
 		}
 	}
 </style>

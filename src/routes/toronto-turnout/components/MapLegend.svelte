@@ -16,13 +16,35 @@
 	export let naColor = '#e6e6e1';
 	export let hatchColor = '#c4c4bc';
 	export let label = ''; // accessible description of the whole legend
+	export let endCells = 0; // >0: cap each end caption at this many colour cells' width (it wraps onto more lines)
+	export let centerLabel = ''; // a label at the bar's midpoint, above it (with endsAbove), e.g. "The average tract"
+	export let centerTick = ''; // an extra tick number at the bar's midpoint, e.g. "0"
+	export let endsAbove = false; // end captions above the bar (default: below the tick numbers)
+	export let titleBelow = false; // title under the bar (default: above it)
 	export let maxWidth = '420px'; // any CSS width; the diverging scale uses '100%' so its two captions have room
 </script>
 
-<div class="legend" role="img" aria-label={label || title} style:--legend-max={maxWidth}>
-	{#if title}<div class="legend-title">{title}</div>{/if}
+<div
+	class="legend"
+	role="img"
+	aria-label={label || title}
+	style:--legend-max={maxWidth}
+	style:--end-max={endCells ? `${(endCells / colors.length) * 100}%` : null}
+>
+	{#if title && !titleBelow}<div class="legend-title">{title}</div>{/if}
 	<div class="legend-row">
 		<div class="legend-scale">
+			{#if (leftLabel || rightLabel) && endsAbove}
+				<div class="legend-ends above">
+					<span class="end end-left">
+						{#if leftColor}<i style:background={leftColor}></i>{/if}{leftLabel}
+					</span>
+					{#if centerLabel}<span class="center-label">{centerLabel}</span>{/if}
+					<span class="end end-right">
+						{rightLabel}{#if rightColor}<i style:background={rightColor}></i>{/if}
+					</span>
+				</div>
+			{/if}
 			<div class="legend-bar">
 				{#each colors as c}
 					<span style:background={c}></span>
@@ -32,8 +54,9 @@
 				{#each breaks as b, i}
 					<span style:left="{((i + 1) / colors.length) * 100}%">{format(b)}</span>
 				{/each}
+				{#if centerTick}<span style:left="50%">{centerTick}</span>{/if}
 			</div>
-			{#if leftLabel || rightLabel}
+			{#if (leftLabel || rightLabel) && !endsAbove}
 				<div class="legend-ends">
 					<span class="end end-left">
 						{#if leftColor}<i style:background={leftColor}></i>{/if}{leftLabel}
@@ -48,6 +71,7 @@
 			<div class="legend-na"><span class="swatch-na" style:--na={naColor} style:--hatch={hatchColor}></span>No data</div>
 		{/if}
 	</div>
+	{#if title && titleBelow}<div class="legend-title below">{title}</div>{/if}
 </div>
 
 <style>
@@ -56,9 +80,10 @@
 		font-size: 12px;
 		color: var(--brandGray90);
 	}
+	/* title and tick numbers: same size and darkness */
 	.legend-title {
-		color: var(--brandGray60);
-		font-size: 11px;
+		color: var(--brandGray90);
+		font-size: 13px;
 		margin-bottom: 3px;
 	}
 	.legend-row {
@@ -81,8 +106,9 @@
 	}
 	.legend-ticks {
 		position: relative;
-		height: 18px;
-		font-size: 11px;
+		height: 20px;
+		font-size: 13px;
+		color: var(--brandGray90);
 		font-variant-numeric: tabular-nums;
 	}
 	.legend-ticks span {
@@ -96,16 +122,43 @@
 		justify-content: space-between;
 		gap: 12px;
 		margin-top: 2px;
-		font-family: OpenSansBold, sans-serif;
-		font-size: 11.5px;
+		font-family: OpenSansItalic, sans-serif; /* italic, not bold */
+		font-size: 12px;
 		line-height: 1.3;
-		color: var(--brandGray80);
+		color: var(--brandBlack);
+	}
+	.legend-ends.above {
+		position: relative;
+		margin: 0 0 4px;
+	}
+	/* midpoint label, centred over the bar between the two end captions, with a short tick
+	   down to the bar's centre */
+	.center-label {
+		position: absolute;
+		left: 50%;
+		bottom: 0;
+		transform: translateX(-50%);
+		padding-bottom: 6px;
+		white-space: nowrap;
+		font-family: OpenSansItalic, sans-serif;
+		color: var(--brandBlack); /* italic and black, like the end captions */
+	}
+	.center-label::after {
+		content: '';
+		position: absolute;
+		left: 50%;
+		bottom: 0;
+		height: 5px;
+		border-left: 1px solid var(--brandGray80);
+	}
+	.legend-title.below {
+		margin: 0 0 3px;
 	}
 	.end {
 		display: inline-flex;
 		align-items: baseline;
 		gap: 5px;
-		max-width: 50%;
+		max-width: var(--end-max, 50%);
 	}
 	.end-right {
 		text-align: right;
@@ -132,5 +185,11 @@
 		border: 1px solid rgba(0, 0, 0, 0.15);
 		/* the same diagonal hatching the map draws over tracts with no data */
 		background: repeating-linear-gradient(45deg, var(--hatch) 0 1.5px, var(--na) 1.5px 4px);
+	}
+	/* phones: the captions above the bar (and its midpoint label) 2px smaller, to fit the narrow bar */
+	@media (max-width: 600px) {
+		.legend-ends {
+			font-size: 10px;
+		}
 	}
 </style>

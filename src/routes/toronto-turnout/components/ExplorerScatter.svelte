@@ -17,15 +17,21 @@
 	export let xFromZero = false; // start the x axis at 0 (shares) rather than at the data minimum
 	export let fit = null; // { r, slope, intercept }
 	export let activeId = null;
+	export let showTip = true; // false: no tooltip by the dot (the page shows the details elsewhere)
+	// true: the y-axis label sits outside the svg's left edge (in the gap beside a map), so the plot
+	// keeps its full width; false (e.g. stacked on a phone, where it would be cut off): it sits
+	// inside, with a wider left margin
+	export let labelOutside = true;
+	export let maxHeight = 480; // px
 
 	const dispatch = createEventDispatcher();
 	const Y_FIELD = 'mean_turnout';
-	const margin = { top: 10, right: 24, bottom: 46, left: 50 };
+	$: margin = { top: 10, right: 24, bottom: 46, left: labelOutside ? 50 : 92 };
 	const HIT_RADIUS = 14;
 
 	let boxWidth = 480;
 	$: width = Math.max(260, boxWidth);
-	$: height = Math.round(Math.min(480, Math.max(300, width * 0.95)));
+	$: height = Math.round(Math.min(maxHeight, Math.max(300, width * 0.95)));
 	$: innerW = width - margin.left - margin.right;
 	$: innerH = height - margin.top - margin.bottom;
 
@@ -41,6 +47,8 @@
 		.nice();
 	$: xTicks = xScale.ticks(width < 420 ? 4 : 6);
 	$: yTicks = yScale.ticks(5);
+	// the y-axis label's height: about the 60–70% mark, kept inside the plot
+	$: labelY = Math.min(Math.max(yScale(0.65), 14), innerH - 14);
 	$: dots = points.map((d) => ({ ct: d.ct, name: d.name, x: xScale(d[xField]), y: yScale(d[Y_FIELD]), xv: d[xField], yv: d[Y_FIELD] }));
 	$: byX = [...dots].sort((a, b) => a.xv - b.xv);
 	$: active = dots.find((d) => d.ct === activeId) ?? null;
@@ -131,7 +139,14 @@
 			{/each}
 
 			<text class="axis-label" x={innerW / 2} y={innerH + 38} text-anchor="middle">{xLabel}</text>
-			<text class="axis-label" x={-innerH / 2} y="-38" transform="rotate(-90)" text-anchor="middle">Mean turnout</text>
+			<!-- y-axis label: horizontal, on two lines, to the left of the tick numbers at about the
+				 60–70% mark (clamped inside the plot's height). With `labelOutside` it reaches past the
+				 svg's left edge, into the gap beside the map, so the plot keeps its full width (svg
+				 overflow: visible); otherwise the wider left margin holds it. -->
+			<text class="axis-label" x="-35" y={labelY - 6} text-anchor="end">
+				<tspan x="-35">Mean</tspan>
+				<tspan x="-35" dy="13">turnout</tspan>
+			</text>
 
 			{#each dots as d (d.ct)}
 				<circle class="pt" cx={d.x} cy={d.y} r="2.6" />
@@ -143,7 +158,7 @@
 		</g>
 	</svg>
 
-	{#if active}
+	{#if active && showTip}
 		<div
 			class="tip {tipSide}"
 			style="left:{margin.left + active.x}px; top:{margin.top + active.y}px"
@@ -161,6 +176,10 @@
 </div>
 
 <style>
+	/* let the y-axis label sit outside the plot's left edge */
+	svg {
+		overflow: visible;
+	}
 	.scatter {
 		position: relative;
 		width: 100%;
