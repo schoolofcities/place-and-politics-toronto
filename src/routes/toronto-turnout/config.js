@@ -15,11 +15,12 @@ const TURNOUT_RAMP = ['#e3ebf5', '#6FC7EA', '#007FA3', '#1E3765'];
 export const TURNOUT_BREAKS = [0.35, 0.5, 0.65, 0.8];
 export const TURNOUT_COLOURS = quantize(piecewise(interpolateRgb, TURNOUT_RAMP), TURNOUT_BREAKS.length + 1);
 
+// label: the map's buttons; short: the hover readout (and the map's screen-reader name)
 export const TURNOUT_VIEWS = [
-	{ key: 'mean', field: 'mean_turnout', label: 'Mean turnout', subtitle: 'Average of the 2023 mayoral, 2025 provincial and 2025 federal election rates' },
-	{ key: 'municipal', field: 'municipal_turnout', label: '2023 mayoral', subtitle: '2023 mayoral by-election' },
-	{ key: 'provincial', field: 'provincial_turnout', label: '2025 provincial', subtitle: '2025 Ontario general election' },
-	{ key: 'federal', field: 'federal_turnout', label: '2025 federal', subtitle: '2025 federal general election' }
+	{ key: 'mean', field: 'mean_turnout', label: 'Mean voter turnout', short: 'Mean turnout', subtitle: 'Average of the 2023 mayoral, 2025 provincial and 2025 federal election rates' },
+	{ key: 'municipal', field: 'municipal_turnout', label: '2023 mayoral election turnout', short: '2023 mayoral', subtitle: '2023 mayoral by-election' },
+	{ key: 'provincial', field: 'provincial_turnout', label: '2025 provincial election turnout', short: '2025 provincial', subtitle: '2025 Ontario general election' },
+	{ key: 'federal', field: 'federal_turnout', label: '2025 federal election turnout', short: '2025 federal', subtitle: '2025 federal general election' }
 ];
 
 // ---- Component 1 (diverging, centred on zero) --------------------------------------
@@ -34,13 +35,14 @@ export const COMPONENT_HIGH_COLOUR = COMPONENT_COLOURS[COMPONENT_COLOURS.length 
 // Provisional interface labels for the two ends of Component 1, from the loadings in
 // 09_final_synthesis.ipynb (section 4). Editorial wording can change here in one place.
 export const COMPONENT_SIDES = {
+	// wording follows the paragraph describing the two sides in +page.svelte
 	low: {
-		label: 'More working class, immigrant-heavy, commuters',
-		long: 'more working-class, immigrant-heavy, commuter neighbourhoods'
+		label: 'More trades and service jobs, long commutes, immigrant families',
+		long: 'neighbourhoods with more trades and service jobs, long commutes and immigrant families'
 	},
 	high: {
-		label: 'More professional, central, flexible workers',
-		long: 'more professional, central neighbourhoods with flexible workers'
+		label: 'More degrees and professional jobs, working from home',
+		long: 'neighbourhoods with more university degrees, professional jobs and working from home'
 	}
 };
 

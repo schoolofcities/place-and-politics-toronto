@@ -11,13 +11,25 @@
 	import MapLegend from './MapLegend.svelte';
 	import { tracts, meta, tractRows, explorerVariables, explorerGroups } from '../data.js';
 	import { CENSUS_COLOURS, NA_COLOUR, HATCH_COLOUR } from '../config.js';
-	import { variableFormat, fmtR, fmtTurnout } from '../format.js';
+	import { variableFormat, fmtR, fmtP, fmtTurnout } from '../format.js';
 	import { linearFit, quantileBreaks, spread } from '../stats.js';
 
 	export let initialField = 'block1_bachelors_or_higher_25_64_share';
 
 	let field = initialField;
 	let activeId = null; // tract highlighted on both the scatterplot and the map
+	// Line the details box's top up with the top of the map's first reference-layer button
+	// ("Former municipalities"): that sits 107px above the map's bottom (the stack's 43px offset,
+	// set below, plus three 20px buttons and two 2px gaps). Measured, since the map's height
+	// changes with width; only when map and scatterplot sit side by side.
+	const FIRST_BUTTON_FROM_BOTTOM = 43 + 3 * 20 + 2 * 2;
+	let mapColH = 0;
+	let scatterTopH = 0; // the stat line + scatterplot above the box
+	let pageW = 1000;
+	$: detailsTop = pageW > 800 ? Math.max(8, mapColH - FIRST_BUTTON_FROM_BOTTOM - scatterTopH) : 8;
+
+	// the highlighted tract's record, for the one details box under the scatterplot
+	$: activeRow = activeId == null ? null : tractRows.find((d) => d.ct === activeId) ?? null;
 
 	$: variable = explorerVariables.find((v) => v.field === field);
 	$: fmt = variableFormat(variable.format);
@@ -29,11 +41,15 @@
 	$: colors = spread(CENSUS_COLOURS, breaks.length + 1);
 
 	const nNoData = Object.keys(meta.no_data_tracts).length;
-	$: statText = fit ? `r = ${fmtR(fit.r)} · ${fit.n} tracts` : 'Not enough data';
+	$: statR = fit ? `r = ${fmtR(fit.r)}` : '';
+	// as on the social-geography page: r, p and the number of tracts, flagging non-significance
+	$: statRest = fit ? ` · ${fmtP(fit.p)} · ${fit.n} tracts${fit.p < 0.05 ? '' : ' · not significant'}` : 'Not enough data';
 	$: announce = fit
-		? `Showing ${variable.label} against mean turnout: correlation ${fmtR(fit.r)} across ${fit.n} tracts`
+		? `Showing ${variable.label} against mean turnout: correlation ${fmtR(fit.r)}, ${fmtP(fit.p)}, across ${fit.n} tracts${fit.p < 0.05 ? '' : ', not significant'}`
 		: '';
 </script>
+
+<svelte:window bind:innerWidth={pageW} />
 
 <div class="explorer">
 	<FigureTitle title="Neighbourhood characteristics and turnout" subtitle="Pick a characteristic to map it by census tract and compare it with mean turnout" />
@@ -55,7 +71,7 @@
 
 	<!-- the map is the larger panel, the scatterplot the smaller, as on the social-geography page -->
 	<div class="pair">
-		<div class="map-col">
+		<div class="map-col" bind:clientHeight={mapColH}>
 			<MapLegend
 				{colors}
 				{breaks}
@@ -73,16 +89,13 @@
 				{activeId}
 				on:hover={(e) => (activeId = e.detail)}
 				label="Map of {variable.label} by census tract in Toronto. Hover or tap a tract to see it on the scatterplot."
-				let:props
-			>
-				<div class="ct">Census tract {props.name}</div>
-				<div class="row big"><span class="k">{variable.label}</span><span class="v">{fmt.value(props[field])}</span></div>
-				<div class="row"><span class="k">Mean turnout</span><span class="v">{fmtTurnout(props.mean_turnout, 1)}</span></div>
-			</TractMap>
+				showReadout={false}
+			/>
 		</div>
 
 		<div class="scatter-col">
-			<p class="stat" aria-hidden="true"><strong>{statText}</strong></p>
+			<div bind:clientHeight={scatterTopH}>
+			<p class="stat" aria-hidden="true"><strong>{statR}</strong>{statRest}</p>
 			<ExplorerScatter
 				rows={tractRows}
 				xField={field}
@@ -92,7 +105,20 @@
 				xFromZero={variable.format === 'percent' || variable.format === 'km' || variable.format === 'density'}
 				{fit}
 				bind:activeId
+				showTip={false}
+				labelOutside={pageW > 800}
+				maxHeight={pageW > 800 ? 480 : 400}
 			/>
+			</div>
+			<!-- one details box for both charts, under the scatterplot: whichever tract is hovered
+				 on the map or the scatterplot; nothing shown until one is -->
+			{#if activeRow}
+				<div class="tract-details" aria-hidden="true" style:margin-top="{detailsTop}px">
+					<div class="d-ct">Census tract {activeRow.name}</div>
+					<div class="d-row"><span>{variable.label}</span><b>{fmt.value(activeRow[field])}</b></div>
+					<div class="d-row"><span>Mean turnout</span><b>{fmtTurnout(activeRow.mean_turnout, 1)}</b></div>
+				</div>
+			{/if}
 		</div>
 	</div>
 
@@ -104,6 +130,14 @@
 </div>
 
 <style>
+	/* this map's reference-layer buttons sit 16px lower than on the other maps (TractMap.svelte
+	   puts them at bottom: 59px), on phones TractMap moves them below
+	   the map, so this only applies above 600px */
+	@media (min-width: 601px) {
+		:global(.explorer .map-wrap .boundary-control) {
+			bottom: 43px;
+		}
+	}
 	.explorer {
 		font-family: OpenSans, sans-serif;
 		color: var(--brandGray90);
@@ -140,16 +174,49 @@
 		outline: 2px solid var(--linkHover);
 		outline-offset: 1px;
 	}
+	/* as on the social-geography page: "r = …" bold black 14px, the rest 13px dark grey */
 	.stat {
 		margin: 0 0 6px;
-		font-size: 14px;
+		font-size: 13px;
+		line-height: 1.45;
+		color: var(--brandGray80);
 		text-align: center;
 		font-variant-numeric: tabular-nums;
 	}
 	.stat strong {
 		font-family: OpenSansBold, sans-serif;
 		font-weight: normal;
-		font-size: 16px;
+		font-size: 14px;
+		color: black;
+	}
+
+	/* the one details box, under the scatterplot. (Not called `.details`: that's a global brand
+	   component in global-styles.css, with a rounded corner and large margins.) */
+	.tract-details {
+		box-sizing: border-box;
+		padding: 6px 10px;
+		border: 1px solid var(--brandGray);
+		background: white;
+		font-size: 12px;
+		line-height: 1.4;
+		font-variant-numeric: tabular-nums;
+	}
+	.d-ct {
+		font-size: 11px;
+		color: var(--brandGray60);
+	}
+	.d-row {
+		display: flex;
+		justify-content: space-between;
+		align-items: baseline;
+		gap: 10px;
+	}
+	.d-row span {
+		color: var(--brandGray70);
+	}
+	.d-row b {
+		font-family: OpenSansBold, sans-serif;
+		font-weight: normal;
 	}
 
 	.pair {
@@ -161,8 +228,13 @@
 	:global(.explorer .legend) {
 		margin-bottom: 8px;
 	}
+	/* the body text's width: sized and padded like the global `.text` column (694px max, 25px
+	   side padding), so its edges line up with the paragraphs */
 	.foot {
-		margin: 10px 0 0;
+		max-width: 694px;
+		width: calc(100% - 50px);
+		padding: 0 25px;
+		margin: 10px auto 0;
 		font-size: 11px;
 		line-height: 1.45;
 		color: var(--brandGray60);
@@ -182,6 +254,13 @@
 	@media (max-width: 800px) {
 		.pair {
 			grid-template-columns: minmax(0, 1fr);
+		}
+		/* stacked under the map: the scatterplot (with its stat line and details box) at most
+		   400px wide, centred; ExplorerScatter caps its height at 400px here too */
+		.scatter-col {
+			width: 100%;
+			max-width: 400px;
+			margin: 0 auto;
 		}
 	}
 </style>

@@ -26,7 +26,7 @@
 		font-family: OpenSans, sans-serif;
 		font-size: 14px;
 		line-height: 1.4;
-		color: #555;
-		margin: 4px 0 0;
+		color: var(--brandGray90);
+		margin: 9px 0 0;
 	}
 </style>

@@ -1,311 +1,138 @@
 <script>
-	// Diverging bar chart of what Component 1 is made of: every variable that matters to the model
-	// overall (VIP > 1), ranked from the strongest association with higher turnout (top) to the
-	// strongest association with lower turnout (bottom). Bars run left (negative loading) or right
-	// (positive loading) from a zero line; each label sits on the empty half opposite its bar, next
-	// to the zero line, so names stay readable at phone width without a label column.
-	// Built in HTML/CSS rather than SVG so long labels wrap naturally.
+	// What the first component is made of, as two ranked lists side by side: the 10
+	// characteristics most strongly tied to its higher-turnout side and the 10 most strongly tied
+	// to its lower-turnout side (largest positive and largest negative loadings on component 1,
+	// from the VIP > 1 set in the data). Each row has a small inline bar and its value; both
+	// lists share one scale, so bars compare across them. Stacks into one column on phones.
 	//
-	// Wording: a "loading" is how strongly a variable moves with the Component 1 score, and that score
-	// moves with turnout, so the chart calls it the strength of association with turnout.
+	// Wording: a "loading" is how strongly a variable moves with the component 1 score, and that
+	// score moves with turnout, so the chart calls it the strength of association with turnout.
 
 	import FigureTitle from './FigureTitle.svelte';
-	import { ingredientRows, ingredientMeta, meta } from '../data.js';
+	import { ingredientRows, meta } from '../data.js';
 	import { COMPONENT_LOW_COLOUR, COMPONENT_HIGH_COLOUR } from '../config.js';
 	import { fmtLoading, fmtPct } from '../format.js';
 
-	const AXIS_MAX = 0.25; // each half of the chart spans 0 to this loading
-	const TICKS = [-0.2, -0.1, 0, 0.1, 0.2];
+	const PER_SIDE = 10;
+	const byLoading = [...ingredientRows].sort((a, b) => b.loading - a.loading);
+	const highRows = byLoading.filter((d) => d.loading > 0).slice(0, PER_SIDE); // strongest first
+	const lowRows = byLoading
+		.filter((d) => d.loading < 0)
+		.slice(-PER_SIDE)
+		.reverse(); // strongest (most negative) first
+	// one scale for both lists: the longest bar is the strongest loading on either side
+	const maxAbs = Math.max(...[...highRows, ...lowRows].map((d) => Math.abs(d.loading)));
 
-	const rows = ingredientRows.map((d) => ({ ...d, side: d.loading >= 0 ? 'high' : 'low' }));
+	const lists = [
+		{ key: 'high', heading: 'Where turnout tends to be higher', color: COMPONENT_HIGH_COLOUR, rows: highRows },
+		{ key: 'low', heading: 'Where turnout tends to be lower', color: COMPONENT_LOW_COLOUR, rows: lowRows }
+	];
+
 	const c1 = meta.component_1;
-
-	let figure;
-	let active = null; // the row whose details are open
-	let tipStyle = '';
-
-	function open(row, event) {
-		active = row.variable;
-		const rowBox = event.currentTarget.getBoundingClientRect();
-		const top = rowBox.bottom - figure.getBoundingClientRect().top + 4; // just under the row
-		// keep the box inside the figure: centred, clamped to both edges
-		const width = Math.min(260, figure.clientWidth - 8);
-		const left = Math.max(0, Math.min(figure.clientWidth - width, figure.clientWidth / 2 - width / 2));
-		tipStyle = `top:${top}px; left:${left}px; width:${width}px`;
-	}
-	function close(row) {
-		if (active === row.variable) active = null;
-	}
-	function toggle(row, event) {
-		// a tap on touch screens, where there is no hover
-		if (active === row.variable) active = null;
-		else open(row, event);
-	}
-	const describe = (d) =>
-		`${d.label}: association strength with ${d.loading >= 0 ? 'higher' : 'lower'} turnout ${fmtLoading(d.loading)}, on a unitless scale where 0 is no association`;
-
-	$: activeRow = rows.find((d) => d.variable === active);
 </script>
 
-<figure class="loading-chart" bind:this={figure}>
-	<FigureTitle title="What Component 1 is made of" subtitle="Neighbourhood characteristics ranked by their association with turnout" />
+<figure class="loading-chart">
+	<FigureTitle title="Neighbourhood characteristics ranked by their association with turnout" />
 
-	<div class="heads" aria-hidden="true">
-		<div class="head head-low"><i style:background={COMPONENT_LOW_COLOUR}></i>Associated with lower turnout</div>
-		<div class="head head-high">Associated with higher turnout<i style:background={COMPONENT_HIGH_COLOUR}></i></div>
-	</div>
-
-	<ul class="rows" aria-label="Neighbourhood characteristics ranked by their association with turnout">
-		<!-- faint guide lines at each axis tick; the zero line is the heavier one -->
-		{#each TICKS as t}
-			<li class="gridline" class:zero={t === 0} style:left="{50 + (t / AXIS_MAX) * 50}%" aria-hidden="true"></li>
-		{/each}
-		{#each rows as d (d.variable)}
-			<li class="item">
-				<button
-					type="button"
-					class="row {d.side}"
-					class:active={active === d.variable}
-					aria-label={describe(d)}
-					aria-describedby={active === d.variable ? 'loading-tip' : undefined}
-					on:mouseenter={(e) => open(d, e)}
-					on:mouseleave={() => close(d)}
-					on:focus={(e) => open(d, e)}
-					on:blur={() => close(d)}
-					on:click={(e) => toggle(d, e)}
-					on:keydown={(e) => e.key === 'Escape' && (active = null)}
-				>
-					<span class="half left">
-						{#if d.side === 'low'}
-							<span class="bar" style:width="{(Math.abs(d.loading) / AXIS_MAX) * 100}%" style:background={COMPONENT_LOW_COLOUR}></span>
-						{:else}
-							<span class="label">{d.label}</span>
-						{/if}
-					</span>
-					<span class="half right">
-						{#if d.side === 'high'}
-							<span class="bar" style:width="{(Math.abs(d.loading) / AXIS_MAX) * 100}%" style:background={COMPONENT_HIGH_COLOUR}></span>
-						{:else}
-							<span class="label">{d.label}</span>
-						{/if}
-					</span>
-				</button>
-			</li>
-		{/each}
-	</ul>
-
-	<div class="axis" aria-hidden="true">
-		{#each TICKS as t}
-			<span style:left="{50 + (t / AXIS_MAX) * 50}%">{t === 0 ? '0' : fmtLoading(t)}</span>
+	<div class="lists">
+		{#each lists as list (list.key)}
+			<section class="list" aria-labelledby="loading-{list.key}">
+				<h4 class="list-head" id="loading-{list.key}" style:color={list.color}>{list.heading}</h4>
+				<ol>
+					{#each list.rows as d, i (d.variable)}
+						<li>
+							<span class="rank">{i + 1}</span>
+							<span class="name">{d.label}</span>
+							<span class="bar-cell" aria-hidden="true">
+								<span class="bar" style:width="{(Math.abs(d.loading) / maxAbs) * 100}%" style:background={list.color}></span>
+							</span>
+							<span class="val">{fmtLoading(d.loading)}</span>
+						</li>
+					{/each}
+				</ol>
+			</section>
 		{/each}
 	</div>
-	<div class="axis-title" aria-hidden="true">
-		<b>Association strength</b>
-		<span>a unitless score: 0 means no link, and the longer the bar, the stronger the link</span>
-	</div>
-
-	{#if activeRow}
-		<div class="tip" id="loading-tip" role="tooltip" style={tipStyle}>
-			<div class="tip-name">{activeRow.plain_name}</div>
-			<div class="tip-row"><span>Association strength</span><b>{fmtLoading(activeRow.loading)}</b></div>
-			<div class="tip-unit">Unitless score; 0 = no association with turnout</div>
-		</div>
-	{/if}
 
 	<figcaption class="note">
-		Each bar shows how strongly a neighbourhood characteristic is tied to the main pattern behind Toronto's turnout differences (the map above), as a unitless score where 0 means no association. Bars pointing right are characteristics more common where turnout tends to be higher; bars pointing left, where it tends to be lower. Shown are the {rows.length} of {ingredientMeta.nModelVariables} characteristics that matter most to the Partial Least Squares model. For reference, tracts on the higher-turnout side of the pattern average {fmtPct(c1.mean_turnout_score_above_0)} turnout, and those on the lower side {fmtPct(c1.mean_turnout_score_below_0)}. These are associations between places, not evidence that any one characteristic changes whether people vote.
+		Each statistic shows how strongly a neighbourhood characteristic is tied to the main pattern behind Toronto's turnout differences (the map above), as a unitless score where 0 means no association; both lists share one scale. Shown are the {PER_SIDE} most strongly tied to each side from 70 characteristics that matter most to the Partial Least Squares model. For reference, tracts on the higher-turnout side of the pattern average {fmtPct(c1.mean_turnout_score_above_0)} turnout, and those on the lower side {fmtPct(c1.mean_turnout_score_below_0)}. These are associations between places, not evidence that any one characteristic changes whether people vote.
 	</figcaption>
 </figure>
 
 <style>
 	.loading-chart {
-		position: relative;
 		margin: 0;
 		font-family: OpenSans, sans-serif;
 		color: var(--brandGray90);
 	}
 
-	/* the two headings sit over their halves of the chart */
-	.heads {
+	.lists {
 		display: grid;
-		grid-template-columns: 1fr 1fr;
-		gap: 8px;
-		margin-bottom: 8px;
+		grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+		gap: 28px;
+		margin-top: 18px; /* room below the chart's title */
 	}
-	.head {
-		display: flex;
-		align-items: center;
-		gap: 6px;
-		min-width: 0;
-		padding: 0 6px;
+	.list-head {
+		margin: 0 0 6px;
+		padding-bottom: 4px;
+		border-bottom: 1px solid var(--brandGray);
 		font-family: OpenSansBold, sans-serif;
+		font-weight: normal;
 		font-size: 13px;
-		line-height: 1.25;
+		line-height: 1.3;
+		text-align: center;
 	}
-	.head-low {
-		justify-content: flex-start;
-	}
-	.head-high {
-		justify-content: flex-end;
-		text-align: right;
-	}
-	.head i {
-		width: 10px;
-		height: 10px;
-		flex: none;
-	}
-
-	.rows {
-		position: relative;
+	ol {
 		list-style: none;
 		margin: 0;
 		padding: 0;
 	}
-	/* guide lines behind the bars: faint at each tick, dark at zero */
-	.gridline {
-		position: absolute;
-		top: 0;
-		bottom: 0;
-		width: 1px;
-		background: rgba(0, 0, 0, 0.1);
-		pointer-events: none;
-	}
-	.gridline.zero {
-		background: var(--brandGray90);
-		z-index: 1;
-	}
-	/* each row is a button, so it is reachable and openable from the keyboard */
-	.row {
+	/* rank | name | bar | value */
+	li {
 		display: grid;
-		grid-template-columns: 1fr 1fr;
+		grid-template-columns: 16px minmax(0, 1fr) 70px 38px;
 		align-items: center;
-		width: 100%;
-		min-height: 26px;
-		margin: 0;
-		padding: 0;
-		border: 0;
-		background: none;
-		font: inherit;
-		color: inherit;
-		text-align: inherit;
-		cursor: default;
-		position: relative;
+		gap: 8px;
+		padding: 3px 0;
+		border-bottom: 1px solid #f2f2f2;
+		font-size: 12px;
+		line-height: 1.3;
 	}
-	.row:hover,
-	.row.active {
-		background: rgba(30, 55, 101, 0.07);
+	.rank {
+		color: var(--brandGray60);
+		text-align: right;
+		font-variant-numeric: tabular-nums;
 	}
-	.row:focus-visible {
-		outline: 2px solid var(--linkHover);
-		outline-offset: -2px;
+	.name {
+		color: var(--brandGray90);
 	}
-
-	.half {
-		display: flex;
-		align-items: center;
-		gap: 5px;
-		min-width: 0;
-		padding: 2px 0;
-	}
-	.half.left {
-		justify-content: flex-end;
-		padding-right: 1px;
-	}
-	.half.right {
-		justify-content: flex-start;
-		padding-left: 1px;
+	.bar-cell {
+		display: block;
+		height: 8px;
+		background: #f2f2f2;
 	}
 	.bar {
 		display: block;
-		height: 16px;
-		flex: none;
+		height: 100%;
 	}
-	.label {
-		font-size: 12.5px;
-		line-height: 1.25;
-		padding: 0 7px;
-	}
-	.half.left .label {
+	.val {
 		text-align: right;
-	}
-
-	.axis {
-		position: relative;
-		height: 16px;
-		margin-top: 2px;
-		font-size: 10.5px;
 		font-variant-numeric: tabular-nums;
-		color: var(--brandGray60);
-	}
-	.axis span {
-		position: absolute;
-		transform: translateX(-50%);
-		white-space: nowrap;
-	}
-	.axis-title {
-		display: flex;
-		flex-direction: column;
-		align-items: center;
-		gap: 1px;
-		text-align: center;
-		font-size: 11px;
-		line-height: 1.35;
-		color: var(--brandGray60);
-	}
-	.axis-title b {
-		font-family: OpenSansBold, sans-serif;
-		font-weight: normal;
-		font-size: 12px;
-		color: var(--brandGray80);
-	}
-
-	.tip {
-		position: absolute;
-		z-index: 5;
-		box-sizing: border-box;
-		background: rgba(255, 255, 255, 0.97);
-		border: 1px solid var(--brandGray);
-		padding: 8px 10px;
-		font-size: 12px;
-		pointer-events: none;
-	}
-	.tip-name {
-		font-family: OpenSansBold, sans-serif;
-		margin-bottom: 3px;
-	}
-	.tip-row {
-		display: flex;
-		justify-content: space-between;
-		gap: 12px;
-		font-variant-numeric: tabular-nums;
-	}
-	.tip-unit {
-		margin-top: 3px;
-		font-size: 11px;
-		color: var(--brandGray60);
-	}
-	.tip-row span {
 		color: var(--brandGray70);
-	}
-	.tip-row b {
-		font-family: OpenSansBold, sans-serif;
-		font-weight: normal;
 	}
 
 	.note {
-		margin: 10px 0 0;
+		margin: 20px 0 0;
 		font-size: 11px;
 		line-height: 1.45;
 		color: var(--brandGray60);
 	}
 
+	/* phones: the two lists one above the other */
 	@media (max-width: 600px) {
-		.label {
-			font-size: 12px;
-			padding: 0 5px;
-		}
-		.head {
-			font-size: 12px;
+		.lists {
+			grid-template-columns: minmax(0, 1fr);
+			gap: 18px;
 		}
 	}
 </style>
