@@ -15,6 +15,7 @@
 		zack: { '@type': 'Person', name: 'Zack Taylor', url: 'https://zacktaylorwestern.wordpress.com/' },
 		jeff: { '@type': 'Person', name: 'Jeff Allen', url: 'https://jamaps.github.io/' },
 		aniket: { '@type': 'Person', name: 'Aniket Kali', url: 'https://www.linkedin.com/in/aniket-kali-8a8b9921b/' },
+		kaiwen: { '@type': 'Person', name: 'Kaiwen Yang', url: 'https://kaiwenyangut.github.io' },
 	};
 	const DEFAULT_AUTHORS = ['zack', 'jeff'];
 	const authorsOf = (post) => (post.authors ?? DEFAULT_AUTHORS).map((key) => people[key]);

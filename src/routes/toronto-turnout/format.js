@@ -34,8 +34,6 @@ export const fmtLoading = (v) => signed(v, `${v > 0 ? '+' : ''}${nf2.format(v)}`
 
 export const fmtR = (r) => signed(r, `${r > 0 ? '+' : ''}${nf2.format(r)}`);
 
-export const fmtNumber1 = (v) => nf1.format(v);
-
 /**
  * Formatter set for one explorer variable, from its `format`:
  * "percent" (0-1 share), "currency" (CAD), "km", "density" (people per km2),

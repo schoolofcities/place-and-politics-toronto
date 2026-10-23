@@ -329,12 +329,6 @@
 	.readout :global(.row.big .v) {
 		font-size: 17px;
 	}
-	.readout :global(.row.dim .k),
-	.readout :global(.row.dim .v) {
-		color: var(--brandGray60);
-		font-family: OpenSans, sans-serif;
-		font-size: 11px;
-	}
 
 	/* reference-layer control: white buttons stacked vertically, 2px apart (the chosen one at full
 	   strength, the others faded), as on the five-torontos maps */

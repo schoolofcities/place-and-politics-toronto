@@ -11,6 +11,7 @@
 	import p5 from '$assets/p5.png';
 	import p6 from '$assets/p6.png';
 	import p7 from '$assets/p7.png';
+	import p8 from '$assets/p8.png';
 
 </script>
 
@@ -160,6 +161,19 @@
 					<p>
 						<span class="date">Part 7 - October 22, 2026</span><br>
 						<u>The five Torontos</u>
+					</p>
+				</div>
+			</div>
+		</a>
+
+		<a href="{base}/toronto-turnout">
+			<div class="item">
+				<div class="number" style="background-image: url({p8});">
+				</div>
+				<div id="part">
+					<p>
+						<span class="date">Part 8 - October 26, 2026</span><br>
+						<u>One city, uneven participation</u>
 					</p>
 				</div>
 			</div>

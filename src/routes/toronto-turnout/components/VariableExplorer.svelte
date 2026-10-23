@@ -7,16 +7,13 @@
 
 	import ExplorerScatter from './ExplorerScatter.svelte';
 	import TractMap from './TractMap.svelte';
-	import FigureTitle from './FigureTitle.svelte';
 	import MapLegend from './MapLegend.svelte';
 	import { tracts, meta, tractRows, explorerVariables, explorerGroups } from '../data.js';
 	import { CENSUS_COLOURS, NA_COLOUR, HATCH_COLOUR } from '../config.js';
 	import { variableFormat, fmtR, fmtP, fmtTurnout } from '../format.js';
 	import { linearFit, quantileBreaks, spread } from '../stats.js';
 
-	export let initialField = 'block1_bachelors_or_higher_25_64_share';
-
-	let field = initialField;
+	let field = 'block1_bachelors_or_higher_25_64_share';
 	let activeId = null; // tract highlighted on both the scatterplot and the map
 	// Line the details box's top up with the top of the map's first reference-layer button
 	// ("Former municipalities"): that sits 107px above the map's bottom (the stack's 43px offset,
@@ -52,8 +49,6 @@
 <svelte:window bind:innerWidth={pageW} />
 
 <div class="explorer">
-	<FigureTitle title="Neighbourhood characteristics and turnout" subtitle="Pick a characteristic to map it by census tract and compare it with mean turnout" />
-
 	<div class="controls">
 		<label class="field">
 			<span>Neighbourhood characteristic</span>
@@ -95,20 +90,19 @@
 
 		<div class="scatter-col">
 			<div bind:clientHeight={scatterTopH}>
-			<p class="stat" aria-hidden="true"><strong>{statR}</strong>{statRest}</p>
-			<ExplorerScatter
-				rows={tractRows}
-				xField={field}
-				xLabel={variable.label}
-				xAxisFormat={fmt.axis}
-				xValueFormat={fmt.value}
-				xFromZero={variable.format === 'percent' || variable.format === 'km' || variable.format === 'density'}
-				{fit}
-				bind:activeId
-				showTip={false}
-				labelOutside={pageW > 800}
-				maxHeight={pageW > 800 ? 480 : 400}
-			/>
+				<p class="stat" aria-hidden="true"><strong>{statR}</strong>{statRest}</p>
+				<ExplorerScatter
+					rows={tractRows}
+					xField={field}
+					xLabel={variable.label}
+					xAxisFormat={fmt.axis}
+					xValueFormat={fmt.value}
+					xFromZero={variable.format === 'percent' || variable.format === 'km' || variable.format === 'density'}
+					{fit}
+					bind:activeId
+					labelOutside={pageW > 800}
+					maxHeight={pageW > 800 ? 480 : 400}
+				/>
 			</div>
 			<!-- one details box for both charts, under the scatterplot: whichever tract is hovered
 				 on the map or the scatterplot; nothing shown until one is -->

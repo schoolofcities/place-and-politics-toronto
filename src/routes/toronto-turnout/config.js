@@ -1,7 +1,7 @@
 // Presentation settings for the /toronto-turnout story: palettes, class breaks and the
-// provisional reader-facing labels. Everything data-derived (field mapping, model figures,
-// loadings) comes from $data/toronto-turnout, written by
-// analysis/toronto_election_turnout/09_final_synthesis.ipynb (section 10).
+// reader-facing labels. Everything data-derived (field mapping, model figures, loadings) comes
+// from $data/toronto-turnout, written by analysis/toronto_election_turnout/09_final_synthesis.ipynb
+// (section 10).
 
 import { piecewise, interpolateRgb, quantize, schemeRdYlBu } from 'd3';
 
@@ -17,10 +17,10 @@ export const TURNOUT_COLOURS = quantize(piecewise(interpolateRgb, TURNOUT_RAMP),
 
 // label: the map's buttons; short: the hover readout (and the map's screen-reader name)
 export const TURNOUT_VIEWS = [
-	{ key: 'mean', field: 'mean_turnout', label: 'Mean voter turnout', short: 'Mean turnout', subtitle: 'Average of the 2023 mayoral, 2025 provincial and 2025 federal election rates' },
-	{ key: 'municipal', field: 'municipal_turnout', label: '2023 mayoral election turnout', short: '2023 mayoral', subtitle: '2023 mayoral by-election' },
-	{ key: 'provincial', field: 'provincial_turnout', label: '2025 provincial election turnout', short: '2025 provincial', subtitle: '2025 Ontario general election' },
-	{ key: 'federal', field: 'federal_turnout', label: '2025 federal election turnout', short: '2025 federal', subtitle: '2025 federal general election' }
+	{ key: 'mean', field: 'mean_turnout', label: 'Mean voter turnout', short: 'Mean turnout' },
+	{ key: 'municipal', field: 'municipal_turnout', label: '2023 mayoral election turnout', short: '2023 mayoral' },
+	{ key: 'provincial', field: 'provincial_turnout', label: '2025 provincial election turnout', short: '2025 provincial' },
+	{ key: 'federal', field: 'federal_turnout', label: '2025 federal election turnout', short: '2025 federal' }
 ];
 
 // ---- Component 1 (diverging, centred on zero) --------------------------------------
@@ -32,10 +32,10 @@ export const COMPONENT_COLOURS = schemeRdYlBu[COMPONENT_BREAKS.length + 1];
 export const COMPONENT_LOW_COLOUR = COMPONENT_COLOURS[0];
 export const COMPONENT_HIGH_COLOUR = COMPONENT_COLOURS[COMPONENT_COLOURS.length - 1];
 
-// Provisional interface labels for the two ends of Component 1, from the loadings in
-// 09_final_synthesis.ipynb (section 4). Editorial wording can change here in one place.
+// Labels for the two ends of Component 1, from the loadings in 09_final_synthesis.ipynb
+// (section 4); wording follows the paragraph describing the two sides in +page.svelte.
+// label: the legend's end captions; long: the legend's screen-reader description
 export const COMPONENT_SIDES = {
-	// wording follows the paragraph describing the two sides in +page.svelte
 	low: {
 		label: 'More trades and service jobs, long commutes, immigrant families',
 		long: 'neighbourhoods with more trades and service jobs, long commutes and immigrant families'

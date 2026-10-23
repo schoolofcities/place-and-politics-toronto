@@ -76,7 +76,7 @@
 	</TractMap>
 
 	<figcaption class="map-note">
-		Colours show each tract's score on the first component, the main pattern found by Partial Least Squares (PLS) regression when relating 70 neighbourhood characteristics to turnout; 0 is the average tract. Across tracts, higher scores go with higher mean turnout (r = {fmtR(r)}), which describes places, not individual voters. Side labels are provisional.
+		Colours show each tract's score on the first component, the main pattern found by Partial Least Squares (PLS) regression when relating 70 neighbourhood characteristics to turnout; 0 is the average tract. Across tracts, higher scores go with higher mean turnout (r = {fmtR(r)}), which describes places, not individual voters.
 	</figcaption>
 </figure>
 

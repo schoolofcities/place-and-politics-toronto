@@ -12,11 +12,8 @@
 	import { TURNOUT_VIEWS, TURNOUT_BREAKS, TURNOUT_COLOURS, NA_COLOUR, HATCH_COLOUR } from '../config.js';
 	import { fmtTurnout, fmtPct } from '../format.js';
 
-	export let initialView = 'mean';
-
-	let viewKey = initialView;
-	// the legend's width: fixed at about what the button row measured with its earlier, shorter
-	// labels (the longer labels made the row, and a legend matched to it, much wider)
+	let viewKey = 'mean';
+	// the legend's width, fixed rather than matched to the button row (whose labels are longer)
 	const LEGEND_WIDTH = 440;
 	// share the width of one legend class, so the post's other legends can match it
 	legendClassWidth.set(LEGEND_WIDTH / TURNOUT_COLOURS.length);
@@ -173,7 +170,6 @@
 	:global(.turnout-map .legend-row) {
 		justify-content: center;
 	}
-	/* the legend's width (same as the buttons'): "No data" at its left edge, the hint at its right */
 	/* compact hover readout (see the markup): one 11px size throughout, regular weight except
 	   the row for the measure on the map */
 	:global(.turnout-map .readout) {

@@ -5,7 +5,6 @@
 	// tracts in order of the x variable. `activeId` is two-way so a map can highlight the same
 	// tract. Dot positions are computed in script and drawn as plain SVG, as on the other charts.
 
-	import { createEventDispatcher } from 'svelte';
 	import { scaleLinear, extent } from 'd3';
 	import { fmtTurnout, fmtPct } from '../format.js';
 
@@ -17,14 +16,12 @@
 	export let xFromZero = false; // start the x axis at 0 (shares) rather than at the data minimum
 	export let fit = null; // { r, slope, intercept }
 	export let activeId = null;
-	export let showTip = true; // false: no tooltip by the dot (the page shows the details elsewhere)
 	// true: the y-axis label sits outside the svg's left edge (in the gap beside a map), so the plot
 	// keeps its full width; false (e.g. stacked on a phone, where it would be cut off): it sits
 	// inside, with a wider left margin
 	export let labelOutside = true;
 	export let maxHeight = 480; // px
 
-	const dispatch = createEventDispatcher();
 	const Y_FIELD = 'mean_turnout';
 	$: margin = { top: 10, right: 24, bottom: 46, left: labelOutside ? 50 : 92 };
 	const HIT_RADIUS = 14;
@@ -81,7 +78,6 @@
 	function pick(id) {
 		if (id === activeId) return;
 		activeId = id;
-		dispatch('select', id);
 	}
 	function onPointer(event) {
 		pick(nearest(event)?.ct ?? null);
@@ -101,8 +97,6 @@
 		pick(byX[next]?.ct ?? null);
 	}
 
-	// right-hand dots flip the tooltip to the left of the dot
-	$: tipSide = active && active.x > innerW * 0.55 ? 'left' : 'right';
 	$: description = `Scatter plot of mean turnout against ${xLabel} for ${points.length} census tracts${fit ? `, correlation ${fit.r.toFixed(2)}` : ''}. Use the left and right arrow keys to move between tracts.`;
 </script>
 
@@ -158,18 +152,6 @@
 		</g>
 	</svg>
 
-	{#if active && showTip}
-		<div
-			class="tip {tipSide}"
-			style="left:{margin.left + active.x}px; top:{margin.top + active.y}px"
-			aria-hidden="true"
-		>
-			<div class="ct">Census tract {active.name}</div>
-			<div class="row"><span>{xLabel}</span><b>{xValueFormat(active.xv)}</b></div>
-			<div class="row"><span>Mean turnout</span><b>{fmtTurnout(active.yv, 1)}</b></div>
-		</div>
-	{/if}
-
 	<p class="sr-only" aria-live="polite">
 		{active ? `Census tract ${active.name}: ${xLabel} ${xValueFormat(active.xv)}, mean turnout ${fmtTurnout(active.yv, 1)}` : ''}
 	</p>
@@ -223,40 +205,6 @@
 	.fit {
 		stroke: black;
 		stroke-width: 2;
-	}
-
-	.tip {
-		position: absolute;
-		z-index: 3;
-		pointer-events: none;
-		min-width: 150px;
-		max-width: 230px;
-		background: rgba(255, 255, 255, 0.95);
-		border: 1px solid var(--brandGray);
-		padding: 6px 9px;
-		font-size: 12px;
-		color: var(--brandGray90);
-		transform: translate(12px, -50%);
-	}
-	.tip.left {
-		transform: translate(calc(-100% - 12px), -50%);
-	}
-	.tip .ct {
-		color: var(--brandGray60);
-		font-size: 11px;
-	}
-	.tip .row {
-		display: flex;
-		justify-content: space-between;
-		gap: 10px;
-		font-variant-numeric: tabular-nums;
-	}
-	.tip .row span {
-		color: var(--brandGray70);
-	}
-	.tip .row b {
-		font-family: OpenSansBold, sans-serif;
-		font-weight: normal;
 	}
 
 	.sr-only {

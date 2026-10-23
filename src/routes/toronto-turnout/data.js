@@ -16,7 +16,6 @@ export const tractRows = tracts.features.map((f) => f.properties);
  * (top) to the largest negative one (bottom), as the notebook wrote them.
  */
 export const ingredientRows = loadings.variables;
-export const ingredientMeta = { minVip: loadings.min_vip, nModelVariables: loadings.n_variables_in_model };
 
 /** Explorer variables (all of the model's predictors), grouped for the dropdown. */
 const variablesByGroup = (family) => meta.explorer_variables.filter((v) => v.group === family);

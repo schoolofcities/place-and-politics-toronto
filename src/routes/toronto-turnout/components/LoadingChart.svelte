@@ -55,7 +55,7 @@
 	</div>
 
 	<figcaption class="note">
-		Each statistic shows how strongly a neighbourhood characteristic is tied to the main pattern behind Toronto's turnout differences (the map above), as a unitless score where 0 means no association; both lists share one scale. Shown are the {PER_SIDE} most strongly tied to each side from 70 characteristics that matter most to the Partial Least Squares model. For reference, tracts on the higher-turnout side of the pattern average {fmtPct(c1.mean_turnout_score_above_0)} turnout, and those on the lower side {fmtPct(c1.mean_turnout_score_below_0)}. These are associations between places, not evidence that any one characteristic changes whether people vote.
+		Each statistic shows how strongly a neighbourhood characteristic is tied to the main pattern behind Toronto's turnout differences (the map above), as a unitless score where 0 means no association; both lists share one scale. Shown are the {PER_SIDE} most strongly tied to each side, from the {ingredientRows.length} of the model's {meta.model.n_predictors} characteristics that matter most to the Partial Least Squares model. For reference, tracts on the higher-turnout side of the pattern average {fmtPct(c1.mean_turnout_score_above_0)} turnout, and those on the lower side {fmtPct(c1.mean_turnout_score_below_0)}. These are associations between places, not evidence that any one characteristic changes whether people vote.
 	</figcaption>
 </figure>
 

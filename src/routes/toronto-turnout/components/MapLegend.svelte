@@ -10,8 +10,6 @@
 	export let title = '';
 	export let leftLabel = '';
 	export let rightLabel = '';
-	export let leftColor = null; // small swatch dot beside each end caption
-	export let rightColor = null;
 	export let showNoData = true;
 	export let naColor = '#e6e6e1';
 	export let hatchColor = '#c4c4bc';
@@ -20,8 +18,7 @@
 	export let centerLabel = ''; // a label at the bar's midpoint, above it (with endsAbove), e.g. "The average tract"
 	export let centerTick = ''; // an extra tick number at the bar's midpoint, e.g. "0"
 	export let endsAbove = false; // end captions above the bar (default: below the tick numbers)
-	export let titleBelow = false; // title under the bar (default: above it)
-	export let maxWidth = '420px'; // any CSS width; the diverging scale uses '100%' so its two captions have room
+	export let maxWidth = '420px'; // any CSS width
 </script>
 
 <div
@@ -31,17 +28,17 @@
 	style:--legend-max={maxWidth}
 	style:--end-max={endCells ? `${(endCells / colors.length) * 100}%` : null}
 >
-	{#if title && !titleBelow}<div class="legend-title">{title}</div>{/if}
+	{#if title}<div class="legend-title">{title}</div>{/if}
 	<div class="legend-row">
 		<div class="legend-scale">
 			{#if (leftLabel || rightLabel) && endsAbove}
 				<div class="legend-ends above">
 					<span class="end end-left">
-						{#if leftColor}<i style:background={leftColor}></i>{/if}{leftLabel}
+						{leftLabel}
 					</span>
 					{#if centerLabel}<span class="center-label">{centerLabel}</span>{/if}
 					<span class="end end-right">
-						{rightLabel}{#if rightColor}<i style:background={rightColor}></i>{/if}
+						{rightLabel}
 					</span>
 				</div>
 			{/if}
@@ -59,10 +56,10 @@
 			{#if (leftLabel || rightLabel) && !endsAbove}
 				<div class="legend-ends">
 					<span class="end end-left">
-						{#if leftColor}<i style:background={leftColor}></i>{/if}{leftLabel}
+						{leftLabel}
 					</span>
 					<span class="end end-right">
-						{rightLabel}{#if rightColor}<i style:background={rightColor}></i>{/if}
+						{rightLabel}
 					</span>
 				</div>
 			{/if}
@@ -71,7 +68,6 @@
 			<div class="legend-na"><span class="swatch-na" style:--na={naColor} style:--hatch={hatchColor}></span>No data</div>
 		{/if}
 	</div>
-	{#if title && titleBelow}<div class="legend-title below">{title}</div>{/if}
 </div>
 
 <style>
@@ -151,9 +147,6 @@
 		height: 5px;
 		border-left: 1px solid var(--brandGray80);
 	}
-	.legend-title.below {
-		margin: 0 0 3px;
-	}
 	.end {
 		display: inline-flex;
 		align-items: baseline;
@@ -163,13 +156,6 @@
 	.end-right {
 		text-align: right;
 		justify-content: flex-end;
-	}
-	.end i {
-		flex: none;
-		width: 9px;
-		height: 9px;
-		border: 1px solid rgba(0, 0, 0, 0.2);
-		transform: translateY(0.5px);
 	}
 	.legend-na {
 		display: flex;
