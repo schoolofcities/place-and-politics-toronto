@@ -1,0 +1,237 @@
+column,role,label,group,unit,split_rule
+agec0019_pct,share,% Age 0 - 19,Age & Family,,copied
+agec2029_pct,share,% Age 20 - 29,Age & Family,,copied
+agec3064_pct,share,% Age 30 - 64,Age & Family,,copied
+agec065p_pct,share,% Age 65+,Age & Family,,copied
+marsmaclcomm_pct,share,% Common Law,Age & Family,,copied
+marsnmcldivo_pct,share,% Divorced,Age & Family,,copied
+marsmaclmarr_pct,share,% Married,Age & Family,,copied
+marsnmclnevr_pct,share,% Never Married,Age & Family,,copied
+marsnmclsepa_pct,share,% Separated,Age & Family,,copied
+marsnmclwido_pct,share,% Widowed,Age & Family,,copied
+jwmdbike_pct,share,% Bike Commute,Commuting,,copied
+jwmdauto_pct,share,% Car Commute,Commuting,,copied
+jwmdtran_pct,share,% Transit Commute,Commuting,,copied
+jwmdwalk_pct,share,% Walk Commute,Commuting,,copied
+s_dist__nc,z-score,Distance from City Hall,Standardised,km,copied
+s_popdsqkm__nc,z-score,Population Density,Standardised,per_km2,copied
+s_pmi_prox_idx_childcare,z-score,Proximity to Childcare,Standardised,index,copied
+s_pmi_prox_idx_educpri,z-score,Proximity to Elementary School,Standardised,index,copied
+s_pmi_prox_idx_grocery,z-score,Proximity to Grocery,Standardised,index,copied
+s_pmi_prox_idx_health,z-score,Proximity to Health Care,Standardised,index,copied
+s_pmi_prox_idx_emp,z-score,Proximity to Jobs,Standardised,index,copied
+s_pmi_prox_idx_lib,z-score,Proximity to Library,Standardised,index,copied
+s_pmi_prox_idx_parks,z-score,Proximity to Parks,Standardised,index,copied
+s_pmi_prox_idx_pharma,z-score,Proximity to Pharmacy,Standardised,index,copied
+s_pmi_prox_idx_educsec,z-score,Proximity to Secondary School,Standardised,index,copied
+s_pmi_prox_idx_transit,z-score,Proximity to Transit,Standardised,index,copied
+edcacert_pct,share,% College / Trades Certificate,Education & Labour Force,,copied
+lfaainlfempl_pct,share,% Employed,Education & Labour Force,,copied
+edcahigh_pct,share,% High School or Less,Education & Labour Force,,copied
+lfaanolf_pct,share,% Not in Labour Force,Education & Labour Force,,copied
+lfaainlfunem_pct,share,% Unemployed (of pop. 15+),Education & Labour Force,,copied
+edcauniv_pct,share,% University Degree,Education & Labour Force,,copied
+ethmasiaeastchin_pct,share,% Chinese Origin,Ethnic Origin,,copied
+ethmasiasoutinda_pct,share,% East Indian Origin,Ethnic Origin,,copied
+ethmeurobritengl_pct,share,% English Origin,Ethnic Origin,,copied
+ethmasiaeastfili_pct,share,% Filipino Origin,Ethnic Origin,,copied
+ethmeurofren_tot_pct,share,% French Origin,Ethnic Origin,,copied
+ethmeurosoutgrek_pct,share,% Greek Origin,Ethnic Origin,,copied
+ethmcarihait_pct,share,% Haitian Origin,Ethnic Origin,,copied
+ethmeurobritiris_pct,share,% Irish Origin,Ethnic Origin,,copied
+ethmeurosoutital_pct,share,% Italian Origin,Ethnic Origin,,copied
+ethmcarijama_pct,share,% Jamaican Origin,Ethnic Origin,,copied
+ethmasiawestleba_pct,share,% Lebanese Origin,Ethnic Origin,,copied
+ethmasiasoutpaks_pct,share,% Pakistani Origin,Ethnic Origin,,copied
+ethmeuroeastpoli_pct,share,% Polish Origin,Ethnic Origin,,copied
+ethmeurosoutport_pct,share,% Portuguese Origin,Ethnic Origin,,copied
+ethmeurobritscot_pct,share,% Scottish Origin,Ethnic Origin,,copied
+ethmeuroeastukra_pct,share,% Ukrainian Origin,Ethnic Origin,,copied
+dwtpapt__pct,share,% Apartments,Housing,,copied
+dwtpatch_pct,share,% Attached Housing,Housing,,copied
+dwtpsdet_pct,share,% Detached Housing,Housing,,copied
+dwpc19611990_pct,share,% Housing Built 1961-90,Housing,,copied
+dwpc19912021_pct,share,% Housing Built 1991-2021,Housing,,copied
+dwpc00001960_pct,share,% Housing Built < 1960,Housing,,copied
+hhtnown__pct,share,% Own,Housing,,copied
+hhtnrent_pct,share,% Rent,Housing,,copied
+imstnimm_pct,share,% Canada-Born,Immigration & Language,,copied
+lnmt1resoffien___pct,share,% English Mother Tongue,Immigration & Language,,copied
+lnmt1resoffifr___pct,share,% French Mother Tongue,Immigration & Language,,copied
+imstimmi_pct,share,% Immigrant,Immigration & Language,,copied
+s_ihat_avg__nc,z-score,Avg. Household Income,Standardised,dollars,copied
+s_iit__avg__nc,z-score,Avg. Individual Income,Standardised,dollars,copied
+s_ihat_med__nc,z-score,Median Household Income,Standardised,dollars,copied
+s_iit__med__nc,z-score,Median Individual Income,Standardised,dollars,copied
+occ_arts_pct,share,"% Arts, Rec., Sports Occ.",Occupation,,copied
+occ_busi_pct,share,"% Business, Finance, Admin Occ.",Occupation,,copied
+occ_educ_pct,share,"% Ed, Law, Social, Cmnty & Gov't Occ.",Occupation,,copied
+occ_heal_pct,share,% Health Occ.,Occupation,,copied
+occ_mgmt_pct,share,% Management Occ.,Occupation,,copied
+occ_manu_pct,share,% Mfg. and Utilities Occ.,Occupation,,copied
+occ_nsci_pct,share,% Natural and Applied Sciences Occ.,Occupation,,copied
+occ_prim_pct,share,% Primary Occ.,Occupation,,copied
+occ_serv_pct,share,% Sales and Service Occ.,Occupation,,copied
+occ_trad_pct,share,"% Trades, Transport, Operators Occ.",Occupation,,copied
+rlgnabor_pct,share,% Aboriginal Religion,Religion,,copied
+rlgnchriangl_pct,share,% Anglican,Religion,,copied
+rlgnnone_pct,share,% No Religion,Religion,,copied
+rlgnchribapt_pct,share,% Baptist,Religion,,copied
+rlgnbudd_pct,share,% Buddhist,Religion,,copied
+rlgnchricath_tot_pct,share,% Catholic,Religion,,copied
+rlgnhind_pct,share,% Hindu,Religion,,copied
+rlgnjewi_pct,share,% Jewish,Religion,,copied
+rlgnmusl_pct,share,% Muslim,Religion,,copied
+rlgnchriorth_tot_pct,share,% Orthodox,Religion,,copied
+rlgnchriothr_pct,share,% Other Christian,Religion,,copied
+rlgnothr_pct,share,% Other Religion,Religion,,copied
+rlgnchripent_pct,share,% Pentecostal,Religion,,copied
+rlgnsikh_pct,share,% Sikh,Religion,,copied
+rlgnchriunch_pct,share,% United Church,Religion,,copied
+vminvisiarab_pct,share,% Arab,Visible Minority & Indigenous Identity,,copied
+vminvisiblck_pct,share,% Black,Visible Minority & Indigenous Identity,,copied
+vminvisichin_pct,share,% Chinese,Visible Minority & Indigenous Identity,,copied
+vminvisifili_pct,share,% Filipino,Visible Minority & Indigenous Identity,,copied
+abidabor1resfina_pct,share,% First Nations,Visible Minority & Indigenous Identity,,copied
+abidabor__ne_pct,share,% Indigenous identity (n.e.c.),Visible Minority & Indigenous Identity,,copied
+abidabor1resinuk_pct,share,% Inuk,Visible Minority & Indigenous Identity,,copied
+vminvisijapn_pct,share,% Japanese,Visible Minority & Indigenous Identity,,copied
+vminvisikore_pct,share,% Korean,Visible Minority & Indigenous Identity,,copied
+vminvisilati_pct,share,% Latino,Visible Minority & Indigenous Identity,,copied
+abidabormres_pct,share,% Multiple Indigenous identities,Visible Minority & Indigenous Identity,,copied
+vminvisimult_pct,share,% Multiple Visible Minority,Visible Minority & Indigenous Identity,,copied
+abidabor1resmeti_pct,share,% Métis,Visible Minority & Indigenous Identity,,copied
+abidnabo_pct,share,% Non-Indigenous,Visible Minority & Indigenous Identity,,copied
+vminvisi__ne_pct,share,% Other Visible Minority,Visible Minority & Indigenous Identity,,copied
+vminvisisasi_pct,share,% South Asian,Visible Minority & Indigenous Identity,,copied
+vminvisiseas_pct,share,% Southeast Asian,Visible Minority & Indigenous Identity,,copied
+vminvisi_pct,share,% Visible Minority,Visible Minority & Indigenous Identity,,copied
+vminvisiweas_pct,share,% West Asian,Visible Minority & Indigenous Identity,,copied
+vminnvis_pct,share,% White,Visible Minority & Indigenous Identity,,copied
+agec0019_abs,count,Age 0 - 19 (count),Age & Family,,split by area share
+agec2029_abs,count,Age 20 - 29 (count),Age & Family,,split by area share
+agec3064_abs,count,Age 30 - 64 (count),Age & Family,,split by area share
+agec065p_abs,count,Age 65+ (count),Age & Family,,split by area share
+marsmaclcomm_abs,count,Common Law (count),Age & Family,,split by area share
+marsnmcldivo_abs,count,Divorced (count),Age & Family,,split by area share
+marsmaclmarr_abs,count,Married (count),Age & Family,,split by area share
+marsnmclnevr_abs,count,Never Married (count),Age & Family,,split by area share
+marsnmclsepa_abs,count,Separated (count),Age & Family,,split by area share
+marsnmclwido_abs,count,Widowed (count),Age & Family,,split by area share
+jwmdbike_abs,count,Bike Commute (count),Commuting,,split by area share
+jwmdauto_abs,count,Car Commute (count),Commuting,,split by area share
+jwmdtran_abs,count,Transit Commute (count),Commuting,,split by area share
+jwmdwalk_abs,count,Walk Commute (count),Commuting,,split by area share
+edcacert_abs,count,College / Trades Certificate (count),Education & Labour Force,,split by area share
+lfaainlfempl_abs,count,Employed (count),Education & Labour Force,,split by area share
+edcahigh_abs,count,High School or Less (count),Education & Labour Force,,split by area share
+lfaanolf_abs,count,Not in Labour Force (count),Education & Labour Force,,split by area share
+lfaainlfunem_abs,count,Unemployed (of pop. 15+) (count),Education & Labour Force,,split by area share
+edcauniv_abs,count,University Degree (count),Education & Labour Force,,split by area share
+ethmasiaeastchin_abs,count,Chinese Origin (count),Ethnic Origin,,split by area share
+ethmasiasoutinda_abs,count,East Indian Origin (count),Ethnic Origin,,split by area share
+ethmeurobritengl_abs,count,English Origin (count),Ethnic Origin,,split by area share
+ethmasiaeastfili_abs,count,Filipino Origin (count),Ethnic Origin,,split by area share
+ethmeurofren_tot_abs,count,French Origin (count),Ethnic Origin,,split by area share
+ethmeurosoutgrek_abs,count,Greek Origin (count),Ethnic Origin,,split by area share
+ethmcarihait_abs,count,Haitian Origin (count),Ethnic Origin,,split by area share
+ethmeurobritiris_abs,count,Irish Origin (count),Ethnic Origin,,split by area share
+ethmeurosoutital_abs,count,Italian Origin (count),Ethnic Origin,,split by area share
+ethmcarijama_abs,count,Jamaican Origin (count),Ethnic Origin,,split by area share
+ethmasiawestleba_abs,count,Lebanese Origin (count),Ethnic Origin,,split by area share
+ethmasiasoutpaks_abs,count,Pakistani Origin (count),Ethnic Origin,,split by area share
+ethmeuroeastpoli_abs,count,Polish Origin (count),Ethnic Origin,,split by area share
+ethmeurosoutport_abs,count,Portuguese Origin (count),Ethnic Origin,,split by area share
+ethmeurobritscot_abs,count,Scottish Origin (count),Ethnic Origin,,split by area share
+ethmeuroeastukra_abs,count,Ukrainian Origin (count),Ethnic Origin,,split by area share
+dwtpapt__abs,count,Apartments (count),Housing,,split by area share
+dwtpatch_abs,count,Attached Housing (count),Housing,,split by area share
+dwtpsdet_abs,count,Detached Housing (count),Housing,,split by area share
+dwpc19611990_abs,count,Housing Built 1961-90 (count),Housing,,split by area share
+dwpc19912021_abs,count,Housing Built 1991-2021 (count),Housing,,split by area share
+dwpc00001960_abs,count,Housing Built < 1960 (count),Housing,,split by area share
+hhtnown__abs,count,Own (count),Housing,,split by area share
+hhtnrent_abs,count,Rent (count),Housing,,split by area share
+imstnimm_abs,count,Canada-Born (count),Immigration & Language,,split by area share
+lnmt1resoffien___abs,count,English Mother Tongue (count),Immigration & Language,,split by area share
+lnmt1resoffifr___abs,count,French Mother Tongue (count),Immigration & Language,,split by area share
+imstimmi_abs,count,Immigrant (count),Immigration & Language,,split by area share
+occ_arts_abs,count,"Arts, Rec., Sports Occ. (count)",Occupation,,split by area share
+occ_busi_abs,count,"Business, Finance, Admin Occ. (count)",Occupation,,split by area share
+occ_educ_abs,count,"Ed, Law, Social, Cmnty & Gov't Occ. (count)",Occupation,,split by area share
+occ_heal_abs,count,Health Occ. (count),Occupation,,split by area share
+occ_mgmt_abs,count,Management Occ. (count),Occupation,,split by area share
+occ_manu_abs,count,Mfg. and Utilities Occ. (count),Occupation,,split by area share
+occ_nsci_abs,count,Natural and Applied Sciences Occ. (count),Occupation,,split by area share
+occ_prim_abs,count,Primary Occ. (count),Occupation,,split by area share
+occ_serv_abs,count,Sales and Service Occ. (count),Occupation,,split by area share
+occ_trad_abs,count,"Trades, Transport, Operators Occ. (count)",Occupation,,split by area share
+rlgnabor_abs,count,Aboriginal Religion (count),Religion,,split by area share
+rlgnchriangl_abs,count,Anglican (count),Religion,,split by area share
+rlgnnone_abs,count,No Religion (count),Religion,,split by area share
+rlgnchribapt_abs,count,Baptist (count),Religion,,split by area share
+rlgnbudd_abs,count,Buddhist (count),Religion,,split by area share
+rlgnchricath_tot_abs,count,Catholic (count),Religion,,split by area share
+rlgnhind_abs,count,Hindu (count),Religion,,split by area share
+rlgnjewi_abs,count,Jewish (count),Religion,,split by area share
+rlgnmusl_abs,count,Muslim (count),Religion,,split by area share
+rlgnchriorth_tot_abs,count,Orthodox (count),Religion,,split by area share
+rlgnchriothr_abs,count,Other Christian (count),Religion,,split by area share
+rlgnothr_abs,count,Other Religion (count),Religion,,split by area share
+rlgnchripent_abs,count,Pentecostal (count),Religion,,split by area share
+rlgnsikh_abs,count,Sikh (count),Religion,,split by area share
+rlgnchriunch_abs,count,United Church (count),Religion,,split by area share
+vminvisiarab_abs,count,Arab (count),Visible Minority & Indigenous Identity,,split by area share
+vminvisiblck_abs,count,Black (count),Visible Minority & Indigenous Identity,,split by area share
+vminvisichin_abs,count,Chinese (count),Visible Minority & Indigenous Identity,,split by area share
+vminvisifili_abs,count,Filipino (count),Visible Minority & Indigenous Identity,,split by area share
+abidabor1resfina_abs,count,First Nations (count),Visible Minority & Indigenous Identity,,split by area share
+abidabor__ne_abs,count,Indigenous identity (n.e.c.) (count),Visible Minority & Indigenous Identity,,split by area share
+abidabor1resinuk_abs,count,Inuk (count),Visible Minority & Indigenous Identity,,split by area share
+vminvisijapn_abs,count,Japanese (count),Visible Minority & Indigenous Identity,,split by area share
+vminvisikore_abs,count,Korean (count),Visible Minority & Indigenous Identity,,split by area share
+vminvisilati_abs,count,Latino (count),Visible Minority & Indigenous Identity,,split by area share
+abidabormres_abs,count,Multiple Indigenous identities (count),Visible Minority & Indigenous Identity,,split by area share
+vminvisimult_abs,count,Multiple Visible Minority (count),Visible Minority & Indigenous Identity,,split by area share
+abidabor1resmeti_abs,count,Métis (count),Visible Minority & Indigenous Identity,,split by area share
+abidnabo_abs,count,Non-Indigenous (count),Visible Minority & Indigenous Identity,,split by area share
+vminvisi__ne_abs,count,Other Visible Minority (count),Visible Minority & Indigenous Identity,,split by area share
+vminvisisasi_abs,count,South Asian (count),Visible Minority & Indigenous Identity,,split by area share
+vminvisiseas_abs,count,Southeast Asian (count),Visible Minority & Indigenous Identity,,split by area share
+vminvisi_abs,count,Visible Minority (count),Visible Minority & Indigenous Identity,,split by area share
+vminvisiweas_abs,count,West Asian (count),Visible Minority & Indigenous Identity,,split by area share
+vminnvis_abs,count,White (count),Visible Minority & Indigenous Identity,,split by area share
+den_agec_tot,denominator,Population by Age - Total,Age & Family,,split by area share
+den_mars_tot,denominator,Marital Status - Age 15 and Over - Total,Age & Family,,split by area share
+den_jwmd_tot,denominator,Commute - Total,Commuting,,split by area share
+den_edca_tot,denominator,Educational Attainment - Total,Education & Labour Force,,split by area share
+den_lfaa_tot,denominator,Labour Force Status - Total,Education & Labour Force,,split by area share
+den_edca_tot2,denominator,Educational Attainment - Total,Education & Labour Force,,split by area share
+den_ethm_tot,denominator,Ethnic Origin - Total,Ethnic Origin,,split by area share
+den_dwtp_tot,denominator,Dwellings - Type - Total,Housing,,split by area share
+den_dwpc_tot,denominator,Dwellings - Period of construction - Total,Housing,,split by area share
+den_hhtn_tot,denominator,Dwellings - Tenure - Total,Housing,,split by area share
+den_imst_tot,denominator,Immigrant Status - Total,Immigration & Language,,split by area share
+den_lnmt_tot,denominator,Mother Tongue - Total,Immigration & Language,,split by area share
+den_occ__tot,denominator,Occupation - Total,Occupation,,split by area share
+den_rlgn_tot,denominator,Religion - Total,Religion,,split by area share
+den_rlgn_tot2,denominator,Religion - Total,Religion,,split by area share
+den_rlgn_tot3,denominator,Religion - Total,Religion,,split by area share
+den_vmin_tot,denominator,Visible Minority - Total,Visible Minority & Indigenous Identity,,split by area share
+den_abid_tot,denominator,Indigenous Identity - Total,Visible Minority & Indigenous Identity,,split by area share
+dist__nc,nominal,Distance from City Hall,"Density, Location & Access",km,copied
+popdsqkm__nc,nominal,Population Density,"Density, Location & Access",per_km2,copied
+pmi_prox_idx_childcare,nominal,Proximity to Childcare,"Density, Location & Access",index,copied
+pmi_prox_idx_educpri,nominal,Proximity to Elementary School,"Density, Location & Access",index,copied
+pmi_prox_idx_grocery,nominal,Proximity to Grocery,"Density, Location & Access",index,copied
+pmi_prox_idx_health,nominal,Proximity to Health Care,"Density, Location & Access",index,copied
+pmi_prox_idx_emp,nominal,Proximity to Jobs,"Density, Location & Access",index,copied
+pmi_prox_idx_lib,nominal,Proximity to Library,"Density, Location & Access",index,copied
+pmi_prox_idx_parks,nominal,Proximity to Parks,"Density, Location & Access",index,copied
+pmi_prox_idx_pharma,nominal,Proximity to Pharmacy,"Density, Location & Access",index,copied
+pmi_prox_idx_educsec,nominal,Proximity to Secondary School,"Density, Location & Access",index,copied
+pmi_prox_idx_transit,nominal,Proximity to Transit,"Density, Location & Access",index,copied
+ihat_avg__nc,nominal,Avg. Household Income,Income,dollars,copied
+iit__avg__nc,nominal,Avg. Individual Income,Income,dollars,copied
+ihat_med__nc,nominal,Median Household Income,Income,dollars,copied
+iit__med__nc,nominal,Median Individual Income,Income,dollars,copied
