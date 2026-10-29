@@ -51,12 +51,12 @@
 	/>
 
 	<title>Which candidates are most alike? | Place & Politics in Toronto</title>
-    <meta name="description" content="An interactive tool comparing the geography of support for Toronto mayoral candidates from 1997 to 2022, ranking which candidates are most and least alike.">
+    <meta name="description" content="An interactive tool comparing the geography of support for Toronto mayoral candidates from 1997 to 2026, ranking which candidates are most and least alike.">
     <meta name="author" content="Zack Taylor & Jeff Allen">
 
 	<meta property="og:title" content="Which candidates are most alike? | Place & Politics in Toronto" />
 	<meta property="og:site_name" content="Place & Politics in Toronto" />
-    <meta property="og:description" content="An interactive tool comparing the geography of support for Toronto mayoral candidates from 1997 to 2022, ranking which candidates are most and least alike." />
+    <meta property="og:description" content="An interactive tool comparing the geography of support for Toronto mayoral candidates from 1997 to 2026, ranking which candidates are most and least alike." />
     <meta property="og:type" content="article" />
     <meta property="article:published_time" content="2022-12-14" />
     <meta property="article:author" content="https://zacktaylorwestern.wordpress.com/" />
@@ -68,12 +68,12 @@
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:site" content="https://www.schoolofcities.utoronto.ca/" />
     <meta name="twitter:title" content="Which candidates are most alike? | Place & Politics in Toronto" />
-    <meta name="twitter:description" content="An interactive tool comparing the geography of support for Toronto mayoral candidates from 1997 to 2022, ranking which candidates are most and least alike." />
+    <meta name="twitter:description" content="An interactive tool comparing the geography of support for Toronto mayoral candidates from 1997 to 2026, ranking which candidates are most and least alike." />
     <meta name="twitter:image" content="https://raw.githubusercontent.com/schoolofcities/place-and-politics-toronto/main/src/assets/web-card-4.png" />
 
 </svelte:head>
 
-<StructuredData slug="which-candidates-are-most-alike" description="An interactive tool comparing the geography of support for Toronto mayoral candidates from 1997 to 2022, ranking which candidates are most and least alike." />
+<StructuredData slug="which-candidates-are-most-alike" description="An interactive tool comparing the geography of support for Toronto mayoral candidates from 1997 to 2026, ranking which candidates are most and least alike." />
 
 
 
@@ -89,7 +89,7 @@
 		<div id="mini-line"></div>
 
 		<h1>Which candidates are most alike?</h1>
-		<h3><a href="https://zacktaylorwestern.wordpress.com/">Zack Taylor</a> & <a href="https://jamaps.github.io/">Jeff Allen</a> <br><br> December 14, 2022</h3>
+		<h3><a href="https://zacktaylorwestern.wordpress.com/">Zack Taylor</a> & <a href="https://jamaps.github.io/">Jeff Allen</a> <br><br> <span class="date">December 14, 2022 <br> Updated October 29, 2026</span></h3>
 
 		<div id="mini-line"></div>
 
@@ -199,7 +199,7 @@
 	<div class="info">
 		<h3>Data Sources:</h3>
 		<p>
-			This post uses the same historical neighbourhood-scale (census tract) election results as previous posts in this series. Pearson correlation coefficients were computed in R. Only mayoral candidates that received at least 5% of the citywide vote are included. 
+			This post uses the same historical neighbourhood-scale (census tract) election results as previous posts in this series. Pearson correlation coefficients were computed. Only mayoral candidates that received at least 5% of the citywide vote are included. 
 		</p>
 		<p>
 		

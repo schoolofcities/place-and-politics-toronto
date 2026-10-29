@@ -117,7 +117,7 @@
 		<h4>Place & Politics in Toronto - Part 7</h4>
 		<div id="mini-line"></div>
 		<h1>The five Torontos</h1>
-		<h3><a href="https://www.linkedin.com/in/aniket-kali-8a8b9921b/" target="_blank" rel="noopener noreferrer">Aniket Kali</a> <br><br> October 22, 2026</h3>
+		<h3><a href="https://www.linkedin.com/in/aniket-kali-8a8b9921b/" target="_blank" rel="noopener noreferrer">Aniket Kali</a> <br><br> <span class="date">October 22, 2026</span></h3>
 		<div id="mini-line"></div>
 	</div>
 
