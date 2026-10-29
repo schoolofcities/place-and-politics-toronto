@@ -37,7 +37,7 @@
 
 
 
-<svg width=200 height=400>
+<svg width=200 height={40 + data.length * 18}>
    
     <text class="label" x="10" y="10">
         Candidates ranked from most 
@@ -70,7 +70,7 @@
         <rect class="select" width="181" height="17" x="10" y={33 + i * 18} on:click={() => candidateSelect(c.compare)}></rect>
 	{/each}
 
-    <rect class="bg" width="183" height="361" x="9" y="32"></rect>
+    <rect class="bg" width="183" height={1 + data.length * 18} x="9" y="32"></rect>
 
 </svg>
 

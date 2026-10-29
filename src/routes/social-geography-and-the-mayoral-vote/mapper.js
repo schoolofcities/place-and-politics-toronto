@@ -530,7 +530,7 @@ export async function startMapper(root, { replaceHash }) {
 
   // ---- State (initialised from URL hash, so views can be shared) ----
   // every census variable is offered (the prototype's curated short list isn't used)
-  const state = { cvar: 'jwmdauto_pct', cyear: 2011, eyear: 2010, ecand: 'ford', eall: false }  // % Car Commute (2011 census), Rob Ford 2010
+  const state = { cvar: 'jwmdauto_pct', cyear: 2021, eyear: 2026, ecand: 'chow_olivia', eall: false }  // % Car Commute (2021 census), Olivia Chow 2026
   const hash = new URLSearchParams(location.hash.slice(1))
   if (varById.has(hash.get('cvar'))) state.cvar = hash.get('cvar')
   if (hash.get('cyear')) state.cyear = +hash.get('cyear')
