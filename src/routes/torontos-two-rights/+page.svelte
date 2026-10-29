@@ -60,7 +60,7 @@
 		<div id="mini-line"></div>
 
 		<h1>Toronto's two rights</h1>
-		<h3><a href="https://zacktaylorwestern.wordpress.com/">Zack Taylor</a> & <a href="https://jamaps.github.io/">Jeff Allen</a> <br><br> November 25, 2022</h3>
+		<h3><a href="https://zacktaylorwestern.wordpress.com/">Zack Taylor</a> & <a href="https://jamaps.github.io/">Jeff Allen</a> <br><br> <span class="date">November 25, 2022</span></h3>
 
 		<div id="mini-line"></div>
 

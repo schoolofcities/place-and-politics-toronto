@@ -64,7 +64,7 @@
 		<div id="mini-line"></div>
 
 		<h1>Social geography and the mayoral vote</h1>
-		<h3><a href="https://zacktaylorwestern.wordpress.com/">Zack Taylor</a> & <a href="https://jamaps.github.io/">Jeff Allen</a> <br><br> September 29, 2026</h3>
+		<h3><a href="https://zacktaylorwestern.wordpress.com/">Zack Taylor</a> & <a href="https://jamaps.github.io/">Jeff Allen</a> <br><br> <span class="date">September 29, 2026 <br> Updated October 29, 2026</span></h3>
 
 		<div id="mini-line"></div>
 
@@ -277,7 +277,7 @@
 		<ul>
 			<li><strong><em>Census:</em></strong> Statistics Canada censuses, 1996 to 2021. Data from 1996 to 2016 were apportioned to 2021 census tracts using the <a href="https://doi.org/10.1111/cag.12467">Canadian Longitudinal Census Tract Database</a> (Allen and Taylor, 2018). For 2011, data come from both the 2011 Census and the voluntary National Household Survey, which replaced the long-form census that year. Income, density, and access measures are shown as standard deviations from the average tract.</li>
 			<li><strong><em>Proximity:</em></strong> Statistics Canada's <a href="https://www150.statcan.gc.ca/n1/pub/17-26-0002/172600022023001-eng.htm">Proximity Measures Database</a>, 2021 data (released 2023), measured once and applied to every census year.</li>
-			<li><strong><em>Elections:</em></strong> poll-level mayoral results, 1997 to 2023. Only election-day votes are included, as advance and mail-in votes can't be placed in a neighbourhood. In 2023, for example, Ana Bailão had more votes on election day but Olivia Chow won overall due to more advance and mail-in votes. Polls were split into dissemination blocks by population and summed to 2021 census tracts.</li>
+			<li><strong><em>Elections:</em></strong> poll-level mayoral results, 1997 to 2026. Only election-day votes are included, as advance and mail-in votes can't be placed in a neighbourhood. In 2023, for example, Ana Bailão had more votes on election day but Olivia Chow won overall due to more advance and mail-in votes. Polls were split into dissemination blocks by population and summed to 2021 census tracts.</li>
 			<li><strong><em>Boundaries:</em></strong> census tracts from Statistics Canada; wards, former municipalities, and neighbourhoods from the City of Toronto. Ward lines match the selected election (25 wards from 2018, 44 wards from 2000 to 2014, none for 1997). Basemap © <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors.</li>
 		</ul>
 	</div>

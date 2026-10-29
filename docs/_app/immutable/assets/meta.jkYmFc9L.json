@@ -1773,62 +1773,81 @@
     },
     {
       "year": 2023,
-      "city_votes_cast": 561430,
+      "city_votes_cast": 566890,
       "city_eligible": null,
       "candidates": [
         {
           "id": "bailao_ana",
           "label": "Ana Bailão",
-          "city_share": 0.3759,
-          "city_votes": 211053
+          "city_share": 0.3753,
+          "city_votes": 212741
         },
         {
           "id": "chow_olivia",
           "label": "Olivia Chow",
           "city_share": 0.3434,
-          "city_votes": 192772
+          "city_votes": 194658
         },
         {
           "id": "saunders_mark",
           "label": "Mark Saunders",
-          "city_share": 0.0772,
-          "city_votes": 43349
+          "city_share": 0.0773,
+          "city_votes": 43796
         },
         {
           "id": "furey_anthony",
           "label": "Anthony Furey",
-          "city_share": 0.047,
-          "city_votes": 26371
+          "city_share": 0.0468,
+          "city_votes": 26524
         },
         {
           "id": "matlow_josh",
           "label": "Josh Matlow",
           "city_share": 0.0407,
-          "city_votes": 22846
+          "city_votes": 23091
         },
         {
           "id": "brown_chloe",
           "label": "Chloe Brown",
-          "city_share": 0.0277,
-          "city_votes": 15524
+          "city_share": 0.0275,
+          "city_votes": 15583
         },
         {
           "id": "hunter_mitzie",
           "label": "Mitzie Hunter",
           "city_share": 0.0254,
-          "city_votes": 14264
+          "city_votes": 14419
         },
         {
           "id": "saccoccia_chris",
           "label": "Chris Saccoccia",
-          "city_share": 0.0124,
-          "city_votes": 6937
+          "city_share": 0.0123,
+          "city_votes": 6990
         },
         {
           "id": "bradford_brad",
           "label": "Brad Bradford",
           "city_share": 0.0107,
-          "city_votes": 5999
+          "city_votes": 6066
+        }
+      ]
+    },
+    {
+      "year": 2026,
+      "city_votes_cast": 750296,
+      "city_eligible": null,
+      "candidates": [
+        {
+          "id": "chow_olivia",
+          "label": "Olivia Chow",
+          "city_share": 0.5469,
+          "city_votes": 410363
+        },
+        {
+          "id": "bradford_brad",
+          "label": "Brad Bradford",
+          "city_share": 0.4063,
+          "city_votes": 304832
         }
       ]
     }

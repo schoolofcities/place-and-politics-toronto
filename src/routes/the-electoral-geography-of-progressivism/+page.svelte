@@ -62,7 +62,7 @@
 		<div id="mini-line"></div>
 
 		<h1>The electoral geography of progressivism in Toronto</h1>
-		<h3><a href="https://zacktaylorwestern.wordpress.com/">Zack Taylor</a> & <a href="https://jamaps.github.io/">Jeff Allen</a> <br><br> November 30, 2022</h3>
+		<h3><a href="https://zacktaylorwestern.wordpress.com/">Zack Taylor</a> & <a href="https://jamaps.github.io/">Jeff Allen</a> <br><br> <span class="date">November 30, 2022</span></h3>
 
 		<div id="mini-line"></div>
 

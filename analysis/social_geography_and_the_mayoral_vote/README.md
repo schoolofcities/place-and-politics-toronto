@@ -29,6 +29,12 @@ scripts that built them are in its `prep/` folder.
   `ctWithResults2023.geo.json`, `source-data/ctWithResults.csv`,
   `candidate_correlations.csv`, `candidate_links.json`). The error is still in Zack's
   source files, so rebuilt data from his repo would bring it back until it's fixed there.
+- **2023 corrected and 2026 added (2026-10-29).** The 2023 and 2026 rows of
+  `elections.parquet` and `turnout.parquet`, and the 2023 and 2026 entries in
+  `meta.json`, were taken from the mapper's commit `7f0ae7a` (2026-10-29), built from a
+  new `tor_electoral_ct2021_pct.dta` with corrected 2023 tract estimates and the 2026
+  election. Every other year was kept as it was here, so the 2003 fix above still holds
+  (that `.dta` still has the 2003 error).
 
 ## Files added
 
