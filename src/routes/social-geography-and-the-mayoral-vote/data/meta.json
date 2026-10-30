@@ -1724,57 +1724,57 @@
     },
     {
       "year": 2022,
-      "city_votes_cast": 417386,
-      "city_eligible": null,
+      "city_votes_cast": 418207,
+      "city_eligible": 1898750,
       "candidates": [
         {
           "id": "tory_john",
           "label": "John Tory",
-          "city_share": 0.602,
-          "city_votes": 251253
+          "city_share": 0.6021,
+          "city_votes": 251806
         },
         {
           "id": "penalosa_gil",
           "label": "Gil Peñalosa",
-          "city_share": 0.1793,
-          "city_votes": 74846
+          "city_share": 0.1791,
+          "city_votes": 74897
         },
         {
           "id": "brown_chloe_marie",
           "label": "Chloe Brown",
           "city_share": 0.0764,
-          "city_votes": 31909
+          "city_votes": 31945
         },
         {
           "id": "acton_blake",
           "label": "Blake Acton",
           "city_share": 0.0154,
-          "city_votes": 6431
+          "city_votes": 6437
         },
         {
           "id": "climenhaga_sarah",
           "label": "Sarah Climenhaga",
           "city_share": 0.0132,
-          "city_votes": 5500
+          "city_votes": 5506
         },
         {
           "id": "luk_tony",
           "label": "Tony Luk",
-          "city_share": 0.0128,
-          "city_votes": 5360
+          "city_share": 0.0129,
+          "city_votes": 5384
         },
         {
           "id": "yan_jack",
           "label": "Jack Yan",
           "city_share": 0.0103,
-          "city_votes": 4311
+          "city_votes": 4321
         }
       ]
     },
     {
       "year": 2023,
       "city_votes_cast": 566890,
-      "city_eligible": null,
+      "city_eligible": 1947242,
       "candidates": [
         {
           "id": "bailao_ana",
