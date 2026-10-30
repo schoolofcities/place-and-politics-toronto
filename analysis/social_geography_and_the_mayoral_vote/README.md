@@ -16,25 +16,21 @@ scripts that built them are in its `prep/` folder.
   category is no religious affiliation), "% Pentacostal" → "% Pentecostal", and
   "% Unemployed" → "% Unemployed (of pop. 15+)" (a share of everyone 15 and over, not
   the unemployment rate).
-- **2003 election results corrected.** The City's 2003 poll-by-poll sheets list
-  candidates in order of votes within each ward, and the source data read them by
-  position as Miller, Tory, Hall, Nunziata. In wards with a different order the votes
-  went to the wrong candidates (e.g. Miller and Tory swapped in the 21 wards Tory won).
-  Each tract's votes were moved back to the right candidates using its ward's order in
-  the City's official results (Toronto Open Data, "Elections – Official Results",
-  2003); tracts spanning two wards were split by area, so those are estimates. 367
-  tracts changed in `elections.parquet`, and the 2003 citywide figures in `meta.json`
-  are now the official election-day counts. The same correction was made to the 2003
-  columns used by earlier posts (`src/data/ctWithResults.geo.json`,
-  `ctWithResults2023.geo.json`, `source-data/ctWithResults.csv`,
-  `candidate_correlations.csv`, `candidate_links.json`). The error is still in Zack's
-  source files, so rebuilt data from his repo would bring it back until it's fixed there.
-- **2023 corrected and 2026 added (2026-10-29).** The 2023 and 2026 rows of
-  `elections.parquet` and `turnout.parquet`, and the 2023 and 2026 entries in
-  `meta.json`, were taken from the mapper's commit `7f0ae7a` (2026-10-29), built from a
-  new `tor_electoral_ct2021_pct.dta` with corrected 2023 tract estimates and the 2026
-  election. Every other year was kept as it was here, so the 2003 fix above still holds
-  (that `.dta` still has the 2003 error).
+- **Election results rebuilt from Zack's updated tract file (2026-10-30).** All
+  election rows in `elections.parquet` and `turnout.parquet` now come from
+  `tor_electoral_ct2021_pct_update.dta`, which Zack sent on 2026-10-30. It re-estimates
+  the tract shares for 2003–2022 (citywide totals are essentially unchanged), fixes a
+  2003 error where the City's poll-by-poll sheets, which list candidates in each ward's
+  own vote order, had been read in one fixed order, and adds eligible voters for 2022
+  and 2023. 1997, 2000, 2023 and 2026 are unchanged. The rows were rebuilt with the
+  rules that reproduce the previous files exactly from the previous `.dta`: `share` is the tract share rounded to 4 places;
+  `votes` is share × votes cast for 1997–2018 and the tract vote count from 2022;
+  `votes_cast` and `eligible` are the tract totals. In `meta.json`, 2022's citywide
+  figures and the 2022 and 2023 eligible totals were updated; the other citywide
+  figures already matched the new file. The same file was used for the tract data of
+  Parts 2–4 (`src/data/ctWithResults.geo.json`, `source-data/ctWithResults.csv`,
+  `candidate_correlations.csv`, `candidate_links.json`). Part 5's
+  `ctWithResults2023.geo.json` was not updated.
 
 ## Files added
 
