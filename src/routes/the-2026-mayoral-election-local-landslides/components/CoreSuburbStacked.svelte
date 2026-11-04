@@ -1,14 +1,14 @@
 <script>
 	// The where-the-votes-came-from data as one stacked bar per progressive candidate: their
-	// election-day votes in the suburbs, then in the former City of Toronto, both as shares of all
+	// election-day votes in the former City of Toronto, then in the suburbs, both as shares of all
 	// election-day votes (plot_core_suburb_shares.R), so the bar's length is their whole
-	// election-day share. Suburbs come first, from zero, as the part that varies and decides the race.
+	// election-day share. The former City of Toronto comes first, from zero, then the suburbs.
 	import { scaleLinear } from 'd3';
 	import FigureTitle from './FigureTitle.svelte';
 	import { coreSuburbColumns, WIN_YEARS, CITYWIDE_SHARE } from './data.js';
 	import { PART_COLOURS } from './config.js';
 
-	// the suburbs, the part that decides the race, in the darker blue; the core in the lighter
+	// the suburbs, the part that decides the race, in the darker blue; the former City of Toronto in the lighter
 	const CORE = PART_COLOURS.Suburbs;
 	const SUBURBS = PART_COLOURS['City of Toronto'];
 
@@ -36,8 +36,8 @@
 	<FigureTitle title="Where each progressive candidate's votes came from" />
 
 	<div class="legend">
-		<span class="item"><span class="swatch" style:background={SUBURBS}></span>Suburbs</span>
 		<span class="item"><span class="swatch" style:background={CORE}></span>Former City of Toronto</span>
+		<span class="item"><span class="swatch" style:background={SUBURBS}></span>Suburbs</span>
 	</div>
 
 	<div class="chart" bind:clientWidth={width}>
@@ -61,16 +61,16 @@
 					</g>
 					<text class="result" class:won={r.won} x={RESULT_X + 17} y={ROW / 2} dy="0.35em">{r.won ? 'Won' : 'Lost'} <tspan class="citywide">{pct(r.citywide)}</tspan></text>
 
-					<!-- suburbs from zero, then the core -->
-					<rect x={x(0)} y={(ROW - BAR) / 2} width={x(r.suburbs) - x(0)} height={BAR} fill={SUBURBS} />
-					<rect x={x(r.suburbs)} y={(ROW - BAR) / 2} width={x(r.suburbs + r.core) - x(r.suburbs)} height={BAR} fill={CORE} />
-					<!-- a 1px white line where the suburbs end and the core begins -->
-					<line class="split" x1={x(r.suburbs)} x2={x(r.suburbs)} y1={(ROW - BAR) / 2} y2={(ROW + BAR) / 2} />
-					{#if x(r.suburbs) - x(0) >= 28}
-						<text class="val" x={(x(0) + x(r.suburbs)) / 2} y={ROW / 2} dy="0.35em">{pct(r.suburbs)}</text>
+					<!-- the former City of Toronto from zero, then the suburbs -->
+					<rect x={x(0)} y={(ROW - BAR) / 2} width={x(r.core) - x(0)} height={BAR} fill={CORE} />
+					<rect x={x(r.core)} y={(ROW - BAR) / 2} width={x(r.core + r.suburbs) - x(r.core)} height={BAR} fill={SUBURBS} />
+					<!-- a 1px white line where the core ends and the suburbs begin -->
+					<line class="split" x1={x(r.core)} x2={x(r.core)} y1={(ROW - BAR) / 2} y2={(ROW + BAR) / 2} />
+					{#if x(r.core) - x(0) >= 28}
+						<text class="val" x={(x(0) + x(r.core)) / 2} y={ROW / 2} dy="0.35em">{pct(r.core)}</text>
 					{/if}
-					{#if x(r.suburbs + r.core) - x(r.suburbs) >= 28}
-						<text class="val core" x={(x(r.suburbs) + x(r.suburbs + r.core)) / 2} y={ROW / 2} dy="0.35em">{pct(r.core)}</text>
+					{#if x(r.core + r.suburbs) - x(r.core) >= 28}
+						<text class="val" x={(x(r.core) + x(r.core + r.suburbs)) / 2} y={ROW / 2} dy="0.35em">{pct(r.suburbs)}</text>
 					{/if}
 				</g>
 			{/each}
@@ -162,15 +162,11 @@
 		font-family: OpenSans, sans-serif;
 	}
 	.val {
-		font-family: OpenSansBold, sans-serif;
+		font-family: OpenSans, sans-serif;
 		font-size: 12px;
 		fill: #fff;
 		text-anchor: middle;
 		pointer-events: none;
-	}
-	/* the suburbs' labels stay bold; the core's are regular weight */
-	.val.core {
-		font-family: OpenSans, sans-serif;
 	}
 	.grid {
 		stroke: #e6e6e6;

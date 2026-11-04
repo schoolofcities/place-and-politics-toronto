@@ -1,6 +1,8 @@
 <script>
 	// Exploratory: the change in Olivia Chow's share of election-day votes between 2023 and 2026
-	// in each census tract, drawn like the poll map beside it: shaded tracts, with a toggle to
+	// in each census tract, relative to the citywide change (her share rose almost everywhere, so
+	// the absolute change only shows where she did better; relative to the city shows where she did
+	// better or worse than the city as a whole). Drawn like the poll map beside it: shaded tracts, with a toggle to
 	// bubbles sized by votes cast (each tract's shape morphs into a circle whose area is
 	// proportional to its 2026 votes, nudged apart by a force layout so none overlap).
 	//
@@ -13,17 +15,27 @@
 	import { shapeToCircle } from './morph.js';
 	import tractData from '../data/tracts_progressive.json';
 	import tractVotes from '../data/tracts_votes.json';
+	import { coreSuburbColumns } from './data.js';
 	import municipalities from '../data/former_municipalities.geo.json'; // the city's extent and the old City of Toronto
 
 	const W = 1000;
 	const H = 640;
 	const DURATION = 900;
 
-	// change in Chow's share, in percentage points: under 10, 10 to under 15, 15 to under 20, 20 to
-	// under 25, 25 or more. Chow's purple, one step lighter at the bottom than the poll map's ramp.
-	const BREAKS = [0.1, 0.15, 0.2, 0.25];
-	const TICKS = [0, 10, 15, 20, 25]; // legend labels, at the step edges (the last step is open)
-	const RAMP = ['#f4eaf7', '#e9d6ee', '#c9a6d5', '#a678b8', '#87569c'];
+	// Chow's citywide share of election-day votes in a year: the former City of Toronto's and the
+	// suburbs' parts, as on the stacked chart. The change between the two is the benchmark.
+	const cityShare = (year) =>
+		coreSuburbColumns.find((c) => c.key === year).segments
+			.filter((seg) => seg.key !== 'Votes for Other Candidates')
+			.reduce((total, seg) => total + seg.value, 0);
+	const CITY_CHANGE = cityShare('2026') - cityShare('2023');
+
+	// a tract's change minus the citywide change, in percentage points: a bipolar ramp, orange where
+	// she gained less than the city did, white about level, purple where she gained more. The steps
+	// are under −10, −10 to −5, −5 to −2, within 2 of level, then 2 to 5, 5 to 10 and 10 or more.
+	const BREAKS = [-0.1, -0.05, -0.02, 0.02, 0.05, 0.1];
+	const TICKS = ['−10', '−5', '−2', '+2', '+5', '+10']; // legend labels, at the edges between steps
+	const RAMP = ['#c4651a', '#e5955a', '#f4cfae', '#f6f4f3', '#d4bde0', '#a678b8', '#6f4584'];
 	const NO_DATA = '#d4d4d4';
 	// the pop-up's bar: Chow's 2023 share, with the rest of her 2026 share a shade darker on the end
 	const SHARE_2023 = '#c9a6d5';
@@ -32,7 +44,7 @@
 	const STRIPED_2023 = `repeating-linear-gradient(135deg, ${SHARE_2023} 0 4px, ${SHARE_2026} 4px 5.2px)`;
 	const MUNI_NAMES = { Toronto: 'Former City of Toronto' }; // the others are named as they are
 	const bin = scaleThreshold().domain(BREAKS).range(range(BREAKS.length + 1));
-	const fill = (p) => (p.change == null ? NO_DATA : RAMP[bin(p.change)]);
+	const fill = (p) => (p.relative == null ? NO_DATA : RAMP[bin(p.relative)]);
 
 	// raw: hundreds of shapes that never change after mount, so no deep reactivity
 	let nodes = $state.raw([]);
@@ -72,7 +84,8 @@
 			const [before, after] = f.properties.s.slice(-2); // Chow 2023, Chow 2026
 			const ok = before != null && after != null;
 			const [, , muni, ward, wardName] = tractVotes[i];
-			const p = { before, after, change: ok ? after - before : null, total: totals[i], muni, ward, wardName };
+			const change = ok ? after - before : null;
+			const p = { before, after, change, relative: ok ? change - CITY_CHANGE : null, total: totals[i], muni, ward, wardName };
 			// the morph uses one ring: the outer ring of the largest piece
 			const g = f.geometry;
 			const outer = g.type === 'Polygon' ? g.coordinates[0] : greatest(g.coordinates, (c) => geoArea({ type: 'Polygon', coordinates: c }))[0];
@@ -129,7 +142,7 @@
 </script>
 
 <figure>
-	<FigureTitle title="Change in Olivia Chow's share of the vote by census tract, 2023 to 2026" />
+	<FigureTitle title="Olivia Chow's gain in vote share compared with her citywide gain, 2023 to 2026" />
 
 	<div class="controls">
 		<div class="toggle" role="group" aria-label="Map view">
@@ -152,16 +165,17 @@
 	<!-- over Lake Ontario, bottom right, on wider screens; above the map on phones -->
 	<div class="legend">
 		<div class="ramps">
-			<p class="legend-title">Change in Chow's share of election-day votes, in percentage points</p>
+			<p class="legend-title">Chow's gain compared with the citywide gain of {(100 * CITY_CHANGE).toFixed(1)} points</p>
 			<div class="ramp labels">
 				<!-- breakpoints at the edges between steps -->
 				<span class="breaks" style:--steps={RAMP.length}>
-					{#each TICKS as t, i (t)}<span class="break" style:left="{(100 * i) / RAMP.length}%">{t}</span>{/each}
+					{#each TICKS as t, i (t)}<span class="break" style:left="{(100 * (i + 1)) / RAMP.length}%">{t}</span>{/each}
 				</span>
 			</div>
 			<div class="ramp">
 				{#each RAMP as c, i (i)}<span class="step" style:background={c}></span>{/each}
 			</div>
+			<div class="ends"><span>Smaller gain</span><span>Larger gain</span></div>
 		</div>
 		<div class="sizes" class:shown={view === 'bubbles'} aria-hidden={view !== 'bubbles'}>
 			<span class="sizes-title">Votes cast</span>
@@ -210,13 +224,16 @@
 					<div class="stack" aria-hidden="true">
 						<span style:width="{100 * Math.min(p.before, p.after)}%" style:background={p.change >= 0 ? STRIPED_2023 : SHARE_2026}></span>
 						<span style:width="{100 * Math.abs(p.change)}%" style:background={p.change >= 0 ? SHARE_2026 : SHARE_2023}></span>
+						<!-- a small tick where her 2023 share plus the citywide gain would reach: the bar's end for a tract that gained exactly what the city did -->
+						<i class="tick" style:left="{100 * Math.min(1, p.before + CITY_CHANGE)}%"></i>
 					</div>
 					<div class="stack-key">
 						<span><i style:background={SHARE_2023}></i>2023: {pct(p.before)}</span>
 						<span><i style:background={SHARE_2026}></i>2026: {pct(p.after)}</span>
 					</div>
 					{p.total.toLocaleString('en-CA')} votes cast in 2026<br />
-					<span class="tip-bold">{signed(p.change)} percentage points</span>
+					<span class="tip-bold">{signed(p.change)} percentage points</span><br />
+					{#if Math.abs(p.relative) < 0.0005}Level with the citywide gain{:else}{p.relative > 0 ? 'Above' : 'Below'} the citywide gain by {(100 * Math.abs(p.relative)).toFixed(1)} points{/if}
 				{/if}
 			</div>
 		{/if}
@@ -225,7 +242,10 @@
 	<figcaption class="note">
 		Election-day votes only, apportioned from polls to 2021 census tracts. Advance and mail-in votes are not included.
 		In the bubble view each circle's area is proportional to the votes cast in that tract in 2026, and circles are
-		nudged apart so none overlap, so a bubble sits near its tract rather than exactly on it. The black lines are the boundaries of the former municipalities: the former City of Toronto, East York, York, Etobicoke, North York and Scarborough.
+		nudged apart so none overlap, so a bubble sits near its tract rather than exactly on it. Chow's share rose in every
+		tract, so tracts are coloured by how her gain compares with the citywide gain of {(100 * CITY_CHANGE).toFixed(1)} points (her
+		election-day share rose from {pct(cityShare('2023'))} to {pct(cityShare('2026'))}): purple where it was larger, orange where it was smaller. The pop-up
+		shows the tract's actual gain. The black lines are the boundaries of the former municipalities: the former City of Toronto, East York, York, Etobicoke, North York and Scarborough.
 	</figcaption>
 </figure>
 
@@ -318,7 +338,7 @@
 	}
 	/* as wide as the ramp */
 	.legend-title {
-		max-width: 222px;
+		max-width: 224px;
 		margin: 0 0 6px;
 		line-height: 1.35;
 		color: var(--brandGray90);
@@ -342,7 +362,15 @@
 		margin-bottom: 3px;
 	}
 	.legend {
-		--step: 40px;
+		--step: 32px;
+	}
+	/* under the ramp's ends: which way is more and which less */
+	.ends {
+		display: flex;
+		justify-content: space-between;
+		margin-top: 2px;
+		font-size: 11px;
+		color: var(--brandGray60);
 	}
 	.step {
 		width: var(--step);
@@ -451,6 +479,7 @@
 	}
 	/* the pop-up's bar and its key, as on the poll map */
 	.stack {
+		position: relative;
 		display: flex;
 		height: 10px;
 		margin: 6px 0 4px;
@@ -459,6 +488,15 @@
 	.stack span {
 		display: block;
 		height: 100%;
+	}
+	/* the citywide-gain tick: a thin dark line, a little taller than the bar */
+	.stack .tick {
+		position: absolute;
+		top: -2px;
+		bottom: -2px;
+		width: 1.5px;
+		margin-left: -0.75px;
+		background: var(--brandGray90);
 	}
 	.stack-key {
 		display: flex;
@@ -489,7 +527,7 @@
 
 	@media (max-width: 520px) {
 		.legend {
-			--step: 34px;
+			--step: 30px;
 		}
 	}
 </style>

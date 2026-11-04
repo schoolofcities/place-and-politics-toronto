@@ -116,11 +116,9 @@
 				failed. Chow’s capture of suburban votes in 2026 rivals only Miller’s in 2006, another two-way race.
 			</p>
 		</div>
-		<!-- hidden for now, not deleted
 		<div class="graphic">
 			<CoreSuburbStacked />
 		</div>
-		-->
 		<!-- exploratory: change in Chow's share by tract, to be merged, replaced or removed -->
 		<div class="graphic graphic-map">
 			<ChangeMap />
