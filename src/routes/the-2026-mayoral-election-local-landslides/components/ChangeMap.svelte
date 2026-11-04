@@ -1,5 +1,5 @@
 <script>
-	// Exploratory: the change in Olivia Chow's share of election-day votes between 2023 and 2026
+	// The change in Olivia Chow's share of election-day votes between 2023 and 2026
 	// in each census tract, relative to the citywide change (her share rose almost everywhere, so
 	// the absolute change only shows where she did better; relative to the city shows where she did
 	// better or worse than the city as a whole). Drawn like the poll map beside it: shaded tracts, with a toggle to
@@ -37,11 +37,9 @@
 	const TICKS = ['−10', '−5', '−2', '+2', '+5', '+10']; // legend labels, at the edges between steps
 	const RAMP = ['#c4651a', '#e5955a', '#f4cfae', '#f6f4f3', '#d4bde0', '#a678b8', '#6f4584'];
 	const NO_DATA = '#d4d4d4';
-	// the pop-up's bar: Chow's 2023 share, with the rest of her 2026 share a shade darker on the end
+	// the pop-up's paired bars: her share in 2023 (lighter) above her share in 2026 (darker)
 	const SHARE_2023 = '#c9a6d5';
 	const SHARE_2026 = '#a678b8';
-	// her 2023 share also counts towards 2026, so it carries thin, spaced-out diagonals in the 2026 colour
-	const STRIPED_2023 = `repeating-linear-gradient(135deg, ${SHARE_2023} 0 4px, ${SHARE_2026} 4px 5.2px)`;
 	const MUNI_NAMES = { Toronto: 'Former City of Toronto' }; // the others are named as they are
 	const bin = scaleThreshold().domain(BREAKS).range(range(BREAKS.length + 1));
 	const fill = (p) => (p.relative == null ? NO_DATA : RAMP[bin(p.relative)]);
@@ -49,11 +47,24 @@
 	// raw: hundreds of shapes that never change after mount, so no deep reactivity
 	let nodes = $state.raw([]);
 	let muniPaths = $state.raw([]); // the six former municipalities' outlines
+	let muniLabels = $state.raw([]); // their names, at the label points in the municipalities file
 	let view = $state('shapes');
 	let width = $state(800);
 	let hovered = $state(null);
 	let k = $state(0); // bubble radius per √vote, in map units
 	let viewBox = $state({ x: 0, y: 0, w: W, h: H }); // cropped to the city once drawn
+	// a municipality's name split into lines as ward names are on the poll map: after each hyphen, or
+	// at the last space if it's longer than 13 characters (so the former City of Toronto takes two)
+	function labelLines(name) {
+		const parts = name.split(/(?<=[-–—])/);
+		if (parts.length > 1) return parts;
+		const sp = name.lastIndexOf(' ');
+		if (name.length > 13 && sp !== -1) return [name.slice(0, sp), name.slice(sp + 1)];
+		return [name];
+	}
+	const LABEL_SIZE = 11; // px on screen, as on the poll map
+	const LABEL_LEADING = 12;
+	const LABEL_MIN_WIDTH = 560; // the narrowest map at which the six names fit
 	const radius = (v) => k * Math.sqrt(v);
 	let pathEls = [];
 	let morphs = null;
@@ -102,6 +113,12 @@
 
 		nodes = built;
 		muniPaths = munis.features.map((f) => path(f));
+		muniLabels = munis.features.map((f) => {
+			const { name, label_lon, label_lat } = f.properties;
+			const shown = name === 'Old Toronto' ? 'Former City of Toronto' : name;
+			const [x, y] = projection([label_lon, label_lat]);
+			return { name: shown, lines: labelLines(shown), x, y };
+		});
 
 		// the rotated city doesn't fill the frame, so crop to it (bubbles stay close to their tracts)
 		const PAD = 8;
@@ -142,7 +159,7 @@
 </script>
 
 <figure>
-	<FigureTitle title="Olivia Chow's gain in vote share compared with her citywide gain, 2023 to 2026" />
+	<FigureTitle title="Where Chow did relatively better in 2026 than in 2023" />
 
 	<div class="controls">
 		<div class="toggle" role="group" aria-label="Map view">
@@ -162,10 +179,10 @@
 	</div>
 
 	<div class="map" class:bubbles={view === 'bubbles'} bind:clientWidth={width}>
-	<!-- over Lake Ontario, bottom right, on wider screens; above the map on phones -->
+	<!-- above the map: the title is too long to sit over the lake without covering tracts -->
 	<div class="legend">
 		<div class="ramps">
-			<p class="legend-title">Chow's gain compared with the citywide gain of {(100 * CITY_CHANGE).toFixed(1)} points</p>
+			<p class="legend-title">Percentage point difference in Chow’s performance relative to the citywide average in 2026 versus 2023</p>
 			<div class="ramp labels">
 				<!-- breakpoints at the edges between steps -->
 				<span class="breaks" style:--steps={RAMP.length}>
@@ -175,7 +192,7 @@
 			<div class="ramp">
 				{#each RAMP as c, i (i)}<span class="step" style:background={c}></span>{/each}
 			</div>
-			<div class="ends"><span>Smaller gain</span><span>Larger gain</span></div>
+			<div class="ends"><span>Worse</span><span>Better</span></div>
 		</div>
 		<div class="sizes" class:shown={view === 'bubbles'} aria-hidden={view !== 'bubbles'}>
 			<span class="sizes-title">Votes cast</span>
@@ -210,6 +227,18 @@
 			<g class="munis">
 				{#each muniPaths as d, i (i)}<path class="casing" {d} />{/each}
 				{#each muniPaths as d, i (i)}<path class="line" {d} />{/each}
+				<!-- names with a white halo, set as the ward names are on the poll map: sized in screen pixels,
+					 so divided by the map's scale -->
+				{#if width >= LABEL_MIN_WIDTH}
+					{#each muniLabels as l (l.name)}
+						{@const lead = LABEL_LEADING / scale}
+						<text class="muni-label" x={l.x} y={l.y - ((l.lines.length - 1) * lead) / 2} style:font-size="{LABEL_SIZE / scale}px" style:stroke-width="{3 / scale}px">
+							{#each l.lines as line, j (j)}
+								<tspan x={l.x} dy={j === 0 ? '0.35em' : lead}>{line}</tspan>
+							{/each}
+						</text>
+					{/each}
+				{/if}
 			</g>
 		</svg>
 
@@ -220,12 +249,10 @@
 				{#if p.change == null}
 					<br />No data
 				{:else}
-					<!-- 0 to 100%, unlabelled: her 2023 share (striped, as it is part of her 2026 share too), then the extra she won by in 2026 -->
-					<div class="stack" aria-hidden="true">
-						<span style:width="{100 * Math.min(p.before, p.after)}%" style:background={p.change >= 0 ? STRIPED_2023 : SHARE_2026}></span>
-						<span style:width="{100 * Math.abs(p.change)}%" style:background={p.change >= 0 ? SHARE_2026 : SHARE_2023}></span>
-						<!-- a small tick where her 2023 share plus the citywide gain would reach: the bar's end for a tract that gained exactly what the city did -->
-						<i class="tick" style:left="{100 * Math.min(1, p.before + CITY_CHANGE)}%"></i>
+					<!-- paired bars on the same 0 to 100% scale, unlabelled: her 2023 share above her 2026 share -->
+					<div class="pair" aria-hidden="true">
+						<div class="track"><span style:width="{100 * p.before}%" style:background={SHARE_2023}></span></div>
+						<div class="track"><span style:width="{100 * p.after}%" style:background={SHARE_2026}></span></div>
 					</div>
 					<div class="stack-key">
 						<span><i style:background={SHARE_2023}></i>2023: {pct(p.before)}</span>
@@ -328,32 +355,24 @@
 
 	.legend {
 		display: flex;
-		flex-wrap: wrap;
-		justify-content: center;
-		align-items: flex-end;
-		gap: 10px 36px;
-		margin-bottom: 8px;
+		flex-direction: column;
+		align-items: center;
+		gap: 10px;
+		margin-bottom: 4px;
 		font-size: 13px;
 		color: var(--brandGray70);
 	}
-	/* as wide as the ramp */
+	.ramps {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
 	.legend-title {
-		max-width: 224px;
+		text-align: center;
+		max-width: 460px;
 		margin: 0 0 6px;
 		line-height: 1.35;
 		color: var(--brandGray90);
-	}
-	@media (min-width: 700px) {
-		.legend {
-			position: absolute;
-			right: 2%;
-			bottom: 9%;
-			flex-direction: column;
-			align-items: flex-start;
-			gap: 12px;
-			margin: 0;
-			z-index: 1;
-		}
 	}
 	.ramp {
 		display: flex;
@@ -366,6 +385,7 @@
 	}
 	/* under the ramp's ends: which way is more and which less */
 	.ends {
+		width: calc(7 * var(--step));
 		display: flex;
 		justify-content: space-between;
 		margin-top: 2px;
@@ -450,6 +470,17 @@
 		stroke: #000;
 		stroke-width: 1;
 	}
+	/* as .ward-label on the poll map (size and halo width are set inline, per scale) */
+	.muni-label {
+		font-family: OpenSans, sans-serif;
+		fill: var(--brandGray90);
+		text-anchor: middle;
+		paint-order: stroke;
+		stroke: white;
+		stroke-opacity: 0.84; /* the white halo only; the text stays solid */
+		stroke-linejoin: round;
+		pointer-events: none;
+	}
 	.ghosts,
 	.munis {
 		transition: opacity 0.9s;
@@ -477,26 +508,20 @@
 		font-family: OpenSansBold, sans-serif;
 		font-weight: normal;
 	}
-	/* the pop-up's bar and its key, as on the poll map */
-	.stack {
-		position: relative;
+	/* the pop-up's paired bars and their key: each bar 10px tall as on the poll map, on a grey 0 to 100% track */
+	.pair {
 		display: flex;
-		height: 10px;
+		flex-direction: column;
+		gap: 3px;
 		margin: 6px 0 4px;
+	}
+	.track {
+		height: 10px;
 		background: #eee;
 	}
-	.stack span {
+	.track span {
 		display: block;
 		height: 100%;
-	}
-	/* the citywide-gain tick: a thin dark line, a little taller than the bar */
-	.stack .tick {
-		position: absolute;
-		top: -2px;
-		bottom: -2px;
-		width: 1.5px;
-		margin-left: -0.75px;
-		background: var(--brandGray90);
 	}
 	.stack-key {
 		display: flex;

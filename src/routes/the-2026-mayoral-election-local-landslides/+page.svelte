@@ -4,7 +4,6 @@
 	// the tract small multiples' by ./data/prep_tracts.py, and the change map's vote counts by ./data/prep_change.py.
 
 	import Top from "$lib/layout/TopSofC.svelte";
-	import PasswordGate from "$lib/layout/PasswordGate.svelte"; // remove, with <PasswordGate /> below, at launch
 
 	import MarginsByElection from "./components/MarginsByElection.svelte";
 	import PollMap from "./components/PollMap.svelte";
@@ -14,6 +13,7 @@
 	import ChangeMap from "./components/ChangeMap.svelte";
 
 	const TITLE = "The 2026 mayoral election: Local landslides | Place & Politics in Toronto";
+	const CARD = "https://raw.githubusercontent.com/schoolofcities/place-and-politics-toronto/main/src/assets/web-card-9.png";
 	const DESCRIPTION =
 		"Mapping the 2026 Toronto mayoral election poll by poll: Olivia Chow's local landslides, her core-plus coalition, and the role of Scarborough.";
 </script>
@@ -36,13 +36,14 @@
 	<meta property="og:url" content="https://schoolofcities.github.io/place-and-politics-toronto/the-2026-mayoral-election-local-landslides" />
 	<meta property="og:locale" content="en_CA" />
 
+	<meta property="og:image" content={CARD} />
+
 	<meta name="twitter:card" content="summary_large_image" />
 	<meta name="twitter:site" content="https://www.schoolofcities.utoronto.ca/" />
 	<meta name="twitter:title" content={TITLE} />
 	<meta name="twitter:description" content={DESCRIPTION} />
+	<meta name="twitter:image" content={CARD} />
 </svelte:head>
-
-<PasswordGate />
 
 <Top />
 
@@ -119,8 +120,17 @@
 		<div class="graphic">
 			<CoreSuburbStacked />
 		</div>
-		<!-- exploratory: change in Chow's share by tract, to be merged, replaced or removed -->
-		<div class="graphic graphic-map">
+		<div class="text">
+			<p>
+				While Chow’s 2026 map resembles her 2023 map in many ways, she performed better (and sometimes worse) relative to
+				the citywide average in this election compared with the previous one. The map below shows where she gained or lost
+				support in relative terms. While she received a higher vote share in all city neighbourhoods, and a bump of 20.4
+				percentage points citywide, she lost ground in relative terms north of the 401 and along the well-off Yonge Street
+				corridor. She gained ground in relative terms in the “U” of less-well-off neighbourhoods and in Scarborough south
+				of the 401.
+			</p>
+		</div>
+		<div class="graphic">
 			<ChangeMap />
 		</div>
 		<div class="text">
