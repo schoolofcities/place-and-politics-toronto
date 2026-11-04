@@ -12,6 +12,7 @@
 	import p6 from '$assets/p6.png';
 	import p7 from '$assets/p7.png';
 	import p8 from '$assets/p8.png';
+	import p9 from '$assets/p9.png';
 
 </script>
 
@@ -174,6 +175,19 @@
 					<p>
 						<span class="date">Part 8 - October 26, 2026</span><br>
 						<u>One city, uneven participation</u>
+					</p>
+				</div>
+			</div>
+		</a>
+
+		<a href="{base}/the-2026-mayoral-election-local-landslides">
+			<div class="item">
+				<div class="number" style="background-image: url({p9});">
+				</div>
+				<div id="part">
+					<p>
+						<span class="date">Part 9 - November 4, 2026</span><br>
+						<u>The 2026 mayoral election: Local landslides</u>
 					</p>
 				</div>
 			</div>

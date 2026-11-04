@@ -179,21 +179,23 @@
 	</div>
 
 	<div class="map" class:bubbles={view === 'bubbles'} bind:clientWidth={width}>
-	<!-- above the map: the title is too long to sit over the lake without covering tracts -->
-	<div class="legend">
-		<div class="ramps">
-			<p class="legend-title">Percentage point difference in Chow’s performance relative to the citywide average in 2026 versus 2023</p>
-			<div class="ramp labels">
-				<!-- breakpoints at the edges between steps -->
-				<span class="breaks" style:--steps={RAMP.length}>
-					{#each TICKS as t, i (t)}<span class="break" style:left="{(100 * (i + 1)) / RAMP.length}%">{t}</span>{/each}
-				</span>
+		<!-- above the map: the title is too long to sit over the lake without covering tracts -->
+		<div class="legend">
+			<div class="ramps">
+				<p class="legend-title">Percentage point difference in Chow’s performance relative to the citywide average in 2026 versus 2023</p>
+				<div class="ramp labels">
+					<!-- breakpoints at the edges between steps -->
+					<span class="breaks" style:--steps={RAMP.length}>
+						{#each TICKS as t, i (t)}<span class="break" style:left="{(100 * (i + 1)) / RAMP.length}%">{t}</span>{/each}
+					</span>
+				</div>
+				<div class="ramp">
+					{#each RAMP as c, i (i)}<span class="step" style:background={c}></span>{/each}
+				</div>
+				<div class="ends"><span>Worse</span><span>Better</span></div>
 			</div>
-			<div class="ramp">
-				{#each RAMP as c, i (i)}<span class="step" style:background={c}></span>{/each}
-			</div>
-			<div class="ends"><span>Worse</span><span>Better</span></div>
 		</div>
+		<!-- bubble view only: over Lake Ontario, bottom right -->
 		<div class="sizes" class:shown={view === 'bubbles'} aria-hidden={view !== 'bubbles'}>
 			<span class="sizes-title">Votes cast</span>
 			{#each sizeKey as v (v)}
@@ -204,7 +206,6 @@
 				</span>
 			{/each}
 		</div>
-	</div>
 
 		<svg class="map-svg" viewBox="{viewBox.x} {viewBox.y} {viewBox.w} {viewBox.h}" role="img" aria-label="Map of the change in Olivia Chow's share of the vote in each census tract">
 			<g class="ghosts">
@@ -411,6 +412,12 @@
 		line-height: 1;
 	}
 	.sizes {
+		position: absolute;
+		right: 2%;
+		bottom: 5%;
+		z-index: 1;
+		font-size: 13px;
+		color: var(--brandGray70);
 		display: flex;
 		align-items: flex-end;
 		gap: 14px;
