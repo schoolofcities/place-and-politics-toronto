@@ -6,9 +6,10 @@
 	//
 	// Drawn in the browser only: 1,356 shapes would bloat the prerendered HTML.
 	import { onMount } from 'svelte';
-	import { geoMercator, geoPath, geoArea, greatest, sum, forceSimulation, forceX, forceY, forceCollide, scaleThreshold, range, transition, easeCubicInOut, interpolateNumber } from 'd3';
+	import { geoMercator, geoPath, geoArea, greatest, sum, scaleThreshold, range, transition, easeCubicInOut, interpolateNumber } from 'd3';
 	import FigureTitle from './FigureTitle.svelte';
 	import { shapeToCircle } from './morph.js';
+	import { settleBubbles } from './bubbleLayout.js';
 	import { MARGIN_BINS, MARGIN_TICKS, CHOW_RAMP, BRADFORD_RAMP, TIE, CHOW, BRADFORD, OTHERS } from './config.js';
 	import data from '../data/polls_2026.json';
 
@@ -34,6 +35,7 @@
 	const radius = (v) => k * Math.sqrt(v);
 	let pathEls = [];
 	let morphs = null;
+	let layout = null; // the bubble layout, settling in the background
 	let progress = 0; // 0 = poll areas, 1 = bubbles
 
 	// a ward name split into lines, as on the five-torontos maps: after each hyphen (kept at the
@@ -80,12 +82,8 @@
 			return { p, d: path(f), ring: outer.map((pt) => projection(pt)), x0: x, y0: y, x, y, r: radius(p.total), fill: fill(p) };
 		});
 
-		forceSimulation(built)
-			.force('x', forceX((d) => d.x0).strength(0.25))
-			.force('y', forceY((d) => d.y0).strength(0.25))
-			.force('collide', forceCollide((d) => d.r + 0.4).iterations(3))
-			.stop()
-			.tick(400);
+		// settled in the background; setView() finishes it if the bubbles are asked for first
+		layout = settleBubbles(built);
 
 		nodes = built;
 		wardPaths = wards.features.map((f) => path(f));
@@ -98,12 +96,15 @@
 		const PAD = 8;
 		const [[x0, y0], [x1, y1]] = path.bounds(wards);
 		viewBox = { x: x0 - PAD, y: y0 - PAD, w: x1 - x0 + 2 * PAD, h: y1 - y0 + 2 * PAD };
+
+		return () => layout?.cancel();
 	});
 
 	function setView(next) {
 		if (next === view) return;
 		view = next;
 		hovered = null;
+		layout?.finish();
 		morphs ??= nodes.map((n) => shapeToCircle(n.ring, n.x, n.y, Math.max(n.r, 0.1)));
 		const from = progress;
 		const to = next === 'bubbles' ? 1 : 0;
