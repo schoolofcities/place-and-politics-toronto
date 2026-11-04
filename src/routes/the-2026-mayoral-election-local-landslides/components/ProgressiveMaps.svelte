@@ -9,6 +9,7 @@
 	import { geoMercator, geoPath, geoArea, scaleThreshold } from 'd3';
 	import FigureTitle from './FigureTitle.svelte';
 	import data from '../data/tracts_progressive.json';
+	import { CITYWIDE_SHARE } from './data.js';
 	// the five-torontos page's former municipalities: the city's edge and the old City of Toronto
 	import municipalities from '../data/former_municipalities.geo.json';
 
@@ -20,6 +21,7 @@
 	const NO_DATA = '#d4d4d4';
 	const threshold = scaleThreshold().domain(BREAKS).range(COLOURS);
 	const colour = (v) => (v == null ? NO_DATA : threshold(v));
+	const pct = (v) => `${Math.round(100 * v)}%`;
 
 	let tracts = $state.raw([]); // { d, s: [share per candidate] }
 	let areas = $state.raw([]); // the six former municipalities, for the city's edge
@@ -93,7 +95,7 @@
 							{:else}
 								<path d="M3.3 3.3 L8.7 8.7 M8.7 3.3 L3.3 8.7" />
 							{/if}
-						</svg>{c.won ? 'Won' : 'Lost'}
+						</svg>{c.won ? 'Won' : 'Lost'} <span class="citywide">{pct(CITYWIDE_SHARE[c.year])}</span>
 					</span>
 				</p>
 				<svg class="small-map" viewBox="0 0 {W} {H}" role="img" aria-label="{c.label} {c.year}, vote share by census tract">
@@ -224,6 +226,10 @@
 	.result.won {
 		font-family: OpenSansBold, sans-serif;
 		color: var(--brandGray90);
+	}
+	/* the candidate's official citywide share, in regular weight after Won or Lost */
+	.citywide {
+		font-family: OpenSans, sans-serif;
 	}
 	.ballot {
 		display: inline-block;

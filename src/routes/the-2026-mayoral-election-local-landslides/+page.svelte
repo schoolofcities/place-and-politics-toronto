@@ -1,7 +1,7 @@
 <script>
 	// Graphics live in ./components; colours in ./components/config.js. Chart data are the CSVs in
-	// ./data, exported by Zack Taylor's R scripts; the poll map's data is built by ./data/prep_polls.py
-	// and the tract small multiples' by ./data/prep_tracts.py.
+	// ./data, exported by Zack Taylor's R scripts; the poll map's data is built by ./data/prep_polls.py,
+	// the tract small multiples' by ./data/prep_tracts.py, and the change map's vote counts by ./data/prep_change.py.
 
 	import Top from "$lib/layout/TopSofC.svelte";
 	import PasswordGate from "$lib/layout/PasswordGate.svelte"; // remove, with <PasswordGate /> below, at launch
@@ -11,6 +11,7 @@
 	import CoreSuburbStacked from "./components/CoreSuburbStacked.svelte";
 	import ProgressiveMaps from "./components/ProgressiveMaps.svelte";
 	import MunicipalityBars from "./components/MunicipalityBars.svelte";
+	import ChangeMap from "./components/ChangeMap.svelte";
 
 	const TITLE = "The 2026 mayoral election: Local landslides | Place & Politics in Toronto";
 	const DESCRIPTION =
@@ -115,8 +116,14 @@
 				failed. Chow’s capture of suburban votes in 2026 rivals only Miller’s in 2006, another two-way race.
 			</p>
 		</div>
+		<!-- hidden for now, not deleted
 		<div class="graphic">
 			<CoreSuburbStacked />
+		</div>
+		-->
+		<!-- exploratory: change in Chow's share by tract, to be merged, replaced or removed -->
+		<div class="graphic graphic-map">
+			<ChangeMap />
 		</div>
 		<div class="text">
 			<p>
