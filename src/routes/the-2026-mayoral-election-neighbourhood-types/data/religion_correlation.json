@@ -1,0 +1,59 @@
+{
+ "meta": {
+  "year": 2026,
+  "census_year": 2021,
+  "level": 0.95,
+  "tracts": 583,
+  "measure": "Pearson r across 2021 census tracts, unweighted, between a candidate's share of valid 2026 election-day votes and the Jewish or Muslim share of residents (2021 census); 95% interval from Fisher's z",
+  "source": "data/tor_elections_2023_2026/output/plots/religion_correlations_2026.csv (plot_religion_correlations_2026.R), re-computed here",
+  "built_by": "analysis/election_2026/03_neighbourhood_types_page_data.ipynb"
+ },
+ "rows": [
+  {
+   "religion": "Jewish",
+   "role": "chow",
+   "candidate": "Chow",
+   "n": 583,
+   "r": -0.316,
+   "low": -0.387,
+   "high": -0.241
+  },
+  {
+   "religion": "Jewish",
+   "role": "bradford",
+   "candidate": "Bradford",
+   "n": 583,
+   "r": 0.383,
+   "low": 0.311,
+   "high": 0.45
+  },
+  {
+   "religion": "Muslim",
+   "role": "chow",
+   "candidate": "Chow",
+   "n": 583,
+   "r": 0.067,
+   "low": -0.014,
+   "high": 0.148
+  },
+  {
+   "religion": "Muslim",
+   "role": "bradford",
+   "candidate": "Bradford",
+   "n": 583,
+   "r": -0.157,
+   "low": -0.235,
+   "high": -0.077
+  }
+ ],
+ "shares": {
+  "Jewish": {
+   "median_pct": 1.0,
+   "tracts_over_20pct": 24
+  },
+  "Muslim": {
+   "median_pct": 6.5,
+   "tracts_over_20pct": 40
+  }
+ }
+}

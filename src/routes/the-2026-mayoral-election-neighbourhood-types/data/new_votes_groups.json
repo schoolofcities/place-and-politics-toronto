@@ -1,0 +1,53 @@
+{
+ "meta": {
+  "measure": "Chow's pooled share of valid mapped votes (summed votes over summed valid votes) and her added votes, by who led the Chow vs. main-opponent contest in each election",
+  "elections": "2023 by-election (Chow vs. Bailao) and 2026 (Chow vs. Bradford)",
+  "tracts": 585,
+  "citywide": {
+   "chow23": 34.4,
+   "chow26": 54.7,
+   "added_votes": 215705,
+   "valid_growth_pct": 32.4
+  },
+  "source": "data/tor_elections_2023_2026/output/resultsbyctuid2021_{2023,2026}.dta, re-checked against data/election_results/2026-results-clean/mayor_2023_2026_ct.gpkg",
+  "built_by": "analysis/election_2026/03_neighbourhood_types_page_data.ipynb"
+ },
+ "groups": [
+  {
+   "key": "held",
+   "label": "Chow both times",
+   "tracts": 256,
+   "chow23": 45.8,
+   "chow26": 65.7,
+   "added_votes": 108917,
+   "share_of_increase": 50.5
+  },
+  {
+   "key": "flipped",
+   "label": "Flipped to Chow",
+   "tracts": 146,
+   "chow23": 30.6,
+   "chow26": 53.3,
+   "added_votes": 57525,
+   "share_of_increase": 26.7
+  },
+  {
+   "key": "trailing",
+   "label": "Opponent both times",
+   "tracts": 177,
+   "chow23": 21.7,
+   "chow26": 39.3,
+   "added_votes": 47869,
+   "share_of_increase": 22.2
+  },
+  {
+   "key": "other",
+   "label": "Other",
+   "tracts": 6,
+   "chow23": 32.3,
+   "chow26": 48.4,
+   "added_votes": 1394,
+   "share_of_increase": 0.6
+  }
+ ]
+}

@@ -1,0 +1,86 @@
+{
+ "meta": {
+  "census_year": 2021,
+  "level": 0.95,
+  "measure": "Pearson r across 2021 census tracts, unweighted, between Chow's share of valid election-day votes and the Chinese visible-minority share of residents (2021 census for all elections); 95% interval from Fisher's z",
+  "areas": {
+   "City of Toronto": "Old Toronto",
+   "Suburbs": "Suburbs"
+  },
+  "source": "data/tor_elections_2023_2026/output/plots/chow_chinese_correlation_by_area.csv (plot_chow_chinese_correlation.R)",
+  "built_by": "analysis/election_2026/03_neighbourhood_types_page_data.ipynb"
+ },
+ "rows": [
+  {
+   "election": 2014,
+   "area": "Old Toronto",
+   "n": 178,
+   "r": 0.202,
+   "low": 0.056,
+   "high": 0.339
+  },
+  {
+   "election": 2014,
+   "area": "Suburbs",
+   "n": 405,
+   "r": 0.193,
+   "low": 0.097,
+   "high": 0.285
+  },
+  {
+   "election": 2023,
+   "area": "Old Toronto",
+   "n": 178,
+   "r": 0.237,
+   "low": 0.093,
+   "high": 0.371
+  },
+  {
+   "election": 2023,
+   "area": "Suburbs",
+   "n": 405,
+   "r": 0.427,
+   "low": 0.344,
+   "high": 0.503
+  },
+  {
+   "election": 2026,
+   "area": "Old Toronto",
+   "n": 178,
+   "r": 0.233,
+   "low": 0.089,
+   "high": 0.368
+  },
+  {
+   "election": 2026,
+   "area": "Suburbs",
+   "n": 405,
+   "r": 0.116,
+   "low": 0.019,
+   "high": 0.211
+  }
+ ],
+ "citywide": [
+  {
+   "election": 2014,
+   "n": 583,
+   "r": 0.038,
+   "low": -0.043,
+   "high": 0.119
+  },
+  {
+   "election": 2023,
+   "n": 583,
+   "r": 0.229,
+   "low": 0.15,
+   "high": 0.304
+  },
+  {
+   "election": 2026,
+   "n": 583,
+   "r": 0.044,
+   "low": -0.038,
+   "high": 0.124
+  }
+ ]
+}

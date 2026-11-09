@@ -1,0 +1,141 @@
+{
+ "meta": {
+  "year": 2026,
+  "tracts": 585,
+  "pool": 88,
+  "top_n": 10,
+  "measure": "Pearson r between a tract characteristic and the candidate's share of valid election-day votes, unweighted, across 2021 census tracts",
+  "source": "data/tor_elections_2023_2026/output/plots/correlates_2026.csv (plot_correlates_2026.R)",
+  "built_by": "analysis/election_2026/03_neighbourhood_types_page_data.ipynb"
+ },
+ "chow": {
+  "name": "Chow",
+  "rows": [
+   {
+    "id": "marsmaclcomm",
+    "label": "Marital status: Common-law",
+    "r": 0.619,
+    "n": 585
+   },
+   {
+    "id": "jwmdbike",
+    "label": "Commute: Bicycle",
+    "r": 0.593,
+    "n": 583
+   },
+   {
+    "id": "occ_arsp",
+    "label": "Occupation: Arts, recreation, sport",
+    "r": 0.593,
+    "n": 583
+   },
+   {
+    "id": "rlgnnone",
+    "label": "No religion",
+    "r": 0.55,
+    "n": 583
+   },
+   {
+    "id": "jwmdwalk",
+    "label": "Commute: Walk",
+    "r": 0.517,
+    "n": 583
+   },
+   {
+    "id": "walkscore",
+    "label": "Walk Score",
+    "r": 0.515,
+    "n": 585
+   },
+   {
+    "id": "transitscore",
+    "label": "Transit Score",
+    "r": 0.455,
+    "n": 585
+   },
+   {
+    "id": "marsnmclnevr",
+    "label": "Marital status: Never married",
+    "r": 0.453,
+    "n": 585
+   },
+   {
+    "id": "hhtnrent",
+    "label": "Rented dwellings",
+    "r": 0.391,
+    "n": 583
+   },
+   {
+    "id": "pop_dens",
+    "label": "Population density",
+    "r": 0.389,
+    "n": 585
+   }
+  ]
+ },
+ "bradford": {
+  "name": "Bradford",
+  "rows": [
+   {
+    "id": "jwmdauto",
+    "label": "Commute: Automobile",
+    "r": 0.612,
+    "n": 583
+   },
+   {
+    "id": "marsmaclmarr",
+    "label": "Marital status: Married",
+    "r": 0.61,
+    "n": 585
+   },
+   {
+    "id": "dwtpsdet",
+    "label": "Single-detached dwellings",
+    "r": 0.581,
+    "n": 585
+   },
+   {
+    "id": "ihat_med",
+    "label": "Household income: Median",
+    "r": 0.442,
+    "n": 583
+   },
+   {
+    "id": "hhtnown_",
+    "label": "Owner-occupied dwellings",
+    "r": 0.417,
+    "n": 583
+   },
+   {
+    "id": "occ_heal",
+    "label": "Occupation: Health",
+    "r": 0.414,
+    "n": 583
+   },
+   {
+    "id": "ihat_avg",
+    "label": "Household income: Average",
+    "r": 0.412,
+    "n": 583
+   },
+   {
+    "id": "hcov_avg",
+    "label": "Average dwelling value",
+    "r": 0.385,
+    "n": 580
+   },
+   {
+    "id": "rlgnjewi",
+    "label": "Religion: Jewish",
+    "r": 0.383,
+    "n": 583
+   },
+   {
+    "id": "rlgnchricath_tot",
+    "label": "Religion: Catholic",
+    "r": 0.363,
+    "n": 583
+   }
+  ]
+ }
+}
