@@ -10,6 +10,7 @@ import p6 from '$assets/p6.png';
 import p7 from '$assets/p7.png';
 import p8 from '$assets/p8.png';
 import p9 from '$assets/p9.png';
+// import p10 from '$assets/p10.png'; // Part 10: hidden until it is ready to share (see the TODO in the page)
 
 export const posts = [
 	{ part: 1, image: p1, slug: 'the-geography-of-the-vote-poll-by-poll', title: 'The geography of the vote, poll by poll', date: 'November 2, 2022' },
@@ -21,4 +22,6 @@ export const posts = [
 	{ part: 7, image: p7, slug: 'five-torontos', title: 'The five Torontos', date: 'October 22, 2026', authors: ['aniket'] },
 	{ part: 8, image: p8, slug: 'toronto-turnout', title: 'One city, uneven participation', date: 'October 26, 2026', authors: ['aniket', 'kaiwen'] },
 	{ part: 9, image: p9, slug: 'the-2026-mayoral-election-local-landslides', title: 'The 2026 mayoral election: Local landslides', date: 'November 4, 2026', authors: ['zack', 'jeff', 'aniket'] },
+	// Part 10: hidden until it is ready to share
+	// { part: 10, image: p10, slug: 'the-2026-mayoral-election-neighbourhood-types', title: 'The 2026 mayoral election: What kinds of neighbourhoods voted for whom?', date: 'November 10, 2026', authors: ['zack', 'aniket', 'jeff'] },
 ];

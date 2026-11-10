@@ -13,3 +13,6 @@ A series of interactive pages mapping Toronto's mayoral, provincial, and federal
 7. [The five Torontos](https://schoolofcities.github.io/place-and-politics-toronto/five-torontos) ([methods](analysis/clustering_neighbourhoods/DATA_AND_METHODS.md), [front-end notes](src/routes/five-torontos/README.md))
 8. [One city, uneven participation](https://schoolofcities.github.io/place-and-politics-toronto/toronto-turnout) ([methods](analysis/toronto_election_turnout/DATA_AND_METHODS.md)) 
 9. [The 2026 mayoral election: Local landslides](https://schoolofcities.github.io/place-and-politics-toronto/the-2026-mayoral-election-local-landslides) 
+<!-- Part 10: hidden until it is ready to share
+10. [The 2026 mayoral election: What kinds of neighbourhoods voted for whom?](https://schoolofcities.github.io/place-and-politics-toronto/the-2026-mayoral-election-neighbourhood-types) ([methods](analysis/election_2026/03_neighbourhood_types_page_data.ipynb))
+-->

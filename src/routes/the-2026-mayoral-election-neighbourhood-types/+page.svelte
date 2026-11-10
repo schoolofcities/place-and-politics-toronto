@@ -1,14 +1,17 @@
 <script>
-	// Outline only: placeholder text and placeholder graphics (./components), to be filled in one at a time.
-	// Analysis behind the graphics: analysis/election_2026/02_chow_coalition_expansion.ipynb.
+	// Graphics live in ./components; colours in ./components/config.js. Their data are JSON/GeoJSON files in ./data,
+	// built by analysis/election_2026/03_neighbourhood_types_page_data.ipynb (the analysis behind the story is in
+	// 02_chow_coalition_expansion.ipynb).
 	//
-	// TODO before publishing:
-	//  - add this post to $lib/posts.js (needs src/assets/p10.png and web-card-10.png), then add
-	//    <StructuredData slug="..." /> below. Until then it is left out, because StructuredData
-	//    treats an unlisted slug as the home page (and would set the canonical link to the site root).
-	//  - replace CARD with web-card-10.png.
+	// HIDDEN until it is ready to share. To publish, uncomment all of these:
+	//  - the Part 10 entry and its p10 import in $lib/posts.js (the footer and the home page's structured data use it)
+	//  - the Part 10 link and its p10 import in src/routes/+page.svelte (the home page's list)
+	//  - the Part 10 line in README.md
+	//  - the StructuredData import and tag in this file. They stay off while the post is unlisted, because
+	//    StructuredData treats an unlisted slug as the home page and would set the canonical link to the site root.
 
 	import Top from "$lib/layout/TopSofC.svelte";
+	// import StructuredData from "$lib/layout/StructuredData.svelte";
 
 	import CorrelationsOverview from "./components/CorrelationsOverview.svelte";
 	import NewVotesMap from "./components/NewVotesMap.svelte";
@@ -18,7 +21,7 @@
 	import CorrelationsOverTime from "./components/CorrelationsOverTime.svelte";
 
 	const TITLE = "The 2026 mayoral election: What kinds of neighbourhoods voted for whom? | Place & Politics in Toronto";
-	const CARD = "https://raw.githubusercontent.com/schoolofcities/place-and-politics-toronto/main/src/assets/web-card-9.png"; // placeholder
+	const CARD = "https://raw.githubusercontent.com/schoolofcities/place-and-politics-toronto/main/src/assets/web-card-10.png";
 	const DESCRIPTION =
 		"What kinds of neighbourhoods voted for whom in the 2026 Toronto mayoral election: the demographics of Olivia Chow's coalition, how she grew it, and what has and has not changed over time.";
 </script>
@@ -49,6 +52,8 @@
 	<meta name="twitter:description" content={DESCRIPTION} />
 	<meta name="twitter:image" content={CARD} />
 </svelte:head>
+
+<!-- <StructuredData slug="the-2026-mayoral-election-neighbourhood-types" description={DESCRIPTION} /> -->
 
 <Top />
 

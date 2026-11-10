@@ -13,6 +13,7 @@
 	import p7 from '$assets/p7.png';
 	import p8 from '$assets/p8.png';
 	import p9 from '$assets/p9.png';
+	// import p10 from '$assets/p10.png'; // Part 10: hidden until it is ready to share
 
 </script>
 
@@ -193,6 +194,21 @@
 			</div>
 		</a>
 
+		<!-- Part 10: hidden until it is ready to share
+		<a href="{base}/the-2026-mayoral-election-neighbourhood-types">
+			<div class="item">
+				<div class="number" style="background-image: url({p10});">
+				</div>
+				<div id="part">
+					<p>
+						<span class="date">Part 10 - November 10, 2026</span><br>
+						<u>The 2026 mayoral election: What kinds of neighbourhoods voted for whom?</u>
+					</p>
+				</div>
+			</div>
+		</a>
+		-->
+
 	</div>
 	
 	<br><br>
@@ -263,7 +279,7 @@
 		padding-right: 0px;
 		/* border: solid 1px #4a5fff; */
 		color: black;
-		float: left; 
+		overflow: hidden; /* sits beside the floated circle and wraps within its own space, so a long title (Part 10) stays beside the circle */
 	}
 
 	.date {
