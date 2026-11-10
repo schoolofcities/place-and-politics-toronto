@@ -95,10 +95,9 @@
 </figure>
 
 <style>
-	/* compact: a simple chart does not need the page's full graphic width */
+	/* as wide as the paragraphs (the page's .graphic wrapper sets that width) */
 	figure {
-		max-width: 560px;
-		margin: 0 auto;
+		margin: 0;
 	}
 	.legend {
 		display: flex;

@@ -1,9 +1,9 @@
 <script>
 	// Small multiples: how strongly five neighbourhood measures went with each winning candidate's
 	// vote share, mayoral elections 1997 to 2026 (absolute correlation, so a line's height is
-	// strength, not direction). Panels are stacked on one shared time axis, so the line moves
-	// by years, not by election; the background tint marks conservative and progressive mayors,
-	// each from the year they were elected to the year the next was (Miller's and Chow's are the progressive ones). Styled like the page's strip plots.
+	// strength, not direction). Panels are stacked on one shared time scale, so the line moves
+	// by years, not by election, in steps: a mayor's value holds until the next election, it is not interpolated. The background tint marks conservative and progressive mayors,
+	// each from the year they were elected to the year the next was (Miller's and Chow's are the progressive ones); the mayors are named under the last panel, at the year each was first elected. Styled like the page's strip plots.
 	// Data: ../data/winner_correlations.json (analysis/election_2026/03_neighbourhood_types_page_data.ipynb, Section 6).
 	import { scaleLinear } from 'd3';
 	import FigureTitle from './FigureTitle.svelte';
@@ -19,15 +19,16 @@
 
 	let width = $state(560);
 	const small = $derived(width < 420);
-	const LEFT = 30; // room for the correlation labels on the first panel
+	const LEFT = 30; // room for the correlation labels on each panel
 	const RIGHT = 8;
-	const NAMES_H = 32; // mayors' names above the first panel
+	const NAMES_H = 4; // space above the first panel
 	const TITLE_H = 26; // a panel's title, and the space under it
-	const PLOT_H = 68;
+	const PLOT_H = 62;
+	const AXIS_LAB = 19; // the years under each panel
 	const GAP = 12;
-	const BLOCK = TITLE_H + PLOT_H + GAP;
-	const AXIS_H = 38;
-	const height = NAMES_H + variables.length * BLOCK - GAP + AXIS_H;
+	const BLOCK = TITLE_H + PLOT_H + AXIS_LAB + GAP;
+	const MAYORS_H = 24; // the mayors' names, under the last panel's years
+	const height = NAMES_H + variables.length * BLOCK - GAP + MAYORS_H;
 
 	const X0 = 1997;
 	const X1 = 2027;
@@ -44,13 +45,15 @@
 		if (i > 0) winners[i - 1].end = w.start;
 	});
 
-	const path = $derived((v) =>
-		v.rows.map((r, i) => `${i ? 'L' : 'M'}${x(r.year).toFixed(1)},${y(r.abs).toFixed(1)}`).join('')
+	// a stepped line: each election's value runs flat until the next election, then jumps; the last runs to the end of the axis
+	const path = $derived(
+		(v) =>
+			v.rows.map((r, i) => (i ? `H${x(r.year).toFixed(1)}V${y(r.abs).toFixed(1)}` : `M${x(r.year).toFixed(1)},${y(r.abs).toFixed(1)}`)).join('') + `H${x(X1).toFixed(1)}`
 	);
 	const GRID = [0, 0.5, 1];
 	const gridText = (g) => (g === 0 ? '0' : g === 1 ? '1.0' : '0.5');
-	// 2022 and 2023 are a year apart, so 2022's label drops to a second line
-	const lowered = new Set([2022]);
+	// 2022 and 2023 are a year apart, so 2022's label ends at its tick and the others are centred on theirs
+	const labelAnchor = (yr) => (yr === 2022 ? 'end' : 'middle');
 
 	const summary = variables
 		.map((v) => `${v.label}: ` + v.rows.map((r) => `${r.year} ${r.abs.toFixed(2)}`).join(', '))
@@ -67,11 +70,6 @@
 
 	<div class="chart" bind:clientWidth={width}>
 		<svg {width} {height} viewBox="0 0 {width} {height}" role="img" aria-label="Five small line charts of the absolute correlation between a neighbourhood measure and the winning candidate's vote share in each mayoral election from 1997 to 2026. {summary}.">
-			<!-- the mayors, named above the first panel, centred on their years in office -->
-			{#each winners as w (w.start)}
-				<text class="winner" x={(x(w.start) + x(w.end)) / 2} y={NAMES_H - 7}>{w.name}</text>
-			{/each}
-
 			{#each variables as v, i (v.key)}
 				{@const top = NAMES_H + i * BLOCK}
 				{@const py = top + TITLE_H}
@@ -85,7 +83,7 @@
 				<!-- horizontal guides, and vertical markers at each election, within the panel only -->
 				{#each GRID as g (g)}
 					<line class="grid" class:base={g === 0} x1={LEFT} x2={width - RIGHT} y1={py + y(g)} y2={py + y(g)} />
-					{#if i === 0}<text class="tick" x={LEFT - 6} y={py + y(g)} dy="0.35em">{gridText(g)}</text>{/if}
+					<text class="tick" x={LEFT - 6} y={py + y(g)} dy="0.35em">{gridText(g)}</text>
 				{/each}
 				{#each years as yr (yr)}
 					<line class="mark" x1={x(yr)} x2={x(yr)} y1={py} y2={py + PLOT_H} />
@@ -93,37 +91,46 @@
 
 				<g transform="translate(0,{py})">
 					<path class="series" d={path(v)} />
+					{#each v.rows as r (r.year)}
+						<circle class="pt" cx={x(r.year)} cy={y(r.abs)} r="2.6" />
+					{/each}
 				</g>
+
+				<!-- the years, under every panel -->
+				{#each years as yr (yr)}
+					<text class="tick year" x={x(yr)} y={py + PLOT_H + 15} style:text-anchor={labelAnchor(yr)} dx={yr === 2022 ? -2 : 0} style:font-size={small ? '10px' : null}>{small ? `’${String(yr).slice(2)}` : yr}</text>
+				{/each}
 			{/each}
 
-			<!-- shared time axis under the last panel -->
-			{#each years as yr (yr)}
-				{@const ty = NAMES_H + variables.length * BLOCK - GAP + (lowered.has(yr) ? 24 : 12)}
-				<text class="tick year" x={x(yr)} y={ty} style:font-size={small ? '10px' : null}>{yr}</text>
+			<!-- the mayors, named under the last panel's years: left-aligned at the year they were first elected, behind a small tick -->
+			{#each winners as w (w.start)}
+				{@const mt = NAMES_H + variables.length * BLOCK - GAP + 4}
+				<line class="mayor-tick" x1={x(w.start)} x2={x(w.start)} y1={mt} y2={mt + 15} />
+				<text class="winner" x={x(w.start) + 5} y={mt + 12} style:font-size={small ? '10px' : null}>{w.name}</text>
 			{/each}
 		</svg>
 	</div>
 
 	<figcaption class="note">
 		Absolute Pearson correlations across census tracts, unweighted, between the winner's share of election-day votes and each measure, using the census nearest each election. They show
-		strength, not direction. Except for Tory in 2014 (negative for auto commuting and distance), all five measures are positive for the conservative mayors and negative for Miller and Chow.
+		strength, not direction. Steps hold each election's value until the next. Except for Tory in 2014 (negative for auto commuting and distance), all five measures are positive for the conservative mayors and negative for Miller and Chow.
 		Tracts, not voters.
 	</figcaption>
 </figure>
 
 <style>
+	/* as wide as the paragraphs (the page's .graphic wrapper sets that width) */
 	figure {
-		max-width: 560px;
-		margin: 0 auto;
+		margin: 0;
 	}
 	.legend {
 		display: flex;
 		flex-wrap: wrap;
 		justify-content: center;
 		gap: 6px 18px;
-		margin: 0 0 8px;
+		margin: 0 0 10px;
 		font-family: OpenSans, sans-serif;
-		font-size: 12px;
+		font-size: 13px;
 		color: var(--brandGray80);
 	}
 	.item {
@@ -135,6 +142,7 @@
 		width: 14px;
 		height: 14px;
 		display: inline-block;
+		flex: none;
 	}
 	.chart {
 		width: 100%;
@@ -150,7 +158,11 @@
 		font-family: OpenSansBold, sans-serif;
 		font-size: 11px;
 		fill: var(--brandGray80);
-		text-anchor: middle;
+		text-anchor: start;
+	}
+	.mayor-tick {
+		stroke: var(--brandGray60);
+		stroke-width: 1.5px;
 	}
 	.row-title {
 		font-family: OpenSansBold, sans-serif;
@@ -175,7 +187,12 @@
 		text-anchor: end;
 	}
 	.tick.year {
-		text-anchor: middle;
+		font-size: 10px;
+	}
+	.pt {
+		fill: #333;
+		stroke: #fff;
+		stroke-width: 1;
 	}
 	.series {
 		fill: none;
@@ -185,7 +202,7 @@
 		stroke-linecap: round;
 	}
 	.note {
-		margin: 12px 0 0;
+		margin: 14px 0 0;
 		font-family: OpenSans, sans-serif;
 		font-size: 11px;
 		line-height: 1.45;

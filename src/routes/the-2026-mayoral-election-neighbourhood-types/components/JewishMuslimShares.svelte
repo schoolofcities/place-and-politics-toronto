@@ -8,7 +8,7 @@
 	const pct = (v) => `${Math.round(v)}%`;
 </script>
 
-<CorrelationIntervals title="Correlation between 2026 candidate vote share and % Jewish and % Muslim residents." legend={religionLegend} panels={religionPanels}>
+<CorrelationIntervals title="Correlation between 2026 candidate vote share and % Jewish and % Muslim residents" legend={religionLegend} panels={religionPanels}>
 	Pearson correlations across {religionMeta.tracts} census tracts, unweighted, between each candidate's share of valid election-day votes and the
 	Jewish or Muslim share of residents, using the 2021 census. Bars are 95% confidence intervals, probably too narrow because neighbouring tracts
 	are alike. Both groups are concentrated in a few tracts: the median tract is {pct(religionShares.Jewish.median_pct)} Jewish and

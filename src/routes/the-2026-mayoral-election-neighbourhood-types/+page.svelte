@@ -123,7 +123,16 @@
 
 	<div class="info">
 		<p class="info-title"><strong>Data Sources</strong></p>
-		<p>Data sources and notes go here.</p>
+		<p>
+			Official <a href="https://open.toronto.ca/dataset/election-results-official/" target="_blank" rel="noopener noreferrer">election results</a>
+			and the <a href="https://www.toronto.ca/city-government/elections/city-elections/voting-places/" target="_blank" rel="noopener noreferrer">voting subdivisions</a>
+			(poll catchment areas) were downloaded from the City of Toronto. The code and data used to build this page and its
+			graphics are on <a href="https://github.com/schoolofcities/place-and-politics-toronto" target="_blank" rel="noopener noreferrer">GitHub</a>.
+		</p>
+		<p>
+			The census tract map and the charts are based on the historical election results used in other posts in this series, apportioned
+			to 2021 census tracts, and on Statistics Canada’s 2021 Census data for the same tracts.
+		</p>
 	</div>
 </main>
 
@@ -137,11 +146,11 @@
 		padding-top: 20px;
 	}
 
-	/* graphics sit wider than the text column, like the maps on the other stories */
+	/* graphics are exactly as wide as the paragraphs: the .text column's content box (694px, or the page width less 50px), so their edges line up with the text */
 	.graphic {
 		margin: 20px auto;
-		max-width: 850px;
-		width: calc(100% - 20px);
+		max-width: 694px;
+		width: calc(100% - 50px);
 	}
 
 	.info-title {

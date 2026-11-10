@@ -42,8 +42,8 @@
 	<figcaption class="note">
 		Each number is a correlation across the city's {correlationMeta.tracts} census tracts, not a share of the vote: 1 means a
 		characteristic rises and falls exactly with the candidate's vote share, and 0 means no relationship. Both lists share one
-		scale. Shown are the ten highest of {correlationMeta.pool} characteristics: 2021 census variables, distance from City Hall,
-		and Walk, Transit and Bike Scores. Tracts count equally, whatever their size. The vote is each candidate's share of valid
+		scale. Shown are the ten highest of {correlationMeta.pool} characteristics: 2021 census variables and distance from City Hall.
+		Tracts count equally, whatever their size. The vote is each candidate's share of valid
 		election-day votes; advance and mail-in votes are not included. These are associations between places, not evidence about
 		how any group of people voted.
 	</figcaption>
@@ -112,7 +112,8 @@
 	}
 
 	.note {
-		margin: 20px 0 0;
+		margin: 14px 0 0;
+		font-family: OpenSans, sans-serif;
 		font-size: 11px;
 		line-height: 1.45;
 		color: var(--brandGray60);

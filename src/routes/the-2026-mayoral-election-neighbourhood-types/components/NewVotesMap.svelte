@@ -118,16 +118,16 @@
 </figure>
 
 <style>
+	/* as wide as the paragraphs (the page's .graphic wrapper sets that width) */
 	figure {
-		max-width: 680px;
-		margin: 0 auto;
+		margin: 0;
 	}
 	.legend {
 		display: flex;
 		flex-wrap: wrap;
 		justify-content: center;
 		gap: 6px 18px;
-		margin: 0 0 8px;
+		margin: 0 0 10px;
 		font-family: OpenSans, sans-serif;
 		font-size: 13px;
 		color: var(--brandGray80);
@@ -203,7 +203,7 @@
 		text-anchor: end;
 	}
 	.note {
-		margin: 12px 0 0;
+		margin: 14px 0 0;
 		font-family: OpenSans, sans-serif;
 		font-size: 11px;
 		line-height: 1.45;
