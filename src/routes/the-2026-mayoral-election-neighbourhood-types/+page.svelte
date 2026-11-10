@@ -121,18 +121,21 @@
 		</div>
 	</section>
 
-	<div class="info">
-		<p class="info-title"><strong>Data Sources</strong></p>
+	<div class="info" id="data-and-methods">
+		<p class="info-title"><strong>Data and methods</strong></p>
 		<p>
-			Official <a href="https://open.toronto.ca/dataset/election-results-official/" target="_blank" rel="noopener noreferrer">election results</a>
+			All data are for Toronto’s 585 census tracts, on 2021 boundaries. Official <a href="https://open.toronto.ca/dataset/election-results-official/" target="_blank" rel="noopener noreferrer">election results</a>
 			and the <a href="https://www.toronto.ca/city-government/elections/city-elections/voting-places/" target="_blank" rel="noopener noreferrer">voting subdivisions</a>
-			(poll catchment areas) were downloaded from the City of Toronto. The code and data used to build this page and its
+			(poll catchment areas) were downloaded from the City of Toronto, and election results and census characteristics were each apportioned to these tracts.
+			Everything here describes neighbourhoods, not how individual voters, or any group of people, voted. The code and data used to build this page and its
 			graphics are on <a href="https://github.com/schoolofcities/place-and-politics-toronto" target="_blank" rel="noopener noreferrer">GitHub</a>.
 		</p>
-		<p>
-			The census tract map and the charts are based on the historical election results used in other posts in this series, apportioned
-			to 2021 census tracts, and on Statistics Canada’s 2021 Census data for the same tracts.
-		</p>
+		<ul>
+			<li><strong><em>Elections:</em></strong> poll-level mayoral results, 1997 to 2026, split into dissemination blocks by population and summed to 2021 census tracts. Only election-day votes are included, as advance and mail-in votes can’t be placed in a neighbourhood. The map and the votes Chow added use the polls that can be mapped, about 78% of valid votes in 2023 and 76% in 2026, so the 2023 baseline is not the official result, in which Chow led Ana Bailão 37.2% to 32.5%.</li>
+			<li><strong><em>Census:</em></strong> Statistics Canada’s 2021 Census of Population, including median age. The chart of the winners’ vote over time uses the census nearest each election, 1996 to 2021; data from 1996 to 2016 were apportioned to 2021 census tracts using the <a href="https://doi.org/10.1111/cag.12467" target="_blank" rel="noopener noreferrer">Canadian Longitudinal Census Tract Database</a> (Allen and Taylor, 2018).</li>
+			<li><strong><em>Correlations:</em></strong> Pearson coefficients across tracts, unweighted, between a candidate’s share of valid election-day votes and a tract characteristic.</li>
+			<li><strong><em>Boundaries:</em></strong> census tracts from Statistics Canada and former municipalities from the City of Toronto, as in other posts in this series.</li>
+		</ul>
 	</div>
 </main>
 
@@ -155,6 +158,13 @@
 
 	.info-title {
 		font-size: 17px;
+	}
+	.info ul {
+		margin: 0;
+		padding-left: 18px;
+	}
+	.info li {
+		margin-bottom: 8px;
 	}
 
 	@media (max-width: 600px) {
