@@ -1,0 +1,461 @@
+{
+ "meta": {
+  "measure": "Absolute Pearson correlation across 2021 census tracts, unweighted, between the winning candidate's share of election-day votes and each tract measure, using the census nearest each election; signed r and 95% interval (Fisher z) are also given",
+  "source": "data/tor_elections_2023_2026/output/plots/winner_correlates.csv (plot_winner_correlates.R), re-computed here",
+  "built_by": "analysis/election_2026/03_neighbourhood_types_page_data.ipynb"
+ },
+ "elections": [
+  {
+   "year": 1997,
+   "winner": "Lastman",
+   "side": "Conservative",
+   "census": 1996,
+   "n": 580
+  },
+  {
+   "year": 2000,
+   "winner": "Lastman",
+   "side": "Conservative",
+   "census": 2001,
+   "n": 581
+  },
+  {
+   "year": 2003,
+   "winner": "Miller",
+   "side": "Progressive",
+   "census": 2001,
+   "n": 583
+  },
+  {
+   "year": 2006,
+   "winner": "Miller",
+   "side": "Progressive",
+   "census": 2006,
+   "n": 581
+  },
+  {
+   "year": 2010,
+   "winner": "Ford",
+   "side": "Conservative",
+   "census": 2011,
+   "n": 579
+  },
+  {
+   "year": 2014,
+   "winner": "Tory",
+   "side": "Conservative",
+   "census": 2016,
+   "n": 585
+  },
+  {
+   "year": 2018,
+   "winner": "Tory",
+   "side": "Conservative",
+   "census": 2016,
+   "n": 585
+  },
+  {
+   "year": 2022,
+   "winner": "Tory",
+   "side": "Conservative",
+   "census": 2021,
+   "n": 583
+  },
+  {
+   "year": 2023,
+   "winner": "Chow",
+   "side": "Progressive",
+   "census": 2021,
+   "n": 583
+  },
+  {
+   "year": 2026,
+   "winner": "Chow",
+   "side": "Progressive",
+   "census": 2021,
+   "n": 583
+  }
+ ],
+ "variables": [
+  {
+   "key": "auto",
+   "label": "% auto commute",
+   "rows": [
+    {
+     "year": 1997,
+     "r": 0.657,
+     "abs": 0.657,
+     "low": 0.608,
+     "high": 0.701
+    },
+    {
+     "year": 2000,
+     "r": 0.71,
+     "abs": 0.71,
+     "low": 0.667,
+     "high": 0.748
+    },
+    {
+     "year": 2003,
+     "r": -0.698,
+     "abs": 0.698,
+     "low": -0.738,
+     "high": -0.654
+    },
+    {
+     "year": 2006,
+     "r": -0.696,
+     "abs": 0.696,
+     "low": -0.736,
+     "high": -0.652
+    },
+    {
+     "year": 2010,
+     "r": 0.792,
+     "abs": 0.792,
+     "low": 0.76,
+     "high": 0.821
+    },
+    {
+     "year": 2014,
+     "r": -0.073,
+     "abs": 0.073,
+     "low": -0.153,
+     "high": 0.008
+    },
+    {
+     "year": 2018,
+     "r": 0.712,
+     "abs": 0.712,
+     "low": 0.67,
+     "high": 0.75
+    },
+    {
+     "year": 2022,
+     "r": 0.722,
+     "abs": 0.722,
+     "low": 0.681,
+     "high": 0.759
+    },
+    {
+     "year": 2023,
+     "r": -0.657,
+     "abs": 0.657,
+     "low": -0.701,
+     "high": -0.609
+    },
+    {
+     "year": 2026,
+     "r": -0.67,
+     "abs": 0.67,
+     "low": -0.713,
+     "high": -0.623
+    }
+   ]
+  },
+  {
+   "key": "income",
+   "label": "Median household income",
+   "rows": [
+    {
+     "year": 1997,
+     "r": 0.118,
+     "abs": 0.118,
+     "low": 0.037,
+     "high": 0.198
+    },
+    {
+     "year": 2000,
+     "r": 0.236,
+     "abs": 0.236,
+     "low": 0.157,
+     "high": 0.311
+    },
+    {
+     "year": 2003,
+     "r": -0.182,
+     "abs": 0.182,
+     "low": -0.26,
+     "high": -0.102
+    },
+    {
+     "year": 2006,
+     "r": -0.244,
+     "abs": 0.244,
+     "low": -0.319,
+     "high": -0.166
+    },
+    {
+     "year": 2010,
+     "r": 0.043,
+     "abs": 0.043,
+     "low": -0.039,
+     "high": 0.124
+    },
+    {
+     "year": 2014,
+     "r": 0.614,
+     "abs": 0.614,
+     "low": 0.561,
+     "high": 0.662
+    },
+    {
+     "year": 2018,
+     "r": 0.381,
+     "abs": 0.381,
+     "low": 0.309,
+     "high": 0.448
+    },
+    {
+     "year": 2022,
+     "r": 0.315,
+     "abs": 0.315,
+     "low": 0.24,
+     "high": 0.386
+    },
+    {
+     "year": 2023,
+     "r": -0.396,
+     "abs": 0.396,
+     "low": -0.462,
+     "high": -0.325
+    },
+    {
+     "year": 2026,
+     "r": -0.36,
+     "abs": 0.36,
+     "low": -0.429,
+     "high": -0.287
+    }
+   ]
+  },
+  {
+   "key": "owners",
+   "label": "% owner-occupied housing",
+   "rows": [
+    {
+     "year": 1997,
+     "r": 0.278,
+     "abs": 0.278,
+     "low": 0.201,
+     "high": 0.352
+    },
+    {
+     "year": 2000,
+     "r": 0.316,
+     "abs": 0.316,
+     "low": 0.241,
+     "high": 0.387
+    },
+    {
+     "year": 2003,
+     "r": -0.259,
+     "abs": 0.259,
+     "low": -0.333,
+     "high": -0.182
+    },
+    {
+     "year": 2006,
+     "r": -0.263,
+     "abs": 0.263,
+     "low": -0.337,
+     "high": -0.186
+    },
+    {
+     "year": 2010,
+     "r": 0.324,
+     "abs": 0.324,
+     "low": 0.249,
+     "high": 0.395
+    },
+    {
+     "year": 2014,
+     "r": 0.156,
+     "abs": 0.156,
+     "low": 0.076,
+     "high": 0.234
+    },
+    {
+     "year": 2018,
+     "r": 0.42,
+     "abs": 0.42,
+     "low": 0.351,
+     "high": 0.484
+    },
+    {
+     "year": 2022,
+     "r": 0.386,
+     "abs": 0.386,
+     "low": 0.315,
+     "high": 0.453
+    },
+    {
+     "year": 2023,
+     "r": -0.33,
+     "abs": 0.33,
+     "low": -0.4,
+     "high": -0.255
+    },
+    {
+     "year": 2026,
+     "r": -0.392,
+     "abs": 0.392,
+     "low": -0.459,
+     "high": -0.321
+    }
+   ]
+  },
+  {
+   "key": "detached",
+   "label": "% single-detached house",
+   "rows": [
+    {
+     "year": 1997,
+     "r": 0.312,
+     "abs": 0.312,
+     "low": 0.236,
+     "high": 0.383
+    },
+    {
+     "year": 2000,
+     "r": 0.393,
+     "abs": 0.393,
+     "low": 0.322,
+     "high": 0.46
+    },
+    {
+     "year": 2003,
+     "r": -0.323,
+     "abs": 0.323,
+     "low": -0.394,
+     "high": -0.248
+    },
+    {
+     "year": 2006,
+     "r": -0.466,
+     "abs": 0.466,
+     "low": -0.527,
+     "high": -0.4
+    },
+    {
+     "year": 2010,
+     "r": 0.446,
+     "abs": 0.446,
+     "low": 0.379,
+     "high": 0.509
+    },
+    {
+     "year": 2014,
+     "r": 0.199,
+     "abs": 0.199,
+     "low": 0.12,
+     "high": 0.276
+    },
+    {
+     "year": 2018,
+     "r": 0.529,
+     "abs": 0.529,
+     "low": 0.468,
+     "high": 0.585
+    },
+    {
+     "year": 2022,
+     "r": 0.504,
+     "abs": 0.504,
+     "low": 0.441,
+     "high": 0.562
+    },
+    {
+     "year": 2023,
+     "r": -0.543,
+     "abs": 0.543,
+     "low": -0.597,
+     "high": -0.483
+    },
+    {
+     "year": 2026,
+     "r": -0.56,
+     "abs": 0.56,
+     "low": -0.614,
+     "high": -0.502
+    }
+   ]
+  },
+  {
+   "key": "distance",
+   "label": "Distance from City Hall",
+   "rows": [
+    {
+     "year": 1997,
+     "r": 0.6,
+     "abs": 0.6,
+     "low": 0.545,
+     "high": 0.65
+    },
+    {
+     "year": 2000,
+     "r": 0.652,
+     "abs": 0.652,
+     "low": 0.602,
+     "high": 0.696
+    },
+    {
+     "year": 2003,
+     "r": -0.662,
+     "abs": 0.662,
+     "low": -0.706,
+     "high": -0.614
+    },
+    {
+     "year": 2006,
+     "r": -0.483,
+     "abs": 0.483,
+     "low": -0.543,
+     "high": -0.419
+    },
+    {
+     "year": 2010,
+     "r": 0.788,
+     "abs": 0.788,
+     "low": 0.756,
+     "high": 0.817
+    },
+    {
+     "year": 2014,
+     "r": -0.402,
+     "abs": 0.402,
+     "low": -0.468,
+     "high": -0.332
+    },
+    {
+     "year": 2018,
+     "r": 0.542,
+     "abs": 0.542,
+     "low": 0.482,
+     "high": 0.596
+    },
+    {
+     "year": 2022,
+     "r": 0.621,
+     "abs": 0.621,
+     "low": 0.569,
+     "high": 0.669
+    },
+    {
+     "year": 2023,
+     "r": -0.411,
+     "abs": 0.411,
+     "low": -0.477,
+     "high": -0.342
+    },
+    {
+     "year": 2026,
+     "r": -0.475,
+     "abs": 0.475,
+     "low": -0.535,
+     "high": -0.409
+    }
+   ]
+  }
+ ]
+}
