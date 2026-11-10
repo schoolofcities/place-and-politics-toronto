@@ -21,6 +21,7 @@
 		font-weight: bold;
 		line-height: 1.3;
 		margin: 24px 0 0;
+		text-wrap: balance; /* a title that has to wrap breaks into even lines, with no stranded last word; one that fits is unchanged */
 	}
 	.subtitle-text {
 		font-family: OpenSans, sans-serif;
@@ -28,5 +29,6 @@
 		line-height: 1.4;
 		color: var(--brandGray90);
 		margin: 9px 0 0;
+		text-wrap: balance;
 	}
 </style>

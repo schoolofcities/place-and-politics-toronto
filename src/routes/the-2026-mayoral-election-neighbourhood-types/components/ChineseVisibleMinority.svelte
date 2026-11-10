@@ -7,7 +7,7 @@
 	import { chineseLegend, chinesePanels, chineseCitywide, chineseTracts } from './data.js';
 </script>
 
-<CorrelationIntervals title="Correlation between Chow's vote and Chinese residents" legend={chineseLegend} panels={chinesePanels}>
+<CorrelationIntervals title="Correlation between Chow neighbourhood vote share and % Chinese residents" legend={chineseLegend} panels={chinesePanels}>
 	Pearson correlations across census tracts ({chineseTracts['Old Toronto']} in Old Toronto, {chineseTracts.Suburbs} in the suburbs), unweighted,
 	between Chow's share of valid election-day votes and the Chinese (visible minority) share of residents, using the 2021 census for all three
 	elections. Bars are 95% confidence intervals, probably too narrow because neighbouring tracts are alike. Across all tracts the correlations are

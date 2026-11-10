@@ -40,19 +40,22 @@
 	// the inset bars, left to right: opponent both times, flipped, Chow both times. Text is right-aligned, on the right.
 	const BARS = ['trailing', 'flipped', 'held'].map((k) => groupByKey[k]);
 	const city = newVotes.meta.citywide;
-	const BAR_W = $derived(small ? 18 : 26);
-	const GAP = 4;
+	const BAR_W = $derived(small ? 18 : 44);
+	const GAP = $derived(small ? 4 : 8);
+	// what each bar is, written under it where there is room (not on small screens)
+	const BAR_LABELS = { trailing: ['Opponent', 'both times'], flipped: ['Flipped', 'to Chow'], held: ['Chow', 'both times'] };
+	const LABEL_H = $derived(small ? 0 : 30);
 	const AXIS_W = $derived(small ? 28 : 32); // y-axis labels, right of the bars
 	const PLOT_W = $derived(BARS.length * BAR_W + (BARS.length - 1) * GAP);
 	const IN_W = $derived(Math.max(PLOT_W + AXIS_W + 8, small ? 92 : 108));
-	const IN_H = $derived(small ? 84 : 122);
-	const TITLE_H = $derived(small ? 16 : 18);
+	const IN_H = $derived(small ? 84 : 162);
+	const PLOT_TOP = $derived(small ? 34 : 38); // under the two-line title
 	// the inset sits in the map's empty lake corner, flush with the map's bottom edge; on small screens a little of it hangs below
-	const EXTRA = $derived(small ? 36 : 0);
+	const EXTRA = $derived(small ? 36 : 30);
 	const height = $derived(mapH + EXTRA);
 	const IN_X = $derived(width - IN_W);
 	const IN_Y = $derived(height - IN_H);
-	const y = $derived(scaleLinear().domain([0, 112000]).range([IN_H - 2, TITLE_H + 6]));
+	const y = $derived(scaleLinear().domain([0, 112000]).range([IN_H - 2 - LABEL_H, PLOT_TOP]));
 	const TICKS = [0, 50000, 100000];
 	const tickText = (t) => (t === 0 ? '0' : `${t / 1000}K`);
 	const gridX0 = $derived(IN_W - AXIS_W - PLOT_W - 4);
@@ -88,13 +91,19 @@
 			</g>
 
 			<g transform="translate({IN_X},{IN_Y})">
-				<text class="in-title" x={IN_W} y="11" style:font-size={small ? "10px" : null}>Votes Chow added</text>
+				<text class="in-title" x={IN_W} y={small ? 10 : 11} style:font-size={small ? "10px" : null}>Votes Chow added</text>
+				<text class="in-title" x={IN_W} y={small ? 22 : 24} style:font-size={small ? "10px" : null}>city-wide, by zone</text>
 				{#each TICKS as t (t)}
 					<line class="grid" class:zero={t === 0} x1={gridX0} x2={gridX1} y1={y(t)} y2={y(t)} />
 					<text class="tick" x={IN_W} y={y(t)} dy="0.35em">{tickText(t)}</text>
 				{/each}
 				{#each BARS as b, i (b.key)}
 					<rect x={barX(i)} y={y(b.added_votes)} width={BAR_W} height={y(0) - y(b.added_votes)} fill={GROUP_COLOURS[b.key]} />
+					{#if !small}
+						{#each BAR_LABELS[b.key] as line, j (j)}
+							<text class="bar-label" x={barX(i) + BAR_W / 2} y={y(0) + 13 + j * 12}>{line}</text>
+						{/each}
+					{/if}
 				{/each}
 			</g>
 		</svg>
@@ -175,6 +184,11 @@
 		font-size: 11px;
 		fill: var(--brandGray90);
 		text-anchor: end;
+	}
+	.bar-label {
+		font-size: 10px;
+		fill: var(--brandGray80);
+		text-anchor: middle;
 	}
 	.grid {
 		stroke: #e6e6e6;
