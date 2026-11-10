@@ -19,3 +19,12 @@ export const GROUP_COLOURS = {
 	trailing: BRADFORD, // her opponent led both times
 	other: '#cfcfcf' // anything else (6 tracts)
 };
+
+// "The vote and the traits that track it": four-step sequential ramps for the small-multiple maps (light to dark).
+// Each candidate's vote share uses their own colour; every neighbourhood trait uses the white-yellow-orange ramp of the
+// local-landslides page's small-multiple maps, so the traits stand out from both candidates.
+export const HERO_RAMPS = {
+	chow: ['#f3ecf7', '#cfb2dd', '#a276bb', '#6f3f8c'],
+	bradford: ['#eef5ec', '#c3dcbd', '#86b97e', '#3f7a3b'],
+	traits: ['#fbf8ee', '#fbe3a0', '#f5b94a', '#e0761f']
+};

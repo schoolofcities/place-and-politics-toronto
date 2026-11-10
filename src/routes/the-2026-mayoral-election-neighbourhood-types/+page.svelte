@@ -13,6 +13,7 @@
 	import Top from "$lib/layout/TopSofC.svelte";
 	// import StructuredData from "$lib/layout/StructuredData.svelte";
 
+	import NeighbourhoodMaps from "./components/NeighbourhoodMaps.svelte";
 	import CorrelationsOverview from "./components/CorrelationsOverview.svelte";
 	import NewVotesMap from "./components/NewVotesMap.svelte";
 	import ChowTopFifthStrips from "./components/ChowTopFifthStrips.svelte";
@@ -73,8 +74,14 @@
 
 	<!-- Introduction -->
 	<section class="story-section" aria-label="Introduction">
+		<div class="graphic wide hero">
+			<NeighbourhoodMaps />
+		</div>
 		<div class="text">
 			<p>Introduction text goes here.</p>
+		</div>
+		<div class="text">
+			<p>More text goes here.</p>
 		</div>
 		<div class="graphic">
 			<CorrelationsOverview />
@@ -159,6 +166,16 @@
 		margin: 20px auto;
 		max-width: 694px;
 		width: calc(100% - 50px);
+	}
+	/* the lead maps sit wider than the text column, like the small-multiple maps on the local-landslides page */
+	.graphic.wide {
+		max-width: 850px;
+		width: calc(100% - 20px);
+	}
+	/* the lead graphic: close under the title block, with the introduction following */
+	.graphic.hero {
+		margin-top: 8px;
+		margin-bottom: 12px;
 	}
 
 	.info-title {

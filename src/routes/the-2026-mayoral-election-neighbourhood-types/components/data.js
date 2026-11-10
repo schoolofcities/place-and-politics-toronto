@@ -6,6 +6,7 @@ import religion from '../data/religion_correlation.json';
 import newVotesGroups from '../data/new_votes_groups.json';
 import stripsData from '../data/chow_top_fifth_strips.json';
 import winnerData from '../data/winner_correlations.json';
+import heroMapsData from '../data/hero_maps.json';
 import newVotesGeo from '../data/new_votes_tracts.geojson?raw';
 import newVotesMuniGeo from '../data/new_votes_municipalities.geojson?raw';
 import { CHOW, BRADFORD, CHOW_TEXT, BRADFORD_TEXT, OLD_TORONTO, SUBURBS, GROUP_COLOURS } from './config.js';
@@ -72,3 +73,6 @@ export const strips = stripsData;
 
 // ---- Correlations with the winner's vote share over time (CorrelationsOverTime.svelte) ----
 export const winnerCorrelations = winnerData;
+
+// ---- Small-multiple maps at the top: the vote and the traits that track it (NeighbourhoodMaps.svelte) ----
+export const heroMaps = heroMapsData;
