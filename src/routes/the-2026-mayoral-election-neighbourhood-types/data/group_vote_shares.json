@@ -1,0 +1,126 @@
+{
+ "meta": {
+  "threshold": 20,
+  "census_year": 2021,
+  "measure": "Each candidate's share of election-day votes cast in the tracts where the group is more than the threshold of residents, and in all other tracts (votes pooled)",
+  "built_by": "src/routes/the-2026-mayoral-election-neighbourhood-types/data/prep_group_vote_shares.py"
+ },
+ "religion": [
+  {
+   "group": "Jewish",
+   "over": {
+    "tracts": 24,
+    "votes": 33840,
+    "chow": 33.6,
+    "bradford": 63.6
+   },
+   "other": {
+    "tracts": 559,
+    "votes": 716358,
+    "chow": 55.7,
+    "bradford": 39.5
+   }
+  },
+  {
+   "group": "Muslim",
+   "over": {
+    "tracts": 40,
+    "votes": 48225,
+    "chow": 59.9,
+    "bradford": 33.2
+   },
+   "other": {
+    "tracts": 543,
+    "votes": 701973,
+    "chow": 54.3,
+    "bradford": 41.1
+   }
+  }
+ ],
+ "chinese": [
+  {
+   "year": 2014,
+   "area": "Old Toronto",
+   "over": {
+    "tracts": 17,
+    "votes": 22783,
+    "chow": 42.4
+   },
+   "other": {
+    "tracts": 161,
+    "votes": 249317,
+    "chow": 34.7
+   }
+  },
+  {
+   "year": 2014,
+   "area": "Suburbs",
+   "over": {
+    "tracts": 85,
+    "votes": 97572,
+    "chow": 19.2
+   },
+   "other": {
+    "tracts": 320,
+    "votes": 450860,
+    "chow": 17.2
+   }
+  },
+  {
+   "year": 2023,
+   "area": "Old Toronto",
+   "over": {
+    "tracts": 17,
+    "votes": 17088,
+    "chow": 51.4
+   },
+   "other": {
+    "tracts": 161,
+    "votes": 189874,
+    "chow": 43.0
+   }
+  },
+  {
+   "year": 2023,
+   "area": "Suburbs",
+   "over": {
+    "tracts": 85,
+    "votes": 64423,
+    "chow": 34.3
+   },
+   "other": {
+    "tracts": 320,
+    "votes": 295453,
+    "chow": 27.8
+   }
+  },
+  {
+   "year": 2026,
+   "area": "Old Toronto",
+   "over": {
+    "tracts": 17,
+    "votes": 25567,
+    "chow": 72.2
+   },
+   "other": {
+    "tracts": 161,
+    "votes": 245961,
+    "chow": 65.2
+   }
+  },
+  {
+   "year": 2026,
+   "area": "Suburbs",
+   "over": {
+    "tracts": 85,
+    "votes": 83907,
+    "chow": 49.1
+   },
+   "other": {
+    "tracts": 320,
+    "votes": 394763,
+    "chow": 48.2
+   }
+  }
+ ]
+}

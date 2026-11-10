@@ -1,7 +1,7 @@
 {
  "meta": {
   "measure": "Absolute Pearson correlation across 2021 census tracts, unweighted, between the winning candidate's share of election-day votes and each tract measure, using the census nearest each election; signed r and 95% interval (Fisher z) are also given",
-  "source": "data/tor_elections_2023_2026/output/plots/winner_correlates.csv (plot_winner_correlates.R), re-computed here",
+  "source": "data/tor_elections_2023_2026/output/plots/winner_correlates.csv (plot_winner_correlates.R), re-computed here; the share of households that rent is computed here only (the script has owner-occupied housing)",
   "built_by": "analysis/election_2026/03_neighbourhood_types_page_data.ipynb"
  },
  "elections": [
@@ -79,7 +79,7 @@
  "variables": [
   {
    "key": "auto",
-   "label": "% auto commute",
+   "label": "% of commutes by car",
    "rows": [
     {
      "year": 1997,
@@ -230,84 +230,84 @@
    ]
   },
   {
-   "key": "owners",
-   "label": "% owner-occupied housing",
+   "key": "renters",
+   "label": "% of households that rent",
    "rows": [
     {
      "year": 1997,
-     "r": 0.278,
-     "abs": 0.278,
-     "low": 0.201,
-     "high": 0.352
+     "r": -0.223,
+     "abs": 0.223,
+     "low": -0.299,
+     "high": -0.145
     },
     {
      "year": 2000,
-     "r": 0.316,
-     "abs": 0.316,
-     "low": 0.241,
-     "high": 0.387
+     "r": -0.285,
+     "abs": 0.285,
+     "low": -0.358,
+     "high": -0.209
     },
     {
      "year": 2003,
-     "r": -0.259,
-     "abs": 0.259,
-     "low": -0.333,
-     "high": -0.182
+     "r": 0.234,
+     "abs": 0.234,
+     "low": 0.156,
+     "high": 0.309
     },
     {
      "year": 2006,
-     "r": -0.263,
-     "abs": 0.263,
-     "low": -0.337,
-     "high": -0.186
+     "r": 0.251,
+     "abs": 0.251,
+     "low": 0.173,
+     "high": 0.325
     },
     {
      "year": 2010,
-     "r": 0.324,
-     "abs": 0.324,
-     "low": 0.249,
-     "high": 0.395
+     "r": -0.323,
+     "abs": 0.323,
+     "low": -0.394,
+     "high": -0.248
     },
     {
      "year": 2014,
-     "r": 0.156,
-     "abs": 0.156,
-     "low": 0.076,
-     "high": 0.234
+     "r": -0.145,
+     "abs": 0.145,
+     "low": -0.223,
+     "high": -0.065
     },
     {
      "year": 2018,
-     "r": 0.42,
-     "abs": 0.42,
-     "low": 0.351,
-     "high": 0.484
+     "r": -0.408,
+     "abs": 0.408,
+     "low": -0.474,
+     "high": -0.339
     },
     {
      "year": 2022,
-     "r": 0.386,
-     "abs": 0.386,
-     "low": 0.315,
-     "high": 0.453
+     "r": -0.385,
+     "abs": 0.385,
+     "low": -0.452,
+     "high": -0.314
     },
     {
      "year": 2023,
-     "r": -0.33,
-     "abs": 0.33,
-     "low": -0.4,
-     "high": -0.255
+     "r": 0.329,
+     "abs": 0.329,
+     "low": 0.254,
+     "high": 0.399
     },
     {
      "year": 2026,
-     "r": -0.392,
-     "abs": 0.392,
-     "low": -0.459,
-     "high": -0.321
+     "r": 0.391,
+     "abs": 0.391,
+     "low": 0.32,
+     "high": 0.458
     }
    ]
   },
   {
    "key": "detached",
-   "label": "% single-detached house",
+   "label": "% of dwellings that are single-detached",
    "rows": [
     {
      "year": 1997,

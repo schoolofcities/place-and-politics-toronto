@@ -286,5 +286,11 @@
 		color:rgb(126, 126, 126)
 	}
 
+	/* the post links: no underline of their own (the titles have theirs, from <u>). #part is no longer
+	   floated, so the global link underline would otherwise reach the dates too */
+	a:has(> .item) {
+		text-decoration: none;
+	}
+
 	
 </style>

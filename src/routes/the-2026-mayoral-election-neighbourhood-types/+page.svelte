@@ -17,8 +17,8 @@
 	import CorrelationsOverview from "./components/CorrelationsOverview.svelte";
 	import NewVotesMap from "./components/NewVotesMap.svelte";
 	import ChowTopFifthStrips from "./components/ChowTopFifthStrips.svelte";
-	import ChineseVisibleMinority from "./components/ChineseVisibleMinority.svelte";
-	import JewishMuslimShares from "./components/JewishMuslimShares.svelte";
+	import ChineseShares from "./components/ChineseShares.svelte";
+	import ReligionShares from "./components/ReligionShares.svelte";
 	import CorrelationsOverTime from "./components/CorrelationsOverTime.svelte";
 
 	const TITLE = "The 2026 mayoral election: What kinds of neighbourhoods voted for whom? | Place & Politics in Toronto";
@@ -74,7 +74,19 @@
 
 	<!-- Introduction -->
 	<section class="story-section" aria-label="Introduction">
-		<div class="graphic wide hero">
+		<div class="text">
+			<p>
+				Chow and Bradford appealed to different kinds of voters. The
+				<a href="https://www.thestar.com/news/gta/why-olivia-chow-and-brad-bradford-supporters-see-toronto-as-two-different-cities/article_18a06e44-86a6-4015-b444-e65f0fbe6f73.html" target="_blank" rel="noopener noreferrer"><em>Star</em>’s Vote Compass project</a>
+				found that people who favoured one or the other candidate seemed to live in “different cities”, with Chow supporters
+				being most concerned about housing and transit, while Bradford’s reported property tax rates and crime and policing as
+				their most important issues. As our
+				<a href="https://schoolofcities.github.io/place-and-politics-toronto/social-geography-and-the-mayoral-vote#cvar=jwmdauto_pct&cyear=2021&eyear=2026&ecand=chow_olivia&eall=0" target="_blank" rel="noopener noreferrer">social geography correlation tool</a>
+				shows, this variation is reflected in their geographic bases of support. Each candidate tended to receive support from
+				different types of neighbourhoods - reflecting deeper social patterns across the city.
+			</p>
+		</div>
+		<div class="graphic hero">
 			<NeighbourhoodMaps />
 		</div>
 		<div class="text">
@@ -109,16 +121,40 @@
 	<section class="story-section titled" aria-labelledby="identity-heading">
 		<div class="text">
 			<h2 id="identity-heading">Identity voting?</h2>
-			<p>Text goes here.</p>
+			<p>
+				Toronto is a highly ethnically diverse city, and so we might expect to see ethnic affinity voting for Chow. In 2023,
+				and again in 2026, pundits suggested that as a Chinese woman, Chow would potentially attract support from the city’s
+				large Asian community. In fact we find this to be correct, if weakly. Neighbourhood vote shares for Chow are weakly
+				correlated with neighbourhood Chinese population share in 2014 and 2026, regardless of location. In 2023 there was a
+				stronger correlation in suburban areas, but a weaker one in 2026. This suggests that suburban Chinese neighbourhoods
+				swing toward Chow in 2023 but away from her in 2026, while there was no change in the former City of Toronto between
+				2023 and 2026. Without individual-level evidence from surveys we cannot definitively explain this pattern.
+				Nevertheless, we So, we maycan conclude that Chinese ethnic affinity voting likely occursdynamics may be present, but
+				it is a marginal factor, and was more present appeared in 2023 more than in 2026 or 2014.
+			</p>
 		</div>
 		<div class="graphic">
-			<ChineseVisibleMinority />
+			<ChineseShares />
 		</div>
 		<div class="text">
-			<p>More text goes here.</p>
+			<p>
+				In the context of the polarized debate on Israel and Palestine, the media reported
+				<a href="https://nationalpost.com/news/canada/after-re-election-olivia-chow-needs-to-show-up-in-order-to-gain-jewish-communitys-trust/" target="_blank" rel="noopener noreferrer">criticism from the Jewish community</a>
+				that Chow was insufficiently supportive of them, while others have pushed back on that criticism as relying on
+				anti-Palestinian tropes.
+				<a href="https://x.com/BradMBradford/status/2097718635104006517" target="_blank" rel="noopener noreferrer">Bradford called her out</a>
+				for not showing up to a Walk for Israel and a debate on antisemitism, but also came under criticism for courting
+				Islamophobes. Do we see any evidence of Jewish neighbourhoods disproportionately supporting Bradford or Muslim
+				neighbourhoods disproportionately supporting Chow? Again, we have weak evidence that this is the case. As the
+				proportion of the neighbourhood population that is Jewish increases, that neighbourhood was more likely to support
+				Bradford over Chow. There was no corresponding trend for neighbourhoods by Muslim population.
+			</p>
 		</div>
 		<div class="graphic">
-			<JewishMuslimShares />
+			<ReligionShares group="Jewish" />
+		</div>
+		<div class="graphic">
+			<ReligionShares group="Muslim" />
 		</div>
 	</section>
 
@@ -166,11 +202,6 @@
 		margin: 20px auto;
 		max-width: 694px;
 		width: calc(100% - 50px);
-	}
-	/* the lead maps sit wider than the text column, like the small-multiple maps on the local-landslides page */
-	.graphic.wide {
-		max-width: 850px;
-		width: calc(100% - 20px);
 	}
 	/* the lead graphic: close under the title block, with the introduction following */
 	.graphic.hero {

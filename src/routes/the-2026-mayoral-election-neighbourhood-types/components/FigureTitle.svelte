@@ -1,11 +1,13 @@
 <script>
 	// Title and subtitle above a graphic, so it still makes sense on its own (e.g. screenshotted).
 	// Same look as FigureTitle on the 2026 local-landslides page.
-	let { title = '', subtitle = '' } = $props();
+	// size: the title's font size in px, for a graphic smaller than the rest (default 18).
+	// children: the title as markup (e.g. a word underlined), in place of the plain `title`
+	let { title = '', subtitle = '', size = 18, children } = $props();
 </script>
 
 <div class="figure-title">
-	<p class="title-text">{title}</p>
+	<p class="title-text" style:font-size="{size}px">{#if children}{@render children()}{:else}{title}{/if}</p>
 	{#if subtitle}<p class="subtitle-text">{subtitle}</p>{/if}
 </div>
 
@@ -17,7 +19,6 @@
 	}
 	.title-text {
 		font-family: 'Source Serif Pro', serif;
-		font-size: 18px;
 		font-weight: bold;
 		line-height: 1.3;
 		margin: 24px 0 0;

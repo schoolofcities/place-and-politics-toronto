@@ -1,15 +1,19 @@
 <script>
 	// The page's lead graphic: small multiples of census tracts, each candidate's 2026 vote share beside
 	// six neighbourhood traits, so the patterns can be compared at a glance. Each map is shaded in fourths
-	// of tracts (so every map uses its whole colour range), with Old Toronto outlined and named on the first map.
-	// Laid out like the small-multiple maps on the local-landslides page, and as wide as they are.
+	// of tracts (so every map uses its whole colour range), with the boundaries between the six former municipalities drawn on.
+	// Two columns on every screen: Chow's and Bradford's maps side by side, each with its own scale above it,
+	// then the traits' scale, then the six trait maps, the three that go with each candidate running down
+	// under their map (heroMaps.maps lists Chow and his three traits, then Bradford and his).
 	// Data: ../data/hero_maps.json (analysis/election_2026/03_neighbourhood_types_page_data.ipynb, Section 7); the tract
-	// and municipality shapes are ../data/new_votes_tracts.geojson and new_votes_municipalities.geojson.
+	// and municipality shapes are ../data/new_votes_tracts.geojson and new_votes_municipalities.geojson, and the
+	// boundaries between the municipalities and between the wards ../data/municipality_lines.geojson and
+	// ward_lines.geojson (../data/prep_boundary_lines.py). A toggle by the traits' scale picks which, or none.
 	//
 	// Drawn in the browser only: eight copies of 585 tracts would bloat the prerendered HTML.
 	import { onMount } from 'svelte';
 	import { geoMercator, geoPath, scaleThreshold } from 'd3';
-	import { heroMaps, newVotesTracts, newVotesMunicipalities } from './data.js';
+	import { heroMaps, newVotesTracts, newVotesMunicipalities, municipalityLines, wardLines } from './data.js';
 	import { HERO_RAMPS } from './config.js';
 
 	const W = 300;
@@ -21,90 +25,114 @@
 		return { ...m, colour: (v) => (v == null ? NO_DATA : step(v)) };
 	});
 
-	// the three colour scales, each explained once above the maps
-	const legend = [
-		{ key: 'chow', label: "Chow's vote share" },
-		{ key: 'bradford', label: "Bradford's vote share" },
-		{ key: 'traits', label: 'Neighbourhood traits' }
-	];
+	// the candidates' scales sit over their own maps; the traits' one, shared by the other six, above those
+	const CANDIDATE_SCALES = { chow: "Chow's vote share", bradford: "Bradford's vote share" };
+	const candidates = maps.filter((m) => CANDIDATE_SCALES[m.key]);
+	const traits = maps.filter((m) => !CANDIDATE_SCALES[m.key]); // Chow's three, then Bradford's
 
 	let paths = $state.raw([]); // one path per tract, in the order of heroMaps.tracts
 	let areas = $state.raw([]); // the six former municipalities, for the city's edge
-	let oldCity = $state('');
-	let callout = $state(null); // where to name Old Toronto on the first map
+	// the boundary lines over the tracts, each drawn once: the six former municipalities', the wards', or none
+	const BOUNDARIES = [
+		{ key: 'former', label: 'Former municipalities' },
+		{ key: 'wards', label: 'Wards' },
+		{ key: 'none', label: 'None' }
+	];
+	let boundaries = $state('former');
+	let boundaryPaths = $state.raw({ former: '', wards: '', none: '' });
+	const lines = $derived(boundaryPaths[boundaries]);
 	let H = $state(156); // the shape of the city, so the cells keep their size before the maps draw
-	let cellWidth = $state(200);
-	const scale = $derived(W / cellWidth); // svg units per screen pixel, so the callout's text is the same size at any width
 
 	onMount(() => {
 		const fc = newVotesTracts;
-		const [[, y0], [, y1]] = geoPath(geoMercator().angle(-17).fitWidth(W - 4, fc)).bounds(fc);
+		// fitted to the former municipalities, not the tracts: their outline (the city's edge) reaches a
+		// little past the tracts at the lakeshore, and would be clipped at the bottom otherwise
+		const frame = newVotesMunicipalities;
+		const [[, y0], [, y1]] = geoPath(geoMercator().angle(-17).fitWidth(W - 4, frame)).bounds(frame);
 		H = Math.ceil(y1 - y0) + 4;
-		const projection = geoMercator().angle(-17).fitExtent([[2, 2], [W - 2, H - 2]], fc);
+		const projection = geoMercator().angle(-17).fitExtent([[2, 2], [W - 2, H - 2]], frame);
 		const draw = geoPath(projection).digits(1);
 		paths = fc.features.map((f) => draw(f));
 		areas = newVotesMunicipalities.features.map((f) => draw(f));
-		const old = newVotesMunicipalities.features.find((f) => f.properties.name === 'Old Toronto');
-		oldCity = draw(old);
-		const [[ox0, oy0], [ox1, oy1]] = draw.bounds(old);
-		callout = { x1: ox1, y1: oy1, cx: (ox0 + ox1) / 2 };
+		boundaryPaths = { former: draw(municipalityLines), wards: draw(wardLines), none: '' };
 	});
 </script>
 
 <figure aria-label="Maps of Toronto's census tracts: Chow's and Bradford's 2026 vote share beside six neighbourhood traits">
-	<div class="grid">
-		{#each maps as m, i (m.key)}
-			<div class="cell">
-				<p class="name">{m.label}</p>
-				<svg
-					class="small-map"
-					viewBox="0 0 {W} {H}"
-					style:aspect-ratio="{W} / {H}"
-					role="img"
-					aria-label="{m.label}, by census tract, shaded in fourths of tracts from lower (lightest) to higher (darkest)"
-					bind:clientWidth={cellWidth}
-				>
-					<!-- the city's edge, as on the local-landslides maps: a wide outline of the former municipalities, then
-						 their fill on top, hiding the lines between them and showing through the lightest tracts -->
-					{#each areas as d, j (j)}<path class="city-edge" {d} />{/each}
-					{#each areas as d, j (j)}<path class="city-fill" {d} />{/each}
-					{#each paths as d, j (j)}<path class="tract" {d} fill={m.colour(m.values[j])} />{/each}
-					{#if oldCity}<path class="old-city" d={oldCity} />{/if}
-					<!-- on the first map only: name the outline -->
-					{#if i === 0 && callout}
-						{@const fs = 11 * scale}
-						{@const tx = W - 4}
-						{@const ty = H - 7}
-						<!-- the name sits in the lake, bottom right, with an arrow to the outline's lakeshore corner -->
-						<defs>
-							<marker id="old-toronto-head" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto">
-								<path d="M0,1 L9,5 L0,9 Z" fill="#191919" />
-							</marker>
-						</defs>
-						<g class="callout" style:font-size="{fs}px">
-							<path class="arrow" marker-end="url(#old-toronto-head)" d="M{tx - 5.6 * fs - 5},{ty - 0.3 * fs} Q{callout.x1 + 6 * scale},{ty - 0.3 * fs} {callout.x1 - 1 * scale},{callout.y1 - 26 * scale}" />
-							<text x={tx} y={ty}>Old Toronto</text>
-						</g>
-					{/if}
-				</svg>
-			</div>
-		{/each}
-	</div>
-
-
-	<!-- the three colour scales, one compact row under the maps: each runs from lower to higher -->
-	<div class="legend" aria-hidden="true">
-		{#each legend as l (l.key)}
-			<div class="scale">
-				<p class="legend-title">{l.label}</p>
-				<div class="bar">
-					<span>Lower</span>
-					<span class="steps">{#each HERO_RAMPS[l.key] as c (c)}<span class="step" style:background={c}></span>{/each}</span>
-					<span>Higher</span>
+	<!-- one small map, with its name and, for a candidate, their scale -->
+	{#snippet cell(m)}
+		<div class="cell">
+			<p class="name">{m.label}</p>
+			{#if CANDIDATE_SCALES[m.key]}
+				<div class="scale cell-scale" aria-hidden="true">
+					<div class="bar">
+						<span>Lower</span>
+						<span class="steps">{#each HERO_RAMPS[m.key] as c (c)}<span class="step" style:background={c}></span>{/each}</span>
+						<span>Higher</span>
+					</div>
 				</div>
-			</div>
-		{/each}
+			{/if}
+			<svg
+				class="small-map"
+				viewBox="0 0 {W} {H}"
+				style:aspect-ratio="{W} / {H}"
+				role="img"
+				aria-label="{m.label}, by census tract, shaded in fourths of tracts from lower (lightest) to higher (darkest)"
+			>
+				<!-- the city's edge, as on the local-landslides maps: a wide outline of the former municipalities, then
+					 their fill on top, hiding the lines between them and showing through the lightest tracts -->
+				{#each areas as d, j (j)}<path class="city-edge" {d} />{/each}
+				{#each areas as d, j (j)}<path class="city-fill" {d} />{/each}
+				{#each paths as d, j (j)}<path class="tract" {d} fill={m.colour(m.values[j])} />{/each}
+				<!-- the chosen boundaries (former municipalities or wards), over the tracts: a grey line on a white casing -->
+				{#if lines}
+					<path class="municipality-casing" d={lines} />
+					<path class="municipality" d={lines} />
+				{/if}
+			</svg>
+		</div>
+	{/snippet}
+
+	<!-- Chow's and Bradford's maps side by side, each with its own scale -->
+	<div class="grid">
+		{#each candidates as m (m.key)}{@render cell(m)}{/each}
 	</div>
+
+	<!-- the traits' scale, shared by the six trait maps, above them (lower to higher), and beside it the
+		 choice of boundary lines for all eight maps -->
+	<div class="legend">
+		<div class="scale" aria-hidden="true">
+			<p class="legend-title">Neighbourhood characteristics (quartiles)</p>
+			<div class="bar">
+				<span>Lower</span>
+				<span class="steps">{#each HERO_RAMPS.traits as c (c)}<span class="step" style:background={c}></span>{/each}</span>
+				<span>Higher</span>
+			</div>
+		</div>
+		<!-- the label to the left of its buttons, on one line -->
+		<div class="scale boundary-control">
+			<p class="legend-title" id="boundary-toggle-title">Boundaries</p>
+			<div class="toggle" role="group" aria-labelledby="boundary-toggle-title">
+				{#each BOUNDARIES as b (b.key)}
+					<button type="button" aria-pressed={boundaries === b.key} onclick={() => (boundaries = b.key)}>
+						<span class="lbl" data-text={b.label}>{b.label}</span>
+					</button>
+				{/each}
+			</div>
+		</div>
+	</div>
+
+	<!-- the six traits, two columns of three: Chow's three under his map, Bradford's under his -->
+	<div class="grid traits">
+		{#each traits as m (m.key)}{@render cell(m)}{/each}
+	</div>
+
+	<figcaption class="note">
+		Each map shades the city's census tracts (2021 boundaries) in four equal groups (quartiles), from the quarter with the
+		lowest values (lightest) to the quarter with the highest (darkest). Vote shares are each candidate's share of valid 2026
+		election-day votes, apportioned from polls to 2021 census tracts; advance and mail-in votes are not included.
+		Neighbourhood characteristics are from Statistics Canada's 2021 Census of Population.
+	</figcaption>
 </figure>
 
 <style>
@@ -112,13 +140,17 @@
 		margin: 0;
 		font-family: OpenSans, sans-serif;
 	}
-	/* the three scales, small and in one row under the maps: a heading, then Lower, the four steps and Higher */
+	/* the scales, small: a heading, then Lower, the four steps and Higher. The traits' one sits between the
+	   candidates' maps and the six trait maps */
+	/* in the maps' two columns: the traits' scale centred over the left, the boundary toggle (its middle
+	   button, Wards) centred over the right */
 	.legend {
-		display: flex;
-		flex-wrap: wrap;
-		justify-content: center;
-		gap: 6px 22px;
-		margin: 12px 0 0;
+		display: grid;
+		grid-template-columns: repeat(2, minmax(0, 1fr));
+		justify-items: center;
+		align-items: end;
+		gap: 10px 12px;
+		margin: 40px 0 39px;
 		color: var(--brandGray70);
 	}
 	.scale {
@@ -126,6 +158,66 @@
 		flex-direction: column;
 		align-items: center;
 		gap: 2px;
+	}
+	/* the boundary toggle, as the toggle on the local-landslides poll map: white buttons with a light grey
+	   border, the chosen one bold at full strength, the others faded; small, to sit with the scale */
+	.toggle {
+		display: inline-flex;
+		gap: 6px;
+	}
+	.boundary-control {
+		flex-direction: row;
+		align-items: center;
+		gap: 8px;
+	}
+	/* phones: no room beside the buttons, so the label goes back above them */
+	@media (max-width: 520px) {
+		.boundary-control {
+			flex-direction: column;
+			gap: 2px;
+		}
+	}
+	.toggle button {
+		font-family: OpenSans, sans-serif;
+		font-size: 11px;
+		line-height: 1.2;
+		color: var(--brandGray90);
+		background: white;
+		border: 1px solid #c8c8c8;
+		margin: 0;
+		padding: 3px 7px;
+		cursor: pointer;
+	}
+	.toggle button:hover {
+		border-color: #9ba1a8;
+	}
+	.toggle button[aria-pressed='false'] {
+		opacity: 0.65;
+	}
+	.toggle button[aria-pressed='false']:hover {
+		opacity: 0.9;
+	}
+	.toggle button[aria-pressed='true'] {
+		opacity: 0.9;
+		font-family: OpenSansBold, sans-serif;
+		color: var(--brandBlack);
+	}
+	/* each label reserves its bold width, so a button doesn't change size when chosen */
+	.lbl {
+		display: inline-flex;
+		flex-direction: column;
+		align-items: center;
+	}
+	.lbl::after {
+		content: attr(data-text);
+		height: 0;
+		overflow: hidden;
+		visibility: hidden;
+		font-family: OpenSansBold, sans-serif;
+	}
+	.toggle button:focus-visible {
+		outline: 2px solid var(--linkHover);
+		outline-offset: 1px;
 	}
 	.legend-title {
 		margin: 0;
@@ -140,79 +232,102 @@
 		font-size: 11px;
 		line-height: 1;
 	}
+	/* a thin mid-grey outline round the steps, so the lightest one doesn't vanish into the page */
 	.steps {
 		display: flex;
+		outline: 1px solid var(--brandGray50);
 	}
 	.step {
 		width: 16px;
 		height: 8px;
 	}
+	/* two columns on every screen; the trait maps fill down each column, Chow's three then Bradford's */
 	.grid {
 		display: grid;
-		grid-template-columns: repeat(4, minmax(0, 1fr));
-		gap: 16px 10px;
+		grid-template-columns: repeat(2, minmax(0, 1fr));
+		gap: 18px 12px;
+	}
+	.grid.traits {
+		grid-template-rows: repeat(3, auto);
+		grid-auto-flow: column;
+	}
+	/* a candidate's scale, between its map's name and the map */
+	.cell-scale {
+		margin: 0 0 4px;
 	}
 	@media (max-width: 520px) {
-		.grid {
-			grid-template-columns: repeat(2, minmax(0, 1fr));
-		}
 		.legend {
-			gap: 6px 18px;
-			margin-top: 10px;
+			margin: 28px 0 31px;
+		}
+		/* names can wrap in the narrow columns: room for two lines, so the maps in a row stay level */
+		.name {
+			min-height: 2.6em;
 		}
 	}
 	.cell {
 		min-width: 0;
 	}
-	/* the map's name: regular weight, as the names over the local-landslides maps, bottom-aligned so one- and two-line names sit alike */
+	/* the map's name, in the installed bold, bottom-aligned so one- and two-line names sit alike */
 	.name {
 		margin: 0 0 2px;
-		min-height: 2.6em;
 		display: flex;
 		align-items: flex-end;
 		justify-content: center;
+		font-family: OpenSansBold, sans-serif;
 		font-size: 12px;
 		line-height: 1.3;
 		text-align: center;
 		text-wrap: balance;
 		color: var(--brandGray90);
 	}
+	/* as wide as the body text's paragraphs, though the maps are wider */
+	.note {
+		max-width: 694px;
+		margin: 21px auto 0;
+		font-size: 11px;
+		line-height: 1.45;
+		color: var(--brandGray60);
+	}
 	.small-map {
 		display: block;
 		width: 100%;
 		height: auto;
 	}
+	/* the shoreline and the city's other edges, darker than the boundaries inside it */
 	.city-edge {
 		fill: none;
 		stroke: var(--brandGray70);
 		stroke-width: 2;
 		stroke-linejoin: round;
 	}
+	/* shows where the city's boundary takes in water (the harbour, around the islands); lighter than
+	   the no-data grey (#d4d4d4) so the two don't read as the same */
 	.city-fill {
-		fill: #eeeeee;
-		stroke: #eeeeee;
+		fill: #e4e4e4;
+		stroke: #e4e4e4;
 		stroke-width: 0.5;
 	}
 	.tract {
 		stroke: #fff;
 		stroke-width: 0.25;
 	}
-	.old-city {
+	/* the former municipalities' boundaries: a 1px grey line over a 3px white casing, both in screen pixels
+	   whatever the map's size, so they stand out from the tracts */
+	.municipality-casing {
 		fill: none;
-		stroke: #000;
-		stroke-width: 1;
+		stroke: #fff;
+		stroke-width: 3;
+		vector-effect: non-scaling-stroke;
 		stroke-linejoin: round;
 		pointer-events: none;
 	}
-	.callout text {
-		font-family: OpenSans, sans-serif;
-		fill: var(--brandGray90);
-		text-anchor: end;
-	}
-	.callout .arrow {
+	.municipality {
 		fill: none;
-		stroke: var(--brandGray90);
-		stroke-width: 0.8;
+		stroke: var(--brandGray60);
+		stroke-width: 1;
+		vector-effect: non-scaling-stroke;
+		stroke-linejoin: round;
+		pointer-events: none;
 	}
 
 </style>

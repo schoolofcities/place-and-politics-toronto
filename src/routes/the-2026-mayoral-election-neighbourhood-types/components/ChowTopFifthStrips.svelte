@@ -8,8 +8,11 @@
 	import { scaleLinear } from 'd3';
 	import FigureTitle from './FigureTitle.svelte';
 	import { strips } from './data.js';
-	import { CHOW, BRADFORD, GROUP_COLOURS } from './config.js';
+	import { GROUP_COLOURS, HERO_RAMPS } from './config.js';
 
+	// the top fifths' dots in the darkest colour of each candidate's map, as on the lead maps
+	const CHOW = HERO_RAMPS.chow.at(-1);
+	const BRADFORD = HERO_RAMPS.bradford.at(-1);
 	const GREY = '#c4c4c4';
 	const CHOW_LINE = GROUP_COLOURS.held; // deep purple
 	const BRADFORD_LINE = '#3f7a3b'; // deep green
@@ -19,7 +22,8 @@
 	let width = $state(560);
 	const small = $derived(width < 420);
 	const MARGIN = 18;
-	const ROW = 90; // title, median labels (on two levels if they would collide), strip, tick labels
+	const PAD = 5; // space above and below each row's contents
+	const ROW = 90 + 2 * PAD; // title, median labels (on two levels if they would collide), strip, tick labels
 	const AXIS_Y = 56; // the strip's line, from the top of its row
 	const LINE_TOP = 30; // where the median lines start
 	const LEVEL_UP = 27; // baselines of the median labels: an upper level, used only to avoid a collision, and the usual lower one
@@ -126,15 +130,15 @@
 	<FigureTitle title="Neighbourhoods where each candidate did best" subtitle="Their top fifth of census tracts by 2026 vote share; dotted lines are medians" />
 
 	<div class="legend">
-		<span class="item"><span class="dot" style:background={CHOW}></span><span class="dash" style:border-color={CHOW_LINE}></span>Chow's top fifth</span>
-		<span class="item"><span class="dot" style:background={BRADFORD}></span><span class="dash" style:border-color={BRADFORD_LINE}></span>Bradford's top fifth</span>
-		<span class="item"><span class="dot" style:background={GREY}></span><span class="dash" style:border-color={ALL_LINE}></span>All tracts</span>
+		<span class="item"><span class="dot" style:background={CHOW}></span>Chow's top fifth</span>
+		<span class="item"><span class="dot" style:background={BRADFORD}></span>Bradford's top fifth</span>
+		<span class="item"><span class="dot" style:background={GREY}></span>All other tracts</span>
 	</div>
 
 	<div class="chart" bind:clientWidth={width}>
 		<svg {width} {height} viewBox="0 0 {width} {height}" role="img" aria-label="Strip plots of five neighbourhood measures across Toronto's census tracts, with each candidate's top fifth of tracts by 2026 vote share picked out. {summary}.">
 			{#each rows as r, i (r.key)}
-				{@const y0 = i * ROW}
+				{@const y0 = i * ROW + PAD}
 				{@const ay = y0 + AXIS_Y}
 				{@const lineEnd = ay + MAX_SPREAD + 3}
 				<text class="row-title" x="0" y={y0 + 13}>{r.label}</text>
@@ -202,13 +206,6 @@
 		display: inline-block;
 	}
 	/* the median's dotted line, drawn heavy so its colour stands out */
-	.dash {
-		width: 0;
-		height: 16px;
-		border-left: 3px dotted;
-		display: inline-block;
-		margin-right: 1px;
-	}
 	.chart {
 		width: 100%;
 	}
