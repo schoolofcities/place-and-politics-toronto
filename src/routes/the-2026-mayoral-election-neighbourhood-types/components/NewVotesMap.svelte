@@ -110,10 +110,11 @@
 	</div>
 
 	<figcaption class="note">
-		Census tracts by who led the Chow versus main-opponent contest in each election; black lines are the former municipalities. Other is two tracts Chow led in 2023 but not 2026, and four exact ties. The bars show the
-		votes Chow added (2026 minus 2023) in each kind of tract: {city.added_votes.toLocaleString('en-CA')} citywide, including {groupByKey.other.added_votes.toLocaleString('en-CA')} in the other tracts. Votes
-		cast rose {Math.round(city.valid_growth_pct)}%, so part of each gain is higher turnout. Mapped poll votes only (about 78% of valid votes in 2023 and 76% in 2026); advance and
-		mail-in votes are excluded.
+		Census tracts by who led, Chow or her main opponent, in each election; black lines are the former municipalities. Other is two
+		tracts Chow led in 2023 but not 2026, and four exact ties. The bars show the votes Chow added from 2023 to 2026 in each kind of
+		tract: {city.added_votes.toLocaleString('en-CA')} in all, {groupByKey.other.added_votes.toLocaleString('en-CA')} of them in the other tracts. Votes cast rose
+		{Math.round(city.valid_growth_pct)}%, so part of each gain is higher turnout. Mapped poll votes only (about 78% of valid votes
+		in 2023 and 76% in 2026); advance and mail-in votes are excluded.
 	</figcaption>
 </figure>
 

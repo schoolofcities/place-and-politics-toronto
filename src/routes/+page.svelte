@@ -13,7 +13,7 @@
 	import p7 from '$assets/p7.png';
 	import p8 from '$assets/p8.png';
 	import p9 from '$assets/p9.png';
-	// import p10 from '$assets/p10.png'; // Part 10: hidden until it is ready to share
+	import p10 from '$assets/p10.png';
 
 </script>
 
@@ -194,7 +194,6 @@
 			</div>
 		</a>
 
-		<!-- Part 10: hidden until it is ready to share
 		<a href="{base}/the-2026-mayoral-election-neighbourhood-types">
 			<div class="item">
 				<div class="number" style="background-image: url({p10});">
@@ -207,7 +206,6 @@
 				</div>
 			</div>
 		</a>
-		-->
 
 	</div>
 	

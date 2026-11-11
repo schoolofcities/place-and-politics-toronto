@@ -173,9 +173,9 @@
 	</div>
 
 	<figcaption class="note">
-		Each dot is one of the {meta.tracts} census tracts, using the 2021 census. Each top fifth is the {meta.top_tracts} tracts where the candidate won the highest share of valid 2026 election-day votes:
-		Chow {meta.top_cut_pct}% or more (the tract median is {meta.city_median_chow_pct}%) and Bradford {meta.bradford_cut_pct}% or more ({meta.city_median_bradford_pct}%). Dotted lines are medians of tract values, unweighted.
-		Not drawn: {outside.map((v) => `${v.outside} tracts with ${range[v.key]}`).join(' and ')}; they are in the medians. Advance and mail-in votes are excluded. These describe neighbourhoods, not how any group voted.
+		Each dot is one of the {meta.tracts} census tracts (2021 census). Each top fifth is the {meta.top_tracts} tracts with the candidate's highest share of valid 2026 election-day votes:
+		Chow {meta.top_cut_pct}% or more (tract median {meta.city_median_chow_pct}%) and Bradford {meta.bradford_cut_pct}% or more ({meta.city_median_bradford_pct}%). Dotted lines are unweighted medians of tract values.
+		Not drawn, but included in the medians: {outside.map((v) => `${v.outside} tracts with ${range[v.key]}`).join(' and ')}. Advance and mail-in votes are excluded. These describe neighbourhoods, not how any group voted.
 	</figcaption>
 </figure>
 

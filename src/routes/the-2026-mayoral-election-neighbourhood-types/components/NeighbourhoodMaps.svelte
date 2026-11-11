@@ -128,10 +128,9 @@
 	</div>
 
 	<figcaption class="note">
-		Each map shades the city's census tracts (2021 boundaries) in four equal groups (quartiles), from the quarter with the
-		lowest values (lightest) to the quarter with the highest (darkest). Vote shares are each candidate's share of valid 2026
-		election-day votes, apportioned from polls to 2021 census tracts; advance and mail-in votes are not included.
-		Neighbourhood characteristics are from Statistics Canada's 2021 Census of Population.
+		Census tracts (2021 boundaries) are shaded in four equal groups (quartiles), from the lowest values (lightest) to the highest
+		(darkest). Vote shares are shares of valid 2026 election-day votes, apportioned from polls to tracts; advance and mail-in
+		votes are not included. Neighbourhood characteristics are from the 2021 Census of Population.
 	</figcaption>
 </figure>
 
@@ -187,6 +186,7 @@
 		margin: 0;
 		padding: 3px 7px;
 		cursor: pointer;
+		white-space: nowrap; /* "Former municipalities" stays on one line */
 	}
 	.toggle button:hover {
 		border-color: #9ba1a8;
@@ -255,10 +255,15 @@
 	.cell-scale {
 		margin: 0 0 4px;
 	}
-	@media (max-width: 520px) {
+	/* narrow screens: no room side by side, so the traits' scale sits over the boundary toggle, each on its own line */
+	@media (max-width: 700px) {
 		.legend {
-			margin: 28px 0 31px;
+			grid-template-columns: 1fr;
+			gap: 14px;
+			margin: 26px 0 28px;
 		}
+	}
+	@media (max-width: 520px) {
 		/* names can wrap in the narrow columns: room for two lines, so the maps in a row stay level */
 		.name {
 			min-height: 2.6em;

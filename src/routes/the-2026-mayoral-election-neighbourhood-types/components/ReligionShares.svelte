@@ -52,10 +52,9 @@
 	</div>
 
 	<figcaption class="note">
-		Share of election-day votes cast in the census tracts where more than {groupThreshold}% of residents are {group} (2021 census),
-		and in all other tracts. Across all tracts, the correlation with the {group} share of residents is {r('chow')} for Chow and
-		{r('bradford')} for Bradford.
-		Advance and mail-in votes are excluded. These describe places, not how any group voted.
+		Share of election-day votes in the census tracts where more than {groupThreshold}% of residents are {group} (2021 census) and in all
+		other tracts. Across all tracts, the correlation with the {group} share of residents is {r('chow')} for Chow and {r('bradford')} for
+		Bradford. Advance and mail-in votes are excluded. These describe places, not how any group voted.
 	</figcaption>
 </figure>
 

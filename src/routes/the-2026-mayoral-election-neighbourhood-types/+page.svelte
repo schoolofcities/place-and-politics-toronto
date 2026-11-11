@@ -2,16 +2,9 @@
 	// Graphics live in ./components; colours in ./components/config.js. Their data are JSON/GeoJSON files in ./data,
 	// built by analysis/election_2026/03_neighbourhood_types_page_data.ipynb (the analysis behind the story is in
 	// 02_chow_coalition_expansion.ipynb).
-	//
-	// HIDDEN until it is ready to share. To publish, uncomment all of these:
-	//  - the Part 10 entry and its p10 import in $lib/posts.js (the footer and the home page's structured data use it)
-	//  - the Part 10 link and its p10 import in src/routes/+page.svelte (the home page's list)
-	//  - the Part 10 line in README.md
-	//  - the StructuredData import and tag in this file. They stay off while the post is unlisted, because
-	//    StructuredData treats an unlisted slug as the home page and would set the canonical link to the site root.
 
 	import Top from "$lib/layout/TopSofC.svelte";
-	// import StructuredData from "$lib/layout/StructuredData.svelte";
+	import StructuredData from "$lib/layout/StructuredData.svelte";
 
 	import NeighbourhoodMaps from "./components/NeighbourhoodMaps.svelte";
 	import CorrelationsOverview from "./components/CorrelationsOverview.svelte";
@@ -54,7 +47,7 @@
 	<meta name="twitter:image" content={CARD} />
 </svelte:head>
 
-<!-- <StructuredData slug="the-2026-mayoral-election-neighbourhood-types" description={DESCRIPTION} /> -->
+<StructuredData slug="the-2026-mayoral-election-neighbourhood-types" description={DESCRIPTION} />
 
 <Top />
 
@@ -72,8 +65,11 @@
 		<div id="mini-line"></div>
 	</div>
 
-	<!-- Introduction -->
+	<!-- Introduction: the lead maps, then the first three paragraphs and the ranked lists -->
 	<section class="story-section" aria-label="Introduction">
+		<div class="graphic hero">
+			<NeighbourhoodMaps />
+		</div>
 		<div class="text">
 			<p>
 				Chow and Bradford appealed to different kinds of voters. The
@@ -83,17 +79,23 @@
 				their most important issues. As our
 				<a href="https://schoolofcities.github.io/place-and-politics-toronto/social-geography-and-the-mayoral-vote#cvar=jwmdauto_pct&cyear=2021&eyear=2026&ecand=chow_olivia&eall=0" target="_blank" rel="noopener noreferrer">social geography correlation tool</a>
 				shows, this variation is reflected in their geographic bases of support. Each candidate tended to receive support from
-				different types of neighbourhoods - reflecting deeper social patterns across the city.
+				different types of neighbourhoods – reflecting
+				<a href="https://schoolofcities.github.io/place-and-politics-toronto/five-torontos" target="_blank" rel="noopener noreferrer">deeper patterns</a>
+				across the city.
 			</p>
-		</div>
-		<div class="graphic hero">
-			<NeighbourhoodMaps />
-		</div>
-		<div class="text">
-			<p>Introduction text goes here.</p>
-		</div>
-		<div class="text">
-			<p>More text goes here.</p>
+			<p>
+				Transportation behaviour gives a strong hint about what separates neighbourhoods that support Chow and Bradford.
+				Commuting by bicycle or walking, and neighbourhood walkability are among the strongest correlates of neighbourhood
+				support for Chow. By contrast, commuting by car is Bradford’s strongest.
+			</p>
+			<p>
+				Chow’s neighbourhoods are also disproportionately home to younger, “creative class” types – people who work in arts
+				and culture occupations, are unmarried or living common-law, and rent. Bradford’s neighbourhoods are where
+				“homevoters” live: people who are married, live in single-detached houses, and have higher household incomes. This may
+				be interpreted as something of a class divide. Bradford’s geographic coalition supports a narrative of pocketbook
+				voting: people voting for low taxes and protection of property and property values. The characteristics of Chow’s
+				coalition are consistent with the prioritization of preserving and expanding collective amenities.
+			</p>
 		</div>
 		<div class="graphic">
 			<CorrelationsOverview />
@@ -104,13 +106,44 @@
 	<section class="story-section titled" aria-labelledby="growing-heading">
 		<div class="text">
 			<h2 id="growing-heading">Growing the pie</h2>
-			<p>Text goes here.</p>
+			<p>
+				In the
+				<a href="https://schoolofcities.github.io/place-and-politics-toronto/the-2026-mayoral-election-local-landslides" target="_blank" rel="noopener noreferrer">previous post</a>
+				we noted that Chow won with a “core-plus” strategy – building a coalition of neighbourhoods from the centre outwards
+				toward the periphery. This was not only the result of a greater number of votes from higher turnout, but also a
+				substantial increase in the percentage of votes for her as well.
+			</p>
+			<p>
+				Where did all of these new votes come from? Half of them came from census tracts that she won in 2023 largely in Old
+				Toronto, East York, and northern Scarborough. But a substantial number also came from parts of the city that she
+				flipped, largely in the rest of Scarborough and along the Weston Road corridor. Moreover, even places that Bailão won
+				in 2023 which stuck with Bradford in 2026, she increased her share of the vote from 21.7% to 39.3%.
+			</p>
 		</div>
 		<div class="graphic">
 			<NewVotesMap />
 		</div>
 		<div class="text">
-			<p>More text goes here.</p>
+			<p>
+				Who exactly are these new supporters? For the most part, they resemble the same kinds of voters that Chow won in 2023:
+				transit and bicycle riders, renters, young people, and lower income residents. Across the city, her increase in vote
+				share was tied to neighbourhoods with a higher proportion of renters, and this is especially prevalent in Scarborough.
+				In one sense, this isn’t very surprising – Chow has pursued numerous pro-renter policies including a
+				<a href="https://www.cbc.ca/news/canada/toronto/toronto-renoviction-bylaw-1.7607168" target="_blank" rel="noopener noreferrer">renoviction bylaw</a>,
+				<a href="https://www.cbc.ca/news/canada/toronto/city-approves-rentsafeto-changes-1.7181345" target="_blank" rel="noopener noreferrer">increased support to RentSafeTO</a>,
+				and
+				<a href="https://www.cbc.ca/news/canada/toronto/olivia-chow-bad-landlord-task-force-9.7358529" target="_blank" rel="noopener noreferrer">remedial action at 500 Dawes Road</a>.
+				But in another sense, it reflects the growth of half of the city as a political constituency in its own right,
+				overcoming its historical association with low turnout.
+			</p>
+			<p>
+				At the same time, some of her weakest gains were in neighbourhoods with a high proportion of visible minority
+				residents. Conversely, this is where Bradford began to make inroads, adhering to a broader trend of an
+				<a href="https://schoolofcities.github.io/gta-immigration/rightward-minorities" target="_blank" rel="noopener noreferrer">openness to right-wing politics</a>
+				from visible minorities, or
+				<a href="https://schoolofcities.github.io/place-and-politics-toronto/toronto-turnout" target="_blank" rel="noopener noreferrer">plain abstention</a>,
+				which School of Cities research has previously highlighted.
+			</p>
 		</div>
 		<div class="graphic">
 			<ChowTopFifthStrips />
@@ -126,11 +159,9 @@
 				and again in 2026, pundits suggested that as a Chinese woman, Chow would potentially attract support from the city’s
 				large Asian community. In fact we find this to be correct, if weakly. Neighbourhood vote shares for Chow are weakly
 				correlated with neighbourhood Chinese population share in 2014 and 2026, regardless of location. In 2023 there was a
-				stronger correlation in suburban areas, but a weaker one in 2026. This suggests that suburban Chinese neighbourhoods
-				swing toward Chow in 2023 but away from her in 2026, while there was no change in the former City of Toronto between
-				2023 and 2026. Without individual-level evidence from surveys we cannot definitively explain this pattern.
-				Nevertheless, we So, we maycan conclude that Chinese ethnic affinity voting likely occursdynamics may be present, but
-				it is a marginal factor, and was more present appeared in 2023 more than in 2026 or 2014.
+				stronger correlation in suburban areas, but a weaker one in 2026. Without individual-level evidence from surveys we
+				cannot definitively explain this pattern. Nevertheless, we may conclude that Chinese ethnic affinity voting likely
+				occurs, but it is a marginal factor, and was more present in 2023 than in 2026 or 2014.
 			</p>
 		</div>
 		<div class="graphic">
@@ -140,14 +171,19 @@
 			<p>
 				In the context of the polarized debate on Israel and Palestine, the media reported
 				<a href="https://nationalpost.com/news/canada/after-re-election-olivia-chow-needs-to-show-up-in-order-to-gain-jewish-communitys-trust/" target="_blank" rel="noopener noreferrer">criticism from the Jewish community</a>
-				that Chow was insufficiently supportive of them, while others have pushed back on that criticism as relying on
-				anti-Palestinian tropes.
+				that Chow was insufficiently supportive of them, while others have
+				<a href="https://www.cbc.ca/news/canada/toronto/toronto-palestinian-flag-raising-9.6981640" target="_blank" rel="noopener noreferrer">pushed back</a>
+				on that criticism as relying on anti-Palestinian tropes.
 				<a href="https://x.com/BradMBradford/status/2097718635104006517" target="_blank" rel="noopener noreferrer">Bradford called her out</a>
-				for not showing up to a Walk for Israel and a debate on antisemitism, but also came under criticism for courting
-				Islamophobes. Do we see any evidence of Jewish neighbourhoods disproportionately supporting Bradford or Muslim
-				neighbourhoods disproportionately supporting Chow? Again, we have weak evidence that this is the case. As the
-				proportion of the neighbourhood population that is Jewish increases, that neighbourhood was more likely to support
-				Bradford over Chow. There was no corresponding trend for neighbourhoods by Muslim population.
+				for not showing up to a Walk for Israel and a debate on antisemitism, but also
+				<a href="https://www.thestar.com/news/gta/brad-bradford-s-campaign-drops-an-event-co-host-over-islam-comments/article_8935bb5e-5d86-42d6-b5d1-46d4a2d90e44.html" target="_blank" rel="noopener noreferrer">came under criticism</a>
+				for courting Islamophobes.
+			</p>
+			<p>
+				Do we see any evidence of Jewish neighbourhoods disproportionately supporting Bradford or Muslim neighbourhoods
+				disproportionately supporting Chow? Again, we have weak evidence that this is the case. As the proportion of the
+				neighbourhood population that is Jewish increases, that neighbourhood was more likely to support Bradford over Chow.
+				The corresponding trend for neighbourhoods by Muslim population is much weaker.
 			</p>
 		</div>
 		<div class="graphic">
@@ -162,7 +198,15 @@
 	<section class="story-section titled" aria-labelledby="change-heading">
 		<div class="text">
 			<h2 id="change-heading">Plus ça change…</h2>
-			<p>Concluding text goes here.</p>
+			<p>
+				In the end, the geography of the 2026 election, along with the limited polling data reported in the media, suggests
+				that the contest hinged on divergent neighbourhood interests rather than on other potential divides, including
+				ethno-racial group conflict. The 2026 election is not unique. With the three-way 2014 election being the principal
+				exception to the trend, we find that transportation behaviour and housing type and tenure, which are in turn related
+				to distance from City Hall, are powerful positive or negative correlates of support for winning mayoral candidates
+				across time. Toronto politics is to a large degree a politics of mobility and location – where people live, the
+				nature of their relationship to housing, and how they move through the city.
+			</p>
 		</div>
 		<div class="graphic">
 			<CorrelationsOverTime />
@@ -189,24 +233,24 @@
 
 <style>
 	.story-section {
-		margin: 0 auto 60px;
+		margin: 0 auto 40px;
 		width: 100%;
 	}
 	/* space above each titled section, in place of a rule */
 	.story-section.titled {
-		padding-top: 20px;
+		padding-top: 10px;
 	}
 
 	/* graphics are exactly as wide as the paragraphs: the .text column's content box (694px, or the page width less 50px), so their edges line up with the text */
 	.graphic {
-		margin: 20px auto;
+		margin: 14px auto 8px;
 		max-width: 694px;
 		width: calc(100% - 50px);
 	}
 	/* the lead graphic: close under the title block, with the introduction following */
 	.graphic.hero {
 		margin-top: 8px;
-		margin-bottom: 12px;
+		margin-bottom: 8px;
 	}
 
 	.info-title {
@@ -222,13 +266,13 @@
 
 	@media (max-width: 600px) {
 		.story-section {
-			margin-bottom: 48px;
+			margin-bottom: 32px;
 		}
 		.story-section.titled {
-			padding-top: 12px;
+			padding-top: 6px;
 		}
 		.graphic {
-			margin: 16px auto;
+			margin: 12px auto 6px;
 		}
 	}
 </style>

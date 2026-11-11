@@ -2,7 +2,8 @@
 	// Small multiples: how strongly five neighbourhood measures went with each winning candidate's
 	// vote share, mayoral elections 1997 to 2026 (absolute correlation, so a dot's height is
 	// strength, not direction). Panels are stacked on one shared axis, the elections evenly spaced (not by
-	// year), with a dot at each, a dashed line joining the dots and a faint fill under it. Each election's winner is named under its year on every panel.
+	// year), with a dot at each, a dashed line joining the dots and a faint fill under it. Each election's winner is named under its year on every panel,
+	// at a 45° angle on narrow screens, where the names would run into each other side by side.
 	// Data: ../data/winner_correlations.json (analysis/election_2026/03_neighbourhood_types_page_data.ipynb, Section 6).
 	import { scaleLinear, scalePoint } from 'd3';
 	import FigureTitle from './FigureTitle.svelte';
@@ -18,10 +19,11 @@
 	const NAMES_H = 4; // space above the first panel
 	const TITLE_H = 26; // a panel's title, and the space under it
 	const PLOT_H = 62;
-	const AXIS_LAB = 33; // the years under each panel, and each election's winner under its year
-	const GAP = 22; // between the panels
-	const BLOCK = TITLE_H + PLOT_H + AXIS_LAB + GAP;
-	const height = NAMES_H + variables.length * BLOCK - GAP;
+	const angled = $derived(width < 540); // too narrow for the winners' names side by side
+	const AXIS_LAB = $derived(angled ? 64 : 33); // the years under each panel, and each election's winner under its year (angled: more room)
+	const GAP = $derived(angled ? 8 : 22); // between the panels (the angled names already leave room)
+	const BLOCK = $derived(TITLE_H + PLOT_H + AXIS_LAB + GAP);
+	const height = $derived(NAMES_H + variables.length * BLOCK - GAP);
 
 	// the elections evenly spaced, with room at each end for the first and last labels
 	const x = $derived(scalePoint().domain(years).range([LEFT, width - RIGHT]).padding(0.5));
@@ -82,7 +84,14 @@
 				<!-- the years under every panel, each with its election's winner under it -->
 				{#each elections as e (e.year)}
 					<text class="tick year" x={x(e.year)} y={py + PLOT_H + 15} style:font-size={small ? '10px' : null}>{small ? `’${String(e.year).slice(2)}` : e.year}</text>
-					<text class="winner" x={x(e.year)} y={py + PLOT_H + 28} style:font-size={small ? '9px' : null}>{e.winner}</text>
+					{#if angled}
+						<!-- angled up to the right, ending at its year: neighbouring names run parallel and clear each other -->
+						{@const wx = x(e.year)}
+						{@const wy = py + PLOT_H + 26}
+						<text class="winner angled" x={wx} y={wy} transform="rotate(-45 {wx} {wy})">{e.winner}</text>
+					{:else}
+						<text class="winner" x={x(e.year)} y={py + PLOT_H + 28}>{e.winner}</text>
+					{/if}
 				{/each}
 			{/each}
 		</svg>
@@ -97,9 +106,10 @@
 	</div>
 
 	<figcaption class="note">
-		Absolute Pearson correlations across census tracts, unweighted, between the winner's share of election-day votes and each measure, using the census nearest each election. They show
-		strength, not direction. Except for Tory in 2014 (negative for auto commuting and distance), four measures are positive for the conservative mayors and negative for Miller and Chow; the share of households that rent runs the other way.
-		Tracts, not voters.
+		Absolute Pearson correlations across census tracts, unweighted, between the winner's share of election-day votes and each
+		measure, using the census nearest each election. They show strength, not direction. Apart from Tory in 2014 (negative for
+		car commuting and distance), four measures are positive for the conservative mayors and negative for Miller and Chow; the share
+		of households that rent runs the other way. Tracts, not voters.
 	</figcaption>
 </figure>
 
@@ -125,6 +135,10 @@
 		font-size: 10px;
 		fill: var(--brandGray80);
 		text-anchor: middle;
+	}
+	/* angled names end at their year */
+	.winner.angled {
+		text-anchor: end;
 	}
 	.row-title {
 		font-family: OpenSansBold, sans-serif;

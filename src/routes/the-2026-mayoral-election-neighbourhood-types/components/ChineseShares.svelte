@@ -46,11 +46,10 @@
 	{/each}
 
 	<figcaption class="note">
-		Chow's share of election-day votes cast in the census tracts where more than {groupThreshold}% of residents are Chinese
-		(visible minority, 2021 census), and in all other tracts, within Old Toronto and within the suburbs (all tracts outside the
-		former City of Toronto). Only {chineseShareRows.find((r) => r.area === 'Old Toronto').over.tracts} Old Toronto tracts are over
-		{groupThreshold}% Chinese. The correlations with the Chinese share of residents, in 2014, 2023 and 2026, are
-		{years.map((y) => fmtR('Old Toronto', y)).join(', ')} in Old Toronto and {years.map((y) => fmtR('Suburbs', y)).join(', ')} in the
+		Chow's share of election-day votes in the census tracts where more than {groupThreshold}% of residents are Chinese (visible
+		minority, 2021 census) and in all other tracts, in Old Toronto and in the suburbs (everywhere outside the former City of
+		Toronto). Only {chineseShareRows.find((r) => r.area === 'Old Toronto').over.tracts} Old Toronto tracts are over {groupThreshold}% Chinese. The correlations with the Chinese share of
+		residents in 2014, 2023 and 2026 are {years.map((y) => fmtR('Old Toronto', y)).join(', ')} in Old Toronto and {years.map((y) => fmtR('Suburbs', y)).join(', ')} in the
 		suburbs. Advance and mail-in votes are excluded. These describe places, not how any group voted.
 	</figcaption>
 </figure>
